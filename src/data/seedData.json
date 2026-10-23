@@ -1,0 +1,1515 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-09-09T11:25:33.567Z",
+  "profile": {
+    "name": "Sunny",
+    "examName": "ECE Board Licensure Examination",
+    "targetExamDate": "2028-10-21",
+    "targetExamDateEnd": "2028-10-22",
+    "targetExamDisplay": "October 21–22, 2028",
+    "dailyTargetSessions": 2,
+    "dailyTargetQuestions": 40
+  },
+  "dailyTarget": {
+    "targetSessions": 2,
+    "targetQuestions": 40,
+    "completedSessionsToday": 0,
+    "completedQuestionsToday": 0
+  },
+  "subjects": [
+    {
+      "id": "subj-math-algebra",
+      "category": "Mathematics",
+      "name": "Algebra",
+      "shortCode": "MATH-ALG",
+      "description": "Complete ECE Board Algebra syllabus: Foundations, Equations, Engineering Algebra, Sequences & Series, Higher Algebra, and Board Diagnostics.",
+      "boardWeightPercent": 12,
+      "boardTarget": 90,
+      "isCurrentFocus": true,
+      "inMaintenance": false,
+      "groups": [
+        {
+          "id": "grp-foundations",
+          "subjectId": "subj-math-algebra",
+          "name": "Foundations",
+          "topics": [
+            {
+              "id": "top-fund-ops",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-foundations",
+              "name": "Fundamental Algebraic Operations",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 5,
+              "latestScore": 98,
+              "bestScore": 100,
+              "averageScore": 98,
+              "lastReviewDate": "2026-09-01",
+              "nextReviewDate": "2026-10-04",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-fo-1",
+                  "date": "2026-09-01",
+                  "type": "Practice Problems",
+                  "score": 98,
+                  "questionsAttempted": 25,
+                  "questionsCorrect": 24,
+                  "timeSpentMinutes": 18,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-laws-exponents",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-foundations",
+              "name": "Laws of Exponents",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 5,
+              "latestScore": 95,
+              "bestScore": 100,
+              "averageScore": 96,
+              "lastReviewDate": "2026-09-02",
+              "nextReviewDate": "2026-10-02",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-exp-1",
+                  "date": "2026-09-02",
+                  "type": "Timed Board Quiz",
+                  "score": 95,
+                  "questionsAttempted": 20,
+                  "questionsCorrect": 19,
+                  "timeSpentMinutes": 16,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-radicals-rational-exp",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-foundations",
+              "name": "Radicals & Rational Exponents",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 88,
+              "bestScore": 90,
+              "averageScore": 88,
+              "lastReviewDate": "2026-08-30",
+              "nextReviewDate": "2026-09-24",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-rad-1",
+                  "date": "2026-08-30",
+                  "type": "Practice Problems",
+                  "score": 88,
+                  "questionsAttempted": 18,
+                  "questionsCorrect": 16,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-factoring",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-foundations",
+              "name": "Factoring",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 5,
+              "latestScore": 100,
+              "bestScore": 100,
+              "averageScore": 98,
+              "lastReviewDate": "2026-09-02",
+              "nextReviewDate": "2026-10-05",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-fac-1",
+                  "date": "2026-09-02",
+                  "type": "Timed Board Quiz",
+                  "score": 100,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 15,
+                  "timeSpentMinutes": 14,
+                  "usedNotes": "No",
+                  "difficulty": "Difficult"
+                },
+                {
+                  "id": "act-fac-2",
+                  "date": "2026-08-20",
+                  "type": "Practice Problems",
+                  "score": 96,
+                  "questionsAttempted": 20,
+                  "questionsCorrect": 19,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-alg-fractions",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-foundations",
+              "name": "Algebraic Fractions / Rational Expressions",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 85,
+              "bestScore": 88,
+              "averageScore": 86,
+              "lastReviewDate": "2026-08-28",
+              "nextReviewDate": "2026-09-22",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-af-1",
+                  "date": "2026-08-28",
+                  "type": "Practice Problems",
+                  "score": 85,
+                  "questionsAttempted": 20,
+                  "questionsCorrect": 17,
+                  "timeSpentMinutes": 21,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "grp-equations",
+          "subjectId": "subj-math-algebra",
+          "name": "Equations",
+          "topics": [
+            {
+              "id": "top-linear-eq",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Linear Equations",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 5,
+              "latestScore": 95,
+              "bestScore": 96,
+              "averageScore": 95,
+              "lastReviewDate": "2026-09-03",
+              "nextReviewDate": "2026-10-01",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-lin-1",
+                  "date": "2026-09-03",
+                  "type": "Practice Problems",
+                  "score": 95,
+                  "questionsAttempted": 18,
+                  "questionsCorrect": 17,
+                  "timeSpentMinutes": 18,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-simultaneous-linear",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Simultaneous Linear Equations",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 86,
+              "bestScore": 90,
+              "averageScore": 88,
+              "lastReviewDate": "2026-09-01",
+              "nextReviewDate": "2026-09-23",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-sim-1",
+                  "date": "2026-09-01",
+                  "type": "Practice Problems",
+                  "score": 86,
+                  "questionsAttempted": 16,
+                  "questionsCorrect": 14,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-quadratics",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Quadratic Equations",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 5,
+              "latestScore": 96,
+              "bestScore": 96,
+              "averageScore": 92,
+              "lastReviewDate": "2026-09-04",
+              "nextReviewDate": "2026-10-04",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-quad-1",
+                  "date": "2026-09-04",
+                  "type": "Timed Practice",
+                  "score": 96,
+                  "questionsAttempted": 25,
+                  "questionsCorrect": 24,
+                  "timeSpentMinutes": 26,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-polynomial-eq",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Polynomial Equations",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 84,
+              "bestScore": 88,
+              "averageScore": 85,
+              "lastReviewDate": "2026-08-31",
+              "nextReviewDate": "2026-09-25",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-poly-1",
+                  "date": "2026-08-31",
+                  "type": "Practice Problems",
+                  "score": 84,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 13,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-theory-equations",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Theory of Equations",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 3,
+              "latestScore": 75,
+              "bestScore": 80,
+              "averageScore": 76,
+              "lastReviewDate": "2026-09-02",
+              "nextReviewDate": "2026-09-16",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-theq-1",
+                  "date": "2026-09-02",
+                  "type": "Practice Problems",
+                  "score": 75,
+                  "questionsAttempted": 16,
+                  "questionsCorrect": 12,
+                  "timeSpentMinutes": 22,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-nonlinear-systems",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Systems of Nonlinear Equations",
+              "initialCovered": true,
+              "reviewCount": 1,
+              "mastery": 2,
+              "latestScore": 62,
+              "bestScore": 62,
+              "averageScore": 62,
+              "lastReviewDate": "2026-08-29",
+              "nextReviewDate": "2026-09-11",
+              "isHighPriority": true,
+              "boardRelevance": "Standard",
+              "whyWeakReasons": [
+                "Difficulty setting up quadratic substitutions with non-symmetric variables",
+                "Extraneous root detection overlooked after squaring operations"
+              ],
+              "activityHistory": [
+                {
+                  "id": "act-nonlin-1",
+                  "date": "2026-08-29",
+                  "type": "Practice Problems",
+                  "score": 62,
+                  "questionsAttempted": 12,
+                  "questionsCorrect": 7,
+                  "timeSpentMinutes": 24,
+                  "usedNotes": "Frequently",
+                  "difficulty": "Difficult"
+                }
+              ]
+            },
+            {
+              "id": "top-inequalities",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Inequalities",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 3,
+              "latestScore": 74,
+              "bestScore": 78,
+              "averageScore": 75,
+              "lastReviewDate": "2026-08-29",
+              "nextReviewDate": "2026-09-14",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-ineq-1",
+                  "date": "2026-08-29",
+                  "type": "Practice Problems",
+                  "score": 74,
+                  "questionsAttempted": 18,
+                  "questionsCorrect": 13,
+                  "timeSpentMinutes": 22,
+                  "usedNotes": "Occasionally",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-absolute-value",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-equations",
+              "name": "Absolute Value Equations & Inequalities",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": []
+            }
+          ]
+        },
+        {
+          "id": "grp-engineering-relevant",
+          "subjectId": "subj-math-algebra",
+          "name": "Engineering-Relevant Algebra",
+          "topics": [
+            {
+              "id": "top-functions",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-engineering-relevant",
+              "name": "Functions (Domain, Range & Inverses)",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 3,
+              "latestScore": 76,
+              "bestScore": 80,
+              "averageScore": 77,
+              "lastReviewDate": "2026-08-30",
+              "nextReviewDate": "2026-09-15",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-fn-1",
+                  "date": "2026-08-30",
+                  "type": "Practice Problems",
+                  "score": 76,
+                  "questionsAttempted": 16,
+                  "questionsCorrect": 12,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-exponential-eqs",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-engineering-relevant",
+              "name": "Exponential Equations",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 84,
+              "bestScore": 88,
+              "averageScore": 85,
+              "lastReviewDate": "2026-08-31",
+              "nextReviewDate": "2026-09-22",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-exp-1",
+                  "date": "2026-08-31",
+                  "type": "Practice Problems",
+                  "score": 84,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 13,
+                  "timeSpentMinutes": 18,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-logarithms",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-engineering-relevant",
+              "name": "Logarithms",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 3,
+              "latestScore": 76,
+              "bestScore": 82,
+              "averageScore": 78,
+              "lastReviewDate": "2026-09-02",
+              "nextReviewDate": "2026-09-09",
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "whyWeakReasons": [
+                "Inconsistent application of change-of-base rule in multi-base equations",
+                "Calculation slips on decibel conversion formula problems"
+              ],
+              "activityHistory": [
+                {
+                  "id": "act-log-1",
+                  "date": "2026-09-02",
+                  "type": "Practice Problems",
+                  "score": 76,
+                  "questionsAttempted": 20,
+                  "questionsCorrect": 15,
+                  "timeSpentMinutes": 24,
+                  "usedNotes": "Occasionally",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-complex-numbers",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-engineering-relevant",
+              "name": "Complex Numbers",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 3,
+              "latestScore": 68,
+              "bestScore": 78,
+              "averageScore": 72,
+              "lastReviewDate": "2026-09-05",
+              "nextReviewDate": "2026-09-12",
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "whyWeakReasons": [
+                "2 recurring sign errors in polar-to-rectangular conversions (Euler form)",
+                "Phase angle quadrant errors when real component is negative"
+              ],
+              "activityHistory": [
+                {
+                  "id": "act-cx-1",
+                  "date": "2026-09-05",
+                  "type": "Practice Problems",
+                  "score": 68,
+                  "questionsAttempted": 22,
+                  "questionsCorrect": 15,
+                  "timeSpentMinutes": 28,
+                  "usedNotes": "Occasionally",
+                  "difficulty": "Difficult"
+                }
+              ]
+            },
+            {
+              "id": "top-variation",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-engineering-relevant",
+              "name": "Variation",
+              "initialCovered": true,
+              "reviewCount": 1,
+              "mastery": 1,
+              "latestScore": 55,
+              "bestScore": 55,
+              "averageScore": 55,
+              "lastReviewDate": "2026-08-27",
+              "nextReviewDate": "2026-09-10",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-var-1",
+                  "date": "2026-08-27",
+                  "type": "Practice Problems",
+                  "score": 55,
+                  "questionsAttempted": 12,
+                  "questionsCorrect": 6,
+                  "timeSpentMinutes": 18,
+                  "usedNotes": "Frequently",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-ratio-proportion",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-engineering-relevant",
+              "name": "Ratio & Proportion",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": []
+            }
+          ]
+        },
+        {
+          "id": "grp-sequences",
+          "subjectId": "subj-math-algebra",
+          "name": "Sequences & Series",
+          "topics": [
+            {
+              "id": "top-arithmetic-seq",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Arithmetic Sequences",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 5,
+              "latestScore": 94,
+              "bestScore": 96,
+              "averageScore": 93,
+              "lastReviewDate": "2026-09-04",
+              "nextReviewDate": "2026-10-04",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-aseq-1",
+                  "date": "2026-09-04",
+                  "type": "Practice Problems",
+                  "score": 94,
+                  "questionsAttempted": 18,
+                  "questionsCorrect": 17,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-geometric-seq",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Geometric Sequences",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 86,
+              "bestScore": 88,
+              "averageScore": 86,
+              "lastReviewDate": "2026-09-03",
+              "nextReviewDate": "2026-09-24",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-gseq-1",
+                  "date": "2026-09-03",
+                  "type": "Practice Problems",
+                  "score": 86,
+                  "questionsAttempted": 16,
+                  "questionsCorrect": 14,
+                  "timeSpentMinutes": 19,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-arithmetic-series",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Arithmetic Series",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 84,
+              "bestScore": 86,
+              "averageScore": 84,
+              "lastReviewDate": "2026-09-01",
+              "nextReviewDate": "2026-09-22",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-aser-1",
+                  "date": "2026-09-01",
+                  "type": "Practice Problems",
+                  "score": 84,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 13,
+                  "timeSpentMinutes": 18,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-geometric-series",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Geometric Series",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 3,
+              "latestScore": 78,
+              "bestScore": 82,
+              "averageScore": 79,
+              "lastReviewDate": "2026-08-30",
+              "nextReviewDate": "2026-09-17",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-gser-1",
+                  "date": "2026-08-30",
+                  "type": "Practice Problems",
+                  "score": 78,
+                  "questionsAttempted": 18,
+                  "questionsCorrect": 14,
+                  "timeSpentMinutes": 22,
+                  "usedNotes": "Occasionally",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-infinite-series",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Infinite Geometric Series",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 2,
+              "latestScore": 60,
+              "bestScore": 68,
+              "averageScore": 64,
+              "lastReviewDate": "2026-09-04",
+              "nextReviewDate": "2026-09-08",
+              "isHighPriority": true,
+              "boardRelevance": "Standard",
+              "whyWeakReasons": [
+                "Confusion between ratio test and infinite sum convergence criteria |r| < 1",
+                "Formula substitution slips on recurring decimal fraction conversions"
+              ],
+              "activityHistory": [
+                {
+                  "id": "act-inf-1",
+                  "date": "2026-09-04",
+                  "type": "Practice Problems",
+                  "score": 60,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 9,
+                  "timeSpentMinutes": 25,
+                  "usedNotes": "Frequently",
+                  "difficulty": "Difficult"
+                }
+              ]
+            },
+            {
+              "id": "top-sigma-summations",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Sigma Notation & Summations",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": []
+            },
+            {
+              "id": "top-binomial-theorem",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-sequences",
+              "name": "Binomial Theorem",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 4,
+              "latestScore": 88,
+              "bestScore": 90,
+              "averageScore": 86,
+              "lastReviewDate": "2026-09-03",
+              "nextReviewDate": "2026-09-20",
+              "isHighPriority": false,
+              "boardRelevance": "Standard",
+              "activityHistory": [
+                {
+                  "id": "act-bin-1",
+                  "date": "2026-09-03",
+                  "type": "Practice Problems",
+                  "score": 88,
+                  "questionsAttempted": 16,
+                  "questionsCorrect": 14,
+                  "timeSpentMinutes": 22,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "grp-higher-algebra",
+          "subjectId": "subj-math-algebra",
+          "name": "Higher / Engineering Algebra",
+          "topics": [
+            {
+              "id": "top-partial-fractions",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-higher-algebra",
+              "name": "Partial Fractions",
+              "initialCovered": true,
+              "reviewCount": 4,
+              "mastery": 2,
+              "latestScore": 58,
+              "bestScore": 76,
+              "averageScore": 68,
+              "lastReviewDate": "2026-09-07",
+              "nextReviewDate": "2026-09-07",
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "whyWeakReasons": [
+                "3 repeated decomposition errors with irreducible quadratics",
+                "Low timed-test accuracy under 2 min/question pacing",
+                "Score decreased 76% → 58% on recent timed practice"
+              ],
+              "recommendationNote": "High Board Relevance • Critical for Laplace transforms in Circuits and Communications",
+              "activityHistory": [
+                {
+                  "id": "act-pf-1",
+                  "date": "2026-09-07",
+                  "type": "Timed practice",
+                  "score": 58,
+                  "questionsAttempted": 12,
+                  "questionsCorrect": 7,
+                  "timeSpentMinutes": 28,
+                  "usedNotes": "Occasionally",
+                  "difficulty": "Difficult",
+                  "notes": "Struggled with repeated quadratic factor setups."
+                },
+                {
+                  "id": "act-pf-2",
+                  "date": "2026-09-03",
+                  "type": "Practice problems",
+                  "score": 71,
+                  "questionsAttempted": 14,
+                  "questionsCorrect": 10,
+                  "timeSpentMinutes": 25,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                },
+                {
+                  "id": "act-pf-3",
+                  "date": "2026-08-30",
+                  "type": "Initial quiz",
+                  "score": 76,
+                  "questionsAttempted": 10,
+                  "questionsCorrect": 8,
+                  "timeSpentMinutes": 18,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-matrices",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-higher-algebra",
+              "name": "Matrices",
+              "initialCovered": true,
+              "reviewCount": 3,
+              "mastery": 3,
+              "latestScore": 81,
+              "bestScore": 84,
+              "averageScore": 81,
+              "lastReviewDate": "2026-09-03",
+              "nextReviewDate": "2026-09-10",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-mat-1",
+                  "date": "2026-09-03",
+                  "type": "Timed Practice",
+                  "score": 81,
+                  "questionsAttempted": 20,
+                  "questionsCorrect": 16,
+                  "timeSpentMinutes": 26,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-determinants",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-higher-algebra",
+              "name": "Determinants",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 2,
+              "latestScore": 66,
+              "bestScore": 72,
+              "averageScore": 68,
+              "lastReviewDate": "2026-08-31",
+              "nextReviewDate": "2026-09-10",
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "whyWeakReasons": [
+                "Sign checkerboard cofactor error in 3x3 expansion (+ - +)",
+                "Calculation slips during minors reduction"
+              ],
+              "activityHistory": [
+                {
+                  "id": "act-det-1",
+                  "date": "2026-08-31",
+                  "type": "Practice Problems",
+                  "score": 66,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 10,
+                  "timeSpentMinutes": 22,
+                  "usedNotes": "Occasionally",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-cramers-rule",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-higher-algebra",
+              "name": "Cramer's Rule",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 88,
+              "bestScore": 90,
+              "averageScore": 87,
+              "lastReviewDate": "2026-09-02",
+              "nextReviewDate": "2026-09-23",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-cram-1",
+                  "date": "2026-09-02",
+                  "type": "Practice Problems",
+                  "score": 88,
+                  "questionsAttempted": 14,
+                  "questionsCorrect": 12,
+                  "timeSpentMinutes": 20,
+                  "usedNotes": "No",
+                  "difficulty": "Normal"
+                }
+              ]
+            },
+            {
+              "id": "top-word-problems",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-higher-algebra",
+              "name": "Word Problems / Engineering Applications",
+              "initialCovered": true,
+              "reviewCount": 1,
+              "mastery": 1,
+              "latestScore": 52,
+              "bestScore": 52,
+              "averageScore": 52,
+              "lastReviewDate": "2026-08-28",
+              "nextReviewDate": "2026-09-11",
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "whyWeakReasons": [
+                "Setup confusion in rate-of-work problems with varying efficiencies",
+                "Mixture problem balance equations inverted"
+              ],
+              "activityHistory": [
+                {
+                  "id": "act-wp-1",
+                  "date": "2026-08-28",
+                  "type": "Practice Problems",
+                  "score": 52,
+                  "questionsAttempted": 15,
+                  "questionsCorrect": 8,
+                  "timeSpentMinutes": 30,
+                  "usedNotes": "Frequently",
+                  "difficulty": "Difficult"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "grp-assessment",
+          "subjectId": "subj-math-algebra",
+          "name": "Assessment & Board Practice",
+          "topics": [
+            {
+              "id": "top-mixed-algebra",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-assessment",
+              "name": "Mixed Algebra Problems",
+              "initialCovered": true,
+              "reviewCount": 1,
+              "mastery": 4,
+              "latestScore": 88,
+              "bestScore": 88,
+              "averageScore": 88,
+              "lastReviewDate": "2026-09-06",
+              "nextReviewDate": "2026-09-25",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": [
+                {
+                  "id": "act-mix-1",
+                  "date": "2026-09-06",
+                  "type": "Mixed Board Quiz",
+                  "score": 88,
+                  "questionsAttempted": 25,
+                  "questionsCorrect": 22,
+                  "timeSpentMinutes": 35,
+                  "usedNotes": "No",
+                  "difficulty": "Difficult"
+                }
+              ]
+            },
+            {
+              "id": "top-timed-algebra",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-assessment",
+              "name": "Timed Algebra Problem Set",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "activityHistory": []
+            },
+            {
+              "id": "top-past-board-algebra",
+              "subjectId": "subj-math-algebra",
+              "groupId": "grp-assessment",
+              "name": "Past-Board / Board-Style Algebra Questions",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "activityHistory": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subj-math-trig",
+      "category": "Mathematics",
+      "name": "Trigonometry",
+      "shortCode": "MATH-TRIG",
+      "description": "Trig identities, spherical trigonometry, oblique triangles, and inverse trig functions.",
+      "boardWeightPercent": 10,
+      "boardTarget": 90,
+      "isCurrentFocus": false,
+      "inMaintenance": false,
+      "groups": [
+        {
+          "id": "grp-trig-foundations",
+          "subjectId": "subj-math-trig",
+          "name": "Trigonometric Identities & Equations",
+          "topics": [
+            {
+              "id": "top-trig-identities",
+              "subjectId": "subj-math-trig",
+              "groupId": "grp-trig-foundations",
+              "name": "Fundamental & Double-Angle Identities",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 84,
+              "bestScore": 88,
+              "averageScore": 85,
+              "lastReviewDate": "2026-08-25",
+              "nextReviewDate": "2026-09-22",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": []
+            },
+            {
+              "id": "top-spherical-trig",
+              "subjectId": "subj-math-trig",
+              "groupId": "grp-trig-foundations",
+              "name": "Spherical Trigonometry (Napier Rules)",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "activityHistory": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subj-math-calc",
+      "category": "Mathematics",
+      "name": "Calculus",
+      "shortCode": "MATH-CALC",
+      "description": "Limits, derivatives, maxima/minima, integration techniques, and differential equations.",
+      "boardWeightPercent": 14,
+      "boardTarget": 90,
+      "isCurrentFocus": false,
+      "inMaintenance": false,
+      "groups": [
+        {
+          "id": "grp-diff-calc",
+          "subjectId": "subj-math-calc",
+          "name": "Differential Calculus",
+          "topics": [
+            {
+              "id": "top-limits",
+              "subjectId": "subj-math-calc",
+              "groupId": "grp-diff-calc",
+              "name": "Limits & Continuity",
+              "initialCovered": true,
+              "reviewCount": 1,
+              "mastery": 3,
+              "latestScore": 78,
+              "bestScore": 78,
+              "averageScore": 78,
+              "lastReviewDate": "2026-08-20",
+              "nextReviewDate": "2026-09-18",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": []
+            },
+            {
+              "id": "top-derivatives",
+              "subjectId": "subj-math-calc",
+              "groupId": "grp-diff-calc",
+              "name": "Derivatives & Applications (Max/Min)",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 82,
+              "bestScore": 86,
+              "averageScore": 84,
+              "lastReviewDate": "2026-08-27",
+              "nextReviewDate": "2026-09-24",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subj-electronics",
+      "category": "Electronics",
+      "name": "Electronics Engineering",
+      "shortCode": "ECE-ELEC",
+      "description": "Semiconductor theory, diodes, BJT/FET amplifiers, op-amps, digital logic, and power circuits.",
+      "boardWeightPercent": 30,
+      "boardTarget": 90,
+      "isCurrentFocus": false,
+      "inMaintenance": false,
+      "groups": [
+        {
+          "id": "grp-semiconductors",
+          "subjectId": "subj-electronics",
+          "name": "Semiconductors & Diodes",
+          "topics": [
+            {
+              "id": "top-pn-junction",
+              "subjectId": "subj-electronics",
+              "groupId": "grp-semiconductors",
+              "name": "PN Junction & Diode Circuits",
+              "initialCovered": true,
+              "reviewCount": 1,
+              "mastery": 3,
+              "latestScore": 75,
+              "bestScore": 75,
+              "averageScore": 75,
+              "lastReviewDate": "2026-08-18",
+              "nextReviewDate": "2026-09-20",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": []
+            },
+            {
+              "id": "top-bjt-biasing",
+              "subjectId": "subj-electronics",
+              "groupId": "grp-semiconductors",
+              "name": "BJT DC Biasing & AC Small-Signal Models",
+              "initialCovered": false,
+              "reviewCount": 0,
+              "mastery": null,
+              "latestScore": null,
+              "bestScore": null,
+              "averageScore": null,
+              "lastReviewDate": null,
+              "nextReviewDate": null,
+              "isHighPriority": true,
+              "boardRelevance": "High",
+              "activityHistory": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subj-communications",
+      "category": "Communications",
+      "name": "Communications Engineering",
+      "shortCode": "ECE-COMM",
+      "description": "Signals and spectra, AM/FM modulation, digital comms, transmission lines, antennas, and telecom laws.",
+      "boardWeightPercent": 34,
+      "boardTarget": 90,
+      "isCurrentFocus": false,
+      "inMaintenance": false,
+      "groups": [
+        {
+          "id": "grp-modulation",
+          "subjectId": "subj-communications",
+          "name": "Analog Modulation",
+          "topics": [
+            {
+              "id": "top-am-modulation",
+              "subjectId": "subj-communications",
+              "groupId": "grp-modulation",
+              "name": "Amplitude Modulation (DSB-FC, SSB, VSB)",
+              "initialCovered": true,
+              "reviewCount": 2,
+              "mastery": 4,
+              "latestScore": 86,
+              "bestScore": 88,
+              "averageScore": 86,
+              "lastReviewDate": "2026-08-22",
+              "nextReviewDate": "2026-09-26",
+              "isHighPriority": false,
+              "boardRelevance": "High",
+              "activityHistory": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "testRecords": [
+    {
+      "id": "test-1",
+      "subjectId": "subj-math-algebra",
+      "testType": "Mixed Algebra Comprehensive",
+      "date": "2026-09-06",
+      "questions": 50,
+      "correct": 44,
+      "incorrect": 5,
+      "unanswered": 1,
+      "timeMinutes": 67,
+      "topicIds": [
+        "top-quadratics",
+        "top-logarithms",
+        "top-complex-numbers",
+        "top-partial-fractions",
+        "top-factoring"
+      ],
+      "scorePercent": 88,
+      "notes": "Strong on Quadratics & Factoring. Missed 2 questions on Partial Fractions and 1 on Logarithm base conversions."
+    },
+    {
+      "id": "test-2",
+      "subjectId": "subj-math-algebra",
+      "testType": "Algebra Equations Diagnostic",
+      "date": "2026-08-30",
+      "questions": 40,
+      "correct": 33,
+      "incorrect": 6,
+      "unanswered": 1,
+      "timeMinutes": 52,
+      "topicIds": [
+        "top-linear-eq",
+        "top-quadratics",
+        "top-inequalities",
+        "top-partial-fractions"
+      ],
+      "scorePercent": 82.5,
+      "notes": "Pacing was good. Partial fractions required too much scratchpad time."
+    },
+    {
+      "id": "test-3",
+      "subjectId": "subj-math-algebra",
+      "testType": "Mathematics Baseline Diagnostic #1",
+      "date": "2026-08-15",
+      "questions": 50,
+      "correct": 36,
+      "incorrect": 12,
+      "unanswered": 2,
+      "timeMinutes": 75,
+      "topicIds": [
+        "top-factoring",
+        "top-laws-exponents",
+        "top-polynomial-eq",
+        "top-logarithms",
+        "top-matrices"
+      ],
+      "scorePercent": 72,
+      "notes": "First diagnostic test after refresher review."
+    },
+    {
+      "id": "test-4",
+      "subjectId": "subj-math-algebra",
+      "testType": "Sequences & Series Timed Quiz",
+      "date": "2026-09-04",
+      "questions": 30,
+      "correct": 26,
+      "incorrect": 4,
+      "unanswered": 0,
+      "timeMinutes": 38,
+      "topicIds": [
+        "top-arithmetic-seq",
+        "top-geometric-seq",
+        "top-infinite-series",
+        "top-binomial-theorem"
+      ],
+      "scorePercent": 86.7,
+      "notes": "High speed on arithmetic progressions. Stumbled on infinite geometric series convergence bounds."
+    }
+  ],
+  "errors": [
+    {
+      "id": "err-1",
+      "topicId": "top-partial-fractions",
+      "topicName": "Partial Fractions",
+      "subjectId": "subj-math-algebra",
+      "category": "Formula recall",
+      "description": "Incorrect setup for repeated factors: denominator (x-1)^2 written as A/(x-1) instead of A/(x-1) + B/(x-1)^2",
+      "lastOccurred": "2026-09-07",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Repeated linear factor (x-r)^k requires k partial fractions: A_1/(x-r) + A_2/(x-r)^2 + ... + A_k/(x-r)^k",
+      "occurrenceCount": 3
+    },
+    {
+      "id": "err-2",
+      "topicId": "top-partial-fractions",
+      "topicName": "Partial Fractions",
+      "subjectId": "subj-math-algebra",
+      "category": "Wrong method",
+      "description": "Used Heaviside cover-up method on irreducible quadratic factors where it does not directly apply",
+      "lastOccurred": "2026-09-07",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Heaviside cover-up is only valid for non-repeated linear factors. For quadratics (x^2+bx+c), use polynomial coefficient equating.",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-3",
+      "topicId": "top-complex-numbers",
+      "topicName": "Complex Numbers",
+      "subjectId": "subj-math-algebra",
+      "category": "Sign / algebra errors",
+      "description": "Forgot negative sign when converting -3 + j4 into polar form; quadrant angle returned -53.1° instead of 126.9°",
+      "lastOccurred": "2026-09-05",
+      "isResolved": false,
+      "solutionOrKeyFormula": "When real part is negative (Quadrant II or III), angle is 180° - arctan(|y/x|) or 180° + arctan(|y/x|)",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-4",
+      "topicId": "top-complex-numbers",
+      "topicName": "Complex Numbers",
+      "subjectId": "subj-math-algebra",
+      "category": "Sign / algebra errors",
+      "description": "Multiplication by j: miscalculated j^3 as +j instead of -j",
+      "lastOccurred": "2026-09-05",
+      "isResolved": false,
+      "solutionOrKeyFormula": "j = sqrt(-1), j^2 = -1, j^3 = -j, j^4 = 1",
+      "occurrenceCount": 3
+    },
+    {
+      "id": "err-5",
+      "topicId": "top-logarithms",
+      "topicName": "Logarithms",
+      "subjectId": "subj-math-algebra",
+      "category": "Formula recall",
+      "description": "Flipped numerator and denominator in change-of-base rule: log_b(a) = ln(b)/ln(a) instead of ln(a)/ln(b)",
+      "lastOccurred": "2026-09-02",
+      "isResolved": false,
+      "solutionOrKeyFormula": "log_b(a) = log_c(a) / log_c(b) -> \"base goes to the basement / bottom\"",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-6",
+      "topicId": "top-logarithms",
+      "topicName": "Logarithms",
+      "subjectId": "subj-math-algebra",
+      "category": "Question misreading",
+      "description": "Mistook power gain dB formula 10*log(P2/P1) for voltage gain 20*log(V2/V1)",
+      "lastOccurred": "2026-09-02",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Power: 10*log10(P2/P1) dB. Voltage/Current: 20*log10(V2/V1) dB across equal impedances.",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-7",
+      "topicId": "top-infinite-series",
+      "topicName": "Infinite Geometric Series",
+      "subjectId": "subj-math-algebra",
+      "category": "Wrong method",
+      "description": "Applied infinite sum formula without testing |r| < 1 condition when common ratio r = 1.25",
+      "lastOccurred": "2026-09-04",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Sum exists if and only if |r| < 1. If |r| >= 1, the geometric series diverges.",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-8",
+      "topicId": "top-infinite-series",
+      "topicName": "Infinite Geometric Series",
+      "subjectId": "subj-math-algebra",
+      "category": "Formula recall",
+      "description": "In geometric series sum formula S = a / (1 - r), substituted r instead of (1-r)",
+      "lastOccurred": "2026-09-04",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Sum of infinite geometric series |r| < 1 is S_inf = a1 / (1 - r)",
+      "occurrenceCount": 1
+    },
+    {
+      "id": "err-9",
+      "topicId": "top-determinants",
+      "topicName": "Determinants",
+      "subjectId": "subj-math-algebra",
+      "category": "Speed / calculation slip",
+      "description": "Sign checkerboard cofactor error in calculating 3x3 determinant row expansion (+ - +)",
+      "lastOccurred": "2026-08-31",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Cofactor sign is (-1)^(i+j). For row 1: (+, -, +). For row 2: (-, +, -).",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-10",
+      "topicId": "top-quadratics",
+      "topicName": "Quadratic Equations",
+      "subjectId": "subj-math-algebra",
+      "category": "Question misreading",
+      "description": "Question asked for product of roots (c/a), but calculated sum of roots (-b/a)",
+      "lastOccurred": "2026-09-04",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Vieta's Formulas: Sum = -b/a, Product = c/a",
+      "occurrenceCount": 1
+    },
+    {
+      "id": "err-11",
+      "topicId": "top-inequalities",
+      "topicName": "Inequalities",
+      "subjectId": "subj-math-algebra",
+      "category": "Sign / algebra errors",
+      "description": "Failed to flip inequality sign when dividing both sides by a negative coefficient (-3x > 9 -> x > -3 instead of x < -3)",
+      "lastOccurred": "2026-08-29",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Multiplying or dividing by a negative number reverses the inequality direction.",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-12",
+      "topicId": "top-word-problems",
+      "topicName": "Word Problems / Engineering Applications",
+      "subjectId": "subj-math-algebra",
+      "category": "Wrong method",
+      "description": "Added work times directly instead of adding individual work rates (1/t1 + 1/t2 = 1/t_total)",
+      "lastOccurred": "2026-08-28",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Work rate formula: Rate = Work / Time. Combined work: Rate_A + Rate_B = 1/T_combined.",
+      "occurrenceCount": 2
+    },
+    {
+      "id": "err-13",
+      "topicId": "top-nonlinear-systems",
+      "topicName": "Systems of Nonlinear Equations",
+      "subjectId": "subj-math-algebra",
+      "category": "Speed / calculation slip",
+      "description": "Missed extraneous root resulting from squaring both sides of radical equation in system",
+      "lastOccurred": "2026-08-29",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Always verify solutions in the original un-squared radical equation to discard extraneous roots.",
+      "occurrenceCount": 1
+    },
+    {
+      "id": "err-14",
+      "topicId": "top-variation",
+      "topicName": "Variation",
+      "subjectId": "subj-math-algebra",
+      "category": "Formula recall",
+      "description": "Confused inverse variation y = k/x with joint variation y = k*x*z",
+      "lastOccurred": "2026-08-27",
+      "isResolved": false,
+      "solutionOrKeyFormula": "Direct: y = k*x. Inverse: y = k/x. Joint: y = k*x*z. Combined: y = k*x/z.",
+      "occurrenceCount": 1
+    }
+  ]
+}

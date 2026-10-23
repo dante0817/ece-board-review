@@ -1,0 +1,46 @@
+{
+  "release": "10.47.0",
+  "source_base": "10.46.0",
+  "module": "Trigonometry Topic 12 \u2014 Polar & Parametric Equations",
+  "subtopics_total": 102,
+  "draft_lessons_total": 87,
+  "draft_lessons_added": 6,
+  "remaining_subtopics_planned": 15,
+  "trigonometry_questions_total": 696,
+  "trigonometry_questions_added": 48,
+  "preserved_algebra_questions": 422,
+  "questions_total": 1118,
+  "subtopics": [
+    "12.1 Polar coordinate system",
+    "12.2 Rectangular and polar conversion",
+    "12.3 Polar graphing and symmetry",
+    "12.4 Common polar curves",
+    "12.5 Parametric equations",
+    "12.6 Conversion and graphical interpretation"
+  ],
+  "diagram_types_added": [
+    "polar-grid",
+    "parametric-circle"
+  ],
+  "quality_level": "draft-unverified; independent editorial review pending",
+  "checks": {
+    "topic12_structural_and_numeric": "PASS",
+    "historical_trigonometry_release_chain_10.37_to_10.46": "PASS",
+    "practice_catalog_and_backup_restore": "PASS",
+    "manual_learn_v10.35.1": "PASS",
+    "learn_reader": "PASS",
+    "algebra_reference": "PASS",
+    "content_validation": "PASS",
+    "source_import_scan": "PASS 0 unresolved local imports",
+    "targeted_typescript_learn_reader": "PASS",
+    "targeted_typescript_practice": "PASS",
+    "npm_ci_offline": "BLOCKED: zwitch missing in offline npm cache",
+    "full_build_and_browser": "NOT VERIFIED"
+  },
+  "sources": [
+    "Lial, Trigonometry 10e, \u00a7\u00a78.5\u20138.6",
+    "Sullivan, Trigonometry 9e, \u00a7\u00a75.1\u20135.2 and 6.7",
+    "Kelley, The Humongous Book of Trigonometry Problems, Chapter 17"
+  ],
+  "content_note": "Lesson explanations and practice questions are original; chapter references identify the learning topics, not copied passages."
+}

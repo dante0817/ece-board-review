@@ -1,0 +1,16 @@
+# Supplementary hand-reviewed, higher-risk mathematics spot checks (not full bank certification).
+TRI49-143-005 | 2t/(1−t²)
+TRI49-144-008 | 2π
+TRI49-146-006 | |x|⁵/120
+TRI49-146-008 | 1/12,000,000
+TRI41-068-007 | tanθ, where sinθ cosθ ≠ 0
+TRI46-118-008 | 1
+TRI42-076-005 | x/√(1−x²)
+TRI44-093-003 | 2
+TRI44-097-008 | 2√3
+TRI47-125-007 | y²=(x−1)³ with x≥1 and y≥0
+TRI47-126-003 | Two counterclockwise
+TRI45-107-003 | (−3,6,−3)
+TRI45-108-005 | (0,0,−8) N·m
+TRI48-133-005 | 0.2 s
+TRI48-135-008 | sin(x+π/3)

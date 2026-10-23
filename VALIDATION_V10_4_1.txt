@@ -1,0 +1,37 @@
+ECE Board Review 9 — v10.4.1 Algebra Content Integrity & Provenance Hardening
+
+SOURCE / PROVENANCE
+PASS — 7 reference-informed Algebra topics audited.
+PASS — 21/21 source entries now have verified section/page locators.
+PASS — Generic chapter-level source placeholders removed.
+PASS — Sterling source descriptions narrowed where its book does not cover the full app-topic scope.
+
+ANSWER / CONTENT INTEGRITY
+PASS — 36/36 shared reference-screen practice questions covered by independent answer-audit manifest.
+PASS — Every correctIndex is in range.
+PASS — Referenced misconception IDs resolve.
+PASS — Practice question IDs are unique.
+PASS — Factoring q-fac-3 duplicate-equivalent correct option removed.
+PASS — Factoring q-fac-5 ambiguous equivalent distractor removed.
+PASS — Overbroad sum-of-squares remediation corrected.
+PASS — Rational-exponent domain condition clarified.
+PASS — Absolute-value inequality negative-bound edge cases clarified.
+
+AUTOMATED CHECKS
+PASS — node scripts/validateAlgebraReferenceContent.mjs
+PASS — TypeScript/TSX transpile syntax: 213 files, 0 syntax-error files.
+PASS — Relative imports: 533 checked, 0 missing (including TS source resolution for emitted .js imports).
+
+DEPENDENCY-BACKED CHECKS
+NOT RE-RUN — node_modules was intentionally removed before this pass and registry access is unavailable in this environment.
+The immediately preceding v10.3/Foundation-batch tree had already passed npm run lint and npm run build locally.
+Run after reinstalling dependencies:
+  npm install
+  npm run validate:algebra
+  npm run lint
+  npm run build
+  npm run dev
+
+PACKAGING
+PASS — node_modules absent.
+PASS — stale dist/ removed so the archive does not ship pre-v10.4.1 build output.

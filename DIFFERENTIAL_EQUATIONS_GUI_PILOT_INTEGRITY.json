@@ -1,0 +1,25 @@
+{
+  "baseline_name": "BSECE_Board_Reviewer_v10.69.0_Probability_Statistics_Integrity_SOURCE.zip",
+  "baseline_sha256": "d00aea3e9d63524bb79ce62f9c92a4f3af8822e029e632327b36930ebf5f61e1",
+  "baseline_files": 772,
+  "unchanged_original_files": 767,
+  "modified_original_files": [
+    "package.json",
+    "src/App.tsx",
+    "src/components/Sidebar.tsx",
+    "src/context/ReviewContext.tsx",
+    "src/features/mathematics/mathCatalog.ts"
+  ],
+  "new_files": [
+    "DIFFERENTIAL_EQUATIONS_GUI_PILOT_V10_69_README.md",
+    "scripts/validateDifferentialEquationsPilot.mjs",
+    "scripts/verifyDifferentialEquationsPilotMath.py",
+    "src/features/differential-equations/DifferentialEquationsScreen.tsx",
+    "src/features/differential-equations/deCurriculum.json",
+    "src/features/differential-equations/dePilotContent.ts"
+  ],
+  "missing_original_files": [],
+  "exam_question_pool_modified": false,
+  "baseline_package_version_retained": "10.69.0",
+  "gate": "GUI pilot; no certified assessment"
+}

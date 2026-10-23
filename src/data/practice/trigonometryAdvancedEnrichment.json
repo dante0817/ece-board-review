@@ -1,0 +1,842 @@
+[
+  {
+    "id": "TRI49-141-001",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Basic",
+    "family": "sine-sign",
+    "prompt": "On [0,2π), where is sin x > 0?",
+    "options": [
+      "(π,2π)",
+      "(0,π)",
+      "(0,2π)",
+      "[0,π]"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sine is the positive y-coordinate on the upper semicircle, strictly between 0 and π; both zeros are excluded."
+  },
+  {
+    "id": "TRI49-141-002",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Basic",
+    "family": "cosine-sign",
+    "prompt": "On [0,2π), solve cos x ≤ 0.",
+    "options": [
+      "(π/2,3π/2)",
+      "[3π/2,2π)",
+      "[π/2,3π/2]",
+      "[0,π]"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cosine is nonpositive on the left semicircle; the zero values at π/2 and 3π/2 satisfy the non-strict inequality."
+  },
+  {
+    "id": "TRI49-141-003",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Intermediate",
+    "family": "tangent-sign",
+    "prompt": "On [0,2π), where is tan x < 0?",
+    "options": [
+      "(π,2π)",
+      "(0,π/2) ∪ (π,3π/2)",
+      "[π/2,π] ∪ [3π/2,2π]",
+      "(π/2,π) ∪ (3π/2,2π)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tangent has opposite sine/cosine signs in quadrants II and IV. Its poles at π/2 and 3π/2 are excluded, as are the zeros."
+  },
+  {
+    "id": "TRI49-141-004",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Intermediate",
+    "family": "threshold",
+    "prompt": "Solve sin x ≥ √3/2 for x∈[0,2π).",
+    "options": [
+      "[π/3,2π/3]",
+      "(π/3,2π/3)",
+      "[4π/3,5π/3]",
+      "[π/6,5π/6]"
+    ],
+    "correctIndex": 0,
+    "explanation": "The two equality angles are π/3 and 2π/3. Sine reaches at least √3/2 on the closed arc between them."
+  },
+  {
+    "id": "TRI49-141-005",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Intermediate",
+    "family": "cosine-threshold",
+    "prompt": "For 0≤x<2π, where does 2cos x−1>0?",
+    "options": [
+      "(0,π/3) ∪ (5π/3,2π)",
+      "[0,π/3) ∪ (5π/3,2π)",
+      "(π/3,5π/3)",
+      "[0,π/3] ∪ [5π/3,2π)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rearrange to cos x>1/2. On [0,2π), x=0 is allowed, while equality endpoints π/3 and 5π/3 are not."
+  },
+  {
+    "id": "TRI49-141-006",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Advanced",
+    "family": "squared-sine",
+    "prompt": "On [0,2π), solve sin²x > 1/4.",
+    "options": [
+      "[π/6,5π/6]",
+      "(π/3,2π/3)",
+      "(π/6,5π/6) ∪ (7π/6,11π/6)",
+      "(0,π)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Take |sin x|>1/2; sine lies above 1/2 on the upper positive arc and below −1/2 on the corresponding lower arc. Equality is excluded."
+  },
+  {
+    "id": "TRI49-141-007",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Basic",
+    "family": "domain",
+    "prompt": "Where is sec x defined on [0,2π)?",
+    "options": [
+      "Only (0,π)",
+      "[0,2π) except 0 and π",
+      "All of [0,2π)",
+      "[0,2π) except π/2 and 3π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "sec x=1/cos x exists wherever cos x≠0; cosine vanishes at π/2 and 3π/2 in the interval."
+  },
+  {
+    "id": "TRI49-141-008",
+    "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+    "difficulty": "Advanced",
+    "family": "multiple-angle",
+    "prompt": "Solve cos 2x < 0 for x∈[0,π).",
+    "options": [
+      "(π/4,3π/4)",
+      "(π/2,π)",
+      "(0,π/2)",
+      "[π/4,3π/4]"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let u=2x, so 0≤u<2π. Cosine is negative for π/2<u<3π/2, hence π/4<x<3π/4."
+  },
+  {
+    "id": "TRI49-142-001",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Basic",
+    "family": "phase-transform",
+    "prompt": "Simplify sin x+cos x using a phase shift.",
+    "options": [
+      "2sin(x+π/4)",
+      "√2 sin(x+π/4)",
+      "√2 sin(2x)",
+      "√2 sin(x−π/4)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sine addition formula gives sin(x+π/4)=(sin x+cos x)/√2, so multiplying by √2 produces the sum."
+  },
+  {
+    "id": "TRI49-142-002",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Intermediate",
+    "family": "nonroutine-equation",
+    "prompt": "Solve sin x+cos x=0 for x∈[0,2π).",
+    "options": [
+      "{π/4,5π/4}",
+      "{π/2,3π/2}",
+      "{3π/4,7π/4}",
+      "{0,π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "Write √2 sin(x+π/4)=0, so x+π/4=kπ. The two representatives in [0,2π) are 3π/4 and 7π/4."
+  },
+  {
+    "id": "TRI49-142-003",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Basic",
+    "family": "double-angle",
+    "prompt": "If sin x=3/5 and cos x=4/5, find sin 2x.",
+    "options": [
+      "1",
+      "7/25",
+      "12/25",
+      "24/25"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use sin 2x=2sin x cos x=2·(3/5)·(4/5)=24/25."
+  },
+  {
+    "id": "TRI49-142-004",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Intermediate",
+    "family": "identity-proof",
+    "prompt": "Simplify (1−cos 2x)/sin 2x on its original domain.",
+    "options": [
+      "tan x",
+      "sin x",
+      "2tan x",
+      "cot x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use 1−cos 2x=2sin²x and sin 2x=2sin x cos x; cancel only when the original denominator is nonzero."
+  },
+  {
+    "id": "TRI49-142-005",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Intermediate",
+    "family": "double-angle-equation",
+    "prompt": "Solve cos 2x=1 for x∈[0,2π).",
+    "options": [
+      "{0}",
+      "{0,π}",
+      "{0,π,2π}",
+      "{π/2,3π/2}"
+    ],
+    "correctIndex": 1,
+    "explanation": "cos 2x=1 iff 2x=2kπ, thus x=kπ. The half-open interval contains 0 and π but not 2π."
+  },
+  {
+    "id": "TRI49-142-006",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Basic",
+    "family": "identity-domain",
+    "prompt": "For all x with cos x≠0, what equals sec²x−tan²x?",
+    "options": [
+      "0",
+      "sin²x",
+      "1",
+      "cos²x"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Pythagorean identity 1+tan²x=sec²x implies sec²x−tan²x=1 on the shared domain cos x≠0."
+  },
+  {
+    "id": "TRI49-142-007",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Advanced",
+    "family": "bound",
+    "prompt": "What is the maximum value of sin x+cos x?",
+    "options": [
+      "1",
+      "1/√2",
+      "2",
+      "√2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rewrite sin x+cos x=√2 sin(x+π/4), whose largest value is √2 because sine is at most one."
+  },
+  {
+    "id": "TRI49-142-008",
+    "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "difficulty": "Advanced",
+    "family": "angle-constraint",
+    "prompt": "If A+B=π, what is sin(A+B)?",
+    "options": [
+      "0",
+      "sin A+sin B",
+      "−1",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Substitute the angle constraint: sin(A+B)=sin π=0; sine does not distribute over addition."
+  },
+  {
+    "id": "TRI49-143-001",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Basic",
+    "family": "radical",
+    "prompt": "With x=3sin θ and θ∈[−π/2,π/2], simplify √(9−x²).",
+    "options": [
+      "3sin θ",
+      "3cos θ",
+      "9cos θ",
+      "−3cos θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitution yields 3√(cos²θ)=3|cosθ|. Cosine is nonnegative on the specified interval, so the result is 3cosθ."
+  },
+  {
+    "id": "TRI49-143-002",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Basic",
+    "family": "halfangle-sin",
+    "prompt": "If t=tan(θ/2)=1, find sin θ.",
+    "options": [
+      "0",
+      "−1",
+      "1",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "The tangent half-angle formula sinθ=2t/(1+t²) gives 2/(2)=1."
+  },
+  {
+    "id": "TRI49-143-003",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Intermediate",
+    "family": "halfangle-cos",
+    "prompt": "If t=tan(θ/2)=1/2, find cos θ.",
+    "options": [
+      "1/5",
+      "−3/5",
+      "4/5",
+      "3/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use cosθ=(1−t²)/(1+t²)=(1−1/4)/(1+1/4)=(3/4)/(5/4)=3/5."
+  },
+  {
+    "id": "TRI49-143-004",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Intermediate",
+    "family": "radical-cos",
+    "prompt": "With x=5cos θ for θ∈[0,π], simplify √(25−x²).",
+    "options": [
+      "5sin θ",
+      "−5sin θ",
+      "25sin θ",
+      "5cos θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since 25−x²=25sin²θ, the square root is 5|sinθ|. Here sinθ≥0, so it becomes 5sinθ."
+  },
+  {
+    "id": "TRI49-143-005",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Intermediate",
+    "family": "halfangle-tan",
+    "prompt": "For t=tan(θ/2), what is tan θ where defined?",
+    "options": [
+      "t/2",
+      "2t/(1−t²)",
+      "2t/(1+t²)",
+      "(1−t²)/(1+t²)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide sinθ=2t/(1+t²) by cosθ=(1−t²)/(1+t²) to obtain tanθ=2t/(1−t²), excluding t=±1."
+  },
+  {
+    "id": "TRI49-143-006",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Advanced",
+    "family": "substitution-exclusion",
+    "prompt": "Which original angles are omitted by t=tan(θ/2)?",
+    "options": [
+      "θ≡0 (mod 2π)",
+      "θ≡π/2 (mod 2π)",
+      "θ≡π (mod 2π)",
+      "No angles are omitted"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan(θ/2) is undefined when θ/2=π/2+kπ, hence θ=π+2kπ. These cases must be checked separately."
+  },
+  {
+    "id": "TRI49-143-007",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Basic",
+    "family": "domain",
+    "prompt": "If x=4sin θ, what is the largest possible |x| for real θ?",
+    "options": [
+      "8",
+      "16",
+      "2",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "The bound |sinθ|≤1 gives |x|=4|sinθ|≤4, attained when sine is ±1."
+  },
+  {
+    "id": "TRI49-143-008",
+    "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "difficulty": "Advanced",
+    "family": "back-substitution",
+    "prompt": "With θ∈[−π/2,π/2], if x=2sin θ and x=1, what is cos θ?",
+    "options": [
+      "√3/2",
+      "√2/2",
+      "−√3/2",
+      "1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "sinθ=1/2, so θ=π/6 on the chosen principal interval and cosθ=√3/2≥0."
+  },
+  {
+    "id": "TRI49-144-001",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Basic",
+    "family": "right-spherical",
+    "prompt": "For right spherical triangle C=90°, a=b=60°, what is cos c?",
+    "options": [
+      "3/4",
+      "1/4",
+      "0",
+      "1/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "The right spherical law of cosines gives cos c=cos a cos b=(1/2)(1/2)=1/4."
+  },
+  {
+    "id": "TRI49-144-002",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Basic",
+    "family": "excess-area",
+    "prompt": "On a sphere of radius R, what is the area when spherical excess E=π/2 radians?",
+    "options": [
+      "πR²",
+      "R²/2",
+      "πR²/2",
+      "2πR²"
+    ],
+    "correctIndex": 2,
+    "explanation": "Spherical area equals R²E. Substituting E=π/2 yields πR²/2, one eighth of the sphere surface."
+  },
+  {
+    "id": "TRI49-144-003",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Basic",
+    "family": "spherical-excess",
+    "prompt": "For spherical angles A=B=C=90°, find the spherical excess E in radians.",
+    "options": [
+      "3π/2",
+      "π",
+      "0",
+      "π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "The three angles sum to 3π/2, so E=A+B+C−π=π/2."
+  },
+  {
+    "id": "TRI49-144-004",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Intermediate",
+    "family": "right-spherical",
+    "prompt": "For a right spherical triangle C=90° with a=90°, what is c if 0<c<180°?",
+    "options": [
+      "90°",
+      "45°",
+      "180°",
+      "0°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since cos c=cos90°·cos b=0, c=90° within the specified open interval."
+  },
+  {
+    "id": "TRI49-144-005",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Intermediate",
+    "family": "formula-selection",
+    "prompt": "Which equation is the spherical law of cosines for side c?",
+    "options": [
+      "cos c=cos a+cos b",
+      "cos c=cos a cos b+sin a sin b cos C",
+      "c²=a²+b²−2ab cos C",
+      "sin c=sin a sin b"
+    ],
+    "correctIndex": 1,
+    "explanation": "The spherical law of cosines uses angular arc-length sides and cosines, not the Euclidean squared-length formula."
+  },
+  {
+    "id": "TRI49-144-006",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Intermediate",
+    "family": "excess",
+    "prompt": "A spherical triangle has angle sum 200°. What is the spherical excess in degrees?",
+    "options": [
+      "−20°",
+      "180°",
+      "20°",
+      "200°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Spherical excess equals the spherical angle sum minus 180°, here 200°−180°=20°. Convert it to radians before an area computation."
+  },
+  {
+    "id": "TRI49-144-007",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Advanced",
+    "family": "right-spherical",
+    "prompt": "For a right spherical triangle C=90°, a=60° and b=90°, find c.",
+    "options": [
+      "30°",
+      "120°",
+      "60°",
+      "90°"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos c=cos60° cos90°=0; the side angle c in (0,180°) must be 90°."
+  },
+  {
+    "id": "TRI49-144-008",
+    "subtopicId": "trig-advanced-spherical-trigonometry",
+    "difficulty": "Advanced",
+    "family": "octant-area",
+    "prompt": "A spherical octant on a radius-2 sphere has area what?",
+    "options": [
+      "2π",
+      "8π",
+      "4π",
+      "π/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "An octant covers one eighth of 4πR². With R=2, (1/8)·4π·4=2π square units."
+  },
+  {
+    "id": "TRI49-145-001",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Basic",
+    "family": "exponential-definition",
+    "prompt": "Evaluate sinh(ln 2).",
+    "options": [
+      "1/4",
+      "3/4",
+      "2",
+      "5/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "e^(ln2)=2 and e^(−ln2)=1/2, so sinh(ln2)=(2−1/2)/2=3/4."
+  },
+  {
+    "id": "TRI49-145-002",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Basic",
+    "family": "exponential-definition",
+    "prompt": "Evaluate cosh(ln 2).",
+    "options": [
+      "3/4",
+      "1/4",
+      "5/4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "cosh(ln2)=(2+1/2)/2=5/4 by its exponential definition."
+  },
+  {
+    "id": "TRI49-145-003",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Basic",
+    "family": "hyperbolic-identity",
+    "prompt": "Which identity holds for all real x?",
+    "options": [
+      "sinh²x−cosh²x=1",
+      "cosh²x−sinh²x=0",
+      "cosh²x+sinh²x=1",
+      "cosh²x−sinh²x=1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Hyperbolic cosine and sine satisfy cosh²x−sinh²x=1; the subtraction distinguishes them from ordinary trigonometric functions."
+  },
+  {
+    "id": "TRI49-145-004",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Basic",
+    "family": "zero-value",
+    "prompt": "What is cosh 0?",
+    "options": [
+      "1",
+      "−1",
+      "2",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "By the exponential definition cosh0=(e⁰+e⁰)/2=1."
+  },
+  {
+    "id": "TRI49-145-005",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Intermediate",
+    "family": "range",
+    "prompt": "For real x, which range describes tanh x?",
+    "options": [
+      "(−∞,∞)",
+      "(−1,1)",
+      "[−1,1]",
+      "[0,∞)"
+    ],
+    "correctIndex": 1,
+    "explanation": "For real inputs, |sinh x|<cosh x and cosh x>0, so tanh x lies strictly between −1 and 1."
+  },
+  {
+    "id": "TRI49-145-006",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Intermediate",
+    "family": "identity-sign",
+    "prompt": "If x≥0 and cosh x=5/3, find sinh x.",
+    "options": [
+      "−4/3",
+      "5/3",
+      "4/3",
+      "2/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use sinh²x=cosh²x−1=25/9−1=16/9. Because x≥0, take the positive root 4/3."
+  },
+  {
+    "id": "TRI49-145-007",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Intermediate",
+    "family": "ratio",
+    "prompt": "Find tanh(ln 2).",
+    "options": [
+      "3/4",
+      "5/4",
+      "5/3",
+      "3/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Using sinh(ln2)=3/4 and cosh(ln2)=5/4, their ratio is (3/4)/(5/4)=3/5."
+  },
+  {
+    "id": "TRI49-145-008",
+    "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+    "difficulty": "Advanced",
+    "family": "parity",
+    "prompt": "Which of sinh and cosh is odd on the real line?",
+    "options": [
+      "sinh is odd; cosh is even",
+      "sinh is even; cosh is odd",
+      "both are even",
+      "both are odd"
+    ],
+    "correctIndex": 0,
+    "explanation": "From the exponential definitions, sinh(−x)=−sinh x and cosh(−x)=cosh x."
+  },
+  {
+    "id": "TRI49-146-001",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Basic",
+    "family": "first-order",
+    "prompt": "Using sin x≈x for small x in radians, approximate sin 0.02.",
+    "options": [
+      "0.0002",
+      "0.02",
+      "2",
+      "0.2"
+    ],
+    "correctIndex": 1,
+    "explanation": "The first Maclaurin term is x; for x=0.02 radians, sinx≈0.02 with a very small cubic correction."
+  },
+  {
+    "id": "TRI49-146-002",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Intermediate",
+    "family": "cubic-sine",
+    "prompt": "Compute 0.3−0.3³/6.",
+    "options": [
+      "0.3045",
+      "0.29955",
+      "0.2955",
+      "0.285"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since 0.3³=0.027, subtract 0.027/6=0.0045 from 0.3, giving the cubic sine approximation 0.2955."
+  },
+  {
+    "id": "TRI49-146-003",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Basic",
+    "family": "quadratic-cosine",
+    "prompt": "Use 1−x²/2 to approximate cos 0.2 rad.",
+    "options": [
+      "1.02",
+      "0.99",
+      "0.96",
+      "0.98"
+    ],
+    "correctIndex": 3,
+    "explanation": "The quadratic approximation yields 1−(0.2)²/2=1−0.04/2=0.98."
+  },
+  {
+    "id": "TRI49-146-004",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Basic",
+    "family": "series-term",
+    "prompt": "What is the next nonzero term after x−x³/6 in the sine Maclaurin series?",
+    "options": [
+      "+x⁵/120",
+      "+x⁴/24",
+      "−x⁵/24",
+      "−x⁵/120"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sine series alternates odd powers: x−x³/3!+x⁵/5!−…, so the next term is +x⁵/120."
+  },
+  {
+    "id": "TRI49-146-005",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Intermediate",
+    "family": "series-term",
+    "prompt": "What is the coefficient of x⁴ in the cosine Maclaurin series?",
+    "options": [
+      "−1/6",
+      "1/24",
+      "−1/24",
+      "1/120"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cosine series starts 1−x²/2!+x⁴/4!−…; 4!=24 so the coefficient is +1/24."
+  },
+  {
+    "id": "TRI49-146-006",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Advanced",
+    "family": "error-bound",
+    "prompt": "For |x|≤1, a bound for the error |sin x−(x−x³/6)| is:",
+    "options": [
+      "|x|³/6",
+      "|x|/2",
+      "|x|⁵/120",
+      "|x|²/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "On |x|≤1 the alternating-series remainder is no greater than the magnitude of the next omitted term x⁵/5!=|x|⁵/120."
+  },
+  {
+    "id": "TRI49-146-007",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Basic",
+    "family": "units",
+    "prompt": "What input unit is assumed by sin x≈x near zero?",
+    "options": [
+      "revolutions",
+      "arcminutes",
+      "degrees",
+      "radians"
+    ],
+    "correctIndex": 3,
+    "explanation": "The standard Maclaurin expansion of sin x has derivative 1 at zero only when x is measured in radians."
+  },
+  {
+    "id": "TRI49-146-008",
+    "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+    "difficulty": "Advanced",
+    "family": "error-bound",
+    "prompt": "For x=0.1, what is the next omitted term magnitude after x−x³/6?",
+    "options": [
+      "1/12,000,000",
+      "1/120",
+      "1/120,000",
+      "1/1,200,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compute x⁵/120=(0.1)⁵/120=0.00001/120=1/12,000,000≈8.33×10⁻⁸."
+  },
+  {
+    "id": "TRI49-147-001",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Basic",
+    "family": "sharp-bound",
+    "prompt": "What is max(sin x+cos x) over real x?",
+    "options": [
+      "1",
+      "√2",
+      "0",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use sinx+cosx=√2sin(x+π/4). The amplitude is √2, and sine can attain +1."
+  },
+  {
+    "id": "TRI49-147-002",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Basic",
+    "family": "triangle-angles",
+    "prompt": "If A+B+C=180° and A=B=45°, what is sin C?",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "√2/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "The triangle angle constraint gives C=90°, so sinC=sin90°=1."
+  },
+  {
+    "id": "TRI49-147-003",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Intermediate",
+    "family": "angle-symmetry",
+    "prompt": "If A+B+C=π, what is cos(A+B)?",
+    "options": [
+      "−sin C",
+      "sin C",
+      "cos C",
+      "−cos C"
+    ],
+    "correctIndex": 3,
+    "explanation": "From A+B=π−C and the supplementary-angle identity, cos(A+B)=cos(π−C)=−cosC."
+  },
+  {
+    "id": "TRI49-147-004",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Basic",
+    "family": "fundamental-identity",
+    "prompt": "For all real x, sin²x+cos²x equals:",
+    "options": [
+      "1",
+      "2",
+      "sin 2x",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "The unit-circle/Pythagorean identity gives sin²x+cos²x=1 for every real x."
+  },
+  {
+    "id": "TRI49-147-005",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Intermediate",
+    "family": "extremum",
+    "prompt": "Find the maximum of sin x cos x for real x.",
+    "options": [
+      "2",
+      "1/2",
+      "1",
+      "√2/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Because 2sinxcosx=sin2x≤1, the product never exceeds 1/2; equality is attained when 2x=π/2+2kπ."
+  },
+  {
+    "id": "TRI49-147-006",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Basic",
+    "family": "triangle-symmetry",
+    "prompt": "If A=B=C in a triangle, what is each angle in radians?",
+    "options": [
+      "π/2",
+      "π/6",
+      "π/3",
+      "2π/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Three equal angles sum to π, so each is π/3; the equilateral configuration satisfies the triangle constraint."
+  },
+  {
+    "id": "TRI49-147-007",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Advanced",
+    "family": "triple-angle",
+    "prompt": "What is sin 3x when sin x=1/2?",
+    "options": [
+      "0",
+      "−1",
+      "1/2",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use sin3x=3sinx−4sin³x=3/2−4/8=3/2−1/2=1."
+  },
+  {
+    "id": "TRI49-147-008",
+    "subtopicId": "trig-advanced-advanced-competition-style-problems",
+    "difficulty": "Intermediate",
+    "family": "sharp-bound",
+    "prompt": "If x∈R, the minimum of 2sin x−1 equals:",
+    "options": [
+      "−3",
+      "1",
+      "−1",
+      "−2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since −1≤sinx≤1, the minimum of 2sinx−1 occurs at sinx=−1 and is −2−1=−3."
+  }
+]

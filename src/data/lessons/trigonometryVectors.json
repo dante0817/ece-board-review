@@ -1,0 +1,826 @@
+{
+  "trig-vectors-scalars-and-vectors": {
+    "id": "trig-vectors-scalars-and-vectors",
+    "title": "Scalars and vectors",
+    "summary": "Recognize magnitude-only scalar quantities and directed vectors, read vector notation, and compute displacement from initial and terminal coordinates.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-01-definition",
+            "type": "definition",
+            "text": "A scalar describes magnitude with appropriate units (such as mass or speed). A vector describes both magnitude and direction (such as displacement, force, or velocity). In Cartesian coordinates, a directed segment from A to B is the component vector B−A; equal vectors have the same components regardless of where they are drawn."
+          },
+          {
+            "id": "vector-10-01-formula-1",
+            "type": "formula",
+            "latex": "\\overrightarrow{AB}=(x_B-x_A,\\,y_B-y_A)"
+          },
+          {
+            "id": "vector-10-01-formula-2",
+            "type": "formula",
+            "latex": "\\mathbf a=(a_x,a_y,a_z)"
+          },
+          {
+            "id": "vector-10-01-formula-3",
+            "type": "formula",
+            "latex": "\\mathbf a=\\mathbf b\\iff a_x=b_x,\\ a_y=b_y,\\ a_z=b_z"
+          },
+          {
+            "id": "vector-10-01-diagram",
+            "type": "diagram",
+            "diagram": "vector-components",
+            "caption": "Cartesian vector components and vector notation: resolve directed displacement along horizontal and vertical axes."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-01-worked-1",
+            "type": "worked-example",
+            "title": "Displacement from A(−2,4) to B(3,−1)",
+            "problem": "Displacement from A(−2,4) to B(3,−1)",
+            "strategy": "Subtract terminal minus initial coordinates, component by component.",
+            "steps": [
+              "Horizontal displacement: 3−(−2)=5.",
+              "Vertical displacement: −1−4=−5; thus AB=(5,−5)."
+            ],
+            "check": "The net displacement points right and downward regardless of the path traveled."
+          },
+          {
+            "id": "vector-10-01-worked-2",
+            "type": "worked-example",
+            "title": "Compare the vectors from (1,2) to (4,6) and from (−2,1) to (1,5)",
+            "problem": "Compare the vectors from (1,2) to (4,6) and from (−2,1) to (1,5)",
+            "strategy": "Use component differences to test equality, not the locations of their tails.",
+            "steps": [
+              "First vector is (4−1,6−2)=(3,4).",
+              "Second vector is (1−(−2),5−1)=(3,4), so they are equal."
+            ],
+            "check": "Translation does not change a free vector."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-01-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-01-pitfall",
+            "type": "note",
+            "text": "Distance and displacement are not interchangeable: distance is a nonnegative scalar, while displacement has direction. Do not subtract initial from terminal in the wrong order."
+          },
+          {
+            "id": "vector-10-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What distinguishes velocity from speed?",
+            "answer": "Velocity is a vector; speed is a scalar.",
+            "explanation": "Velocity includes direction, whereas speed records only the magnitude of motion."
+          },
+          {
+            "id": "vector-10-01-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-magnitude-and-direction": {
+    "id": "trig-vectors-magnitude-and-direction",
+    "title": "Magnitude and direction",
+    "summary": "Find vector length and orientation using Pythagorean geometry and quadrant-aware angles; use the appropriate reference direction.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-02-definition",
+            "type": "definition",
+            "text": "The length of a vector is its Euclidean magnitude. The direction angle in the xy-plane is measured counterclockwise from the positive x-axis unless otherwise stated. atan2(y,x) returns the correct signed quadrant; a positive angle in [0°,360°) can be obtained by adding 360° when necessary."
+          },
+          {
+            "id": "vector-10-02-formula-1",
+            "type": "formula",
+            "latex": "\\|\\mathbf v\\|=\\sqrt{v_x^2+v_y^2}"
+          },
+          {
+            "id": "vector-10-02-formula-2",
+            "type": "formula",
+            "latex": "\\theta=\\operatorname{atan2}(v_y,v_x)"
+          },
+          {
+            "id": "vector-10-02-formula-3",
+            "type": "formula",
+            "latex": "v_x=r\\cos\\theta,\\qquad v_y=r\\sin\\theta"
+          },
+          {
+            "id": "vector-10-02-diagram",
+            "type": "diagram",
+            "diagram": "vector-components",
+            "caption": "Vector length and direction angle measured from the positive horizontal axis; signs locate the correct quadrant."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-02-worked-1",
+            "type": "worked-example",
+            "title": "Find magnitude and standard angle of v=(−3,4)",
+            "problem": "Find magnitude and standard angle of v=(−3,4)",
+            "strategy": "Calculate the length, then resolve the angle in quadrant II.",
+            "steps": [
+              "Magnitude is √(9+16)=5.",
+              "The reference angle is arctan(4/3)≈53.13°. As x<0 and y>0, θ≈180°−53.13°=126.87°."
+            ],
+            "check": "atan2(4,−3) gives the same quadrant-II direction."
+          },
+          {
+            "id": "vector-10-02-worked-2",
+            "type": "worked-example",
+            "title": "Recover the vector with magnitude 10 at 30°",
+            "problem": "Recover the vector with magnitude 10 at 30°",
+            "strategy": "Use the Cartesian component formulas.",
+            "steps": [
+              "v_x=10cos30°=5√3.",
+              "v_y=10sin30°=5; hence v=(5√3,5)."
+            ],
+            "check": "Its length is √(75+25)=10."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-02-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-02-pitfall",
+            "type": "note",
+            "text": "Ordinary arctan(y/x) alone cannot identify the correct quadrant. Direction of the zero vector is undefined. Specify whether angles use degrees or radians."
+          },
+          {
+            "id": "vector-10-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the magnitude of (8,−15)?",
+            "answer": "17.",
+            "explanation": "Compute √(8²+15²)=√289=17; the direction is in quadrant IV."
+          },
+          {
+            "id": "vector-10-02-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-rectangular-vector-components": {
+    "id": "trig-vectors-rectangular-vector-components",
+    "title": "Rectangular vector components",
+    "summary": "Resolve a given magnitude and direction into signed x/y components; reconstruct resultant vectors and extend component notation into three dimensions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-03-definition",
+            "type": "definition",
+            "text": "Any plane vector can be expressed as the sum of its x- and y-directed projections. A positive counterclockwise mathematical direction differs from compass bearings measured clockwise from north. Three-dimensional component vectors use an additional z-coordinate."
+          },
+          {
+            "id": "vector-10-03-formula-1",
+            "type": "formula",
+            "latex": "\\mathbf v=v_x\\mathbf i+v_y\\mathbf j"
+          },
+          {
+            "id": "vector-10-03-formula-2",
+            "type": "formula",
+            "latex": "v_x=v\\cos\\theta,\\quad v_y=v\\sin\\theta"
+          },
+          {
+            "id": "vector-10-03-formula-3",
+            "type": "formula",
+            "latex": "\\|\\mathbf v\\|=\\sqrt{v_x^2+v_y^2+v_z^2}"
+          },
+          {
+            "id": "vector-10-03-diagram",
+            "type": "diagram",
+            "diagram": "vector-components",
+            "caption": "A vector resolved into orthogonal horizontal and vertical components, with orientation measured from +x."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-03-worked-1",
+            "type": "worked-example",
+            "title": "Resolve a 20 N force at 150° from +x",
+            "problem": "Resolve a 20 N force at 150° from +x",
+            "strategy": "Use the exact unit-circle sine and cosine signs.",
+            "steps": [
+              "F_x=20cos150°=−10√3 N.",
+              "F_y=20sin150°=10 N; force points left and upward."
+            ],
+            "check": "The components produce √(300+100)=20 N."
+          },
+          {
+            "id": "vector-10-03-worked-2",
+            "type": "worked-example",
+            "title": "Reconstruct a vector with components (3,−4)",
+            "problem": "Reconstruct a vector with components (3,−4)",
+            "strategy": "Compute the hypotenuse and quadrant-aware direction.",
+            "steps": [
+              "Magnitude is √(3²+4²)=5.",
+              "Direction is atan2(−4,3)≈−53.13° or 306.87° measured counterclockwise."
+            ],
+            "check": "The negative y-component agrees with quadrant IV."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-03-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-03-pitfall",
+            "type": "note",
+            "text": "An angle measured from north is not automatically interchangeable with one measured counterclockwise from east. Keep physical units on components and distinguish 2D from 3D magnitude."
+          },
+          {
+            "id": "vector-10-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What are the components of 8 units at 270°?",
+            "answer": "(0,−8).",
+            "explanation": "cos270°=0 and sin270°=−1, so the vector lies on negative y."
+          },
+          {
+            "id": "vector-10-03-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-vector-addition-and-subtraction": {
+    "id": "trig-vectors-vector-addition-and-subtraction",
+    "title": "Vector addition and subtraction",
+    "summary": "Combine or subtract vectors componentwise to calculate displacement, force and velocity resultants, including differences that represent relative motion.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-04-definition",
+            "type": "definition",
+            "text": "Add or subtract corresponding components. The geometric head-to-tail rule agrees with component arithmetic. Relative velocity of object A with respect to object B is v_A−v_B; this is a vector difference, not the difference of magnitudes."
+          },
+          {
+            "id": "vector-10-04-formula-1",
+            "type": "formula",
+            "latex": "\\mathbf a+\\mathbf b=(a_x+b_x,\\,a_y+b_y)"
+          },
+          {
+            "id": "vector-10-04-formula-2",
+            "type": "formula",
+            "latex": "\\mathbf a-\\mathbf b=(a_x-b_x,\\,a_y-b_y)"
+          },
+          {
+            "id": "vector-10-04-formula-3",
+            "type": "formula",
+            "latex": "\\mathbf v_{A/B}=\\mathbf v_A-\\mathbf v_B"
+          },
+          {
+            "id": "vector-10-04-diagram",
+            "type": "diagram",
+            "diagram": "vector-components",
+            "caption": "Vector components allow resultants to be calculated algebraically, even when arrows point in different directions."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-04-worked-1",
+            "type": "worked-example",
+            "title": "Find the resultant of (3,4) and (−1,2)",
+            "problem": "Find the resultant of (3,4) and (−1,2)",
+            "strategy": "Sum each signed Cartesian component.",
+            "steps": [
+              "Resultant is (3−1,4+2)=(2,6).",
+              "Magnitude is √(2²+6²)=√40=2√10."
+            ],
+            "check": "Head-to-tail addition ends at (2,6) when starting at the origin."
+          },
+          {
+            "id": "vector-10-04-worked-2",
+            "type": "worked-example",
+            "title": "Find velocity of A relative to B for v_A=(12,2), v_B=(4,−3)",
+            "problem": "Find velocity of A relative to B for v_A=(12,2), v_B=(4,−3)",
+            "strategy": "Subtract the reference velocity to express motion in B’s frame.",
+            "steps": [
+              "v_A−v_B=(12−4,2−(−3)).",
+              "Therefore relative velocity is (8,5), in the same units as the input."
+            ],
+            "check": "Adding v_B back to relative velocity recovers v_A."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-04-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-04-pitfall",
+            "type": "note",
+            "text": "Do not add magnitudes unless the vectors are parallel and aligned. Subtraction depends on operand order; v_A−v_B is the negative of v_B−v_A."
+          },
+          {
+            "id": "vector-10-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is (4,−1)−(−2,3)?",
+            "answer": "(6,−4).",
+            "explanation": "Subtract each component: 4−(−2)=6 and −1−3=−4."
+          },
+          {
+            "id": "vector-10-04-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-unit-vectors-and-normalization": {
+    "id": "trig-vectors-unit-vectors-and-normalization",
+    "title": "Unit vectors and normalization",
+    "summary": "Construct direction-only vectors by dividing by magnitude, identify the zero-vector exception, and convert between magnitudes and unit directions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-05-definition",
+            "type": "definition",
+            "text": "A unit vector has magnitude exactly one. For a nonzero vector v, the normalized vector v/||v|| points in the same direction. The standard basis vectors i, j and k each have length one. The zero vector cannot be normalized."
+          },
+          {
+            "id": "vector-10-05-formula-1",
+            "type": "formula",
+            "latex": "\\hat{\\mathbf v}=\\frac{\\mathbf v}{\\|\\mathbf v\\|}\\quad(\\mathbf v\\ne\\mathbf0)"
+          },
+          {
+            "id": "vector-10-05-formula-2",
+            "type": "formula",
+            "latex": "\\|\\hat{\\mathbf v}\\|=1"
+          },
+          {
+            "id": "vector-10-05-formula-3",
+            "type": "formula",
+            "latex": "\\mathbf v=\\|\\mathbf v\\|\\hat{\\mathbf v}"
+          },
+          {
+            "id": "vector-10-05-diagram",
+            "type": "diagram",
+            "diagram": "vector-components",
+            "caption": "A normalized vector preserves an arrow’s direction but changes its magnitude to exactly one."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-05-worked-1",
+            "type": "worked-example",
+            "title": "Normalize v=(3,4)",
+            "problem": "Normalize v=(3,4)",
+            "strategy": "Calculate the length before dividing components.",
+            "steps": [
+              "||v||=√(9+16)=5.",
+              "Unit vector is (3/5,4/5)."
+            ],
+            "check": "Its length is √(9/25+16/25)=1."
+          },
+          {
+            "id": "vector-10-05-worked-2",
+            "type": "worked-example",
+            "title": "Find a unit vector in direction (−2,1,2)",
+            "problem": "Find a unit vector in direction (−2,1,2)",
+            "strategy": "Apply the same normalization rule in three dimensions.",
+            "steps": [
+              "||v||=√(4+1+4)=3.",
+              "Therefore v-hat=(−2/3,1/3,2/3)."
+            ],
+            "check": "Squared components sum to 4/9+1/9+4/9=1."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-05-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-05-pitfall",
+            "type": "note",
+            "text": "Never divide by the length of the zero vector. A vector with components between −1 and 1 is not necessarily a unit vector; check its total magnitude."
+          },
+          {
+            "id": "vector-10-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Why can (0,0) not be normalized?",
+            "answer": "Its magnitude is zero, so normalization divides by zero.",
+            "explanation": "The direction of the zero vector is not determined."
+          },
+          {
+            "id": "vector-10-05-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-dot-product-and-angle-between-vectors": {
+    "id": "trig-vectors-dot-product-and-angle-between-vectors",
+    "title": "Dot product and angle between vectors",
+    "summary": "Use the scalar dot product to test perpendicularity, recover the angle between nonzero vectors, compute projections, and calculate work.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-06-definition",
+            "type": "definition",
+            "text": "The dot product multiplies corresponding components and sums them. It equals the product of the vector magnitudes and cosine of their included angle. For nonzero vectors, a zero dot product means orthogonality; a zero vector makes angle determination undefined."
+          },
+          {
+            "id": "vector-10-06-formula-1",
+            "type": "formula",
+            "latex": "\\mathbf a\\cdot\\mathbf b=a_xb_x+a_yb_y+a_zb_z"
+          },
+          {
+            "id": "vector-10-06-formula-2",
+            "type": "formula",
+            "latex": "\\cos\\theta=\\frac{\\mathbf a\\cdot\\mathbf b}{\\|\\mathbf a\\|\\|\\mathbf b\\|}"
+          },
+          {
+            "id": "vector-10-06-formula-3",
+            "type": "formula",
+            "latex": "\\operatorname{proj}_{\\mathbf b}\\mathbf a=\\frac{\\mathbf a\\cdot\\mathbf b}{\\|\\mathbf b\\|^2}\\mathbf b\\quad(\\mathbf b\\ne\\mathbf0)"
+          },
+          {
+            "id": "vector-10-06-diagram",
+            "type": "diagram",
+            "diagram": "vector-components",
+            "caption": "Two vectors form an included angle; the dot product measures their directional alignment."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-06-worked-1",
+            "type": "worked-example",
+            "title": "Are a=(2,1) and b=(1,−2) perpendicular?",
+            "problem": "Are a=(2,1) and b=(1,−2) perpendicular?",
+            "strategy": "Use the dot-product orthogonality test.",
+            "steps": [
+              "a·b=2(1)+1(−2)=0.",
+              "Both vectors have nonzero length, so cosθ=0 and θ=90°."
+            ],
+            "check": "Their component slopes are negative reciprocals."
+          },
+          {
+            "id": "vector-10-06-worked-2",
+            "type": "worked-example",
+            "title": "Find the angle between (1,0) and (1,√3)",
+            "problem": "Find the angle between (1,0) and (1,√3)",
+            "strategy": "Use the dot product and lengths.",
+            "steps": [
+              "Dot product is 1 and the magnitudes are 1 and 2.",
+              "Thus cosθ=1/2 and θ=60°."
+            ],
+            "check": "A 60° angle has cosine 1/2."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-06-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-06-pitfall",
+            "type": "note",
+            "text": "The result of a dot product is a scalar, not a vector. The angle formula requires both vectors to be nonzero; the projection formula requires a nonzero base vector."
+          },
+          {
+            "id": "vector-10-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the dot product of (2,3) and (4,−1)?",
+            "answer": "5.",
+            "explanation": "Compute 2(4)+3(−1)=8−3=5."
+          },
+          {
+            "id": "vector-10-06-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-cross-product-and-orientation": {
+    "id": "trig-vectors-cross-product-and-orientation",
+    "title": "Cross product and orientation",
+    "summary": "Compute three-dimensional cross products with correct signs, apply the right-hand rule, and interpret the magnitude as an area or moment arm.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-07-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-07-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-07-definition",
+            "type": "definition",
+            "text": "The cross product of two 3D vectors is perpendicular to both, with direction fixed by the right-hand rule. Its magnitude is ||a||||b||sinθ. Swapping the order reverses its direction. For 2D vectors embedded in the xy-plane, the z-component equals a_x b_y−a_y b_x."
+          },
+          {
+            "id": "vector-10-07-formula-1",
+            "type": "formula",
+            "latex": "\\mathbf a\\times\\mathbf b=(a_yb_z-a_zb_y,\\ a_zb_x-a_xb_z,\\ a_xb_y-a_yb_x)"
+          },
+          {
+            "id": "vector-10-07-formula-2",
+            "type": "formula",
+            "latex": "\\|\\mathbf a\\times\\mathbf b\\|=\\|\\mathbf a\\|\\|\\mathbf b\\|\\sin\\theta"
+          },
+          {
+            "id": "vector-10-07-formula-3",
+            "type": "formula",
+            "latex": "\\mathbf b\\times\\mathbf a=-(\\mathbf a\\times\\mathbf b)"
+          },
+          {
+            "id": "vector-10-07-diagram",
+            "type": "diagram",
+            "diagram": "vector-cross-product",
+            "caption": "In a right-handed coordinate system, +x crossed with +y points along +z; reversing operands reverses orientation."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-07-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-07-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-07-worked-1",
+            "type": "worked-example",
+            "title": "Compute i×j",
+            "problem": "Compute i×j",
+            "strategy": "Apply the cyclic right-handed basis convention.",
+            "steps": [
+              "i=(1,0,0), j=(0,1,0).",
+              "Cross product is (0,0,1)=k."
+            ],
+            "check": "Swapping the order gives j×i=−k."
+          },
+          {
+            "id": "vector-10-07-worked-2",
+            "type": "worked-example",
+            "title": "Compute (1,2,0)×(3,0,0)",
+            "problem": "Compute (1,2,0)×(3,0,0)",
+            "strategy": "Evaluate all three Cartesian cross-product components.",
+            "steps": [
+              "x-component=2·0−0·0=0; y-component=0·3−1·0=0.",
+              "z-component=1·0−2·3=−6, giving (0,0,−6)."
+            ],
+            "check": "The result points along negative z, as required by the right-hand rule for the chosen operand order."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-07-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-07-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-07-pitfall",
+            "type": "note",
+            "text": "Cross products are not commutative: a×b=−(b×a). Do not confuse the scalar dot product with the vector cross product. A planar 2D cross-product shorthand represents only the signed z-component."
+          },
+          {
+            "id": "vector-10-07-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is j×i in a right-handed basis?",
+            "answer": "−k.",
+            "explanation": "Reversing i×j=k changes the sign."
+          },
+          {
+            "id": "vector-10-07-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-vectors-applications-in-2d-and-3d": {
+    "id": "trig-vectors-applications-in-2d-and-3d",
+    "title": "Applications in 2D and 3D",
+    "summary": "Model resulting forces, relative velocities, work, torque, and navigation in two and three dimensions, checking units and sign conventions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "vector-10-08-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "vector-10-08-concept"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-08-definition",
+            "type": "definition",
+            "text": "Engineering quantities are commonly combined as vectors. Force or velocity resultants use componentwise addition. Mechanical work uses the dot product between force and displacement; torque about an origin uses the cross product from position to applied force. Choose a coordinate system and sign convention before calculating."
+          },
+          {
+            "id": "vector-10-08-formula-1",
+            "type": "formula",
+            "latex": "\\mathbf R=\\sum_k\\mathbf F_k"
+          },
+          {
+            "id": "vector-10-08-formula-2",
+            "type": "formula",
+            "latex": "W=\\mathbf F\\cdot\\mathbf d"
+          },
+          {
+            "id": "vector-10-08-formula-3",
+            "type": "formula",
+            "latex": "\\boldsymbol\\tau=\\mathbf r\\times\\mathbf F"
+          },
+          {
+            "id": "vector-10-08-diagram",
+            "type": "diagram",
+            "diagram": "vector-cross-product",
+            "caption": "Force, displacement and position require different vector operations: dot for work and cross for torque."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-08-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "vector-10-08-solving"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-08-worked-1",
+            "type": "worked-example",
+            "title": "Drone ground velocity: 4 m/s east and wind 3 m/s north",
+            "problem": "Drone ground velocity: 4 m/s east and wind 3 m/s north",
+            "strategy": "Add the velocity vectors along independent axes.",
+            "steps": [
+              "Ground velocity is (4,0)+(0,3)=(4,3) m/s.",
+              "Speed is √(16+9)=5 m/s, at atan2(3,4)≈36.87° north of east."
+            ],
+            "check": "The east and north components reproduce the stated wind and air motion."
+          },
+          {
+            "id": "vector-10-08-worked-2",
+            "type": "worked-example",
+            "title": "Torque from a 5 N upward force 2 m to the right of origin",
+            "problem": "Torque from a 5 N upward force 2 m to the right of origin",
+            "strategy": "Use position crossed with force, not force crossed with position.",
+            "steps": [
+              "Position vector r=(2,0,0) m; force F=(0,5,0) N.",
+              "τ=r×F=(0,0,10) N·m, directed along +z."
+            ],
+            "check": "Right-hand rotation from +x to +y points toward +z."
+          }
+        ]
+      },
+      {
+        "id": "vector-10-08-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "vector-10-08-review"
+        ],
+        "blocks": [
+          {
+            "id": "vector-10-08-pitfall",
+            "type": "note",
+            "text": "Do not add speeds as scalars when directions differ; do not compute work with a cross product or torque with a dot product. Confirm units (J for work, N·m for torque) and reference-axis conventions."
+          },
+          {
+            "id": "vector-10-08-checkpoint",
+            "type": "checkpoint",
+            "prompt": "A 6 N force in +x acts through 3 m in +x. What is work?",
+            "answer": "18 J.",
+            "explanation": "Work = F·d = 6×3 = 18 N·m = 18 joules."
+          },
+          {
+            "id": "vector-10-08-reference",
+            "type": "note",
+            "text": "Reference guide (original wording and independently designed examples): Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§5.4–5.7; Lial et al., Trigonometry, 10th ed., §§7.4–7.5; Kelley, The Humongous Book of Trigonometry Problems, Chs. 14–16. For cross products and 3D orientation, see Sullivan §§5.6–5.7; Young, Trigonometry, 3rd ed., Ch. 7. Applied force and work examples use standard vector conventions and should be reviewed with engineering-mechanics references."
+          }
+        ]
+      }
+    ]
+  }
+}

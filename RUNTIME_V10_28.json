@@ -1,0 +1,41 @@
+{
+  "app": "BSECE Board Reviewer",
+  "version": "10.28.0",
+  "generatedAt": "2026-10-10T05:03:10.928Z",
+  "packageLockMatches": true,
+  "coreDependencies": {
+    "present": [],
+    "missing": [
+      "react",
+      "react-dom",
+      "vite",
+      "@vitejs/plugin-react",
+      "@tailwindcss/vite",
+      "express",
+      "ws",
+      "@google/genai",
+      "esbuild",
+      "tsx",
+      "typescript"
+    ]
+  },
+  "installedTypecheck": {
+    "status": "not-run"
+  },
+  "fullBuild": {
+    "status": "not-run"
+  },
+  "processOwnership": "not-run",
+  "browserSmoke": {
+    "status": "not-run"
+  },
+  "physicalCanonF789SGA": "not-tested",
+  "qualifiedDeviceApproval": "not-verified",
+  "overall": "not-certified",
+  "limitations": [
+    "11 npm packages are not locally installed: react, react-dom, vite, @vitejs/plugin-react, @tailwindcss/vite, express, ws, @google/genai, esbuild, tsx, typescript.",
+    "Full runtime checks require a complete npm install and matching lockfile.",
+    "Installed-dependency lint, full build, owned server and real browser journey have not all passed.",
+    "Physical Canon F-789SGA operation and editorial device approval were not tested."
+  ]
+}

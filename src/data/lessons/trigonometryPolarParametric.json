@@ -1,0 +1,620 @@
+{
+  "trig-polar-parametric-polar-coordinate-system": {
+    "id": "trig-polar-parametric-polar-coordinate-system",
+    "title": "Polar coordinate system",
+    "summary": "Use distance and a directed angle to locate points, including negative radii and multiple representations of the same position.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "polar-12-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "polar-12-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-01-definition",
+            "type": "definition",
+            "text": "A polar coordinate pair (r,θ) identifies a point r units along a ray making angle θ with the positive x-axis. The angle is measured counterclockwise when positive. A negative radius reverses the ray direction by π radians. The origin is represented by (0,θ) for any θ, so polar coordinates are not unique."
+          },
+          {
+            "id": "polar-12-01-formula-1",
+            "type": "formula",
+            "latex": "(r,\\theta)\\equiv(r,\\theta+2\\pi k),\\quad k\\in\\mathbb Z"
+          },
+          {
+            "id": "polar-12-01-formula-2",
+            "type": "formula",
+            "latex": "(r,\\theta)\\equiv(-r,\\theta+(2k+1)\\pi)"
+          },
+          {
+            "id": "polar-12-01-formula-3",
+            "type": "formula",
+            "latex": "(x,y)=(r\\cos\\theta,r\\sin\\theta)"
+          },
+          {
+            "id": "polar-12-01-diagram",
+            "type": "diagram",
+            "diagram": "polar-grid",
+            "caption": "Original polar-coordinate grid showing negative radius and angle equivalence; use formulas for exact values."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "polar-12-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-01-worked-1",
+            "type": "worked-example",
+            "title": "Locate (3, 5π/6)",
+            "problem": "Locate (3, 5π/6)",
+            "strategy": "Convert the polar representation into its Cartesian coordinates to confirm the quadrant.",
+            "steps": [
+              "cos(5π/6)=−√3/2 and sin(5π/6)=1/2.",
+              "Therefore x=−3√3/2 and y=3/2; the point lies in Quadrant II."
+            ],
+            "check": "Both the x sign and y sign match Quadrant II."
+          },
+          {
+            "id": "polar-12-01-worked-2",
+            "type": "worked-example",
+            "title": "Find a positive-radius equivalent of (−2, π/3)",
+            "problem": "Find a positive-radius equivalent of (−2, π/3)",
+            "strategy": "Reverse the negative radius and rotate the angle by π.",
+            "steps": [
+              "(−2,π/3)=(2,π/3+π).",
+              "The equivalent positive-radius pair is (2,4π/3)."
+            ],
+            "check": "Check directly: both representations have x=−1 and y=−√3."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-01-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "polar-12-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-01-pitfall",
+            "type": "note",
+            "text": "The radius is not automatically positive. Do not confuse (−r,θ) with (r,θ); a negative r flips the point to the opposite ray."
+          },
+          {
+            "id": "polar-12-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Give a positive-radius representation of (−4,0).",
+            "answer": "(4,π).",
+            "explanation": "Negating the radius moves four units left; using positive r requires θ=π."
+          },
+          {
+            "id": "polar-12-01-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial 10th ed. §8.5; Sullivan 9th ed. §5.1; Kelley Ch. 17. Interpret angle intervals and plotted diagrams using the stated mathematical conventions."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-polar-parametric-rectangular-and-polar-conversion": {
+    "id": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "title": "Rectangular and polar conversion",
+    "summary": "Convert points and equations between rectangular (x,y) and polar (r,θ), choosing a quadrant-correct argument and preserving special cases.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "polar-12-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "polar-12-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-02-definition",
+            "type": "definition",
+            "text": "For a polar point, x=r cosθ and y=r sinθ. The squared-radius equation r²=x²+y² avoids sign ambiguity. For a non-origin rectangular point, take r=√(x²+y²)≥0 and choose θ using the correct quadrant (atan2 is convenient). Equation conversions must account for r=0 before dividing by r."
+          },
+          {
+            "id": "polar-12-02-formula-1",
+            "type": "formula",
+            "latex": "x=r\\cos\\theta,\\quad y=r\\sin\\theta"
+          },
+          {
+            "id": "polar-12-02-formula-2",
+            "type": "formula",
+            "latex": "r^2=x^2+y^2,\\quad \\tan\\theta=\\frac yx\\ (x\\ne0)"
+          },
+          {
+            "id": "polar-12-02-formula-3",
+            "type": "formula",
+            "latex": "r=\\sqrt{x^2+y^2},\\quad \\theta=\\operatorname{atan2}(y,x)"
+          },
+          {
+            "id": "polar-12-02-diagram",
+            "type": "diagram",
+            "diagram": "polar-grid",
+            "caption": "Original polar-coordinate grid showing negative radius and angle equivalence; use formulas for exact values."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "polar-12-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-02-worked-1",
+            "type": "worked-example",
+            "title": "Convert (−3,3√3) to polar coordinates",
+            "problem": "Convert (−3,3√3) to polar coordinates",
+            "strategy": "Compute a nonnegative radius, then choose θ in Quadrant II.",
+            "steps": [
+              "r=√(9+27)=6.",
+              "The reference angle is π/3 and the point is in Quadrant II; θ=2π/3, giving (6,2π/3)."
+            ],
+            "check": "6cos(2π/3)=−3 and 6sin(2π/3)=3√3."
+          },
+          {
+            "id": "polar-12-02-worked-2",
+            "type": "worked-example",
+            "title": "Convert the circle x²+y²=4x into polar form",
+            "problem": "Convert the circle x²+y²=4x into polar form",
+            "strategy": "Substitute r² for x²+y² and r cosθ for x; retain the origin.",
+            "steps": [
+              "Substituting yields r²=4r cosθ.",
+              "Keep r(r−4cosθ)=0 as the full relation; r=4cosθ is also a complete locus here because the origin occurs when cosθ=0."
+            ],
+            "check": "The rectangular circle is centered at (2,0) with radius 2, and passes through the origin."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-02-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "polar-12-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-02-pitfall",
+            "type": "note",
+            "text": "Using arctan(y/x) alone can lose the quadrant. Dividing a polar equation by r may silently remove origin solutions."
+          },
+          {
+            "id": "polar-12-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Find polar coordinates with r≥0 for (0,−5).",
+            "answer": "(5,3π/2), or (5,−π/2).",
+            "explanation": "The point lies on the negative y-axis, five units from the origin."
+          },
+          {
+            "id": "polar-12-02-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial 10th ed. §§8.2, 8.5; Sullivan 9th ed. §5.1; Kelley Ch. 17. Interpret angle intervals and plotted diagrams using the stated mathematical conventions."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-polar-parametric-polar-graphing-and-symmetry": {
+    "id": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "title": "Polar graphing and symmetry",
+    "summary": "Trace polar graphs by sampling angles, finding zeros and maxima, and testing symmetry using equivalence of polar pairs rather than unreliable shortcuts.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "polar-12-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "polar-12-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-03-definition",
+            "type": "definition",
+            "text": "A polar equation r=f(θ) describes a locus as θ varies. Construct a small value table, use Cartesian coordinates for key points, and check repetitions. Negative r plots in the opposite direction. Standard polar-symmetry substitution tests are sufficient when an equation is unchanged, but a failed algebraic test does not prove geometric asymmetry."
+          },
+          {
+            "id": "polar-12-03-formula-1",
+            "type": "formula",
+            "latex": "r=f(\\theta)\\ \\Longrightarrow\\ (x,y)=(f(\\theta)\\cos\\theta,f(\\theta)\\sin\\theta)"
+          },
+          {
+            "id": "polar-12-03-formula-2",
+            "type": "formula",
+            "latex": "(r,\\theta)\\equiv(-r,\\theta+\\pi)"
+          },
+          {
+            "id": "polar-12-03-formula-3",
+            "type": "formula",
+            "latex": "f(-\\theta)=f(\\theta)\\ \\Longrightarrow\\ \\text{polar-axis symmetry (sufficient test)}"
+          },
+          {
+            "id": "polar-12-03-diagram",
+            "type": "diagram",
+            "diagram": "polar-grid",
+            "caption": "Original polar-coordinate grid showing negative radius and angle equivalence; use formulas for exact values."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "polar-12-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-03-worked-1",
+            "type": "worked-example",
+            "title": "Trace r=2cosθ at key angles",
+            "problem": "Trace r=2cosθ at key angles",
+            "strategy": "Sample θ=0,π/2,π to understand the circle geometry.",
+            "steps": [
+              "At θ=0: r=2 gives (2,0); at θ=π/2: r=0 gives the origin.",
+              "At θ=π: r=−2, which also maps to (2,0). Converting gives x²+y²=2x."
+            ],
+            "check": "The graph is a circle of radius 1 centered at (1,0)."
+          },
+          {
+            "id": "polar-12-03-worked-2",
+            "type": "worked-example",
+            "title": "Test symmetry of r=1+cosθ about the polar axis",
+            "problem": "Test symmetry of r=1+cosθ about the polar axis",
+            "strategy": "Compare radii at θ and −θ.",
+            "steps": [
+              "Because cos(−θ)=cosθ, r(−θ)=1+cosθ=r(θ).",
+              "Matching points occur reflected across the x-axis; hence the curve is polar-axis symmetric."
+            ],
+            "check": "The graph has a rightward bulge and a cusp at the pole when θ=π."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-03-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "polar-12-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-03-pitfall",
+            "type": "note",
+            "text": "Do not treat a negative r value as a missing point. A symmetry substitution that does not reproduce the equation may be inconclusive."
+          },
+          {
+            "id": "polar-12-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Where does r=1+cosθ meet the pole?",
+            "answer": "At θ=π (mod 2π).",
+            "explanation": "Set r=0 and solve cosθ=−1; this occurs only when θ=π+2πk."
+          },
+          {
+            "id": "polar-12-03-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial 10th ed. §8.5; Sullivan 9th ed. §5.2; Kelley Ch. 17. Interpret angle intervals and plotted diagrams using the stated mathematical conventions."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-polar-parametric-common-polar-curves": {
+    "id": "trig-polar-parametric-common-polar-curves",
+    "title": "Common polar curves",
+    "summary": "Recognize polar lines, circles, cardioids, limaçons, rose curves, and lemniscates using their equations, symmetries, zeros, and tracing intervals.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "polar-12-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "polar-12-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-04-definition",
+            "type": "definition",
+            "text": "Polar families produce shapes that are difficult to see in rectangular form. Examples include r=a cosθ (a circle through the pole), r=a±b cosθ (limaçons, with a cardioid when |a|=|b|≠0), r=a cos(nθ) or a sin(nθ) (rose curves), and r²=a²cos2θ (lemniscate where the right-hand side is nonnegative)."
+          },
+          {
+            "id": "polar-12-04-formula-1",
+            "type": "formula",
+            "latex": "r=a\\cos\\theta\\ \\Longleftrightarrow\\ (x-a/2)^2+y^2=(a/2)^2"
+          },
+          {
+            "id": "polar-12-04-formula-2",
+            "type": "formula",
+            "latex": "r=a+b\\cos\\theta,\\quad |a|=|b|\\ne0\\ \\Rightarrow\\ \\text{cardioid}"
+          },
+          {
+            "id": "polar-12-04-formula-3",
+            "type": "formula",
+            "latex": "r=a\\cos(n\\theta),\\quad n\\in\\mathbb N,\\quad \\#\\text{petals}=\\begin{cases}n&n\\text{ odd}\\\\2n&n\\text{ even}\\end{cases}"
+          },
+          {
+            "id": "polar-12-04-diagram",
+            "type": "diagram",
+            "diagram": "polar-grid",
+            "caption": "Original polar-coordinate grid showing negative radius and angle equivalence; use formulas for exact values."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "polar-12-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-04-worked-1",
+            "type": "worked-example",
+            "title": "Identify r=4sin(3θ)",
+            "problem": "Identify r=4sin(3θ)",
+            "strategy": "Recognize the rose equation and use n to count petals.",
+            "steps": [
+              "This is r=a sin(nθ) with a=4, n=3.",
+              "Since n is odd, there are three petals, each with maximum radius 4."
+            ],
+            "check": "The three maxima occur at angles solving sin(3θ)=1, spaced by 2π/3."
+          },
+          {
+            "id": "polar-12-04-worked-2",
+            "type": "worked-example",
+            "title": "Identify r=2+2cosθ",
+            "problem": "Identify r=2+2cosθ",
+            "strategy": "Compare the coefficients of the constant and cosine terms.",
+            "steps": [
+              "It has form r=a+bcosθ with a=b=2.",
+              "It is a cardioid; it meets the pole at θ=π and reaches r=4 at θ=0."
+            ],
+            "check": "The cardioid points to the right and is symmetric about the polar axis."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-04-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "polar-12-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-04-pitfall",
+            "type": "note",
+            "text": "Do not apply the rose-petal rule to noninteger n. For r²=a²cos2θ, only angles giving r²≥0 are allowed."
+          },
+          {
+            "id": "polar-12-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "How many petals does r=3cos(4θ) have?",
+            "answer": "Eight petals.",
+            "explanation": "With even positive integer n=4, a rose has 2n=8 petals."
+          },
+          {
+            "id": "polar-12-04-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Sullivan 9th ed. §5.2; Lial 10th ed. §8.5; Kelley Ch. 17. Interpret angle intervals and plotted diagrams using the stated mathematical conventions."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-polar-parametric-parametric-equations": {
+    "id": "trig-polar-parametric-parametric-equations",
+    "title": "Parametric equations",
+    "summary": "Represent planar paths with x(t), y(t), understand their direction and parameter intervals, and eliminate a parameter without losing restrictions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "polar-12-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "polar-12-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-05-definition",
+            "type": "definition",
+            "text": "Parametric equations specify coordinates as functions of a parameter t: (x(t),y(t)). The parameter interval and the order of traversal are part of the description. Different parametrizations may trace the same locus in opposite directions or multiple times. Eliminating t gives the Cartesian locus but can lose orientation and parameter-range information."
+          },
+          {
+            "id": "polar-12-05-formula-1",
+            "type": "formula",
+            "latex": "x=f(t),\\quad y=g(t),\\quad t\\in I"
+          },
+          {
+            "id": "polar-12-05-formula-2",
+            "type": "formula",
+            "latex": "x=a\\cos t,\\quad y=b\\sin t\\ \\Rightarrow\\ \\frac{x^2}{a^2}+\\frac{y^2}{b^2}=1"
+          },
+          {
+            "id": "polar-12-05-formula-3",
+            "type": "formula",
+            "latex": "x=at+b,\\ y=ct+d\\ \\Longrightarrow\\ y=\\frac ca(x-b)+d\\quad(a\\ne0)"
+          },
+          {
+            "id": "polar-12-05-diagram",
+            "type": "diagram",
+            "diagram": "parametric-circle",
+            "caption": "Original parametric circle diagram showing increasing parameter and direction of travel; not drawn to scale for exact values."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "polar-12-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-05-worked-1",
+            "type": "worked-example",
+            "title": "Eliminate t from x=2t+1, y=t²",
+            "problem": "Eliminate t from x=2t+1, y=t²",
+            "strategy": "Solve the first equation and substitute into the second.",
+            "steps": [
+              "t=(x−1)/2.",
+              "Therefore y=(x−1)²/4; if t≥0, only x≥1 is traced."
+            ],
+            "check": "Check t=0: the path starts at (1,0) and moves toward increasing x."
+          },
+          {
+            "id": "polar-12-05-worked-2",
+            "type": "worked-example",
+            "title": "Trace x=3cos t, y=3sin t, 0≤t≤π",
+            "problem": "Trace x=3cos t, y=3sin t, 0≤t≤π",
+            "strategy": "Use the circle identity and evaluate the endpoints and midpoint.",
+            "steps": [
+              "x²+y²=9 is the Cartesian circle.",
+              "t=0 gives (3,0), t=π/2 gives (0,3), t=π gives (−3,0)."
+            ],
+            "check": "Only the upper semicircle is traced, counterclockwise from right to left."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-05-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "polar-12-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-05-pitfall",
+            "type": "note",
+            "text": "Do not label the entire Cartesian curve as the traced path when t is restricted. Eliminating t also hides direction and possible repeated traversal."
+          },
+          {
+            "id": "polar-12-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For x=t, y=t², 0≤t≤2, which part is traced?",
+            "answer": "y=x² for 0≤x≤2, left to right.",
+            "explanation": "Since x=t, the parameter interval directly restricts x and fixes the traversal direction."
+          },
+          {
+            "id": "polar-12-05-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial 10th ed. §8.6; Sullivan 9th ed. §6.7; Kelley Ch. 17. Interpret angle intervals and plotted diagrams using the stated mathematical conventions."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-polar-parametric-conversion-and-graphical-interpretation": {
+    "id": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "title": "Conversion and graphical interpretation",
+    "summary": "Relate polar and parametric representations, interpret a curve’s direction and repeats, and preserve all restrictions when converting to a rectangular equation.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "polar-12-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "polar-12-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-06-definition",
+            "type": "definition",
+            "text": "A polar graph r=f(θ) has natural parametrization x(θ)=f(θ)cosθ, y(θ)=f(θ)sinθ. Conversely, for a parametric path use r(t)=√(x(t)²+y(t)²) and θ(t)=atan2(y(t),x(t)) away from the origin. An eliminated Cartesian equation describes the locus but not necessarily the orientation, number of traversals, or exact endpoints."
+          },
+          {
+            "id": "polar-12-06-formula-1",
+            "type": "formula",
+            "latex": "x(t)=r(t)\\cos\\theta(t),\\quad y(t)=r(t)\\sin\\theta(t)"
+          },
+          {
+            "id": "polar-12-06-formula-2",
+            "type": "formula",
+            "latex": "r(t)=\\sqrt{x(t)^2+y(t)^2}"
+          },
+          {
+            "id": "polar-12-06-formula-3",
+            "type": "formula",
+            "latex": "\\theta(t)=\\operatorname{atan2}(y(t),x(t))\\quad\\text{if }r(t)>0"
+          },
+          {
+            "id": "polar-12-06-diagram",
+            "type": "diagram",
+            "diagram": "parametric-circle",
+            "caption": "Original parametric circle diagram showing increasing parameter and direction of travel; not drawn to scale for exact values."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "polar-12-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-06-worked-1",
+            "type": "worked-example",
+            "title": "Parametrize r=2sinθ for 0≤θ≤π",
+            "problem": "Parametrize r=2sinθ for 0≤θ≤π",
+            "strategy": "Treat θ as the parameter and convert pointwise.",
+            "steps": [
+              "x(θ)=2sinθcosθ=sin2θ.",
+              "y(θ)=2sin²θ=1−cos2θ, and x²+(y−1)²=1."
+            ],
+            "check": "The circle centered at (0,1) is traced once over 0≤θ≤π; its start and end are the pole."
+          },
+          {
+            "id": "polar-12-06-worked-2",
+            "type": "worked-example",
+            "title": "Interpret x=cos(2t), y=sin(2t), 0≤t≤2π",
+            "problem": "Interpret x=cos(2t), y=sin(2t), 0≤t≤2π",
+            "strategy": "Convert to the circle equation and track the angle.",
+            "steps": [
+              "The locus is x²+y²=1.",
+              "The position angle is 2t, which increases from 0 to 4π, so the path is traced twice counterclockwise."
+            ],
+            "check": "At t=0,π,2π the point is (1,0), showing repeat traversal."
+          }
+        ]
+      },
+      {
+        "id": "polar-12-06-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "polar-12-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "polar-12-06-pitfall",
+            "type": "note",
+            "text": "Converting to x²+y²=constant discards how many times a path is traced. At the origin, the angle θ is not uniquely determined."
+          },
+          {
+            "id": "polar-12-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "How many laps does x=cos3t, y=sin3t make for 0≤t≤2π?",
+            "answer": "Three counterclockwise laps.",
+            "explanation": "The angle 3t runs from 0 through 6π, which comprises three complete positive rotations."
+          },
+          {
+            "id": "polar-12-06-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial 10th ed. §§8.5–8.6; Sullivan 9th ed. §§5.1–5.2, 6.7; Kelley Ch. 17. Interpret angle intervals and plotted diagrams using the stated mathematical conventions."
+          }
+        ]
+      }
+    ]
+  }
+}

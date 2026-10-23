@@ -1,0 +1,42 @@
+{
+  "release": "10.49.0",
+  "base": "10.48.0",
+  "scope": "Topic 14 optional Advanced Trigonometry",
+  "content": {
+    "total_topics": 14,
+    "curriculum_subtopics": 102,
+    "draft_lessons_linked": 102,
+    "core_subtopics_linked": 95,
+    "optional_subtopics_linked": 7,
+    "added_lessons": 7,
+    "added_questions": 56,
+    "trigonometry_practice_questions": 816,
+    "algebra_practice_entries": 422,
+    "practice_catalog_total": 1238,
+    "new_diagrams": 2
+  },
+  "checks": {
+    "trigonometry_chain_v1037_through_v1049": "pass",
+    "practice_v1034": "pass",
+    "manual_learning_v10351": "pass",
+    "learn_reader_v1031": "pass",
+    "algebra_reference": "pass",
+    "content_v1030": "pass",
+    "source_imports": "pass",
+    "focused_typescript_reader": "pass",
+    "focused_typescript_practice": "pass",
+    "npm_ci_offline": "blocked: missing cached zwitch",
+    "full_lint": "unverified",
+    "full_build": "unverified",
+    "browser_smoke": "unverified",
+    "independent_editorial_review": "not performed"
+  },
+  "evidence_note": "Question key fixtures were prepared with the source, not a blinded independent review. Representative mathematical identities were cross-checked numerically. All new material is draft, not verified. Historical validator counts exclude new cohorts without dropping previous content checks.",
+  "compatibility": {
+    "curriculum_ids_preserved": true,
+    "legacy_topics_retained": true,
+    "manual_progress_schema_changed": false,
+    "algebra_keys_changed": false,
+    "optional_excluded_from_core_completion": true
+  }
+}

@@ -1,0 +1,1892 @@
+[
+  {
+    "id": "PG-Q001-01",
+    "topic_id": "GEO-001",
+    "title": "Points, lines, segments, rays, and planes",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Point B lies between A and C. If AB = 8 cm and BC = 13 cm, find AC.",
+    "unit": "cm",
+    "rule": "segment_add",
+    "params": [
+      8,
+      13
+    ],
+    "expected": 21,
+    "options": [
+      15.75,
+      21,
+      25.2,
+      30.45
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Use segment addition: AC = AB + BC = 8 + 13.",
+      "Answer = 21 cm."
+    ],
+    "restriction": "Do not interpret a full line or ray as having a finite length.",
+    "formulaId": "PG-F001"
+  },
+  {
+    "id": "PG-Q001-02",
+    "topic_id": "GEO-001",
+    "title": "Points, lines, segments, rays, and planes",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "Which pair of objects necessarily defines a unique plane?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Two coincident points",
+      "One straight line without another point",
+      "Three noncollinear points",
+      "Any two parallel rays with the same endpoint"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Three noncollinear points determine one plane; collinear points admit infinitely many planes."
+    ],
+    "restriction": "Do not interpret a full line or ray as having a finite length.",
+    "formulaId": "PG-F001"
+  },
+  {
+    "id": "PG-Q002-01",
+    "topic_id": "GEO-002",
+    "title": "Angle types, measurement, and relationships",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Two angles are complementary. One measures 37°. Find the other.",
+    "unit": "°",
+    "rule": "complement",
+    "params": [
+      37
+    ],
+    "expected": 53,
+    "options": [
+      39.75,
+      63.6,
+      53,
+      76.85
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Complement: 90° − 37° = 53°.",
+      "Answer = 53 °."
+    ],
+    "restriction": "Do not confuse complementary with supplementary angles.",
+    "formulaId": "PG-F002"
+  },
+  {
+    "id": "PG-Q002-02",
+    "topic_id": "GEO-002",
+    "title": "Angle types, measurement, and relationships",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "An angle measures 126°. Find its supplement.",
+    "unit": "°",
+    "rule": "supplement",
+    "params": [
+      126
+    ],
+    "expected": 54,
+    "options": [
+      40.5,
+      64.8,
+      78.3,
+      54
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Supplement: 180° − 126° = 54°.",
+      "Answer = 54 °."
+    ],
+    "restriction": "Do not confuse complementary with supplementary angles.",
+    "formulaId": "PG-F002"
+  },
+  {
+    "id": "PG-Q003-01",
+    "topic_id": "GEO-003",
+    "title": "Parallel and perpendicular lines",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "A surveyor verifies that two straight sight lines meet at a right angle. What is their relationship?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Parallel",
+      "Skew",
+      "Coincident",
+      "Perpendicular"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A 90° intersection is the definition of perpendicular lines."
+    ],
+    "restriction": "Lines that look perpendicular in a schematic may not be.",
+    "formulaId": "PG-F003"
+  },
+  {
+    "id": "PG-Q003-02",
+    "topic_id": "GEO-003",
+    "title": "Parallel and perpendicular lines",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "One angle at an intersection is 90°. Find its adjacent linear-pair angle.",
+    "unit": "°",
+    "rule": "linear_pair",
+    "params": [
+      90
+    ],
+    "expected": 90,
+    "options": [
+      90,
+      67.5,
+      108.0,
+      130.5
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The pair sums to 180°, so the adjacent angle is 90°.",
+      "Answer = 90 °."
+    ],
+    "restriction": "Lines that look perpendicular in a schematic may not be.",
+    "formulaId": "PG-F003"
+  },
+  {
+    "id": "PG-Q004-01",
+    "topic_id": "GEO-004",
+    "title": "Transversal and corresponding angles",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A transversal crosses parallel lines. One corresponding angle is 63°. Find its partner.",
+    "unit": "°",
+    "rule": "corresponding",
+    "params": [
+      63
+    ],
+    "expected": 63,
+    "options": [
+      63,
+      47.25,
+      75.6,
+      91.35
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Corresponding angles are equal for parallel lines.",
+      "Answer = 63 °."
+    ],
+    "restriction": "Angle-pair theorems require the two lines to be parallel.",
+    "formulaId": "PG-F004"
+  },
+  {
+    "id": "PG-Q004-02",
+    "topic_id": "GEO-004",
+    "title": "Transversal and corresponding angles",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "Consecutive interior angles of parallel lines sum to 180°. If one is 112°, find the other.",
+    "unit": "°",
+    "rule": "linear_pair",
+    "params": [
+      112
+    ],
+    "expected": 68,
+    "options": [
+      51.0,
+      68,
+      81.6,
+      98.6
+    ],
+    "correctIndex": 1,
+    "work": [
+      "180° − 112° = 68°.",
+      "Answer = 68 °."
+    ],
+    "restriction": "Angle-pair theorems require the two lines to be parallel.",
+    "formulaId": "PG-F004"
+  },
+  {
+    "id": "PG-Q005-01",
+    "topic_id": "GEO-005",
+    "title": "Reasoning, postulates, and elementary proofs",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "Which property justifies concluding AB = CD from AB = EF and EF = CD?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Reflexive property",
+      "Transitive property",
+      "Supplementary angle theorem",
+      "Vertical angle theorem"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Equality is transitive: quantities equal to the same quantity are equal."
+    ],
+    "restriction": "A diagram is not proof of equality, parallelism or congruence.",
+    "formulaId": "PG-F005"
+  },
+  {
+    "id": "PG-Q005-02",
+    "topic_id": "GEO-005",
+    "title": "Reasoning, postulates, and elementary proofs",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which statement is a valid first step in a proof?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Measure every angle by eye",
+      "Assume the conclusion",
+      "Record the givens and established definitions",
+      "Treat all drawn lengths as equal"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A proof begins with the given statements and permitted facts."
+    ],
+    "restriction": "A diagram is not proof of equality, parallelism or congruence.",
+    "formulaId": "PG-F005"
+  },
+  {
+    "id": "PG-Q006-01",
+    "topic_id": "GEO-006",
+    "title": "Geometric constructions with compass and straightedge",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "What property characterizes every point on the perpendicular bisector of segment AB?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "It is always the midpoint of AB",
+      "It lies on AB",
+      "It is equally distant from A and B",
+      "It is 90° from the origin"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Perpendicular-bisector points have equal distances to the segment endpoints."
+    ],
+    "restriction": "An unmarked straightedge cannot directly measure lengths.",
+    "formulaId": "PG-F006"
+  },
+  {
+    "id": "PG-Q006-02",
+    "topic_id": "GEO-006",
+    "title": "Geometric constructions with compass and straightedge",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which tool pair is permitted in classical Euclidean constructions?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Protractor and calibrated ruler",
+      "Graphing calculator and scale",
+      "Measuring tape and ruler",
+      "Unmarked straightedge and compass"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "The standard construction tools are an unmarked straightedge and a compass."
+    ],
+    "restriction": "An unmarked straightedge cannot directly measure lengths.",
+    "formulaId": "PG-F006"
+  },
+  {
+    "id": "PG-Q007-01",
+    "topic_id": "GEO-007",
+    "title": "Triangle classifications and angle sums",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Two angles of a triangular plate measure 48° and 67°. Find the third.",
+    "unit": "°",
+    "rule": "angle_sum",
+    "params": [
+      48,
+      67
+    ],
+    "expected": 65,
+    "options": [
+      48.75,
+      78.0,
+      94.25,
+      65
+    ],
+    "correctIndex": 3,
+    "work": [
+      "180° − 48° − 67° = 65°.",
+      "Answer = 65 °."
+    ],
+    "restriction": "Two interior angles cannot both be obtuse.",
+    "formulaId": "PG-F007"
+  },
+  {
+    "id": "PG-Q007-02",
+    "topic_id": "GEO-007",
+    "title": "Triangle classifications and angle sums",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "Two remote interior angles of a triangle are 42° and 76°. Find their exterior angle.",
+    "unit": "°",
+    "rule": "triangle_exterior",
+    "params": [
+      42,
+      76
+    ],
+    "expected": 118,
+    "options": [
+      118,
+      88.5,
+      141.6,
+      171.1
+    ],
+    "correctIndex": 0,
+    "work": [
+      "An exterior angle equals the sum of remote interior angles.",
+      "Answer = 118 °."
+    ],
+    "restriction": "Two interior angles cannot both be obtuse.",
+    "formulaId": "PG-F007"
+  },
+  {
+    "id": "PG-Q008-01",
+    "topic_id": "GEO-008",
+    "title": "Congruent triangles and criteria",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "Two triangles have equal corresponding side lengths for all three sides. Which test proves congruence?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "SSS",
+      "AAA",
+      "SSA",
+      "AA similarity"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The side-side-side congruence criterion applies."
+    ],
+    "restriction": "SSA and AAA do not establish triangle congruence in general.",
+    "formulaId": "PG-F008"
+  },
+  {
+    "id": "PG-Q008-02",
+    "topic_id": "GEO-008",
+    "title": "Congruent triangles and criteria",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Two triangles have two equal sides and a nonincluded equal angle. Does this always prove congruence?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Yes, by SAS",
+      "No; SSA can be ambiguous",
+      "Yes, by AAA",
+      "Yes, by a parallel-line theorem"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SSA generally permits more than one triangle."
+    ],
+    "restriction": "SSA and AAA do not establish triangle congruence in general.",
+    "formulaId": "PG-F008"
+  },
+  {
+    "id": "PG-Q009-01",
+    "topic_id": "GEO-009",
+    "title": "Triangle inequalities and side-angle relationships",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Two sides of a triangle measure 7 cm and 11 cm. What is the upper bound (not included) for the third side?",
+    "unit": "cm",
+    "rule": "triangle_sides",
+    "params": [
+      7,
+      11
+    ],
+    "expected": 18,
+    "options": [
+      13.5,
+      18,
+      21.6,
+      26.1
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Triangle inequality: c < 7 + 11 = 18.",
+      "Answer = 18 cm."
+    ],
+    "restriction": "Equality yields a degenerate triangle, not a proper triangle.",
+    "formulaId": "PG-F009"
+  },
+  {
+    "id": "PG-Q009-02",
+    "topic_id": "GEO-009",
+    "title": "Triangle inequalities and side-angle relationships",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Can 4 cm, 5 cm, and 10 cm form a nondegenerate triangle?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Yes, by SSS",
+      "Yes, because all sides differ",
+      "No, because 4 + 5 < 10",
+      "Yes, because two sides total 9"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The sum of any two sides must exceed the third."
+    ],
+    "restriction": "Equality yields a degenerate triangle, not a proper triangle.",
+    "formulaId": "PG-F009"
+  },
+  {
+    "id": "PG-Q010-01",
+    "topic_id": "GEO-010",
+    "title": "Triangle medians, altitudes, and centers",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A triangle median has length 15 cm. How far is its centroid from the vertex?",
+    "unit": "cm",
+    "rule": "centroid",
+    "params": [
+      15
+    ],
+    "expected": 10.0,
+    "options": [
+      7.5,
+      12.0,
+      10.0,
+      14.5
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The centroid is two-thirds of the median: (2/3) × 15.",
+      "Answer = 10 cm."
+    ],
+    "restriction": "The orthocenter can lie outside an obtuse triangle.",
+    "formulaId": "PG-F010"
+  },
+  {
+    "id": "PG-Q010-02",
+    "topic_id": "GEO-010",
+    "title": "Triangle medians, altitudes, and centers",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which triangle center is the intersection of the perpendicular bisectors?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Centroid",
+      "Incenter",
+      "Orthocenter",
+      "Circumcenter"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "The perpendicular bisectors meet at the circumcenter."
+    ],
+    "restriction": "The orthocenter can lie outside an obtuse triangle.",
+    "formulaId": "PG-F010"
+  },
+  {
+    "id": "PG-Q011-01",
+    "topic_id": "GEO-011",
+    "title": "Pythagorean theorem and converse",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A right-angle bracket has legs of 9 cm and 12 cm. Find its diagonal.",
+    "unit": "cm",
+    "rule": "pythag",
+    "params": [
+      9,
+      12
+    ],
+    "expected": 15.0,
+    "options": [
+      11.25,
+      18.0,
+      21.75,
+      15.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Apply c = √(9² + 12²) = √225.",
+      "Answer = 15 cm."
+    ],
+    "restriction": "Never use the Pythagorean equality for a non-right triangle.",
+    "formulaId": "PG-F011"
+  },
+  {
+    "id": "PG-Q011-02",
+    "topic_id": "GEO-011",
+    "title": "Pythagorean theorem and converse",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A right triangle has hypotenuse 13 m and one leg 5 m. Find the other leg.",
+    "unit": "m",
+    "rule": "pythag_leg",
+    "params": [
+      13,
+      5
+    ],
+    "expected": 12.0,
+    "options": [
+      12.0,
+      9.0,
+      14.4,
+      17.4
+    ],
+    "correctIndex": 0,
+    "work": [
+      "b = √(13² − 5²) = √144.",
+      "Answer = 12 m."
+    ],
+    "restriction": "Never use the Pythagorean equality for a non-right triangle.",
+    "formulaId": "PG-F011"
+  },
+  {
+    "id": "PG-Q012-01",
+    "topic_id": "GEO-012",
+    "title": "Special right triangles (30-60-90, 45-45-90)",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the hypotenuse of a 45–45–90 triangle whose leg is 8 cm.",
+    "unit": "cm",
+    "rule": "leg45",
+    "params": [
+      8
+    ],
+    "expected": 11.3137,
+    "options": [
+      11.3137,
+      8.4853,
+      13.5764,
+      16.4049
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Multiply the leg by √2.",
+      "Answer = 11.3137 cm."
+    ],
+    "restriction": "Do not confuse the side opposite 30° with the longer leg.",
+    "formulaId": "PG-F012"
+  },
+  {
+    "id": "PG-Q012-02",
+    "topic_id": "GEO-012",
+    "title": "Special right triangles (30-60-90, 45-45-90)",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "The short leg opposite 30° is 6 m. Find the long leg opposite 60°.",
+    "unit": "m",
+    "rule": "leg30",
+    "params": [
+      6
+    ],
+    "expected": 10.3923,
+    "options": [
+      7.7942,
+      10.3923,
+      12.4708,
+      15.0688
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Long leg = short leg × √3.",
+      "Answer = 10.3923 m."
+    ],
+    "restriction": "Do not confuse the side opposite 30° with the longer leg.",
+    "formulaId": "PG-F012"
+  },
+  {
+    "id": "PG-Q013-01",
+    "topic_id": "GEO-013",
+    "title": "Triangle similarity criteria and proportions",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Two similar triangles have corresponding sides 12 cm and 9 cm. If a second side of the larger triangle is 18 cm, find the matching smaller side.",
+    "unit": "cm",
+    "rule": "scale",
+    "params": [
+      18,
+      9,
+      12
+    ],
+    "expected": 13.5,
+    "options": [
+      10.125,
+      13.5,
+      16.2,
+      19.575
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Apply scale 9/12 to 18 cm.",
+      "Answer = 13.5 cm."
+    ],
+    "restriction": "Similarity does not imply equal size or equal area.",
+    "formulaId": "PG-F013"
+  },
+  {
+    "id": "PG-Q013-02",
+    "topic_id": "GEO-013",
+    "title": "Triangle similarity criteria and proportions",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What condition proves similarity using two angles?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "SSA congruence",
+      "Equal perimeters",
+      "AA similarity",
+      "One matching side"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Two matching angles suffice for triangle similarity."
+    ],
+    "restriction": "Similarity does not imply equal size or equal area.",
+    "formulaId": "PG-F013"
+  },
+  {
+    "id": "PG-Q014-01",
+    "topic_id": "GEO-014",
+    "title": "Proportional segments and midsegment theorem",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A triangle side measures 24 cm. Find the length of its parallel midsegment.",
+    "unit": "cm",
+    "rule": "midsegment",
+    "params": [
+      24
+    ],
+    "expected": 12.0,
+    "options": [
+      9.0,
+      14.4,
+      12.0,
+      17.4
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The midsegment has half the corresponding side length.",
+      "Answer = 12 cm."
+    ],
+    "restriction": "A line through only one midpoint is not necessarily a midsegment.",
+    "formulaId": "PG-F014"
+  },
+  {
+    "id": "PG-Q014-02",
+    "topic_id": "GEO-014",
+    "title": "Proportional segments and midsegment theorem",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "An angle bisector divides the opposite side of length 30 cm in the ratio 3:2. Find the longer segment.",
+    "unit": "cm",
+    "rule": "angle_bisector",
+    "params": [
+      30,
+      3,
+      2
+    ],
+    "expected": 18.0,
+    "options": [
+      13.5,
+      21.6,
+      26.1,
+      18.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Partition 30 into 3+2 = 5 equal ratio parts; longer = 30×3/5.",
+      "Answer = 18 cm."
+    ],
+    "restriction": "A line through only one midpoint is not necessarily a midsegment.",
+    "formulaId": "PG-F014-B"
+  },
+  {
+    "id": "PG-Q015-01",
+    "topic_id": "GEO-015",
+    "title": "Right-triangle trigonometric ratios and applications",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A vertical signal mast is observed from 25 m away on level ground at 30° elevation. Find its height (ignore eye height).",
+    "unit": "m",
+    "rule": "tanheight",
+    "params": [
+      25,
+      30
+    ],
+    "expected": 14.4338,
+    "options": [
+      10.8254,
+      17.3206,
+      20.929,
+      14.4338
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Height = 25 × tan 30°.",
+      "Answer = 14.4338 m."
+    ],
+    "restriction": "The standard ratios assume a right triangle and correctly identified reference angle.",
+    "formulaId": "PG-F015"
+  },
+  {
+    "id": "PG-Q015-02",
+    "topic_id": "GEO-015",
+    "title": "Right-triangle trigonometric ratios and applications",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A technician observes the top of a wall from 18 m away at 45° above the horizontal. Find its height.",
+    "unit": "m",
+    "rule": "tanheight",
+    "params": [
+      18,
+      45
+    ],
+    "expected": 18.0,
+    "options": [
+      18.0,
+      13.5,
+      21.6,
+      26.1
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Height = 18 × tan 45°.",
+      "Answer = 18 m."
+    ],
+    "restriction": "The standard ratios assume a right triangle and correctly identified reference angle.",
+    "formulaId": "PG-F015"
+  },
+  {
+    "id": "PG-Q016-01",
+    "topic_id": "GEO-016",
+    "title": "Heron formula and area from three sides",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the area of a triangular plot with sides 13 m, 14 m and 15 m.",
+    "unit": "m²",
+    "rule": "heron",
+    "params": [
+      13,
+      14,
+      15
+    ],
+    "expected": 84.0,
+    "options": [
+      84.0,
+      63.0,
+      100.8,
+      121.8
+    ],
+    "correctIndex": 0,
+    "work": [
+      "s=21 m; area = √(21×8×7×6) = 84.",
+      "Answer = 84 m²."
+    ],
+    "restriction": "Sides must satisfy strict triangle inequalities.",
+    "formulaId": "PG-F016"
+  },
+  {
+    "id": "PG-Q016-02",
+    "topic_id": "GEO-016",
+    "title": "Heron formula and area from three sides",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A triangular panel has sides 5 cm, 5 cm, 6 cm. Find its area.",
+    "unit": "cm²",
+    "rule": "heron",
+    "params": [
+      5,
+      5,
+      6
+    ],
+    "expected": 12.0,
+    "options": [
+      9.0,
+      12.0,
+      14.4,
+      17.4
+    ],
+    "correctIndex": 1,
+    "work": [
+      "s=8 cm; area = √(8×3×3×2) = 12.",
+      "Answer = 12 cm²."
+    ],
+    "restriction": "Sides must satisfy strict triangle inequalities.",
+    "formulaId": "PG-F016"
+  },
+  {
+    "id": "PG-Q017-01",
+    "topic_id": "GEO-017",
+    "title": "Parallelograms and trapezoids",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A slanted parallelogram has base 12 cm and perpendicular height 7 cm. Find its area.",
+    "unit": "cm²",
+    "rule": "parallelogram_area",
+    "params": [
+      12,
+      7
+    ],
+    "expected": 84,
+    "options": [
+      63.0,
+      84,
+      100.8,
+      121.8
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Area = base × perpendicular height, not sloping edge.",
+      "Answer = 84 cm²."
+    ],
+    "restriction": "Textbooks vary on whether a trapezoid has exactly one or at least one parallel pair; state the convention.",
+    "formulaId": "PG-F017"
+  },
+  {
+    "id": "PG-Q017-02",
+    "topic_id": "GEO-017",
+    "title": "Parallelograms and trapezoids",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which pair of sides must be parallel in a parallelogram?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Only its diagonals",
+      "Only one pair of adjacent sides",
+      "Both pairs of opposite sides",
+      "No sides"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "By definition, each opposite side pair is parallel."
+    ],
+    "restriction": "Textbooks vary on whether a trapezoid has exactly one or at least one parallel pair; state the convention.",
+    "formulaId": "PG-F017"
+  },
+  {
+    "id": "PG-Q018-01",
+    "topic_id": "GEO-018",
+    "title": "Rectangles, squares, rhombi, and kites",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A kite-shaped panel has perpendicular diagonals 10 cm and 18 cm. Find its area.",
+    "unit": "cm²",
+    "rule": "kite_area",
+    "params": [
+      10,
+      18
+    ],
+    "expected": 90.0,
+    "options": [
+      67.5,
+      108.0,
+      90.0,
+      130.5
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Area = (10×18)/2.",
+      "Answer = 90 cm²."
+    ],
+    "restriction": "The kite diagonal-area rule requires perpendicular diagonals; ordinary convex kites satisfy it.",
+    "formulaId": "PG-F018"
+  },
+  {
+    "id": "PG-Q018-02",
+    "topic_id": "GEO-018",
+    "title": "Rectangles, squares, rhombi, and kites",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which statement describes every square?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "It is never a parallelogram",
+      "Its diagonals differ in length",
+      "Its angles are not all right",
+      "It is both a rectangle and a rhombus"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A square meets both rectangle and rhombus definitions."
+    ],
+    "restriction": "The kite diagonal-area rule requires perpendicular diagonals; ordinary convex kites satisfy it.",
+    "formulaId": "PG-F018"
+  },
+  {
+    "id": "PG-Q019-01",
+    "topic_id": "GEO-019",
+    "title": "Properties of regular polygons",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find each interior angle of a regular octagon.",
+    "unit": "°",
+    "rule": "poly_angle",
+    "params": [
+      8
+    ],
+    "expected": 135.0,
+    "options": [
+      101.25,
+      162.0,
+      195.75,
+      135.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "(8−2)×180°/8 = 135°.",
+      "Answer = 135 °."
+    ],
+    "restriction": "A polygon with only equal angles is not necessarily regular.",
+    "formulaId": "PG-F019"
+  },
+  {
+    "id": "PG-Q019-02",
+    "topic_id": "GEO-019",
+    "title": "Properties of regular polygons",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A regular pentagon has side length 10 cm. Find its apothem.",
+    "unit": "cm",
+    "rule": "apothem",
+    "params": [
+      10,
+      5
+    ],
+    "expected": 6.8819,
+    "options": [
+      6.8819,
+      5.1614,
+      8.2583,
+      9.9788
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Apothem a = s/[2 tan(π/5)] with n=5.",
+      "Answer = 6.8819 cm."
+    ],
+    "restriction": "A polygon with only equal angles is not necessarily regular.",
+    "formulaId": "PG-F019-B"
+  },
+  {
+    "id": "PG-Q020-01",
+    "topic_id": "GEO-020",
+    "title": "Polygon angles and number of diagonals",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "How many diagonals does a convex decagon have?",
+    "unit": "diagonals",
+    "rule": "poly_diagonals",
+    "params": [
+      10
+    ],
+    "expected": 35.0,
+    "options": [
+      35.0,
+      26.25,
+      42.0,
+      50.75
+    ],
+    "correctIndex": 0,
+    "work": [
+      "D = 10×(10−3)/2.",
+      "Answer = 35 diagonals."
+    ],
+    "restriction": "These formulas assume a simple polygon with n≥3.",
+    "formulaId": "PG-F020"
+  },
+  {
+    "id": "PG-Q020-02",
+    "topic_id": "GEO-020",
+    "title": "Polygon angles and number of diagonals",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "Find each interior angle of a regular dodecagon.",
+    "unit": "°",
+    "rule": "poly_angle",
+    "params": [
+      12
+    ],
+    "expected": 150.0,
+    "options": [
+      112.5,
+      150.0,
+      180.0,
+      217.5
+    ],
+    "correctIndex": 1,
+    "work": [
+      "(12−2)×180°/12 = 150°.",
+      "Answer = 150 °."
+    ],
+    "restriction": "These formulas assume a simple polygon with n≥3.",
+    "formulaId": "PG-F020"
+  },
+  {
+    "id": "PG-Q021-01",
+    "topic_id": "GEO-021",
+    "title": "Perimeter and area of triangles",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A triangular rooftop panel has base 18 m and perpendicular height 9 m. Find its area.",
+    "unit": "m²",
+    "rule": "triangle_area",
+    "params": [
+      18,
+      9
+    ],
+    "expected": 81.0,
+    "options": [
+      60.75,
+      81.0,
+      97.2,
+      117.45
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Area = 18×9/2.",
+      "Answer = 81 m²."
+    ],
+    "restriction": "A slanted side is not automatically the perpendicular height.",
+    "formulaId": "PG-F021"
+  },
+  {
+    "id": "PG-Q021-02",
+    "topic_id": "GEO-021",
+    "title": "Perimeter and area of triangles",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A triangular sign has base 23 cm and perpendicular height 8 cm. Find its area.",
+    "unit": "cm²",
+    "rule": "triangle_area",
+    "params": [
+      23,
+      8
+    ],
+    "expected": 92.0,
+    "options": [
+      69.0,
+      110.4,
+      92.0,
+      133.4
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Area = 23×8/2.",
+      "Answer = 92 cm²."
+    ],
+    "restriction": "A slanted side is not automatically the perpendicular height.",
+    "formulaId": "PG-F021"
+  },
+  {
+    "id": "PG-Q022-01",
+    "topic_id": "GEO-022",
+    "title": "Areas of quadrilaterals and trapezoids",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A trapezoidal field has parallel bases 14 m and 20 m and perpendicular height 9 m. Find its area.",
+    "unit": "m²",
+    "rule": "trap_area",
+    "params": [
+      14,
+      20,
+      9
+    ],
+    "expected": 153.0,
+    "options": [
+      114.75,
+      183.6,
+      153.0,
+      221.85
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A=(14+20)×9/2.",
+      "Answer = 153 m²."
+    ],
+    "restriction": "Nonparallel side lengths must not be substituted for the height.",
+    "formulaId": "PG-F022"
+  },
+  {
+    "id": "PG-Q022-02",
+    "topic_id": "GEO-022",
+    "title": "Areas of quadrilaterals and trapezoids",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "An equipment plate is a trapezoid with bases 5 cm and 11 cm and altitude 7 cm. Find its area.",
+    "unit": "cm²",
+    "rule": "trap_area",
+    "params": [
+      5,
+      11,
+      7
+    ],
+    "expected": 56.0,
+    "options": [
+      42.0,
+      67.2,
+      81.2,
+      56.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A=(5+11)×7/2.",
+      "Answer = 56 cm²."
+    ],
+    "restriction": "Nonparallel side lengths must not be substituted for the height.",
+    "formulaId": "PG-F022"
+  },
+  {
+    "id": "PG-Q023-01",
+    "topic_id": "GEO-023",
+    "title": "Areas of regular polygons and apothems",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A regular polygon has perimeter 48 cm and apothem 6 cm. Find its area.",
+    "unit": "cm²",
+    "rule": "polygon_area",
+    "params": [
+      48,
+      6
+    ],
+    "expected": 144.0,
+    "options": [
+      108.0,
+      172.8,
+      208.8,
+      144.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A=48×6/2.",
+      "Answer = 144 cm²."
+    ],
+    "restriction": "Formula A=Pa/2 assumes the apothem of a tangential regular polygon.",
+    "formulaId": "PG-F023"
+  },
+  {
+    "id": "PG-Q023-02",
+    "topic_id": "GEO-023",
+    "title": "Areas of regular polygons and apothems",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A regular courtyard polygon has perimeter 90 m and apothem 7 m. Find its area.",
+    "unit": "m²",
+    "rule": "polygon_area",
+    "params": [
+      90,
+      7
+    ],
+    "expected": 315.0,
+    "options": [
+      315.0,
+      236.25,
+      378.0,
+      456.75
+    ],
+    "correctIndex": 0,
+    "work": [
+      "A=90×7/2.",
+      "Answer = 315 m²."
+    ],
+    "restriction": "Formula A=Pa/2 assumes the apothem of a tangential regular polygon.",
+    "formulaId": "PG-F023"
+  },
+  {
+    "id": "PG-Q024-01",
+    "topic_id": "GEO-024",
+    "title": "Composite plane figures and removed regions",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A 12 m × 10 m floor has a circular 2 m-radius opening. Find the remaining area.",
+    "unit": "m²",
+    "rule": "difference_areas",
+    "params": [
+      12,
+      10,
+      2
+    ],
+    "expected": 107.4336,
+    "options": [
+      107.4336,
+      80.5752,
+      128.9203,
+      155.7787
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Area = rectangle area − circle area = 120 − 4π.",
+      "Answer = 107.434 m²."
+    ],
+    "restriction": "Perimeter needs a separate boundary trace; area subtraction alone does not give perimeter.",
+    "formulaId": "PG-F024"
+  },
+  {
+    "id": "PG-Q024-02",
+    "topic_id": "GEO-024",
+    "title": "Composite plane figures and removed regions",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A 20 m × 15 m courtyard has a circular planter of radius 3 m. Find paving area.",
+    "unit": "m²",
+    "rule": "difference_areas",
+    "params": [
+      20,
+      15,
+      3
+    ],
+    "expected": 271.7257,
+    "options": [
+      203.7943,
+      271.7257,
+      326.0708,
+      394.0023
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Area = 300 − 9π.",
+      "Answer = 271.726 m²."
+    ],
+    "restriction": "Perimeter needs a separate boundary trace; area subtraction alone does not give perimeter.",
+    "formulaId": "PG-F024"
+  },
+  {
+    "id": "PG-Q025-01",
+    "topic_id": "GEO-025",
+    "title": "Similarity scaling: perimeters and areas",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Two similar square plates have side lengths 12 cm and 8 cm. Find the ratio of their areas (larger/smaller).",
+    "unit": "ratio",
+    "rule": "area_ratio",
+    "params": [
+      12,
+      8
+    ],
+    "expected": 2.25,
+    "options": [
+      1.6875,
+      2.25,
+      2.7,
+      3.2625
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The ratio is (12/8)².",
+      "Answer = 2.25 ratio."
+    ],
+    "restriction": "A ratio of areas must not be used directly as the side ratio.",
+    "formulaId": "PG-F025"
+  },
+  {
+    "id": "PG-Q025-02",
+    "topic_id": "GEO-025",
+    "title": "Similarity scaling: perimeters and areas",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "Two similar drawings have corresponding lengths 15 cm and 6 cm. Find the area scale factor.",
+    "unit": "ratio",
+    "rule": "area_ratio",
+    "params": [
+      15,
+      6
+    ],
+    "expected": 6.25,
+    "options": [
+      4.6875,
+      7.5,
+      6.25,
+      9.0625
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The area factor is (15/6)².",
+      "Answer = 6.25 ratio."
+    ],
+    "restriction": "A ratio of areas must not be used directly as the side ratio.",
+    "formulaId": "PG-F025"
+  },
+  {
+    "id": "PG-Q026-01",
+    "topic_id": "GEO-026",
+    "title": "Circle vocabulary, chords, diameters, and tangents",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A circular antenna mount has radius 7 cm. Find its diameter.",
+    "unit": "cm",
+    "rule": "segment_add",
+    "params": [
+      7,
+      7
+    ],
+    "expected": 14,
+    "options": [
+      10.5,
+      16.8,
+      14,
+      20.3
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Diameter equals two radii: 7+7.",
+      "Answer = 14 cm."
+    ],
+    "restriction": "A secant passes through two circle points; a tangent touches at exactly one point.",
+    "formulaId": "PG-F026"
+  },
+  {
+    "id": "PG-Q026-02",
+    "topic_id": "GEO-026",
+    "title": "Circle vocabulary, chords, diameters, and tangents",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "How is the radius at the point of tangency related to the tangent line?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Parallel",
+      "Always at 45°",
+      "Collinear",
+      "Perpendicular"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "The tangent–radius theorem gives a 90° angle."
+    ],
+    "restriction": "A secant passes through two circle points; a tangent touches at exactly one point.",
+    "formulaId": "PG-F026"
+  },
+  {
+    "id": "PG-Q027-01",
+    "topic_id": "GEO-027",
+    "title": "Central angles, arc length, and circumference",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A wheel has radius 9 cm. Find its circumference.",
+    "unit": "cm",
+    "rule": "circumference",
+    "params": [
+      9
+    ],
+    "expected": 56.5487,
+    "options": [
+      42.4115,
+      67.8584,
+      81.9956,
+      56.5487
+    ],
+    "correctIndex": 3,
+    "work": [
+      "C=2π×9=18π.",
+      "Answer = 56.5487 cm."
+    ],
+    "restriction": "If the angle is supplied in radians, use L=rθ instead.",
+    "formulaId": "PG-F027"
+  },
+  {
+    "id": "PG-Q027-02",
+    "topic_id": "GEO-027",
+    "title": "Central angles, arc length, and circumference",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A circle has radius 12 cm. Find the arc length of a 60° central angle.",
+    "unit": "cm",
+    "rule": "arc_length",
+    "params": [
+      12,
+      60
+    ],
+    "expected": 12.5664,
+    "options": [
+      12.5664,
+      9.4248,
+      15.0797,
+      18.2213
+    ],
+    "correctIndex": 0,
+    "work": [
+      "L=π×12×60/180=4π.",
+      "Answer = 12.5664 cm."
+    ],
+    "restriction": "If the angle is supplied in radians, use L=rθ instead.",
+    "formulaId": "PG-F027"
+  },
+  {
+    "id": "PG-Q028-01",
+    "topic_id": "GEO-028",
+    "title": "Inscribed angles, secants, and intersecting chords",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "An angle is inscribed in a circle and intercepts an arc measuring 128°. Find the angle.",
+    "unit": "°",
+    "rule": "inscribed_angle",
+    "params": [
+      128
+    ],
+    "expected": 64.0,
+    "options": [
+      64.0,
+      48.0,
+      76.8,
+      92.8
+    ],
+    "correctIndex": 0,
+    "work": [
+      "An inscribed angle measures half the intercepted arc.",
+      "Answer = 64 °."
+    ],
+    "restriction": "The half-arc theorem requires the vertex on the circle; interior intersection uses an arc sum.",
+    "formulaId": "PG-F028-B"
+  },
+  {
+    "id": "PG-Q028-02",
+    "topic_id": "GEO-028",
+    "title": "Inscribed angles, secants, and intersecting chords",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "Two chords intersect inside a circle. One has segment lengths 6 cm and 10 cm; the other has one segment 4 cm. Find its remaining segment.",
+    "unit": "cm",
+    "rule": "chord_product",
+    "params": [
+      6,
+      10,
+      4
+    ],
+    "expected": 15.0,
+    "options": [
+      11.25,
+      15.0,
+      18.0,
+      21.75
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Intersecting chords: 6×10=4×x, hence x=15.",
+      "Answer = 15 cm."
+    ],
+    "restriction": "The half-arc theorem requires the vertex on the circle; interior intersection uses an arc sum.",
+    "formulaId": "PG-F028"
+  },
+  {
+    "id": "PG-Q029-01",
+    "topic_id": "GEO-029",
+    "title": "Circle sectors and circular segments",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the area of a 72° sector from a circle of radius 10 cm.",
+    "unit": "cm²",
+    "rule": "sector_area",
+    "params": [
+      10,
+      72
+    ],
+    "expected": 62.8319,
+    "options": [
+      47.1239,
+      62.8319,
+      75.3983,
+      91.1063
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Area = 72/360 × π × 100 = 20π.",
+      "Answer = 62.8319 cm²."
+    ],
+    "restriction": "The sector-minus-triangle expression is for the minor segment when 0°<θ≤180°.",
+    "formulaId": "PG-F029"
+  },
+  {
+    "id": "PG-Q029-02",
+    "topic_id": "GEO-029",
+    "title": "Circle sectors and circular segments",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "Find the minor circular segment area in a circle of radius 8 cm cut by a 90° central angle.",
+    "unit": "cm²",
+    "rule": "segment_area",
+    "params": [
+      8,
+      90
+    ],
+    "expected": 18.2655,
+    "options": [
+      13.6991,
+      21.9186,
+      18.2655,
+      26.485
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A=(r²/2)(θ−sinθ), θ=π/2 rad.",
+      "Answer = 18.2655 cm²."
+    ],
+    "restriction": "Angle is interpreted in radians inside θ−sinθ.",
+    "formulaId": "PG-F029-B"
+  },
+  {
+    "id": "PG-Q030-01",
+    "topic_id": "GEO-030",
+    "title": "Tangency, secant lengths, and chord properties",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A point lies 13 cm from a circle center of radius 5 cm. Find tangent length.",
+    "unit": "cm",
+    "rule": "tangent_length",
+    "params": [
+      13,
+      5
+    ],
+    "expected": 12.0,
+    "options": [
+      9.0,
+      14.4,
+      12.0,
+      17.4
+    ],
+    "correctIndex": 2,
+    "work": [
+      "PT=√(13²−5²)=12.",
+      "Answer = 12 cm."
+    ],
+    "restriction": "For tangent length, external point distance must exceed radius.",
+    "formulaId": "PG-F030"
+  },
+  {
+    "id": "PG-Q030-02",
+    "topic_id": "GEO-030",
+    "title": "Tangency, secant lengths, and chord properties",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "An exterior tangent-secant configuration has external secant part 4 cm and complete secant length 25 cm. Find tangent length.",
+    "unit": "cm",
+    "rule": "secant_product",
+    "params": [
+      4,
+      25
+    ],
+    "expected": 10.0,
+    "options": [
+      7.5,
+      12.0,
+      14.5,
+      10.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "PT²=4×25; take positive square root.",
+      "Answer = 10 cm."
+    ],
+    "restriction": "For tangent length, external point distance must exceed radius.",
+    "formulaId": "PG-F030-B"
+  },
+  {
+    "id": "PG-Q031-01",
+    "topic_id": "GEO-031",
+    "title": "Cyclic quadrilaterals and Ptolemy theorem",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A cyclic quadrilateral has an angle measuring 114°. Find the opposite angle.",
+    "unit": "°",
+    "rule": "cyclic_angle",
+    "params": [
+      114
+    ],
+    "expected": 66,
+    "options": [
+      49.5,
+      79.2,
+      95.7,
+      66
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Opposite angles are supplementary.",
+      "Answer = 66 °."
+    ],
+    "restriction": "Not every quadrilateral is cyclic.",
+    "formulaId": "PG-F031-B"
+  },
+  {
+    "id": "PG-Q031-02",
+    "topic_id": "GEO-031",
+    "title": "Cyclic quadrilaterals and Ptolemy theorem",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A cyclic rectangle has side lengths 6 cm and 8 cm and one diagonal is 10 cm. Use Ptolemy’s theorem to find the other diagonal.",
+    "unit": "cm",
+    "rule": "ptolemy",
+    "params": [
+      6,
+      6,
+      8,
+      8,
+      10
+    ],
+    "expected": 10.0,
+    "options": [
+      10.0,
+      7.5,
+      12.0,
+      14.5
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Ptolemy: d1×d2 = 6×6 + 8×8 = 100; d2=100/10=10.",
+      "Answer = 10 cm."
+    ],
+    "restriction": "All four rectangle vertices lie on one circle; opposite sides have lengths 6,6 and 8,8.",
+    "formulaId": "PG-F031"
+  },
+  {
+    "id": "PG-Q032-01",
+    "topic_id": "GEO-032",
+    "title": "Inscribed and circumscribed polygons",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A regular square is circumscribed about a circle. If its side is 8 cm, find its apothem (incircle radius).",
+    "unit": "cm",
+    "rule": "apothem",
+    "params": [
+      8,
+      4
+    ],
+    "expected": 4.0,
+    "options": [
+      4.0,
+      3.0,
+      4.8,
+      5.8
+    ],
+    "correctIndex": 0,
+    "work": [
+      "a=s/(2 tan(π/4))=4.",
+      "Answer = 4 cm."
+    ],
+    "restriction": "For a regular n-gon, side and apothem formulas must use the same n and circle.",
+    "formulaId": "PG-F032"
+  },
+  {
+    "id": "PG-Q032-02",
+    "topic_id": "GEO-032",
+    "title": "Inscribed and circumscribed polygons",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A regular hexagon has side length 12 cm. Find its apothem.",
+    "unit": "cm",
+    "rule": "apothem",
+    "params": [
+      12,
+      6
+    ],
+    "expected": 10.3923,
+    "options": [
+      7.7942,
+      10.3923,
+      12.4708,
+      15.0688
+    ],
+    "correctIndex": 1,
+    "work": [
+      "a=12/(2 tan(π/6))=6√3.",
+      "Answer = 10.3923 cm."
+    ],
+    "restriction": "For a regular n-gon, side and apothem formulas must use the same n and circle.",
+    "formulaId": "PG-F032"
+  },
+  {
+    "id": "PG-Q033-01",
+    "topic_id": "GEO-033",
+    "title": "Loci and geometric constructions",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "What is the locus of all planar points exactly 5 cm from a fixed point O?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "A disk including every interior point",
+      "A circle centered at O with radius 5 cm",
+      "An infinite straight line",
+      "Only two points"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Fixed distance, not distance at most r, gives the circumference."
+    ],
+    "restriction": "A construction solves only the stated conditions; an extra constraint may eliminate some points.",
+    "formulaId": "PG-F033"
+  },
+  {
+    "id": "PG-Q033-02",
+    "topic_id": "GEO-033",
+    "title": "Loci and geometric constructions",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the locus of points equally far from two distinct fixed points A and B?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "The segment AB only",
+      "A circle through A and B",
+      "Perpendicular bisector of AB",
+      "One ray from A"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Equal-distance points form the perpendicular bisector."
+    ],
+    "restriction": "A construction solves only the stated conditions; an extra constraint may eliminate some points.",
+    "formulaId": "PG-F033"
+  },
+  {
+    "id": "PG-Q034-01",
+    "topic_id": "GEO-034",
+    "title": "Translations, rotations, reflections, dilations",
+    "kind": "concept",
+    "level": "Foundation",
+    "prompt": "Which transformation generally changes the size of a figure?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Translation",
+      "Rotation",
+      "Dilation with scale factor 2",
+      "Reflection"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A scale factor 2 doubles lengths and quadruples area."
+    ],
+    "restriction": "A dilation with scale other than ±1 does not preserve area.",
+    "formulaId": "PG-F034"
+  },
+  {
+    "id": "PG-Q034-02",
+    "topic_id": "GEO-034",
+    "title": "Translations, rotations, reflections, dilations",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A point is at coordinates (3, 4). After a 90° rotation about the origin, what is its distance from the origin?",
+    "unit": "units",
+    "rule": "rotation",
+    "params": [
+      3,
+      4
+    ],
+    "expected": 5.0,
+    "options": [
+      3.75,
+      6.0,
+      7.25,
+      5.0
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A rotation preserves distance: √(3²+4²)=5.",
+      "Answer = 5 units."
+    ],
+    "restriction": "A dilation with scale other than ±1 does not preserve area.",
+    "formulaId": "PG-F034"
+  },
+  {
+    "id": "PG-Q035-01",
+    "topic_id": "GEO-035",
+    "title": "Surveying-style distances and indirect measurements",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A 1.7 m pole casts a 2.5 m shadow. At the same time a tower casts a 30 m shadow. Find the tower height.",
+    "unit": "m",
+    "rule": "indirect",
+    "params": [
+      1.7,
+      30,
+      2.5
+    ],
+    "expected": 20.4,
+    "options": [
+      15.3,
+      24.48,
+      29.58,
+      20.4
+    ],
+    "correctIndex": 3,
+    "work": [
+      "H/1.7=30/2.5, so H=1.7×30/2.5.",
+      "Answer = 20.4 m."
+    ],
+    "restriction": "Sloping-ground distances cannot be substituted for horizontal distances without adjustment.",
+    "formulaId": "PG-F035"
+  },
+  {
+    "id": "PG-Q035-02",
+    "topic_id": "GEO-035",
+    "title": "Surveying-style distances and indirect measurements",
+    "kind": "numeric",
+    "level": "Applied",
+    "prompt": "A field observer measures horizontal distance 40 m and angle of elevation 30° to a tower top (eye at ground level). Find tower height.",
+    "unit": "m",
+    "rule": "bearing_height",
+    "params": [
+      40,
+      30
+    ],
+    "expected": 23.094,
+    "options": [
+      23.094,
+      17.3205,
+      27.7128,
+      33.4863
+    ],
+    "correctIndex": 0,
+    "work": [
+      "H=40 tan 30°.",
+      "Answer = 23.094 m."
+    ],
+    "restriction": "Sloping-ground distances cannot be substituted for horizontal distances without adjustment.",
+    "formulaId": "PG-F035-B"
+  }
+]

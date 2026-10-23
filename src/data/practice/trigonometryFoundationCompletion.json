@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "TRC-CIR01-001",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Basic",
+    "family": "standard-position",
+    "prompt": "Which initial ray defines an angle in standard position?",
+    "options": [
+      "Positive x-axis",
+      "Positive y-axis",
+      "Negative x-axis",
+      "Negative y-axis"
+    ],
+    "correctIndex": 0,
+    "explanation": "The angle starts along the positive x-axis with vertex at the origin."
+  },
+  {
+    "id": "TRC-CIR01-002",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Basic",
+    "family": "quadrant",
+    "prompt": "Where is the terminal ray of a 120° angle?",
+    "options": [
+      "Quadrant I",
+      "Quadrant III",
+      "Negative x-axis",
+      "Quadrant II"
+    ],
+    "correctIndex": 3,
+    "explanation": "120° is between 90° and 180°."
+  },
+  {
+    "id": "TRC-CIR01-003",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Basic",
+    "family": "direction",
+    "prompt": "What direction does a negative angle indicate in standard position?",
+    "options": [
+      "Counterclockwise",
+      "Upward only",
+      "Clockwise",
+      "No rotation"
+    ],
+    "correctIndex": 2,
+    "explanation": "Directed negative angles rotate clockwise."
+  },
+  {
+    "id": "TRC-CIR01-004",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Intermediate",
+    "family": "quadrantal",
+    "prompt": "A 270° terminal side points along which axis?",
+    "options": [
+      "Positive x-axis",
+      "Negative y-axis",
+      "Negative x-axis",
+      "Positive y-axis"
+    ],
+    "correctIndex": 1,
+    "explanation": "270° is three quarter-turns, straight down."
+  },
+  {
+    "id": "TRC-CIR01-005",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Intermediate",
+    "family": "normalize",
+    "prompt": "The terminal ray of −200° lies in which quadrant?",
+    "options": [
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV",
+      "Quadrant I"
+    ],
+    "correctIndex": 0,
+    "explanation": "−200°+360°=160°, a Quadrant II direction."
+  },
+  {
+    "id": "TRC-CIR01-006",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Intermediate",
+    "family": "coterminal",
+    "prompt": "What is coterminal with 25°?",
+    "options": [
+      "205°",
+      "−25°",
+      "75°",
+      "385°"
+    ],
+    "correctIndex": 3,
+    "explanation": "385°−25°=360°, one full turn."
+  },
+  {
+    "id": "TRC-CIR01-007",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Advanced",
+    "family": "quadrantal",
+    "prompt": "An angle of 540° ends on which ray?",
+    "options": [
+      "Positive y-axis",
+      "Positive x-axis",
+      "Negative x-axis",
+      "Negative y-axis"
+    ],
+    "correctIndex": 2,
+    "explanation": "540°−360°=180°, the negative x-axis."
+  },
+  {
+    "id": "TRC-CIR01-008",
+    "subtopicId": "trig-unit-circle-angles-in-standard-position",
+    "difficulty": "Advanced",
+    "family": "direction",
+    "prompt": "After a clockwise rotation of 315° from the positive x-axis, where is the terminal ray?",
+    "options": [
+      "Quadrant II",
+      "Quadrant I",
+      "Quadrant IV",
+      "Negative y-axis"
+    ],
+    "correctIndex": 1,
+    "explanation": "−315°+360°=45°, which lies in Quadrant I."
+  },
+  {
+    "id": "TRC-CIR03-001",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Basic",
+    "family": "sign",
+    "prompt": "In which quadrant are both sine and cosine negative?",
+    "options": [
+      "Quadrant II",
+      "Quadrant IV",
+      "Quadrant III",
+      "Quadrant I"
+    ],
+    "correctIndex": 2,
+    "explanation": "x and y are both negative in QIII."
+  },
+  {
+    "id": "TRC-CIR03-002",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Basic",
+    "family": "sign",
+    "prompt": "What is the sign of tangent in Quadrant IV?",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Undefined for all QIV angles"
+    ],
+    "correctIndex": 1,
+    "explanation": "In QIV, y<0 and x>0, so y/x is negative."
+  },
+  {
+    "id": "TRC-CIR03-003",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Basic",
+    "family": "sign",
+    "prompt": "Which function is positive in Quadrant II?",
+    "options": [
+      "Sine",
+      "Cosine",
+      "Tangent",
+      "Secant"
+    ],
+    "correctIndex": 0,
+    "explanation": "In QII, y>0 so sine positive, while cosine, tangent, secant are negative."
+  },
+  {
+    "id": "TRC-CIR03-004",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Intermediate",
+    "family": "reciprocal-sign",
+    "prompt": "If θ lies strictly in Quadrant III, what is the sign of sec θ?",
+    "options": [
+      "Positive",
+      "Zero",
+      "Undefined",
+      "Negative"
+    ],
+    "correctIndex": 3,
+    "explanation": "secθ=1/cosθ; cosine is negative in QIII."
+  },
+  {
+    "id": "TRC-CIR03-005",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Intermediate",
+    "family": "coordinates",
+    "prompt": "At point (−3,4), what is cos θ?",
+    "options": [
+      "3/5",
+      "4/5",
+      "−3/5",
+      "−4/5"
+    ],
+    "correctIndex": 2,
+    "explanation": "r=5 and cosθ=x/r=−3/5."
+  },
+  {
+    "id": "TRC-CIR03-006",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Intermediate",
+    "family": "coordinates",
+    "prompt": "At point (−8,−6), what is tan θ?",
+    "options": [
+      "−3/4",
+      "3/4",
+      "4/3",
+      "−4/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "tanθ=y/x=(−6)/(−8)=3/4."
+  },
+  {
+    "id": "TRC-CIR03-007",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Advanced",
+    "family": "sign-intersection",
+    "prompt": "Where is tan θ positive but sin θ negative?",
+    "options": [
+      "Quadrant III",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant IV"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tangent is positive in I and III; sine is negative in III only."
+  },
+  {
+    "id": "TRC-CIR03-008",
+    "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "difficulty": "Advanced",
+    "family": "combined-sign",
+    "prompt": "If sinθ<0 and cosθ>0, what is the sign of cotθ?",
+    "options": [
+      "Positive",
+      "Zero",
+      "Cannot be determined",
+      "Negative"
+    ],
+    "correctIndex": 3,
+    "explanation": "cotθ=cosθ/sinθ, positive over negative is negative."
+  },
+  {
+    "id": "TRC-CIR04-001",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Basic",
+    "family": "reference-angle",
+    "prompt": "What is the reference angle of 140°?",
+    "options": [
+      "50°",
+      "140°",
+      "220°",
+      "40°"
+    ],
+    "correctIndex": 3,
+    "explanation": "In QII, α=180°−140°=40°."
+  },
+  {
+    "id": "TRC-CIR04-002",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Basic",
+    "family": "reference-angle",
+    "prompt": "Reference angle for 210°?",
+    "options": [
+      "60°",
+      "150°",
+      "30°",
+      "210°"
+    ],
+    "correctIndex": 2,
+    "explanation": "In QIII, α=210°−180°=30°."
+  },
+  {
+    "id": "TRC-CIR04-003",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Basic",
+    "family": "reference-angle",
+    "prompt": "Reference angle for 330°?",
+    "options": [
+      "60°",
+      "30°",
+      "150°",
+      "330°"
+    ],
+    "correctIndex": 1,
+    "explanation": "In QIV, α=360°−330°=30°."
+  },
+  {
+    "id": "TRC-CIR04-004",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Intermediate",
+    "family": "exact-reduction",
+    "prompt": "Evaluate sin 150°.",
+    "options": [
+      "1/2",
+      "−1/2",
+      "√3/2",
+      "−√3/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "QII sine is positive and the reference angle is 30°."
+  },
+  {
+    "id": "TRC-CIR04-005",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Intermediate",
+    "family": "exact-reduction",
+    "prompt": "Evaluate cos 120°.",
+    "options": [
+      "1/2",
+      "−√3/2",
+      "√3/2",
+      "−1/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "QII cosine negative, reference angle 60°."
+  },
+  {
+    "id": "TRC-CIR04-006",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Intermediate",
+    "family": "exact-reduction",
+    "prompt": "Evaluate tan 225°.",
+    "options": [
+      "−1",
+      "√3",
+      "1",
+      "−√3"
+    ],
+    "correctIndex": 2,
+    "explanation": "QIII tangent is positive and 225° has 45° reference angle."
+  },
+  {
+    "id": "TRC-CIR04-007",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Advanced",
+    "family": "exact-reduction",
+    "prompt": "Evaluate sin 300°.",
+    "options": [
+      "√3/2",
+      "−√3/2",
+      "−1/2",
+      "1/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "QIV sine negative; 60° reference value √3/2."
+  },
+  {
+    "id": "TRC-CIR04-008",
+    "subtopicId": "trig-unit-circle-reference-angle-reductions",
+    "difficulty": "Advanced",
+    "family": "normalize-reduce",
+    "prompt": "What is cos(−240°)?",
+    "options": [
+      "−1/2",
+      "1/2",
+      "√3/2",
+      "−√3/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "−240° is coterminal with 120°, where cosine=−1/2."
+  },
+  {
+    "id": "TRC-CIR05-001",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Basic",
+    "family": "axis-values",
+    "prompt": "What is the unit-circle point at 180°?",
+    "options": [
+      "(−1,0)",
+      "(1,0)",
+      "(0,1)",
+      "(0,−1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 180° cosine=−1, sine=0."
+  },
+  {
+    "id": "TRC-CIR05-002",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Basic",
+    "family": "special-values",
+    "prompt": "Evaluate cos 30° exactly.",
+    "options": [
+      "1/2",
+      "√2/2",
+      "1",
+      "√3/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "The 30°–60°–90° triangle gives adjacent/hypotenuse √3/2."
+  },
+  {
+    "id": "TRC-CIR05-003",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Basic",
+    "family": "special-values",
+    "prompt": "Evaluate sin 45° exactly.",
+    "options": [
+      "1/2",
+      "√3/2",
+      "√2/2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Equal legs in a 45° right triangle give sine √2/2."
+  },
+  {
+    "id": "TRC-CIR05-004",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Intermediate",
+    "family": "exact-values",
+    "prompt": "Evaluate cos 240°.",
+    "options": [
+      "1/2",
+      "−1/2",
+      "−√3/2",
+      "√3/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "QIII, reference angle 60°, cosine negative."
+  },
+  {
+    "id": "TRC-CIR05-005",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Intermediate",
+    "family": "exact-values",
+    "prompt": "Evaluate tan 135°.",
+    "options": [
+      "−1",
+      "1",
+      "−√3",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "sin135°=√2/2 and cos135°=−√2/2."
+  },
+  {
+    "id": "TRC-CIR05-006",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Intermediate",
+    "family": "reciprocal",
+    "prompt": "Find csc 90°.",
+    "options": [
+      "0",
+      "−1",
+      "Undefined",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "sin90°=1, so csc90°=1."
+  },
+  {
+    "id": "TRC-CIR05-007",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Advanced",
+    "family": "reciprocal",
+    "prompt": "Evaluate sec 300°.",
+    "options": [
+      "−2",
+      "1/2",
+      "2",
+      "−1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "cos300°=1/2, so sec300°=2."
+  },
+  {
+    "id": "TRC-CIR05-008",
+    "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "difficulty": "Advanced",
+    "family": "exact-values",
+    "prompt": "Find tan 330° exactly.",
+    "options": [
+      "√3/3",
+      "−√3/3",
+      "−√3",
+      "√3"
+    ],
+    "correctIndex": 1,
+    "explanation": "QIV tangent negative; tan30°=√3/3."
+  },
+  {
+    "id": "TRC-CIR06-001",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Basic",
+    "family": "parity",
+    "prompt": "Which identity describes an even trigonometric function?",
+    "options": [
+      "sin(−x)=sin x",
+      "cos(−x)=cos x",
+      "tan(−x)=tan x",
+      "sin(x+π)=sin x"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cosine is even; sine and tangent are odd."
+  },
+  {
+    "id": "TRC-CIR06-002",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Basic",
+    "family": "negative-angles",
+    "prompt": "What is sin(−30°)?",
+    "options": [
+      "−1/2",
+      "1/2",
+      "−√3/2",
+      "√3/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sine is odd: sin(−θ)=−sinθ."
+  },
+  {
+    "id": "TRC-CIR06-003",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Basic",
+    "family": "coterminal",
+    "prompt": "Reduce 810° to [0°,360°).",
+    "options": [
+      "180°",
+      "270°",
+      "45°",
+      "90°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Subtract two complete turns: 810°−2(360°)=90°, which lies in [0°,360°)."
+  },
+  {
+    "id": "TRC-CIR06-004",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Intermediate",
+    "family": "parity",
+    "prompt": "What is cos(−120°)?",
+    "options": [
+      "1/2",
+      "−√3/2",
+      "−1/2",
+      "√3/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cosine is even: cos(−120°)=cos120°=−1/2."
+  },
+  {
+    "id": "TRC-CIR06-005",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Intermediate",
+    "family": "periodicity",
+    "prompt": "Evaluate sin(13π/6).",
+    "options": [
+      "−1/2",
+      "1/2",
+      "√3/2",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "13π/6=2π+π/6 and sine has period 2π."
+  },
+  {
+    "id": "TRC-CIR06-006",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Intermediate",
+    "family": "tangent-period",
+    "prompt": "Evaluate tan(5π/4).",
+    "options": [
+      "1",
+      "−1",
+      "0",
+      "Undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tangent has period π; tan(5π/4)=tan(π/4)=1."
+  },
+  {
+    "id": "TRC-CIR06-007",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Advanced",
+    "family": "multi-rotation",
+    "prompt": "Evaluate sin(−750°).",
+    "options": [
+      "1/2",
+      "−√3/2",
+      "−1",
+      "−1/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "−750° is coterminal with −30°, whose sine is −1/2."
+  },
+  {
+    "id": "TRC-CIR06-008",
+    "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+    "difficulty": "Advanced",
+    "family": "domain-periodicity",
+    "prompt": "At x=π/2, which expression is undefined?",
+    "options": [
+      "sin(x+2π)",
+      "cos(−x)",
+      "tan(x+π)",
+      "sin(−x)"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan(3π/2) is undefined because cosine is zero."
+  },
+  {
+    "id": "TRC-CIR07-001",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Basic",
+    "family": "coordinate-ratio",
+    "prompt": "A terminal point is (3,4). Find sinθ.",
+    "options": [
+      "3/5",
+      "4/3",
+      "4/5",
+      "5/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "r=√(9+16)=5; sine=y/r=4/5."
+  },
+  {
+    "id": "TRC-CIR07-002",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Basic",
+    "family": "coordinate-ratio",
+    "prompt": "A terminal point is (−5,12). Find cosθ.",
+    "options": [
+      "5/13",
+      "−5/13",
+      "12/13",
+      "−12/13"
+    ],
+    "correctIndex": 1,
+    "explanation": "r=13, cosine=x/r=−5/13."
+  },
+  {
+    "id": "TRC-CIR07-003",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Basic",
+    "family": "undefined",
+    "prompt": "At the unit-circle point (0,1), what is tanθ?",
+    "options": [
+      "Undefined",
+      "0",
+      "1",
+      "−1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tangent y/x requires division by x=0."
+  },
+  {
+    "id": "TRC-CIR07-004",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Intermediate",
+    "family": "reciprocal",
+    "prompt": "At (3,−4), find cscθ.",
+    "options": [
+      "5/4",
+      "−4/5",
+      "5/3",
+      "−5/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "r=5, y=−4, cscθ=r/y=−5/4."
+  },
+  {
+    "id": "TRC-CIR07-005",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Intermediate",
+    "family": "reciprocal",
+    "prompt": "If the terminal point is (−12,5), what is secθ?",
+    "options": [
+      "−12/13",
+      "13/5",
+      "−13/12",
+      "−5/12"
+    ],
+    "correctIndex": 2,
+    "explanation": "r=13 and secθ=r/x=−13/12."
+  },
+  {
+    "id": "TRC-CIR07-006",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Intermediate",
+    "family": "axis-values",
+    "prompt": "If a terminal ray lies on the negative y-axis, what is cotθ?",
+    "options": [
+      "Undefined",
+      "0",
+      "1",
+      "−1"
+    ],
+    "correctIndex": 1,
+    "explanation": "x=0 and y<0, so cotθ=x/y=0."
+  },
+  {
+    "id": "TRC-CIR07-007",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Advanced",
+    "family": "coordinate-ratio",
+    "prompt": "At (−4,−3), find cotθ.",
+    "options": [
+      "4/3",
+      "−4/3",
+      "3/4",
+      "−3/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "cotθ=x/y=(−4)/(−3)=4/3."
+  },
+  {
+    "id": "TRC-CIR07-008",
+    "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "difficulty": "Advanced",
+    "family": "ratio-relation",
+    "prompt": "If sinθ=−3/5 and cosθ=4/5, find tanθ.",
+    "options": [
+      "3/4",
+      "−4/3",
+      "4/3",
+      "−3/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "tanθ=sinθ/cosθ=(−3/5)/(4/5)=−3/4."
+  },
+  {
+    "id": "TRC-GPH01-001",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Basic",
+    "family": "range",
+    "prompt": "What is the range of sinx?",
+    "options": [
+      "[−1,1]",
+      "All real numbers",
+      "[0,1]",
+      "(−∞,−1]∪[1,∞)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sine gives unit-circle y-coordinates between −1 and 1."
+  },
+  {
+    "id": "TRC-GPH01-002",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Basic",
+    "family": "period",
+    "prompt": "What is the fundamental period of cosx?",
+    "options": [
+      "π",
+      "π/2",
+      "4π",
+      "2π"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cosine completes a full cycle every 2π radians."
+  },
+  {
+    "id": "TRC-GPH01-003",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Basic",
+    "family": "symmetry",
+    "prompt": "Which trigonometric function is odd?",
+    "options": [
+      "cosx",
+      "secx",
+      "sinx",
+      "|cosx|"
+    ],
+    "correctIndex": 2,
+    "explanation": "sin(−x)=−sinx; cosine, secant and absolute cosine are even."
+  },
+  {
+    "id": "TRC-GPH01-004",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Intermediate",
+    "family": "domain",
+    "prompt": "Which is excluded from the domain of tanx?",
+    "options": [
+      "0",
+      "π/2",
+      "π",
+      "2π"
+    ],
+    "correctIndex": 1,
+    "explanation": "At π/2 cosine=0, giving division by zero."
+  },
+  {
+    "id": "TRC-GPH01-005",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Intermediate",
+    "family": "period",
+    "prompt": "What is the fundamental period of tanx?",
+    "options": [
+      "π",
+      "2π",
+      "4π",
+      "π/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "tan(x+π)=tanx on its domain."
+  },
+  {
+    "id": "TRC-GPH01-006",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Intermediate",
+    "family": "range",
+    "prompt": "What is the range of secx?",
+    "options": [
+      "[−1,1]",
+      "All real numbers",
+      "[0,∞)",
+      "(−∞,−1]∪[1,∞)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because |cosx|≤1, every defined reciprocal has magnitude at least 1."
+  },
+  {
+    "id": "TRC-GPH01-007",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Advanced",
+    "family": "period-transform",
+    "prompt": "What is the smallest positive period of sin(4x)?",
+    "options": [
+      "2π",
+      "π",
+      "π/2",
+      "4π"
+    ],
+    "correctIndex": 2,
+    "explanation": "The angular coefficient is 4, so the period equals 2π divided by 4, or π/2."
+  },
+  {
+    "id": "TRC-GPH01-008",
+    "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "difficulty": "Advanced",
+    "family": "asymptote",
+    "prompt": "Which x produces a vertical asymptote of cotx?",
+    "options": [
+      "π/2",
+      "0",
+      "3π/2",
+      "π/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "cotx=cosx/sinx is undefined when sinx=0 at kπ."
+  },
+  {
+    "id": "TRC-GPH02-001",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Basic",
+    "family": "sine-anchors",
+    "prompt": "What is sin0?",
+    "options": [
+      "1",
+      "0",
+      "−1",
+      "Undefined"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sine is the unit-circle y-coordinate at x=0."
+  },
+  {
+    "id": "TRC-GPH02-002",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Basic",
+    "family": "cosine-anchors",
+    "prompt": "What is cos0?",
+    "options": [
+      "1",
+      "0",
+      "−1",
+      "Undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine at 0 radians equals 1."
+  },
+  {
+    "id": "TRC-GPH02-003",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Basic",
+    "family": "sine-anchors",
+    "prompt": "What is sin(π/2)?",
+    "options": [
+      "0",
+      "−1",
+      "1/2",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "The sine curve reaches its first maximum at π/2."
+  },
+  {
+    "id": "TRC-GPH02-004",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Intermediate",
+    "family": "cosine-anchors",
+    "prompt": "What is cosπ?",
+    "options": [
+      "1",
+      "0",
+      "−1",
+      "Undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "At π radians, the unit-circle point is (−1,0)."
+  },
+  {
+    "id": "TRC-GPH02-005",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Intermediate",
+    "family": "zeros",
+    "prompt": "How many zeros of sinx lie in [0,2π]?",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "The zeros are x=0,π,2π, including both endpoints."
+  },
+  {
+    "id": "TRC-GPH02-006",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Intermediate",
+    "family": "cosine-anchors",
+    "prompt": "What is the y-value of the standard cosine graph at x=3π/2?",
+    "options": [
+      "0",
+      "1",
+      "−1",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine equals the unit-circle x-coordinate, which is zero at 3π/2."
+  },
+  {
+    "id": "TRC-GPH02-007",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Advanced",
+    "family": "extrema",
+    "prompt": "At what x in [0,2π] is sinx minimal?",
+    "options": [
+      "π/2",
+      "π",
+      "2π",
+      "3π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sine reaches −1 at 3π/2."
+  },
+  {
+    "id": "TRC-GPH02-008",
+    "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+    "difficulty": "Advanced",
+    "family": "curve-points",
+    "prompt": "Which point lies on y=cosx?",
+    "options": [
+      "(π,1)",
+      "(0,0)",
+      "(2π,1)",
+      "(π/2,1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "cos2π=1; cosπ=−1 and cosπ/2=0."
+  },
+  {
+    "id": "TRC-GPH03-001",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Basic",
+    "family": "period",
+    "prompt": "What is the period of cotx?",
+    "options": [
+      "2π",
+      "π/2",
+      "π",
+      "4π"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cotangent repeats every π radians."
+  },
+  {
+    "id": "TRC-GPH03-002",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Basic",
+    "family": "zeros",
+    "prompt": "Where is tanx zero on [0,π]?",
+    "options": [
+      "π/2 only",
+      "0 and π",
+      "π/4 only",
+      "π/2 and π"
+    ],
+    "correctIndex": 1,
+    "explanation": "sinx=0 at 0 and π while cosine is nonzero."
+  },
+  {
+    "id": "TRC-GPH03-003",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Basic",
+    "family": "asymptote",
+    "prompt": "Where is tanx undefined in [0,π]?",
+    "options": [
+      "π/2",
+      "0",
+      "π",
+      "π/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tangent equals sine divided by cosine; cos(π/2)=0, so tangent is undefined."
+  },
+  {
+    "id": "TRC-GPH03-004",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Intermediate",
+    "family": "tangent-values",
+    "prompt": "Evaluate tan(π/4).",
+    "options": [
+      "−1",
+      "0",
+      "√3",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sine and cosine are equal at π/4."
+  },
+  {
+    "id": "TRC-GPH03-005",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Intermediate",
+    "family": "cot-values",
+    "prompt": "Evaluate cot(π/4).",
+    "options": [
+      "−1",
+      "√3",
+      "1",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "cotx=cosx/sinx; both are √2/2."
+  },
+  {
+    "id": "TRC-GPH03-006",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Intermediate",
+    "family": "zeros",
+    "prompt": "Which x in [0,2π] is a zero of cotx?",
+    "options": [
+      "π",
+      "3π/2",
+      "2π",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "cos(3π/2)=0 and sin(3π/2)≠0."
+  },
+  {
+    "id": "TRC-GPH03-007",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Advanced",
+    "family": "asymptote-count",
+    "prompt": "How many vertical asymptotes does tanx have in (0,2π)?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "The asymptotes occur at π/2 and 3π/2."
+  },
+  {
+    "id": "TRC-GPH03-008",
+    "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+    "difficulty": "Advanced",
+    "family": "behavior",
+    "prompt": "Which is true about cotx between 0 and π?",
+    "options": [
+      "It increases from −∞ toward +∞",
+      "It is constant",
+      "It is always positive",
+      "It decreases from +∞ toward −∞"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cotx decreases on (0,π); its derivative is −csc²x<0."
+  },
+  {
+    "id": "TRC-GPH04-001",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Basic",
+    "family": "secant",
+    "prompt": "What is sec0?",
+    "options": [
+      "0",
+      "−1",
+      "Undefined",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "By the reciprocal identity sec0=1/cos0=1/1=1."
+  },
+  {
+    "id": "TRC-GPH04-002",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Basic",
+    "family": "cosecant",
+    "prompt": "What is csc(π/2)?",
+    "options": [
+      "−1",
+      "0",
+      "1",
+      "Undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "sin(π/2)=1 and csc=1/sin."
+  },
+  {
+    "id": "TRC-GPH04-003",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Basic",
+    "family": "asymptote",
+    "prompt": "Where is secx undefined in [0,2π]?",
+    "options": [
+      "0 and π",
+      "π/2 and 3π/2",
+      "π and 2π",
+      "0 and 2π"
+    ],
+    "correctIndex": 1,
+    "explanation": "secx is reciprocal of cosine, which vanishes at π/2 and 3π/2."
+  },
+  {
+    "id": "TRC-GPH04-004",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Intermediate",
+    "family": "secant",
+    "prompt": "What is secπ?",
+    "options": [
+      "−1",
+      "1",
+      "0",
+      "Undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine equals −1 at π, hence secπ=1/(−1)=−1."
+  },
+  {
+    "id": "TRC-GPH04-005",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Intermediate",
+    "family": "range",
+    "prompt": "Which value can y=cscx take?",
+    "options": [
+      "0",
+      "1/2",
+      "−1/2",
+      "−2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cosecant values have absolute magnitude at least 1."
+  },
+  {
+    "id": "TRC-GPH04-006",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Intermediate",
+    "family": "asymptote",
+    "prompt": "Where is cscx undefined on [0,2π]?",
+    "options": [
+      "π/2, 3π/2",
+      "π/4, 5π/4",
+      "0, π, 2π",
+      "π/3, 4π/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "sinx=0 at integer multiples of π."
+  },
+  {
+    "id": "TRC-GPH04-007",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Advanced",
+    "family": "period",
+    "prompt": "What is the fundamental period of secx?",
+    "options": [
+      "π",
+      "2π",
+      "π/2",
+      "4π"
+    ],
+    "correctIndex": 1,
+    "explanation": "sec(x+2π)=secx; sec(x+π)=−secx, not equal in general."
+  },
+  {
+    "id": "TRC-GPH04-008",
+    "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+    "difficulty": "Advanced",
+    "family": "range",
+    "prompt": "Which equation has a minimum possible absolute function value of 1 when defined?",
+    "options": [
+      "y=secx",
+      "y=tanx",
+      "y=sinx",
+      "y=cosx"
+    ],
+    "correctIndex": 0,
+    "explanation": "Secant satisfies |secx|≥1; tan, sin, cos may equal zero."
+  },
+  {
+    "id": "TRC-GPH05-001",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Basic",
+    "family": "amplitude",
+    "prompt": "What is the amplitude of y=4sinx?",
+    "options": [
+      "4",
+      "2",
+      "8",
+      "π"
+    ],
+    "correctIndex": 0,
+    "explanation": "The coefficient in front of sine is 4, so the amplitude is |4|=4."
+  },
+  {
+    "id": "TRC-GPH05-002",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Basic",
+    "family": "period",
+    "prompt": "Find the period of y=sin(2x).",
+    "options": [
+      "2π",
+      "π/2",
+      "4π",
+      "π"
+    ],
+    "correctIndex": 3,
+    "explanation": "For sin(Bx) with B=2, the period is 2π/|2|=π."
+  },
+  {
+    "id": "TRC-GPH05-003",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Basic",
+    "family": "midline",
+    "prompt": "What is the midline of y=3cosx−2?",
+    "options": [
+      "y=3",
+      "y=2",
+      "y=−2",
+      "y=−3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Constant D=−2 gives midline y=−2."
+  },
+  {
+    "id": "TRC-GPH05-004",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Intermediate",
+    "family": "amplitude",
+    "prompt": "Find amplitude of y=−5cos(3x).",
+    "options": [
+      "−5",
+      "5",
+      "3",
+      "10"
+    ],
+    "correctIndex": 1,
+    "explanation": "Amplitude is nonnegative |−5|=5."
+  },
+  {
+    "id": "TRC-GPH05-005",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Intermediate",
+    "family": "period",
+    "prompt": "Find period of y=2sin(x/4).",
+    "options": [
+      "8π",
+      "2π",
+      "π/2",
+      "4π"
+    ],
+    "correctIndex": 0,
+    "explanation": "B=1/4, so period 2π/(1/4)=8π."
+  },
+  {
+    "id": "TRC-GPH05-006",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Intermediate",
+    "family": "range",
+    "prompt": "What is range of y=2cosx+3?",
+    "options": [
+      "[−2,2]",
+      "[3,5]",
+      "[−1,1]",
+      "[1,5]"
+    ],
+    "correctIndex": 3,
+    "explanation": "Midline 3 and amplitude 2 give [1,5]."
+  },
+  {
+    "id": "TRC-GPH05-007",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Advanced",
+    "family": "frequency",
+    "prompt": "If v(t)=8sin(120πt) volts and t is in seconds, find frequency.",
+    "options": [
+      "120 Hz",
+      "240 Hz",
+      "60 Hz",
+      "30 Hz"
+    ],
+    "correctIndex": 2,
+    "explanation": "Angular frequency is 120π rad/s, so f=ω/(2π)=60 Hz."
+  },
+  {
+    "id": "TRC-GPH05-008",
+    "subtopicId": "trig-graphs-amplitude-and-period",
+    "difficulty": "Advanced",
+    "family": "frequency",
+    "prompt": "A sine wave repeats after 0.04 s. Find frequency.",
+    "options": [
+      "40 Hz",
+      "25 Hz",
+      "0.04 Hz",
+      "250 Hz"
+    ],
+    "correctIndex": 1,
+    "explanation": "Frequency is the reciprocal of period: f=1/(0.04 s)=25 Hz."
+  },
+  {
+    "id": "TRC-GPH06-001",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Basic",
+    "family": "horizontal-shift",
+    "prompt": "In y=sin(x−π/6), the graph shifts which way?",
+    "options": [
+      "Left π/6",
+      "Right π/6",
+      "Up π/6",
+      "Down π/6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Replacing x by x−C shifts right by C."
+  },
+  {
+    "id": "TRC-GPH06-002",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Basic",
+    "family": "vertical-shift",
+    "prompt": "What is the vertical shift of y=cosx+4?",
+    "options": [
+      "Up 4",
+      "Down 4",
+      "Right 4",
+      "Left 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "The +4 outside cosine changes the midline to y=4."
+  },
+  {
+    "id": "TRC-GPH06-003",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Basic",
+    "family": "midline",
+    "prompt": "What is the midline of y=2sin(3x)−5?",
+    "options": [
+      "y=5",
+      "y=2",
+      "y=−2",
+      "y=−5"
+    ],
+    "correctIndex": 3,
+    "explanation": "The constant vertical translation D=−5 gives horizontal midline y=−5."
+  },
+  {
+    "id": "TRC-GPH06-004",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Intermediate",
+    "family": "factored-shift",
+    "prompt": "Find horizontal shift for y=sin(2x−π).",
+    "options": [
+      "Right π",
+      "Left π/2",
+      "Right π/2",
+      "Left π"
+    ],
+    "correctIndex": 2,
+    "explanation": "Factor 2(x−π/2), yielding right shift π/2."
+  },
+  {
+    "id": "TRC-GPH06-005",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Intermediate",
+    "family": "factored-shift",
+    "prompt": "Find horizontal shift for y=cos(4x+π).",
+    "options": [
+      "Left π",
+      "Left π/4",
+      "Right π/4",
+      "Right π"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor the inside: 4x+π=4(x+π/4). The graph shifts left π/4."
+  },
+  {
+    "id": "TRC-GPH06-006",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Intermediate",
+    "family": "period",
+    "prompt": "Find period of y=sin(3x−π/2).",
+    "options": [
+      "2π/3",
+      "π/3",
+      "2π",
+      "3π"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coefficient B=3, so T=2π/3; shift does not change the period."
+  },
+  {
+    "id": "TRC-GPH06-007",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Advanced",
+    "family": "factored-shift",
+    "prompt": "If y=2sin(5(x−2))+1, what is the horizontal shift?",
+    "options": [
+      "Left 2",
+      "Right 5",
+      "Up 2",
+      "Right 2"
+    ],
+    "correctIndex": 3,
+    "explanation": "The factored argument is 5(x−2), so shift right 2 units."
+  },
+  {
+    "id": "TRC-GPH06-008",
+    "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+    "difficulty": "Advanced",
+    "family": "negative-B-shift",
+    "prompt": "The graph y=sin(−2x+π) has which horizontal shift in factored form with B=−2?",
+    "options": [
+      "Left π/2",
+      "Right π",
+      "Right π/2",
+      "Left π"
+    ],
+    "correctIndex": 2,
+    "explanation": "−2x+π=−2(x−π/2); the written C is +π/2."
+  },
+  {
+    "id": "TRC-GPH07-001",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Basic",
+    "family": "amplitude",
+    "prompt": "What is the amplitude of y=−3sinx?",
+    "options": [
+      "−3",
+      "1",
+      "3",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "Amplitude is |A|=3, never negative."
+  },
+  {
+    "id": "TRC-GPH07-002",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Basic",
+    "family": "period",
+    "prompt": "Find period of y=cos(−4x).",
+    "options": [
+      "2π",
+      "π/2",
+      "π",
+      "4π"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cosine is even, and |B|=4; T=2π/4=π/2."
+  },
+  {
+    "id": "TRC-GPH07-003",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Basic",
+    "family": "midline",
+    "prompt": "Find midline of y=−2sinx+6.",
+    "options": [
+      "y=6",
+      "y=−2",
+      "y=2",
+      "y=−6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vertical shift D=6 sets the midline."
+  },
+  {
+    "id": "TRC-GPH07-004",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Intermediate",
+    "family": "range",
+    "prompt": "What is range of y=−2sinx+3?",
+    "options": [
+      "[−2,2]",
+      "[3,5]",
+      "[−5,−1]",
+      "[1,5]"
+    ],
+    "correctIndex": 3,
+    "explanation": "Midline 3 ± amplitude 2 gives [1,5]."
+  },
+  {
+    "id": "TRC-GPH07-005",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Intermediate",
+    "family": "horizontal-shift",
+    "prompt": "What is the horizontal shift of y=3cos(2(x+π/6))−1?",
+    "options": [
+      "Right π/6",
+      "Left π/3",
+      "Left π/6",
+      "Right π/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Argument 2(x+π/6) corresponds to C=−π/6."
+  },
+  {
+    "id": "TRC-GPH07-006",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Intermediate",
+    "family": "reflection",
+    "prompt": "If y=−sinx, which geometric transformation occurred?",
+    "options": [
+      "Reflection across y-axis only",
+      "Reflection across x-axis",
+      "Shift up 1",
+      "Shift right π/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiplying every y-value by −1 reflects over the horizontal axis."
+  },
+  {
+    "id": "TRC-GPH07-007",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Advanced",
+    "family": "maximum",
+    "prompt": "For y=−4cos(2x)+1, what is its maximum?",
+    "options": [
+      "5",
+      "4",
+      "−3",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Midline 1 plus amplitude 4 equals 5."
+  },
+  {
+    "id": "TRC-GPH07-008",
+    "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+    "difficulty": "Advanced",
+    "family": "period",
+    "prompt": "What is the period of y=5sin(−x/2+π)?",
+    "options": [
+      "2π",
+      "π",
+      "π/2",
+      "4π"
+    ],
+    "correctIndex": 3,
+    "explanation": "B=−1/2 and T=2π/(1/2)=4π."
+  },
+  {
+    "id": "TRC-GPH08-001",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Basic",
+    "family": "amplitude",
+    "prompt": "A sinusoid has maximum 6 and minimum 2. Find amplitude.",
+    "options": [
+      "4",
+      "8",
+      "6",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Amplitude is half the difference of maximum and minimum: (6−2)/2=2."
+  },
+  {
+    "id": "TRC-GPH08-002",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Basic",
+    "family": "midline",
+    "prompt": "A sinusoid has maximum 7 and minimum −1. Find midline.",
+    "options": [
+      "y=4",
+      "y=−3",
+      "y=3",
+      "y=0"
+    ],
+    "correctIndex": 2,
+    "explanation": "The centerline lies halfway between maximum and minimum: (7−1)/2=3."
+  },
+  {
+    "id": "TRC-GPH08-003",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Basic",
+    "family": "period",
+    "prompt": "A sinusoid has period π. What positive B can be used in y=Acos(Bx)?",
+    "options": [
+      "1",
+      "2",
+      "π",
+      "1/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "For period T=π, the positive coefficient B=2π/T=2π/π=2."
+  },
+  {
+    "id": "TRC-GPH08-004",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Intermediate",
+    "family": "amplitude",
+    "prompt": "A curve reaches max 5 and min −3. Find amplitude.",
+    "options": [
+      "4",
+      "2",
+      "8",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Amplitude equals (maximum−minimum)/2=(5−(−3))/2=4."
+  },
+  {
+    "id": "TRC-GPH08-005",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Intermediate",
+    "family": "equation-model",
+    "prompt": "Which model has maximum 4 at x=0, minimum −2, and period 2π?",
+    "options": [
+      "y=3sinx+1",
+      "y=2cosx+2",
+      "y=3cos(2x)+1",
+      "y=3cosx+1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Amplitude 3, midline 1, period 2π; cosine starts at maximum."
+  },
+  {
+    "id": "TRC-GPH08-006",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Intermediate",
+    "family": "equation-model",
+    "prompt": "A sine wave crosses its midline rising at x=0, amplitude 2, period π. Choose a model.",
+    "options": [
+      "y=2cos(2x)",
+      "y=2sin(x/2)",
+      "y=2sin(2x)",
+      "y=−2sin(2x)"
+    ],
+    "correctIndex": 2,
+    "explanation": "A=2 and B=2π/π=2; positive sine rises at the origin."
+  },
+  {
+    "id": "TRC-GPH08-007",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Advanced",
+    "family": "equation-model",
+    "prompt": "A sinusoid has max 10, min 4, period 4π and maximum at x=0. Choose a model.",
+    "options": [
+      "y=3sin(x/2)+7",
+      "y=3cos(x/2)+7",
+      "y=6cos(2x)+4",
+      "y=3cos(2x)+7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Amplitude 3, midline 7, B=1/2, and cosine starts at the maximum."
+  },
+  {
+    "id": "TRC-GPH08-008",
+    "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+    "difficulty": "Advanced",
+    "family": "ece-wave",
+    "prompt": "A signal has maximum 2 V, minimum −2 V, period 0.01 s and begins at zero rising. Which v(t) models it?",
+    "options": [
+      "2sin(200πt) V",
+      "2cos(200πt) V",
+      "2sin(100πt) V",
+      "2sin(20πt) V"
+    ],
+    "correctIndex": 0,
+    "explanation": "Amplitude 2; f=100 Hz and ω=2πf=200π rad/s. Sine starts at zero rising."
+  }
+]

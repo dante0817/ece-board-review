@@ -1,0 +1,32 @@
+{
+  "PS02-06": {
+    "locatorSpotchecked": true,
+    "spotcheckPdfPage": 56,
+    "scope": "Selected concept/formula passage only; full lesson and question not approved",
+    "passageVerified": false
+  },
+  "PS02-08": {
+    "locatorSpotchecked": true,
+    "spotcheckPdfPage": 337,
+    "scope": "Selected concept/formula passage only; full lesson and question not approved",
+    "passageVerified": false
+  },
+  "PS02-09": {
+    "locatorSpotchecked": true,
+    "spotcheckPdfPage": 445,
+    "scope": "Selected concept/formula passage only; full lesson and question not approved",
+    "passageVerified": false
+  },
+  "PS03-05": {
+    "locatorSpotchecked": true,
+    "spotcheckPdfPage": 88,
+    "scope": "Selected concept/formula passage only; full lesson and question not approved",
+    "passageVerified": false
+  },
+  "PS07-07": {
+    "locatorSpotchecked": true,
+    "spotcheckPdfPage": 566,
+    "scope": "Selected concept/formula passage only; full lesson and question not approved",
+    "passageVerified": false
+  }
+}

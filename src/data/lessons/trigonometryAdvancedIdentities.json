@@ -1,0 +1,786 @@
+{
+  "trig-advanced-identities-sum-and-difference-formulas": {
+    "id": "trig-advanced-identities-sum-and-difference-formulas",
+    "title": "Sum and difference formulas",
+    "summary": "Find exact trig values and expand expressions involving sums or differences of angles.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-sum-and-difference-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-sum-and-difference-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-definition",
+            "type": "definition",
+            "text": "A sum or difference formula expresses a trigonometric function of α ± β using functions of α and β. The cosine difference formula has a plus sign in the middle; sine keeps the indicated sign. These formulas hold for real angles, with tangent formulas only where their original ratios are defined."
+          },
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-formula-1",
+            "type": "formula",
+            "latex": "\\sin(\\alpha\\pm\\beta)=\\sin\\alpha\\cos\\beta\\pm\\cos\\alpha\\sin\\beta",
+            "description": "Tangent quotient formulas require the tangent values on the right to exist and the denominator to be nonzero; use sine and cosine versions for angles such as 90° when tangent is undefined."
+          },
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-formula-2",
+            "type": "formula",
+            "latex": "\\cos(\\alpha\\pm\\beta)=\\cos\\alpha\\cos\\beta\\mp\\sin\\alpha\\sin\\beta"
+          },
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-formula-3",
+            "type": "formula",
+            "latex": "\\tan(\\alpha\\pm\\beta)=\\frac{\\tan\\alpha\\pm\\tan\\beta}{1\\mp\\tan\\alpha\\tan\\beta}"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-sum-and-difference-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-sum-and-difference-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Exact sine of 75°",
+            "problem": "Evaluate sin 75° exactly.",
+            "strategy": "Split 75° into 45° + 30°.",
+            "steps": [
+              "sin(45°+30°)=sin45°cos30°+cos45°sin30°.",
+              "= (√2/2)(√3/2)+(√2/2)(1/2) = (√6+√2)/4."
+            ],
+            "check": "Both summands are positive in quadrant I; the result is between 0 and 1."
+          },
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Cosine of a difference",
+            "problem": "Evaluate cos 15° exactly.",
+            "strategy": "Write 15°=45°−30° and note the plus sign for cosine difference.",
+            "steps": [
+              "cos(45°−30°)=cos45°cos30°+sin45°sin30°.",
+              "= (√6+√2)/4."
+            ],
+            "check": "cos 15° is near 0.966, consistent with the exact answer."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-sum-and-difference-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-sum-and-difference-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-pitfall",
+            "type": "note",
+            "text": "For cos(α−β), the middle sign is positive, not negative. Do not treat sin(α+β) as sinα+sinβ."
+          },
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Find sin 15° exactly.",
+            "answer": "(√6−√2)/4",
+            "explanation": "Use sin(45°−30°)=sin45°cos30°−cos45°sin30°."
+          },
+          {
+            "id": "advanced-identities-sum-and-difference-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed. §§5.3–5.4; Sullivan 9th ed. §3.5; Schaum’s Outline 4th ed. Ch. 9; Kelley Ch. 7."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-double-angle-formulas": {
+    "id": "trig-advanced-identities-double-angle-formulas",
+    "title": "Double-angle formulas",
+    "summary": "Use double-angle identities to evaluate, rewrite, or solve trig expressions involving 2θ.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-double-angle-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-double-angle-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-double-angle-formulas-definition",
+            "type": "definition",
+            "text": "Double-angle identities are sum formulas with the same angle repeated. Cosine has three equivalent versions, chosen according to whether sine or cosine is known. Identities hold where each displayed function is defined."
+          },
+          {
+            "id": "advanced-identities-double-angle-formulas-formula-1",
+            "type": "formula",
+            "latex": "\\sin2\\theta=2\\sin\\theta\\cos\\theta,\\quad\\tan2\\theta=\\frac{2\\tan\\theta}{1-\\tan^2\\theta}",
+            "description": "The tan 2θ quotient requires tanθ to exist and 1−tan²θ≠0. It cannot safely replace tan 2θ when the right-hand tangent is undefined."
+          },
+          {
+            "id": "advanced-identities-double-angle-formulas-formula-2",
+            "type": "formula",
+            "latex": "\\cos2\\theta=\\cos^2\\theta-\\sin^2\\theta=1-2\\sin^2\\theta=2\\cos^2\\theta-1"
+          },
+          {
+            "id": "advanced-identities-double-angle-formulas-formula-3",
+            "type": "formula",
+            "latex": "\\sin^2\\theta=\\frac{1-\\cos2\\theta}{2},\\quad\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-double-angle-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-double-angle-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-double-angle-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Compute sin 2θ from ratios",
+            "problem": "If sinθ=3/5 and θ is acute, find sin2θ.",
+            "strategy": "Use the positive cosine for an acute angle.",
+            "steps": [
+              "cosθ=√(1−9/25)=4/5.",
+              "sin2θ=2(3/5)(4/5)=24/25."
+            ],
+            "check": "The result 24/25 is in the valid sine range."
+          },
+          {
+            "id": "advanced-identities-double-angle-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Choose an efficient cosine form",
+            "problem": "If cosθ=−3/5, find cos2θ.",
+            "strategy": "Use the double-angle version involving only cosine.",
+            "steps": [
+              "cos2θ=2cos²θ−1.",
+              "=2(9/25)−1=−7/25."
+            ],
+            "check": "The sign of cosθ disappears upon squaring; no quadrant assumption is needed."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-double-angle-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-double-angle-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-double-angle-formulas-pitfall",
+            "type": "note",
+            "text": "The identity cos2θ is not 2cosθ. Squaring cosθ loses its sign; do not guess the sign of sinθ without quadrant information."
+          },
+          {
+            "id": "advanced-identities-double-angle-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Evaluate cos 120° using a double-angle formula.",
+            "answer": "−1/2",
+            "explanation": "cos120°=2cos²60°−1=2(1/4)−1=−1/2."
+          },
+          {
+            "id": "advanced-identities-double-angle-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed. §5.5; Sullivan 9th ed. §3.6; Schaum’s Outline 4th ed. Ch. 9; Kelley Ch. 8."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-half-angle-formulas": {
+    "id": "trig-advanced-identities-half-angle-formulas",
+    "title": "Half-angle formulas",
+    "summary": "Evaluate half-angle values while using quadrant information to select the correct sign.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-half-angle-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-half-angle-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-half-angle-formulas-definition",
+            "type": "definition",
+            "text": "Half-angle formulas come from the cosine double-angle identity. The ± sign is selected by the sign of the trigonometric function at θ/2, not necessarily at θ. Always state the interval or quadrant for θ/2."
+          },
+          {
+            "id": "advanced-identities-half-angle-formulas-formula-1",
+            "type": "formula",
+            "latex": "\\sin\\frac{\\theta}{2}=\\pm\\sqrt{\\frac{1-\\cos\\theta}{2}},\\quad\\cos\\frac{\\theta}{2}=\\pm\\sqrt{\\frac{1+\\cos\\theta}{2}}",
+            "description": "The rational tangent formulas have different original domains; use the appropriate version and preserve denominators. The square-root tangent formula needs cosθ≠−1 and a sign choice consistent with θ/2."
+          },
+          {
+            "id": "advanced-identities-half-angle-formulas-formula-2",
+            "type": "formula",
+            "latex": "\\tan\\frac{\\theta}{2}=\\frac{\\sin\\theta}{1+\\cos\\theta}=\\frac{1-\\cos\\theta}{\\sin\\theta}"
+          },
+          {
+            "id": "advanced-identities-half-angle-formulas-formula-3",
+            "type": "formula",
+            "latex": "\\tan\\frac\\theta2=\\pm\\sqrt{\\frac{1-\\cos\\theta}{1+\\cos\\theta}}"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-half-angle-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-half-angle-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-half-angle-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Half-angle sine with quadrant",
+            "problem": "If cosθ=−3/5 and 180°<θ<360°, find sin(θ/2).",
+            "strategy": "Here 90°<θ/2<180°, so sine of the half-angle is positive.",
+            "steps": [
+              "sin(θ/2)=+√((1−cosθ)/2).",
+              "=√((1+3/5)/2)=√(4/5)=2√5/5."
+            ],
+            "check": "θ/2 is in quadrant II, so the positive result is correct."
+          },
+          {
+            "id": "advanced-identities-half-angle-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Tangent of 22.5°",
+            "problem": "Find tan22.5° exactly.",
+            "strategy": "Take θ=45° in the rationalized half-angle formula.",
+            "steps": [
+              "tan(45°/2)=(1−cos45°)/sin45°.",
+              "=(1−√2/2)/(√2/2)=√2−1."
+            ],
+            "check": "22.5° is acute, so its tangent is positive and below tan45°=1."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-half-angle-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-half-angle-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-half-angle-formulas-pitfall",
+            "type": "note",
+            "text": "Do not always take the positive square root; choose the sign from θ/2. Avoid replacing an undefined original fraction with a value derived by cancellation."
+          },
+          {
+            "id": "advanced-identities-half-angle-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Calculate sin15° using the half-angle formula.",
+            "answer": "(√6−√2)/4",
+            "explanation": "For θ=30°, the half-angle is in quadrant I: sin15°=√((1−√3/2)/2)=(√6−√2)/4."
+          },
+          {
+            "id": "advanced-identities-half-angle-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed. §5.6; Sullivan 9th ed. §3.6; Schaum’s Outline 4th ed. Ch. 9; Kelley Ch. 8."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-triple-angle-formulas": {
+    "id": "trig-advanced-identities-triple-angle-formulas",
+    "title": "Triple-angle formulas",
+    "summary": "Derive and apply triple-angle formulas and identify their special-case uses.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-triple-angle-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-triple-angle-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-triple-angle-formulas-definition",
+            "type": "definition",
+            "text": "Triple-angle formulas express sin3θ, cos3θ, and tan3θ in terms of trig functions at θ. They can be derived by adding 2θ+θ and substituting double-angle formulas."
+          },
+          {
+            "id": "advanced-identities-triple-angle-formulas-formula-1",
+            "type": "formula",
+            "latex": "\\sin3\\theta=3\\sin\\theta-4\\sin^3\\theta",
+            "description": "The tangent quotient requires tanθ to be defined and 1−3tan²θ≠0. If tanθ is undefined, tan3θ is also undefined at those angles; always check denominators."
+          },
+          {
+            "id": "advanced-identities-triple-angle-formulas-formula-2",
+            "type": "formula",
+            "latex": "\\cos3\\theta=4\\cos^3\\theta-3\\cos\\theta"
+          },
+          {
+            "id": "advanced-identities-triple-angle-formulas-formula-3",
+            "type": "formula",
+            "latex": "\\tan3\\theta=\\frac{3\\tan\\theta-\\tan^3\\theta}{1-3\\tan^2\\theta}"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-triple-angle-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-triple-angle-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-triple-angle-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Use the sine triple-angle",
+            "problem": "If sinθ=1/2, evaluate sin3θ.",
+            "strategy": "This identity depends only on sinθ.",
+            "steps": [
+              "sin3θ=3(1/2)−4(1/2)³.",
+              "=3/2−1/2=1."
+            ],
+            "check": "Possible θ values having sine 1/2 give sin3θ=1."
+          },
+          {
+            "id": "advanced-identities-triple-angle-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Find cos 3θ",
+            "problem": "If cosθ=1/2, calculate cos3θ.",
+            "strategy": "Use 4cos³θ−3cosθ.",
+            "steps": [
+              "cos3θ=4(1/8)−3(1/2).",
+              "=1/2−3/2=−1."
+            ],
+            "check": "For θ=60°, 3θ=180°, whose cosine is −1."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-triple-angle-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-triple-angle-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-triple-angle-formulas-pitfall",
+            "type": "note",
+            "text": "Do not interpret sin3θ as 3sinθ or cos3θ as (cosθ)³. The tangent version can have forbidden denominator values."
+          },
+          {
+            "id": "advanced-identities-triple-angle-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Find sin(3×30°) using the triple-angle identity.",
+            "answer": "1",
+            "explanation": "3sin30°−4sin³30°=3/2−1/2=1."
+          },
+          {
+            "id": "advanced-identities-triple-angle-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Kelley Ch. 8 (related angle identities); Lial 10th ed. §5.5 (double-angle derivation); Schaum’s Outline 4th ed. Ch. 9 (angle formulas). Triple-angle identities are derived from the cited addition and double-angle formulas."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-power-reduction-formulas": {
+    "id": "trig-advanced-identities-power-reduction-formulas",
+    "title": "Power-reduction formulas",
+    "summary": "Reduce squares and powers of sine and cosine to expressions with multiple-angle arguments.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-power-reduction-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-power-reduction-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-power-reduction-formulas-definition",
+            "type": "definition",
+            "text": "Power-reduction formulas rewrite squared trig functions in terms of first powers of cos2θ. They follow immediately by solving the cosine double-angle identities for sin²θ and cos²θ."
+          },
+          {
+            "id": "advanced-identities-power-reduction-formulas-formula-1",
+            "type": "formula",
+            "latex": "\\sin^2\\theta=\\frac{1-\\cos2\\theta}{2},\\qquad\\cos^2\\theta=\\frac{1+\\cos2\\theta}{2}",
+            "description": "Fourth-power reduction is obtained by squaring sin²θ=(1−cos2θ)/2 and reducing cos²2θ=(1+cos4θ)/2."
+          },
+          {
+            "id": "advanced-identities-power-reduction-formulas-formula-2",
+            "type": "formula",
+            "latex": "\\sin\\theta\\cos\\theta=\\frac{\\sin2\\theta}{2}"
+          },
+          {
+            "id": "advanced-identities-power-reduction-formulas-formula-3",
+            "type": "formula",
+            "latex": "\\sin^4\\theta=\\frac{3-4\\cos2\\theta+\\cos4\\theta}{8}"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-power-reduction-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-power-reduction-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-power-reduction-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Reduce sine squared",
+            "problem": "Express sin²θ using a first power of a trig function.",
+            "strategy": "Rearrange cos2θ=1−2sin²θ.",
+            "steps": [
+              "2sin²θ=1−cos2θ.",
+              "sin²θ=(1−cos2θ)/2."
+            ],
+            "check": "At θ=0, both sides equal zero."
+          },
+          {
+            "id": "advanced-identities-power-reduction-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Reduce a fourth power",
+            "problem": "Reduce sin⁴θ to constants and cosine terms.",
+            "strategy": "Square the power-reduction formula then use cos²2θ=(1+cos4θ)/2.",
+            "steps": [
+              "sin⁴θ=(1−2cos2θ+cos²2θ)/4.",
+              "= (3−4cos2θ+cos4θ)/8."
+            ],
+            "check": "At θ=π/2, the expression gives (3+4+1)/8=1."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-power-reduction-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-power-reduction-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-power-reduction-formulas-pitfall",
+            "type": "note",
+            "text": "Remember the negative sign in the sine-square formula and the positive sign in cosine-square formula. cos²θ is not cos(θ²)."
+          },
+          {
+            "id": "advanced-identities-power-reduction-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Rewrite cos²θ with a multiple-angle function.",
+            "answer": "(1+cos2θ)/2",
+            "explanation": "From cos2θ=2cos²θ−1, add one and divide by two."
+          },
+          {
+            "id": "advanced-identities-power-reduction-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed. §5.5; Kelley Ch. 8; Sullivan 9th ed. §3.6."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-product-to-sum-formulas": {
+    "id": "trig-advanced-identities-product-to-sum-formulas",
+    "title": "Product-to-sum formulas",
+    "summary": "Transform products of sine and cosine functions into sums or differences.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-product-to-sum-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-product-to-sum-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-product-to-sum-formulas-definition",
+            "type": "definition",
+            "text": "Product-to-sum formulas come from adding or subtracting the angle-sum and angle-difference identities. They are useful in wave superposition, algebraic simplification, and later integration."
+          },
+          {
+            "id": "advanced-identities-product-to-sum-formulas-formula-1",
+            "type": "formula",
+            "latex": "2\\sin A\\cos B=\\sin(A+B)+\\sin(A-B)",
+            "description": "All three formulas are valid for real A and B. Reversing the arguments in the sine difference changes its sign; cosine difference is even."
+          },
+          {
+            "id": "advanced-identities-product-to-sum-formulas-formula-2",
+            "type": "formula",
+            "latex": "2\\cos A\\cos B=\\cos(A+B)+\\cos(A-B)"
+          },
+          {
+            "id": "advanced-identities-product-to-sum-formulas-formula-3",
+            "type": "formula",
+            "latex": "2\\sin A\\sin B=\\cos(A-B)-\\cos(A+B)"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-product-to-sum-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-product-to-sum-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-product-to-sum-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Convert a product to a sum",
+            "problem": "Rewrite 2sin3x cosx.",
+            "strategy": "Apply 2sinAcosB=sin(A+B)+sin(A−B).",
+            "steps": [
+              "Set A=3x and B=x.",
+              "2sin3x cosx=sin4x+sin2x."
+            ],
+            "check": "At x=0, both sides are zero."
+          },
+          {
+            "id": "advanced-identities-product-to-sum-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Convert sine products",
+            "problem": "Rewrite 2sin5x sin2x.",
+            "strategy": "Use cosine of the difference minus cosine of the sum.",
+            "steps": [
+              "2sin5x sin2x=cos(5x−2x)−cos(5x+2x).",
+              "=cos3x−cos7x."
+            ],
+            "check": "At x=0, right side is 1−1=0."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-product-to-sum-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-product-to-sum-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-product-to-sum-formulas-pitfall",
+            "type": "note",
+            "text": "For sinA sinB, use cos(A−B)−cos(A+B), not the reverse. Do not drop the factor of two."
+          },
+          {
+            "id": "advanced-identities-product-to-sum-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Rewrite 2cos4x cosx.",
+            "answer": "cos5x + cos3x",
+            "explanation": "Use cos(A+B)+cos(A−B) with A=4x and B=x."
+          },
+          {
+            "id": "advanced-identities-product-to-sum-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Schaum’s Outline 4th ed. Ch. 10; Lial 10th ed. §5.5; Kelley Ch. 8; Sullivan 9th ed. §3.7."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-sum-to-product-formulas": {
+    "id": "trig-advanced-identities-sum-to-product-formulas",
+    "title": "Sum-to-product formulas",
+    "summary": "Factor sums and differences of trig functions into products for simplification and equation solving.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-sum-to-product-formulas-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-sum-to-product-formulas-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-sum-to-product-formulas-definition",
+            "type": "definition",
+            "text": "Sum-to-product identities reverse the product-to-sum formulas. The key technique is to use the average (A+B)/2 and half-difference (A−B)/2 of the two angles."
+          },
+          {
+            "id": "advanced-identities-sum-to-product-formulas-formula-1",
+            "type": "formula",
+            "latex": "\\sin A+\\sin B=2\\sin\\frac{A+B}{2}\\cos\\frac{A-B}{2}",
+            "description": "For cosine difference: cosA−cosB = −2sin((A+B)/2)sin((A−B)/2). Signs follow the chosen order of A and B."
+          },
+          {
+            "id": "advanced-identities-sum-to-product-formulas-formula-2",
+            "type": "formula",
+            "latex": "\\sin A-\\sin B=2\\cos\\frac{A+B}{2}\\sin\\frac{A-B}{2}"
+          },
+          {
+            "id": "advanced-identities-sum-to-product-formulas-formula-3",
+            "type": "formula",
+            "latex": "\\cos A+\\cos B=2\\cos\\frac{A+B}{2}\\cos\\frac{A-B}{2}"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-sum-to-product-formulas-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-sum-to-product-formulas-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-sum-to-product-formulas-worked-1",
+            "type": "worked-example",
+            "title": "Factor a sine sum",
+            "problem": "Factor sin5x + sin3x.",
+            "strategy": "Find the average angle and the half-difference.",
+            "steps": [
+              "(5x+3x)/2=4x and (5x−3x)/2=x.",
+              "sin5x+sin3x=2sin4x cosx."
+            ],
+            "check": "Expanding with product-to-sum recovers the original expression."
+          },
+          {
+            "id": "advanced-identities-sum-to-product-formulas-worked-2",
+            "type": "worked-example",
+            "title": "Factor a cosine difference",
+            "problem": "Factor cos5x − cosx.",
+            "strategy": "The cosine-difference identity has a leading minus sign.",
+            "steps": [
+              "Average=(5x+x)/2=3x; half-difference=(5x−x)/2=2x.",
+              "cos5x−cosx=−2sin3x sin2x."
+            ],
+            "check": "At x=0, both sides vanish."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-sum-to-product-formulas-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-sum-to-product-formulas-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-sum-to-product-formulas-pitfall",
+            "type": "note",
+            "text": "Avoid averaging one angle and subtracting a different one. The cosine-difference formula has a negative sign."
+          },
+          {
+            "id": "advanced-identities-sum-to-product-formulas-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Factor cos3x + cosx.",
+            "answer": "2cos2x cosx",
+            "explanation": "Apply cosA+cosB=2cos((A+B)/2)cos((A−B)/2)."
+          },
+          {
+            "id": "advanced-identities-sum-to-product-formulas-reference",
+            "type": "note",
+            "text": "Reference guide: Schaum’s Outline 4th ed. Ch. 10; Sullivan 9th ed. §3.7; Kelley Ch. 8; Lial 10th ed. §5.5."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-identities-combining-identities-efficiently": {
+    "id": "trig-advanced-identities-combining-identities-efficiently",
+    "title": "Combining identities efficiently",
+    "summary": "Choose a sequence of identities that minimizes algebra and preserves the original domain.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "advanced-identities-combining-identities-efficiently-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "trig-advanced-identities-combining-identities-efficiently-concept"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-combining-identities-efficiently-definition",
+            "type": "definition",
+            "text": "Complex trigonometric expressions may require more than one identity. Begin by recognizing the pattern (square, double angle, product, sum, or conjugate), decide which form simplifies the most, and check denominator restrictions before cancellation."
+          },
+          {
+            "id": "advanced-identities-combining-identities-efficiently-formula-1",
+            "type": "formula",
+            "latex": "\\frac{\\sin2\\theta}{1+\\cos2\\theta}=\\tan\\theta\\quad(\\cos\\theta\\ne0)",
+            "description": "The first identity holds only where the ORIGINAL left-hand expression is defined, i.e. cosθ≠0. Never claim it is valid for all real θ."
+          },
+          {
+            "id": "advanced-identities-combining-identities-efficiently-formula-2",
+            "type": "formula",
+            "latex": "\\sin(A+B)+\\sin(A-B)=2\\sin A\\cos B"
+          },
+          {
+            "id": "advanced-identities-combining-identities-efficiently-formula-3",
+            "type": "formula",
+            "latex": "1-\\cos2\\theta=2\\sin^2\\theta,\\quad 1+\\cos2\\theta=2\\cos^2\\theta"
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-combining-identities-efficiently-worked",
+        "title": "Step-by-step worked examples",
+        "objectiveIds": [
+          "trig-advanced-identities-combining-identities-efficiently-solving"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-combining-identities-efficiently-worked-1",
+            "type": "worked-example",
+            "title": "Simplify a double-angle quotient",
+            "problem": "Simplify sin2θ/(1+cos2θ).",
+            "strategy": "Rewrite both numerator and denominator using double-angle formulas.",
+            "steps": [
+              "sin2θ=2sinθcosθ and 1+cos2θ=2cos²θ.",
+              "The quotient becomes tanθ after cancelling 2cosθ, for cosθ≠0."
+            ],
+            "check": "At θ=π/2 the original denominator is zero; the simplified expression is also undefined."
+          },
+          {
+            "id": "advanced-identities-combining-identities-efficiently-worked-2",
+            "type": "worked-example",
+            "title": "Collapse two sums",
+            "problem": "Simplify sin(3x+x)+sin(3x−x).",
+            "strategy": "Look for the sum-to-product pattern with A=3x, B=x.",
+            "steps": [
+              "sin(3x+x)+sin(3x−x)=2sin3x cosx.",
+              "Equivalently sin4x+sin2x=2sin3x cosx."
+            ],
+            "check": "At x=0 both sides equal zero, and product-to-sum checks the expression."
+          }
+        ]
+      },
+      {
+        "id": "advanced-identities-combining-identities-efficiently-review",
+        "title": "Common mistakes, checkpoint and references",
+        "objectiveIds": [
+          "trig-advanced-identities-combining-identities-efficiently-review"
+        ],
+        "blocks": [
+          {
+            "id": "advanced-identities-combining-identities-efficiently-pitfall",
+            "type": "note",
+            "text": "Do not cancel terms in a sum (for example, (a+b)/a≠b). Never drop domain restrictions; two formulas may agree numerically where defined but have different domains."
+          },
+          {
+            "id": "advanced-identities-combining-identities-efficiently-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Simplify (1−cos2θ)/(sin2θ) on its original domain.",
+            "answer": "tanθ, where sin2θ ≠ 0",
+            "explanation": "Use 2sin²θ/(2sinθcosθ)=tanθ, but retain sinθ≠0 and cosθ≠0."
+          },
+          {
+            "id": "advanced-identities-combining-identities-efficiently-reference",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed. §§5.1–5.6; Kelley Chs. 7–8; Schaum’s Outline 4th ed. Chs. 8–10; Sullivan 9th ed. §§3.4–3.7."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "source": "v10.55.0 ZIP",
+  "protectedSha256": {
+    "src/data/geometry/solidMensurationChallenges.json": "fc6f55dd99ac8c4ba7f3fce73d9a12e7f605970b5da3de30272365dd2acb8c17",
+    "src/data/geometry/solidMensurationFormulas.json": "e9566509c6ff5e6b56a463842ef83d199bc7fbee191eb3ca324b41297e2a3d0a",
+    "src/data/geometry/solidMensurationLessons.json": "1ed47d54248257341d46ca1e078d2e2455e12353a35da28ff370db5ace875fe6",
+    "src/data/geometry/solidMensurationNumericChecks.json": "3fd4de9efaa2e9cd5f69b37d62a41fbf9e450164c89fe6bb8f4da8435267e993",
+    "src/data/geometry/solidMensurationPractice.json": "bf22ba954c3ff972a6396c89c7f9731155cefb606add47f0c7e64604e998e1d9",
+    "src/data/geometry/solidMensurationUnits.json": "64e4f0b0a31027038d4da29d39e8307eb6c0830fe425ab8231fa5aa3cdbe3847",
+    "src/features/plane-geometry/PlaneGeometryIllustration.tsx": "a6b198f1981379af2b1a0131c3b50ec0a0395de745791c3dd2c479cb0ebbf585",
+    "src/features/plane-geometry/PlaneGeometryScreen.tsx": "15ef717d78edb4a96a3e168f82f1664cbf4727146fecdd4d077dfad67a9c77a0",
+    "src/features/plane-geometry/PlanePracticePanel.tsx": "3e5bdfd42489cde19fc0684d8ce0273b9fbe2630d7e02cfad8176cafa2aead43",
+    "src/features/plane-geometry/planeFormulas.json": "b786193a11f88af38a20f0d9286d87123047d8d80aee4e4a82249b01519efd02",
+    "src/features/plane-geometry/planeGeometryContent.ts": "349a6447650d151cf85857faa9ae8d2168c8a7105b6d69bc2f47a82ab58730d4",
+    "src/features/plane-geometry/planeLessons.json": "8234994bef5e27c13fd22f1745ec5df1b8bedae10dbe1e4b826ef59add8bb78a",
+    "src/features/plane-geometry/planePractice.json": "a1d08a107ef2f7729a20bdd37620e8d44fec21937e4f5719dc32defc568e9137",
+    "src/features/plane-geometry/planeUnits.json": "194bd08c87d9c4862159b83a454961f4bc815009c19123023b34744535b4c3c7",
+    "src/features/solid-mensuration/SolidGeometryIllustration.tsx": "4e93f94ed7563dacd72621fa14012a3a4ac412f7db4eb95542fb77ea53714895",
+    "src/features/solid-mensuration/SolidMensurationScreen.tsx": "469385390744beed1a004c684a1ac71640c7ac3db2c38665a3de2f2867f7ed2f",
+    "src/features/solid-mensuration/SolidPracticePanel.tsx": "6a6cf0ff5a160ee9d75a6ed06d0b91739a2f54ef4aa1a8736789f8ebddd6a035",
+    "src/features/solid-mensuration/solidMensurationContent.ts": "d90ee7a381158dad7f949f35f8e37c5e3539e95b6a02e98914a9ce11cc846532",
+    "src/features/solid-mensuration/solidPracticeEngine.mjs": "92e538fe7f045a6b45bdaecca14bb86931caee54e8ff0df5221f6443b882bf6e"
+  }
+}

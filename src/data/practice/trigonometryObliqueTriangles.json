@@ -1,0 +1,962 @@
+[
+  {
+    "id": "TRI44-091-001",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Basic",
+    "family": "case-selection",
+    "prompt": "Which case is specified by two sides and their included angle?",
+    "options": [
+      "AAS",
+      "SSA",
+      "SAS",
+      "AAA"
+    ],
+    "correctIndex": 2,
+    "explanation": "SAS means side–angle–side: the angle is between the two supplied sides. The Law of Cosines finds the opposite third side."
+  },
+  {
+    "id": "TRI44-091-002",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Basic",
+    "family": "case-selection",
+    "prompt": "For a triangle, all three side lengths are known. Which case applies?",
+    "options": [
+      "ASA",
+      "SSS",
+      "AAS",
+      "SSA"
+    ],
+    "correctIndex": 1,
+    "explanation": "SSS means all three sides are specified. First check triangle inequalities, then compute an angle with the Law of Cosines."
+  },
+  {
+    "id": "TRI44-091-003",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Basic",
+    "family": "case-selection",
+    "prompt": "Two angles and a non-included side of a triangle are given. What data case is this?",
+    "options": [
+      "SSA",
+      "SAS",
+      "AAS",
+      "SSS"
+    ],
+    "correctIndex": 2,
+    "explanation": "The known side is not between the supplied angles, so this is angle–angle–side. The third angle is fixed by the 180° sum."
+  },
+  {
+    "id": "TRI44-091-004",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Basic",
+    "family": "angle-sum",
+    "prompt": "Triangle ABC has A=40° and B=70°. Find C.",
+    "options": [
+      "60°",
+      "80°",
+      "70°",
+      "110°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Interior angles total 180°, so C=180°−40°−70°=70°. The equal B and C imply equal opposite sides."
+  },
+  {
+    "id": "TRI44-091-005",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Intermediate",
+    "family": "existence",
+    "prompt": "Can positive lengths 4, 7, and 12 form a triangle?",
+    "options": [
+      "Yes: SAS",
+      "Yes: any three positive sides",
+      "No: 4+7<12",
+      "No: all sides must be equal"
+    ],
+    "correctIndex": 2,
+    "explanation": "A triangle requires each pair of side lengths to sum to more than the remaining side. Here 4+7=11 is smaller than 12."
+  },
+  {
+    "id": "TRI44-091-006",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Intermediate",
+    "family": "case-selection",
+    "prompt": "If only the three angles 30°, 60°, and 90° are known, which statement is correct?",
+    "options": [
+      "A unique size is determined",
+      "No triangle is possible",
+      "Only the hypotenuse is determined",
+      "Similar triangles of many sizes are possible"
+    ],
+    "correctIndex": 3,
+    "explanation": "AAA determines the shape up to similarity but not scale. At least one length is needed to determine all side lengths."
+  },
+  {
+    "id": "TRI44-091-007",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Advanced",
+    "family": "case-selection",
+    "prompt": "Which case requires an ambiguity check because zero, one or two triangles may fit?",
+    "options": [
+      "ASA",
+      "SSA",
+      "SAS",
+      "AAS"
+    ],
+    "correctIndex": 1,
+    "explanation": "For acute A with opposite side a and adjacent side b, compare a with h=b sin A; SSA may allow zero, one, or two solutions."
+  },
+  {
+    "id": "TRI44-091-008",
+    "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "difficulty": "Intermediate",
+    "family": "sas",
+    "prompt": "Two sides are 6 and 8 with included angle 90°. Find the opposite third side.",
+    "options": [
+      "12",
+      "14",
+      "10",
+      "√28"
+    ],
+    "correctIndex": 2,
+    "explanation": "SAS permits the Law of Cosines: c²=6²+8²−2(6)(8)cos90°=36+64=100, so c=10."
+  },
+  {
+    "id": "TRI44-092-001",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Intermediate",
+    "family": "aas",
+    "prompt": "In triangle ABC, A=30°, B=45°, and a=10. Find b.",
+    "options": [
+      "5√2",
+      "10√2",
+      "5√3",
+      "20√2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use opposite angle–side pairs: b=10 sin45°/sin30°=10(√2/2)/(1/2)=10√2."
+  },
+  {
+    "id": "TRI44-092-002",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Basic",
+    "family": "aas",
+    "prompt": "If A=30°, B=90°, and a=6, find b.",
+    "options": [
+      "3",
+      "6",
+      "12",
+      "6√3"
+    ],
+    "correctIndex": 2,
+    "explanation": "The sine law gives b=6 sin90°/sin30°=6/(1/2)=12; b is the hypotenuse opposite 90°."
+  },
+  {
+    "id": "TRI44-092-003",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Basic",
+    "family": "angle-sum",
+    "prompt": "A triangle has A=40° and B=65°. What is C?",
+    "options": [
+      "75°",
+      "85°",
+      "65°",
+      "105°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract known interior angles from 180°: C=180°−40°−65°=75°. Check 40+65+75=180."
+  },
+  {
+    "id": "TRI44-092-004",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Basic",
+    "family": "equal-angles",
+    "prompt": "If A=B=45° and b=14, find a.",
+    "options": [
+      "7",
+      "7√2",
+      "14",
+      "28"
+    ],
+    "correctIndex": 2,
+    "explanation": "Equal angles oppose equal sides. Also a=14 sin45°/sin45°=14."
+  },
+  {
+    "id": "TRI44-092-005",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Intermediate",
+    "family": "aas",
+    "prompt": "For a=12, A=60°, and B=30°, what is b?",
+    "options": [
+      "4√3",
+      "6√3",
+      "12√3",
+      "8√3"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Law of Sines gives b=12 sin30°/sin60°=12(1/2)/(√3/2)=12/√3=4√3."
+  },
+  {
+    "id": "TRI44-092-006",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Advanced",
+    "family": "aas",
+    "prompt": "Given a=5, A=30°, and C=120°, what is c?",
+    "options": [
+      "5√3",
+      "10",
+      "5",
+      "5√2"
+    ],
+    "correctIndex": 0,
+    "explanation": "c=5 sin120°/sin30°=5(√3/2)/(1/2)=5√3, matching the larger opposite angle."
+  },
+  {
+    "id": "TRI44-092-007",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Intermediate",
+    "family": "aas",
+    "prompt": "For c=20, C=90°, and A=30°, what is a?",
+    "options": [
+      "20",
+      "10√3",
+      "10",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "a=20 sin30°/sin90°=20(1/2)=10. The 30° opposite side is half the hypotenuse."
+  },
+  {
+    "id": "TRI44-092-008",
+    "subtopicId": "trig-oblique-triangles-law-of-sines",
+    "difficulty": "Basic",
+    "family": "equal-angles",
+    "prompt": "When A=45°, B=45°, and a=9, what is b?",
+    "options": [
+      "9√2",
+      "9",
+      "9/√2",
+      "18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Equal angles have equal opposite side lengths; applying the sine-law ratios gives b=9."
+  },
+  {
+    "id": "TRI44-093-001",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Basic",
+    "family": "ssa-zero",
+    "prompt": "SSA data: A=30°, b=10, a=4. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "Infinitely many"
+    ],
+    "correctIndex": 0,
+    "explanation": "Altitude h=b sin A=10(1/2)=5. Because a=4<h, the opposite side cannot reach the other side of the angle."
+  },
+  {
+    "id": "TRI44-093-002",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Intermediate",
+    "family": "ssa-one",
+    "prompt": "SSA data: A=30°, b=10, a=5. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Here a=h=b sin30°=5, so the opposite side reaches the adjacent side at a right angle: one right triangle."
+  },
+  {
+    "id": "TRI44-093-003",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Advanced",
+    "family": "ssa-two",
+    "prompt": "SSA data: A=30°, b=10, a=6. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Because h=5 and 5<a=6<b=10, the endpoint can meet the ray in two positions, giving two valid triangles."
+  },
+  {
+    "id": "TRI44-093-004",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Intermediate",
+    "family": "ssa-one",
+    "prompt": "SSA data: A=30°, b=10, a=10. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "With acute A and a≥b, the alternative inverse-sine angle makes A+B≥180°, so only one valid triangle exists."
+  },
+  {
+    "id": "TRI44-093-005",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Intermediate",
+    "family": "ssa-obtuse",
+    "prompt": "SSA data: A=120°, b=5, a=4. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "An obtuse angle must oppose the longest side. Since opposite side a=4 is shorter than b=5, no triangle is possible."
+  },
+  {
+    "id": "TRI44-093-006",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Intermediate",
+    "family": "ssa-obtuse",
+    "prompt": "SSA data: A=120°, b=5, a=7. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since A is obtuse and its opposite side a=7 exceeds b=5, exactly one triangle fits. The acute-altitude rule does not apply here."
+  },
+  {
+    "id": "TRI44-093-007",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Advanced",
+    "family": "ssa-two",
+    "prompt": "SSA data: A=30°, b=8, a=5. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Altitude h=8 sin30°=4 and 4<5<8, so two solutions satisfy the side data and angle restrictions."
+  },
+  {
+    "id": "TRI44-093-008",
+    "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+    "difficulty": "Advanced",
+    "family": "ssa-zero",
+    "prompt": "SSA data: A=60°, b=10, a=8. How many triangles exist?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "h=10 sin60°=5√3≈8.660; since a=8<h, there is no triangle. Check altitude before taking arcsin."
+  },
+  {
+    "id": "TRI44-094-001",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Basic",
+    "family": "sas",
+    "prompt": "Find c when a=3, b=4, and included C=90°.",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since cos90°=0, c²=3²+4²=25, so c=5. This is the right-triangle special case of the cosine law."
+  },
+  {
+    "id": "TRI44-094-002",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Intermediate",
+    "family": "sas",
+    "prompt": "Find c when a=5, b=7, and included C=60°.",
+    "options": [
+      "√39",
+      "√74",
+      "√109",
+      "2√39"
+    ],
+    "correctIndex": 0,
+    "explanation": "c²=25+49−2(5)(7)(1/2)=39, hence c=√39, between |7−5| and 12."
+  },
+  {
+    "id": "TRI44-094-003",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Intermediate",
+    "family": "sas",
+    "prompt": "Find c when a=3, b=5, and included C=60°.",
+    "options": [
+      "√34",
+      "√19",
+      "4√2",
+      "√49"
+    ],
+    "correctIndex": 1,
+    "explanation": "c²=9+25−2(3)(5)(1/2)=19. Take the positive square root because c is a length."
+  },
+  {
+    "id": "TRI44-094-004",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Advanced",
+    "family": "sas",
+    "prompt": "Find c when a=6, b=8, and included C=60°.",
+    "options": [
+      "2√13",
+      "2√21",
+      "2√7",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "c²=36+64−2(6)(8)(1/2)=52, so c=√52=2√13. The included angle is 60°, and side c must be positive."
+  },
+  {
+    "id": "TRI44-094-005",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Intermediate",
+    "family": "sss",
+    "prompt": "If a=5, b=6, and c=7, what is cos C?",
+    "options": [
+      "1/2",
+      "1/5",
+      "−1/5",
+      "3/5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use cos C=(a²+b²−c²)/(2ab)=(25+36−49)/60=12/60=1/5. This is the correct rearrangement for the included angle between a and b."
+  },
+  {
+    "id": "TRI44-094-006",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Basic",
+    "family": "sss",
+    "prompt": "Sides a=5, b=12, and c=13 form what included angle C?",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Because 5²+12²=13², cos C=(25+144−169)/(2·5·12)=0 and C=90°."
+  },
+  {
+    "id": "TRI44-094-007",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Advanced",
+    "family": "sas",
+    "prompt": "Find c if a=7, b=9, and included C=120°.",
+    "options": [
+      "√193",
+      "√130",
+      "√67",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "c²=49+81−2(7)(9)(−1/2)=130+63=193, and c is the positive √193."
+  },
+  {
+    "id": "TRI44-094-008",
+    "subtopicId": "trig-oblique-triangles-law-of-cosines",
+    "difficulty": "Intermediate",
+    "family": "sas",
+    "prompt": "Find c if a=8, b=10, and included C=60°.",
+    "options": [
+      "2√21",
+      "2√41",
+      "6√2",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "c²=64+100−2(8)(10)(1/2)=84, so c=√84=2√21. Take the positive square root because c is a side length."
+  },
+  {
+    "id": "TRI44-095-001",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Basic",
+    "family": "sine-area",
+    "prompt": "For a=8, b=10, included C=30°, find triangle area K.",
+    "options": [
+      "20",
+      "40",
+      "80",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "K=(1/2)ab sin C=(1/2)(8)(10)(1/2)=20 square units. Area is expressed in squared units, not linear units."
+  },
+  {
+    "id": "TRI44-095-002",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Basic",
+    "family": "sine-area",
+    "prompt": "For a=6, b=9, included C=90°, find K.",
+    "options": [
+      "54",
+      "13.5",
+      "27",
+      "18"
+    ],
+    "correctIndex": 2,
+    "explanation": "K=(1/2)(6)(9)sin90°=27 square units, matching base times height over two."
+  },
+  {
+    "id": "TRI44-095-003",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Intermediate",
+    "family": "sine-area",
+    "prompt": "For a=10, b=12, included C=60°, find K.",
+    "options": [
+      "60√3",
+      "30√3",
+      "30",
+      "15√3"
+    ],
+    "correctIndex": 1,
+    "explanation": "K=(1/2)(10)(12)(√3/2)=30√3 square units. The two known sides enclose C."
+  },
+  {
+    "id": "TRI44-095-004",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Intermediate",
+    "family": "sine-area",
+    "prompt": "For a=7, b=8, included C=30°, find K.",
+    "options": [
+      "14",
+      "28",
+      "56",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "K=(1/2)(7)(8)(1/2)=14 square units. The perpendicular height to side a is 8sin30°=4."
+  },
+  {
+    "id": "TRI44-095-005",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Advanced",
+    "family": "obtuse-area",
+    "prompt": "For a=10, b=12, included C=150°, find K.",
+    "options": [
+      "−30",
+      "30",
+      "60",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sine of 150° is 1/2, not negative: K=(1/2)(10)(12)(1/2)=30 square units."
+  },
+  {
+    "id": "TRI44-095-006",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Basic",
+    "family": "sine-area",
+    "prompt": "For a=5, b=6, included C=90°, find K.",
+    "options": [
+      "11",
+      "15",
+      "30",
+      "60"
+    ],
+    "correctIndex": 1,
+    "explanation": "A right included angle gives K=(1/2)(5)(6)sin90°=15 square units."
+  },
+  {
+    "id": "TRI44-095-007",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Intermediate",
+    "family": "sine-area",
+    "prompt": "For a=4, b=9, included C=30°, find K.",
+    "options": [
+      "18",
+      "9",
+      "36",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "K=(1/2)(4)(9)(1/2)=9 square units. Any equivalent base–height method gives the same area."
+  },
+  {
+    "id": "TRI44-095-008",
+    "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+    "difficulty": "Advanced",
+    "family": "sine-area",
+    "prompt": "For a=9, b=10, included C=60°, find K.",
+    "options": [
+      "45√3",
+      "45√3/2",
+      "15√3",
+      "90"
+    ],
+    "correctIndex": 1,
+    "explanation": "K=(1/2)(9)(10)(√3/2)=45√3/2 square units; the extra factor of 1/2 comes from the sine."
+  },
+  {
+    "id": "TRI44-096-001",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Intermediate",
+    "family": "heron-area",
+    "prompt": "Find K for a 13–14–15 triangle using Heron’s formula.",
+    "options": [
+      "84",
+      "42",
+      "168",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "s=21 and K=√[21(21−13)(21−14)(21−15)]=√(21·8·7·6)=84. Here each bracket uses the semiperimeter s=21."
+  },
+  {
+    "id": "TRI44-096-002",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Intermediate",
+    "family": "heron-area",
+    "prompt": "Find K for sides 5, 5, and 6.",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "s=8, so K=√[8·3·3·2]=√144=12 square units. An altitude check also gives ½·6·4=12."
+  },
+  {
+    "id": "TRI44-096-003",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Basic",
+    "family": "heron-area",
+    "prompt": "Find K for sides 3, 4, and 5.",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "s=6, and Heron gives K=√(6·3·2·1)=6, agreeing with the right-triangle area."
+  },
+  {
+    "id": "TRI44-096-004",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Intermediate",
+    "family": "heron-area",
+    "prompt": "Find K for sides 8, 15, and 17.",
+    "options": [
+      "60",
+      "120",
+      "68",
+      "40"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 8–15–17 triangle is right; Heron with s=20 also gives K=√(20·12·5·3)=60."
+  },
+  {
+    "id": "TRI44-096-005",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Intermediate",
+    "family": "heron-area",
+    "prompt": "Find K for sides 7, 24, and 25.",
+    "options": [
+      "84",
+      "168",
+      "75",
+      "56"
+    ],
+    "correctIndex": 0,
+    "explanation": "The triangle is right because 7²+24²=25², giving area ½(7)(24)=84; Heron with s=28 agrees."
+  },
+  {
+    "id": "TRI44-096-006",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Basic",
+    "family": "heron-area",
+    "prompt": "Find K for sides 6, 8, and 10.",
+    "options": [
+      "24",
+      "48",
+      "30",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "s=12 and Heron gives K=√(12·6·4·2)=24 square units; this matches ½(6)(8)."
+  },
+  {
+    "id": "TRI44-096-007",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Basic",
+    "family": "semiperimeter",
+    "prompt": "For side lengths 9, 10, and 17, what is the semiperimeter?",
+    "options": [
+      "36",
+      "19",
+      "17",
+      "18"
+    ],
+    "correctIndex": 3,
+    "explanation": "The semiperimeter is half the full perimeter: s=(9+10+17)/2=36/2=18."
+  },
+  {
+    "id": "TRI44-096-008",
+    "subtopicId": "trig-oblique-triangles-herons-formula",
+    "difficulty": "Advanced",
+    "family": "heron-domain",
+    "prompt": "Can sides 2, 3, and 6 define a nondegenerate triangle area?",
+    "options": [
+      "Yes, K=6",
+      "Yes, K=3",
+      "No, 2+3<6",
+      "No, because all three side lengths differ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Triangle inequality fails since 2+3=5<6; Heron’s formula cannot describe a real nondegenerate triangle for these lengths."
+  },
+  {
+    "id": "TRI44-097-001",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Intermediate",
+    "family": "inradius",
+    "prompt": "For the right triangle with sides 6, 8, 10, find its inradius r.",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "K=24 and s=(6+8+10)/2=12, so r=K/s=24/12=2. The inradius follows by dividing area by semiperimeter."
+  },
+  {
+    "id": "TRI44-097-002",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Intermediate",
+    "family": "circumradius",
+    "prompt": "For the right triangle with sides 6, 8, 10, find its circumradius R.",
+    "options": [
+      "2",
+      "5",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "R=abc/(4K)=6·8·10/(4·24)=5. In a right triangle, R is half the hypotenuse."
+  },
+  {
+    "id": "TRI44-097-003",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Basic",
+    "family": "inradius",
+    "prompt": "For the right triangle with sides 3, 4, 5, find r.",
+    "options": [
+      "1",
+      "5/2",
+      "2",
+      "3/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "K=6 and s=(3+4+5)/2=6. Thus r=K/s=1. The 3–4–5 triangle has area six square units."
+  },
+  {
+    "id": "TRI44-097-004",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Intermediate",
+    "family": "circumradius",
+    "prompt": "For a right triangle with sides 3, 4, and 5, what is the circumcircle radius R?",
+    "options": [
+      "1",
+      "2",
+      "5/2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "The circumradius of a right triangle is half its hypotenuse: R=5/2. Alternatively abc/(4K)=60/24=5/2."
+  },
+  {
+    "id": "TRI44-097-005",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Intermediate",
+    "family": "inradius",
+    "prompt": "For an isosceles triangle with sides 5,5,6 and K=12, find r.",
+    "options": [
+      "3/2",
+      "5/2",
+      "4/3",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "The semiperimeter is s=(5+5+6)/2=8. Inradius r=K/s=12/8=3/2."
+  },
+  {
+    "id": "TRI44-097-006",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Advanced",
+    "family": "extended-sine",
+    "prompt": "A triangle has a=10 opposite A=30°. Find its circumradius R.",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "10√3"
+    ],
+    "correctIndex": 1,
+    "explanation": "By the extended sine law, 2R=a/sin A=10/(1/2)=20, so R=10. Remember that 2R—not R itself—is the sine-law ratio."
+  },
+  {
+    "id": "TRI44-097-007",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Intermediate",
+    "family": "equilateral-r",
+    "prompt": "Find the inradius of an equilateral triangle of side 6.",
+    "options": [
+      "√3",
+      "2√3",
+      "3√3",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "K=9√3 and s=9, so r=K/s=√3. The incircle sits one-third of the altitude above each side."
+  },
+  {
+    "id": "TRI44-097-008",
+    "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "difficulty": "Advanced",
+    "family": "equilateral-R",
+    "prompt": "Find the circumradius of an equilateral triangle of side 6.",
+    "options": [
+      "√3",
+      "3",
+      "2√3",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use R=a/(2sin A) with a=6 and A=60°: R=6/(2·√3/2)=6/√3=2√3. An equilateral triangle has three 60° angles."
+  },
+  {
+    "id": "TRI44-098-001",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Basic",
+    "family": "elevation",
+    "prompt": "A tower is observed 100 m away horizontally at 30° elevation. Neglect eye height. Find tower height.",
+    "options": [
+      "100√3 m",
+      "100√3/3 m",
+      "50 m",
+      "200 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "From the right triangle, h=100 tan30°=100/√3=100√3/3≈57.74 m."
+  },
+  {
+    "id": "TRI44-098-002",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Intermediate",
+    "family": "bearing",
+    "prompt": "A vessel travels 10 km on bearing 030°. Find its eastward displacement.",
+    "options": [
+      "5 km",
+      "5√3 km",
+      "10 km",
+      "0 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bearing 030° is 30° clockwise from north. East component E=10sin30°=5 km."
+  },
+  {
+    "id": "TRI44-098-003",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Intermediate",
+    "family": "bearing",
+    "prompt": "A vessel travels 10 km on bearing 030°. Find its northward displacement.",
+    "options": [
+      "5 km",
+      "10√3 km",
+      "5√3 km",
+      "0 km"
+    ],
+    "correctIndex": 2,
+    "explanation": "The north component is N=10cos30°=5√3≈8.66 km, while the east component is 5 km."
+  },
+  {
+    "id": "TRI44-098-004",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Basic",
+    "family": "navigation",
+    "prompt": "A surveyor walks 3 km east and then 4 km north. How far is the surveyor from the start?",
+    "options": [
+      "7 km",
+      "5 km",
+      "√7 km",
+      "12 km"
+    ],
+    "correctIndex": 1,
+    "explanation": "East and north movements are perpendicular; displacement magnitude is √(3²+4²)=5 km."
+  },
+  {
+    "id": "TRI44-098-005",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Basic",
+    "family": "bearing-notation",
+    "prompt": "Which three-digit azimuth corresponds to the quadrant bearing N30°E?",
+    "options": [
+      "330°",
+      "150°",
+      "030°",
+      "060°"
+    ],
+    "correctIndex": 2,
+    "explanation": "N30°E means rotate 30° eastward from north. Clockwise azimuth is 030°."
+  },
+  {
+    "id": "TRI44-098-006",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Basic",
+    "family": "bearing-notation",
+    "prompt": "What three-digit compass bearing describes travel due east?",
+    "options": [
+      "000°",
+      "180°",
+      "090°",
+      "270°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Azimuth bearings increase clockwise from north: east is a quarter clockwise turn, 090°."
+  },
+  {
+    "id": "TRI44-098-007",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Intermediate",
+    "family": "bearing-notation",
+    "prompt": "A route follows bearing 225°. In which quadrant does it point?",
+    "options": [
+      "Northeast",
+      "Northwest",
+      "Southeast",
+      "Southwest"
+    ],
+    "correctIndex": 3,
+    "explanation": "225° is between 180° (south) and 270° (west), so the heading is southwest, specifically S45°W."
+  },
+  {
+    "id": "TRI44-098-008",
+    "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "difficulty": "Advanced",
+    "family": "survey-cosines",
+    "prompt": "A road junction is 5 km from A and 7 km from B, with included road angle 60°. What is distance AB?",
+    "options": [
+      "√74 km",
+      "√39 km",
+      "12 km",
+      "2 km"
+    ],
+    "correctIndex": 1,
+    "explanation": "The roads form an SAS triangle. Law of Cosines gives AB²=5²+7²−2·5·7 cos60°=39; hence AB=√39 km."
+  }
+]

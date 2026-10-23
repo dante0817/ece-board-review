@@ -1,0 +1,30 @@
+BSECE Board Reviewer v10.12.0 — Assessment and Learning Path Validation
+Source baseline: v10.11.0 (ZIP retained unchanged)
+
+PASS: npm run validate:algebra:v10.8
+PASS: npm run validate:integrity:v10.9
+PASS: npm run validate:assessment:v10.10
+PASS: npm run validate:curriculum:v10.11
+PASS: npm run validate:learning-paths:v10.12
+PASS: npm run lint:integrity
+PASS: npm run lint:assessment
+PASS: npm run lint:curriculum
+PASS: npm run lint:learning-paths
+PASS: Source AST parser: 231 TS/TSX source files, zero syntax diagnostics
+
+NOT CERTIFIED: full npm run lint (incomplete external dependencies / missing type packages)
+NOT RUN: production bundle and browser E2E (requires installed npm dependencies)
+NOT CLAIMED: mathematically independent human verification of all 260 shared practice items
+NOT CLAIMED: full ECE exam blueprint coverage or readiness certification
+
+QA scenarios for local browser verification:
+  1. Create a new learner; confirm no pre-awarded scores and Board path active by default.
+  2. Switch to Guided; Today recommends the earliest uncovered Algebra topic; topic details and explanations remain accessible.
+  3. Navigate to Guided timed practice, inspect Study Mode default; select Strict manually if desired.
+  4. Switch to Board; Today recommendations change without resetting lesson coverage, test scores, errors or attempt history.
+  5. In Board, open Timed Mock; Strict (self-attested) is suggested. Start it and ensure path changes never mutate the running attempt.
+  6. Save a low-scoring automatic quiz; check Board remediation preference; manual/legacy-only scores must not become 'measured weak'.
+  7. Export backup as Guided; select Board; import Guided backup, preview and confirm; path and preexisting learner data should be restored.
+  8. Open and close an unmapped Algebra topic's drawer; confirm no React hook-order failure.
+  9. Open Absolute Value from the Algebra catalog; confirm correct canonical topic.
+ 10. Confirm all tabs remain accessible in both paths and no unavailable full-board coverage claim is displayed.

@@ -1,0 +1,962 @@
+[
+  {
+    "id": "TRI45-101-001",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Basic",
+    "family": "concept",
+    "prompt": "Which quantity is a scalar?",
+    "options": [
+      "Temperature",
+      "Displacement",
+      "Force",
+      "Velocity"
+    ],
+    "correctIndex": 0,
+    "explanation": "Temperature specifies magnitude in degrees but not spatial direction; the other choices describe directed quantities."
+  },
+  {
+    "id": "TRI45-101-002",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Basic",
+    "family": "displacement",
+    "prompt": "The directed displacement from A(1,2) to B(4,6) is:",
+    "options": [
+      "(5,8)",
+      "(−3,−4)",
+      "(4,6)",
+      "(3,4)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Subtract the initial position from the final position: (4−1,6−2)=(3,4)."
+  },
+  {
+    "id": "TRI45-101-003",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Basic",
+    "family": "concept",
+    "prompt": "Which quantity is necessarily a vector?",
+    "options": [
+      "Mass",
+      "Energy",
+      "Acceleration",
+      "Elapsed time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Acceleration has a magnitude and a direction; mass, energy and elapsed time are scalar quantities."
+  },
+  {
+    "id": "TRI45-101-004",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Intermediate",
+    "family": "displacement",
+    "prompt": "Displacement from (−2,4) to (3,−1) is:",
+    "options": [
+      "(−5,5)",
+      "(5,−5)",
+      "(1,3)",
+      "(−6,−4)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use final minus initial in each direction: (3−(−2),−1−4)=(5,−5)."
+  },
+  {
+    "id": "TRI45-101-005",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Intermediate",
+    "family": "equal-vectors",
+    "prompt": "Which vector is equal to the directed segment from (2,3) to (5,7)?",
+    "options": [
+      "(3,4)",
+      "(7,10)",
+      "(−3,−4)",
+      "(5,7)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Directed segment components are (5−2,7−3)=(3,4), independent of where the arrow starts."
+  },
+  {
+    "id": "TRI45-101-006",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Intermediate",
+    "family": "opposite",
+    "prompt": "The opposite of vector (3,−5) is:",
+    "options": [
+      "(3,5)",
+      "(−3,−5)",
+      "(5,−3)",
+      "(−3,5)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The negative vector reverses every component: −(3,−5)=(−3,5)."
+  },
+  {
+    "id": "TRI45-101-007",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Advanced",
+    "family": "3d-displacement",
+    "prompt": "In three dimensions, the displacement from (1,−2,3) to (4,0,−1) is:",
+    "options": [
+      "(5,−2,2)",
+      "(−3,−2,4)",
+      "(3,2,−4)",
+      "(4,0,−1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract corresponding initial coordinates: (4−1,0−(−2),−1−3)=(3,2,−4)."
+  },
+  {
+    "id": "TRI45-101-008",
+    "subtopicId": "trig-vectors-scalars-and-vectors",
+    "difficulty": "Advanced",
+    "family": "concept",
+    "prompt": "A runner completes a closed lap and returns to the start. What is the displacement vector?",
+    "options": [
+      "Total distance traveled",
+      "Zero vector",
+      "Average speed times elapsed time",
+      "One complete circumference north"
+    ],
+    "correctIndex": 1,
+    "explanation": "The final and initial positions coincide, so the difference of position vectors is zero, even when distance traveled is positive."
+  },
+  {
+    "id": "TRI45-102-001",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Basic",
+    "family": "magnitude",
+    "prompt": "Magnitude of vector (3,4) is:",
+    "options": [
+      "7",
+      "5",
+      "25",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Apply the Euclidean norm: √(3²+4²)=√25=5 units."
+  },
+  {
+    "id": "TRI45-102-002",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Basic",
+    "family": "direction",
+    "prompt": "A vector (0,−7) has standard counterclockwise direction:",
+    "options": [
+      "270°",
+      "90°",
+      "0°",
+      "180°"
+    ],
+    "correctIndex": 0,
+    "explanation": "The vector lies along negative y, which is 270° counterclockwise from the positive x-axis."
+  },
+  {
+    "id": "TRI45-102-003",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Intermediate",
+    "family": "direction",
+    "prompt": "A vector (−3,−3) has standard direction:",
+    "options": [
+      "45°",
+      "135°",
+      "315°",
+      "225°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both components are negative, so the angle lies in quadrant III; reference angle 45° gives 180°+45°=225°."
+  },
+  {
+    "id": "TRI45-102-004",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Basic",
+    "family": "components",
+    "prompt": "For magnitude 6 at 60°, which x-component is correct?",
+    "options": [
+      "3√3",
+      "6",
+      "3",
+      "−3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Compute v_x=6cos60°=6(1/2)=3, with a positive x sign in quadrant I."
+  },
+  {
+    "id": "TRI45-102-005",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Intermediate",
+    "family": "magnitude",
+    "prompt": "Magnitude of vector (8,15) is:",
+    "options": [
+      "23",
+      "17",
+      "289",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "The magnitude follows √(8²+15²)=√(64+225)=√289=17."
+  },
+  {
+    "id": "TRI45-102-006",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Intermediate",
+    "family": "direction",
+    "prompt": "Standard direction of (−5,0) is:",
+    "options": [
+      "180°",
+      "0°",
+      "90°",
+      "270°"
+    ],
+    "correctIndex": 0,
+    "explanation": "The arrow lies on the negative x-axis, reached by a half-turn of 180° from positive x."
+  },
+  {
+    "id": "TRI45-102-007",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Advanced",
+    "family": "direction",
+    "prompt": "Standard direction of (√3,−1) is:",
+    "options": [
+      "30°",
+      "150°",
+      "210°",
+      "330°"
+    ],
+    "correctIndex": 3,
+    "explanation": "The components indicate quadrant IV; the reference angle is 30°, so θ=360°−30°=330°."
+  },
+  {
+    "id": "TRI45-102-008",
+    "subtopicId": "trig-vectors-magnitude-and-direction",
+    "difficulty": "Advanced",
+    "family": "magnitude",
+    "prompt": "Magnitude of the vector (−6,8) is:",
+    "options": [
+      "14",
+      "2",
+      "10",
+      "100"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use √[(-6)²+8²]=√(36+64)=10; negative components are squared when finding magnitude."
+  },
+  {
+    "id": "TRI45-103-001",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Basic",
+    "family": "components",
+    "prompt": "Horizontal component of a 10 N force directed 30° above +x is:",
+    "options": [
+      "5 N",
+      "10 N",
+      "5√3 N",
+      "−5√3 N"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use F_x=Fcosθ=10cos30°=5√3 N; horizontal component is positive."
+  },
+  {
+    "id": "TRI45-103-002",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Basic",
+    "family": "components",
+    "prompt": "Vertical component of a 10 N force directed 30° above +x is:",
+    "options": [
+      "5√3 N",
+      "5 N",
+      "10 N",
+      "−5 N"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use F_y=Fsinθ=10(1/2)=5 N, pointing along positive y."
+  },
+  {
+    "id": "TRI45-103-003",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Intermediate",
+    "family": "quadrant-components",
+    "prompt": "Horizontal component of a 6 N vector at 150° is:",
+    "options": [
+      "−3√3 N",
+      "3√3 N",
+      "−3 N",
+      "3 N"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use 6cos150°=6(−√3/2)=−3√3 N; quadrant II implies negative x."
+  },
+  {
+    "id": "TRI45-103-004",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Intermediate",
+    "family": "quadrant-components",
+    "prompt": "Vertical component of a 6 N vector at 150° is:",
+    "options": [
+      "−3 N",
+      "3√3 N",
+      "6 N",
+      "3 N"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use 6sin150°=6(1/2)=3 N; quadrant II implies positive y."
+  },
+  {
+    "id": "TRI45-103-005",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Intermediate",
+    "family": "axis-components",
+    "prompt": "The Cartesian components of an 8-unit vector at 270° are:",
+    "options": [
+      "(−8,0)",
+      "(0,8)",
+      "(0,−8)",
+      "(8,0)"
+    ],
+    "correctIndex": 2,
+    "explanation": "cos270°=0 and sin270°=−1, so (8cos270°,8sin270°)=(0,−8)."
+  },
+  {
+    "id": "TRI45-103-006",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Intermediate",
+    "family": "3d-magnitude",
+    "prompt": "Magnitude of 3D vector (2,−3,6) is:",
+    "options": [
+      "11",
+      "7",
+      "49",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Calculate √(2²+(−3)²+6²)=√(4+9+36)=√49=7."
+  },
+  {
+    "id": "TRI45-103-007",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Advanced",
+    "family": "quadrant-components",
+    "prompt": "Cartesian components of a 10-unit vector at 225° are:",
+    "options": [
+      "(−5√2,−5√2)",
+      "(5√2,5√2)",
+      "(−5,−5)",
+      "(5√2,−5√2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 225°, sin and cos are both −√2/2; multiply both by magnitude 10."
+  },
+  {
+    "id": "TRI45-103-008",
+    "subtopicId": "trig-vectors-rectangular-vector-components",
+    "difficulty": "Advanced",
+    "family": "reconstruct-direction",
+    "prompt": "A vector has components (3√3,−3). Its standard direction is:",
+    "options": [
+      "30°",
+      "150°",
+      "210°",
+      "330°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Its length is 6, so cosθ=√3/2 and sinθ=−1/2. This is quadrant IV: θ=330°."
+  },
+  {
+    "id": "TRI45-104-001",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Basic",
+    "family": "addition",
+    "prompt": "Compute (2,3)+(4,−1):",
+    "options": [
+      "(−2,4)",
+      "(6,−4)",
+      "(8,−3)",
+      "(6,2)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Add corresponding components: (2+4,3+(−1))=(6,2)."
+  },
+  {
+    "id": "TRI45-104-002",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Basic",
+    "family": "subtraction",
+    "prompt": "Compute (5,−2)−(3,4):",
+    "options": [
+      "(8,2)",
+      "(2,2)",
+      "(2,−6)",
+      "(−2,6)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract corresponding components: (5−3,−2−4)=(2,−6)."
+  },
+  {
+    "id": "TRI45-104-003",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Intermediate",
+    "family": "resultant",
+    "prompt": "Magnitude of resultant (3,0)+(0,4) is:",
+    "options": [
+      "7",
+      "5",
+      "12",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Resultant components are (3,4); the magnitude is √(3²+4²)=5."
+  },
+  {
+    "id": "TRI45-104-004",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Intermediate",
+    "family": "navigation",
+    "prompt": "A displacement of 5 km east followed by 12 km north has magnitude:",
+    "options": [
+      "13 km",
+      "17 km",
+      "7 km",
+      "60 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "The perpendicular displacements give components (5,12) km, so net magnitude √(25+144)=13 km."
+  },
+  {
+    "id": "TRI45-104-005",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Basic",
+    "family": "addition",
+    "prompt": "Compute (6,−8)+(−6,8):",
+    "options": [
+      "(12,−16)",
+      "(0,16)",
+      "(−12,16)",
+      "(0,0)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Each component cancels: 6+(−6)=0, −8+8=0, so the resultant is the zero vector."
+  },
+  {
+    "id": "TRI45-104-006",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Intermediate",
+    "family": "3d-addition",
+    "prompt": "Compute (1,2,3)+(2,−1,4):",
+    "options": [
+      "(−1,3,−1)",
+      "(3,−1,12)",
+      "(3,1,7)",
+      "(1,1,7)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add each of the three coordinates independently: (1+2,2−1,3+4)=(3,1,7)."
+  },
+  {
+    "id": "TRI45-104-007",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Advanced",
+    "family": "relative-velocity",
+    "prompt": "Velocity of A relative to B, for v_A=(10,1) and v_B=(−2,4), is:",
+    "options": [
+      "(8,5)",
+      "(12,−3)",
+      "(−12,3)",
+      "(−8,−5)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Relative velocity is v_A−v_B=(10−(−2),1−4)=(12,−3)."
+  },
+  {
+    "id": "TRI45-104-008",
+    "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+    "difficulty": "Advanced",
+    "family": "resultant",
+    "prompt": "Magnitude of (4,3)+(0,−6) is:",
+    "options": [
+      "5",
+      "13",
+      "7",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "The resultant is (4,−3), whose magnitude is √(16+9)=5."
+  },
+  {
+    "id": "TRI45-105-001",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Basic",
+    "family": "normalization",
+    "prompt": "Normalize vector (6,8):",
+    "options": [
+      "(3/5,4/5)",
+      "(6/5,8/5)",
+      "(6,8)",
+      "(4/5,3/5)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Its length is 10, and each component is divided by 10: (6/10,8/10)=(3/5,4/5)."
+  },
+  {
+    "id": "TRI45-105-002",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Basic",
+    "family": "normalization",
+    "prompt": "Unit vector in direction (0,−9) is:",
+    "options": [
+      "(0,1)",
+      "(−1,0)",
+      "(0,−9)",
+      "(0,−1)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The length is 9; division gives (0,−9)/9=(0,−1)."
+  },
+  {
+    "id": "TRI45-105-003",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Intermediate",
+    "family": "3d-normalization",
+    "prompt": "Normalize the three-dimensional vector (1,2,2):",
+    "options": [
+      "(1/9,2/9,2/9)",
+      "(1,2,2)",
+      "(1/3,2/3,2/3)",
+      "(1/2,1,1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Magnitude √(1+4+4)=3, so divide all coordinates by 3 to get a unit vector."
+  },
+  {
+    "id": "TRI45-105-004",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Basic",
+    "family": "zero-exception",
+    "prompt": "Can the zero vector (0,0) be normalized?",
+    "options": [
+      "Yes, it is already a unit vector",
+      "No, its magnitude is zero",
+      "Yes, the answer is (1,0)",
+      "Yes, the answer is (0,1)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Normalization divides by the vector magnitude; division by ||(0,0)||=0 is undefined."
+  },
+  {
+    "id": "TRI45-105-005",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Intermediate",
+    "family": "normalization",
+    "prompt": "Unit vector in direction (−5,12) is:",
+    "options": [
+      "(−5/13,12/13)",
+      "(5/13,12/13)",
+      "(−5/17,12/17)",
+      "(−12/13,5/13)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Its magnitude is √(25+144)=13, so dividing by 13 gives (−5/13,12/13)."
+  },
+  {
+    "id": "TRI45-105-006",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Intermediate",
+    "family": "unit-test",
+    "prompt": "Magnitude of vector (0.6,0.8) is:",
+    "options": [
+      "1.4",
+      "0.2",
+      "0.48",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Calculate √(0.6²+0.8²)=√(0.36+0.64)=√1=1, so it is a unit vector."
+  },
+  {
+    "id": "TRI45-105-007",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Advanced",
+    "family": "scaling-unit",
+    "prompt": "A speed 10 m/s acts along unit direction (3/5,4/5). Velocity components are:",
+    "options": [
+      "(3,4) m/s",
+      "(8,6) m/s",
+      "(6,8) m/s",
+      "(30,40) m/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply the unit direction by the magnitude: 10(3/5,4/5)=(6,8) m/s."
+  },
+  {
+    "id": "TRI45-105-008",
+    "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+    "difficulty": "Advanced",
+    "family": "normalization",
+    "prompt": "Unit vector in direction (−3,0) is:",
+    "options": [
+      "(1,0)",
+      "(−1,0)",
+      "(0,−1)",
+      "(−3,0)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Magnitude is 3; divide each component by 3 to obtain (−1,0)."
+  },
+  {
+    "id": "TRI45-106-001",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Basic",
+    "family": "dot",
+    "prompt": "Compute (2,3)·(4,−1):",
+    "options": [
+      "11",
+      "5",
+      "−5",
+      "(8,−3)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Dot product is 2·4+3·(−1)=8−3=5, a scalar."
+  },
+  {
+    "id": "TRI45-106-002",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Basic",
+    "family": "orthogonality",
+    "prompt": "What is (1,0)·(0,1)?",
+    "options": [
+      "0",
+      "1",
+      "−1",
+      "(0,0)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The standard x- and y-unit vectors are perpendicular: 1·0+0·1=0."
+  },
+  {
+    "id": "TRI45-106-003",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Intermediate",
+    "family": "angle",
+    "prompt": "Angle between nonzero (1,0) and (1,1) is:",
+    "options": [
+      "30°",
+      "60°",
+      "90°",
+      "45°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dot product=1 and magnitudes are 1 and √2; cosθ=1/√2, so θ=45°."
+  },
+  {
+    "id": "TRI45-106-004",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Intermediate",
+    "family": "sign-of-dot",
+    "prompt": "For two nonzero vectors, a positive dot product implies their included angle is:",
+    "options": [
+      "Obtuse",
+      "Exactly 90°",
+      "Less than 90° (including 0°)",
+      "Exactly 180°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since cosθ=(a·b)/(|a||b|), positive dot product makes cosθ>0 and 0°≤θ<90°. The parallel same-direction case θ=0° also has a positive dot product."
+  },
+  {
+    "id": "TRI45-106-005",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Intermediate",
+    "family": "projection",
+    "prompt": "Projection of (3,4) onto nonzero (1,0) is:",
+    "options": [
+      "(0,4)",
+      "(3,0)",
+      "(3,4)",
+      "(1,0)"
+    ],
+    "correctIndex": 1,
+    "explanation": "proj_b a=((a·b)/|b|²)b=(3/1)(1,0)=(3,0)."
+  },
+  {
+    "id": "TRI45-106-006",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Advanced",
+    "family": "applications",
+    "prompt": "A constant force (5,0) N moves an object through (3,4) m. Work done is:",
+    "options": [
+      "15 J",
+      "25 J",
+      "20 J",
+      "7 J"
+    ],
+    "correctIndex": 0,
+    "explanation": "Work is the dot product F·d=5·3+0·4=15 joules."
+  },
+  {
+    "id": "TRI45-106-007",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Intermediate",
+    "family": "3d-dot",
+    "prompt": "Compute (1,2,3)·(0,−1,2):",
+    "options": [
+      "−4",
+      "8",
+      "(0,−2,6)",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "The dot product is 1·0+2(−1)+3·2=0−2+6=4."
+  },
+  {
+    "id": "TRI45-106-008",
+    "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+    "difficulty": "Advanced",
+    "family": "angle",
+    "prompt": "If |a|=2, |b|=3 and angle between them is 60°, find a·b:",
+    "options": [
+      "6",
+      "1",
+      "3",
+      "−3"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the geometric dot product, a·b=|a||b|cos60°=2×3×(1/2)=3."
+  },
+  {
+    "id": "TRI45-107-001",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Basic",
+    "family": "orientation",
+    "prompt": "For right-handed basis vectors, i×j equals:",
+    "options": [
+      "−k",
+      "i",
+      "k",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "The right-hand rule gives i×j=k, pointing along the positive z-axis."
+  },
+  {
+    "id": "TRI45-107-002",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Basic",
+    "family": "orientation",
+    "prompt": "For a right-handed basis, j×i equals:",
+    "options": [
+      "k",
+      "−k",
+      "j",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cross products are anti-commutative: j×i=−(i×j)=−k."
+  },
+  {
+    "id": "TRI45-107-003",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Advanced",
+    "family": "3d-cross",
+    "prompt": "Compute (1,2,3)×(4,5,6):",
+    "options": [
+      "(−3,6,−3)",
+      "(3,−6,3)",
+      "(4,10,18)",
+      "32"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cross components are (2·6−3·5,3·4−1·6,1·5−2·4)=(−3,6,−3)."
+  },
+  {
+    "id": "TRI45-107-004",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Basic",
+    "family": "cross-magnitude",
+    "prompt": "Magnitude of i×j is:",
+    "options": [
+      "0",
+      "2",
+      "√2",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Unit vectors i and j are perpendicular, giving |i×j|=1·1·sin90°=1."
+  },
+  {
+    "id": "TRI45-107-005",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Intermediate",
+    "family": "2d-cross",
+    "prompt": "For planar vectors a=(2,1), b=(1,3), the z-component of a×b is:",
+    "options": [
+      "−5",
+      "7",
+      "5",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Embedding them in 3D gives z=a_x b_y−a_y b_x=2·3−1·1=5."
+  },
+  {
+    "id": "TRI45-107-006",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Intermediate",
+    "family": "parallel",
+    "prompt": "Cross product of two nonzero parallel vectors is:",
+    "options": [
+      "Unit z-vector",
+      "Zero vector",
+      "Their dot product",
+      "Always magnitude one"
+    ],
+    "correctIndex": 1,
+    "explanation": "Parallel vectors make θ=0° or 180° so sinθ=0; the cross-product magnitude is zero."
+  },
+  {
+    "id": "TRI45-107-007",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Advanced",
+    "family": "area",
+    "prompt": "Area of parallelogram spanned by (3,0,0) and (0,4,0) is:",
+    "options": [
+      "12 square units",
+      "7 square units",
+      "6 square units",
+      "24 square units"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area is the magnitude of cross product (0,0,12), giving 12 square units."
+  },
+  {
+    "id": "TRI45-107-008",
+    "subtopicId": "trig-vectors-cross-product-and-orientation",
+    "difficulty": "Advanced",
+    "family": "applications",
+    "prompt": "Torque r×F if r=(2,0,0) m and F=(0,3,0) N is:",
+    "options": [
+      "(0,0,−6) N·m",
+      "(6,0,0) N·m",
+      "6 J",
+      "(0,0,6) N·m"
+    ],
+    "correctIndex": 3,
+    "explanation": "Compute position crossed with force: (2,0,0)×(0,3,0)=(0,0,6) N·m."
+  },
+  {
+    "id": "TRI45-108-001",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Basic",
+    "family": "applications",
+    "prompt": "A drone travels 4 m/s east in still air and wind adds 3 m/s north. Ground speed is:",
+    "options": [
+      "7 m/s",
+      "1 m/s",
+      "12 m/s",
+      "5 m/s"
+    ],
+    "correctIndex": 3,
+    "explanation": "The ground velocity is (4,3) m/s; its magnitude is √(4²+3²)=5 m/s."
+  },
+  {
+    "id": "TRI45-108-002",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Intermediate",
+    "family": "applications",
+    "prompt": "A boat has velocity (4,3) m/s relative to water and the current is (0,−1) m/s. Ground velocity is:",
+    "options": [
+      "(4,4) m/s",
+      "(0,−3) m/s",
+      "(4,2) m/s",
+      "(4,−2) m/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add velocity vectors componentwise: (4,3)+(0,−1)=(4,2) m/s."
+  },
+  {
+    "id": "TRI45-108-003",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Intermediate",
+    "family": "applications",
+    "prompt": "Two forces, 10 N east and 10 N north, have resultant magnitude:",
+    "options": [
+      "20 N",
+      "10√2 N",
+      "0 N",
+      "10 N"
+    ],
+    "correctIndex": 1,
+    "explanation": "Perpendicular force components are (10,10) N, so √(100+100)=10√2 N."
+  },
+  {
+    "id": "TRI45-108-004",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Intermediate",
+    "family": "applications",
+    "prompt": "Force F=(6,8) N and displacement d=(3,0) m. Work is:",
+    "options": [
+      "18 J",
+      "24 J",
+      "30 J",
+      "48 J"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compute work using dot product: F·d=6·3+8·0=18 joules."
+  },
+  {
+    "id": "TRI45-108-005",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Advanced",
+    "family": "applications",
+    "prompt": "Torque if r=(0,4,0) m and F=(2,3,0) N is:",
+    "options": [
+      "(0,0,8) N·m",
+      "(0,0,12) N·m",
+      "(8,12,0) N·m",
+      "(0,0,−8) N·m"
+    ],
+    "correctIndex": 3,
+    "explanation": "Using τ=r×F, the z-component is r_x F_y−r_y F_x=0·3−4·2=−8 N·m."
+  },
+  {
+    "id": "TRI45-108-006",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Advanced",
+    "family": "orthogonality",
+    "prompt": "Are 3D vectors a=(2,−1,2), b=(1,4,1) perpendicular?",
+    "options": [
+      "No, dot product is 4",
+      "No, dot product is −4",
+      "Yes, dot product is 0",
+      "Cannot determine without their cross product"
+    ],
+    "correctIndex": 2,
+    "explanation": "a·b=2·1+(−1)·4+2·1=2−4+2=0, and neither vector is zero, so they are perpendicular."
+  },
+  {
+    "id": "TRI45-108-007",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Intermediate",
+    "family": "applications",
+    "prompt": "A 100 N force acts 30° above a horizontal surface. Its upward component is:",
+    "options": [
+      "100 N",
+      "50 N",
+      "50√3 N",
+      "−50 N"
+    ],
+    "correctIndex": 1,
+    "explanation": "Vertical component is F_y=100sin30°=100(1/2)=50 N upward."
+  },
+  {
+    "id": "TRI45-108-008",
+    "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+    "difficulty": "Advanced",
+    "family": "applications",
+    "prompt": "A 6 N force acts 3 m in the same +x direction. Work done is:",
+    "options": [
+      "18 J",
+      "2 J",
+      "−18 J",
+      "0 J"
+    ],
+    "correctIndex": 0,
+    "explanation": "The force and displacement are aligned, so W=Fd cos0°=6×3=18 J."
+  }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "id": "AG-F079",
+    "topic_id": "GEO-079",
+    "name": "Coordinate reflection",
+    "latex": "(x,y)\\xrightarrow{\\text{reflect in }y\\text{-axis}}(-x,y)",
+    "conditions": "Standard orthogonal Cartesian axes."
+  },
+  {
+    "id": "AG-F080",
+    "topic_id": "GEO-080",
+    "name": "Distance and midpoint",
+    "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2},\\quad M=\\left(\\frac{x_1+x_2}{2},\\frac{y_1+y_2}{2}\\right)",
+    "conditions": "Euclidean plane with equally scaled perpendicular axes."
+  },
+  {
+    "id": "AG-F081",
+    "topic_id": "GEO-081",
+    "name": "Internal section formula",
+    "latex": "P=\\left(\\frac{nx_1+mx_2}{m+n},\\frac{ny_1+my_2}{m+n}\\right)",
+    "conditions": "Internal ratio AP:PB=m:n with m,n>0."
+  },
+  {
+    "id": "AG-F082",
+    "topic_id": "GEO-082",
+    "name": "Slope of a nonvertical line",
+    "latex": "m=\\frac{y_2-y_1}{x_2-x_1}=\\tan\\theta",
+    "conditions": "Requires x₂≠x₁ for finite slope."
+  },
+  {
+    "id": "AG-F083",
+    "topic_id": "GEO-083",
+    "name": "Perpendicular slope relation",
+    "latex": "m_1m_2=-1",
+    "conditions": "Both slopes must be finite and nonzero."
+  },
+  {
+    "id": "AG-F084",
+    "topic_id": "GEO-084",
+    "name": "Point–slope equation",
+    "latex": "y-y_1=m(x-x_1)",
+    "conditions": "Finite slope; vertical lines use x=c."
+  },
+  {
+    "id": "AG-F085",
+    "topic_id": "GEO-085",
+    "name": "General line equation",
+    "latex": "A x+B y+C=0",
+    "conditions": "A and B cannot both be zero."
+  },
+  {
+    "id": "AG-F086",
+    "topic_id": "GEO-086",
+    "name": "Point-to-line distance",
+    "latex": "d=\\frac{|Ax_0+By_0+C|}{\\sqrt{A^2+B^2}}",
+    "conditions": "Nondegenerate line: A²+B²>0."
+  },
+  {
+    "id": "AG-F087",
+    "topic_id": "GEO-087",
+    "name": "Intersection of two lines",
+    "latex": "m_1x+b_1=m_2x+b_2",
+    "conditions": "For a unique intersection, m₁≠m₂."
+  },
+  {
+    "id": "AG-F088",
+    "topic_id": "GEO-088",
+    "name": "Perpendicular-bisector locus",
+    "latex": "(x-a)^2+(y-b)^2=(x-c)^2+(y-d)^2",
+    "conditions": "Equidistant from two distinct fixed points."
+  },
+  {
+    "id": "AG-F089",
+    "topic_id": "GEO-089",
+    "name": "Standard circle equation",
+    "latex": "(x-h)^2+(y-k)^2=r^2",
+    "conditions": "r>0 for a nondegenerate circle."
+  },
+  {
+    "id": "AG-F090",
+    "topic_id": "GEO-090",
+    "name": "Tangent length to a circle",
+    "latex": "PT=\\sqrt{PC^2-r^2}",
+    "conditions": "PC≥r; equality is the point of tangency."
+  },
+  {
+    "id": "AG-F091",
+    "topic_id": "GEO-091",
+    "name": "Parabola focus/directrix",
+    "latex": "y^2=4px,\\quad F=(p,0),\\quad x_{\\mathrm{dir}}=-p",
+    "conditions": "Standard vertex at origin; p≠0."
+  },
+  {
+    "id": "AG-F092",
+    "topic_id": "GEO-092",
+    "name": "Ellipse focal relation",
+    "latex": "c^2=a^2-b^2,\\quad e=c/a",
+    "conditions": "Ellipse with major semiaxis a and minor semiaxis b."
+  },
+  {
+    "id": "AG-F093",
+    "topic_id": "GEO-093",
+    "name": "Hyperbola focal relation",
+    "latex": "c^2=a^2+b^2",
+    "conditions": "Standard real hyperbola; a,b>0."
+  },
+  {
+    "id": "AG-F094",
+    "topic_id": "GEO-094",
+    "name": "Conic discriminant",
+    "latex": "\\Delta=B^2-4AC",
+    "conditions": "Standard general quadratic with A,B,C not all zero."
+  },
+  {
+    "id": "AG-F095",
+    "topic_id": "GEO-095",
+    "name": "Coordinate-axis translation",
+    "latex": "x\\prime=x-h,\\qquad y\\prime=y-k",
+    "conditions": "Origin translated to (h,k) with axes kept parallel."
+  },
+  {
+    "id": "AG-F096",
+    "topic_id": "GEO-096",
+    "name": "Polar-to-Cartesian conversion",
+    "latex": "x=r\\cos\\theta,\\quad y=r\\sin\\theta",
+    "conditions": "Angle measured from +x axis; use consistent degrees or radians."
+  },
+  {
+    "id": "AG-F097",
+    "topic_id": "GEO-097",
+    "name": "Parametric line",
+    "latex": "x=x_0+at,\\quad y=y_0+bt",
+    "conditions": "Parameter t restricted as given."
+  },
+  {
+    "id": "AG-F098",
+    "topic_id": "GEO-098",
+    "name": "Vector addition",
+    "latex": "\\vec u+\\vec v=(u_x+v_x,u_y+v_y)",
+    "conditions": "Vectors expressed in the same Cartesian basis."
+  },
+  {
+    "id": "AG-F099",
+    "topic_id": "GEO-099",
+    "name": "Dot product",
+    "latex": "\\vec a\\cdot\\vec b=a_xb_x+a_yb_y+a_zb_z",
+    "conditions": "Components refer to the same orthonormal frame."
+  },
+  {
+    "id": "AG-F100",
+    "topic_id": "GEO-100",
+    "name": "3D distance",
+    "latex": "d=\\sqrt{(x_2-x_1)^2+(y_2-y_1)^2+(z_2-z_1)^2}",
+    "conditions": "Orthogonal Cartesian coordinates."
+  },
+  {
+    "id": "AG-F101",
+    "topic_id": "GEO-101",
+    "name": "Parametric line in space",
+    "latex": "(x,y,z)=(x_0,y_0,z_0)+t(a,b,c)",
+    "conditions": "Direction vector (a,b,c) is nonzero."
+  },
+  {
+    "id": "AG-F102",
+    "topic_id": "GEO-102",
+    "name": "Plane equation",
+    "latex": "A x+B y+C z+D=0",
+    "conditions": "Nonzero normal (A,B,C)."
+  },
+  {
+    "id": "AG-F103",
+    "topic_id": "GEO-103",
+    "name": "Sphere equation",
+    "latex": "(x-h)^2+(y-k)^2+(z-l)^2=r^2",
+    "conditions": "r>0 for a nondegenerate real sphere."
+  },
+  {
+    "id": "AG-F104",
+    "topic_id": "GEO-104",
+    "name": "Ellipsoid standard equation",
+    "latex": "\\frac{x^2}{a^2}+\\frac{y^2}{b^2}+\\frac{z^2}{c^2}=1",
+    "conditions": "a,b,c>0; centered axis-aligned ellipsoid."
+  },
+  {
+    "id": "AG-F105",
+    "topic_id": "GEO-105",
+    "name": "Shoelace area",
+    "latex": "A=\\frac12\\left|\\sum_{i=1}^n(x_i y_{i+1}-x_{i+1}y_i)\\right|",
+    "conditions": "Simple polygon; vertices in boundary order, last returns to first."
+  },
+  {
+    "id": "AG-F080-B",
+    "topic_id": "GEO-080",
+    "name": "Midpoint of two points",
+    "latex": "M=((x_1+x_2)/2,(y_1+y_2)/2)",
+    "conditions": "Two points in Cartesian coordinates."
+  },
+  {
+    "id": "AG-F082-B",
+    "topic_id": "GEO-082",
+    "name": "Inclination relation",
+    "latex": "m=\\tan\\theta",
+    "conditions": "Nonvertical line; angle θ from positive x axis."
+  },
+  {
+    "id": "AG-F084-B",
+    "topic_id": "GEO-084",
+    "name": "Slope-intercept equation",
+    "latex": "y=mx+b",
+    "conditions": "Nonvertical straight line."
+  },
+  {
+    "id": "AG-F085-B",
+    "topic_id": "GEO-085",
+    "name": "Two-point form",
+    "latex": "\\frac{y-y_1}{y_2-y_1}=\\frac{x-x_1}{x_2-x_1}",
+    "conditions": "Both coordinate differences nonzero for this divided form."
+  },
+  {
+    "id": "AG-F089-B",
+    "topic_id": "GEO-089",
+    "name": "General circle form",
+    "latex": "x^2+y^2+Dx+Ey+F=0",
+    "conditions": "Real circle when (D²+E²)/4−F>0."
+  },
+  {
+    "id": "AG-F091-B",
+    "topic_id": "GEO-091",
+    "name": "Vertical parabola",
+    "latex": "(x-h)^2=4p(y-k)",
+    "conditions": "p≠0; vertex (h,k), focus (h,k+p)."
+  },
+  {
+    "id": "AG-F092-B",
+    "topic_id": "GEO-092",
+    "name": "Axis-aligned ellipse",
+    "latex": "\\frac{(x-h)^2}{a^2}+\\frac{(y-k)^2}{b^2}=1",
+    "conditions": "a,b>0; a is horizontal semiaxis in this displayed form."
+  },
+  {
+    "id": "AG-F093-B",
+    "topic_id": "GEO-093",
+    "name": "Horizontal hyperbola asymptotes",
+    "latex": "y-k=\\pm\\frac{b}{a}(x-h)",
+    "conditions": "Hyperbola (x−h)²/a²−(y−k)²/b²=1."
+  },
+  {
+    "id": "AG-F095-B",
+    "topic_id": "GEO-095",
+    "name": "Rotated coordinate axes",
+    "latex": "x=x\\prime\\cos\\theta-y\\prime\\sin\\theta,\\quad y=x\\prime\\sin\\theta+y\\prime\\cos\\theta",
+    "conditions": "Same origin; the new coordinate axes rotated counterclockwise by θ."
+  },
+  {
+    "id": "AG-F096-B",
+    "topic_id": "GEO-096",
+    "name": "Cartesian to polar",
+    "latex": "r^2=x^2+y^2,\\quad\\tan\\theta=y/x",
+    "conditions": "Use atan2(y,x) for correct quadrant; tan expression needs x≠0."
+  },
+  {
+    "id": "AG-F098-B",
+    "topic_id": "GEO-098",
+    "name": "Vector norm",
+    "latex": "\\|\\vec v\\|=\\sqrt{v_x^2+v_y^2+v_z^2}",
+    "conditions": "Cartesian orthonormal coordinates; omit z for 2D."
+  },
+  {
+    "id": "AG-F099-B",
+    "topic_id": "GEO-099",
+    "name": "Cross product components",
+    "latex": "\\vec a\\times\\vec b=(a_yb_z-a_zb_y,\\ a_zb_x-a_xb_z,\\ a_xb_y-a_yb_x)",
+    "conditions": "Three-dimensional right-handed Cartesian basis."
+  },
+  {
+    "id": "AG-F100-B",
+    "topic_id": "GEO-100",
+    "name": "3D midpoint",
+    "latex": "M=((x_1+x_2)/2,(y_1+y_2)/2,(z_1+z_2)/2)",
+    "conditions": "Same 3D orthonormal frame for both endpoints."
+  },
+  {
+    "id": "AG-F102-B",
+    "topic_id": "GEO-102",
+    "name": "Point-normal plane",
+    "latex": "\\vec n\\cdot(\\vec r-\\vec r_0)=0",
+    "conditions": "Plane through r₀ with nonzero normal n."
+  },
+  {
+    "id": "AG-F103-B",
+    "topic_id": "GEO-103",
+    "name": "Expanded sphere equation",
+    "latex": "x^2+y^2+z^2+Dx+Ey+Fz+G=0",
+    "conditions": "Completing squares must give positive radius squared."
+  },
+  {
+    "id": "AG-F104-B",
+    "topic_id": "GEO-104",
+    "name": "Elliptic paraboloid",
+    "latex": "z=\\frac{x^2}{a^2}+\\frac{y^2}{b^2}",
+    "conditions": "a,b>0; opens toward positive z."
+  },
+  {
+    "id": "AG-F105-B",
+    "topic_id": "GEO-105",
+    "name": "Triangle determinant area",
+    "latex": "A=\\frac12|x_1(y_2-y_3)+x_2(y_3-y_1)+x_3(y_1-y_2)|",
+    "conditions": "Any three plane vertices; collinear case gives zero area."
+  }
+]

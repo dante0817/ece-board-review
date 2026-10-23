@@ -1,0 +1,32 @@
+v10.6 Algebra Expansion Batch 3 validation
+
+PASS: npm run validate:algebra:v10.6
+  - 16 reference-informed Algebra topics present
+  - 48 verified source entries
+  - 110 audited reference-screen questions
+  - 50 new v10.6 questions across 5 topics
+  - misconception IDs valid
+  - formula-string escaping valid
+  - v10.5 regression validator still passes
+  - new screen branches/routes/sidebar descendants present
+  - Complex Numbers + Binomial Theorem canonical learner records restored
+  - legacy Algebra topic IDs migrate to canonical records without duplicate saved-topic rows
+  - prerequisite roadmap resolves canonical learner-topic state
+  - mock-q-03 corrected to 672 (option A)
+  - legacy mock top-quadratic-eq updated to top-quadratics
+
+PASS: TypeScript/TSX syntax transpilation
+  - 210 source files
+  - 0 syntax diagnostics
+
+PASS: relative local import validation
+  - 534 imports checked
+  - 0 missing
+
+DEFERRED BY SOURCE BOUNDARY:
+  - Harmonic Progressions remains canonical but has no dedicated reference-informed lesson yet.
+  - Polar complex conversion / De Moivre / phasor treatment is deferred to Trigonometry/ECE references.
+
+NOT COMPLETED: dependency-backed npm run lint / npm run build
+Reason: node_modules was intentionally removed from the supplied app folder.
+No node_modules or stale dist directory is included in the release archive.

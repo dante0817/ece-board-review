@@ -1,0 +1,590 @@
+{
+  "trig-inverse-functions-inverse-sine-cosine-and-tangent": {
+    "id": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "title": "Inverse sine, cosine, and tangent",
+    "summary": "Define arcsin, arccos and arctan as principal-value inverses, not reciprocals; evaluate exact inputs using restricted ranges.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "inverse-functions-inverse-sine-cosine-and-tangent-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "inverse-functions-inverse-sine-cosine-and-tangent-concept"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-definition",
+            "type": "definition",
+            "text": "The inverses of sine, cosine and tangent return one principal angle. The input of an inverse function is a trigonometric ratio, and the output is an angle. Arcsin, arccos and arctan are NOT 1/sin, 1/cos or 1/tan."
+          },
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-formula-1",
+            "type": "formula",
+            "latex": "\\arcsin:[-1,1]\\to[-\\pi/2,\\pi/2]"
+          },
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-formula-2",
+            "type": "formula",
+            "latex": "\\arccos:[-1,1]\\to[0,\\pi]"
+          },
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-formula-3",
+            "type": "formula",
+            "latex": "\\arctan:\\mathbb{R}\\to(-\\pi/2,\\pi/2)"
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-inverse-sine-cosine-and-tangent-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "inverse-functions-inverse-sine-cosine-and-tangent-solving"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-worked-1",
+            "type": "worked-example",
+            "title": "Find arcsin(−1/2)",
+            "problem": "Find arcsin(−1/2)",
+            "strategy": "Use the sine principal range from −90° to +90°.",
+            "steps": [
+              "sin(−π/6)=−1/2.",
+              "Because −π/6 lies in [−π/2,π/2], arcsin(−1/2)=−π/6."
+            ],
+            "check": "sin(−π/6)=−1/2; the chosen angle is in the principal range."
+          },
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-worked-2",
+            "type": "worked-example",
+            "title": "Find arccos(−1/2)",
+            "problem": "Find arccos(−1/2)",
+            "strategy": "Choose an angle in the cosine principal range 0 to π.",
+            "steps": [
+              "cos(2π/3)=−1/2.",
+              "Since 2π/3 lies in [0,π], arccos(−1/2)=2π/3."
+            ],
+            "check": "cos(2π/3)=−1/2, with 2π/3 in [0,π]."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-inverse-sine-cosine-and-tangent-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "inverse-functions-inverse-sine-cosine-and-tangent-review"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-pitfall",
+            "type": "note",
+            "text": "Do not interchange arcsin and cosecant. A calculator in degree mode displays degree-valued angles, but the exact answers in these lessons use radians unless otherwise specified."
+          },
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Evaluate arctan(−1).",
+            "answer": "−π/4",
+            "explanation": "tan(−π/4)=−1 and −π/4 is inside (−π/2,π/2)."
+          },
+          {
+            "id": "inverse-functions-inverse-sine-cosine-and-tangent-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §6.1 (pp. 246–261); Young, Trigonometry, 3rd ed., §6.1; Sullivan, Trigonometry, 9th ed., §§3.1–3.2; Schaum’s Outline, 4th ed., Ch. 13; Kelley, Humongous Book, Ch. 9. Verify printed versus PDF pagination before using page references in lesson text."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions": {
+    "id": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "title": "Inverse secant, cosecant, and cotangent conventions",
+    "summary": "Use an explicit branch convention for arcsec, arccsc and arccot; explain why other references may choose different branches.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-concept"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-definition",
+            "type": "definition",
+            "text": "Inverse secant, cosecant and cotangent require specified principal branches. In this app, arcsec(x)=arccos(1/x) for |x|≥1; arccsc(x)=arcsin(1/x) for |x|≥1; arccot(x) takes values strictly between 0 and π, with cot(arccot x)=x. Some references use a different arccot branch; always check the convention."
+          },
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-formula-1",
+            "type": "formula",
+            "latex": "\\operatorname{arcsec}(x)=\\arccos(1/x),\\quad |x|\\geq 1"
+          },
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-formula-2",
+            "type": "formula",
+            "latex": "\\operatorname{arccsc}(x)=\\arcsin(1/x),\\quad |x|\\geq1"
+          },
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-formula-3",
+            "type": "formula",
+            "latex": "\\operatorname{arccot}(x)\\in(0,\\pi),\\quad \\cot(\\operatorname{arccot}x)=x"
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-solving"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-worked-1",
+            "type": "worked-example",
+            "title": "Evaluate arcsec(−2)",
+            "problem": "Evaluate arcsec(−2)",
+            "strategy": "Convert to arccos of the reciprocal.",
+            "steps": [
+              "arcsec(−2)=arccos(−1/2).",
+              "The angle 2π/3 has cosine −1/2 and lies in the required range."
+            ],
+            "check": "sec(2π/3)=−2, so arcsec(−2)=2π/3."
+          },
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-worked-2",
+            "type": "worked-example",
+            "title": "Evaluate arccot(−1)",
+            "problem": "Evaluate arccot(−1)",
+            "strategy": "Select an angle in (0,π), not the arctangent principal range.",
+            "steps": [
+              "cot(3π/4)=−1.",
+              "Since 3π/4 lies in (0,π), arccot(−1)=3π/4."
+            ],
+            "check": "cot(3π/4)=−1; 3π/4 is inside the declared branch."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-review"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-pitfall",
+            "type": "note",
+            "text": "The expression arccot(−1) has convention-dependent answers. For this lesson it equals 3π/4, not −π/4; disclose the chosen range in each question."
+          },
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Under the declared convention, what is arccsc(−2)?",
+            "answer": "−π/6",
+            "explanation": "arccsc(−2)=arcsin(−1/2)=−π/6."
+          },
+          {
+            "id": "inverse-functions-inverse-secant-cosecant-and-cotangent-conventions-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §6.1 (pp. 246–261); Young, Trigonometry, 3rd ed., §6.1; Sullivan, Trigonometry, 9th ed., §§3.1–3.2; Schaum’s Outline, 4th ed., Ch. 13; Kelley, Humongous Book, Ch. 9. Verify printed versus PDF pagination before using page references in lesson text."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-inverse-functions-principal-values-and-domain-restrictions": {
+    "id": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "title": "Principal values and domain restrictions",
+    "summary": "Determine valid inputs and output branches, and distinguish principal solutions from all angles sharing the same trigonometric value.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "inverse-functions-principal-values-and-domain-restrictions-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "inverse-functions-principal-values-and-domain-restrictions-concept"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-definition",
+            "type": "definition",
+            "text": "An inverse trigonometric function is defined by restricting a periodic function to a one-to-one branch. For arcsin and arccos, inputs outside [−1,1] have no real output. The inverse-function output is one principal angle; the general solution of sinθ=a may have infinitely many angles."
+          },
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-formula-1",
+            "type": "formula",
+            "latex": "\\operatorname{dom}(\\arcsin)=\\operatorname{dom}(\\arccos)=[-1,1]"
+          },
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-formula-2",
+            "type": "formula",
+            "latex": "\\arcsin(\\sin\\theta)=\\theta\\quad\\text{only for }\\theta\\in[-\\pi/2,\\pi/2]"
+          },
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-formula-3",
+            "type": "formula",
+            "latex": "\\arccos(\\cos\\theta)=\\theta\\quad\\text{only for }\\theta\\in[0,\\pi]"
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-principal-values-and-domain-restrictions-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "inverse-functions-principal-values-and-domain-restrictions-solving"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-worked-1",
+            "type": "worked-example",
+            "title": "Find the real domain of arcsin(2x−1)",
+            "problem": "Find the real domain of arcsin(2x−1)",
+            "strategy": "The arcsin input must lie between −1 and 1.",
+            "steps": [
+              "−1 ≤ 2x−1 ≤ 1.",
+              "Add 1: 0 ≤ 2x ≤ 2. Divide by 2: 0 ≤ x ≤ 1."
+            ],
+            "check": "Both endpoints are included: arcsin(−1) and arcsin(1) are real."
+          },
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-worked-2",
+            "type": "worked-example",
+            "title": "Evaluate arcsin(sin(5π/6))",
+            "problem": "Evaluate arcsin(sin(5π/6))",
+            "strategy": "First evaluate sine, then return its principal angle.",
+            "steps": [
+              "sin(5π/6)=1/2.",
+              "arcsin(1/2)=π/6, not 5π/6."
+            ],
+            "check": "π/6 is in [−π/2,π/2] and has sine 1/2."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-principal-values-and-domain-restrictions-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "inverse-functions-principal-values-and-domain-restrictions-review"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-pitfall",
+            "type": "note",
+            "text": "Do not cancel arcsin(sinθ) unless θ is on the chosen branch; solving sinθ=a is different from evaluating arcsin(a)."
+          },
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Does arccos(1.2) have a real value?",
+            "answer": "No",
+            "explanation": "The real domain of arccos is [−1,1], and 1.2 lies outside it."
+          },
+          {
+            "id": "inverse-functions-principal-values-and-domain-restrictions-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §6.1 (pp. 246–261); Young, Trigonometry, 3rd ed., §6.1; Sullivan, Trigonometry, 9th ed., §§3.1–3.2; Schaum’s Outline, 4th ed., Ch. 13; Kelley, Humongous Book, Ch. 9. Verify printed versus PDF pagination before using page references in lesson text."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-inverse-functions-graphs-of-inverse-trig-functions": {
+    "id": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "title": "Graphs of inverse trig functions",
+    "summary": "Interpret inverse graphs as reflections across y=x of the restricted original functions, including endpoints and asymptotes.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "inverse-functions-graphs-of-inverse-functions-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "inverse-functions-graphs-of-inverse-functions-concept"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-definition",
+            "type": "definition",
+            "text": "The inverse function graph swaps x and y after the original trigonometric function is restricted to a one-to-one branch. Arcsin is increasing from (−1,−π/2) to (1,π/2); arccos is decreasing from (−1,π) to (1,0); arctan increases with horizontal asymptotes y=±π/2."
+          },
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-formula-1",
+            "type": "formula",
+            "latex": "y=\\arcsin x,\\quad -1\\leq x\\leq1"
+          },
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-formula-2",
+            "type": "formula",
+            "latex": "y=\\arccos x,\\quad -1\\leq x\\leq1"
+          },
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-formula-3",
+            "type": "formula",
+            "latex": "\\lim_{x\\to\\pm\\infty}\\arctan x=\\pm\\frac{\\pi}{2}"
+          },
+          {
+            "id": "inverse-functions-graphs-diagram",
+            "type": "diagram",
+            "diagram": "inverse-graphs",
+            "caption": "Arcsin (teal), arccos (purple), and arctan (orange) shown on their principal branches; closed endpoints for arcsin/arccos and horizontal asymptotes for arctan."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-graphs-of-inverse-functions-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "inverse-functions-graphs-of-inverse-functions-solving"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-worked-1",
+            "type": "worked-example",
+            "title": "Find the y-intercept of y=arccos x",
+            "problem": "Find the y-intercept of y=arccos x",
+            "strategy": "Evaluate at x=0.",
+            "steps": [
+              "arccos(0)=π/2.",
+              "Thus the graph passes through (0,π/2)."
+            ],
+            "check": "cos(π/2)=0 and π/2 is on the arccos principal branch."
+          },
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-worked-2",
+            "type": "worked-example",
+            "title": "Identify the upper asymptote of y=arctan x",
+            "problem": "Identify the upper asymptote of y=arctan x",
+            "strategy": "Recall the range of arctan.",
+            "steps": [
+              "The arctangent output remains strictly between −π/2 and π/2.",
+              "As x→+∞, arctan x approaches π/2 from below."
+            ],
+            "check": "The horizontal asymptote y=π/2 is not part of the range."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-graphs-of-inverse-functions-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "inverse-functions-graphs-of-inverse-functions-review"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-pitfall",
+            "type": "note",
+            "text": "Arcsin and arccos do not have horizontal asymptotes at their endpoints: both have closed endpoints. Arctan has asymptotes but never reaches ±π/2."
+          },
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Is y=arccos x increasing or decreasing?",
+            "answer": "Decreasing",
+            "explanation": "On [−1,1], larger x requires a smaller angle in [0,π] to have that cosine value."
+          },
+          {
+            "id": "inverse-functions-graphs-of-inverse-functions-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §6.1 (pp. 246–261); Young, Trigonometry, 3rd ed., §6.1; Sullivan, Trigonometry, 9th ed., §§3.1–3.2; Schaum’s Outline, 4th ed., Ch. 13; Kelley, Humongous Book, Ch. 9. Verify printed versus PDF pagination before using page references in lesson text."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-inverse-functions-exact-inverse-function-values": {
+    "id": "trig-inverse-functions-exact-inverse-function-values",
+    "title": "Exact inverse-function values",
+    "summary": "Compute exact inverse-function values using standard triangles and quadrant restrictions without unnecessary decimal approximations.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "inverse-functions-exact-inverse-function-values-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "inverse-functions-exact-inverse-function-values-concept"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-exact-inverse-function-values-definition",
+            "type": "definition",
+            "text": "Exact answers are principal angles often expressed as rational multiples of π. Identify the trigonometric ratio, locate all standard-angle candidates, then choose the unique angle in the declared inverse-function range."
+          },
+          {
+            "id": "inverse-functions-exact-inverse-function-values-formula-1",
+            "type": "formula",
+            "latex": "\\arcsin(\\sqrt{3}/2)=\\pi/3"
+          },
+          {
+            "id": "inverse-functions-exact-inverse-function-values-formula-2",
+            "type": "formula",
+            "latex": "\\arccos(-\\sqrt{2}/2)=3\\pi/4"
+          },
+          {
+            "id": "inverse-functions-exact-inverse-function-values-formula-3",
+            "type": "formula",
+            "latex": "\\arctan(-\\sqrt{3})=-\\pi/3"
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-exact-inverse-function-values-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "inverse-functions-exact-inverse-function-values-solving"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-exact-inverse-function-values-worked-1",
+            "type": "worked-example",
+            "title": "Evaluate arccos(−√2/2)",
+            "problem": "Evaluate arccos(−√2/2)",
+            "strategy": "Use the reference angle π/4, then choose the cosine-negative candidate in [0,π].",
+            "steps": [
+              "cos(3π/4)=−√2/2.",
+              "Therefore arccos(−√2/2)=3π/4."
+            ],
+            "check": "3π/4 lies in the cosine inverse range, not in arcsin’s range."
+          },
+          {
+            "id": "inverse-functions-exact-inverse-function-values-worked-2",
+            "type": "worked-example",
+            "title": "Evaluate arcsin(−√3/2)",
+            "problem": "Evaluate arcsin(−√3/2)",
+            "strategy": "Select a negative angle in the arcsin range.",
+            "steps": [
+              "sin(−π/3)=−√3/2.",
+              "Since −π/3 is inside [−π/2,π/2], the exact answer is −π/3."
+            ],
+            "check": "A positive 4π/3 has the same sine but is not the inverse sine principal value."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-exact-inverse-function-values-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "inverse-functions-exact-inverse-function-values-review"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-exact-inverse-function-values-pitfall",
+            "type": "note",
+            "text": "Exact input values such as √3/2 are ratios, not angle measures. Always check a candidate against the principal interval before choosing it."
+          },
+          {
+            "id": "inverse-functions-exact-inverse-function-values-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Evaluate arctan(1/√3).",
+            "answer": "π/6",
+            "explanation": "tan(π/6)=1/√3 and π/6 belongs to the arctangent principal interval."
+          },
+          {
+            "id": "inverse-functions-exact-inverse-function-values-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §6.1 (pp. 246–261); Young, Trigonometry, 3rd ed., §6.1; Sullivan, Trigonometry, 9th ed., §§3.1–3.2; Schaum’s Outline, 4th ed., Ch. 13; Kelley, Humongous Book, Ch. 9. Verify printed versus PDF pagination before using page references in lesson text."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-inverse-functions-compositions-with-inverse-functions": {
+    "id": "trig-inverse-functions-compositions-with-inverse-functions",
+    "title": "Compositions with inverse functions",
+    "summary": "Simplify trig–inverse compositions and inverse–trig compositions, preserving input domains, output branches, and positive square-root choices.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "inverse-functions-compositions-with-inverse-functions-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "inverse-functions-compositions-with-inverse-functions-concept"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-definition",
+            "type": "definition",
+            "text": "For a principal inverse θ=arccos x, θ lies in [0,π] so sinθ≥0. For θ=arcsin x, θ lies in [−π/2,π/2] so cosθ≥0. These sign facts fix the correct square root when simplifying compositions. Inverse–trig compositions such as arcsin(sinθ) are only identity functions within the inverse branch."
+          },
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-formula-1",
+            "type": "formula",
+            "latex": "\\sin(\\arccos x)=\\sqrt{1-x^2},\\quad -1\\leq x\\leq1"
+          },
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-formula-2",
+            "type": "formula",
+            "latex": "\\cos(\\arcsin x)=\\sqrt{1-x^2},\\quad -1\\leq x\\leq1"
+          },
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-formula-3",
+            "type": "formula",
+            "latex": "\\tan(\\arcsin x)=\\frac{x}{\\sqrt{1-x^2}},\\quad -1<x<1"
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-compositions-with-inverse-functions-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "inverse-functions-compositions-with-inverse-functions-solving"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-worked-1",
+            "type": "worked-example",
+            "title": "Simplify cos(arcsin(3/5))",
+            "problem": "Simplify cos(arcsin(3/5))",
+            "strategy": "Draw a right triangle with opposite 3, hypotenuse 5, and nonnegative adjacent side.",
+            "steps": [
+              "Let θ=arcsin(3/5); then sinθ=3/5 and θ∈[−π/2,π/2].",
+              "cosθ=√(1−9/25)=4/5, taking the nonnegative root."
+            ],
+            "check": "Cosine is nonnegative on the entire arcsin principal range."
+          },
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-worked-2",
+            "type": "worked-example",
+            "title": "Evaluate arccos(cos(5π/3))",
+            "problem": "Evaluate arccos(cos(5π/3))",
+            "strategy": "The input angle need not lie in arccos’s principal interval.",
+            "steps": [
+              "cos(5π/3)=1/2.",
+              "arccos(1/2)=π/3; 5π/3 is not the answer because it lies outside [0,π]."
+            ],
+            "check": "cos(π/3)=1/2, and π/3 is the principal cosine angle."
+          }
+        ]
+      },
+      {
+        "id": "inverse-functions-compositions-with-inverse-functions-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "inverse-functions-compositions-with-inverse-functions-review"
+        ],
+        "blocks": [
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-pitfall",
+            "type": "note",
+            "text": "Do not use ±√(1−x²) for cos(arcsin x): the branch fixes the nonnegative sign. tan(arcsin x) excludes x=±1 because its denominator vanishes."
+          },
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Simplify sin(arccos(−4/5)).",
+            "answer": "3/5",
+            "explanation": "The arccos angle lies in quadrant II where sine is nonnegative, so √(1−16/25)=3/5."
+          },
+          {
+            "id": "inverse-functions-compositions-with-inverse-functions-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §6.1 (pp. 246–261); Young, Trigonometry, 3rd ed., §6.1; Sullivan, Trigonometry, 9th ed., §§3.1–3.2; Schaum’s Outline, 4th ed., Ch. 13; Kelley, Humongous Book, Ch. 9. Verify printed versus PDF pagination before using page references in lesson text."
+          }
+        ]
+      }
+    ]
+  }
+}

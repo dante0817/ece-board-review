@@ -1,0 +1,699 @@
+{
+  "trig-advanced-advanced-trigonometric-inequalities": {
+    "id": "trig-advanced-advanced-trigonometric-inequalities",
+    "title": "Advanced trigonometric inequalities",
+    "summary": "Solve trigonometric inequalities by partitioning the number line into sign intervals and imposing original-domain restrictions, with endpoints treated explicitly.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-01-definition",
+            "type": "definition",
+            "text": "Unlike an equation, a trigonometric inequality generally has arcs of solutions in each period. First determine the domain of the original expression, find its equality boundaries and undefined points, and test the signs on the intervening open intervals. Specify the requested interval before listing the answer. Squaring or division by a sign-unknown expression can change an inequality."
+          },
+          {
+            "id": "adv-14-01-formula-1",
+            "type": "formula",
+            "latex": "\\sin x > 0\\iff x\\in(2k\\pi,(2k+1)\\pi),\\ k\\in\\mathbb Z"
+          },
+          {
+            "id": "adv-14-01-formula-2",
+            "type": "formula",
+            "latex": "\\cos x\\geq 0\\iff x\\in[-\\pi/2+2k\\pi,\\pi/2+2k\\pi]"
+          },
+          {
+            "id": "adv-14-01-formula-3",
+            "type": "formula",
+            "latex": "\\tan x>0\\iff x\\in(k\\pi,k\\pi+\\pi/2),\\ k\\in\\mathbb Z"
+          },
+          {
+            "id": "adv-14-01-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Original instructional schematic for advanced trigonometric inequalities. The displayed geometry is illustrative; use the accompanying lesson text and formulas for exact conventions and calculations."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-01-example-1",
+            "type": "worked-example",
+            "title": "Solve on one revolution",
+            "problem": "Find x∈[0,2π) such that sin x≥1/2.",
+            "strategy": "Locate equality angles on the unit circle, then select the arc where sine is at least 1/2.",
+            "steps": [
+              "sin x=1/2 at x=π/6 and x=5π/6 on [0,2π).",
+              "Sine is at least 1/2 between those angles, so x∈[π/6,5π/6]."
+            ],
+            "check": "At x=π/2 the inequality holds; at x=0 it fails. The check respects the stated angle range and the original domain."
+          },
+          {
+            "id": "adv-14-01-example-2",
+            "type": "worked-example",
+            "title": "Keep discontinuities excluded",
+            "problem": "Solve tan x<0 on [0,2π).",
+            "strategy": "Find quadrants with negative tangent and exclude the tangent poles.",
+            "steps": [
+              "Tangent is negative in quadrants II and IV.",
+              "Therefore x∈(π/2,π)∪(3π/2,2π); the endpoint 2π is excluded by the interval."
+            ],
+            "check": "At 3π/4, tan x=−1; x=π/2 is undefined and excluded."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-01-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-01-pitfall",
+            "type": "note",
+            "text": "Do not include a vertical-asymptote boundary just because the inequality is non-strict; it is not in the domain. Distinguish [0,2π) from [0,2π]."
+          },
+          {
+            "id": "adv-14-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "On [0,2π), solve cos x<0.",
+            "answer": "(π/2,3π/2).",
+            "explanation": "Cosine is the x-coordinate of a unit-circle point and is negative strictly in quadrants II and III; both zero endpoints are excluded."
+          },
+          {
+            "id": "adv-14-01-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Ross, Master Math: Trigonometry, Chapter 8 (equations and inequalities); Lial, 10th ed., Chapter 6 (related equation techniques). Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-nonroutine-equations-and-identity-proofs": {
+    "id": "trig-advanced-nonroutine-equations-and-identity-proofs",
+    "title": "Nonroutine equations and identity proofs",
+    "summary": "Explore nonroutine trigonometric equations and identity proofs by changing representation, introducing auxiliary variables, and retaining all domain conditions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-02-definition",
+            "type": "definition",
+            "text": "Harder identities often become simple after rewriting all functions in sine and cosine, recognizing a sum/difference formula, or using a well-chosen factorization. Equality of two expressions is only an identity on their shared domain. For equations, transformations involving squaring, reciprocals or cancellation demand substitution back into the starting equation."
+          },
+          {
+            "id": "adv-14-02-formula-1",
+            "type": "formula",
+            "latex": "\\sin(2x)=2\\sin x\\cos x"
+          },
+          {
+            "id": "adv-14-02-formula-2",
+            "type": "formula",
+            "latex": "\\sin x+\\cos x=\\sqrt 2\\sin(x+\\pi/4)"
+          },
+          {
+            "id": "adv-14-02-formula-3",
+            "type": "formula",
+            "latex": "\\sin^2 x+\\cos^2 x=1"
+          }
+        ]
+      },
+      {
+        "id": "adv-14-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-02-example-1",
+            "type": "worked-example",
+            "title": "Solve by a phase transformation",
+            "problem": "Solve sin x+cos x=√2 on [0,2π).",
+            "strategy": "Rewrite the left side as one shifted sinusoid.",
+            "steps": [
+              "sin x+cos x=√2 sin(x+π/4).",
+              "Thus sin(x+π/4)=1, so x=π/4 is the sole solution on [0,2π)."
+            ],
+            "check": "At x=π/4, each function is √2/2, giving √2. The check respects the stated angle range and the original domain."
+          },
+          {
+            "id": "adv-14-02-example-2",
+            "type": "worked-example",
+            "title": "A compact identity proof",
+            "problem": "Simplify (1−cos 2x)/sin 2x wherever it is defined.",
+            "strategy": "Use double-angle identities and keep the original denominator restriction.",
+            "steps": [
+              "1−cos 2x=2sin²x and sin 2x=2sin x cos x.",
+              "The ratio becomes tan x only where sin x≠0 and cos x≠0."
+            ],
+            "check": "The original fraction is undefined when sin 2x=0, including integer multiples of π/2."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-02-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-02-pitfall",
+            "type": "note",
+            "text": "Do not state an identity holds at canceled zero denominators. Proving an equation is not the same as proving an identity; equations may hold only at selected inputs."
+          },
+          {
+            "id": "adv-14-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Solve 2sin x cos x=0 on [0,2π).",
+            "answer": "{0, π/2, π, 3π/2}.",
+            "explanation": "The product is zero when sin x=0 or cos x=0. List all distinct solutions in the requested half-open interval."
+          },
+          {
+            "id": "adv-14-02-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Andreescu and Feng, 103 Trigonometry Problems, Chapter 1 and problem solutions; Kelley, Humongous Book, Chapters 8 and 11; Lial, 10th ed., Chapter 5. Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-trigonometric-substitutions-and-transformations": {
+    "id": "trig-advanced-trigonometric-substitutions-and-transformations",
+    "title": "Trigonometric substitutions and transformations",
+    "summary": "Choose trigonometric substitutions and transformations that exploit circle identities while stating parameter ranges and reversible steps.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-03-definition",
+            "type": "definition",
+            "text": "A substitution such as x=a sin θ turns a square root √(a²−x²) into a cosine. Choose a restricted angle range so that the square root has the correct nonnegative sign. A tangent half-angle substitution converts sine and cosine into rational expressions but misses values when tan(θ/2) is undefined; such cases must be handled separately."
+          },
+          {
+            "id": "adv-14-03-formula-1",
+            "type": "formula",
+            "latex": "x=a\\sin\\theta\\ \\Rightarrow\\ \\sqrt{a^2-x^2}=a\\cos\\theta\\quad(a>0,\\ -\\pi/2\\leq\\theta\\leq\\pi/2)"
+          },
+          {
+            "id": "adv-14-03-formula-2",
+            "type": "formula",
+            "latex": "t=\\tan(\\theta/2),\\ \\sin\\theta=\\frac{2t}{1+t^2}"
+          },
+          {
+            "id": "adv-14-03-formula-3",
+            "type": "formula",
+            "latex": "\\cos\\theta=\\frac{1-t^2}{1+t^2}\\quad(\\theta\\not\\equiv\\pi\\pmod{2\\pi})"
+          }
+        ]
+      },
+      {
+        "id": "adv-14-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-03-example-1",
+            "type": "worked-example",
+            "title": "Simplify a radical",
+            "problem": "With x=5sin θ and θ∈[−π/2,π/2], simplify √(25−x²).",
+            "strategy": "Substitute and use cos θ≥0 on the chosen range.",
+            "steps": [
+              "√(25−25sin²θ)=5√(cos²θ)=5|cos θ|.",
+              "On [−π/2,π/2], cos θ≥0, so the result is 5cos θ."
+            ],
+            "check": "At θ=π/3, x=5√3/2 and both sides equal 5/2. The check respects the stated angle range and the original domain."
+          },
+          {
+            "id": "adv-14-03-example-2",
+            "type": "worked-example",
+            "title": "Half-angle rationalization",
+            "problem": "If t=tan(θ/2) and t=1/2, find sin θ.",
+            "strategy": "Use the rational sine identity in the half-angle parameter.",
+            "steps": [
+              "sin θ=2t/(1+t²).",
+              "Substituting t=1/2 gives 1/(1+1/4)=4/5."
+            ],
+            "check": "For θ=2arctan(1/2), a calculator verifies sin θ=0.8."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-03-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-03-pitfall",
+            "type": "note",
+            "text": "The square root √(cos²θ) equals |cos θ|, not cos θ without a range restriction. Half-angle substitution omits θ≡π (mod 2π) unless checked separately."
+          },
+          {
+            "id": "adv-14-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For t=tan(θ/2)=1, find cos θ.",
+            "answer": "0.",
+            "explanation": "Use (1−t²)/(1+t²)=(1−1)/(1+1)=0. The selected θ can be π/2 modulo 2π."
+          },
+          {
+            "id": "adv-14-03-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Andreescu and Feng, 103 Trigonometry Problems, Chapter 1 “Trigonometric Substitutions”; Ross, Master Math: Trigonometry, Chapter 8; Tanton, Trigonometry: A Clever Study Guide, Sections 13–14. Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-spherical-trigonometry": {
+    "id": "trig-advanced-spherical-trigonometry",
+    "title": "Spherical trigonometry",
+    "summary": "Apply the spherical law of cosines and right-spherical-triangle relations to arcs on a sphere, distinguishing spherical sides from planar lengths.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-04-definition",
+            "type": "definition",
+            "text": "In spherical trigonometry, the sides a, b, c are angular lengths of great-circle arcs, and A, B, C are angles between those arcs at the vertices. All angular values in trigonometric formulas must use a consistent angle unit. A spherical triangle may have an angle sum exceeding 180°. For a right spherical triangle with C=90°, the spherical law of cosines simplifies to cos c=cos a cos b. Napier circular parts are a compact traditional memory aid for right spherical triangles; the existing original Napier Rules topic remains separately accessible."
+          },
+          {
+            "id": "adv-14-04-formula-1",
+            "type": "formula",
+            "latex": "\\cos c=\\cos a\\cos b+\\sin a\\sin b\\cos C"
+          },
+          {
+            "id": "adv-14-04-formula-2",
+            "type": "formula",
+            "latex": "C=\\pi/2\\ \\Rightarrow\\ \\cos c=\\cos a\\cos b"
+          },
+          {
+            "id": "adv-14-04-formula-3",
+            "type": "formula",
+            "latex": "E=A+B+C-\\pi,\\quad \\mathrm{area}=R^2E"
+          },
+          {
+            "id": "adv-14-04-diagram",
+            "type": "diagram",
+            "diagram": "advanced-sphere",
+            "caption": "Original instructional schematic for spherical trigonometry. The displayed geometry is illustrative; use the accompanying lesson text and formulas for exact conventions and calculations."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-04-example-1",
+            "type": "worked-example",
+            "title": "Right spherical triangle",
+            "problem": "For right spherical triangle C=90° and a=b=60°, find cos c.",
+            "strategy": "Use the reduced spherical law of cosines for C=90°.",
+            "steps": [
+              "cos c=cos60° cos60°=(1/2)(1/2)=1/4.",
+              "Therefore c=arccos(1/4)≈75.52°, not the planar Pythagorean result."
+            ],
+            "check": "Substitution into cos c=cos a cos b+sin a sin b cosC gives 1/4 since cos90°=0."
+          },
+          {
+            "id": "adv-14-04-example-2",
+            "type": "worked-example",
+            "title": "Spherical excess and area",
+            "problem": "A spherical triangle has angles 90°, 90°, 90° on a sphere of radius R. Find its area.",
+            "strategy": "Compute spherical excess in radians, then multiply by R².",
+            "steps": [
+              "E=(π/2+π/2+π/2)−π=π/2.",
+              "The spherical area is A=R²π/2, one eighth of the full sphere surface area 4πR²."
+            ],
+            "check": "A spherical octant occupies one-eighth of 4πR², confirming πR²/2."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-04-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-04-pitfall",
+            "type": "note",
+            "text": "Do not apply a²+b²=c² to angular lengths on a sphere. Spherical excess E must be in radians for area R²E. A valid spherical-triangle configuration is necessary."
+          },
+          {
+            "id": "adv-14-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If a=90° and b=40° in a right spherical triangle (C=90°), what is c?",
+            "answer": "90°.",
+            "explanation": "cos c=cos90° cos40°=0. With 0<c<180°, this implies c=90°. This agrees with the stated geometric or angle constraints."
+          },
+          {
+            "id": "adv-14-04-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Ross, Master Math: Trigonometry, Chapter 13 Spherical Trigonometry; Andreescu and Feng, 103 Trigonometry Problems, Chapter 1 “Traveling on Earth”; existing app original Spherical Trigonometry (Napier Rules) topic. Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-hyperbolic-functions-and-identities": {
+    "id": "trig-advanced-hyperbolic-functions-and-identities",
+    "title": "Hyperbolic functions and identities",
+    "summary": "Define hyperbolic sine and cosine from exponentials, derive their fundamental identity, and distinguish hyperbolic identities from circular ones.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-05-definition",
+            "type": "definition",
+            "text": "Hyperbolic functions arise from the exponential function rather than rotation on the unit circle. Since sinh x=(e^x−e^(−x))/2 and cosh x=(e^x+e^(−x))/2, cosh x is at least 1 for real x and sinh x is odd. Their identity cosh²x−sinh²x=1 has a minus sign, unlike circular sine and cosine. The point (cosh t,sinh t) lies on the right branch of x²−y²=1."
+          },
+          {
+            "id": "adv-14-05-formula-1",
+            "type": "formula",
+            "latex": "\\sinh x=\\frac{e^x-e^{-x}}{2},\\quad\\cosh x=\\frac{e^x+e^{-x}}{2}"
+          },
+          {
+            "id": "adv-14-05-formula-2",
+            "type": "formula",
+            "latex": "\\cosh^2 x-\\sinh^2 x=1"
+          },
+          {
+            "id": "adv-14-05-formula-3",
+            "type": "formula",
+            "latex": "\\tanh x=\\frac{\\sinh x}{\\cosh x},\\quad |\\tanh x|<1\\ \\text{for real }x"
+          },
+          {
+            "id": "adv-14-05-diagram",
+            "type": "diagram",
+            "diagram": "advanced-hyperbola",
+            "caption": "Original instructional schematic for hyperbolic functions and identities. The displayed geometry is illustrative; use the accompanying lesson text and formulas for exact conventions and calculations."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-05-example-1",
+            "type": "worked-example",
+            "title": "Evaluate hyperbolic functions",
+            "problem": "Find sinh(ln 2) and cosh(ln 2).",
+            "strategy": "Use e^(ln 2)=2 and e^(−ln 2)=1/2. Apply the exponential definitions step by step.",
+            "steps": [
+              "sinh(ln2)=(2−1/2)/2=3/4.",
+              "cosh(ln2)=(2+1/2)/2=5/4."
+            ],
+            "check": "(5/4)²−(3/4)²=25/16−9/16=1. The check respects the stated angle range and the original domain."
+          },
+          {
+            "id": "adv-14-05-example-2",
+            "type": "worked-example",
+            "title": "Recover a hyperbolic sine",
+            "problem": "If x≥0 and cosh x=5/3, find sinh x.",
+            "strategy": "Use cosh²x−sinh²x=1 and the sign of sinh x.",
+            "steps": [
+              "sinh²x=(5/3)²−1=25/9−9/9=16/9.",
+              "Since x≥0, sinh x≥0, so sinh x=4/3."
+            ],
+            "check": "(5/3)²−(4/3)²=1; the negative root is excluded by x≥0."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-05-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-05-pitfall",
+            "type": "note",
+            "text": "Never replace cosh²x−sinh²x=1 with a plus sign. cosh x is not bounded above by 1, and the real function tanh x never attains ±1."
+          },
+          {
+            "id": "adv-14-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Evaluate tanh(ln 2).",
+            "answer": "3/5.",
+            "explanation": "From the exponential definitions, sinh(ln2)=3/4 and cosh(ln2)=5/4; their quotient is 3/5."
+          },
+          {
+            "id": "adv-14-05-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Ross, Master Math: Trigonometry, Chapter 12 §12.3; supplementary hyperbolic-function coverage in advanced trigonometry references. Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-trigonometric-series-and-approximations": {
+    "id": "trig-advanced-trigonometric-series-and-approximations",
+    "title": "Trigonometric series and approximations",
+    "summary": "Use exact trigonometric values and justified local Taylor approximations while checking convergence or error rather than treating finite series as exact.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-06-definition",
+            "type": "definition",
+            "text": "Angles must be expressed in radians when using the standard power-series coefficients for sin x and cos x. Finite Maclaurin polynomials approximate the functions near zero; the approximation error generally grows as |x| increases. For the alternating sine and cosine series at sufficiently small |x|, the next omitted term bounds the magnitude of the error, but the general Taylor remainder theorem is the more broadly applicable guarantee."
+          },
+          {
+            "id": "adv-14-06-formula-1",
+            "type": "formula",
+            "latex": "\\sin x=x-\\frac{x^3}{3!}+\\frac{x^5}{5!}-\\cdots"
+          },
+          {
+            "id": "adv-14-06-formula-2",
+            "type": "formula",
+            "latex": "\\cos x=1-\\frac{x^2}{2!}+\\frac{x^4}{4!}-\\cdots"
+          },
+          {
+            "id": "adv-14-06-formula-3",
+            "type": "formula",
+            "latex": "\\left|\\sin x-\\left(x-\\frac{x^3}{6}\\right)\\right|\\leq\\frac{|x|^5}{120}\\quad(|x|\\leq1)"
+          }
+        ]
+      },
+      {
+        "id": "adv-14-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-06-example-1",
+            "type": "worked-example",
+            "title": "Small-angle approximation",
+            "problem": "Estimate sin(0.1) using x−x³/6 (radians).",
+            "strategy": "Substitute x=0.1, tracking the powers exactly.",
+            "steps": [
+              "0.1−0.1³/6=0.1−0.0001666667≈0.0998333333.",
+              "The true sin(0.1)≈0.0998334166; the absolute error is about 8.33×10⁻⁸."
+            ],
+            "check": "The next term 0.1⁵/120≈8.33×10⁻⁸ bounds the error. The check respects the stated angle range and the original domain."
+          },
+          {
+            "id": "adv-14-06-example-2",
+            "type": "worked-example",
+            "title": "Cosine approximation",
+            "problem": "Approximate cos(0.2) using 1−x²/2.",
+            "strategy": "Apply the first two Maclaurin terms, using radians.",
+            "steps": [
+              "1−0.2²/2=1−0.02=0.98.",
+              "cos(0.2)≈0.98006658, so the absolute error is about 6.66×10⁻⁵."
+            ],
+            "check": "The magnitude of the next term 0.2⁴/24≈0.00006667 is consistent with the observed error."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-06-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-06-pitfall",
+            "type": "note",
+            "text": "Do not insert degrees directly into radian Taylor series. State whether a value is exact or approximate and avoid extending a small-angle approximation well beyond its error tolerance."
+          },
+          {
+            "id": "adv-14-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Use the first two nonzero sine-series terms to approximate sin(0.3 rad).",
+            "answer": "0.2955.",
+            "explanation": "Compute 0.3−(0.3)³/6=0.3−0.027/6=0.2955, a radian approximation. This agrees with the stated geometric or angle constraints."
+          },
+          {
+            "id": "adv-14-06-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Ross, Master Math: Trigonometry, Chapter 12 §§12.1–12.2 (exponential and series connections); supplementary calculus references for rigorous Taylor remainder bounds. Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-advanced-advanced-competition-style-problems": {
+    "id": "trig-advanced-advanced-competition-style-problems",
+    "title": "Advanced competition-style problems",
+    "summary": "Practice creative competition-style trigonometric reasoning using substitutions, angle constraints, symmetry and inequalities without mislabeling this enrichment as a board requirement.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "adv-14-07-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "adv-14-07-concept"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-07-definition",
+            "type": "definition",
+            "text": "Competition-style problems favor a useful transformation rather than brute-force expansion. Typical techniques include factoring a symmetric sum, relating an expression to a triangle angle constraint, and using a sharp inequality with equality cases. A proof must state where equality can occur and respect the allowed angle range. These are optional enrichment skills, not claimed to be prescribed ECE board-exam coverage."
+          },
+          {
+            "id": "adv-14-07-formula-1",
+            "type": "formula",
+            "latex": "\\sin^2A+\\sin^2B+\\sin^2C-2\\cos A\\cos B\\cos C=2\\quad(A+B+C=\\pi)"
+          },
+          {
+            "id": "adv-14-07-formula-2",
+            "type": "formula",
+            "latex": "\\sin x+\\cos x\\leq\\sqrt2\\quad(x\\in\\mathbb R)"
+          },
+          {
+            "id": "adv-14-07-formula-3",
+            "type": "formula",
+            "latex": "\\sin 3x=3\\sin x-4\\sin^3x"
+          }
+        ]
+      },
+      {
+        "id": "adv-14-07-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "adv-14-07-solving"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-07-example-1",
+            "type": "worked-example",
+            "title": "Sharp bound",
+            "problem": "Find the maximum of sin x+cos x over real x.",
+            "strategy": "Combine the expression into a single shifted sinusoid.",
+            "steps": [
+              "sin x+cos x=√2 sin(x+π/4).",
+              "Since sine≤1, the maximum is √2; equality occurs when x=π/4+2kπ."
+            ],
+            "check": "At x=π/4, the sum equals √2, so the upper bound is attained."
+          },
+          {
+            "id": "adv-14-07-example-2",
+            "type": "worked-example",
+            "title": "A symmetric triangle identity",
+            "problem": "For A+B+C=π, prove cos(A+B)=−cos C.",
+            "strategy": "Use the triangle angle sum before applying expansions.",
+            "steps": [
+              "A+B=π−C.",
+              "cos(A+B)=cos(π−C)=−cos C."
+            ],
+            "check": "At A=B=C=π/3, cos(2π/3)=−1/2=−cos(π/3). The check respects the stated angle range and the original domain."
+          }
+        ]
+      },
+      {
+        "id": "adv-14-07-review",
+        "title": "Common pitfalls, checkpoint, and references",
+        "objectiveIds": [
+          "adv-14-07-review"
+        ],
+        "blocks": [
+          {
+            "id": "adv-14-07-pitfall",
+            "type": "note",
+            "text": "Do not assume all angles in a competition problem are arbitrary if the problem imposes A+B+C=π. Check equality conditions and avoid guessing a theorem from a few numeric trials."
+          },
+          {
+            "id": "adv-14-07-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If A+B+C=π and A=B=π/4, find sin C.",
+            "answer": "1.",
+            "explanation": "C=π−π/4−π/4=π/2, so sin C=1. This agrees with the stated geometric or angle constraints."
+          },
+          {
+            "id": "adv-14-07-references",
+            "type": "note",
+            "text": "Reference guide (original explanatory content and new questions): Andreescu and Feng, 103 Trigonometry Problems, Chapters 2–5; Tanton, Trigonometry: A Clever Study Guide, Parts I–II; Ross, Master Math: Trigonometry, Chapters 7–8. Advanced optional enrichment, not a verified board-exam requirement."
+          }
+        ]
+      }
+    ]
+  }
+}

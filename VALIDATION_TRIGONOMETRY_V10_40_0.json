@@ -1,0 +1,25 @@
+{
+  "version": "10.40.0",
+  "baseVersion": "10.39.0",
+  "phase": "Topic 05 Fundamental Identities",
+  "newLessons": 5,
+  "newQuestions": 40,
+  "totalTrigonometryLessons": 35,
+  "totalTrigonometryQuestions": 280,
+  "topic05LessonCoverage": "6/6",
+  "topic05Questions": 48,
+  "unlinkedCurriculumSubtopics": 67,
+  "contentReviewStatus": "draft-unverified",
+  "automatedChecks": {
+    "validationScriptsPassed": 10,
+    "focusedTypeScriptChecksPassed": 2,
+    "overallPassed": 12
+  },
+  "sourceLevelIntegrationVerified": true,
+  "fullBuildVerified": false,
+  "browserRuntimeVerified": false,
+  "npmOfflineFailure": "ENOTCACHED: zwitch missing from offline npm cache",
+  "historicalAlgebraPracticeCount": 422,
+  "practiceCatalogTotal": 702,
+  "notes": "Old progress IDs and the original Pythagorean identities lesson were preserved. Question-answer ledgers plus representative numerical checks passed. No independent editorial signoff."
+}

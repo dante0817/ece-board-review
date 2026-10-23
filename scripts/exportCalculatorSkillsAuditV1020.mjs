@@ -1,0 +1,13 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import path from 'node:path';
+import {createRequire} from 'node:module';
+const require=createRequire(import.meta.url),ts=require('typescript');
+const filename=path.resolve(import.meta.dirname,'../src/domain/calculator/skillsCurriculum.ts');
+const transpiled=ts.transpileModule(readFileSync(filename,'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
+const mod={exports:{}};new Function('require','module','exports',transpiled)(require,mod,mod.exports);
+const esc=(val)=>`"${String(val).replaceAll('"','""')}"`;
+const headings=['lesson_id','level','title','estimated_minutes','manual_section','check_count','mathematical_fixture','manual_review','device_review','editorial_approval','publication_status'];
+const rows=[headings,...mod.exports.CANON_SKILLS_CURRICULUM.map(l=>[l.id,l.level,l.title,l.estimatedMinutes,l.manualSection,l.checks.length,'quiz keys tested','pending independent cross-check','not performed','not approved','preliminary educational guide'])];
+const output=path.resolve(import.meta.dirname,'../CANON_SKILLS_AUDIT_V10_20.csv');
+writeFileSync(output,rows.map(row=>row.map(esc).join(',')).join('\n')+'\n');
+console.log('Exported',rows.length-1,'Canon skills lesson audit rows to',output);

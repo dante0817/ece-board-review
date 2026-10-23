@@ -1,0 +1,2533 @@
+{
+  "PS01-02-P01": {
+    "lessonId": "PS01-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "7 mV",
+    "publishedWorking": [
+      "Add 3+5+7+13=28 and divide by four readings to obtain 7 mV."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-01-P01": {
+    "lessonId": "PS01-01",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Selection bias is possible",
+    "publishedWorking": [
+      "Convenience selection can systematically omit boards in other locations."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS01-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-03-P01": {
+    "lessonId": "PS02-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "15",
+    "publishedWorking": [
+      "The order does not matter: C(6,2)=6×5/2=15."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-04-P01": {
+    "lessonId": "PS02-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 0,
+    "answerKey": "648",
+    "publishedWorking": [
+      "There are 9 nonzero choices for the first digit, then 9, then 8: 9×9×8=648."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-02-P01": {
+    "lessonId": "PS03-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.60",
+    "publishedWorking": [
+      "P(A|B)=P(A∩B)/P(B)=0.18/0.30=0.60."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-04-P01": {
+    "lessonId": "PS03-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.99",
+    "publishedWorking": [
+      "P(at least one works)=1−P(both fail)=1−(0.10)²=0.99."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-02-P01": {
+    "lessonId": "PS04-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.375",
+    "publishedWorking": [
+      "C(4,2)(0.5)^2(0.5)^2=6/16=0.375."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-04-P01": {
+    "lessonId": "PS04-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "2",
+    "publishedWorking": [
+      "z=(28−20)/4=2."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-01-P01": {
+    "lessonId": "PS06-01",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Reject H0",
+    "publishedWorking": [
+      "Since 2.5>1.96, the statistic is in the rejection region."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS06-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-03-P01": {
+    "lessonId": "PS06-03",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Fail to reject H0",
+    "publishedWorking": [
+      "Because 0.07>0.05, fail to reject H0 at α=0.05."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS06-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-02-P01": {
+    "lessonId": "PS07-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "11",
+    "publishedWorking": [
+      "Substitute x=4: predicted y=3+2×4=11."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-03-P01": {
+    "lessonId": "PS07-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "3",
+    "publishedWorking": [
+      "Residual=20−17=+3."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-01-P01": {
+    "lessonId": "PS05-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "3",
+    "publishedWorking": [
+      "SE=σ/√n=15/5=3."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-02-P01": {
+    "lessonId": "PS05-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "41.96",
+    "publishedWorking": [
+      "SE=8/8=1; upper=40+1.96×1=41.96."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-03-P01": {
+    "lessonId": "PS05-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "4.128",
+    "publishedWorking": [
+      "SE=s/√n=10/5=2; margin=2.064×2=4.128."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-04-P01": {
+    "lessonId": "PS05-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "64",
+    "publishedWorking": [
+      "n=ceil((z*σ/E)^2)=ceil((2×6/1.5)^2)=64."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-01-P01": {
+    "lessonId": "PS08-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "24",
+    "publishedWorking": [
+      "The full factorial needs 3×2×4=24 runs."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-02-P01": {
+    "lessonId": "PS08-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "5",
+    "publishedWorking": [
+      "F=15/3=5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-03-P01": {
+    "lessonId": "PS08-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "8",
+    "publishedWorking": [
+      "Residual df=(t−1)(b−1)=(3−1)(5−1)=8."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-04-P01": {
+    "lessonId": "PS08-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "A effect at B-low=9−4=5; at B-high=17−8=9; difference=9−5=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-05-P01": {
+    "lessonId": "PS05-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "3",
+    "publishedWorking": [
+      "SE=30/√100=3."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-05-P02": {
+    "lessonId": "PS05-05",
+    "questionType": "concept",
+    "correctOptionIndex": 2,
+    "answerKey": "With suitable conditions, the distribution of the sample mean approaches normality as n increases",
+    "publishedWorking": [
+      "The CLT concerns sampling means under suitable conditions, not the shape of every raw observation."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS05-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-06-P01": {
+    "lessonId": "PS05-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.40",
+    "publishedWorking": [
+      "p-hat=80/200=0.40."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-06-P02": {
+    "lessonId": "PS05-06",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "n=10 and zero successes are observed",
+    "publishedWorking": [
+      "Boundary proportions and very small success counts undermine the normal Wald approximation."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS05-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-07-P01": {
+    "lessonId": "PS05-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "sqrt(8) ≈ 2.828",
+    "publishedWorking": [
+      "SE=√(36/9+64/16)=√8≈2.828."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-07-P02": {
+    "lessonId": "PS05-07",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Welch two-sample t interval",
+    "publishedWorking": [
+      "Welch uses separate estimated group variances and an appropriate degrees-of-freedom approximation."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS05-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-08-P01": {
+    "lessonId": "PS05-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "4.612",
+    "publishedWorking": [
+      "s_d/√9=2; margin=2.306×2=4.612."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-08-P02": {
+    "lessonId": "PS05-08",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "The 12 within-sensor differences",
+    "publishedWorking": [
+      "Pairwise differences account for matching of observations from the same sensor."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS05-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-09-P01": {
+    "lessonId": "PS05-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.20",
+    "publishedWorking": [
+      "p1=45/150=0.30 and p2=15/150=0.10; difference=0.20."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-09-P02": {
+    "lessonId": "PS05-09",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Separate sample proportions for the two groups",
+    "publishedWorking": [
+      "Use the unpooled estimator for interval estimation of the difference."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS05-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-10-P01": {
+    "lessonId": "PS05-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "97",
+    "publishedWorking": [
+      "n=ceil(1.96²×0.25/0.1²)=ceil(96.04)=97."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS05-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS05-10-P02": {
+    "lessonId": "PS05-10",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "It maximizes p0(1−p0)",
+    "publishedWorking": [
+      "p0(1−p0) has maximum 0.25 at p0=0.5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS05-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-05-P01": {
+    "lessonId": "PS08-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "8",
+    "publishedWorking": [
+      "Each board is the unit assigned treatment; there are 8 units, not 40."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-05-P02": {
+    "lessonId": "PS08-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Measuring each of three treated boards ten times and claiming n=30 independent randomized boards",
+    "publishedWorking": [
+      "Multiple reads of a board do not create more independently treated boards."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS08-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-06-P01": {
+    "lessonId": "PS08-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "20",
+    "publishedWorking": [
+      "df_error=N−k=24−4=20."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-06-P02": {
+    "lessonId": "PS08-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "MS_between=60/3=20, MS_error=80/16=5, F=20/5=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-07-P01": {
+    "lessonId": "PS08-07",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Reject the equal-means null",
+    "publishedWorking": [
+      "Since p<α, reject the omnibus equal-means null."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS08-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-07-P02": {
+    "lessonId": "PS08-07",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "(3,20)",
+    "publishedWorking": [
+      "df1=k−1=3; df2=N−k=20."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS08-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-08-P01": {
+    "lessonId": "PS08-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "15",
+    "publishedWorking": [
+      "df_error=(t−1)(b−1)=3×5=15."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-08-P02": {
+    "lessonId": "PS08-08",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Assign every treatment once to each block in randomized order",
+    "publishedWorking": [
+      "Every block contains all treatments, with assignments randomized within each block."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS08-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-09-P01": {
+    "lessonId": "PS08-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "6",
+    "publishedWorking": [
+      "At B− the A effect is 9−5=4; at B+ it is 15−7=8; average effect=(4+8)/2=6."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-09-P02": {
+    "lessonId": "PS08-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "(15−7)−(9−5)=8−4=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-10-P01": {
+    "lessonId": "PS08-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 3,
+    "answerKey": "24",
+    "publishedWorking": [
+      "2³=8 treatment combinations and 3 independent replicates each, so 8×3=24 runs."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS08-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS08-10-P02": {
+    "lessonId": "PS08-10",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Run planned contrasts or multiplicity-aware comparisons",
+    "publishedWorking": [
+      "The overall F test does not identify all pair differences; appropriate comparisons address that question."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.5",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS08-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-01-P02": {
+    "lessonId": "PS06-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "2",
+    "publishedWorking": [
+      "SE=12/sqrt(36)=2.",
+      "z=(104−100)/2=2."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-01-P03": {
+    "lessonId": "PS06-01",
+    "questionType": "concept",
+    "correctOptionIndex": 2,
+    "answerKey": "μ≠μ0",
+    "publishedWorking": [
+      "Two directions are relevant; use a two-sided alternative."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS06-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-02-P01": {
+    "lessonId": "PS06-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "1",
+    "publishedWorking": [
+      "SE=8/sqrt(16)=2.",
+      "t=(52−50)/2=1."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-02-P02": {
+    "lessonId": "PS06-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "20",
+    "publishedWorking": [
+      "One population mean estimated: df=n−1=20."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-03-P02": {
+    "lessonId": "PS06-03",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Effect size and uncertainty",
+    "publishedWorking": [
+      "Practical relevance concerns magnitude and precision, not statistical significance alone."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS06-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-04-P01": {
+    "lessonId": "PS06-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "10",
+    "publishedWorking": [
+      "E=row total × column total / grand total = 40×30/120=10."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-05-P01": {
+    "lessonId": "PS06-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.85",
+    "publishedWorking": [
+      "Power=1−β=1−0.15=0.85."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-05-P02": {
+    "lessonId": "PS06-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Paired differences analysis",
+    "publishedWorking": [
+      "The before and after observations are matched within units."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS06-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-06-P01": {
+    "lessonId": "PS06-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "2.4",
+    "publishedWorking": [
+      "phat=0.62; null SE=sqrt(0.5×0.5/100)=0.05.",
+      "z=(0.62−0.50)/0.05=2.4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-06-P02": {
+    "lessonId": "PS06-06",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Exact binomial test",
+    "publishedWorking": [
+      "The null expected success count is too small for a reliable normal approximation."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS06-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-07-P01": {
+    "lessonId": "PS06-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "1.414",
+    "publishedWorking": [
+      "SE=sqrt(6²/36+8²/64)=sqrt(2)=1.414."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-07-P02": {
+    "lessonId": "PS06-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "2.683",
+    "publishedWorking": [
+      "SE=sqrt(5²/25+12²/36)=sqrt(5)=2.236.",
+      "t=6/sqrt(5)=2.683."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-08-P01": {
+    "lessonId": "PS06-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "3",
+    "publishedWorking": [
+      "SEd=4/sqrt(16)=1.",
+      "t=3/1=3 with df=15."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-08-P02": {
+    "lessonId": "PS06-08",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "The n within-instrument differences",
+    "publishedWorking": [
+      "A paired test is a one-sample test of within-pair differences."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS06-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-09-P01": {
+    "lessonId": "PS06-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "2.887",
+    "publishedWorking": [
+      "Pooled p=(70+50)/200=0.60.",
+      "SE=sqrt(0.6×0.4×(1/100+1/100))=sqrt(0.0048).",
+      "z=0.20/sqrt(0.0048)=2.887."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS06-10-P01": {
+    "lessonId": "PS06-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.267",
+    "publishedWorking": [
+      "χ²=(−2)²/30+(2)²/30+0=8/30=0.267."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.3",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS06-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-01-P01": {
+    "lessonId": "PS07-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 3,
+    "answerKey": "1",
+    "publishedWorking": [
+      "Each y value equals 2x, hence a perfect positive linear relationship."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-01-P02": {
+    "lessonId": "PS07-01",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "A nonlinear relation may exist",
+    "publishedWorking": [
+      "Pearson r summarizes linear, not all, association."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS07-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-02-P02": {
+    "lessonId": "PS07-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 0,
+    "answerKey": "1.5",
+    "publishedWorking": [
+      "The coefficient multiplying x is the slope."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-02-P03": {
+    "lessonId": "PS07-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "4",
+    "publishedWorking": [
+      "b0=ybar−b1×xbar=12−2×4=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-03-P02": {
+    "lessonId": "PS07-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "2.5",
+    "publishedWorking": [
+      "Residual e=14.5−12=2.5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-04-P02": {
+    "lessonId": "PS07-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.75",
+    "publishedWorking": [
+      "R²=1−SSE/SST=1−50/200=0.75."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-05-P01": {
+    "lessonId": "PS07-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Linearity and model form",
+    "publishedWorking": [
+      "Systematic residual curvature suggests a misspecified response function."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS07-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-05-P02": {
+    "lessonId": "PS07-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Examine leverage, influence and data validity",
+    "publishedWorking": [
+      "An influential observation requires investigation, not automatic deletion."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS07-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-06-P01": {
+    "lessonId": "PS07-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "1.500",
+    "publishedWorking": [
+      "xbar=1, ybar=8/3.",
+      "Sxy=(−1)(−5/3)+(1)(4/3)=3; Sxx=2; b1=1.5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-06-P02": {
+    "lessonId": "PS07-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "1.167",
+    "publishedWorking": [
+      "xbar=1, ybar=8/3, slope=1.5.",
+      "b0=8/3−1.5=7/6≈1.167."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-07-P01": {
+    "lessonId": "PS07-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.6",
+    "publishedWorking": [
+      "SEmean=s/sqrt(n)=3/sqrt(25)=0.6."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-07-P02": {
+    "lessonId": "PS07-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "2.062",
+    "publishedWorking": [
+      "SEpred=s×sqrt(1+1/n)=2sqrt(17/16)≈2.062."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-08-P01": {
+    "lessonId": "PS07-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "t=(1.2−0)/0.3=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-08-P02": {
+    "lessonId": "PS07-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 0,
+    "answerKey": "16",
+    "publishedWorking": [
+      "Two coefficients are fitted, so residual df=n−2=16."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-09-P01": {
+    "lessonId": "PS07-09",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Heteroscedasticity",
+    "publishedWorking": [
+      "A funnel-shaped residual plot suggests errors may have unequal variance."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS07-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS07-10-P01": {
+    "lessonId": "PS07-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "6",
+    "publishedWorking": [
+      "yhat=3+0.5(8)−0.1(10)=3+4−1=6."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.4",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS07-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-01-P02": {
+    "lessonId": "PS01-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "40",
+    "publishedWorking": [
+      "Sum line sample counts: 14+18+8=40."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-02-P02": {
+    "lessonId": "PS01-02",
+    "questionType": "concept",
+    "correctOptionIndex": 2,
+    "answerKey": "Quantitative measurement",
+    "publishedWorking": [
+      "Voltage is a numerical physical measurement and has meaningful numerical differences."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS01-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-03-P02": {
+    "lessonId": "PS01-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "4",
+    "publishedWorking": [
+      "(1+3+5+7)/4=4 mV."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-04-P02": {
+    "lessonId": "PS01-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "20",
+    "publishedWorking": [
+      "Count the frequencies: 3+5+4+8=20."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-05-P01": {
+    "lessonId": "PS01-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "30",
+    "publishedWorking": [
+      "Each of 5 strata contributes 6 units, total 5×6=30."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-05-P02": {
+    "lessonId": "PS01-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Stratified random sampling",
+    "publishedWorking": [
+      "Strata are production shifts, with random selection inside each stratum."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS01-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-06-P01": {
+    "lessonId": "PS01-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "112",
+    "publishedWorking": [
+      "The two excluded groups are distinct: 9 missing and 4 separate invalid records.",
+      "Usable records = 125−9−4 = 112."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-06-P02": {
+    "lessonId": "PS01-06",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Nominal",
+    "publishedWorking": [
+      "Package-type labels are unordered categories, even if encoded with numeric codes."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS01-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-07-P01": {
+    "lessonId": "PS01-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "14",
+    "publishedWorking": [
+      "Weighted mean=(3×10+2×20)/(3+2)=70/5=14."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-07-P02": {
+    "lessonId": "PS01-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "Sample mean=3; squared deviations are 4, 0, 4; divide 8 by n−1=2 for s²=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-08-P01": {
+    "lessonId": "PS01-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "12",
+    "publishedWorking": [
+      "IQR=19−7=12."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-08-P02": {
+    "lessonId": "PS01-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "40",
+    "publishedWorking": [
+      "IQR=8; upper fence=28+1.5×8=40 days."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-09-P01": {
+    "lessonId": "PS01-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "1",
+    "publishedWorking": [
+      "Means 2 and 3; cross products sum 2; sample covariance=2/(3−1)=1."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-09-P02": {
+    "lessonId": "PS01-09",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Covariance describes linear co-movement only",
+    "publishedWorking": [
+      "The covariance sign and size characterize sample linear co-movement and depend on measurement scales."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS01-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-10-P01": {
+    "lessonId": "PS01-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.07",
+    "publishedWorking": [
+      "Observed proportion=21/300=0.07."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS01-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS01-10-P02": {
+    "lessonId": "PS01-10",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Assignment supports causal comparisons",
+    "publishedWorking": [
+      "Random assignment helps control confounding in treatment comparisons; sampling concerns representativeness."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.1",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS01-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-01-P02": {
+    "lessonId": "PS02-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 3,
+    "answerKey": "64",
+    "publishedWorking": [
+      "Product counting gives 4×4×4=64 sequences."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-02-P02": {
+    "lessonId": "PS02-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "56",
+    "publishedWorking": [
+      "8P2=8×7=56."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-03-P02": {
+    "lessonId": "PS02-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "35",
+    "publishedWorking": [
+      "C(7,4)=35."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-04-P02": {
+    "lessonId": "PS02-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 3,
+    "answerKey": "64",
+    "publishedWorking": [
+      "2^6=64 distinct bit strings."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-05-P01": {
+    "lessonId": "PS02-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "30",
+    "publishedWorking": [
+      "5!/(2!2!1!)=120/4=30."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-05-P02": {
+    "lessonId": "PS02-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Divide by factorials of identical-piece counts",
+    "publishedWorking": [
+      "Repeated identical objects make some n! label permutations indistinguishable, so divide by multiplicity factorials."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS02-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-06-P01": {
+    "lessonId": "PS02-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "120",
+    "publishedWorking": [
+      "Fix one antenna and arrange other five: 5!=120."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-06-P02": {
+    "lessonId": "PS02-06",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "No, because fixed seat labels make positions distinct",
+    "publishedWorking": [
+      "Labeled physical seats are distinct positions; rotating the occupants changes assigned seats."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS02-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-07-P01": {
+    "lessonId": "PS02-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "5",
+    "publishedWorking": [
+      "Solutions to x1+x2=4, xi≥0: C(5,4)=5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-07-P02": {
+    "lessonId": "PS02-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "15",
+    "publishedWorking": [
+      "Stars-and-bars count C(3+4−1,4)=C(6,4)=15."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-08-P01": {
+    "lessonId": "PS02-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "53",
+    "publishedWorking": [
+      "Inclusion–exclusion: 35+28−10=53."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-08-P02": {
+    "lessonId": "PS02-08",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "It counts boards in both categories twice",
+    "publishedWorking": [
+      "Overlapping members belong to both sets and are included twice unless the intersection is subtracted."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS02-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-09-P01": {
+    "lessonId": "PS02-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 3,
+    "answerKey": "31",
+    "publishedWorking": [
+      "There are 2^5=32 possible strings and only the all-zero string has no 1. 32−1=31."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-09-P02": {
+    "lessonId": "PS02-09",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Two boards share at least one bin",
+    "publishedWorking": [
+      "The pigeonhole principle guarantees at least one bin contains at least two boards."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS02-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-10-P01": {
+    "lessonId": "PS02-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "84",
+    "publishedWorking": [
+      "C(9,3)=9×8×7/(3×2×1)=84."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS02-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS02-10-P02": {
+    "lessonId": "PS02-10",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "C(n,r)=C(n,n−r)",
+    "publishedWorking": [
+      "Choosing r of n objects is equivalent to choosing the n−r objects to omit."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS02-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-01-P02": {
+    "lessonId": "PS03-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.3",
+    "publishedWorking": [
+      "18/60=0.30 for equally likely sample-space outcomes."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-02-P02": {
+    "lessonId": "PS03-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.31",
+    "publishedWorking": [
+      "P(A∪B)=P(A)+P(B)=0.31 because events are disjoint."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-03-P02": {
+    "lessonId": "PS03-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.30",
+    "publishedWorking": [
+      "P(A|B)=P(A∩B)/P(B)=0.15/0.50=0.30."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-04-P02": {
+    "lessonId": "PS03-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.855",
+    "publishedWorking": [
+      "Multiply 0.95×0.90=0.855."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-05-P01": {
+    "lessonId": "PS03-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.019",
+    "publishedWorking": [
+      "Use law of total probability: 0.7×0.01+0.3×0.04=0.019."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-05-P02": {
+    "lessonId": "PS03-05",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Supplier prior probabilities",
+    "publishedWorking": [
+      "The total-probability formula weights each conditional rate by the probability of its supplier group."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS03-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-06-P01": {
+    "lessonId": "PS03-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.50",
+    "publishedWorking": [
+      "Defective positives: 0.2×0.8=0.16; nondefective positives: 0.8×0.2=0.16; PPV=0.16/0.32=0.5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-06-P02": {
+    "lessonId": "PS03-06",
+    "questionType": "concept",
+    "correctOptionIndex": 0,
+    "answerKey": "Population defect prevalence",
+    "publishedWorking": [
+      "Bayesian positive predictive value depends on the prevalence or prior probability of defects."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS03-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-07-P01": {
+    "lessonId": "PS03-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 0,
+    "answerKey": "0.729",
+    "publishedWorking": [
+      "Series reliability=0.9×0.9×0.9=0.729."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-07-P02": {
+    "lessonId": "PS03-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 3,
+    "answerKey": "0.88",
+    "publishedWorking": [
+      "The only failure state is both fail: (0.4)(0.3)=0.12; reliability=0.88."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-08-P01": {
+    "lessonId": "PS03-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.3333",
+    "publishedWorking": [
+      "Odds=p/(1−p)=0.25/0.75≈0.3333."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-08-P02": {
+    "lessonId": "PS03-08",
+    "questionType": "concept",
+    "correctOptionIndex": 2,
+    "answerKey": "0.8",
+    "publishedWorking": [
+      "Probability=4/(4+1)=0.8."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS03-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-09-P01": {
+    "lessonId": "PS03-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.3333",
+    "publishedWorking": [
+      "Draw one working: 6/10; second working given first: 5/9; product=1/3."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-09-P02": {
+    "lessonId": "PS03-09",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Drawing without replacement from a small lot",
+    "publishedWorking": [
+      "Removing an item changes the composition of the remaining population."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS03-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-10-P01": {
+    "lessonId": "PS03-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.50",
+    "publishedWorking": [
+      "Conditional fraction=45/90=0.5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS03-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS03-10-P02": {
+    "lessonId": "PS03-10",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "A and B are independent",
+    "publishedWorking": [
+      "The product P(A)P(B)=0.5×0.4=0.2 equals the stated intersection probability."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS03-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-01-P02": {
+    "lessonId": "PS04-01",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "2.3",
+    "publishedWorking": [
+      "E(X)=1(0.2)+2(0.3)+3(0.5)=2.3."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-01",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-02-P02": {
+    "lessonId": "PS04-02",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.3456",
+    "publishedWorking": [
+      "Use the binomial PMF: C(5,2)(0.4)^2(0.6)^3.",
+      "The value is 10×0.16×0.216 = 0.3456."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-02",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-03-P02": {
+    "lessonId": "PS04-03",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "3",
+    "publishedWorking": [
+      "For Poisson(λ), variance equals λ=3."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-03",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-04-P02": {
+    "lessonId": "PS04-04",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "2",
+    "publishedWorking": [
+      "Standardize: (116−100)/8=2."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-04",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-05-P01": {
+    "lessonId": "PS04-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "The mean of trial-count geometric variable is 1/p=4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-05-P02": {
+    "lessonId": "PS04-05",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.125",
+    "publishedWorking": [
+      "P(X=3)=(1−0.5)^2×0.5=0.125."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-05",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-06-P01": {
+    "lessonId": "PS04-06",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.5091",
+    "publishedWorking": [
+      "Hypergeometric: C(4,1)C(8,2)/C(12,3)=4×28/220≈0.5091."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-06-P02": {
+    "lessonId": "PS04-06",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Hypergeometric",
+    "publishedWorking": [
+      "The hypergeometric model captures the changing composition of a finite population without replacement."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS04-06",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-07-P01": {
+    "lessonId": "PS04-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "4",
+    "publishedWorking": [
+      "Mean exponential lifetime is 1/λ=4 hours."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-07-P02": {
+    "lessonId": "PS04-07",
+    "questionType": "calculation",
+    "correctOptionIndex": 1,
+    "answerKey": "0.5",
+    "publishedWorking": [
+      "Survival S(1)=exp(−ln 2)=0.5."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-07",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-08-P01": {
+    "lessonId": "PS04-08",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "0.55",
+    "publishedWorking": [
+      "Interval probability=F(8)−F(2)=0.73−0.18=0.55."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-08-P02": {
+    "lessonId": "PS04-08",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "P(X=4)",
+    "publishedWorking": [
+      "CDF jump height F(4)−F(4−) is the probability mass at 4."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Comprehension (provisional)",
+    "sourceLocatorId": "PS04-08",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-09-P01": {
+    "lessonId": "PS04-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "25",
+    "publishedWorking": [
+      "Under independence covariance is zero, so Var(X+Y)=9+16=25."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-09-P02": {
+    "lessonId": "PS04-09",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "17",
+    "publishedWorking": [
+      "Var(X+Y)=4+9+2(2)=17."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-09",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-10-P01": {
+    "lessonId": "PS04-10",
+    "questionType": "calculation",
+    "correctOptionIndex": 2,
+    "answerKey": "1.9",
+    "publishedWorking": [
+      "np=50, sd=5, corrected upper point 59.5; z=(59.5−50)/5=1.9."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Application (provisional)",
+    "sourceLocatorId": "PS04-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  },
+  "PS04-10-P02": {
+    "lessonId": "PS04-10",
+    "questionType": "concept",
+    "correctOptionIndex": 1,
+    "answerKey": "Very small np with extreme p",
+    "publishedWorking": [
+      "A normal approximation may be inaccurate when expected counts are small, particularly for highly skewed binomial models."
+    ],
+    "fourUniqueOptions": true,
+    "provisionalCompetency": "5.2",
+    "provisionalCognitiveLevel": "Analysis (provisional)",
+    "sourceLocatorId": "PS04-10",
+    "sourceLocatorCheck": "PDF source page readable; full claim-to-passage review pending",
+    "assumptionReview": "pending qualified editorial approval",
+    "distractorReview": "structural check only — pedagogical plausibility requires qualified review",
+    "expertSignoff": false,
+    "assessmentEligibility": false
+  }
+}

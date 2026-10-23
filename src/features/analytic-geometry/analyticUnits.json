@@ -1,0 +1,65 @@
+[
+  {
+    "unit_id": "AG-U01",
+    "name": "Coordinate Foundations",
+    "description": "Coordinate techniques: coordinate foundations.",
+    "startTopic": 79,
+    "endTopic": 81
+  },
+  {
+    "unit_id": "AG-U02",
+    "name": "Straight Lines",
+    "description": "Coordinate techniques: straight lines.",
+    "startTopic": 82,
+    "endTopic": 87
+  },
+  {
+    "unit_id": "AG-U03",
+    "name": "Loci and Circles",
+    "description": "Coordinate techniques: loci and circles.",
+    "startTopic": 88,
+    "endTopic": 90
+  },
+  {
+    "unit_id": "AG-U04",
+    "name": "Conic Sections",
+    "description": "Coordinate techniques: conic sections.",
+    "startTopic": 91,
+    "endTopic": 95
+  },
+  {
+    "unit_id": "AG-U05",
+    "name": "Polar and Parametric Coordinates",
+    "description": "Coordinate techniques: polar and parametric coordinates.",
+    "startTopic": 96,
+    "endTopic": 97
+  },
+  {
+    "unit_id": "AG-U06",
+    "name": "Vector Geometry",
+    "description": "Coordinate techniques: vector geometry.",
+    "startTopic": 98,
+    "endTopic": 99
+  },
+  {
+    "unit_id": "AG-U07",
+    "name": "Three-Dimensional Coordinates",
+    "description": "Coordinate techniques: three-dimensional coordinates.",
+    "startTopic": 100,
+    "endTopic": 102
+  },
+  {
+    "unit_id": "AG-U08",
+    "name": "Surfaces in Space",
+    "description": "Coordinate techniques: surfaces in space.",
+    "startTopic": 103,
+    "endTopic": 104
+  },
+  {
+    "unit_id": "AG-U09",
+    "name": "Coordinate Applications",
+    "description": "Coordinate techniques: coordinate applications.",
+    "startTopic": 105,
+    "endTopic": 105
+  }
+]

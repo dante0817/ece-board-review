@@ -1,0 +1,826 @@
+{
+  "trig-waves-phase-sinusoidal-mathematical-models": {
+    "id": "trig-waves-phase-sinusoidal-mathematical-models",
+    "title": "Sinusoidal mathematical models",
+    "summary": "Interpret a sinusoidal function as a model of a periodic quantity, including its amplitude, midpoint, angular rate and initial phase.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-01-definition",
+            "type": "definition",
+            "text": "A sinusoidal model is y(t)=D+A sin(ωt+φ), or a cosine model. Its midline is D, its amplitude is |A|, and for nonzero ω the period is 2π/|ω|. A negative A reflects the waveform about its midline. For nonzero A, the range is [D−|A|,D+|A|]. State the input units and angle mode before evaluating."
+          },
+          {
+            "id": "wave-13-01-formula-1",
+            "type": "formula",
+            "latex": "y(t)=D+A\\sin(\\omega t+\\phi)"
+          },
+          {
+            "id": "wave-13-01-formula-2",
+            "type": "formula",
+            "latex": "\\mathrm{amplitude}=|A|,\\quad \\mathrm{midline}=D"
+          },
+          {
+            "id": "wave-13-01-formula-3",
+            "type": "formula",
+            "latex": "\\mathrm{range}=[D-|A|,D+|A|]"
+          },
+          {
+            "id": "wave-13-01-diagram",
+            "type": "diagram",
+            "diagram": "wave-sinusoid",
+            "caption": "Original schematic for sinusoidal mathematical models; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-01-worked-1",
+            "type": "worked-example",
+            "title": "Read a sinusoidal model",
+            "problem": "For y=2+3sin(4πt), identify the amplitude, mean and period.",
+            "strategy": "Read A, D and ω from the standard form.",
+            "steps": [
+              "Amplitude=|3|=3 and midline D=2.",
+              "The period is 2π/(4π)=0.5 time units; the range is [−1,5]."
+            ],
+            "check": "Substitute sin=1 and sin=−1 to check both endpoints."
+          },
+          {
+            "id": "wave-13-01-worked-2",
+            "type": "worked-example",
+            "title": "Interpret a reflected cosine",
+            "problem": "For y=1−2cos(πt), find the maximum and minimum.",
+            "strategy": "Use cos(πt)∈[−1,1] and track the minus sign.",
+            "steps": [
+              "The amplitude is |−2|=2, and the midline is 1.",
+              "The maximum is 1−2(−1)=3 and the minimum is 1−2(1)=−1."
+            ],
+            "check": "Direct substitution at t=1 and t=0 confirms the extrema."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-01-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-01-pitfall",
+            "type": "note",
+            "text": "Amplitude is never negative; A may be negative. Do not confuse the midpoint D with the amplitude or assume ω itself is the frequency in hertz."
+          },
+          {
+            "id": "wave-13-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the range of 4−2sin t?",
+            "answer": "[2,6].",
+            "explanation": "Since sin t ranges from −1 to 1, the range is 4±2, namely 2 through 6."
+          },
+          {
+            "id": "wave-13-01-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Lial 10th ed. §§4.1–4.2; Sullivan 9th ed. §2.6; Young 3rd ed. Chapter 4. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-amplitude-period-frequency-and-angular-frequency": {
+    "id": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "title": "Amplitude, period, frequency, and angular frequency",
+    "summary": "Convert accurately among period, ordinary frequency, angular frequency, radians and cycles for sinusoidal signals.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-02-definition",
+            "type": "definition",
+            "text": "One complete cycle corresponds to 2π radians. Frequency f counts cycles each second (hertz); period T measures seconds per cycle; angular frequency ω measures radians per second. These formulas assume a nonconstant oscillatory signal and consistent time units. In y=sin(bt), the angular frequency is |b| when t is in seconds."
+          },
+          {
+            "id": "wave-13-02-formula-1",
+            "type": "formula",
+            "latex": "T=\\frac1f,\\quad f=\\frac1T"
+          },
+          {
+            "id": "wave-13-02-formula-2",
+            "type": "formula",
+            "latex": "\\omega=2\\pi f=\\frac{2\\pi}{T}"
+          },
+          {
+            "id": "wave-13-02-formula-3",
+            "type": "formula",
+            "latex": "T=\\frac{2\\pi}{|\\omega|}"
+          },
+          {
+            "id": "wave-13-02-diagram",
+            "type": "diagram",
+            "diagram": "wave-sinusoid",
+            "caption": "Original schematic for amplitude, period, frequency, and angular frequency; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-02-worked-1",
+            "type": "worked-example",
+            "title": "Power-line frequency",
+            "problem": "Find T and ω for a 50 Hz sinusoidal signal.",
+            "strategy": "Use the reciprocal-frequency and radians-per-cycle relationships.",
+            "steps": [
+              "T=1/50 s=0.020 s=20 ms.",
+              "ω=2π(50)=100π rad/s≈314.16 rad/s."
+            ],
+            "check": "A complete 100π·0.02=2π-radian phase change occurs in one period."
+          },
+          {
+            "id": "wave-13-02-worked-2",
+            "type": "worked-example",
+            "title": "Read a sine coefficient",
+            "problem": "Find the frequency and period of y=sin(12πt).",
+            "strategy": "The coefficient of t is angular frequency in rad/s.",
+            "steps": [
+              "ω=12π rad/s; f=ω/(2π)=6 Hz.",
+              "T=1/6 s≈0.1667 s."
+            ],
+            "check": "6 cycles per second gives approximately 0.1667 s per cycle."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-02-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-02-pitfall",
+            "type": "note",
+            "text": "Hertz and rad/s are not interchangeable: ω=2πf, not ω=f. For example, a frequency of 60 Hz means 120π rad/s."
+          },
+          {
+            "id": "wave-13-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For T=4 ms, find f.",
+            "answer": "250 Hz.",
+            "explanation": "Convert 4 ms to 0.004 s, then calculate f=1/0.004=250 Hz."
+          },
+          {
+            "id": "wave-13-02-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Lial 10th ed. §3.4 and §4.1; Schaum’s 4th ed. §§1.7 and 7.5; Sullivan 9th ed. §2.6. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-phase-shift-versus-time-shift": {
+    "id": "trig-waves-phase-phase-shift-versus-time-shift",
+    "title": "Phase shift versus time shift",
+    "summary": "Relate phase angle in radians or degrees to horizontal graph shift and physical time advance or delay with a fixed angular rate.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-03-definition",
+            "type": "definition",
+            "text": "In y(t)=A sin(ωt+φ), an initial phase φ moves the same sinusoid along the time axis. For positive ω, positive φ is an advance (left shift) of φ/ω seconds, while negative φ is a delay (right shift) of |φ|/ω. A time delay t₀ produces sin(ω(t−t₀)) and hence phase −ωt₀. Always use radians with ω in rad/s."
+          },
+          {
+            "id": "wave-13-03-formula-1",
+            "type": "formula",
+            "latex": "\\sin(\\omega t+\\phi)=\\sin\\bigl(\\omega(t+\\phi/\\omega)\\bigr)"
+          },
+          {
+            "id": "wave-13-03-formula-2",
+            "type": "formula",
+            "latex": "\\Delta t=-\\frac{\\phi}{\\omega}\\quad(\\omega>0)"
+          },
+          {
+            "id": "wave-13-03-formula-3",
+            "type": "formula",
+            "latex": "\\sin\\bigl(\\omega(t-t_0)\\bigr)=\\sin(\\omega t-\\omega t_0)"
+          },
+          {
+            "id": "wave-13-03-diagram",
+            "type": "diagram",
+            "diagram": "wave-sinusoid",
+            "caption": "Original schematic for phase shift versus time shift; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-03-worked-1",
+            "type": "worked-example",
+            "title": "Time delay from phase",
+            "problem": "For sin(100πt−π/2), compute the time delay relative to sin(100πt).",
+            "strategy": "Use ω=100π rad/s and the negative phase shift.",
+            "steps": [
+              "The phase is −π/2 radians, giving delay t₀=(π/2)/(100π).",
+              "t₀=1/200 s=5 ms to the right."
+            ],
+            "check": "100π(0.005)=π/2, exactly the phase reduction."
+          },
+          {
+            "id": "wave-13-03-worked-2",
+            "type": "worked-example",
+            "title": "Advance from a positive phase",
+            "problem": "For sin(20t+π/5), calculate the time advance.",
+            "strategy": "Divide positive phase in radians by positive ω.",
+            "steps": [
+              "The phase is +π/5 and ω=20 rad/s.",
+              "The advance is (π/5)/20=π/100 s≈0.0314 s."
+            ],
+            "check": "Replacing t by t+π/100 reproduces the original argument."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-03-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-03-pitfall",
+            "type": "note",
+            "text": "The graph phase angle φ and time shift −φ/ω have opposite signs for ω>0. Do not mix degrees into a calculation using rad/s without converting."
+          },
+          {
+            "id": "wave-13-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Does sin(10t−2) advance or lag sin(10t), and by how much?",
+            "answer": "It is delayed by 0.2 s.",
+            "explanation": "The negative phase −2 rad at ω=10 rad/s corresponds to a shift of +2/10=0.2 s."
+          },
+          {
+            "id": "wave-13-03-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Sullivan 9th ed. §2.6; Lial 10th ed. §4.2; Young 3rd ed. Chapter 4. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-phase-difference-and-leadlag-relationships": {
+    "id": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "title": "Phase difference and lead–lag relationships",
+    "summary": "Determine which of two equal-frequency sinusoids leads or lags and convert phase differences to time separations.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-04-definition",
+            "type": "definition",
+            "text": "For two sinusoids of equal positive angular frequency ω, compare the phase terms using the same reference function (both sine or both cosine). A larger phase is earlier in time and leads; a smaller phase lags. Phase is defined modulo 2π, so name an interval such as (−π,π] when giving a signed shortest phase difference. Use Δt=|Δφ|/ω to convert angular separation into time."
+          },
+          {
+            "id": "wave-13-04-formula-1",
+            "type": "formula",
+            "latex": "\\Delta\\phi=\\phi_1-\\phi_2\\pmod{2\\pi}"
+          },
+          {
+            "id": "wave-13-04-formula-2",
+            "type": "formula",
+            "latex": "\\Delta t=\\frac{|\\Delta\\phi|}{\\omega}\\quad(\\omega>0)"
+          },
+          {
+            "id": "wave-13-04-formula-3",
+            "type": "formula",
+            "latex": "\\cos(\\omega t)=\\sin(\\omega t+\\pi/2)"
+          },
+          {
+            "id": "wave-13-04-diagram",
+            "type": "diagram",
+            "diagram": "wave-sinusoid",
+            "caption": "Original schematic for phase difference and lead–lag relationships; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-04-worked-1",
+            "type": "worked-example",
+            "title": "Determine the leading waveform",
+            "problem": "Compare v=3sin(ωt+60°) and i=2sin(ωt−30°).",
+            "strategy": "Both are sine signals at the same frequency, so subtract their phases.",
+            "steps": [
+              "Δφ=60°−(−30°)=90°.",
+              "Voltage v leads current i by 90° (or current lags by 90°)."
+            ],
+            "check": "At an increasing zero crossing, the signal with the greater phase crosses first."
+          },
+          {
+            "id": "wave-13-04-worked-2",
+            "type": "worked-example",
+            "title": "Phase and time separation",
+            "problem": "A pair of 60 Hz sinusoids are separated by 120°. Find the shorter time offset.",
+            "strategy": "A 120° phase separation is one third of a full cycle.",
+            "steps": [
+              "T=1/60 s and Δφ/(2π)=120°/360°=1/3.",
+              "Δt=T/3=1/180 s≈5.56 ms."
+            ],
+            "check": "60 Hz×(1/180 s)=1/3 of a cycle."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-04-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-04-pitfall",
+            "type": "note",
+            "text": "Lead/lag comparison requires a common time reference, angular frequency, and sine/cosine convention. Difference greater than 180° should be interpreted with a specified wrapped-phase convention."
+          },
+          {
+            "id": "wave-13-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Relative to sin(ωt), does cos(ωt) lead or lag?",
+            "answer": "cos(ωt) leads by 90°.",
+            "explanation": "cos(ωt)=sin(ωt+π/2), so its phase is 90° greater in the sine reference."
+          },
+          {
+            "id": "wave-13-04-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Gibilisco, Trigonometry DeMYSTiFieD, Chapter 9; Sullivan 9th ed. §4.5; Lial 10th ed. §4.2. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-combining-same-frequency-sinusoids": {
+    "id": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "title": "Combining same-frequency sinusoids",
+    "summary": "Combine same-frequency sine and cosine signals using phase-shift identities or vector addition while preserving amplitudes and signs.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-05-definition",
+            "type": "definition",
+            "text": "Two sinusoids at the same angular frequency add to a single sinusoid (or zero). Write a sin(ωt)+b cos(ωt)=R sin(ωt+φ), where R=√(a²+b²)≥0 and φ=atan2(b,a). This quadrant-aware phase rule avoids ambiguous inverse tangents. Sinusoids of different frequencies generally cannot be reduced to one simple sinusoid by this method."
+          },
+          {
+            "id": "wave-13-05-formula-1",
+            "type": "formula",
+            "latex": "a\\sin x+b\\cos x=R\\sin(x+\\phi)"
+          },
+          {
+            "id": "wave-13-05-formula-2",
+            "type": "formula",
+            "latex": "R=\\sqrt{a^2+b^2},\\quad\\phi=\\operatorname{atan2}(b,a)"
+          },
+          {
+            "id": "wave-13-05-formula-3",
+            "type": "formula",
+            "latex": "\\sin u+\\sin v=2\\sin\\frac{u+v}{2}\\cos\\frac{u-v}{2}"
+          },
+          {
+            "id": "wave-13-05-diagram",
+            "type": "diagram",
+            "diagram": "wave-sinusoid",
+            "caption": "Original schematic for combining same-frequency sinusoids; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-05-worked-1",
+            "type": "worked-example",
+            "title": "Combine in quadrature",
+            "problem": "Write 3sin(ωt)+4cos(ωt) as one sine wave.",
+            "strategy": "Equate sine and cosine coefficients after expanding R sin(ωt+φ).",
+            "steps": [
+              "R=√(3²+4²)=5.",
+              "cosφ=3/5 and sinφ=4/5, so φ=atan2(4,3)≈53.13°."
+            ],
+            "check": "Expanding 5sin(ωt+φ) gives 3sin(ωt)+4cos(ωt)."
+          },
+          {
+            "id": "wave-13-05-worked-2",
+            "type": "worked-example",
+            "title": "Cancellation of anti-phase signals",
+            "problem": "Simplify 2sin x+2sin(x+π).",
+            "strategy": "Use the exact identity sin(x+π)=−sin(x) for every real x.",
+            "steps": [
+              "The second term is −2sin x.",
+              "Their sum is zero for every x."
+            ],
+            "check": "The two equal-amplitude sinusoids are exactly 180° out of phase."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-05-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-05-pitfall",
+            "type": "note",
+            "text": "Adding scalar peak amplitudes is generally wrong if the phase differs. The atan(b/a) shortcut loses quadrant information; use atan2(b,a)."
+          },
+          {
+            "id": "wave-13-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the amplitude of sin x+cos x?",
+            "answer": "√2.",
+            "explanation": "The coefficients are a=b=1, so R=√(1²+1²)=√2."
+          },
+          {
+            "id": "wave-13-05-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Sullivan 9th ed. §4.5; Kelley, Humongous Book of Trigonometry Problems, Chapters 7–8; Lial 10th ed. Chapter 5. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-simple-harmonic-motion": {
+    "id": "trig-waves-phase-simple-harmonic-motion",
+    "title": "Simple harmonic motion",
+    "summary": "Use sinusoidal position, velocity and acceleration to analyze simple harmonic motion and connect amplitude with angular frequency.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-06-definition",
+            "type": "definition",
+            "text": "In ideal simple harmonic motion (SHM), displacement is x(t)=A cos(ωt+φ), and acceleration is proportional to and opposite displacement: x″=−ω²x. Velocity is the time derivative of position. For constant A and ω, maximum speed is Aω and maximum acceleration magnitude is Aω² (A≥0, ω>0). SI units must be consistent."
+          },
+          {
+            "id": "wave-13-06-formula-1",
+            "type": "formula",
+            "latex": "x(t)=A\\cos(\\omega t+\\phi)"
+          },
+          {
+            "id": "wave-13-06-formula-2",
+            "type": "formula",
+            "latex": "v(t)=-A\\omega\\sin(\\omega t+\\phi)"
+          },
+          {
+            "id": "wave-13-06-formula-3",
+            "type": "formula",
+            "latex": "a(t)=-\\omega^2x(t),\\quad |v|_{\\max}=A\\omega"
+          },
+          {
+            "id": "wave-13-06-diagram",
+            "type": "diagram",
+            "diagram": "wave-sinusoid",
+            "caption": "Original schematic for simple harmonic motion; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-06-worked-1",
+            "type": "worked-example",
+            "title": "Peak speed in oscillation",
+            "problem": "A mass moves as x=0.10cos(20t) m. Find its peak speed.",
+            "strategy": "Differentiate and read the magnitude of the sine coefficient.",
+            "steps": [
+              "v=−2sin(20t) m/s.",
+              "The peak speed is 2 m/s."
+            ],
+            "check": "Aω=0.10×20=2 m/s, consistent with the derivative."
+          },
+          {
+            "id": "wave-13-06-worked-2",
+            "type": "worked-example",
+            "title": "Acceleration at any displacement",
+            "problem": "For x=3cos(2t), express acceleration using x.",
+            "strategy": "Use the SHM identity a=−ω²x.",
+            "steps": [
+              "The angular frequency is ω=2 rad/s.",
+              "Thus a=−4x in consistent length/time units."
+            ],
+            "check": "Differentiating x twice gives −12cos(2t)=−4x."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-06-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-06-pitfall",
+            "type": "note",
+            "text": "Amplitude is a position, not a speed; multiply by ω for maximum speed and ω² for maximum acceleration. A physical damped or driven oscillator need not obey the ideal constant-amplitude model."
+          },
+          {
+            "id": "wave-13-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For x=0.2cos(5t) m, what is the maximum speed?",
+            "answer": "1 m/s.",
+            "explanation": "The maximum speed is Aω=0.2×5=1 m/s."
+          },
+          {
+            "id": "wave-13-06-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Sullivan 9th ed. §4.5; Lial 10th ed. §4.5; Young 3rd ed. Chapter 4. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-damped-oscillations": {
+    "id": "trig-waves-phase-damped-oscillations",
+    "title": "Damped oscillations",
+    "summary": "Recognize an exponentially decaying sinusoid, its amplitude envelope, decay rate and time constant without confusing damping with ordinary frequency.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-07-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-07-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-07-definition",
+            "type": "definition",
+            "text": "A standard damped-sinusoid model is x(t)=A₀e^(−kt)cos(ω_dt+φ), k>0. The upper and lower envelopes are ±A₀e^(−kt). The amplitude reaches A₀/e after τ=1/k seconds, while the oscillation frequency visible in this model is ω_d/(2π). The damping rate and damped oscillation frequency are different quantities."
+          },
+          {
+            "id": "wave-13-07-formula-1",
+            "type": "formula",
+            "latex": "x(t)=A_0e^{-kt}\\cos(\\omega_dt+\\phi),\\quad k>0"
+          },
+          {
+            "id": "wave-13-07-formula-2",
+            "type": "formula",
+            "latex": "E_{\\pm}(t)=\\pm A_0e^{-kt}"
+          },
+          {
+            "id": "wave-13-07-formula-3",
+            "type": "formula",
+            "latex": "\\tau=\\frac1k,\\quad f_d=\\frac{\\omega_d}{2\\pi}"
+          },
+          {
+            "id": "wave-13-07-diagram",
+            "type": "diagram",
+            "diagram": "wave-damped",
+            "caption": "Original schematic for damped oscillations; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-07-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-07-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-07-worked-1",
+            "type": "worked-example",
+            "title": "Time constant",
+            "problem": "For x=5e^(−0.25t)cos(8t), determine the amplitude time constant.",
+            "strategy": "Compare the exponential factor with e^(−kt).",
+            "steps": [
+              "k=0.25 s⁻¹, so τ=1/k=4 s.",
+              "At t=4 s, the amplitude envelope is 5/e≈1.84."
+            ],
+            "check": "The ratio of amplitudes at t=4 and t=0 is e^(−1)."
+          },
+          {
+            "id": "wave-13-07-worked-2",
+            "type": "worked-example",
+            "title": "Half-amplitude time",
+            "problem": "When does an envelope A₀e^(−0.5t) fall to half of A₀?",
+            "strategy": "Solve the envelope equation, not the oscillatory cosine.",
+            "steps": [
+              "e^(−0.5t)=1/2 implies −0.5t=−ln2.",
+              "t=2ln2≈1.386 s."
+            ],
+            "check": "Substitution gives e^(−ln2)=1/2."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-07-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-07-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-07-pitfall",
+            "type": "note",
+            "text": "The exponential envelope is not the instantaneous displacement: the cosine factor changes sign and reaches zero even while the envelope is positive. Distinguish damping k from angular frequency ω_d."
+          },
+          {
+            "id": "wave-13-07-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is τ for e^(−t/3)?",
+            "answer": "3 s.",
+            "explanation": "Write the exponential as e^(−(1/3)t); the decay rate is 1/3 s⁻¹, so τ=3 s."
+          },
+          {
+            "id": "wave-13-07-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Sullivan 9th ed. §4.5; Lial 10th ed. §4.5; Young 3rd ed. Chapter 4. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections": {
+    "id": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "title": "Introductory AC waveforms and phasor connections",
+    "summary": "Connect sinusoidal voltage and current with peak, RMS, frequency, phase and complex phasor representations using explicit reference conventions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "wave-13-08-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "wave-13-08-concept"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-08-definition",
+            "type": "definition",
+            "text": "For a pure sinusoid v(t)=V_m cos(ωt+φ), the RMS voltage is V_m/√2. A phasor is a complex amplitude that preserves magnitude and phase for a fixed frequency. State whether the phasor magnitude is RMS or peak and whether the reference is cosine or sine. Under a cosine-reference RMS convention, v(t)=√2 V_rms cos(ωt+φ) corresponds to V_rms∠φ. Ideal inductive impedance is +jX_L, ideal capacitive impedance is −jX_C."
+          },
+          {
+            "id": "wave-13-08-formula-1",
+            "type": "formula",
+            "latex": "V_{\\mathrm{rms}}=\\frac{V_m}{\\sqrt2}\\quad(\\text{pure sinusoid})"
+          },
+          {
+            "id": "wave-13-08-formula-2",
+            "type": "formula",
+            "latex": "v(t)=\\sqrt2 V_{\\mathrm{rms}}\\cos(\\omega t+\\phi)\\leftrightarrow V_{\\mathrm{rms}}\\angle\\phi"
+          },
+          {
+            "id": "wave-13-08-formula-3",
+            "type": "formula",
+            "latex": "Z_L=j\\omega L,\\quad Z_C=\\frac1{j\\omega C}=-\\frac{j}{\\omega C}"
+          },
+          {
+            "id": "wave-13-08-diagram",
+            "type": "diagram",
+            "diagram": "wave-phasor",
+            "caption": "Original schematic for introductory ac waveforms and phasor connections; waveforms use idealized quantities and labeled reference conventions, with exact computations in the lesson formulas."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-08-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "wave-13-08-solving"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-08-worked-1",
+            "type": "worked-example",
+            "title": "Peak to RMS",
+            "problem": "Find RMS voltage for v(t)=10cos(100πt) volts.",
+            "strategy": "Apply the sine/cosine RMS relation for a pure sinusoid.",
+            "steps": [
+              "The peak voltage is 10 V.",
+              "V_rms=10/√2≈7.07 V."
+            ],
+            "check": "The RMS value is less than the peak, as required."
+          },
+          {
+            "id": "wave-13-08-worked-2",
+            "type": "worked-example",
+            "title": "Cosine-reference phasor",
+            "problem": "Convert v(t)=12cos(ωt+30°) V to a peak-magnitude cosine phasor.",
+            "strategy": "Specify the magnitude convention explicitly.",
+            "steps": [
+              "Peak magnitude is 12 V and phase is +30°.",
+              "The peak phasor is 12∠30° V; the RMS phasor is (12/√2)∠30° V."
+            ],
+            "check": "Reconstruction with the chosen convention returns 12cos(ωt+30°)."
+          }
+        ]
+      },
+      {
+        "id": "wave-13-08-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "wave-13-08-review"
+        ],
+        "blocks": [
+          {
+            "id": "wave-13-08-pitfall",
+            "type": "note",
+            "text": "Do not use the same numeric magnitude for peak and RMS phasors. A sine-reference phase is 90° offset from a cosine-reference phase. Lead/lag of ideal L or C follows from voltage = impedance × current, not from a bare sign mnemonic."
+          },
+          {
+            "id": "wave-13-08-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If a sine wave has 120 V RMS, what is its peak magnitude?",
+            "answer": "120√2 V (≈169.7 V).",
+            "explanation": "For a pure sinusoid V_m=√2 V_rms=120√2 V."
+          },
+          {
+            "id": "wave-13-08-reference",
+            "type": "note",
+            "text": "Reference guide (original lessons and questions): Gibilisco, Trigonometry DeMYSTiFieD, Chapter 9; Sullivan 9th ed. §4.5; Lial 10th ed. Chapter 4. Verify wave and phasor sign conventions before applying results."
+          }
+        ]
+      }
+    ]
+  }
+}

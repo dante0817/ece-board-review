@@ -1,0 +1,54 @@
+BSECE BOARD REVIEWER v10.26.0 — VALIDATION REPORT
+Date: 2026-10-10
+Artifact classification: SOURCE RELEASE CANDIDATE — NOT PRODUCTION CERTIFIED
+
+SOURCE-LEVEL PASS RESULTS
+- Full source QA: 34 of 34 scripts passed, including 19 release-level validators,
+  14 focused TypeScript configurations, and 1 relative-import/source syntax scan.
+- v10.26 new content tests: 40 independent expected-number fixtures representing
+  20 authored calculator technique families and two variants each; passed.
+- Explicit mismatch checks: altered answer-key choices, invalid units, wrong
+  family bindings and missing parameters are withheld; passed.
+- Domain guards: invalid denominators, invalid LED headroom, out-of-range ADC bits,
+  improper M-ary symbols, invalid overshoot assumptions and signed RMS supported.
+- Existing 18 calculator family checks / 36 variants preserved; passed.
+- Existing 10 exact-question Canon pilot guides preserved; passed.
+- Device-QA catalog: 48 unique unverified cases, old observation IDs preserved,
+  observation-only exports do not confer approval; passed.
+- Source scan: 258 TypeScript/TSX files parsed, zero syntax errors.
+- Local imports: 871 checked, 0 unresolved.
+- Question-level audit: 165 unique questions in the timed mock bank;
+  86 with preliminary calculator help (10 pilot + 76 family variants), 79 pending.
+- Six app-defined subject groupings, including Trigonometry and Calculus where
+  no calculator guidance is currently mapped, are reported without substitution.
+
+NOT VERIFIED / BLOCKERS
+- `npm ci --offline --ignore-scripts --no-audit --no-fund`: FAIL ENOTCACHED
+  https://registry.npmjs.org/zwitch (package not in local npm cache).
+- `npm run preflight:v10.23`: BLOCKED with 11 missing core npm project packages:
+  react, react-dom, vite, @vitejs/plugin-react, @tailwindcss/vite, express,
+  ws, @google/genai, esbuild, tsx, typescript.
+- Full installed-dependency `npm run lint`: NOT CERTIFIED.
+- Full Vite/Express `npm run build`: NOT CERTIFIED.
+- Interactive deployed React browser journey: NOT CERTIFIED.
+- Physical Canon F-789SGA keystrokes, actual LCD display, model approval:
+  NOT TESTED, zero device-certified techniques.
+- PRC syllabus / TOS completeness and expert approval are NOT asserted.
+
+SAFETY / MIGRATION
+- No learner storage keys or backup schema altered in this release.
+- No exam scoring or question IDs modified.
+- Strict-assessment instructional gates retained and checked by older suites.
+- No technique was promoted to 'published' or 'device-tested'.
+
+RUN LOCALLY WITH REGISTRY ACCESS
+npm ci
+npm run qa:source:v10.26
+npm run audit:calculator:v10.26
+npm run lint
+npm run build
+npm run dev
+npm run smoke:browser:v10.23
+
+Physical QA: follow LOCAL_BUILD_AND_CANON_QA_V10_26.md and preserve
+separate independent reviewer approval evidence.

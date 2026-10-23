@@ -1,0 +1,962 @@
+[
+  {
+    "id": "TRI43-081-001",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Basic",
+    "family": "sine-equation",
+    "prompt": "On 0≤θ<2π, solve sin θ=1/2.",
+    "options": [
+      "{π/6}",
+      "{π/6, 5π/6}",
+      "{π/6, 11π/6}",
+      "{5π/6, 7π/6}"
+    ],
+    "correctIndex": 1,
+    "explanation": "Positive sine occurs in quadrants I and II with reference angle π/6."
+  },
+  {
+    "id": "TRI43-081-002",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Basic",
+    "family": "cosine-equation",
+    "prompt": "On 0≤θ<2π, solve cos θ=0.",
+    "options": [
+      "{π/2, 3π/2}",
+      "{0,π}",
+      "{π/2}",
+      "{π/2,π,3π/2}"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine is zero on the positive and negative y-axis: π/2 and 3π/2."
+  },
+  {
+    "id": "TRI43-081-003",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Basic",
+    "family": "tangent-equation",
+    "prompt": "On 0≤θ<2π, solve tan θ=1.",
+    "options": [
+      "{π/4,3π/4}",
+      "{π/4}",
+      "{π/4,7π/4}",
+      "{π/4, 5π/4}"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tangent is 1 in quadrants I and III, separated by period π."
+  },
+  {
+    "id": "TRI43-081-004",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Intermediate",
+    "family": "sine-equation",
+    "prompt": "On 0≤θ<2π, solve sin θ=−1.",
+    "options": [
+      "{π/2}",
+      "{π/2,3π/2}",
+      "{3π/2}",
+      "{0,π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "Only θ=3π/2 has sine −1 in the stated interval."
+  },
+  {
+    "id": "TRI43-081-005",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Intermediate",
+    "family": "cosine-equation",
+    "prompt": "On 0≤θ<2π, solve cos θ=−1/2.",
+    "options": [
+      "{π/3,5π/3}",
+      "{2π/3,4π/3}",
+      "{2π/3}",
+      "{π/6,5π/6}"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cosine is negative in quadrants II and III, reference angle π/3."
+  },
+  {
+    "id": "TRI43-081-006",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Intermediate",
+    "family": "tangent-equation",
+    "prompt": "Give the general solution of tan θ=0.",
+    "options": [
+      "θ=kπ, k∈ℤ",
+      "θ=2kπ, k∈ℤ",
+      "θ=π/2+kπ, k∈ℤ",
+      "θ=π/4+kπ, k∈ℤ"
+    ],
+    "correctIndex": 0,
+    "explanation": "The tangent is zero at every integer multiple of π, where cosine is nonzero."
+  },
+  {
+    "id": "TRI43-081-007",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Advanced",
+    "family": "no-real-root",
+    "prompt": "Does sin θ=3/2 have any real solution?",
+    "options": [
+      "θ=π/6",
+      "θ=π/3",
+      "Infinitely many real solutions",
+      "No real solution"
+    ],
+    "correctIndex": 3,
+    "explanation": "Every real sine lies in [−1,1], so 3/2 is impossible."
+  },
+  {
+    "id": "TRI43-081-008",
+    "subtopicId": "trig-equations-basic-trigonometric-equations",
+    "difficulty": "Advanced",
+    "family": "cosine-equation",
+    "prompt": "Give all real solutions of cos θ=−1.",
+    "options": [
+      "θ=π+kπ, k∈ℤ",
+      "θ=2kπ, k∈ℤ",
+      "θ=π+2kπ, k∈ℤ",
+      "θ=π/2+kπ, k∈ℤ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cosine equals −1 only at odd integer multiples of π, spaced by 2π."
+  },
+  {
+    "id": "TRI43-082-001",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Basic",
+    "family": "endpoints",
+    "prompt": "Solve sin θ=0 on [0,2π).",
+    "options": [
+      "{0,π,2π}",
+      "{0,π}",
+      "{π}",
+      "{π,2π}"
+    ],
+    "correctIndex": 1,
+    "explanation": "sin θ=0 at kπ, but the upper endpoint 2π is excluded."
+  },
+  {
+    "id": "TRI43-082-002",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Basic",
+    "family": "endpoints",
+    "prompt": "Solve sin θ=0 on [0,2π].",
+    "options": [
+      "{0,π,2π}",
+      "{0,π}",
+      "{π,2π}",
+      "{0,2π}"
+    ],
+    "correctIndex": 0,
+    "explanation": "The closed interval includes θ=2π as well as 0 and π."
+  },
+  {
+    "id": "TRI43-082-003",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Basic",
+    "family": "endpoints",
+    "prompt": "Solve cos θ=0 on (−π,π].",
+    "options": [
+      "{π/2}",
+      "{−π,0,π}",
+      "{π/2,3π/2}",
+      "{−π/2,π/2}"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cosine is zero at π/2+kπ; the two values in (−π,π] are ±π/2."
+  },
+  {
+    "id": "TRI43-082-004",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Intermediate",
+    "family": "signed-interval",
+    "prompt": "Solve cos θ=1/2 on (−π,π].",
+    "options": [
+      "{π/3,5π/3}",
+      "{π/3}",
+      "{−π/3,π/3}",
+      "{−π/6,π/6}"
+    ],
+    "correctIndex": 2,
+    "explanation": "General solutions ±π/3+2kπ yield −π/3 and π/3 in this interval."
+  },
+  {
+    "id": "TRI43-082-005",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Intermediate",
+    "family": "endpoints",
+    "prompt": "How many solutions of tan θ=0 are in [0,3π)?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "tan θ=0 at θ=kπ for any integer k. On [0,3π), only k=0,1,2 satisfy both interval bounds, giving three angles."
+  },
+  {
+    "id": "TRI43-082-006",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Intermediate",
+    "family": "sine-equation",
+    "prompt": "Solve sin θ=−1/2 on [0,2π).",
+    "options": [
+      "{7π/6,11π/6}",
+      "{π/6,5π/6}",
+      "{5π/6,7π/6}",
+      "{7π/6}"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sine is −1/2 in quadrants III and IV at reference angle π/6."
+  },
+  {
+    "id": "TRI43-082-007",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Advanced",
+    "family": "general-solutions",
+    "prompt": "Which gives the complete general solution of cos θ=0?",
+    "options": [
+      "θ=π/2+2kπ, k∈ℤ",
+      "θ=kπ, k∈ℤ",
+      "θ=π/4+kπ, k∈ℤ",
+      "θ=π/2+kπ, k∈ℤ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cosine vanishes at all odd multiples of π/2; the spacing is π."
+  },
+  {
+    "id": "TRI43-082-008",
+    "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+    "difficulty": "Advanced",
+    "family": "wide-interval",
+    "prompt": "How many solutions of sin θ=1 occur on [0,4π]?",
+    "options": [
+      "1",
+      "3",
+      "2",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "sin θ=1 at π/2+2kπ; π/2 and 5π/2 lie in [0,4π]."
+  },
+  {
+    "id": "TRI43-083-001",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Basic",
+    "family": "zero-product",
+    "prompt": "Solve sin θ(sin θ−1)=0 on [0,2π).",
+    "options": [
+      "{0,π}",
+      "{0,π/2,π}",
+      "{π/2}",
+      "{0,π/2,π,2π}"
+    ],
+    "correctIndex": 1,
+    "explanation": "The zero-product rule gives sin θ=0 at θ=0 and π, or sin θ=1 at π/2, so the combined solution set is {0,π/2,π}."
+  },
+  {
+    "id": "TRI43-083-002",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Basic",
+    "family": "factoring",
+    "prompt": "Which factors 2sin²θ−sin θ correctly?",
+    "options": [
+      "sin θ(2sin θ−1)",
+      "sin θ(2sin θ+1)",
+      "sin θ(sin θ−2)",
+      "(sin θ−1)(2sin θ−1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factor the common sin θ from both terms to retain every possible zero."
+  },
+  {
+    "id": "TRI43-083-003",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Basic",
+    "family": "zero-product",
+    "prompt": "Solve sin θcos θ=0 on [0,2π).",
+    "options": [
+      "{0,π}",
+      "{π/2,3π/2}",
+      "{π/4,3π/4,5π/4,7π/4}",
+      "{0,π/2,π,3π/2}"
+    ],
+    "correctIndex": 3,
+    "explanation": "The product vanishes if sine or cosine vanishes: every quadrant-axis angle is included."
+  },
+  {
+    "id": "TRI43-083-004",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Intermediate",
+    "family": "factored-sine",
+    "prompt": "Solve sin θ(2sin θ−1)=0 on [0,2π).",
+    "options": [
+      "{π/6,5π/6}",
+      "{0,π}",
+      "{0,π/6,5π/6,π}",
+      "{0,π/6,7π/6,π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "Set sin θ=0 or 1/2; union all four distinct interval solutions."
+  },
+  {
+    "id": "TRI43-083-005",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Intermediate",
+    "family": "factored-tangent",
+    "prompt": "Solve tan θ(tan θ−1)=0 on [0,2π).",
+    "options": [
+      "{0,π/4,π}",
+      "{0,π/4,π,5π/4}",
+      "{π/4,5π/4}",
+      "{0,π/2,π,3π/2}"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solve tan θ=0 or tan θ=1, excluding undefined tangent angles."
+  },
+  {
+    "id": "TRI43-083-006",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Intermediate",
+    "family": "factored-sine",
+    "prompt": "Solve sin θ(sin θ+1)=0 on [0,2π).",
+    "options": [
+      "{0,π,3π/2}",
+      "{0,π/2,π}",
+      "{3π/2}",
+      "{0,π,2π}"
+    ],
+    "correctIndex": 0,
+    "explanation": "Set each factor to zero: sin θ=0 at 0 and π; sin θ=−1 at 3π/2. All three angles are inside [0,2π)."
+  },
+  {
+    "id": "TRI43-083-007",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Advanced",
+    "family": "loss-of-roots",
+    "prompt": "If sin θ(2cos θ−1)=0, why is dividing by sin θ unsafe?",
+    "options": [
+      "sin θ can never be zero",
+      "It makes cos θ undefined",
+      "It always creates extraneous roots",
+      "It can discard solutions where sin θ=0"
+    ],
+    "correctIndex": 3,
+    "explanation": "Dividing by a possibly zero factor removes its zero-product solution branch."
+  },
+  {
+    "id": "TRI43-083-008",
+    "subtopicId": "trig-equations-equations-solved-by-factoring",
+    "difficulty": "Advanced",
+    "family": "factored-cosine",
+    "prompt": "Solve cos θ(cos θ+1)=0 on [0,2π).",
+    "options": [
+      "{π/2,3π/2}",
+      "{0,π,2π}",
+      "{π/2,π,3π/2}",
+      "{π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "The product is zero when cos θ=0, yielding π/2 or 3π/2, or cos θ=−1, yielding π, all in the required interval."
+  },
+  {
+    "id": "TRI43-084-001",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Basic",
+    "family": "quadratic-factor",
+    "prompt": "Factor 2u²−u−1.",
+    "options": [
+      "(2u−1)(u+1)",
+      "(2u+1)(u−1)",
+      "(u−1)(u−1)",
+      "(2u+1)(u+1)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply out: (2u+1)(u−1)=2u²−2u+u−1=2u²−u−1, so this is the correct factorization."
+  },
+  {
+    "id": "TRI43-084-002",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Basic",
+    "family": "quadratic-root",
+    "prompt": "For 2sin²θ−sin θ−1=0, which sine values are possible?",
+    "options": [
+      "sin θ=1 or −1/2",
+      "sin θ=−1 or 1/2",
+      "sin θ=1/2 only",
+      "sin θ=−1/2 only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let u=sin θ and factor (2u+1)(u−1)=0; both roots lie in [−1,1]."
+  },
+  {
+    "id": "TRI43-084-003",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Basic",
+    "family": "range-filter",
+    "prompt": "When solving a real equation in u=cos θ, which root must be rejected?",
+    "options": [
+      "u=−1",
+      "u=0",
+      "u=1",
+      "u=3/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Real cosine cannot exceed 1 in magnitude, so u=3/2 is inadmissible."
+  },
+  {
+    "id": "TRI43-084-004",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Intermediate",
+    "family": "sine-quadratic",
+    "prompt": "Solve 2sin²θ−sin θ−1=0 on [0,2π).",
+    "options": [
+      "{π/2,π/6,5π/6}",
+      "{7π/6,11π/6}",
+      "{π/2,7π/6,11π/6}",
+      "{π/2,π,3π/2}"
+    ],
+    "correctIndex": 2,
+    "explanation": "sin θ=1 or −1/2; the corresponding interval angles are π/2,7π/6,11π/6."
+  },
+  {
+    "id": "TRI43-084-005",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Intermediate",
+    "family": "cosine-quadratic",
+    "prompt": "Solve 2cos²θ−3cos θ+1=0 on [0,2π).",
+    "options": [
+      "{π,2π/3,4π/3}",
+      "{0,π/3,5π/3}",
+      "{0,2π/3,4π/3}",
+      "{π/3,5π/3}"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor (2cos θ−1)(cos θ−1)=0. Solve cos θ=1/2 or 1."
+  },
+  {
+    "id": "TRI43-084-006",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Intermediate",
+    "family": "sine-square",
+    "prompt": "Solve sin²θ=1/4 on [0,2π).",
+    "options": [
+      "{π/6,5π/6,7π/6,11π/6}",
+      "{π/6,5π/6}",
+      "{π/3,2π/3,4π/3,5π/3}",
+      "{π/4,3π/4,5π/4,7π/4}"
+    ],
+    "correctIndex": 0,
+    "explanation": "Taking square roots gives sin θ=±1/2, yielding four distinct interval solutions."
+  },
+  {
+    "id": "TRI43-084-007",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Advanced",
+    "family": "range-filter",
+    "prompt": "Solve sin²θ+2sin θ+2=0 for real θ.",
+    "options": [
+      "{π/2}",
+      "{3π/2}",
+      "Infinitely many real solutions",
+      "No real solutions"
+    ],
+    "correctIndex": 3,
+    "explanation": "For u=sin θ, u²+2u+2=(u+1)²+1>0 for all real u."
+  },
+  {
+    "id": "TRI43-084-008",
+    "subtopicId": "trig-equations-quadratic-type-equations",
+    "difficulty": "Advanced",
+    "family": "quadratic-tangent",
+    "prompt": "If tan²θ=1, how many solutions lie in [0,2π)?",
+    "options": [
+      "1",
+      "2",
+      "4",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan²θ=1 implies tan θ=+1 or −1. Their solutions over one full turn are π/4,3π/4,5π/4, and 7π/4."
+  },
+  {
+    "id": "TRI43-085-001",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Basic",
+    "family": "double-angle",
+    "prompt": "Which identity replaces 2sin θcos θ?",
+    "options": [
+      "cos(2θ)",
+      "sin(2θ)",
+      "sin²θ",
+      "cos²θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sine double-angle identity is sin 2θ=2sin θcos θ."
+  },
+  {
+    "id": "TRI43-085-002",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Basic",
+    "family": "double-angle",
+    "prompt": "Which identity replaces 1−2sin²θ?",
+    "options": [
+      "cos 2θ",
+      "sin 2θ",
+      "1+cos²θ",
+      "2sin 2θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "One cosine double-angle form is cos 2θ=1−2sin²θ."
+  },
+  {
+    "id": "TRI43-085-003",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Basic",
+    "family": "identity-equation",
+    "prompt": "Solve sin 2θ=0 for all real θ.",
+    "options": [
+      "θ=kπ, k∈ℤ",
+      "θ=π/2+2kπ, k∈ℤ",
+      "θ=2kπ, k∈ℤ",
+      "θ=kπ/2, k∈ℤ"
+    ],
+    "correctIndex": 3,
+    "explanation": "The zero locations for sin u are u=kπ; setting u=2θ and then dividing by 2 gives θ=kπ/2 for any integer k."
+  },
+  {
+    "id": "TRI43-085-004",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Intermediate",
+    "family": "identity-factoring",
+    "prompt": "Solve 2sin θcos θ=sin θ on [0,2π).",
+    "options": [
+      "{π/3,5π/3}",
+      "{0,π}",
+      "{0,π/3,π,5π/3}",
+      "{π/6,5π/6,π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "Factor sin θ(2cos θ−1)=0; keep both sin θ=0 and cos θ=1/2 branches."
+  },
+  {
+    "id": "TRI43-085-005",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Intermediate",
+    "family": "cosine-double",
+    "prompt": "Solve 1−2sin²θ=0 on [0,2π).",
+    "options": [
+      "{π/2,3π/2}",
+      "{π/4,3π/4,5π/4,7π/4}",
+      "{π/6,5π/6,7π/6,11π/6}",
+      "{0,π/2,π,3π/2}"
+    ],
+    "correctIndex": 1,
+    "explanation": "Equivalent cos 2θ=0 gives θ=π/4+kπ/2, with k=0,1,2,3."
+  },
+  {
+    "id": "TRI43-085-006",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Intermediate",
+    "family": "identity-simplify",
+    "prompt": "On [0,2π), solve cos²θ−sin²θ=1.",
+    "options": [
+      "{0,π}",
+      "{π/2,3π/2}",
+      "{0,π,2π}",
+      "{π/4,5π/4}"
+    ],
+    "correctIndex": 0,
+    "explanation": "cos²θ−sin²θ=cos 2θ; cos 2θ=1 at θ=kπ, giving 0 and π."
+  },
+  {
+    "id": "TRI43-085-007",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Advanced",
+    "family": "avoid-division",
+    "prompt": "How many solutions of sin θ(2cos θ−1)=0 are on [0,2π)?",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Two solutions come from sin θ=0 and two from cos θ=1/2; do not divide away sin θ."
+  },
+  {
+    "id": "TRI43-085-008",
+    "subtopicId": "trig-equations-equations-using-identities",
+    "difficulty": "Advanced",
+    "family": "unit-range",
+    "prompt": "Solve sin²θ+cos²θ=2 on the real numbers.",
+    "options": [
+      "Every real θ",
+      "θ=kπ, k∈ℤ",
+      "No real solutions",
+      "θ=π/2+kπ, k∈ℤ"
+    ],
+    "correctIndex": 2,
+    "explanation": "The left side equals 1 identically, so it can never equal 2."
+  },
+  {
+    "id": "TRI43-086-001",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Basic",
+    "family": "multiple-angle",
+    "prompt": "Solve sin 2θ=1 on [0,2π).",
+    "options": [
+      "{π/2,3π/2}",
+      "{π/4,5π/4}",
+      "{π/4,3π/4}",
+      "{π/4}"
+    ],
+    "correctIndex": 1,
+    "explanation": "2θ=π/2+2kπ, hence θ=π/4+kπ. Two values are in [0,2π)."
+  },
+  {
+    "id": "TRI43-086-002",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Basic",
+    "family": "multiple-angle",
+    "prompt": "Solve cos 3θ=1 on [0,2π).",
+    "options": [
+      "{0,2π/3,4π/3}",
+      "{0,π}",
+      "{0,π/3,5π/3}",
+      "{0,2π/3,4π/3,2π}"
+    ],
+    "correctIndex": 0,
+    "explanation": "3θ=2kπ gives θ=2kπ/3 with k=0,1,2 in the stated interval."
+  },
+  {
+    "id": "TRI43-086-003",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Basic",
+    "family": "multiple-angle",
+    "prompt": "Give the general solution of sin 2θ=0.",
+    "options": [
+      "θ=kπ, k∈ℤ",
+      "θ=2kπ, k∈ℤ",
+      "θ=π/2+2kπ, k∈ℤ",
+      "θ=kπ/2, k∈ℤ"
+    ],
+    "correctIndex": 3,
+    "explanation": "sin 2θ=0 means 2θ=kπ for integer k. After dividing by 2, every solution is θ=kπ/2."
+  },
+  {
+    "id": "TRI43-086-004",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Intermediate",
+    "family": "multiple-angle",
+    "prompt": "Solve tan 2θ=0 on [0,2π).",
+    "options": [
+      "{0,π}",
+      "{π/4,3π/4,5π/4,7π/4}",
+      "{0,π/2,π,3π/2}",
+      "{0,π/2,π,3π/2,2π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan u=0 at integer multiples u=kπ; with u=2θ, θ=kπ/2. On [0,2π), k=0,1,2,3 are the allowed values."
+  },
+  {
+    "id": "TRI43-086-005",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Intermediate",
+    "family": "multiple-angle",
+    "prompt": "Solve cos 2θ=0 on [0,2π).",
+    "options": [
+      "{π/2,3π/2}",
+      "{π/4,3π/4,5π/4,7π/4}",
+      "{0,π/2,π,3π/2}",
+      "{π/4,5π/4}"
+    ],
+    "correctIndex": 1,
+    "explanation": "2θ=π/2+kπ gives θ=π/4+kπ/2; four solutions lie in the interval."
+  },
+  {
+    "id": "TRI43-086-006",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Intermediate",
+    "family": "multiple-angle",
+    "prompt": "How many solutions of sin 3θ=0 are in [0,2π)?",
+    "options": [
+      "6",
+      "3",
+      "4",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "3θ=kπ implies θ=kπ/3; k=0,1,2,3,4,5 give six values."
+  },
+  {
+    "id": "TRI43-086-007",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Advanced",
+    "family": "multiple-angle",
+    "prompt": "Solve cos 4θ=−1 on [0,2π).",
+    "options": [
+      "{0,π/2,π,3π/2}",
+      "{π/8,5π/8,9π/8,13π/8}",
+      "{π/4,5π/4}",
+      "{π/4,3π/4,5π/4,7π/4}"
+    ],
+    "correctIndex": 3,
+    "explanation": "4θ=π+2kπ, so θ=π/4+kπ/2 and four interval solutions occur."
+  },
+  {
+    "id": "TRI43-086-008",
+    "subtopicId": "trig-equations-multiple-angle-equations",
+    "difficulty": "Advanced",
+    "family": "multiple-angle",
+    "prompt": "How many solutions of tan 3θ=1 are in [0,2π)?",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "3θ=π/4+kπ yields θ=π/12+kπ/3; k=0 to 5 gives six angles."
+  },
+  {
+    "id": "TRI43-087-001",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Basic",
+    "family": "arcsin-equation",
+    "prompt": "Solve arcsin x=π/6 for real x.",
+    "options": [
+      "x=π/6",
+      "x=1/2",
+      "x=√3/2",
+      "No real solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "Apply sine to both sides; π/6 is inside the arcsin principal range, giving x=sin(π/6)=1/2."
+  },
+  {
+    "id": "TRI43-087-002",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Basic",
+    "family": "arccos-equation",
+    "prompt": "Solve arccos x=2π/3.",
+    "options": [
+      "x=−1/2",
+      "x=1/2",
+      "x=−√3/2",
+      "No real solution"
+    ],
+    "correctIndex": 0,
+    "explanation": "Apply cosine: x=cos(2π/3)=−1/2, in the input domain [−1,1]."
+  },
+  {
+    "id": "TRI43-087-003",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Basic",
+    "family": "arctan-equation",
+    "prompt": "Solve arctan(2x)=π/4.",
+    "options": [
+      "x=2",
+      "x=1",
+      "x=π/8",
+      "x=1/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "2x=tan(π/4)=1, so x=1/2; the output angle is in (−π/2,π/2)."
+  },
+  {
+    "id": "TRI43-087-004",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Intermediate",
+    "family": "arcsin-domain",
+    "prompt": "Solve arcsin x=π.",
+    "options": [
+      "x=0",
+      "x=−1",
+      "No real solution",
+      "x=1"
+    ],
+    "correctIndex": 2,
+    "explanation": "arcsin returns an angle only in [−π/2,π/2], so π is impossible."
+  },
+  {
+    "id": "TRI43-087-005",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Intermediate",
+    "family": "arctan-range",
+    "prompt": "Solve arctan x=π/2.",
+    "options": [
+      "x=0",
+      "No finite real solution",
+      "x=1",
+      "x approaches +∞ is itself an exact solution"
+    ],
+    "correctIndex": 1,
+    "explanation": "π/2 is an excluded endpoint of the arctangent range; no finite real input produces it."
+  },
+  {
+    "id": "TRI43-087-006",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Intermediate",
+    "family": "arcsin-scaled",
+    "prompt": "Solve arcsin(2x)=−π/6.",
+    "options": [
+      "x=−1/4",
+      "x=−1/2",
+      "x=1/4",
+      "x=−π/12"
+    ],
+    "correctIndex": 0,
+    "explanation": "2x=sin(−π/6)=−1/2, so x=−1/4; input −1/2 is valid."
+  },
+  {
+    "id": "TRI43-087-007",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Advanced",
+    "family": "principal-composition",
+    "prompt": "Evaluate arcsin(sin(5π/6)).",
+    "options": [
+      "5π/6",
+      "−π/6",
+      "π/2",
+      "π/6"
+    ],
+    "correctIndex": 3,
+    "explanation": "sin(5π/6)=1/2; the principal arcsin value is π/6, not 5π/6."
+  },
+  {
+    "id": "TRI43-087-008",
+    "subtopicId": "trig-equations-equations-involving-inverse-functions",
+    "difficulty": "Advanced",
+    "family": "principal-composition",
+    "prompt": "Evaluate arctan(tan(3π/4)).",
+    "options": [
+      "3π/4",
+      "π/4",
+      "−π/4",
+      "−3π/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan(3π/4)=−1 and the arctan principal result is −π/4."
+  },
+  {
+    "id": "TRI43-088-001",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Basic",
+    "family": "excluded-domain",
+    "prompt": "For sin θ/sin θ=1, which angles are excluded?",
+    "options": [
+      "θ=π/2+kπ, k∈ℤ",
+      "θ=kπ, k∈ℤ",
+      "No angles",
+      "Only θ=0"
+    ],
+    "correctIndex": 1,
+    "explanation": "The denominator sin θ is zero at every integer multiple of π, so those are undefined."
+  },
+  {
+    "id": "TRI43-088-002",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Basic",
+    "family": "cancellation-domain",
+    "prompt": "When simplifying (sin θ−1)/(sin θ−1), which angles must be excluded?",
+    "options": [
+      "θ=π/2+2kπ, k∈ℤ",
+      "θ=kπ, k∈ℤ",
+      "θ=3π/2+2kπ, k∈ℤ",
+      "No angles"
+    ],
+    "correctIndex": 0,
+    "explanation": "The original denominator is sin θ−1. It is zero at sin θ=1, or θ=π/2+2kπ; these angles are excluded even if the factor cancels."
+  },
+  {
+    "id": "TRI43-088-003",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Basic",
+    "family": "squaring-check",
+    "prompt": "Solve √(sin θ)=−1 for real θ.",
+    "options": [
+      "θ=π/2+2kπ, k∈ℤ",
+      "θ=3π/2+2kπ, k∈ℤ",
+      "Every real θ",
+      "No real solutions"
+    ],
+    "correctIndex": 3,
+    "explanation": "A real square root is nonnegative and cannot equal −1."
+  },
+  {
+    "id": "TRI43-088-004",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Intermediate",
+    "family": "rational-equation",
+    "prompt": "Solve (sin²θ−1)/(sin θ−1)=0 on [0,2π).",
+    "options": [
+      "{π/2,3π/2}",
+      "{π/2}",
+      "{3π/2}",
+      "{0,π}"
+    ],
+    "correctIndex": 2,
+    "explanation": "Exclude sin θ=1. Factor numerator, cancel on the domain, then sin θ=−1 gives 3π/2 only."
+  },
+  {
+    "id": "TRI43-088-005",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Intermediate",
+    "family": "zero-denominator",
+    "prompt": "Solve sin θ/sin θ=0 for real θ.",
+    "options": [
+      "θ=kπ, k∈ℤ",
+      "No real solutions",
+      "Every real θ except kπ",
+      "θ=π/2+kπ, k∈ℤ"
+    ],
+    "correctIndex": 1,
+    "explanation": "The quotient is identically 1 wherever it is defined, and undefined at sin θ=0."
+  },
+  {
+    "id": "TRI43-088-006",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Intermediate",
+    "family": "domain-cancel",
+    "prompt": "Solve sin²θ/sin θ=0 for real θ.",
+    "options": [
+      "No real solutions",
+      "θ=kπ, k∈ℤ",
+      "θ=π/2+kπ, k∈ℤ",
+      "Every real θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cancellation yields sin θ only on the domain sin θ≠0; the zeros of sine are excluded."
+  },
+  {
+    "id": "TRI43-088-007",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Advanced",
+    "family": "false-roots",
+    "prompt": "If √(1+sin θ)=−1 is squared, what is the correct conclusion?",
+    "options": [
+      "θ=3π/2 is valid",
+      "Every θ is valid",
+      "θ=π/2 is valid",
+      "No real solutions to the original equation"
+    ],
+    "correctIndex": 3,
+    "explanation": "Squaring produces 1+sin θ=1 and candidates sin θ=0, but the original left side cannot be negative."
+  },
+  {
+    "id": "TRI43-088-008",
+    "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+    "difficulty": "Advanced",
+    "family": "domain-rational",
+    "prompt": "Solve (1−cos²θ)/sin θ=0 for real θ.",
+    "options": [
+      "θ=kπ, k∈ℤ",
+      "θ=π/2+kπ, k∈ℤ",
+      "No real solutions",
+      "Every real θ except kπ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Numerator equals sin² θ, but the denominator requires sin θ≠0. On this domain the quotient equals nonzero sin θ."
+  }
+]

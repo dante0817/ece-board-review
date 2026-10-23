@@ -1,0 +1,962 @@
+[
+  {
+    "id": "TRI41-061-001",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Basic",
+    "family": "sine-sum",
+    "prompt": "Which expands sin(A+B)?",
+    "options": [
+      "sinA cosB + cosA sinB",
+      "sinA + sinB",
+      "sinA cosB − cosA sinB",
+      "cosA cosB − sinA sinB"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the sine angle-sum identity: sin(A+B)=sinA cosB+cosA sinB."
+  },
+  {
+    "id": "TRI41-061-002",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Basic",
+    "family": "cos-difference",
+    "prompt": "Which expression equals cos(A−B)?",
+    "options": [
+      "cosA cosB − sinA sinB",
+      "cosA sinB + sinA cosB",
+      "sinA cosB − cosA sinB",
+      "cosA cosB + sinA sinB"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cosine difference uses the PLUS between cosA cosB and sinA sinB."
+  },
+  {
+    "id": "TRI41-061-003",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Basic",
+    "family": "sin75",
+    "prompt": "Evaluate sin 75° exactly.",
+    "options": [
+      "(√6−√2)/4",
+      "√3/2",
+      "(√6+√2)/4",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "sin(45°+30°)=(√2/2)(√3/2)+(√2/2)(1/2)=(√6+√2)/4. The plus/minus sign must follow the selected sum or difference formula."
+  },
+  {
+    "id": "TRI41-061-004",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos15",
+    "prompt": "Find cos 15° exactly.",
+    "options": [
+      "(√6−√2)/4",
+      "(√6+√2)/4",
+      "√2/2",
+      "(√3−1)/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "cos(45°−30°)=cos45°cos30°+sin45°sin30°=(√6+√2)/4. The plus/minus sign must follow the selected sum or difference formula."
+  },
+  {
+    "id": "TRI41-061-005",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin15",
+    "prompt": "Find sin 15° exactly.",
+    "options": [
+      "(√6−√2)/4",
+      "(√6+√2)/4",
+      "√3/2",
+      "−1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "sin(45°−30°)=sin45°cos30°−cos45°sin30°=(√6−√2)/4. The plus/minus sign must follow the selected sum or difference formula."
+  },
+  {
+    "id": "TRI41-061-006",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos105",
+    "prompt": "Find cos 105° exactly.",
+    "options": [
+      "(√6−√2)/4",
+      "(√6+√2)/4",
+      "1/2",
+      "(√2−√6)/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos(60°+45°)=(1/2)(√2/2)−(√3/2)(√2/2)=(√2−√6)/4. The plus/minus sign must follow the selected sum or difference formula."
+  },
+  {
+    "id": "TRI41-061-007",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Advanced",
+    "family": "tan75",
+    "prompt": "Find tan 75° exactly.",
+    "options": [
+      "2−√3",
+      "√3−1",
+      "2+√3",
+      "1+√3"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan(45°+30°)=(1+1/√3)/(1−1/√3)=2+√3. The plus/minus sign must follow the selected sum or difference formula."
+  },
+  {
+    "id": "TRI41-061-008",
+    "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+    "difficulty": "Advanced",
+    "family": "sin90identity",
+    "prompt": "Simplify sin(90°−x).",
+    "options": [
+      "sin x",
+      "cos x",
+      "−cos x",
+      "tan x"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sine difference gives sin90°cosx−cos90°sinx=cosx. The plus/minus sign must follow the selected sum or difference formula."
+  },
+  {
+    "id": "TRI41-062-001",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Basic",
+    "family": "sin-double",
+    "prompt": "Complete sin2θ = ?",
+    "options": [
+      "2sinθ",
+      "2sinθ cosθ",
+      "sin²θ",
+      "cos²θ−sin²θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "Set A=B=θ in sin(A+B). These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-002",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Basic",
+    "family": "cos-double",
+    "prompt": "Complete cos2θ = ?",
+    "options": [
+      "cos²θ − sin²θ",
+      "cos²θ + sin²θ",
+      "2cosθ",
+      "2sinθ cosθ"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cosine double-angle identity is cos²θ−sin²θ. These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-003",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Basic",
+    "family": "sin60",
+    "prompt": "Find sin(2×30°).",
+    "options": [
+      "1/2",
+      "1",
+      "√2/2",
+      "√3/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "2sin30°cos30°=2(1/2)(√3/2)=√3/2. These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-004",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos120",
+    "prompt": "Find cos(2×60°).",
+    "options": [
+      "1/2",
+      "−√3/2",
+      "−1/2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "2cos²60°−1=2(1/4)−1=−1/2. These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-005",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin-from-ratios",
+    "prompt": "If sinθ=3/5 and θ is acute, find sin2θ.",
+    "options": [
+      "7/25",
+      "24/25",
+      "12/25",
+      "3/5"
+    ],
+    "correctIndex": 1,
+    "explanation": "cosθ=4/5, so sin2θ=2(3/5)(4/5)=24/25. These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-006",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos-from-cos",
+    "prompt": "If cosθ=−3/5, find cos2θ.",
+    "options": [
+      "−7/25",
+      "7/25",
+      "−24/25",
+      "9/25"
+    ],
+    "correctIndex": 0,
+    "explanation": "cos2θ=2cos²θ−1=2(9/25)−1=−7/25. These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-007",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Advanced",
+    "family": "tangent-double",
+    "prompt": "If tanθ=1/2, find tan2θ.",
+    "options": [
+      "1",
+      "2/3",
+      "−4/3",
+      "4/3"
+    ],
+    "correctIndex": 3,
+    "explanation": "tan2θ=(2(1/2))/(1−(1/2)²)=1/(3/4)=4/3. These double-angle results follow from the addition identities with equal arguments."
+  },
+  {
+    "id": "TRI41-062-008",
+    "subtopicId": "trig-advanced-identities-double-angle-formulas",
+    "difficulty": "Advanced",
+    "family": "cos-identity",
+    "prompt": "Which equals 1−2sin²θ?",
+    "options": [
+      "sin(2θ)",
+      "cos²θ",
+      "cos(2θ)",
+      "1+tan²θ"
+    ],
+    "correctIndex": 2,
+    "explanation": "One of the three cosine double-angle forms is 1−2sin²θ."
+  },
+  {
+    "id": "TRI41-063-001",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Basic",
+    "family": "sin-half",
+    "prompt": "Which equals sin²(θ/2)?",
+    "options": [
+      "(1+cosθ)/2",
+      "1−sinθ",
+      "(1−cosθ)/2",
+      "cosθ/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Square the half-angle sine formula to remove its sign. Check the quadrant of the half-angle before choosing the square-root sign."
+  },
+  {
+    "id": "TRI41-063-002",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Basic",
+    "family": "cos-half",
+    "prompt": "Which equals cos²(θ/2)?",
+    "options": [
+      "(1−cosθ)/2",
+      "(1+cosθ)/2",
+      "1+sinθ",
+      "cos²θ/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cosine half-angle square formula is (1+cosθ)/2. Check the quadrant of the half-angle before choosing the square-root sign."
+  },
+  {
+    "id": "TRI41-063-003",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Basic",
+    "family": "tan225",
+    "prompt": "Find tan22.5° exactly.",
+    "options": [
+      "√2−1",
+      "√2+1",
+      "1−√2",
+      "1/√2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use (1−cos45°)/sin45°=√2−1. Check the quadrant of the half-angle before choosing the square-root sign."
+  },
+  {
+    "id": "TRI41-063-004",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin-half-sign",
+    "prompt": "If 180°<θ<360°, what is the sign of sin(θ/2)?",
+    "options": [
+      "Negative",
+      "Always zero",
+      "Undefined",
+      "Positive"
+    ],
+    "correctIndex": 3,
+    "explanation": "Then 90°<θ/2<180°, and sine is positive in quadrant II."
+  },
+  {
+    "id": "TRI41-063-005",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos-half-sign",
+    "prompt": "If 180°<θ<360°, what is the sign of cos(θ/2)?",
+    "options": [
+      "Positive",
+      "Always zero",
+      "Negative",
+      "Undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "Then θ/2 is in quadrant II, where cosine is negative. Check the quadrant of the half-angle before choosing the square-root sign."
+  },
+  {
+    "id": "TRI41-063-006",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin15",
+    "prompt": "Find sin15° exactly using a half-angle formula.",
+    "options": [
+      "(√6+√2)/4",
+      "(√6−√2)/4",
+      "(√3+1)/2",
+      "−1/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "sin15°=+√((1−cos30°)/2)=(√6−√2)/4. Check the quadrant of the half-angle before choosing the square-root sign."
+  },
+  {
+    "id": "TRI41-063-007",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Advanced",
+    "family": "cos-half-value",
+    "prompt": "If cosθ=−3/5 and θ/2 lies in quadrant II, find cos(θ/2).",
+    "options": [
+      "−√5/5",
+      "√5/5",
+      "−2√5/5",
+      "2/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "cos(θ/2)=−√((1−3/5)/2)=−√(1/5)=−√5/5. Check the quadrant of the half-angle before choosing the square-root sign."
+  },
+  {
+    "id": "TRI41-063-008",
+    "subtopicId": "trig-advanced-identities-half-angle-formulas",
+    "difficulty": "Advanced",
+    "family": "tan-half-domain",
+    "prompt": "For tan(θ/2) = sinθ/(1+cosθ), what must hold?",
+    "options": [
+      "sinθ ≠ 0 only",
+      "cosθ ≠ 0 only",
+      "No restrictions",
+      "1+cosθ ≠ 0"
+    ],
+    "correctIndex": 3,
+    "explanation": "The displayed quotient is defined only when 1+cosθ is nonzero; this form remains valid when sinθ=0 and cosθ=1."
+  },
+  {
+    "id": "TRI41-064-001",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Basic",
+    "family": "sin3-formula",
+    "prompt": "Which equals sin3θ?",
+    "options": [
+      "3sinθ",
+      "4sin³θ − 3sinθ",
+      "3cosθ − 4cos³θ",
+      "3sinθ − 4sin³θ"
+    ],
+    "correctIndex": 3,
+    "explanation": "The sine triple-angle identity is 3sinθ−4sin³θ. A triple angle uses the cubic formula; it is not three times the original function."
+  },
+  {
+    "id": "TRI41-064-002",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Basic",
+    "family": "cos3-formula",
+    "prompt": "Which equals cos3θ?",
+    "options": [
+      "3cosθ − 4cos³θ",
+      "4sin³θ − 3sinθ",
+      "4cos³θ − 3cosθ",
+      "3cosθ"
+    ],
+    "correctIndex": 2,
+    "explanation": "The cosine triple-angle identity is 4cos³θ−3cosθ. A triple angle uses the cubic formula; it is not three times the original function."
+  },
+  {
+    "id": "TRI41-064-003",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Basic",
+    "family": "sin90",
+    "prompt": "Calculate sin(3×30°).",
+    "options": [
+      "1/2",
+      "1",
+      "0",
+      "−1"
+    ],
+    "correctIndex": 1,
+    "explanation": "3sin30°−4sin³30°=3/2−4/8=1. A triple angle uses the cubic formula; it is not three times the original function."
+  },
+  {
+    "id": "TRI41-064-004",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos180",
+    "prompt": "Calculate cos(3×60°).",
+    "options": [
+      "−1",
+      "1",
+      "0",
+      "−1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "4(1/2)³−3(1/2)=1/2−3/2=−1. A triple angle uses the cubic formula; it is not three times the original function."
+  },
+  {
+    "id": "TRI41-064-005",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin3-value",
+    "prompt": "If sinθ=−1/2, compute sin3θ.",
+    "options": [
+      "1",
+      "−1/2",
+      "0",
+      "−1"
+    ],
+    "correctIndex": 3,
+    "explanation": "3(−1/2)−4(−1/8)=−3/2+1/2=−1. A triple angle uses the cubic formula; it is not three times the original function."
+  },
+  {
+    "id": "TRI41-064-006",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos3-value",
+    "prompt": "If cosθ=−1/2, compute cos3θ.",
+    "options": [
+      "−1",
+      "0",
+      "1",
+      "1/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "4(−1/8)−3(−1/2)=−1/2+3/2=1. A triple angle uses the cubic formula; it is not three times the original function."
+  },
+  {
+    "id": "TRI41-064-007",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Advanced",
+    "family": "sin3-zero",
+    "prompt": "Which equation is equivalent to sin3θ = 0?",
+    "options": [
+      "sinθ = 0 only",
+      "sinθ(3−4sin²θ) = 0",
+      "3sinθ = 0",
+      "sinθ(3+4sin²θ)=0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factor sin3θ=3sinθ−4sin³θ=sinθ(3−4sin²θ); the second factor can also vanish."
+  },
+  {
+    "id": "TRI41-064-008",
+    "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+    "difficulty": "Advanced",
+    "family": "cos3-zero",
+    "prompt": "What does cos3θ=0 imply when cosθ≠0?",
+    "options": [
+      "cos²θ=3/4",
+      "cos²θ=1/4",
+      "cosθ=0 necessarily",
+      "cos²θ=3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factor 4cos³θ−3cosθ=cosθ(4cos²θ−3). If cosθ≠0, solve 4cos²θ−3=0."
+  },
+  {
+    "id": "TRI41-065-001",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Basic",
+    "family": "sin-square",
+    "prompt": "Reduce sin²θ.",
+    "options": [
+      "(1−cos2θ)/2",
+      "(1+cos2θ)/2",
+      "(1−sin2θ)/2",
+      "1−cos²2θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rearrange cos2θ=1−2sin²θ. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-002",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Basic",
+    "family": "cos-square",
+    "prompt": "Reduce cos²θ.",
+    "options": [
+      "(1−cos2θ)/2",
+      "sin2θ/2",
+      "1−sin2θ",
+      "(1+cos2θ)/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rearrange cos2θ=2cos²θ−1. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-003",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Basic",
+    "family": "sin-cos-product",
+    "prompt": "Rewrite sinθ cosθ.",
+    "options": [
+      "2sin2θ",
+      "cos2θ/2",
+      "sin2θ/2",
+      "sin²θ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use sin2θ=2sinθcosθ. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-004",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin2-30",
+    "prompt": "Compute sin²30° with the power-reduction formula.",
+    "options": [
+      "3/4",
+      "1/4",
+      "1/2",
+      "√3/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "(1−cos60°)/2=(1−1/2)/2=1/4. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-005",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos2-30",
+    "prompt": "Compute cos²30° with the power-reduction formula.",
+    "options": [
+      "3/4",
+      "1/4",
+      "1/2",
+      "√3/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "(1+cos60°)/2=(1+1/2)/2=3/4. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-006",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos2x-minus-sin2x",
+    "prompt": "Simplify cos²θ − sin²θ.",
+    "options": [
+      "sin2θ",
+      "1",
+      "2cosθ",
+      "cos2θ"
+    ],
+    "correctIndex": 3,
+    "explanation": "This difference is the cosine double-angle identity. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-007",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Advanced",
+    "family": "sin-fourth",
+    "prompt": "Reduce sin⁴θ to cosine terms.",
+    "options": [
+      "(3+4cos2θ+cos4θ)/8",
+      "(1−cos4θ)/2",
+      "(3−4cos2θ+cos4θ)/8",
+      "(3−cos4θ)/8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Square sin²θ=(1−cos2θ)/2 and use cos²2θ=(1+cos4θ)/2. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-065-008",
+    "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+    "difficulty": "Advanced",
+    "family": "cos-fourth",
+    "prompt": "Reduce cos⁴θ to cosine terms.",
+    "options": [
+      "(3−4cos2θ+cos4θ)/8",
+      "(3+4cos2θ+cos4θ)/8",
+      "(1+cos4θ)/2",
+      "(3+cos4θ)/8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Square cos²θ=(1+cos2θ)/2 then reduce cos²2θ. This power-reduction step comes from rearranging the cosine double-angle identity."
+  },
+  {
+    "id": "TRI41-066-001",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Basic",
+    "family": "sin-cos-product",
+    "prompt": "Rewrite 2sinA cosB.",
+    "options": [
+      "sin(A+B)−sin(A−B)",
+      "sin(A+B)+sin(A−B)",
+      "cos(A+B)+cos(A−B)",
+      "cos(A−B)−cos(A+B)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the sine-cosine product-to-sum identity. The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-066-002",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Basic",
+    "family": "cos-cos-product",
+    "prompt": "Rewrite 2cosA cosB.",
+    "options": [
+      "cos(A+B)+cos(A−B)",
+      "sin(A+B)+sin(A−B)",
+      "cos(A+B)−cos(A−B)",
+      "sin(A−B)−sin(A+B)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine-times-cosine yields the sum of two cosines. The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-066-003",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Basic",
+    "family": "sin-sin-product",
+    "prompt": "Rewrite 2sinA sinB.",
+    "options": [
+      "cos(A−B)+cos(A+B)",
+      "cos(A+B)−cos(A−B)",
+      "sin(A+B)+sin(A−B)",
+      "cos(A−B)−cos(A+B)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The sine product equals cosine difference minus cosine sum."
+  },
+  {
+    "id": "TRI41-066-004",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin3-cos1",
+    "prompt": "Simplify 2sin3x cosx.",
+    "options": [
+      "sin4x−sin2x",
+      "cos4x+cos2x",
+      "sin4x+sin2x",
+      "sin3x+cosx"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use A=3x and B=x in 2sinAcosB. The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-066-005",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos4-cos1",
+    "prompt": "Simplify 2cos4x cosx.",
+    "options": [
+      "cos5x−cos3x",
+      "cos5x+cos3x",
+      "sin5x+sin3x",
+      "cos4x+cosx"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use cos(A+B)+cos(A−B) with 4x and x. The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-066-006",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin5-sin2",
+    "prompt": "Simplify 2sin5x sin2x.",
+    "options": [
+      "cos3x−cos7x",
+      "cos7x−cos3x",
+      "cos3x+cos7x",
+      "sin7x−sin3x"
+    ],
+    "correctIndex": 0,
+    "explanation": "2sin5x sin2x=cos(5x−2x)−cos(5x+2x). The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-066-007",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Advanced",
+    "family": "product-half",
+    "prompt": "Express sinx cos2x as a sum.",
+    "options": [
+      "(sin3x+sinx)/2",
+      "sin3x−sinx",
+      "(cos3x+cosx)/2",
+      "(sin3x−sinx)/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "2sinx cos2x=sin3x+sin(−x)=sin3x−sinx; divide by 2. The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-066-008",
+    "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+    "difficulty": "Advanced",
+    "family": "cos-prod-half",
+    "prompt": "Express cos3x cosx as a sum.",
+    "options": [
+      "cos4x+cos2x",
+      "(cos4x−cos2x)/2",
+      "(cos4x+cos2x)/2",
+      "(sin4x+sin2x)/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "2cos3x cosx=cos4x+cos2x, so divide by 2. The output angles are the sum and difference of the input angles."
+  },
+  {
+    "id": "TRI41-067-001",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Basic",
+    "family": "sin-plus",
+    "prompt": "Which is sinA+sinB in product form?",
+    "options": [
+      "2cos((A+B)/2)sin((A−B)/2)",
+      "2cos((A+B)/2)cos((A−B)/2)",
+      "2sin((A+B)/2)cos((A−B)/2)",
+      "−2sin((A+B)/2)sin((A−B)/2)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the average and half-difference arguments. Use the mean and half-difference of the two original angles as arguments."
+  },
+  {
+    "id": "TRI41-067-002",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Basic",
+    "family": "cos-plus",
+    "prompt": "Which is cosA+cosB in product form?",
+    "options": [
+      "2sin((A+B)/2)cos((A−B)/2)",
+      "2cos((A+B)/2)cos((A−B)/2)",
+      "−2sin((A+B)/2)sin((A−B)/2)",
+      "2cos((A+B)/2)sin((A−B)/2)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cosine sum factors into twice two cosine factors. Use the mean and half-difference of the two original angles as arguments."
+  },
+  {
+    "id": "TRI41-067-003",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Basic",
+    "family": "cos-minus-sign",
+    "prompt": "What is the leading sign of the cosA−cosB sum-to-product formula?",
+    "options": [
+      "Negative",
+      "Positive",
+      "Depends only on degrees",
+      "Always zero"
+    ],
+    "correctIndex": 0,
+    "explanation": "cosA−cosB=−2sin((A+B)/2)sin((A−B)/2). Use the mean and half-difference of the two original angles as arguments."
+  },
+  {
+    "id": "TRI41-067-004",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin5-plus3",
+    "prompt": "Factor sin5x+sin3x.",
+    "options": [
+      "2cos4x sinx",
+      "2sin4x sinx",
+      "2cos4x cosx",
+      "2sin4x cosx"
+    ],
+    "correctIndex": 3,
+    "explanation": "Average=4x; half-difference=x. Use the mean and half-difference of the two original angles as arguments."
+  },
+  {
+    "id": "TRI41-067-005",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Intermediate",
+    "family": "sin5-minus3",
+    "prompt": "Factor sin5x−sin3x.",
+    "options": [
+      "2sin4x cosx",
+      "2cos4x cosx",
+      "2cos4x sinx",
+      "−2sin4x sinx"
+    ],
+    "correctIndex": 2,
+    "explanation": "For sine difference, the mean-angle factor is cosine, half-difference factor is sine."
+  },
+  {
+    "id": "TRI41-067-006",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Intermediate",
+    "family": "cos5-minus1",
+    "prompt": "Factor cos5x−cosx.",
+    "options": [
+      "2sin3x sin2x",
+      "−2sin3x sin2x",
+      "2cos3x cos2x",
+      "−2sin2x cos3x"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cosine difference formula produces −2sin((5x+x)/2)sin((5x−x)/2)."
+  },
+  {
+    "id": "TRI41-067-007",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Advanced",
+    "family": "cos3-plus1",
+    "prompt": "Factor cos3x+cosx.",
+    "options": [
+      "2cos2x cosx",
+      "2sin2x cosx",
+      "−2sin2x sinx",
+      "2cos3x cosx"
+    ],
+    "correctIndex": 0,
+    "explanation": "Average=2x and half-difference=x; use cosine sum. Use the mean and half-difference of the two original angles as arguments."
+  },
+  {
+    "id": "TRI41-067-008",
+    "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+    "difficulty": "Advanced",
+    "family": "sin7-plus1",
+    "prompt": "Factor sin7x+sinx.",
+    "options": [
+      "2cos4x sin3x",
+      "2sin3x cos4x",
+      "−2sin4x cos3x",
+      "2sin4x cos3x"
+    ],
+    "correctIndex": 3,
+    "explanation": "(7x+x)/2=4x; (7x−x)/2=3x. Use the mean and half-difference of the two original angles as arguments."
+  },
+  {
+    "id": "TRI41-068-001",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Basic",
+    "family": "sin2-denom",
+    "prompt": "Simplify 1+cos2θ.",
+    "options": [
+      "2sin²θ",
+      "sin2θ",
+      "cos²θ",
+      "2cos²θ"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos2θ=2cos²θ−1; add one to obtain 2cos²θ. Preserve the original denominator restrictions when cancelling factors."
+  },
+  {
+    "id": "TRI41-068-002",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Basic",
+    "family": "sin2-quot",
+    "prompt": "Where cosθ ≠ 0, simplify sin2θ/(1+cos2θ).",
+    "options": [
+      "cotθ",
+      "sinθ",
+      "tanθ",
+      "secθ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use 2sinθcosθ / (2cos²θ) = tanθ with cosθ≠0. Preserve the original denominator restrictions when cancelling factors."
+  },
+  {
+    "id": "TRI41-068-003",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Basic",
+    "family": "one-minus-cos",
+    "prompt": "Simplify 1−cos2θ.",
+    "options": [
+      "2cos²θ",
+      "2sin²θ",
+      "sin²θ",
+      "cos2θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "From cos2θ=1−2sin²θ. Preserve the original denominator restrictions when cancelling factors."
+  },
+  {
+    "id": "TRI41-068-004",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Intermediate",
+    "family": "sin4-sin2",
+    "prompt": "Simplify sin4x + sin2x.",
+    "options": [
+      "2sin3x cosx",
+      "2cos3x sinx",
+      "2sin3x sinx",
+      "sin6x"
+    ],
+    "correctIndex": 0,
+    "explanation": "By sum-to-product with average 3x and half-difference x."
+  },
+  {
+    "id": "TRI41-068-005",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Intermediate",
+    "family": "sin2-over-one-minus",
+    "prompt": "Simplify sin2θ/(1−cos2θ) on its original domain.",
+    "options": [
+      "tanθ, where cosθ ≠ 0",
+      "cotθ, for all real θ",
+      "secθ",
+      "cotθ, where sinθ ≠ 0"
+    ],
+    "correctIndex": 3,
+    "explanation": "2sinθcosθ / (2sin²θ)=cotθ where sinθ≠0. Preserve the original denominator restrictions when cancelling factors."
+  },
+  {
+    "id": "TRI41-068-006",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Intermediate",
+    "family": "tan-sign",
+    "prompt": "Evaluate (1−cos60°)/sin60°.",
+    "options": [
+      "√3",
+      "1/2",
+      "√3/3",
+      "2√3/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "(1−1/2)/(√3/2)=1/√3=√3/3. Preserve the original denominator restrictions when cancelling factors."
+  },
+  {
+    "id": "TRI41-068-007",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Advanced",
+    "family": "combined-double",
+    "prompt": "Simplify (1−cos2θ)/sin2θ, retaining its domain.",
+    "options": [
+      "tanθ, for all real θ",
+      "tanθ, where sinθ cosθ ≠ 0",
+      "cotθ, where sinθ ≠ 0",
+      "secθ, where cosθ ≠ 0"
+    ],
+    "correctIndex": 1,
+    "explanation": "2sin²θ/(2sinθcosθ)=tanθ; original sin2θ ≠0 requires both sinθ and cosθ nonzero."
+  },
+  {
+    "id": "TRI41-068-008",
+    "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+    "difficulty": "Advanced",
+    "family": "cos4-minus",
+    "prompt": "Simplify cos4x − cos2x.",
+    "options": [
+      "−2sin3x sinx",
+      "2sin3x sinx",
+      "2cos3x cosx",
+      "−2sin2x sinx"
+    ],
+    "correctIndex": 0,
+    "explanation": "Use the cosine-difference sum-to-product rule with average 3x and half-difference x."
+  }
+]

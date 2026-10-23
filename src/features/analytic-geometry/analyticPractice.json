@@ -1,0 +1,1438 @@
+[
+  {
+    "id": "AG-Q079-01",
+    "topic_id": "GEO-079",
+    "title": "Cartesian coordinate system and quadrants",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "The point P=(-5,7) is reflected in the y-axis. What is the new x-coordinate?",
+    "unit": "",
+    "rule": "reflect_x",
+    "params": [
+      -5
+    ],
+    "expected": 5,
+    "options": [
+      3,
+      8,
+      12,
+      5
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A reflection in the y-axis reverses the sign of x and leaves y unchanged.",
+      "x' = -(-5) = 5."
+    ],
+    "restriction": "Axis points have no quadrant.",
+    "formulaId": "AG-F079"
+  },
+  {
+    "id": "AG-Q079-02",
+    "topic_id": "GEO-079",
+    "title": "Cartesian coordinate system and quadrants",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which quadrant contains a point with x<0 and y>0?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Quadrant II",
+      "Quadrant I",
+      "Quadrant III",
+      "No quadrant"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Quadrant II contains negative x-coordinates and positive y-coordinates."
+    ],
+    "restriction": "Axis points have no quadrant.",
+    "formulaId": "AG-F079"
+  },
+  {
+    "id": "AG-Q080-01",
+    "topic_id": "GEO-080",
+    "title": "Distance and midpoint in 2D",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the distance between (1,2) and (4,6).",
+    "unit": "units",
+    "rule": "distance2",
+    "params": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "expected": 5,
+    "options": [
+      5,
+      3,
+      8,
+      12
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Δx=4−1=3 and Δy=6−2=4.",
+      "d=√(3²+4²)=5."
+    ],
+    "restriction": "Use the same coordinate units on both axes.",
+    "formulaId": "AG-F080"
+  },
+  {
+    "id": "AG-Q080-02",
+    "topic_id": "GEO-080",
+    "title": "Distance and midpoint in 2D",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which point is the midpoint of (2,4) and (8,10)?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "(6,14)",
+      "(5,7)",
+      "(3,3)",
+      "(10,14)"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Average the x-coordinates and the y-coordinates separately."
+    ],
+    "restriction": "Use the same coordinate units on both axes.",
+    "formulaId": "AG-F080"
+  },
+  {
+    "id": "AG-Q081-01",
+    "topic_id": "GEO-081",
+    "title": "Section formula and division of a segment",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A point P divides A=(0,0) to B=(10,5) internally in ratio AP:PB=2:3. Find the x-coordinate of P.",
+    "unit": "",
+    "rule": "section_x",
+    "params": [
+      0,
+      10,
+      2,
+      3
+    ],
+    "expected": 4,
+    "options": [
+      2,
+      4,
+      7,
+      11
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Because AP:PB=2:3, x=(3·0+2·10)/(2+3).",
+      "x=4."
+    ],
+    "restriction": "The ratio must be directed correctly; external division uses a different formula.",
+    "formulaId": "AG-F081"
+  },
+  {
+    "id": "AG-Q081-02",
+    "topic_id": "GEO-081",
+    "title": "Section formula and division of a segment",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "For AP:PB=1:1, where is P?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Beyond B",
+      "At A",
+      "At the midpoint",
+      "At infinity"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Equal internal ratios locate the midpoint."
+    ],
+    "restriction": "The ratio must be directed correctly; external division uses a different formula.",
+    "formulaId": "AG-F081"
+  },
+  {
+    "id": "AG-Q082-01",
+    "topic_id": "GEO-082",
+    "title": "Slope and inclination of a line",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the slope through (2,1) and (8,7).",
+    "unit": "",
+    "rule": "slope",
+    "params": [
+      2,
+      1,
+      8,
+      7
+    ],
+    "expected": 1,
+    "options": [
+      -1,
+      4,
+      1,
+      8
+    ],
+    "correctIndex": 2,
+    "work": [
+      "m=(7−1)/(8−2)=6/6.",
+      "m=1."
+    ],
+    "restriction": "Vertical lines have undefined slope, not slope zero.",
+    "formulaId": "AG-F082"
+  },
+  {
+    "id": "AG-Q082-02",
+    "topic_id": "GEO-082",
+    "title": "Slope and inclination of a line",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the slope of x=4?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Zero",
+      "Four",
+      "Negative four",
+      "Undefined"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "A vertical line has no finite run, so rise/run is undefined."
+    ],
+    "restriction": "Vertical lines have undefined slope, not slope zero.",
+    "formulaId": "AG-F082"
+  },
+  {
+    "id": "AG-Q083-01",
+    "topic_id": "GEO-083",
+    "title": "Parallel and perpendicular slopes",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A line has slope −2. Find the slope of a perpendicular line.",
+    "unit": "",
+    "rule": "perp_slope",
+    "params": [
+      -2
+    ],
+    "expected": 0.5,
+    "options": [
+      -1.5,
+      3.5,
+      7.5,
+      0.5
+    ],
+    "correctIndex": 3,
+    "work": [
+      "m₂=−1/m₁.",
+      "m₂=−1/(−2)=0.5."
+    ],
+    "restriction": "Do not use negative-reciprocal arithmetic for a zero or undefined slope.",
+    "formulaId": "AG-F083"
+  },
+  {
+    "id": "AG-Q083-02",
+    "topic_id": "GEO-083",
+    "title": "Parallel and perpendicular slopes",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which line is perpendicular to a horizontal line?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "A vertical line",
+      "Another horizontal line",
+      "Every slanted line",
+      "No line"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Horizontal and vertical directions are perpendicular."
+    ],
+    "restriction": "Do not use negative-reciprocal arithmetic for a zero or undefined slope.",
+    "formulaId": "AG-F083"
+  },
+  {
+    "id": "AG-Q084-01",
+    "topic_id": "GEO-084",
+    "title": "Point-slope and slope-intercept line equations",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A line through (1,2) has slope 3. Find y when x=3.",
+    "unit": "",
+    "rule": "point_slope_y",
+    "params": [
+      1,
+      2,
+      3,
+      3
+    ],
+    "expected": 8,
+    "options": [
+      8,
+      6,
+      11,
+      15
+    ],
+    "correctIndex": 0,
+    "work": [
+      "y−2=3(x−1).",
+      "At x=3, y=2+3(2)=8."
+    ],
+    "restriction": "Point–slope form with a finite m does not represent a vertical line.",
+    "formulaId": "AG-F084"
+  },
+  {
+    "id": "AG-Q084-02",
+    "topic_id": "GEO-084",
+    "title": "Point-slope and slope-intercept line equations",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which form exposes the y-intercept b directly?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Ax+By+C=0 only",
+      "y=mx+b",
+      "x=a",
+      "y−y₁=m(x−x₁) only"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The constant b is the y-intercept in slope–intercept form."
+    ],
+    "restriction": "Point–slope form with a finite m does not represent a vertical line.",
+    "formulaId": "AG-F084"
+  },
+  {
+    "id": "AG-Q085-01",
+    "topic_id": "GEO-085",
+    "title": "Two-point and general line equations",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For the line 2x+3y=12, find y when x=3.",
+    "unit": "",
+    "rule": "general_y",
+    "params": [
+      2,
+      3,
+      12,
+      3
+    ],
+    "expected": 2,
+    "options": [
+      0,
+      2,
+      5,
+      9
+    ],
+    "correctIndex": 1,
+    "work": [
+      "2(3)+3y=12.",
+      "3y=6, hence y=2."
+    ],
+    "restriction": "Two identical points do not determine a unique line.",
+    "formulaId": "AG-F085"
+  },
+  {
+    "id": "AG-Q085-02",
+    "topic_id": "GEO-085",
+    "title": "Two-point and general line equations",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which line equation represents a vertical line?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "y=5",
+      "y=x+5",
+      "x=5",
+      "y=5x"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A vertical line fixes x, not y."
+    ],
+    "restriction": "Two identical points do not determine a unique line.",
+    "formulaId": "AG-F085"
+  },
+  {
+    "id": "AG-Q086-01",
+    "topic_id": "GEO-086",
+    "title": "Distance from a point to a line",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the distance from (3,4) to the line 3x+4y−20=0.",
+    "unit": "units",
+    "rule": "point_line_distance",
+    "params": [
+      3,
+      4,
+      3,
+      4,
+      -20
+    ],
+    "expected": 1,
+    "options": [
+      -1,
+      4,
+      1,
+      8
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Numerator = |3(3)+4(4)−20|=5.",
+      "Denominator √(3²+4²)=5, so d=1."
+    ],
+    "restriction": "The line coefficients A and B must not both be zero.",
+    "formulaId": "AG-F086"
+  },
+  {
+    "id": "AG-Q086-02",
+    "topic_id": "GEO-086",
+    "title": "Distance from a point to a line",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why is there an absolute value in the numerator?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "The line is vertical",
+      "The slope is always positive",
+      "The normal has length one",
+      "Distance is nonnegative"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Signed substitution can be negative but geometric distance cannot."
+    ],
+    "restriction": "The line coefficients A and B must not both be zero.",
+    "formulaId": "AG-F086"
+  },
+  {
+    "id": "AG-Q087-01",
+    "topic_id": "GEO-087",
+    "title": "Intersections of two lines and angles between lines",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Lines y=2x+1 and y=−x+7 intersect at what x-coordinate?",
+    "unit": "",
+    "rule": "intersection_x",
+    "params": [
+      2,
+      1,
+      -1,
+      7
+    ],
+    "expected": 2,
+    "options": [
+      0,
+      5,
+      9,
+      2
+    ],
+    "correctIndex": 3,
+    "work": [
+      "2x+1=−x+7.",
+      "3x=6, so x=2."
+    ],
+    "restriction": "Parallel distinct lines do not have an intersection point.",
+    "formulaId": "AG-F087"
+  },
+  {
+    "id": "AG-Q087-02",
+    "topic_id": "GEO-087",
+    "title": "Intersections of two lines and angles between lines",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "If two distinct lines have equal slopes, what follows?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "They are parallel",
+      "They must intersect",
+      "They are perpendicular",
+      "They have equal intercepts"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Equal slopes with different intercepts describe parallel distinct lines."
+    ],
+    "restriction": "Parallel distinct lines do not have an intersection point.",
+    "formulaId": "AG-F087"
+  },
+  {
+    "id": "AG-Q088-01",
+    "topic_id": "GEO-088",
+    "title": "Locus equations and analytic proofs",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A point is equally far from A=(0,0) and B=(6,0). What is its x-coordinate?",
+    "unit": "",
+    "rule": "perp_bisector_x",
+    "params": [
+      0,
+      6
+    ],
+    "expected": 3,
+    "options": [
+      3,
+      1,
+      6,
+      10
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Set x²+y²=(x−6)²+y².",
+      "Expand to 0=−12x+36, so x=3."
+    ],
+    "restriction": "A locus equation must include all and only the points meeting the given condition.",
+    "formulaId": "AG-F088"
+  },
+  {
+    "id": "AG-Q088-02",
+    "topic_id": "GEO-088",
+    "title": "Locus equations and analytic proofs",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "The points at a fixed distance r from a point form which locus?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "A straight line",
+      "A circle",
+      "A parabola",
+      "A pair of points"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The circle is defined by constant distance from its center."
+    ],
+    "restriction": "A locus equation must include all and only the points meeting the given condition.",
+    "formulaId": "AG-F088"
+  },
+  {
+    "id": "AG-Q089-01",
+    "topic_id": "GEO-089",
+    "title": "Circle equation: standard and general form",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For x²+y²−4x+6y−12=0, find r².",
+    "unit": "",
+    "rule": "circle_radius_sq",
+    "params": [
+      -4,
+      6,
+      -12
+    ],
+    "expected": 25,
+    "options": [
+      23,
+      25,
+      28,
+      32
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Complete squares: (x−2)²+(y+3)²=12+4+9.",
+      "r²=25."
+    ],
+    "restriction": "A nonnegative radius squared is required for a real circle.",
+    "formulaId": "AG-F089"
+  },
+  {
+    "id": "AG-Q089-02",
+    "topic_id": "GEO-089",
+    "title": "Circle equation: standard and general form",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the center of (x−3)²+(y+2)²=16?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "(−3,2)",
+      "(3,2)",
+      "(3,−2)",
+      "(−3,−2)"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Compare with (x−h)²+(y−k)²=r²: the coordinate shifts are opposite to the signs displayed inside each square."
+    ],
+    "restriction": "A nonnegative radius squared is required for a real circle.",
+    "formulaId": "AG-F089"
+  },
+  {
+    "id": "AG-Q090-01",
+    "topic_id": "GEO-090",
+    "title": "Tangents and secants of coordinate circles",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "From P, the circle center is 13 units away and radius is 5. Find tangent length.",
+    "unit": "units",
+    "rule": "tangent_length",
+    "params": [
+      13,
+      5
+    ],
+    "expected": 12,
+    "options": [
+      10,
+      15,
+      12,
+      19
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Use a right triangle joining external point P, center C, and tangency point T.",
+      "PT=√(13²−5²)=√144=12."
+    ],
+    "restriction": "No real tangent segment from a point strictly inside the circle.",
+    "formulaId": "AG-F090"
+  },
+  {
+    "id": "AG-Q090-02",
+    "topic_id": "GEO-090",
+    "title": "Tangents and secants of coordinate circles",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A tangent line at T is perpendicular to what?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Every secant",
+      "The diameter through P",
+      "The x-axis",
+      "The radius CT"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "The radius to the tangency point is perpendicular to the tangent."
+    ],
+    "restriction": "No real tangent segment from a point strictly inside the circle.",
+    "formulaId": "AG-F090"
+  },
+  {
+    "id": "AG-Q091-01",
+    "topic_id": "GEO-091",
+    "title": "Parabola: vertex, focus, directrix, and equation",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For y²=12x, find the x-coordinate of the focus.",
+    "unit": "",
+    "rule": "parabola_p",
+    "params": [
+      12
+    ],
+    "expected": 3,
+    "options": [
+      1,
+      6,
+      10,
+      3
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Compare y²=12x with y²=4px.",
+      "4p=12, so p=3 and focus=(3,0)."
+    ],
+    "restriction": "The sign of p determines the opening direction.",
+    "formulaId": "AG-F091"
+  },
+  {
+    "id": "AG-Q091-02",
+    "topic_id": "GEO-091",
+    "title": "Parabola: vertex, focus, directrix, and equation",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "For x²=−8y, which way does the parabola open?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Downward",
+      "Upward",
+      "Rightward",
+      "Leftward"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "x²=4py with p<0 opens in the negative y direction."
+    ],
+    "restriction": "The sign of p determines the opening direction.",
+    "formulaId": "AG-F091"
+  },
+  {
+    "id": "AG-Q092-01",
+    "topic_id": "GEO-092",
+    "title": "Ellipse: vertices, foci, axes, eccentricity",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For an ellipse with a=5 and b=4, find c.",
+    "unit": "",
+    "rule": "ellipse_c",
+    "params": [
+      5,
+      4
+    ],
+    "expected": 3,
+    "options": [
+      3,
+      1,
+      6,
+      10
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Use c²=a²−b².",
+      "c=√(25−16)=3."
+    ],
+    "restriction": "Require a≥b>0 and place foci on the major axis.",
+    "formulaId": "AG-F092"
+  },
+  {
+    "id": "AG-Q092-02",
+    "topic_id": "GEO-092",
+    "title": "Ellipse: vertices, foci, axes, eccentricity",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What range contains the eccentricity of a noncircular ellipse?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "e>1",
+      "0<e<1",
+      "e=1",
+      "e<0"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Ellipses satisfy 0≤e<1; a noncircular ellipse has 0<e<1."
+    ],
+    "restriction": "Require a≥b>0 and place foci on the major axis.",
+    "formulaId": "AG-F092"
+  },
+  {
+    "id": "AG-Q093-01",
+    "topic_id": "GEO-093",
+    "title": "Hyperbola: foci, axes, and asymptotes",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For a hyperbola with a=3 and b=4, find c.",
+    "unit": "",
+    "rule": "hyperbola_c",
+    "params": [
+      3,
+      4
+    ],
+    "expected": 5,
+    "options": [
+      3,
+      5,
+      8,
+      12
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Use c²=a²+b².",
+      "c=√(9+16)=5."
+    ],
+    "restriction": "Hyperbola asymptote slopes depend on the transverse-axis orientation.",
+    "formulaId": "AG-F093"
+  },
+  {
+    "id": "AG-Q093-02",
+    "topic_id": "GEO-093",
+    "title": "Hyperbola: foci, axes, and asymptotes",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "For x²/9−y²/16=1, which is the transverse axis?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Vertical y-axis",
+      "Line y=x",
+      "Horizontal x-axis",
+      "Neither axis"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The positive x² term indicates a horizontal transverse axis."
+    ],
+    "restriction": "Hyperbola asymptote slopes depend on the transverse-axis orientation.",
+    "formulaId": "AG-F093"
+  },
+  {
+    "id": "AG-Q094-01",
+    "topic_id": "GEO-094",
+    "title": "General second-degree equations and conic identification",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For x²+4y²=16, compute Δ=B²−4AC.",
+    "unit": "",
+    "rule": "conic_discriminant",
+    "params": [
+      1,
+      0,
+      4
+    ],
+    "expected": -16,
+    "options": [
+      -18,
+      -13,
+      -16,
+      -9
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Here A=1, B=0, C=4.",
+      "Δ=0²−4(1)(4)=−16."
+    ],
+    "restriction": "The discriminant alone does not guarantee a nondegenerate real conic.",
+    "formulaId": "AG-F094"
+  },
+  {
+    "id": "AG-Q094-02",
+    "topic_id": "GEO-094",
+    "title": "General second-degree equations and conic identification",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "If Δ>0, which generic conic type is indicated (assuming nondegenerate)?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Ellipse",
+      "Parabola",
+      "Circle only",
+      "Hyperbola"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Positive discriminant indicates hyperbolic type for a nondegenerate real conic."
+    ],
+    "restriction": "The discriminant alone does not guarantee a nondegenerate real conic.",
+    "formulaId": "AG-F094"
+  },
+  {
+    "id": "AG-Q095-01",
+    "topic_id": "GEO-095",
+    "title": "Translation and rotation of conic axes",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "The new origin is (3,1). A point is (8,6) in old coordinates. Find its new x-coordinate.",
+    "unit": "",
+    "rule": "translation_x",
+    "params": [
+      8,
+      3
+    ],
+    "expected": 5,
+    "options": [
+      3,
+      8,
+      12,
+      5
+    ],
+    "correctIndex": 3,
+    "work": [
+      "x'=x−h.",
+      "x'=8−3=5."
+    ],
+    "restriction": "Do not confuse moving the axes with rotating a geometric figure.",
+    "formulaId": "AG-F095"
+  },
+  {
+    "id": "AG-Q095-02",
+    "topic_id": "GEO-095",
+    "title": "Translation and rotation of conic axes",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which algebraic term can often be removed by a suitable rotation of axes?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "An xy term",
+      "Every constant term",
+      "All squared terms",
+      "Any radical term"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Rotating principal axes diagonalizes the quadratic part and can eliminate xy."
+    ],
+    "restriction": "Do not confuse moving the axes with rotating a geometric figure.",
+    "formulaId": "AG-F095"
+  },
+  {
+    "id": "AG-Q096-01",
+    "topic_id": "GEO-096",
+    "title": "Polar coordinates and conversions",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For polar coordinates (r,θ)=(10,30°), find x to four decimals.",
+    "unit": "",
+    "rule": "polar_x",
+    "params": [
+      10,
+      30
+    ],
+    "expected": 8.6603,
+    "options": [
+      8.6603,
+      6.6603,
+      11.6603,
+      15.6603
+    ],
+    "correctIndex": 0,
+    "work": [
+      "x=r cos θ=10 cos 30°.",
+      "x=5√3≈8.6603."
+    ],
+    "restriction": "Polar representations are not unique and negative radii require care.",
+    "formulaId": "AG-F096"
+  },
+  {
+    "id": "AG-Q096-02",
+    "topic_id": "GEO-096",
+    "title": "Polar coordinates and conversions",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which polar representation denotes the origin?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Only r=1",
+      "r=0 with any θ",
+      "Only θ=0 with r>0",
+      "Every negative radius"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "At r=0, angle does not affect position."
+    ],
+    "restriction": "Polar representations are not unique and negative radii require care.",
+    "formulaId": "AG-F096"
+  },
+  {
+    "id": "AG-Q097-01",
+    "topic_id": "GEO-097",
+    "title": "Parametric curves and parametric equations",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "A curve has x=2+3t, y=1−t. What is x at t=4?",
+    "unit": "",
+    "rule": "param_x",
+    "params": [
+      2,
+      3,
+      4
+    ],
+    "expected": 14,
+    "options": [
+      12,
+      14,
+      17,
+      21
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Substitute t=4 into x=2+3t.",
+      "x=2+12=14."
+    ],
+    "restriction": "Different parameter intervals can trace different portions or orientations of the same curve.",
+    "formulaId": "AG-F097"
+  },
+  {
+    "id": "AG-Q097-02",
+    "topic_id": "GEO-097",
+    "title": "Parametric curves and parametric equations",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What does the parameter t describe?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Always the distance from the origin",
+      "Only the slope",
+      "A common variable controlling the coordinates",
+      "Always the angle with the x-axis"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A parameter determines the position on the curve through coordinate functions."
+    ],
+    "restriction": "Different parameter intervals can trace different portions or orientations of the same curve.",
+    "formulaId": "AG-F097"
+  },
+  {
+    "id": "AG-Q098-01",
+    "topic_id": "GEO-098",
+    "title": "Geometric vectors and vector operations",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Let u=(3,4), v=(1,−4). Find the x-component of u+v.",
+    "unit": "",
+    "rule": "vector_sum_x",
+    "params": [
+      3,
+      1
+    ],
+    "expected": 4,
+    "options": [
+      2,
+      7,
+      4,
+      11
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Add x-components: 3+1=4.",
+      "The resultant is (4,0)."
+    ],
+    "restriction": "A vector is not just a point; displacement is independent of the choice of origin.",
+    "formulaId": "AG-F098"
+  },
+  {
+    "id": "AG-Q098-02",
+    "topic_id": "GEO-098",
+    "title": "Geometric vectors and vector operations",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the magnitude of vector (3,4)?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "7",
+      "1",
+      "12",
+      "5"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "The Euclidean norm is √(3²+4²)=5."
+    ],
+    "restriction": "A vector is not just a point; displacement is independent of the choice of origin.",
+    "formulaId": "AG-F098"
+  },
+  {
+    "id": "AG-Q099-01",
+    "topic_id": "GEO-099",
+    "title": "Dot product, cross product, and direction cosines",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Compute (1,2,3)·(2,0,−1).",
+    "unit": "",
+    "rule": "dot3",
+    "params": [
+      1,
+      2,
+      3,
+      2,
+      0,
+      -1
+    ],
+    "expected": -1,
+    "options": [
+      -3,
+      2,
+      6,
+      -1
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Multiply matching components and add.",
+      "1·2+2·0+3·(−1)=−1."
+    ],
+    "restriction": "Dot and cross products are different operations; a zero dot product means orthogonal for nonzero vectors.",
+    "formulaId": "AG-F099"
+  },
+  {
+    "id": "AG-Q099-02",
+    "topic_id": "GEO-099",
+    "title": "Dot product, cross product, and direction cosines",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "If two nonzero vectors have zero dot product, they are:",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Perpendicular",
+      "Parallel",
+      "Identical",
+      "Collinear and nonzero"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "a·b=|a||b|cosθ=0 implies θ=90°."
+    ],
+    "restriction": "Dot and cross products are different operations; a zero dot product means orthogonal for nonzero vectors.",
+    "formulaId": "AG-F099"
+  },
+  {
+    "id": "AG-Q100-01",
+    "topic_id": "GEO-100",
+    "title": "3D Cartesian distance and midpoint",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the 3D distance between (1,2,3) and (4,6,15).",
+    "unit": "units",
+    "rule": "distance3",
+    "params": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      15
+    ],
+    "expected": 13,
+    "options": [
+      13,
+      11,
+      16,
+      20
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Coordinate differences are (3,4,12).",
+      "d=√(9+16+144)=13."
+    ],
+    "restriction": "Coordinates must be measured in consistent units.",
+    "formulaId": "AG-F100"
+  },
+  {
+    "id": "AG-Q100-02",
+    "topic_id": "GEO-100",
+    "title": "3D Cartesian distance and midpoint",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "The midpoint z-coordinate for z₁=2 and z₂=8 is:",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "6",
+      "5",
+      "3",
+      "10"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Average the two z-coordinates."
+    ],
+    "restriction": "Coordinates must be measured in consistent units.",
+    "formulaId": "AG-F100"
+  },
+  {
+    "id": "AG-Q101-01",
+    "topic_id": "GEO-101",
+    "title": "Lines in space and parametric line equations",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For x=1+2t, y=3−t, z=4+t, find x when t=3.",
+    "unit": "",
+    "rule": "line3_x",
+    "params": [
+      1,
+      2,
+      3
+    ],
+    "expected": 7,
+    "options": [
+      5,
+      7,
+      10,
+      14
+    ],
+    "correctIndex": 1,
+    "work": [
+      "x=1+2t.",
+      "At t=3, x=1+6=7."
+    ],
+    "restriction": "At least one direction component must be nonzero.",
+    "formulaId": "AG-F101"
+  },
+  {
+    "id": "AG-Q101-02",
+    "topic_id": "GEO-101",
+    "title": "Lines in space and parametric line equations",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What fixes the direction of a parametric line in 3D?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Only its starting point",
+      "The x-intercept alone",
+      "Its direction vector",
+      "Its length alone"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A nonzero vector gives the line direction."
+    ],
+    "restriction": "At least one direction component must be nonzero.",
+    "formulaId": "AG-F101"
+  },
+  {
+    "id": "AG-Q102-01",
+    "topic_id": "GEO-102",
+    "title": "Planes in three-space and normal vectors",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For 2x+3y+6z=12, find z when x=0 and y=0.",
+    "unit": "",
+    "rule": "plane_z",
+    "params": [
+      2,
+      3,
+      6,
+      12,
+      0,
+      0
+    ],
+    "expected": 2,
+    "options": [
+      0,
+      5,
+      2,
+      9
+    ],
+    "correctIndex": 2,
+    "work": [
+      "At x=y=0, 6z=12.",
+      "z=2."
+    ],
+    "restriction": "A,B,C must not all vanish.",
+    "formulaId": "AG-F102"
+  },
+  {
+    "id": "AG-Q102-02",
+    "topic_id": "GEO-102",
+    "title": "Planes in three-space and normal vectors",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which vector is normal to 2x+3y+6z=12?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "(1,0,0)",
+      "(0,0,0)",
+      "(3,−2,0)",
+      "(2,3,6)"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Coefficients of x,y,z form a normal vector."
+    ],
+    "restriction": "A,B,C must not all vanish.",
+    "formulaId": "AG-F102"
+  },
+  {
+    "id": "AG-Q103-01",
+    "topic_id": "GEO-103",
+    "title": "Equation of a sphere in three-space",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For (x−1)²+(y+2)²+(z−3)²=49, find r.",
+    "unit": "units",
+    "rule": "sphere_r",
+    "params": [
+      49
+    ],
+    "expected": 7,
+    "options": [
+      5,
+      10,
+      14,
+      7
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Compare right-hand side with r².",
+      "r=√49=7."
+    ],
+    "restriction": "A negative right-hand side gives no real sphere.",
+    "formulaId": "AG-F103"
+  },
+  {
+    "id": "AG-Q103-02",
+    "topic_id": "GEO-103",
+    "title": "Equation of a sphere in three-space",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the center of (x+2)²+y²+(z−5)²=9?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "(−2,0,5)",
+      "(2,0,−5)",
+      "(−2,0,−5)",
+      "(2,0,5)"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The signs inside the shifted squares reverse when reading the center."
+    ],
+    "restriction": "A negative right-hand side gives no real sphere.",
+    "formulaId": "AG-F103"
+  },
+  {
+    "id": "AG-Q104-01",
+    "topic_id": "GEO-104",
+    "title": "Quadric surfaces: ellipsoids, paraboloids, hyperboloids",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "For x²/9+y²/16+z²/25=1, find the longest semiaxis.",
+    "unit": "units",
+    "rule": "ellipsoid_max",
+    "params": [
+      9,
+      16,
+      25
+    ],
+    "expected": 5,
+    "options": [
+      5,
+      3,
+      8,
+      12
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The semiaxes are √9=3, √16=4 and √25=5.",
+      "The longest semiaxis is 5."
+    ],
+    "restriction": "A quadratic form can represent a degenerate or imaginary surface for some constants.",
+    "formulaId": "AG-F104"
+  },
+  {
+    "id": "AG-Q104-02",
+    "topic_id": "GEO-104",
+    "title": "Quadric surfaces: ellipsoids, paraboloids, hyperboloids",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which equation describes an elliptic paraboloid opening upward?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "x²+y²+z²=1",
+      "z=x²+y²",
+      "x²−y²=1",
+      "z²=x²+y²"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The cross-section z=x²+y² is nonnegative and increases away from the origin."
+    ],
+    "restriction": "A quadratic form can represent a degenerate or imaginary surface for some constants.",
+    "formulaId": "AG-F104"
+  },
+  {
+    "id": "AG-Q105-01",
+    "topic_id": "GEO-105",
+    "title": "Analytic area and coordinate-based geometry proofs",
+    "kind": "numeric",
+    "level": "Foundation",
+    "prompt": "Find the area of the triangle with vertices (0,0),(6,0),(0,4).",
+    "unit": "square units",
+    "rule": "triangle_det_area",
+    "params": [
+      0,
+      0,
+      6,
+      0,
+      0,
+      4
+    ],
+    "expected": 12,
+    "options": [
+      10,
+      12,
+      15,
+      19
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Using base 6 and height 4, area=6·4/2.",
+      "The shoelace determinant gives the same result: 12 square units."
+    ],
+    "restriction": "The listed vertices must follow the polygon boundary without self-crossing.",
+    "formulaId": "AG-F105"
+  },
+  {
+    "id": "AG-Q105-02",
+    "topic_id": "GEO-105",
+    "title": "Analytic area and coordinate-based geometry proofs",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why take the absolute value in the shoelace formula?",
+    "unit": "",
+    "rule": null,
+    "params": [],
+    "expected": null,
+    "options": [
+      "Every coordinate is positive",
+      "Negative area is a valid physical area",
+      "Vertex order can reverse the sign",
+      "Triangles are always clockwise"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Reversing vertex orientation negates signed area, not physical area."
+    ],
+    "restriction": "The listed vertices must follow the polygon boundary without self-crossing.",
+    "formulaId": "AG-F105"
+  }
+]

@@ -1,0 +1,104 @@
+{
+  "release": "10.50.0",
+  "scope": "full corpus structural QA; reviewer-authored spot checks; storage compatibility",
+  "coverage": {
+    "topics": 14,
+    "coreSubtopics": 95,
+    "optionalSubtopics": 7,
+    "lessons": 102,
+    "questions": 816,
+    "mathSpotChecks": 117,
+    "questionsWithoutIndependentMathReview": 699
+  },
+  "counts": {
+    "Angles & Measurement": {
+      "lessons": 7,
+      "questions": 56,
+      "optional": false
+    },
+    "Right-Triangle Trigonometry": {
+      "lessons": 7,
+      "questions": 56,
+      "optional": false
+    },
+    "Unit Circle & General Angles": {
+      "lessons": 7,
+      "questions": 56,
+      "optional": false
+    },
+    "Functions & Graphs": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Fundamental Identities": {
+      "lessons": 6,
+      "questions": 48,
+      "optional": false
+    },
+    "Advanced Identities & Formulas": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Inverse Trigonometric Functions": {
+      "lessons": 6,
+      "questions": 48,
+      "optional": false
+    },
+    "Trigonometric Equations": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Oblique Triangles & Applications": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Vectors & Components": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Complex Numbers & Polar Form": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Polar & Parametric Equations": {
+      "lessons": 6,
+      "questions": 48,
+      "optional": false
+    },
+    "Sinusoids, Waves & Phase": {
+      "lessons": 8,
+      "questions": 64,
+      "optional": false
+    },
+    "Advanced Trigonometry": {
+      "lessons": 7,
+      "questions": 56,
+      "optional": true
+    }
+  },
+  "checks": {
+    "uniqueLessonAndQuestionIds": "pass",
+    "eightQuestionsPerSubtopic": "pass",
+    "lessonsAndCurriculumMappings": "pass",
+    "lessonExamplesAndCheckpoints": "pass",
+    "latexStructuralChecks": "pass",
+    "math102Fixtures": "pass",
+    "manualProgressRoundTrip": "pass",
+    "reader102LessonsPlusAlgebraRoundTrip": "pass",
+    "practice816AttemptsPlusLegacyRoundTrip": "pass"
+  },
+  "editorialWarnings": {
+    "shortExplanations": 92
+  },
+  "qualifications": [
+    "Key agreement and 117 spot checks do not independently certify all 816 mathematical answers.",
+    "KaTeX runtime rendering, full app build, and real browser workflows require installation and execution.",
+    "All lesson and question statuses remain draft until subject-matter review and user acceptance."
+  ]
+}

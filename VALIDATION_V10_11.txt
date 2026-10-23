@@ -1,0 +1,90 @@
+BSECE Board Reviewer v10.11.0 — final source candidate validation
+Generated UTC: 2026-10-09T09:02:53Z
+Source baseline: v10.10.0; source-only package.
+
+=== npm run lint:assessment ===
+
+> bsece-board-reviewer@10.11.0 lint:assessment
+> tsc --project tsconfig.assessment.json
+
+EXIT STATUS: 0
+
+=== npm run lint:curriculum ===
+
+> bsece-board-reviewer@10.11.0 lint:curriculum
+> tsc --project tsconfig.curriculum.json
+
+EXIT STATUS: 0
+
+=== npm run validate:integrity:v10.9 ===
+
+> bsece-board-reviewer@10.11.0 validate:integrity:v10.9
+> node scripts/validateIntegrityV109.mjs
+
+PASS v10.9 integrity regression: clean profile, immutable migration, quiz math, topic attribution, validation, navigation and readiness.
+EXIT STATUS: 0
+
+=== npm run validate:assessment:v10.10 ===
+
+> bsece-board-reviewer@10.11.0 validate:assessment:v10.10
+> node scripts/validateAssessmentV1010.mjs
+
+PASS v10.10: 40 shuffle/grade permutations, invalid answer/order guards, strict vs study evidence, backup/restore + invalid import rejection, six UI integration checks.
+EXIT STATUS: 0
+
+=== npm run validate:algebra:v10.8 ===
+- canonical curriculum restorations: Complex Numbers + Binomial Theorem
+- legacy Algebra IDs: migrated without duplicate saved-topic rows
+- prerequisite roadmap: canonical learner-topic links verified
+- known mock-q-03 answer key: corrected to 672 (A)
+Algebra v10.7 structural validation PASS
+- reference-informed topics: 19
+- shared reference-bank questions: at least the v10.7 baseline of 180
+- new topic questions: 30
+- expanded earlier banks: +40 questions
+- new verified source entries: 9
+- local subskill mastery + misconception remediation: present
+- canonical Matrices learner record: present
+Algebra v10.8 structural validation PASS
+- reference-informed topics: 23
+- audited shared practice questions: 260
+- timed reference assessment candidates: 203
+- high-priority banks expanded to 15 items: 8
+- final Algebra catalog routes: complete
+- assessment readiness: recommendation-only; canonical mastery remains scored-review owned
+- mock generator: unique questions only; no clone/cycle fallback
+- curated Algebra mock topic IDs: canonical
+- approved-reference complex-number scope: preserved
+EXIT STATUS: 0
+
+=== npm run validate:curriculum:v10.11 ===
+
+> bsece-board-reviewer@10.11.0 validate:curriculum:v10.11
+> node scripts/validateCurriculumV1011.mjs
+
+PASS v10.11: 23 topics; 260 practice questions structurally checked; 214 original subskill tags -> 102 grouped skills; 30 original variants in 15 families numerically checked; 25 rounds shuffle+grading; independent/duplicate/delayed evidence and conservative absolute-value migration rules.
+NOTE: structural/reference-bank checks do NOT constitute a human mathematics and explanation audit of all 260 existing questions.
+COVERAGE: 5/102 grouped skills have 3+ reserved original assessment families; denominator algebra-reference-2026.10-v10.11.
+EXIT STATUS: 0
+
+=== Source TypeScript AST syntax scan ===
+PASS: 230 source files, 0 parser diagnostics
+EXIT STATUS: 0
+
+=== Question Audit CSV validation ===
+PASS 290 question audit rows, 15 columns
+EXIT STATUS: 0
+
+=== Dependency / full application certification ===
+NOT CERTIFIED: full npm run lint reports missing npm dependencies/types; see below.
+
+> bsece-board-reviewer@10.11.0 lint
+> tsc --noEmit
+
+scripts/seed.ts(10,16): error TS2307: Cannot find module 'fs' or its corresponding type declarations.
+scripts/seed.ts(11,18): error TS2307: Cannot find module 'path' or its corresponding type declarations.
+scripts/seed.ts(12,31): error TS2307: Cannot find module 'url' or its corresponding type declarations.
+scripts/seed.ts(26,5): error TS2580: Cannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+server.ts(2,18): error TS2307: Cannot find module 'http' or its corresponding type declarations.
+server.ts(3,21): error TS2307: Cannot find module 'express' or its corresponding type declarations.
+NOT RUN: production bundle and browser E2E (npm dependencies unavailable in this environment).

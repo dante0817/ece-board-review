@@ -1,0 +1,33 @@
+{
+  "app": "BSECE Board Reviewer",
+  "version": "10.27.0",
+  "generatedAt": "2026-10-10T04:42:02.705Z",
+  "packageLockMatches": true,
+  "coreDependencies": {
+    "present": [],
+    "missing": [
+      "react",
+      "react-dom",
+      "vite",
+      "@vitejs/plugin-react",
+      "@tailwindcss/vite",
+      "express",
+      "ws",
+      "@google/genai",
+      "esbuild",
+      "tsx",
+      "typescript"
+    ]
+  },
+  "installedTypecheck": "not-run",
+  "fullBuild": "not-run",
+  "browserSmoke": "not-run",
+  "physicalCanonF789SGA": "not-tested",
+  "qualifiedDeviceApproval": "not-verified",
+  "overall": "not-certified",
+  "limitations": [
+    "11 required npm dependency packages missing: react, react-dom, vite, @vitejs/plugin-react, @tailwindcss/vite, express, ws, @google/genai, esbuild, tsx, typescript",
+    "Installed-dependency build and browser certification incomplete.",
+    "Physical Canon F-789SGA keystrokes/LCD were not tested by this script."
+  ]
+}

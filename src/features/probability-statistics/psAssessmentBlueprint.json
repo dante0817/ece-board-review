@@ -1,0 +1,43 @@
+{
+  "source": "PRC EELE Resolution 10 (2022), Annex A, https://www.prc.gov.ph/sites/default/files/EE2022-10%20TOS.pdf",
+  "version": "PRC-EELE-2022-Resolution10-AnnexA",
+  "status": "provisional-preflight-only",
+  "competencies": [
+    {
+      "id": "5.1",
+      "label": "Obtaining Data",
+      "items": 2
+    },
+    {
+      "id": "5.2",
+      "label": "Statistical Sampling, Distribution and Intervals",
+      "items": 5
+    },
+    {
+      "id": "5.3",
+      "label": "Test of Hypothesis",
+      "items": 2
+    },
+    {
+      "id": "5.4",
+      "label": "Regression and Correlation",
+      "items": 2
+    },
+    {
+      "id": "5.5",
+      "label": "Design of Experiments",
+      "items": 4
+    }
+  ],
+  "cognitiveTargetAcross15": {
+    "knowledge": 2,
+    "comprehension": 3,
+    "application": 6,
+    "analysis": 4
+  },
+  "prerequisites": [
+    "PS02",
+    "PS03"
+  ],
+  "releaseGate": "No scored selection unless both assessmentEligible and independent expert signoffs are true."
+}

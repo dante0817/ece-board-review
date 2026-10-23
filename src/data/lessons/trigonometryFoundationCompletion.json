@@ -1,0 +1,1329 @@
+{
+  "trig-unit-circle-angles-in-standard-position": {
+    "id": "trig-unit-circle-angles-in-standard-position",
+    "title": "Angles in standard position",
+    "summary": "Place directed angles and identify their terminal quadrants.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "unit-circle-angles-in-standard-position-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "unit-circle-angles-in-standard-position-understand"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-angles-in-standard-position-definition",
+            "type": "definition",
+            "text": "An angle in standard position has vertex at the origin and initial side on the positive x-axis. Counterclockwise rotation is positive; clockwise is negative. Terminal rays on coordinate axes are quadrantal, not inside any quadrant."
+          },
+          {
+            "id": "unit-circle-angles-in-standard-position-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Illustrative diagram: Angles in standard position. Use the specific problem data when solving."
+          },
+          {
+            "id": "unit-circle-angles-in-standard-position-formula",
+            "type": "formula",
+            "latex": "\\theta_{\\mathrm{coterminal}}=\\theta+360^\\circ k,\\quad k\\in\\mathbb Z",
+            "description": "Always normalize when necessary and distinguish an axis from a quadrant."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-angles-in-standard-position-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "unit-circle-angles-in-standard-position-solve"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-angles-in-standard-position-work-1",
+            "type": "worked-example",
+            "title": "Locate a directed angle",
+            "problem": "Find the terminal quadrant of −135°.",
+            "strategy": "Translate a clockwise rotation into a positive coterminal angle.",
+            "steps": [
+              "−135°+360°=225°.",
+              "225° lies between 180° and 270°, so the terminal side is in Quadrant III."
+            ],
+            "check": "225° and −135° differ by 360°."
+          },
+          {
+            "id": "unit-circle-angles-in-standard-position-work-2",
+            "type": "worked-example",
+            "title": "Quadrantal angle",
+            "problem": "Where does the terminal ray of 630° lie?",
+            "strategy": "Subtract one complete revolution.",
+            "steps": [
+              "630°−360°=270°.",
+              "270° points along the negative y-axis. It belongs to no open quadrant."
+            ],
+            "check": "cos 270°=0 and sin 270°=−1."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-angles-in-standard-position-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "unit-circle-angles-in-standard-position-review"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-angles-in-standard-position-tip",
+            "type": "note",
+            "text": "A 90° angle ends on the positive y-axis, not in Quadrant I or II."
+          },
+          {
+            "id": "unit-circle-angles-in-standard-position-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the terminal quadrant of −30°?",
+            "answer": "Quadrant IV",
+            "explanation": "−30° is coterminal with 330°, between 270° and 360°."
+          },
+          {
+            "id": "unit-circle-angles-in-standard-position-references",
+            "type": "note",
+            "text": "Reference guide: Lial §1.1; Schaum’s Chs. 2, 6; Kelley Chs. 1, 4."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-unit-circle-quadrants-and-signs-of-functions": {
+    "id": "trig-unit-circle-quadrants-and-signs-of-functions",
+    "title": "Quadrants and signs of functions",
+    "summary": "Determine signs of all six functions in each quadrant.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "unit-circle-quadrants-and-signs-of-functions-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "unit-circle-quadrants-and-signs-of-functions-understand"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-definition",
+            "type": "definition",
+            "text": "On a radius-r circle, sinθ=y/r and cosθ=x/r. Tangent is y/x where x≠0; the reciprocal functions have the signs of their corresponding reciprocals. Coordinates on the axes require separate treatment."
+          },
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Illustrative diagram: Quadrants and signs of functions. Use the specific problem data when solving."
+          },
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-formula",
+            "type": "formula",
+            "latex": "\\sin\\theta=\\frac yr,\\quad\\cos\\theta=\\frac xr,\\quad\\tan\\theta=\\frac yx\\ (x\\ne0)",
+            "description": "Quadrant signs: QI (+,+,+); QII (+,−,−); QIII (−,−,+); QIV (−,+,−) for (sin,cos,tan)."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-quadrants-and-signs-of-functions-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "unit-circle-quadrants-and-signs-of-functions-solve"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-work-1",
+            "type": "worked-example",
+            "title": "Quadrant-II signs",
+            "problem": "Determine the signs of sinθ, cosθ, and tanθ in quadrant II.",
+            "strategy": "Use x<0,y>0.",
+            "steps": [
+              "Sine=y/r is positive.",
+              "Cosine=x/r is negative.",
+              "Tangent=y/x is negative."
+            ],
+            "check": "A quadrant-II point (−3,4) confirms the pattern."
+          },
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-work-2",
+            "type": "worked-example",
+            "title": "Evaluate from a point",
+            "problem": "The terminal side passes through (−5,−12). Find sinθ and tanθ.",
+            "strategy": "Find r by the Pythagorean theorem.",
+            "steps": [
+              "r=√(25+144)=13.",
+              "sinθ=y/r=−12/13.",
+              "tanθ=y/x=(−12)/(−5)=12/5."
+            ],
+            "check": "Both coordinates are negative: sine negative, tangent positive."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-quadrants-and-signs-of-functions-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "unit-circle-quadrants-and-signs-of-functions-review"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-tip",
+            "type": "note",
+            "text": "Sine follows y; cosine follows x. Tangent is positive when x and y have the same sign."
+          },
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Which trigonometric function is positive in Quadrant III: sine, cosine, or tangent?",
+            "answer": "Tangent",
+            "explanation": "In quadrant III both coordinates are negative, so y/x>0."
+          },
+          {
+            "id": "unit-circle-quadrants-and-signs-of-functions-references",
+            "type": "note",
+            "text": "Reference guide: Lial §§1.3–1.4, 2.2; Sullivan §2.3; Kelley Ch. 4."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-unit-circle-reference-angle-reductions": {
+    "id": "trig-unit-circle-reference-angle-reductions",
+    "title": "Reference-angle reductions",
+    "summary": "Reduce any-angle values using a reference angle and quadrant sign.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "unit-circle-reference-angle-reductions-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "unit-circle-reference-angle-reductions-understand"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-reference-angle-reductions-definition",
+            "type": "definition",
+            "text": "A reference angle α is the acute positive angle between the terminal ray and the x-axis. The magnitude of sinθ, cosθ or tanθ comes from α; its sign comes from the original quadrant. Reference-angle formulas must not erase the sign."
+          },
+          {
+            "id": "unit-circle-reference-angle-reductions-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Illustrative diagram: Reference-angle reductions. Use the specific problem data when solving."
+          },
+          {
+            "id": "unit-circle-reference-angle-reductions-formula",
+            "type": "formula",
+            "latex": "\\alpha=\\begin{cases}\\theta&(Q I)\\\\180^\\circ-\\theta&(Q II)\\\\\\theta-180^\\circ&(Q III)\\\\360^\\circ-\\theta&(Q IV)\\end{cases}",
+            "description": "Shown for normalized 0°<θ<360° excluding quadrantal rays; for other angles first reduce modulo 360°."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-reference-angle-reductions-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "unit-circle-reference-angle-reductions-solve"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-reference-angle-reductions-work-1",
+            "type": "worked-example",
+            "title": "Sine in QII",
+            "problem": "Evaluate sin150° exactly.",
+            "strategy": "Reference angle is 180°−150°=30°.",
+            "steps": [
+              "150° is in Quadrant II, where sine is positive.",
+              "sin150°=+sin30°=1/2."
+            ],
+            "check": "sin150°=sin(180°−150°)=sin30°."
+          },
+          {
+            "id": "unit-circle-reference-angle-reductions-work-2",
+            "type": "worked-example",
+            "title": "Cosine in QIII",
+            "problem": "Evaluate cos225° exactly.",
+            "strategy": "Use a 45° reference angle.",
+            "steps": [
+              "225°−180°=45°.",
+              "Cosine is negative in quadrant III.",
+              "cos225°=−cos45°=−√2/2."
+            ],
+            "check": "Point (−√2/2,−√2/2) lies in quadrant III."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-reference-angle-reductions-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "unit-circle-reference-angle-reductions-review"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-reference-angle-reductions-tip",
+            "type": "note",
+            "text": "Do not say sin(150°)=sin(30°) because the angles coincide; the equality follows reference angle and quadrant sign."
+          },
+          {
+            "id": "unit-circle-reference-angle-reductions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the reference angle for 315°?",
+            "answer": "45°",
+            "explanation": "315° is in quadrant IV, so 360°−315°=45°."
+          },
+          {
+            "id": "unit-circle-reference-angle-reductions-references",
+            "type": "note",
+            "text": "Reference guide: Lial §2.2; Schaum’s Ch. 6; Kelley Ch. 4."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-unit-circle-exact-values-on-the-unit-circle": {
+    "id": "trig-unit-circle-exact-values-on-the-unit-circle",
+    "title": "Exact values on the unit circle",
+    "summary": "Recall standard-angle points and exact trig values throughout a revolution.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "unit-circle-exact-values-on-the-unit-circle-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "unit-circle-exact-values-on-the-unit-circle-understand"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-definition",
+            "type": "definition",
+            "text": "Unit-circle coordinates for 0°, 30°, 45°, 60° and 90° follow special triangles. Reflect the first-quadrant magnitudes into other quadrants, using proper signs. At the axes some ratios are undefined."
+          },
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Illustrative diagram: Exact values on the unit circle. Use the specific problem data when solving."
+          },
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-formula",
+            "type": "formula",
+            "latex": "(\\cos45^\\circ,\\sin45^\\circ)=\\left(\\frac{\\sqrt2}{2},\\frac{\\sqrt2}{2}\\right),\\quad\\sin60^\\circ=\\frac{\\sqrt3}{2}",
+            "description": "For exact values, preserve radicals rather than rounding decimal approximations."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-exact-values-on-the-unit-circle-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "unit-circle-exact-values-on-the-unit-circle-solve"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-work-1",
+            "type": "worked-example",
+            "title": "Exact value in QIII",
+            "problem": "Find sin240° exactly.",
+            "strategy": "Reference angle 60°, sine negative in QIII.",
+            "steps": [
+              "240°−180°=60°.",
+              "sin240°=−sin60°=−√3/2."
+            ],
+            "check": "The unit-circle y-coordinate is negative."
+          },
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-work-2",
+            "type": "worked-example",
+            "title": "Find tangent on the circle",
+            "problem": "Evaluate tan135° exactly.",
+            "strategy": "Use sine/cosine in QII.",
+            "steps": [
+              "sin135°=√2/2 and cos135°=−√2/2.",
+              "tan135°=(√2/2)/(−√2/2)=−1."
+            ],
+            "check": "Tangent is negative in QII."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-exact-values-on-the-unit-circle-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "unit-circle-exact-values-on-the-unit-circle-review"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-tip",
+            "type": "note",
+            "text": "Memorize first-quadrant coordinate patterns; derive the rest from symmetry and signs."
+          },
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Find cos300° exactly.",
+            "answer": "1/2",
+            "explanation": "300° is in QIV with reference angle 60°; cosine is positive."
+          },
+          {
+            "id": "unit-circle-exact-values-on-the-unit-circle-references",
+            "type": "note",
+            "text": "Reference guide: Lial §3.3; Young Chs. 2–3; Kelley Ch. 3."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-unit-circle-negative-and-coterminal-angles": {
+    "id": "trig-unit-circle-negative-and-coterminal-angles",
+    "title": "Negative and coterminal angles",
+    "summary": "Apply periodicity and parity to negative and multi-revolution angles.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "unit-circle-negative-and-coterminal-angles-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "unit-circle-negative-and-coterminal-angles-understand"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-definition",
+            "type": "definition",
+            "text": "The sine and cosine functions repeat every 2π radians; tangent repeats every π where defined. Cosine is even, sine and tangent are odd. These properties can reduce large or negative arguments to familiar values."
+          },
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Illustrative diagram: Negative and coterminal angles. Use the specific problem data when solving."
+          },
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-formula",
+            "type": "formula",
+            "latex": "\\sin(-\\theta)=-\\sin\\theta,\\quad\\cos(-\\theta)=\\cos\\theta,\\quad\\tan(\\theta+\\pi)=\\tan\\theta",
+            "description": "Tangent periodicity applies only to arguments where tangent is defined."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-negative-and-coterminal-angles-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "unit-circle-negative-and-coterminal-angles-solve"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-work-1",
+            "type": "worked-example",
+            "title": "Evenness of cosine",
+            "problem": "Find cos(−60°).",
+            "strategy": "Use cos(−θ)=cosθ.",
+            "steps": [
+              "cos(−60°)=cos60°.",
+              "cos60°=1/2."
+            ],
+            "check": "The unit circle is symmetric about the x-axis."
+          },
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-work-2",
+            "type": "worked-example",
+            "title": "Many rotations",
+            "problem": "Find sin(−750°).",
+            "strategy": "Add multiples of 360° to normalize.",
+            "steps": [
+              "−750°+720°=−30°.",
+              "sin(−30°)=−sin30°=−1/2."
+            ],
+            "check": "−750° and −30° are coterminal."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-negative-and-coterminal-angles-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "unit-circle-negative-and-coterminal-angles-review"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-tip",
+            "type": "note",
+            "text": "For negative angles, parity may be quicker than adding 360°."
+          },
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is sin(−90°)?",
+            "answer": "−1",
+            "explanation": "Sine is odd: sin(−90°)=−sin90°=−1."
+          },
+          {
+            "id": "unit-circle-negative-and-coterminal-angles-references",
+            "type": "note",
+            "text": "Reference guide: Lial §§1.1, 2.2, 3.3; Kelley Ch. 4; Schaum’s Ch. 6."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-unit-circle-evaluating-functions-of-any-angle": {
+    "id": "trig-unit-circle-evaluating-functions-of-any-angle",
+    "title": "Evaluating functions of any angle",
+    "summary": "Evaluate all six trig functions at general angles using coordinates and identities.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "unit-circle-evaluating-functions-of-any-angle-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "unit-circle-evaluating-functions-of-any-angle-understand"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-definition",
+            "type": "definition",
+            "text": "For any terminal point (x,y)≠(0,0), define r=√(x²+y²)>0. Then sin=y/r, cos=x/r, tan=y/x; csc=r/y, sec=r/x, cot=x/y where denominators are nonzero. Always check undefined cases."
+          },
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-diagram",
+            "type": "diagram",
+            "diagram": "unit-circle",
+            "caption": "Illustrative diagram: Evaluating functions of any angle. Use the specific problem data when solving."
+          },
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-formula",
+            "type": "formula",
+            "latex": "r=\\sqrt{x^2+y^2},\\quad\\sec\\theta=\\frac rx\\ (x\\ne0),\\quad\\csc\\theta=\\frac ry\\ (y\\ne0)",
+            "description": "A terminal point may be anywhere except the origin. The coordinates need not lie on the unit circle."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-evaluating-functions-of-any-angle-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "unit-circle-evaluating-functions-of-any-angle-solve"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-work-1",
+            "type": "worked-example",
+            "title": "All-angle ratios",
+            "problem": "A ray passes through (−8,6). Find cosθ and cscθ.",
+            "strategy": "Compute r, then use x/r and r/y.",
+            "steps": [
+              "r=√(64+36)=10.",
+              "cosθ=−8/10=−4/5.",
+              "cscθ=10/6=5/3."
+            ],
+            "check": "Quadrant II: cosine negative, cosecant positive."
+          },
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-work-2",
+            "type": "worked-example",
+            "title": "Undefined ratios",
+            "problem": "Evaluate tan90° and sec90°.",
+            "strategy": "At 90° the unit-circle x-coordinate is zero.",
+            "steps": [
+              "At 90°, x=0 and y=1.",
+              "tanθ=y/x and secθ=r/x both divide by zero.",
+              "Both are undefined, not infinite real numbers."
+            ],
+            "check": "cos90°=0, so both quotient and reciprocal fail."
+          }
+        ]
+      },
+      {
+        "id": "unit-circle-evaluating-functions-of-any-angle-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "unit-circle-evaluating-functions-of-any-angle-review"
+        ],
+        "blocks": [
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-tip",
+            "type": "note",
+            "text": "Compute r once; write all six ratios from x, y, and r."
+          },
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If a terminal ray passes through (3,−4), find sinθ.",
+            "answer": "−4/5",
+            "explanation": "r=√(9+16)=5, and sinθ=y/r=−4/5."
+          },
+          {
+            "id": "unit-circle-evaluating-functions-of-any-angle-references",
+            "type": "note",
+            "text": "Reference guide: Lial §1.4; Schaum’s Ch. 2; Kelley Chs. 3–4."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-domain-range-periodicity-and-symmetry": {
+    "id": "trig-graphs-domain-range-periodicity-and-symmetry",
+    "title": "Domain, range, periodicity, and symmetry",
+    "summary": "Identify domains, ranges, periods, parity, and key asymptotes.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-domain-range-periodicity-and-symmetry-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-domain-range-periodicity-and-symmetry-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-definition",
+            "type": "definition",
+            "text": "Sine and cosine are defined on all real inputs, have range [−1,1], and period 2π. Tangent and secant are undefined where cosx=0. Cotangent and cosecant are undefined where sinx=0. A fundamental period is the smallest positive repeat interval."
+          },
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-diagram",
+            "type": "diagram",
+            "diagram": "sine-graph",
+            "caption": "Illustrative diagram: Domain, range, periodicity, and symmetry. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-formula",
+            "type": "formula",
+            "latex": "\\sin(x+2\\pi)=\\sin x,\\quad\\cos(x+2\\pi)=\\cos x,\\quad\\tan(x+\\pi)=\\tan x",
+            "description": "All statements use radian arguments; tangent equality applies where both sides are defined."
+          }
+        ]
+      },
+      {
+        "id": "graphs-domain-range-periodicity-and-symmetry-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-domain-range-periodicity-and-symmetry-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-work-1",
+            "type": "worked-example",
+            "title": "Domain of tangent",
+            "problem": "Find the excluded x-values for tanx.",
+            "strategy": "Use tanx=sinx/cosx.",
+            "steps": [
+              "cosx=0 when x=π/2+kπ, k integer.",
+              "Domain excludes π/2+kπ."
+            ],
+            "check": "Vertical asymptotes occur at these excluded points."
+          },
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-work-2",
+            "type": "worked-example",
+            "title": "Determine parity",
+            "problem": "Classify y=sinx and y=cosx as even or odd.",
+            "strategy": "Compare f(−x) with f(x).",
+            "steps": [
+              "sin(−x)=−sinx, so sine is odd.",
+              "cos(−x)=cosx, so cosine is even."
+            ],
+            "check": "Sine has origin symmetry; cosine has y-axis symmetry."
+          }
+        ]
+      },
+      {
+        "id": "graphs-domain-range-periodicity-and-symmetry-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-domain-range-periodicity-and-symmetry-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-tip",
+            "type": "note",
+            "text": "Periodicity does not make an undefined function value defined."
+          },
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the range of cosx?",
+            "answer": "[−1,1]",
+            "explanation": "Unit-circle x-coordinates always lie between −1 and 1."
+          },
+          {
+            "id": "graphs-domain-range-periodicity-and-symmetry-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.1–4.4; Sullivan §§2.3–2.5; Young Ch. 4."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-sine-and-cosine-graphs": {
+    "id": "trig-graphs-sine-and-cosine-graphs",
+    "title": "Sine and cosine graphs",
+    "summary": "Sketch standard sine and cosine curves from their key points.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-sine-and-cosine-graphs-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-sine-and-cosine-graphs-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-sine-and-cosine-graphs-definition",
+            "type": "definition",
+            "text": "One period of y=sinx has values 0,1,0,−1,0 at x=0,π/2,π,3π/2,2π. Cosine begins at 1 and follows 1,0,−1,0,1. Plot anchors then connect smoothly; they have no sharp corners."
+          },
+          {
+            "id": "graphs-sine-and-cosine-graphs-diagram",
+            "type": "diagram",
+            "diagram": "sine-graph",
+            "caption": "Illustrative diagram: Sine and cosine graphs. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-sine-and-cosine-graphs-formula",
+            "type": "formula",
+            "latex": "y=\\sin x,\\qquad y=\\cos x,\\qquad T=2\\pi",
+            "description": "Inputs on the horizontal axis are radians unless the graph states degrees."
+          }
+        ]
+      },
+      {
+        "id": "graphs-sine-and-cosine-graphs-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-sine-and-cosine-graphs-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-sine-and-cosine-graphs-work-1",
+            "type": "worked-example",
+            "title": "Sine key points",
+            "problem": "Give the five key coordinates of one standard sine period.",
+            "strategy": "Divide the period into four equal parts.",
+            "steps": [
+              "x=0, π/2, π, 3π/2, 2π.",
+              "sinx=0, 1, 0, −1, 0 respectively."
+            ],
+            "check": "The curve returns to y=0 after 2π."
+          },
+          {
+            "id": "graphs-sine-and-cosine-graphs-work-2",
+            "type": "worked-example",
+            "title": "Cosine key points",
+            "problem": "Find cos(3π/2) and cos(2π).",
+            "strategy": "Use horizontal coordinates on the unit circle.",
+            "steps": [
+              "At 3π/2, cosx=0.",
+              "At 2π, cosx=1."
+            ],
+            "check": "These are the fourth and fifth standard cosine anchors."
+          }
+        ]
+      },
+      {
+        "id": "graphs-sine-and-cosine-graphs-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-sine-and-cosine-graphs-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-sine-and-cosine-graphs-tip",
+            "type": "note",
+            "text": "Sine starts at the midline rising; cosine starts at its maximum."
+          },
+          {
+            "id": "graphs-sine-and-cosine-graphs-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is sin(3π/2)?",
+            "answer": "−1",
+            "explanation": "At 270° the unit-circle y-coordinate is −1."
+          },
+          {
+            "id": "graphs-sine-and-cosine-graphs-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.1; Sullivan §2.4; Young Ch. 4; Kelley Ch. 5."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-tangent-and-cotangent-graphs": {
+    "id": "trig-graphs-tangent-and-cotangent-graphs",
+    "title": "Tangent and cotangent graphs",
+    "summary": "Sketch tangent and cotangent graphs with correct periods and asymptotes.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-tangent-and-cotangent-graphs-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-tangent-and-cotangent-graphs-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-definition",
+            "type": "definition",
+            "text": "Tangent y=tanx has period π, zeros at x=kπ and vertical asymptotes at π/2+kπ. Cotangent y=cotx has period π, zeros at π/2+kπ and asymptotes at kπ. Within an interval between asymptotes tangent rises while cotangent falls."
+          },
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-diagram",
+            "type": "diagram",
+            "diagram": "tangent-graph",
+            "caption": "Illustrative diagram: Tangent and cotangent graphs. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-formula",
+            "type": "formula",
+            "latex": "\\tan x=\\frac{\\sin x}{\\cos x},\\quad\\cot x=\\frac{\\cos x}{\\sin x},\\quad T=\\pi",
+            "description": "Exclude points with zero denominator; do not connect graph branches across asymptotes."
+          }
+        ]
+      },
+      {
+        "id": "graphs-tangent-and-cotangent-graphs-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-tangent-and-cotangent-graphs-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-work-1",
+            "type": "worked-example",
+            "title": "Tangent asymptotes",
+            "problem": "Find tangent asymptotes on 0≤x≤2π.",
+            "strategy": "cosx=0 at π/2 and 3π/2.",
+            "steps": [
+              "tanx is undefined when cosx=0.",
+              "Therefore x=π/2 and 3π/2 are vertical asymptotes."
+            ],
+            "check": "tan0=0 and tanπ=0 between branches."
+          },
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-work-2",
+            "type": "worked-example",
+            "title": "Cotangent zeros",
+            "problem": "Find all zeros of cotx in [0,2π].",
+            "strategy": "Set cosx=0 while sinx≠0.",
+            "steps": [
+              "cosx=0 at π/2 and 3π/2.",
+              "sinx is ±1 there, so cotx=0."
+            ],
+            "check": "At 0 and 2π cotx is undefined, not zero."
+          }
+        ]
+      },
+      {
+        "id": "graphs-tangent-and-cotangent-graphs-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-tangent-and-cotangent-graphs-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-tip",
+            "type": "note",
+            "text": "Mark asymptotes first, then zeros; tangent rises and cotangent falls."
+          },
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the fundamental period of tanx?",
+            "answer": "π",
+            "explanation": "tan(x+π)=tanx where tangent is defined."
+          },
+          {
+            "id": "graphs-tangent-and-cotangent-graphs-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.3; Sullivan §2.5; Kelley Ch. 6; Schaum’s Ch. 7."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-secant-and-cosecant-graphs": {
+    "id": "trig-graphs-secant-and-cosecant-graphs",
+    "title": "Secant and cosecant graphs",
+    "summary": "Graph reciprocal trig functions using zeros of sine and cosine.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-secant-and-cosecant-graphs-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-secant-and-cosecant-graphs-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-secant-and-cosecant-graphs-definition",
+            "type": "definition",
+            "text": "The secant curve consists of reciprocal cosine branches; cosecant consists of reciprocal sine branches. Both have ranges (−∞,−1]∪[1,∞). Secant is undefined when cosx=0; cosecant when sinx=0."
+          },
+          {
+            "id": "graphs-secant-and-cosecant-graphs-diagram",
+            "type": "diagram",
+            "diagram": "reciprocal-graph",
+            "caption": "Illustrative diagram: Secant and cosecant graphs. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-secant-and-cosecant-graphs-formula",
+            "type": "formula",
+            "latex": "\\sec x=\\frac1{\\cos x},\\qquad\\csc x=\\frac1{\\sin x}",
+            "description": "At graph points where the denominator is zero, draw asymptotes rather than values at ±∞."
+          }
+        ]
+      },
+      {
+        "id": "graphs-secant-and-cosecant-graphs-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-secant-and-cosecant-graphs-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-secant-and-cosecant-graphs-work-1",
+            "type": "worked-example",
+            "title": "Secant asymptotes",
+            "problem": "Find the asymptotes of secx on [0,2π].",
+            "strategy": "Locate zeros of cosx.",
+            "steps": [
+              "cosx=0 at π/2 and 3π/2.",
+              "secx has vertical asymptotes at those x-values."
+            ],
+            "check": "sec0=1 and secπ=−1, so the branches reach ±1."
+          },
+          {
+            "id": "graphs-secant-and-cosecant-graphs-work-2",
+            "type": "worked-example",
+            "title": "Cosecant extrema",
+            "problem": "Evaluate csc(π/2) and csc(3π/2).",
+            "strategy": "Invert sine values.",
+            "steps": [
+              "sin(π/2)=1, so csc(π/2)=1.",
+              "sin(3π/2)=−1, so csc(3π/2)=−1."
+            ],
+            "check": "No cosecant value has magnitude less than 1."
+          }
+        ]
+      },
+      {
+        "id": "graphs-secant-and-cosecant-graphs-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-secant-and-cosecant-graphs-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-secant-and-cosecant-graphs-tip",
+            "type": "note",
+            "text": "Draw sine or cosine faintly first: reciprocal branches touch ±1 at peaks/troughs."
+          },
+          {
+            "id": "graphs-secant-and-cosecant-graphs-checkpoint",
+            "type": "checkpoint",
+            "prompt": "At what x in [0,2π] is cscx undefined?",
+            "answer": "0, π, and 2π",
+            "explanation": "Sine vanishes at integral multiples of π, so its reciprocal is undefined."
+          },
+          {
+            "id": "graphs-secant-and-cosecant-graphs-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.4; Sullivan §2.5; Young Ch. 4; Kelley Ch. 6."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-amplitude-and-period": {
+    "id": "trig-graphs-amplitude-and-period",
+    "title": "Amplitude and period",
+    "summary": "Extract amplitude and period from a transformed sinusoid.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-amplitude-and-period-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-amplitude-and-period-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-amplitude-and-period-definition",
+            "type": "definition",
+            "text": "For y=A sin(Bx)+D or y=A cos(Bx)+D with nonzero A and B, amplitude is |A|, period is 2π/|B|, and vertical midline is y=D. A negative A reflects the curve rather than giving negative amplitude."
+          },
+          {
+            "id": "graphs-amplitude-and-period-diagram",
+            "type": "diagram",
+            "diagram": "transform-graph",
+            "caption": "Illustrative diagram: Amplitude and period. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-amplitude-and-period-formula",
+            "type": "formula",
+            "latex": "y=A\\sin(Bx)+D:\\quad\\text{amplitude}=|A|,\\quad T=\\frac{2\\pi}{|B|},\\quad\\text{midline}=D",
+            "description": "Amplitude and sinusoidal midline concepts apply to sine/cosine; do not assign tangent an amplitude."
+          }
+        ]
+      },
+      {
+        "id": "graphs-amplitude-and-period-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-amplitude-and-period-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-amplitude-and-period-work-1",
+            "type": "worked-example",
+            "title": "Read a sinusoidal model",
+            "problem": "For y=−3cos(2x)+1, find amplitude and period.",
+            "strategy": "Read A=−3, B=2, D=1.",
+            "steps": [
+              "Amplitude |−3|=3.",
+              "Period T=2π/|2|=π.",
+              "Midline is y=1; reflection comes from A<0."
+            ],
+            "check": "Maximum is 4 and minimum −2, centered on y=1."
+          },
+          {
+            "id": "graphs-amplitude-and-period-work-2",
+            "type": "worked-example",
+            "title": "Angular frequency",
+            "problem": "For v(t)=5sin(100πt), find the frequency in hertz.",
+            "strategy": "Angular coefficient is ω=100π rad/s.",
+            "steps": [
+              "f=ω/(2π)=100π/(2π)=50 Hz.",
+              "Period T=1/f=0.02 s."
+            ],
+            "check": "One cycle takes 20 ms."
+          }
+        ]
+      },
+      {
+        "id": "graphs-amplitude-and-period-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-amplitude-and-period-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-amplitude-and-period-tip",
+            "type": "note",
+            "text": "Always use the absolute value of B in the period."
+          },
+          {
+            "id": "graphs-amplitude-and-period-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the period of y=sin(3x)?",
+            "answer": "2π/3",
+            "explanation": "T=2π/|3|."
+          },
+          {
+            "id": "graphs-amplitude-and-period-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.1; Sullivan §§2.4,2.6; Young Ch. 4; Gibilisco Ch. 9."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-phase-shifts-and-vertical-translations": {
+    "id": "trig-graphs-phase-shifts-and-vertical-translations",
+    "title": "Phase shifts and vertical translations",
+    "summary": "Distinguish horizontal phase shifts from vertical translations.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-phase-shifts-and-vertical-translations-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-phase-shifts-and-vertical-translations-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-definition",
+            "type": "definition",
+            "text": "For y=A sin(B(x−C))+D, the graph shifts horizontally by C and vertically by D, with period 2π/|B|. When written as A sin(Bx+φ)+D, the horizontal shift is −φ/B (assuming B≠0). Distinguish phase angle from time delay."
+          },
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-diagram",
+            "type": "diagram",
+            "diagram": "transform-graph",
+            "caption": "Illustrative diagram: Phase shifts and vertical translations. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-formula",
+            "type": "formula",
+            "latex": "y=A\\sin(Bx+\\phi)+D\\quad\\Rightarrow\\quad x_{\\rm shift}=-\\frac\\phi B,\\quad y_{\\rm midline}=D",
+            "description": "The shift −φ/B carries the units of x (radians for a graph versus seconds for time signals)."
+          }
+        ]
+      },
+      {
+        "id": "graphs-phase-shifts-and-vertical-translations-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-phase-shifts-and-vertical-translations-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-work-1",
+            "type": "worked-example",
+            "title": "Identify a right shift",
+            "problem": "Find the phase shift of y=2sin(x−π/3)+4.",
+            "strategy": "Match sin(x−C).",
+            "steps": [
+              "C=π/3, so shift right by π/3.",
+              "D=4, so midline moves up four units."
+            ],
+            "check": "At x=π/3 the sine argument is zero."
+          },
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-work-2",
+            "type": "worked-example",
+            "title": "Factor the inner coefficient",
+            "problem": "Find the horizontal shift of y=sin(2x+π/2).",
+            "strategy": "Factor 2 from the argument.",
+            "steps": [
+              "2x+π/2=2(x+π/4).",
+              "Shift is left π/4 (equivalently −π/4).",
+              "Period is 2π/2=π."
+            ],
+            "check": "At x=−π/4 the sine argument is zero."
+          }
+        ]
+      },
+      {
+        "id": "graphs-phase-shifts-and-vertical-translations-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-phase-shifts-and-vertical-translations-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-tip",
+            "type": "note",
+            "text": "Factor the coefficient of x before reading the horizontal shift."
+          },
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the horizontal shift of y=cos(3x−π)?",
+            "answer": "Right π/3",
+            "explanation": "3x−π=3(x−π/3)."
+          },
+          {
+            "id": "graphs-phase-shifts-and-vertical-translations-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.2; Sullivan §2.6; Young Ch. 4; Kelley Ch. 5."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-reflections-and-combined-transformations": {
+    "id": "trig-graphs-reflections-and-combined-transformations",
+    "title": "Reflections and combined transformations",
+    "summary": "Combine reflection, stretch, compression and translations in one graph.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-reflections-and-combined-transformations-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-reflections-and-combined-transformations-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-reflections-and-combined-transformations-definition",
+            "type": "definition",
+            "text": "In y=A f(B(x−C))+D, negative A reflects about the horizontal axis before vertical translation; negative B reverses the horizontal input. Sine and cosine combinations may admit equivalent phase-shift descriptions, so report the given chosen form clearly."
+          },
+          {
+            "id": "graphs-reflections-and-combined-transformations-diagram",
+            "type": "diagram",
+            "diagram": "transform-graph",
+            "caption": "Illustrative diagram: Reflections and combined transformations. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-reflections-and-combined-transformations-formula",
+            "type": "formula",
+            "latex": "y=A\\sin(B(x-C))+D,\\qquad \\max y=D+|A|,\\quad\\min y=D-|A|",
+            "description": "The maxima/minima formula assumes sin/cos and A≠0. Horizontal reversal changes orientation but not the period."
+          }
+        ]
+      },
+      {
+        "id": "graphs-reflections-and-combined-transformations-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-reflections-and-combined-transformations-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-reflections-and-combined-transformations-work-1",
+            "type": "worked-example",
+            "title": "Combined transformations",
+            "problem": "Analyze y=−2sin(4(x−π/8))+3.",
+            "strategy": "Read parameters directly from factored form.",
+            "steps": [
+              "|A|=2; A<0 reflects the sine wave vertically.",
+              "B=4, so T=2π/4=π/2.",
+              "C=π/8 is a right shift; D=3 gives midline y=3.",
+              "Range is [1,5]."
+            ],
+            "check": "Midline 3 ± amplitude 2 gives 1 and 5."
+          },
+          {
+            "id": "graphs-reflections-and-combined-transformations-work-2",
+            "type": "worked-example",
+            "title": "Horizontal reversal",
+            "problem": "Simplify y=cos(−2x) and find its period.",
+            "strategy": "Cosine is even.",
+            "steps": [
+              "cos(−2x)=cos(2x).",
+              "Period T=2π/2=π."
+            ],
+            "check": "A cosine reflection across y-axis leaves the graph unchanged."
+          }
+        ]
+      },
+      {
+        "id": "graphs-reflections-and-combined-transformations-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-reflections-and-combined-transformations-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-reflections-and-combined-transformations-tip",
+            "type": "note",
+            "text": "Track each transformation separately: A controls vertical scale/reflection, B period, C horizontal shift, D midline."
+          },
+          {
+            "id": "graphs-reflections-and-combined-transformations-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the range of y=−4cosx+2?",
+            "answer": "[−2,6]",
+            "explanation": "Midline 2 with amplitude 4 gives 2±4."
+          },
+          {
+            "id": "graphs-reflections-and-combined-transformations-references",
+            "type": "note",
+            "text": "Reference guide: Lial §4.2; Young Ch. 4; Sullivan §2.6; Kelley Ch. 5."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-graphs-finding-an-equation-from-a-graph": {
+    "id": "trig-graphs-finding-an-equation-from-a-graph",
+    "title": "Finding an equation from a graph",
+    "summary": "Construct sine or cosine equations from graph features.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "graphs-finding-an-equation-from-a-graph-concept",
+        "title": "Core concept, formulas, and illustration",
+        "objectiveIds": [
+          "graphs-finding-an-equation-from-a-graph-understand"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-definition",
+            "type": "definition",
+            "text": "For sinusoidal data, estimate maximum M, minimum m, period T, and a convenient anchor. Then A=(M−m)/2, D=(M+m)/2, |B|=2π/T. Choose cosine at a maximum or sine at a midline crossing, accounting for phase."
+          },
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-diagram",
+            "type": "diagram",
+            "diagram": "transform-graph",
+            "caption": "Illustrative diagram: Finding an equation from a graph. Use the specific problem data when solving."
+          },
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-formula",
+            "type": "formula",
+            "latex": "A=\\frac{M-m}{2},\\quad D=\\frac{M+m}{2},\\quad |B|=\\frac{2\\pi}{T}",
+            "description": "Different sinusoidal equations may represent the same curve; check key points and the stated time/angle units."
+          }
+        ]
+      },
+      {
+        "id": "graphs-finding-an-equation-from-a-graph-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "graphs-finding-an-equation-from-a-graph-solve"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-work-1",
+            "type": "worked-example",
+            "title": "Model from a maximum",
+            "problem": "A curve has max 7, min 1, period π, and a maximum at x=0. Give a cosine equation.",
+            "strategy": "Compute amplitude 3 and midline 4.",
+            "steps": [
+              "A=(7−1)/2=3; D=(7+1)/2=4.",
+              "B=2π/π=2.",
+              "y=3cos(2x)+4."
+            ],
+            "check": "y(0)=7 and y(π/2)=1."
+          },
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-work-2",
+            "type": "worked-example",
+            "title": "Model a rising midline crossing",
+            "problem": "A sinusoid crosses y=1 rising at x=0; amplitude 2, period 4π. Find a sine model.",
+            "strategy": "A=2, D=1, B=2π/(4π)=1/2.",
+            "steps": [
+              "Start from y=A sin(Bx)+D.",
+              "Use A=2, B=1/2, D=1.",
+              "y=2sin(x/2)+1."
+            ],
+            "check": "At x=0, y=1 and derivative is positive."
+          }
+        ]
+      },
+      {
+        "id": "graphs-finding-an-equation-from-a-graph-check",
+        "title": "Common mistakes, checkpoint, and references",
+        "objectiveIds": [
+          "graphs-finding-an-equation-from-a-graph-review"
+        ],
+        "blocks": [
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-tip",
+            "type": "note",
+            "text": "Use a positive A when possible by choosing a convenient starting maximum or rising midline."
+          },
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-checkpoint",
+            "type": "checkpoint",
+            "prompt": "A sinusoid has max 9 and min 3. What is its amplitude?",
+            "answer": "3",
+            "explanation": "Amplitude is half the vertical span: (9−3)/2=3."
+          },
+          {
+            "id": "graphs-finding-an-equation-from-a-graph-references",
+            "type": "note",
+            "text": "Reference guide: Lial §§4.1–4.2; Sullivan §2.6; Young Ch. 4; Kelley Ch. 5."
+          }
+        ]
+      }
+    ]
+  }
+}

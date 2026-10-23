@@ -1,0 +1,561 @@
+[
+  {
+    "test_id": "SMQ-001",
+    "formula_id": "SMF-001",
+    "scenario": "Cuboid diagonal (3,4,12)",
+    "inputs": [
+      3,
+      4,
+      12,
+      null
+    ],
+    "expected_result": 13.0,
+    "expected_note": "13 length"
+  },
+  {
+    "test_id": "SMQ-002",
+    "formula_id": "SMF-002",
+    "scenario": "Convex cube Euler (8,12,6)",
+    "inputs": [
+      8,
+      12,
+      6,
+      null
+    ],
+    "expected_result": 2,
+    "expected_note": "2 dimensionless"
+  },
+  {
+    "test_id": "SMQ-003",
+    "formula_id": "SMF-007",
+    "scenario": "Prism volume base 14 height 8",
+    "inputs": [
+      14,
+      8,
+      null,
+      null
+    ],
+    "expected_result": 112,
+    "expected_note": "112 m³"
+  },
+  {
+    "test_id": "SMQ-004",
+    "formula_id": "SMF-008",
+    "scenario": "Right prism perimeter 18 height 5",
+    "inputs": [
+      18,
+      5,
+      null,
+      null
+    ],
+    "expected_result": 90,
+    "expected_note": "90 m²"
+  },
+  {
+    "test_id": "SMQ-005",
+    "formula_id": "SMF-010",
+    "scenario": "Cuboid volume 3,4,5",
+    "inputs": [
+      3,
+      4,
+      5,
+      null
+    ],
+    "expected_result": 60,
+    "expected_note": "60"
+  },
+  {
+    "test_id": "SMQ-006",
+    "formula_id": "SMF-011",
+    "scenario": "Cuboid total surface 3,4,5",
+    "inputs": [
+      3,
+      4,
+      5,
+      null
+    ],
+    "expected_result": 94,
+    "expected_note": "94"
+  },
+  {
+    "test_id": "SMQ-007",
+    "formula_id": "SMF-015",
+    "scenario": "Cylinder radius 2 height 7",
+    "inputs": [
+      2,
+      7,
+      null,
+      null
+    ],
+    "expected_result": 87.96459430051421,
+    "expected_note": "28π"
+  },
+  {
+    "test_id": "SMQ-008",
+    "formula_id": "SMF-016",
+    "scenario": "Right cylinder lateral radius 2 height 7",
+    "inputs": [
+      2,
+      7,
+      null,
+      null
+    ],
+    "expected_result": 87.96459430051421,
+    "expected_note": "28π"
+  },
+  {
+    "test_id": "SMQ-009",
+    "formula_id": "SMF-018",
+    "scenario": "Annulus outer 5 inner 3 length 7",
+    "inputs": [
+      5,
+      3,
+      7,
+      null
+    ],
+    "expected_result": 351.85837720205683,
+    "expected_note": "112π"
+  },
+  {
+    "test_id": "SMQ-010",
+    "formula_id": "SMF-019",
+    "scenario": "Open pipe material exposed area",
+    "inputs": [
+      5,
+      3,
+      7,
+      null
+    ],
+    "expected_result": 452.3893421169302,
+    "expected_note": "144π"
+  },
+  {
+    "test_id": "SMQ-011",
+    "formula_id": "SMF-021",
+    "scenario": "Pyramid base 45 height 8",
+    "inputs": [
+      45,
+      8,
+      null,
+      null
+    ],
+    "expected_result": 120.0,
+    "expected_note": "120"
+  },
+  {
+    "test_id": "SMQ-012",
+    "formula_id": "SMF-023",
+    "scenario": "Regular pyramid perimeter 24 slant 5",
+    "inputs": [
+      24,
+      5,
+      null,
+      null
+    ],
+    "expected_result": 60.0,
+    "expected_note": "60"
+  },
+  {
+    "test_id": "SMQ-013",
+    "formula_id": "SMF-025",
+    "scenario": "Circular cone radius 3 height 8",
+    "inputs": [
+      3,
+      8,
+      null,
+      null
+    ],
+    "expected_result": 75.39822368615503,
+    "expected_note": "24π"
+  },
+  {
+    "test_id": "SMQ-014",
+    "formula_id": "SMF-026",
+    "scenario": "Cone slant radius 3 height 4",
+    "inputs": [
+      3,
+      4,
+      null,
+      null
+    ],
+    "expected_result": 5.0,
+    "expected_note": "5"
+  },
+  {
+    "test_id": "SMQ-015",
+    "formula_id": "SMF-027",
+    "scenario": "Cone lateral radius 3 slant 5",
+    "inputs": [
+      3,
+      5,
+      null,
+      null
+    ],
+    "expected_result": 47.12388980384689,
+    "expected_note": "15π"
+  },
+  {
+    "test_id": "SMQ-016",
+    "formula_id": "SMF-029",
+    "scenario": "Frustum volume R=5 r=2 h=9",
+    "inputs": [
+      5,
+      2,
+      9,
+      null
+    ],
+    "expected_result": 367.5663404700058,
+    "expected_note": "117π"
+  },
+  {
+    "test_id": "SMQ-017",
+    "formula_id": "SMF-030",
+    "scenario": "Frustum slant R=5 r=2 h=4",
+    "inputs": [
+      5,
+      2,
+      4,
+      null
+    ],
+    "expected_result": 5.0,
+    "expected_note": "5"
+  },
+  {
+    "test_id": "SMQ-018",
+    "formula_id": "SMF-031",
+    "scenario": "Frustum lateral R=5 r=2 slant=5",
+    "inputs": [
+      5,
+      2,
+      5,
+      null
+    ],
+    "expected_result": 109.95574287564276,
+    "expected_note": "35π"
+  },
+  {
+    "test_id": "SMQ-019",
+    "formula_id": "SMF-033",
+    "scenario": "Square frustum areas 100,36 height 12",
+    "inputs": [
+      100,
+      36,
+      12,
+      null
+    ],
+    "expected_result": 784.0,
+    "expected_note": "784"
+  },
+  {
+    "test_id": "SMQ-020",
+    "formula_id": "SMF-036",
+    "scenario": "Sphere area R=3",
+    "inputs": [
+      3,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 113.09733552923255,
+    "expected_note": "36π"
+  },
+  {
+    "test_id": "SMQ-021",
+    "formula_id": "SMF-037",
+    "scenario": "Sphere volume R=3",
+    "inputs": [
+      3,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 113.09733552923255,
+    "expected_note": "36π"
+  },
+  {
+    "test_id": "SMQ-022",
+    "formula_id": "SMF-039",
+    "scenario": "Hemisphere closed area R=3",
+    "inputs": [
+      3,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 84.82300164692441,
+    "expected_note": "27π"
+  },
+  {
+    "test_id": "SMQ-023",
+    "formula_id": "SMF-040",
+    "scenario": "Hemisphere volume R=3",
+    "inputs": [
+      3,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 56.548667764616276,
+    "expected_note": "18π"
+  },
+  {
+    "test_id": "SMQ-024",
+    "formula_id": "SMF-043",
+    "scenario": "Spherical cap area R=5 h=2",
+    "inputs": [
+      5,
+      2,
+      null,
+      null
+    ],
+    "expected_result": 62.83185307179586,
+    "expected_note": "20π"
+  },
+  {
+    "test_id": "SMQ-025",
+    "formula_id": "SMF-044",
+    "scenario": "Spherical cap volume R=5 h=2",
+    "inputs": [
+      5,
+      2,
+      null,
+      null
+    ],
+    "expected_result": 54.454272662223076,
+    "expected_note": "52π/3"
+  },
+  {
+    "test_id": "SMQ-026",
+    "formula_id": "SMF-045",
+    "scenario": "Cap base radius squared R=5 h=2",
+    "inputs": [
+      5,
+      2,
+      null,
+      null
+    ],
+    "expected_result": 16,
+    "expected_note": "16"
+  },
+  {
+    "test_id": "SMQ-027",
+    "formula_id": "SMF-047",
+    "scenario": "Spherical segment r1=4 r2=3 h=2",
+    "inputs": [
+      4,
+      3,
+      2,
+      null
+    ],
+    "expected_result": 82.72860654453122,
+    "expected_note": "79π/3"
+  },
+  {
+    "test_id": "SMQ-028",
+    "formula_id": "SMF-048",
+    "scenario": "Spherical sector R=5 cap h=2",
+    "inputs": [
+      5,
+      2,
+      null,
+      null
+    ],
+    "expected_result": 104.71975511965978,
+    "expected_note": "100π/3"
+  },
+  {
+    "test_id": "SMQ-029",
+    "formula_id": "SMF-050",
+    "scenario": "Regular tetrahedron volume edge=6",
+    "inputs": [
+      6,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 25.455844122715707,
+    "expected_note": "18sqrt2"
+  },
+  {
+    "test_id": "SMQ-030",
+    "formula_id": "SMF-052",
+    "scenario": "Regular octahedron volume edge=3",
+    "inputs": [
+      3,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 12.727922061357857,
+    "expected_note": "9sqrt2"
+  },
+  {
+    "test_id": "SMQ-031",
+    "formula_id": "SMF-053",
+    "scenario": "Ellipsoid semiaxes 2,3,4",
+    "inputs": [
+      2,
+      3,
+      4,
+      null
+    ],
+    "expected_result": 100.53096491487338,
+    "expected_note": "32π"
+  },
+  {
+    "test_id": "SMQ-032",
+    "formula_id": "SMF-055",
+    "scenario": "Ring torus V major=5 minor=2",
+    "inputs": [
+      5,
+      2,
+      null,
+      null
+    ],
+    "expected_result": 394.78417604357435,
+    "expected_note": "40π²"
+  },
+  {
+    "test_id": "SMQ-033",
+    "formula_id": "SMF-056",
+    "scenario": "Ring torus S major=5 minor=2",
+    "inputs": [
+      5,
+      2,
+      null,
+      null
+    ],
+    "expected_result": 394.78417604357435,
+    "expected_note": "40π²"
+  },
+  {
+    "test_id": "SMQ-034",
+    "formula_id": "SMF-059",
+    "scenario": "Similar area scale=3 original area 7",
+    "inputs": [
+      3,
+      7,
+      null,
+      null
+    ],
+    "expected_result": 63,
+    "expected_note": "63"
+  },
+  {
+    "test_id": "SMQ-035",
+    "formula_id": "SMF-060",
+    "scenario": "Similar volume scale=3 original 7",
+    "inputs": [
+      3,
+      7,
+      null,
+      null
+    ],
+    "expected_result": 189,
+    "expected_note": "189"
+  },
+  {
+    "test_id": "SMQ-036",
+    "formula_id": "SMF-065",
+    "scenario": "Quadratic sections A0=9 Am=16 Ah=25 h=12",
+    "inputs": [
+      9,
+      16,
+      25,
+      12
+    ],
+    "expected_result": 196.0,
+    "expected_note": "196"
+  },
+  {
+    "test_id": "SMQ-037",
+    "formula_id": "SMF-065",
+    "scenario": "Prismoid constant area 9 height 12",
+    "inputs": [
+      9,
+      9,
+      9,
+      12
+    ],
+    "expected_result": 108,
+    "expected_note": "108"
+  },
+  {
+    "test_id": "SMQ-038",
+    "formula_id": "SMF-066",
+    "scenario": "Pappus torus volume area=πr² r=2 d=5",
+    "inputs": [
+      2,
+      5,
+      null,
+      null
+    ],
+    "expected_result": 394.78417604357435,
+    "expected_note": "40π²"
+  },
+  {
+    "test_id": "SMQ-039",
+    "formula_id": "SMF-067",
+    "scenario": "Pappus torus surface length=2πr r=2 d=5",
+    "inputs": [
+      2,
+      5,
+      null,
+      null
+    ],
+    "expected_result": 394.78417604357435,
+    "expected_note": "40π²"
+  },
+  {
+    "test_id": "SMQ-040",
+    "formula_id": "SMF-068",
+    "scenario": "3.75 cubic meters to liters",
+    "inputs": [
+      3.75,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 3750.0,
+    "expected_note": "3750 liters"
+  },
+  {
+    "test_id": "SMQ-041",
+    "formula_id": "SMF-069",
+    "scenario": "Pipe mass density=7850 volume=.01",
+    "inputs": [
+      7850,
+      0.01,
+      null,
+      null
+    ],
+    "expected_result": 78.5,
+    "expected_note": "78.5 kg"
+  },
+  {
+    "test_id": "SMQ-042",
+    "formula_id": "SMF-071",
+    "scenario": "Optimal closed cylinder h=2r r=3",
+    "inputs": [
+      3,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 6,
+    "expected_note": "h=6"
+  },
+  {
+    "test_id": "SMQ-043",
+    "formula_id": "SMF-072",
+    "scenario": "Optimal closed cylinder radius at V=54π",
+    "inputs": [
+      169.64600329384882,
+      null,
+      null,
+      null
+    ],
+    "expected_result": 3.0,
+    "expected_note": "3"
+  }
+]

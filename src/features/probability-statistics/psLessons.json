@@ -1,0 +1,1563 @@
+[
+  {
+    "id": "PS01-01",
+    "moduleId": "PS01",
+    "title": "Populations, samples & data collection",
+    "summary": "A population is the full group of interest; a sample is an observed subset. Sampling plans affect representativeness.",
+    "concept": "A population is the full group of interest; a sample is an observed subset. Sampling plans affect representativeness.",
+    "method": "Specify the target population, selection process, and observation type before calculating a statistic.",
+    "guardrail": "A large convenience sample can still be biased.",
+    "latex": "n_{\\mathrm{sample}}=\\sum_i f_i",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1"
+  },
+  {
+    "id": "PS01-02",
+    "moduleId": "PS01",
+    "title": "Mean and median",
+    "summary": "The sample mean uses all observations; the median is the middle ordered value and resists extreme observations.",
+    "concept": "The sample mean uses all observations; the median is the middle ordered value and resists extreme observations.",
+    "method": "Compute the mean as the sum divided by n; order observations before locating the median.",
+    "guardrail": "The median of an even-sized sample averages the two central observations.",
+    "latex": "\\bar{x}=\\frac{1}{n}\\sum_{i=1}^n x_i",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1"
+  },
+  {
+    "id": "PS01-03",
+    "moduleId": "PS01",
+    "title": "Sample variance and standard deviation",
+    "summary": "Sample variance describes squared spread about the sample mean using n−1 in the denominator.",
+    "concept": "Sample variance describes squared spread about the sample mean using n−1 in the denominator.",
+    "method": "Find the mean, total squared deviations, then divide by n−1 and square-root for s.",
+    "guardrail": "Distinguish the sample estimator s² from population variance σ².",
+    "latex": "s^2=\\frac{\\sum(x_i-\\bar x)^2}{n-1}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1"
+  },
+  {
+    "id": "PS01-04",
+    "moduleId": "PS01",
+    "title": "Frequency tables and charts",
+    "summary": "Frequency is a count; relative frequency is a proportion of all observations. Histograms summarize numerical distributions.",
+    "concept": "Frequency is a count; relative frequency is a proportion of all observations. Histograms summarize numerical distributions.",
+    "method": "For a category, divide its frequency by the grand total.",
+    "guardrail": "Relative frequencies sum to one when categories partition all observations.",
+    "latex": "f_{\\mathrm{relative}}=\\frac{f}{n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1"
+  },
+  {
+    "id": "PS02-01",
+    "moduleId": "PS02",
+    "title": "Fundamental counting principle",
+    "summary": "If a process has successive independent choices with m and n options, the product counts ordered outcomes.",
+    "concept": "The fundamental counting principle multiplies the number of available choices at successive stages when each partial outcome has the stated number of continuations. It does not require statistically independent random events.",
+    "method": "List the stages in order and multiply their available choice counts. If later counts depend on earlier choices, split into cases or use a counting tree rather than multiplying fixed factors indiscriminately.",
+    "guardrail": "Do not confuse the multiplication principle for counts with independence of probability events. Confirm that stage counts are valid for every partial outcome, or partition into cases.",
+    "latex": "N=\\prod_{i=1}^{k} n_i",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.; Balakrishnan, Schaum's Combinatorics"
+  },
+  {
+    "id": "PS02-02",
+    "moduleId": "PS02",
+    "title": "Factorials and permutations",
+    "summary": "A permutation counts arrangements when order matters. Without replacement, each chosen position reduces remaining choices.",
+    "concept": "A permutation counts arrangements when order matters. Without replacement, each chosen position reduces remaining choices.",
+    "method": "Use n!/(n−r)! for r ordered positions chosen from n distinct items.",
+    "guardrail": "Do not use permutations when order is irrelevant.",
+    "latex": "{}_nP_r=\\frac{n!}{(n-r)!}",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.; Balakrishnan, Schaum's Combinatorics"
+  },
+  {
+    "id": "PS02-03",
+    "moduleId": "PS02",
+    "title": "Combinations",
+    "summary": "A combination counts selections in which order does not matter.",
+    "concept": "The number of combinations of n distinct objects selected r at a time is n!/[r!(n−r)!]. Two selections differing only in order count as the same outcome.",
+    "method": "Divide the permutation count by r! arrangements per selected group.",
+    "guardrail": "For distinct items with 0≤r≤n, nCr=nC(n−r).",
+    "latex": "\\binom nr=\\frac{n!}{r!(n-r)!}",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.; Balakrishnan, Schaum's Combinatorics"
+  },
+  {
+    "id": "PS02-04",
+    "moduleId": "PS02",
+    "title": "Restricted counting and complements",
+    "summary": "Counting constraints often become easier by subtracting forbidden cases from all possible cases.",
+    "concept": "Counting constraints often become easier by subtracting forbidden cases from all possible cases.",
+    "method": "Count the unrestricted configurations, then subtract invalid configurations without overlap.",
+    "guardrail": "Count the forbidden UNION correctly: if invalid categories overlap, apply inclusion–exclusion before subtracting from the total. All and valid cases must use the same outcome universe.",
+    "latex": "N_{\\mathrm{valid}}=N_{\\mathrm{all}}-N_{\\mathrm{invalid}}",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.; Balakrishnan, Schaum's Combinatorics"
+  },
+  {
+    "id": "PS03-01",
+    "moduleId": "PS03",
+    "title": "Events and addition rule",
+    "summary": "Probability ranges between zero and one. When events overlap, subtract their intersection from the union total.",
+    "concept": "Probability ranges between zero and one. When events overlap, subtract their intersection from the union total.",
+    "method": "Compute the individual probabilities and their intersection; then subtract the overlap exactly once when finding the union.",
+    "guardrail": "Do not omit overlap unless the events are mutually exclusive.",
+    "latex": "P(A\\cup B)=P(A)+P(B)-P(A\\cap B)",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner; Lipschutz, Schaum's Probability"
+  },
+  {
+    "id": "PS03-02",
+    "moduleId": "PS03",
+    "title": "Conditional probability and independence",
+    "summary": "Conditional probability updates an event probability after observing another event. Independence requires P(A∩B)=P(A)P(B).",
+    "concept": "Conditional probability updates an event probability after observing another event. Independence requires P(A∩B)=P(A)P(B).",
+    "method": "Divide the joint probability by the conditioning event probability, provided it is positive.",
+    "guardrail": "Do not confuse independence with mutual exclusivity.",
+    "latex": "P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner; Lipschutz, Schaum's Probability"
+  },
+  {
+    "id": "PS03-03",
+    "moduleId": "PS03",
+    "title": "Law of total probability and Bayes",
+    "summary": "Bayes’ theorem reverses conditioning using prior probabilities and likelihoods.",
+    "concept": "Bayes’ theorem reverses conditioning using prior probabilities and likelihoods. The normalizing evidence sums positive-test probabilities across all exclusive exhaustive cases.",
+    "method": "Compute the evidence as a weighted sum over exclusive exhaustive cases.",
+    "guardrail": "A positive test is not the same as certainty of the condition.",
+    "latex": "P(D\\mid +)=\\frac{P(+\\mid D)P(D)}{P(+\\mid D)P(D)+P(+\\mid \\neg D)P(\\neg D)}",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner; Lipschutz, Schaum's Probability"
+  },
+  {
+    "id": "PS03-04",
+    "moduleId": "PS03",
+    "title": "System reliability with independent components",
+    "summary": "Series systems need every component to work; independent component reliabilities multiply.",
+    "concept": "Series systems need every component to work; independent component reliabilities multiply.",
+    "method": "Identify series versus parallel and independence assumptions. For independent parallel components with perfect coverage, use R_parallel=1−∏(1−Rᵢ). A standby architecture needs switching/coverage reliability to be specified.",
+    "guardrail": "Do not multiply reliabilities when common-cause failures make components dependent. True standby redundancy may depend on switching, detection and common-mode faults; the ideal parallel formula alone is insufficient.",
+    "latex": "R_{\\mathrm{series}}=\\prod_i R_i",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner; Lipschutz, Schaum's Probability"
+  },
+  {
+    "id": "PS04-01",
+    "moduleId": "PS04",
+    "title": "Discrete random variables and expectation",
+    "summary": "A probability mass function assigns nonnegative probabilities summing to 1. Expected value is the probability-weighted averag",
+    "concept": "A probability mass function assigns nonnegative probabilities summing to 1. Expected value is the probability-weighted average.",
+    "method": "Multiply each outcome by its probability and sum.",
+    "guardrail": "Do not assume expected value must be one of the possible outcomes.",
+    "latex": "E[X]=\\sum_x x\\,p(x)",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6"
+  },
+  {
+    "id": "PS04-02",
+    "moduleId": "PS04",
+    "title": "Binomial distribution",
+    "summary": "Binomial X counts successes in n independent Bernoulli trials with constant success probability p.",
+    "concept": "Binomial X counts successes in n independent Bernoulli trials with constant success probability p.",
+    "method": "Use the binomial PMF and check independence and constant p.",
+    "guardrail": "Trials must be independent with two outcomes under the model.",
+    "latex": "P(X=k)=\\binom nk p^k(1-p)^{n-k}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6"
+  },
+  {
+    "id": "PS04-03",
+    "moduleId": "PS04",
+    "title": "Poisson counts",
+    "summary": "Poisson distributions model counts over specified intervals with an assumed constant mean rate.",
+    "concept": "Poisson distributions model counts over specified intervals with an assumed constant mean rate.",
+    "method": "For a given mean rate λ per interval and count k, evaluate the exponential term e^(−λ) and divide λ^k by k!.",
+    "guardrail": "A Poisson model requires a suitable independent-event, constant-rate assumption.",
+    "latex": "P(X=k)=e^{-\\lambda}\\frac{\\lambda^k}{k!}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6"
+  },
+  {
+    "id": "PS04-04",
+    "moduleId": "PS04",
+    "title": "Normal distribution and z-scores",
+    "summary": "Normal distributions are symmetric; standardization converts x into its z-score relative to mean and standard deviation.",
+    "concept": "Normal distributions are symmetric; standardization converts x into its z-score relative to mean and standard deviation.",
+    "method": "Subtract the mean and divide by the positive standard deviation.",
+    "guardrail": "A z-score is not a probability; a normal table or CDF is needed for tail areas.",
+    "latex": "z=\\frac{x-\\mu}{\\sigma}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6"
+  },
+  {
+    "id": "PS05-01",
+    "moduleId": "PS05",
+    "title": "Sampling distributions and standard error",
+    "summary": "A sample mean varies from sample to sample. For iid observations its standard error is σ/√n when σ is known.",
+    "concept": "A sample mean varies from sample to sample. For iid observations its standard error is σ/√n when σ is known.",
+    "method": "Use the population standard deviation divided by sqrt of sample size.",
+    "guardrail": "Do not confuse the standard deviation of raw observations with the standard error of a mean.",
+    "latex": "\\operatorname{SE}(\\bar X)=\\frac{\\sigma}{\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 6–8; Walpole et al., 9th ed., Chs. 8–9"
+  },
+  {
+    "id": "PS05-02",
+    "moduleId": "PS05",
+    "title": "Normal-based confidence intervals",
+    "summary": "When the sampling assumptions hold and σ is known, use xbar ± z*σ/√n for a confidence interval for μ.",
+    "concept": "When the sampling assumptions hold and σ is known, use xbar ± z*σ/√n for a confidence interval for μ.",
+    "method": "Find the standard error, margin of error and interval endpoints.",
+    "guardrail": "A 95% frequentist interval is a procedure with 95% long-run coverage, not a probability statement about a fixed μ.",
+    "latex": "\\bar x\\pm z_{\\alpha/2}\\frac{\\sigma}{\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 6–8; Walpole et al., 9th ed., Chs. 8–9"
+  },
+  {
+    "id": "PS05-03",
+    "moduleId": "PS05",
+    "title": "Student t intervals",
+    "summary": "For a normal population with unknown σ, use s and the appropriate Student t critical value with n−1 degrees of freedom.",
+    "concept": "For a normal population with unknown σ, use s and the appropriate Student t critical value with n−1 degrees of freedom.",
+    "method": "Compute the sample standard error s/√n and multiply by the relevant t critical value with n−1 degrees of freedom.",
+    "guardrail": "With very small n, assess the normality assumption and sensitivity to outliers.",
+    "latex": "\\bar x\\pm t_{\\alpha/2,n-1}\\frac{s}{\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 6–8; Walpole et al., 9th ed., Chs. 8–9"
+  },
+  {
+    "id": "PS05-04",
+    "moduleId": "PS05",
+    "title": "Sample-size planning",
+    "summary": "For a target normal-mean margin E with known σ, n must be at least (z*σ/E)^2. Round upward.",
+    "concept": "For a target normal-mean margin E with known σ, n must be at least (z*σ/E)^2. Round upward.",
+    "method": "Calculate the raw sample-size requirement and round up to the next integer.",
+    "guardrail": "Assumed σ and independent random observations should be realistic.",
+    "latex": "n\\ge\\left(\\frac{z_{\\alpha/2}\\sigma}{E}\\right)^2",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 6–8; Walpole et al., 9th ed., Chs. 8–9"
+  },
+  {
+    "id": "PS06-01",
+    "moduleId": "PS06",
+    "title": "Null hypotheses and z-tests",
+    "summary": "A hypothesis test evaluates evidence against a null claim under a statistical model. A z-test for a mean requires justified k",
+    "concept": "A hypothesis test evaluates evidence against a null claim under a statistical model. A z-test for a mean requires justified known σ or an appropriate approximation.",
+    "method": "Compute z=(xbar−μ0)/(σ/√n), then apply the prespecified alternative and significance level.",
+    "guardrail": "Never equate failure to reject with proof that H0 is true.",
+    "latex": "z=\\frac{\\bar x-\\mu_0}{\\sigma/\\sqrt{n}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 9–10; Walpole et al., 9th ed., Ch. 10"
+  },
+  {
+    "id": "PS06-02",
+    "moduleId": "PS06",
+    "title": "One-sample t statistic",
+    "summary": "When σ is unknown, the one-sample t statistic uses sample standard deviation and n−1 degrees of freedom.",
+    "concept": "When σ is unknown, the one-sample t statistic uses sample standard deviation and n−1 degrees of freedom.",
+    "method": "Subtract hypothesized mean and divide by s/√n.",
+    "guardrail": "Assumptions matter, especially for small samples.",
+    "latex": "t=\\frac{\\bar x-\\mu_0}{s/\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 9–10; Walpole et al., 9th ed., Ch. 10"
+  },
+  {
+    "id": "PS06-03",
+    "moduleId": "PS06",
+    "title": "Errors, significance and p-values",
+    "summary": "Type I error rejects a true null, with probability α under the standard test design. A p-value measures extremeness assuming ",
+    "concept": "A Type I error rejects a true null hypothesis. Under a properly calibrated level-α test, the probability of a Type I error is at most α (often exactly α for a continuous null distribution with an exact critical value). A p-value measures compatibility with the null model, not the probability that the null is true.",
+    "method": "Compare p-value to prespecified α, but also assess effect size and assumptions.",
+    "guardrail": "A level-α test controls the Type I error probability at or below α when its assumptions and rejection rule are valid. Discrete tests can be conservative. A p-value is not P(H₀ is true), and failure to reject does not demonstrate equivalence.",
+    "latex": "\\text{reject }H_0\\text{ when }p\\le\\alpha",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 9–10; Walpole et al., 9th ed., Ch. 10"
+  },
+  {
+    "id": "PS06-04",
+    "moduleId": "PS06",
+    "title": "Chi-square tests for contingency tables",
+    "summary": "The chi-square statistic aggregates (observed−expected)^2/expected across table cells. For independence, E=row total×column t",
+    "concept": "The chi-square statistic aggregates (observed−expected)^2/expected across table cells. For independence, E=row total×column total / grand total.",
+    "method": "Compute expected counts using marginal totals; compare the statistic with an appropriate chi-square reference.",
+    "guardrail": "Small expected cell counts can invalidate the usual asymptotic approximation.",
+    "latex": "E_{ij}=\\frac{R_i C_j}{N}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 9–10; Walpole et al., 9th ed., Ch. 10"
+  },
+  {
+    "id": "PS07-01",
+    "moduleId": "PS07",
+    "title": "Correlation coefficients",
+    "summary": "Pearson correlation measures standardized linear association and ranges from −1 to +1.",
+    "concept": "For paired quantitative measurements with nonzero sample variation in both variables, Pearson correlation measures standardized linear association and ranges from −1 to +1.",
+    "method": "Inspect the scatterplot and compute normalized covariance for quantitative variables.",
+    "guardrail": "Pearson r is undefined when either measured variable has zero sample variance. Correlation does not establish causality or describe nonlinear fit; inspect a scatterplot and influential points.",
+    "latex": "r=\\frac{\\sum(x_i-\\bar x)(y_i-\\bar y)}{\\sqrt{\\sum(x_i-\\bar x)^2\\sum(y_i-\\bar y)^2}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 11–12; Walpole et al., 9th ed., Chs. 11–12"
+  },
+  {
+    "id": "PS07-02",
+    "moduleId": "PS07",
+    "title": "Least-squares regression line",
+    "summary": "For simple linear regression, b₁=Sxy/Sxx and b₀=ybar−b₁ xbar. The fitted line predicts mean response.",
+    "concept": "For simple linear regression, b₁=Sxy/Sxx and b₀=ybar−b₁ xbar. The fitted line predicts mean response.",
+    "method": "Compute means, centered sums and coefficients, then inspect residuals.",
+    "guardrail": "Do not extrapolate far beyond observed predictor values without a justified model.",
+    "latex": "\\hat y=b_0+b_1x",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 11–12; Walpole et al., 9th ed., Chs. 11–12"
+  },
+  {
+    "id": "PS07-03",
+    "moduleId": "PS07",
+    "title": "Prediction and residuals",
+    "summary": "Residual equals observed response minus fitted response. Residual patterns help diagnose model misspecification.",
+    "concept": "Residual equals observed response minus fitted response. Residual patterns help diagnose model misspecification.",
+    "method": "Substitute the predictor into the fitted model and subtract prediction from observation.",
+    "guardrail": "A prediction interval is wider than a mean-response confidence interval at the same x in the usual model.",
+    "latex": "e_i=y_i-\\hat y_i",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 11–12; Walpole et al., 9th ed., Chs. 11–12"
+  },
+  {
+    "id": "PS07-04",
+    "moduleId": "PS07",
+    "title": "Inference and interpretation",
+    "summary": "Regression p-values and confidence intervals require model assumptions. Statistical significance need not imply a practically",
+    "concept": "Regression p-values and confidence intervals require model assumptions. Statistical significance need not imply a practically useful calibration.",
+    "method": "Differentiate correlation, slope, intercept, uncertainty and prediction range.",
+    "guardrail": "Do not report causation from observational regression alone.",
+    "latex": "R^2=1-\\frac{SS_{\\mathrm{res}}}{SS_{\\mathrm{tot}}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 11–12; Walpole et al., 9th ed., Chs. 11–12"
+  },
+  {
+    "id": "PS08-01",
+    "moduleId": "PS08",
+    "title": "Experimental units, factors and randomization",
+    "summary": "Factors are controlled inputs; levels are their chosen settings. Random allocation reduces systematic confounding.",
+    "concept": "Factors are controlled inputs; levels are their chosen settings. Random allocation reduces systematic confounding.",
+    "method": "Identify experimental units, manipulated factors, response and randomization.",
+    "guardrail": "Repeated readings from one unit are not automatically independent experimental replications.",
+    "latex": "N_{\\mathrm{combinations}}=\\prod_i L_i",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 13–14; Walpole et al., 9th ed., Chs. 13–15"
+  },
+  {
+    "id": "PS08-02",
+    "moduleId": "PS08",
+    "title": "Replication and one-way ANOVA",
+    "summary": "One-way ANOVA compares group means by partitioning between- and within-group variability. The F ratio uses mean squares.",
+    "concept": "One-way ANOVA compares group means by partitioning between- and within-group variability. The F ratio uses mean squares.",
+    "method": "Compute factor and error mean squares, then their ratio.",
+    "guardrail": "ANOVA inference depends on design, independence and appropriate residual behavior.",
+    "latex": "F=\\frac{MS_{\\mathrm{between}}}{MS_{\\mathrm{within}}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 13–14; Walpole et al., 9th ed., Chs. 13–15"
+  },
+  {
+    "id": "PS08-03",
+    "moduleId": "PS08",
+    "title": "Blocking and randomized complete blocks",
+    "summary": "Blocking groups similar experimental units so known nuisance variation is separated from treatment differences.",
+    "concept": "Blocking groups similar experimental units so known nuisance variation is separated from treatment differences.",
+    "method": "Arrange every treatment within each complete block and randomize the treatments within blocks.",
+    "guardrail": "Blocks are not additional treatment levels.",
+    "latex": "N_{\\mathrm{runs}}=b\\times t",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 13–14; Walpole et al., 9th ed., Chs. 13–15"
+  },
+  {
+    "id": "PS08-04",
+    "moduleId": "PS08",
+    "title": "Two-factor experiments and interactions",
+    "summary": "An interaction exists when the effect of one factor depends on another factor’s level. Two-level designs allow systematic int",
+    "concept": "An interaction exists when the effect of one factor depends on another factor’s level. Two-level designs allow systematic interaction comparison.",
+    "method": "Calculate marginal means and compare conditional effects across factor levels.",
+    "guardrail": "Avoid interpreting main effects alone when a substantial interaction exists.",
+    "latex": "\\Delta_{AB}=(y_{11}-y_{01})-(y_{10}-y_{00})",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 13–14; Walpole et al., 9th ed., Chs. 13–15"
+  },
+  {
+    "id": "PS05-05",
+    "moduleId": "PS05",
+    "title": "Central limit theorem: when normal approximations work",
+    "summary": "For independent, identically distributed observations with finite variance, the standardized sample mean approaches a normal distribution as the sample size increases. The populati",
+    "concept": "For independent, identically distributed observations with finite variance, the standardized sample mean approaches a normal distribution as the sample size increases. The population itself need not be normally distributed.",
+    "method": "Identify the sampling unit, check independence and plausible random sampling, calculate SE=σ/√n, and use a normal model only when the sampling distribution is adequately approximated.",
+    "guardrail": "There is no universal sample size guaranteeing normality; severe skewness, heavy tails, dependence or influential observations can invalidate a routine n≥30 shortcut.",
+    "latex": "Z=\\frac{\\bar X-\\mu}{\\sigma/\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Ch. 6; Walpole et al. 9e Ch. 8; Navidi 4e §4.11",
+    "workedExample": {
+      "prompt": "A production process has μ=100 Ω and σ=18 Ω. For n=81 independent measurements, find the sampling-mean standard error.",
+      "steps": [
+        "Use the sampling distribution of the mean: SE=σ/√n.",
+        "SE=18/√81=18/9=2 Ω."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "If successive readings are strongly correlated, can SE=σ/√n be used without adjustment?",
+      "answer": "No",
+      "explanation": "Dependence changes the sampling variance; the iid formula is not automatically valid."
+    }
+  },
+  {
+    "id": "PS05-06",
+    "moduleId": "PS05",
+    "title": "Confidence interval for a population proportion",
+    "summary": "An estimated population proportion is p-hat=x/n. For sufficiently large independent samples, an approximate two-sided confidence interval uses the estimated proportion and its samp",
+    "concept": "An estimated population proportion is p-hat=x/n. For sufficiently large independent samples, an approximate two-sided confidence interval uses the estimated proportion and its sampling standard error.",
+    "method": "Confirm a random/representative sample and adequate expected observed successes and failures. Form p-hat±z*sqrt[p-hat(1-p-hat)/n]. Interpret the confidence method as repeated-sample coverage, not a probability that a fixed parameter moves. A more stable alternative is the Wilson score interval: center=(p̂+z²/(2n))/(1+z²/n) and half-width=z·sqrt[p̂(1−p̂)/n+z²/(4n²)]/(1+z²/n). For a zero or near-zero success count consider Wilson or an appropriate exact binomial interval; identify the chosen interval method.",
+    "guardrail": "The simple Wald interval performs poorly at very small n, near 0 or 1, or under sampling dependence. For those cases use an appropriate Wilson/exact method rather than applying this formula blindly. Wilson and exact binomial procedures have different coverage behavior; neither justifies independence under clustered, convenience or finite-population sampling.",
+    "latex": "\\hat p\\pm z^*\\sqrt{\\frac{\\hat p(1-\\hat p)}{n}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Ch. 7; Walpole et al. 9e Ch. 9; Navidi 4e §5.2",
+    "workedExample": {
+      "prompt": "In 400 independently sampled devices, 100 fail. Estimate p-hat and the approximate 95% interval using z*=1.96.",
+      "steps": [
+        "p-hat=100/400=0.25.",
+        "SE=√(0.25×0.75/400)=0.02165.",
+        "95% interval=0.25±1.96×0.02165≈(0.2076,0.2924)."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does a 95% CI mean 95% of the observed devices lie between the endpoints?",
+      "answer": "No",
+      "explanation": "The interval estimates a population proportion, not the distribution of individual device measurements."
+    }
+  },
+  {
+    "id": "PS05-07",
+    "moduleId": "PS05",
+    "title": "Two independent means: Welch t interval",
+    "summary": "When comparing two independent population means without assuming equal variances, use Welch’s two-sample t interval. It combines the two estimated sampling variances rather than po",
+    "concept": "When comparing two independent population means without assuming equal variances, use Welch’s two-sample t interval. It combines the two estimated sampling variances rather than pooling them.",
+    "method": "Specify group independence, calculate d=x̄1−x̄2, SE=sqrt(s1²/n1+s2²/n2), obtain the Welch–Satterthwaite degrees of freedom and the corresponding critical t value, then give d±t*SE. The approximate Welch–Satterthwaite degrees of freedom are ν=(a+b)²/[a²/(n₁−1)+b²/(n₂−1)] where a=s₁²/n₁ and b=s₂²/n₂. Use t critical values at this ν, with appropriate sampling and distributional conditions.",
+    "guardrail": "Never assume equal population variances solely because the sample sizes match. Small samples also require sufficiently credible population normality and limited outliers. Verify independent subjects or sampling units between groups, negligible severe outliers for small n, and adequate near-normality or sample sizes; do not use Welch as a paired-sample method.",
+    "latex": "(\\bar x_1-\\bar x_2)\\pm t^*_{\\nu}\\sqrt{\\frac{s_1^2}{n_1}+\\frac{s_2^2}{n_2}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Ch. 8; Walpole et al. 9e Ch. 9; Navidi 4e §5.6",
+    "workedExample": {
+      "prompt": "Two independent groups have x̄1=12, x̄2=9, s1=4, n1=16, s2=3, n2=9. Compute the estimated SE.",
+      "steps": [
+        "SE=√(4²/16+3²/9)=√(1+1)=√2≈1.414.",
+        "The mean difference is 3; a full interval additionally requires a Welch critical t value."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Should paired before/after readings from the same sensors use an independent two-sample interval?",
+      "answer": "No",
+      "explanation": "Matched observations must be analyzed through within-pair differences."
+    }
+  },
+  {
+    "id": "PS05-08",
+    "moduleId": "PS05",
+    "title": "Paired measurements and confidence intervals",
+    "summary": "For before/after or matched-unit observations, the independent unit of analysis is the pair. Compute a difference for each matched unit and analyze the sample mean difference using",
+    "concept": "For before/after or matched-unit observations, the independent unit of analysis is the pair. Compute a difference for each matched unit and analyze the sample mean difference using a one-sample t method.",
+    "method": "Define the sign consistently, calculate each d_i, the sample mean d-bar and sample SD s_d, then construct d-bar±t*_(n−1)s_d/√n; state the direction and units of the mean difference.",
+    "guardrail": "A paired t interval assumes independently sampled pairs and approximately normal difference values for small n. Normality of each raw marginal sample alone is not the relevant condition.",
+    "latex": "\\bar d\\pm t^*_{n-1}\\frac{s_d}{\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Ch. 8; Walpole et al. 9e Ch. 9; Navidi 4e §5.7",
+    "workedExample": {
+      "prompt": "For n=16 matched sensors, average after-minus-before drift is 2 mV and sample SD of differences is 4 mV. With t*=2.131, find the CI.",
+      "steps": [
+        "SE=4/√16=1 mV.",
+        "Margin=2.131×1=2.131 mV.",
+        "Interval=(2−2.131,2+2.131)=(-0.131,4.131) mV."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does the displayed interval exclude zero?",
+      "answer": "No",
+      "explanation": "The interval contains zero; the corresponding two-sided test at this confidence level does not reject a zero mean difference."
+    }
+  },
+  {
+    "id": "PS05-09",
+    "moduleId": "PS05",
+    "title": "Confidence interval for two population proportions",
+    "summary": "For independent samples from two populations, a large-sample interval for p1−p2 estimates the difference in success proportions and combines the two sampling variances.",
+    "concept": "For independent samples from two populations, a large-sample interval for p1−p2 estimates the difference in success proportions and combines the two sampling variances.",
+    "method": "Calculate each p-hat from its own sample, subtract in the stated order, and use unpooled SE=sqrt[p1hat(1−p1hat)/n1+p2hat(1−p2hat)/n2] for confidence intervals.",
+    "guardrail": "Do not use the pooled proportion routinely in the confidence-interval SE; pooling is commonly used for a null hypothesis of equality, not for a standard difference interval. Check large-sample conditions in both groups.",
+    "latex": "(\\hat p_1-\\hat p_2)\\pm z^*\\sqrt{\\frac{\\hat p_1(1-\\hat p_1)}{n_1}+\\frac{\\hat p_2(1-\\hat p_2)}{n_2}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Ch. 8; Walpole et al. 9e Ch. 9; Navidi 4e §5.5",
+    "workedExample": {
+      "prompt": "Group A: 60 failures of 300. Group B: 30 failures of 300. Estimate p_A−p_B.",
+      "steps": [
+        "p-hat_A=60/300=0.20; p-hat_B=30/300=0.10.",
+        "Difference=0.20−0.10=0.10.",
+        "An interval also needs the unpooled SE and a critical z value."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "May one subtract the two separate 95% interval endpoints to obtain the correct 95% interval for their difference?",
+      "answer": "No",
+      "explanation": "The difference uses a joint standard error derived from the independent samples."
+    }
+  },
+  {
+    "id": "PS05-10",
+    "moduleId": "PS05",
+    "title": "Sample size for a proportion estimate",
+    "summary": "Planning a sample for a desired confidence-interval margin requires an assumed planning proportion p0; the conservative choice p0=0.5 maximizes p0(1−p0).",
+    "concept": "Planning a sample for a desired confidence-interval margin requires an assumed planning proportion p0; the conservative choice p0=0.5 maximizes p0(1−p0).",
+    "method": "For simple independent sampling from a large population, compute n=ceil[z*² p0(1−p0)/E²]. Always round up, then consider nonresponse and finite population design adjustments separately.",
+    "guardrail": "The formula is a large-sample approximate planning calculation. It does not account for clustered sampling, design effects, nonresponse, or a mandatory finite-population correction unless those are separately modeled.",
+    "latex": "n=\\left\\lceil\\frac{(z^*)^2p_0(1-p_0)}{E^2}\\right\\rceil",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Ch. 7; Walpole et al. 9e Ch. 9; Navidi 4e §5.2",
+    "workedExample": {
+      "prompt": "At 95% (z*=1.96), choose p0=0.5 and desired E=0.05. Find the minimum planned sample size.",
+      "steps": [
+        "n=ceil(1.96²×0.25/0.05²).",
+        "n=ceil(384.16)=385."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "If a planning proportion is unavailable, which value yields the largest required n?",
+      "answer": "0.5",
+      "explanation": "The factor p0(1−p0) is maximized at p0=0.5."
+    }
+  },
+  {
+    "id": "PS08-05",
+    "moduleId": "PS08",
+    "title": "Experimental units, replication and pseudoreplication",
+    "summary": "An experimental unit is the independently randomized entity receiving a treatment. Repeated sensor readings on one treated unit are repeated measurements, not independent replicati",
+    "concept": "An experimental unit is the independently randomized entity receiving a treatment. Repeated sensor readings on one treated unit are repeated measurements, not independent replications of treatment assignment.",
+    "method": "Define the response, treatment, factor levels and independent experimental unit. Randomize treatment assignment across units and distinguish between biological/physical replication and technical repeat reads.",
+    "guardrail": "Treating multiple readings from a single treated board as independent experimental units artificially inflates sample size and can produce invalid inference.",
+    "latex": "n_{\\mathrm{units}}\\ne n_{\\mathrm{repeated\\ measurements}}",
+    "status": "draft",
+    "reference": "Navidi 4e §9.1; McClave & Sincich 13e §10.1; Montgomery & Runger 3e Ch. 13",
+    "workedExample": {
+      "prompt": "Four boards are independently assigned to treatment A. Each board is read five times. How many independent experimental units received treatment A?",
+      "steps": [
+        "The randomized entity is each board, not each reading.",
+        "There are 4 units and 20 measurement readings."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Can 20 readings from these 4 boards be counted as 20 independently randomized experimental units?",
+      "answer": "No",
+      "explanation": "Technical replicates do not replace experimental-unit replication."
+    }
+  },
+  {
+    "id": "PS08-06",
+    "moduleId": "PS08",
+    "title": "One-way ANOVA from raw measurements",
+    "summary": "One-way analysis of variance partitions total variability into between-treatment and within-treatment components, then compares their mean squares using an F statistic.",
+    "concept": "One-way analysis of variance partitions total variability into between-treatment and within-treatment components, then compares their mean squares using an F statistic.",
+    "method": "For k groups and N total independent observations, compute grand mean; SS_between=sum n_j(xbar_j−grandmean)²; SS_within=sum(x_ij−xbar_j)²; df_between=k−1 and df_within=N−k; F=MS_between/MS_within.",
+    "guardrail": "Check independence, reasonably normal within-treatment errors, and comparable error variances before interpreting the usual one-way F test. ANOVA does not identify exactly which groups differ.",
+    "latex": "F=\\frac{SS_{\\mathrm{between}}/(k-1)}{SS_{\\mathrm{within}}/(N-k)}",
+    "status": "draft",
+    "reference": "Navidi 4e §9.1; McClave & Sincich 13e §10.2; Montgomery & Runger 3e Ch. 13",
+    "workedExample": {
+      "prompt": "Two treatments have readings A=[2,4] and B=[6,8]. Construct between and within sums of squares.",
+      "steps": [
+        "Group means are 3 and 7; grand mean is 5.",
+        "SS_between=2(3−5)²+2(7−5)²=16.",
+        "SS_within=(2−3)²+(4−3)²+(6−7)²+(8−7)²=4.",
+        "With df 1 and 2, F=(16/1)/(4/2)=8."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does a significant ANOVA F statistic by itself identify which of three treatment means differ?",
+      "answer": "No",
+      "explanation": "It tests the omnibus equality hypothesis; pairwise conclusions need suitable follow-up inference."
+    }
+  },
+  {
+    "id": "PS08-07",
+    "moduleId": "PS08",
+    "title": "ANOVA significance decisions and assumptions",
+    "summary": "An ANOVA F statistic measures evidence against equal treatment means. A statistical decision requires degrees of freedom, a chosen significance threshold and either a p-value or cr",
+    "concept": "An ANOVA F statistic measures evidence against equal treatment means. A statistical decision requires degrees of freedom, a chosen significance threshold and either a p-value or critical F cutoff.",
+    "method": "Write H0: all group population means equal. Calculate df1 and df2, obtain F and p-value under the null distribution, then reject H0 when p≤α (or F exceeds the corresponding critical value). Report practical effect separately.",
+    "guardrail": "Failure to reject is not evidence that all treatments are equivalent. Significant interaction, strong outliers, unequal variances and dependence require more careful analysis.",
+    "latex": "F=\\frac{MS_{\\mathrm{treatment}}}{MS_{\\mathrm{error}}},\\quad (df_1,df_2)=(k-1,N-k)",
+    "status": "draft",
+    "reference": "Navidi 4e §9.1; McClave & Sincich 13e §10.2; Walpole et al. 9e Ch. 13",
+    "workedExample": {
+      "prompt": "An F test has p=0.018 with predeclared α=0.05. State the decision.",
+      "steps": [
+        "Compare p=0.018 with α=0.05.",
+        "Because 0.018<0.05, reject the null of equal population treatment means."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does failing to reject H0 prove all treatment means are exactly the same?",
+      "answer": "No",
+      "explanation": "Nonrejection may reflect limited precision or power."
+    }
+  },
+  {
+    "id": "PS08-08",
+    "moduleId": "PS08",
+    "title": "Randomized complete block ANOVA calculations",
+    "summary": "In a randomized complete block design, every block contains each treatment once. Partition response variability into treatment, block and residual sums of squares.",
+    "concept": "In a randomized complete block design, every block contains each treatment once. Partition response variability into treatment, block and residual sums of squares.",
+    "method": "With t treatments and b blocks (one observation per cell), calculate SS_total, SS_treatment, SS_block and SS_error by subtraction. Degrees of freedom are t−1, b−1 and (t−1)(b−1), respectively. The classical unreplicated randomized complete-block analysis assumes an additive response model yᵢⱼ=μ+τᵢ+βⱼ+εᵢⱼ. With one reading per treatment-by-block cell, treatment-by-block interaction cannot be separated from residual error.",
+    "guardrail": "Blocking requires a defensible nuisance-factor grouping and randomization within blocks. With only one observation per cell, a separate treatment-by-block interaction cannot be estimated. Assess whether an additive model is credible; substantial treatment-by-block interaction can invalidate the classical F test for treatment effects.",
+    "latex": "F_{\\mathrm{treat}}=\\frac{SS_{\\mathrm{treat}}/(t-1)}{SS_E/((t-1)(b-1))}",
+    "status": "draft",
+    "reference": "Navidi 4e §9.4; McClave & Sincich 13e §10.4; Montgomery & Runger 3e Ch. 13",
+    "workedExample": {
+      "prompt": "A randomized complete block design has two treatments measured across three blocks: A=[4,6,7] and B=[7,8,11] (columns are matched blocks). Calculate the treatment F statistic using one observation per treatment per block.",
+      "steps": [
+        "Grand mean=43/6≈7.1667; treatment means are 17/3≈5.6667 and 26/3≈8.6667.",
+        "SS_total=∑(y_ij−grand mean)²=26.8333.",
+        "SS_treatment=3[(17/3−43/6)²+(26/3−43/6)²]=13.5.",
+        "Block means are 5.5, 7 and 9; SS_block=2[(5.5−43/6)²+(7−43/6)²+(9−43/6)²]=12.3333.",
+        "SS_error=26.8333−13.5−12.3333=1.0; df_treatment=1, df_block=2 and df_error=2.",
+        "MS_treatment=13.5 and MS_error=1/2=0.5, so F=27.",
+        "A significance decision still needs the F(1,2) distribution or a prespecified critical value; a large F alone does not declare significance without a threshold."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Can a block be replaced by taking three repeated readings from one board, regardless of how treatments are assigned?",
+      "answer": "No",
+      "explanation": "A block is a planned source of nuisance variation; the experimental unit and randomization still matter."
+    }
+  },
+  {
+    "id": "PS08-09",
+    "moduleId": "PS08",
+    "title": "Two-level factorial effects and interactions",
+    "summary": "A 2² factorial experiment studies two factors at two levels each. A main effect is the change in mean response averaged over levels of the other factor; interaction is the differen",
+    "concept": "A 2² factorial experiment studies two factors at two levels each. A main effect is the change in mean response averaged over levels of the other factor; interaction is the difference between simple effects.",
+    "method": "Label factor A and B low/high combinations. For balanced cell means, estimate A effect as average of A-high cells minus average of A-low cells; define the interaction using the signed difference between A effects at B-high and B-low. The raw difference-in-differences D=(y₊₊−y₋₊)−(y₊₋−y₋₋) is twice the conventional AB factorial effect based on balanced two-level cell means. Thus the example D=4 corresponds to an AB factorial effect of 2 when this conventional half-contrast definition is used.",
+    "guardrail": "Contrast signs and effect definitions must be explicit. A large interaction means the averaged main effect alone can be misleading; replication is required to estimate random error for inferential testing. Report explicitly whether an exercise asks for D, the coefficient of a ±1 coded interaction term (D/4), or the conventional AB effect (D/2); these are different scales, not conflicting arithmetic.",
+    "latex": "\\mathrm{Effect}_A=\\frac{y_{+-}+y_{++}}{2}-\\frac{y_{--}+y_{-+}}{2}",
+    "status": "draft",
+    "reference": "Navidi 4e §9.5; McClave & Sincich 13e §10.5; Walpole et al. 9e Ch. 14",
+    "workedExample": {
+      "prompt": "Cell means (A−,B−)=10, (A+,B−)=14, (A−,B+)=12, (A+,B+)=20. Calculate the A effect and interaction contrast.",
+      "steps": [
+        "A effect at B− =14−10=4; at B+=20−12=8.",
+        "A main effect=(4+8)/2=6.",
+        "Interaction difference-in-differences=8−4=4."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does a strong A-by-B interaction mean the effect of A is identical at both B levels?",
+      "answer": "No",
+      "explanation": "The effect of A changes with B; averaging may hide that dependence."
+    }
+  },
+  {
+    "id": "PS08-10",
+    "moduleId": "PS08",
+    "title": "DOE interpretation, replication and follow-up comparisons",
+    "summary": "Valid conclusions from an experiment combine design integrity, suitable model assumptions, the omnibus test and planned follow-up comparisons. Statistical significance does not aut",
+    "concept": "Valid conclusions from an experiment combine design integrity, suitable model assumptions, the omnibus test and planned follow-up comparisons. Statistical significance does not automatically establish engineering importance.",
+    "method": "After a significant ANOVA result, identify a preplanned contrast or apply a suitable multiplicity-aware comparison procedure. Check residual plots and report estimated differences, uncertainty, and practical units. Distinguish preplanned contrasts specified before observing data from exploratory all-pairs comparisons. A Tukey-type procedure can control familywise error for appropriate all-pairs mean comparisons; adjust the method to design, assumptions and inferential objective.",
+    "guardrail": "Unadjusted repeated pairwise tests inflate familywise error. Multiple comparisons, confounding, effect size and cost of process changes must be considered before recommendations. Omnibus ANOVA significance does not identify a specific pair of means. Choose follow-up procedures prospectively where possible, and check familywise error and effect sizes.",
+    "latex": "P(\\bigcup_{i=1}^m E_i)\\le\\sum_{i=1}^m P(E_i)",
+    "status": "draft",
+    "reference": "Navidi 4e §§9.1–9.5; McClave & Sincich 13e §§10.2–10.5; Montgomery & Runger 3e Ch. 13",
+    "workedExample": {
+      "prompt": "Three independent treatment levels are compared and the omnibus ANOVA is significant. What is the defensible next step?",
+      "steps": [
+        "The F test establishes that not all means are equal.",
+        "Use planned contrasts or a multiple-comparison procedure appropriate to the experiment before identifying pairs."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Should a process be changed solely because a p-value is less than 0.05?",
+      "answer": "No",
+      "explanation": "The effect size, precision, engineering tolerances, assumptions and cost also matter."
+    }
+  },
+  {
+    "id": "PS06-05",
+    "moduleId": "PS06",
+    "title": "Test choice, power and practical effects",
+    "summary": "Hypothesis-test selection depends on the response variable, sampling design, number of groups, target parameter and distributional assumptions. Power is the probability of rejecting a false null hypothesis for a specified alternative.",
+    "concept": "Hypothesis-test selection depends on the response variable, sampling design, number of groups, target parameter and distributional assumptions. Power is the probability of rejecting a false null hypothesis for a specified alternative.",
+    "method": "State the target parameter and the null and alternative hypotheses; distinguish independent samples from matched pairs; choose a compatible test and verify its assumptions before computing a p-value or effect estimate.",
+    "guardrail": "A small p-value is not a measure of practical importance. Power depends on effect size, variation, sample size and the chosen rejection rule; a nonsignificant result does not show equivalence.",
+    "latex": "\\mathrm{Power}=1-\\beta",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 9–10; Walpole et al. 9e Ch. 10; Navidi 4e Ch. 6",
+    "workedExample": {
+      "prompt": "A quality-test plan has a Type II error probability β=0.20 for a specified shift. What is its power to detect that shift?",
+      "steps": [
+        "Power is the probability of rejecting H0 when that stated shift is real.",
+        "Power=1−β=1−0.20=0.80, or 80%."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Do you use an independent two-sample test for before-and-after measurements of the SAME components?",
+      "answer": "No; use a paired analysis if the pairwise assumptions hold.",
+      "explanation": "Measurements on the same components are linked; model the within-component differences rather than falsely treating readings as independent."
+    }
+  },
+  {
+    "id": "PS06-06",
+    "moduleId": "PS06",
+    "title": "One-proportion z tests",
+    "summary": "For a binary outcome, a large-sample one-proportion z test compares the observed success fraction with the null probability p0. The null-model standard error is calculated using p0, not the observed proportion.",
+    "concept": "For a binary outcome, a large-sample one-proportion z test compares the observed success fraction with the null probability p0. The null-model standard error is calculated using p0, not the observed proportion.",
+    "method": "Compute phat=x/n; check independent trials and an adequate expected count under H0; form z=(phat−p0)/sqrt[p0(1−p0)/n] and use the stated one- or two-sided alternative.",
+    "guardrail": "With small expected success or failure counts, use an appropriate exact binomial analysis instead of the normal approximation. Check dependence and selection bias separately.",
+    "latex": "z=\\frac{\\hat p-p_0}{\\sqrt{p_0(1-p_0)/n}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 9–10; Walpole et al. 9e Ch. 10; Navidi 4e Ch. 6",
+    "workedExample": {
+      "prompt": "In 80 independent trial outcomes, 50 are successful. Test H0: p=0.5; compute the z statistic.",
+      "steps": [
+        "phat=50/80=0.625.",
+        "Null standard error=sqrt(0.5×0.5/80)=0.05590.",
+        "z=(0.625−0.5)/0.05590≈2.236."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Should the hypothesis-test denominator use phat instead of p0 for the elementary one-proportion z test?",
+      "answer": "No",
+      "explanation": "Under H0 the standard error is computed from the hypothesized probability p0."
+    }
+  },
+  {
+    "id": "PS06-07",
+    "moduleId": "PS06",
+    "title": "Welch two-sample t tests",
+    "summary": "Two independent sample means can be compared with Welch’s t procedure when their population variances are unknown and need not be equal. The standard error uses separate sample variance contributions.",
+    "concept": "Two independent sample means can be compared with Welch’s t procedure when their population variances are unknown and need not be equal. The standard error uses separate sample variance contributions.",
+    "method": "For independent groups compute difference in sample means, SE=sqrt(s1²/n1+s2²/n2), t=(xbar1−xbar2−Δ0)/SE and Welch–Satterthwaite approximate degrees of freedom.",
+    "guardrail": "Two independent groups are essential. With small samples inspect normality and influential observations; do not silently assume equal variance or use a paired test on unpaired groups.",
+    "latex": "t=\\frac{(\\bar x_1-\\bar x_2)-\\Delta_0}{\\sqrt{s_1^2/n_1+s_2^2/n_2}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 9–10; Walpole et al. 9e Ch. 10; Navidi 4e Ch. 6; Navidi 4e §6.7",
+    "workedExample": {
+      "prompt": "Process A has n=36, mean 104, s=6; process B has n=64, mean 100, s=8. Test a zero mean difference: calculate t.",
+      "steps": [
+        "Difference=104−100=4.",
+        "SE=sqrt(6²/36+8²/64)=sqrt(2)=1.4142.",
+        "t=4/1.4142≈2.828; degrees of freedom need the Welch formula."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "If variances are unequal, should we automatically use a pooled-variance t test?",
+      "answer": "No",
+      "explanation": "Welch’s procedure does not require an equal-variance assumption."
+    }
+  },
+  {
+    "id": "PS06-08",
+    "moduleId": "PS06",
+    "title": "Paired t tests for repeated measurements",
+    "summary": "A paired t test tests the mean of within-pair differences, as in measuring a sensor before and after calibration. The observational units are pairs, not individual readings counted twice.",
+    "concept": "A paired t test tests the mean of within-pair differences, as in measuring a sensor before and after calibration. The observational units are pairs, not individual readings counted twice.",
+    "method": "Compute each paired difference di, its mean dbar and standard deviation sd, then t=(dbar−d0)/(sd/sqrt(n)) with n−1 degrees of freedom.",
+    "guardrail": "Pairs should be independent of other pairs; the difference distribution should be reasonably normal for a small-sample t test. Specify the sign convention explicitly.",
+    "latex": "t=\\frac{\\bar d-d_0}{s_d/\\sqrt n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 9–10; Walpole et al. 9e Ch. 10; Navidi 4e Ch. 6; Navidi 4e §6.8",
+    "workedExample": {
+      "prompt": "For 25 independently paired before-minus-after sensor differences, dbar=2.4 and sd=3.0. Test mean difference zero.",
+      "steps": [
+        "SE=3/sqrt(25)=0.6.",
+        "t=2.4/0.6=4 with df=24."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Why should readings from the same instrument before and after calibration be paired?",
+      "answer": "Their errors are associated within the same instrument.",
+      "explanation": "Pairing accounts for the correspondence and can remove between-unit variation."
+    }
+  },
+  {
+    "id": "PS06-09",
+    "moduleId": "PS06",
+    "title": "Two-proportion tests and pooling under the null",
+    "summary": "When comparing proportions from two independent groups, a pooled estimate is commonly used for the standard error of a test of H0:p1=p2. Estimation of the difference uses a different, unpooled standard error.",
+    "concept": "When comparing proportions from two independent groups, a pooled estimate is commonly used for the standard error of a test of H0:p1=p2. Estimation of the difference uses a different, unpooled standard error.",
+    "method": "Compute p1hat and p2hat, combine successes and trials under H0 to get ppool=(x1+x2)/(n1+n2), then form z=(p1hat−p2hat)/sqrt[ppool(1−ppool)(1/n1+1/n2)].",
+    "guardrail": "Check independence within and between groups and adequate expected counts. A difference in observational proportions does not establish causation.",
+    "latex": "z=\\frac{\\hat p_1-\\hat p_2}{\\sqrt{\\hat p_{\\mathrm{pool}}(1-\\hat p_{\\mathrm{pool}})(1/n_1+1/n_2)}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 9–10; Walpole et al. 9e Ch. 10; Navidi 4e Ch. 6; Navidi 4e §6.6",
+    "workedExample": {
+      "prompt": "Group A has 42 successes in 60 independent trials and group B has 24 in 60. Compute the pooled two-sided z statistic.",
+      "steps": [
+        "p1=42/60=0.70 and p2=24/60=0.40.",
+        "ppool=(42+24)/(60+60)=0.55.",
+        "SE=sqrt(0.55×0.45×(1/60+1/60))≈0.09083; z=0.30/0.09083≈3.303."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "For a two-proportion confidence interval, do we automatically use the pooled null standard error?",
+      "answer": "No",
+      "explanation": "The usual large-sample interval for p1−p2 uses unpooled estimated variances."
+    }
+  },
+  {
+    "id": "PS06-10",
+    "moduleId": "PS06",
+    "title": "Chi-square goodness of fit and expected counts",
+    "summary": "A chi-square goodness-of-fit test compares observed category counts with counts predicted by a fully specified null categorical distribution. The statistic sums squared deviations divided by expected counts.",
+    "concept": "A chi-square goodness-of-fit test compares observed category counts with counts predicted by a fully specified null categorical distribution. The statistic sums squared deviations divided by expected counts.",
+    "method": "For each mutually exclusive category, calculate Ei=Npi, sum (Oi−Ei)²/Ei, then use the appropriate degrees of freedom; estimating parameters from the same data may reduce degrees of freedom. For k categories with fully specified null probabilities, the usual asymptotic reference degrees of freedom are k−1. If r free parameters are fitted from the same counts under regularity conditions, adjust to k−1−r; account for how parameters were fitted, and combine sparse categories or use a suitable exact/simulation method when necessary.",
+    "guardrail": "Independence and sufficiently large expected counts matter; do not apply an asymptotic chi-square test indiscriminately to sparse cells. The test does not establish which category alone caused rejection. A common screening convention expects expected counts around 5 or more in each cell; a chi-square approximation is not guaranteed with sparse expected frequencies, particularly when parameters are estimated.",
+    "latex": "\\chi^2=\\sum_{i=1}^{k}\\frac{(O_i-E_i)^2}{E_i}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 9–10; Walpole et al. 9e Ch. 10; Navidi 4e Ch. 6; McClave & Sincich 13e Ch. 13",
+    "workedExample": {
+      "prompt": "Observed counts are [24,36,30] with equal expected shares among three categories. Calculate χ².",
+      "steps": [
+        "Total N=90; each expected count is 30.",
+        "χ²=(24−30)²/30+(36−30)²/30+(30−30)²/30=2.4.",
+        "With all category probabilities specified in advance, df=3−1=2."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does the usual goodness-of-fit χ² formula prove the assumed probabilities are correct if p>0.05?",
+      "answer": "No",
+      "explanation": "Failure to reject does not establish the null distribution as true."
+    }
+  },
+  {
+    "id": "PS07-05",
+    "moduleId": "PS07",
+    "title": "Scatterplots, nonlinear patterns and influential points",
+    "summary": "Pearson correlation captures linear association; a near-zero coefficient can coexist with a strong curved relationship. Outliers can dramatically alter a fitted regression line and the sample correlation.",
+    "concept": "Pearson correlation captures linear association; a near-zero coefficient can coexist with a strong curved relationship. Outliers can dramatically alter a fitted regression line and the sample correlation.",
+    "method": "Plot paired observations first, check curvature and subgroups, note influential points, and interpret Pearson r only as evidence of linear association in the observed predictor range.",
+    "guardrail": "Neither a high absolute correlation nor a small regression p-value establishes causality; a curved relationship may require a different functional form or transformed predictors.",
+    "latex": "r=\\frac{S_{xy}}{\\sqrt{S_{xx}S_{yy}}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 11–12; Walpole et al. 9e Chs. 11–12; Navidi 4e Chs. 7–8; McClave & Sincich 13e Chs. 11–12",
+    "workedExample": {
+      "prompt": "For x=[−2,−1,0,1,2] and y=[4,1,0,1,4], describe the relationship and Pearson correlation.",
+      "steps": [
+        "The pattern is a strong symmetric U-shape, not a straight line.",
+        "The centered sum Sxy is zero by symmetry, so r=0 despite the deterministic curved pattern."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does r=0 prove the variables have no relationship of any kind?",
+      "answer": "No",
+      "explanation": "Pearson r=0 indicates no sample linear correlation; nonlinear relationships can remain."
+    }
+  },
+  {
+    "id": "PS07-06",
+    "moduleId": "PS07",
+    "title": "Compute a regression line from raw measurements",
+    "summary": "Simple ordinary least squares with an intercept minimizes the sum of squared vertical residuals. Its slope equals centered cross-product divided by centered predictor variation.",
+    "concept": "Simple ordinary least squares with an intercept minimizes the sum of squared vertical residuals. Its slope equals centered cross-product divided by centered predictor variation.",
+    "method": "Compute xbar, ybar, Sxx and Sxy, then slope b1=Sxy/Sxx and intercept b0=ybar−b1*xbar; Sxx must be positive. Use the fitted equation for in-range prediction.",
+    "guardrail": "OLS minimizes vertical errors in y rather than errors in x. Measurement uncertainty in x, leverage and nonlinear patterns require separate consideration.",
+    "latex": "\\hat y=b_0+b_1x,\\quad b_1=\\frac{S_{xy}}{S_{xx}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 11–12; Walpole et al. 9e Chs. 11–12; Navidi 4e Chs. 7–8; McClave & Sincich 13e Chs. 11–12; McClave & Sincich 13e §11.2",
+    "workedExample": {
+      "prompt": "For x=[1,2,3] and y=[2,4,5], calculate the least-squares slope and intercept.",
+      "steps": [
+        "xbar=2; ybar=11/3.",
+        "Sxx=(−1)²+0²+1²=2; Sxy=(−1)(−5/3)+0+(1)(4/3)=3.",
+        "Slope=3/2=1.5; intercept=11/3−1.5×2=2/3."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Can we fit an identifiable slope when all observed x values are equal?",
+      "answer": "No",
+      "explanation": "If Sxx=0 the simple-regression slope is undefined."
+    }
+  },
+  {
+    "id": "PS07-07",
+    "moduleId": "PS07",
+    "title": "Mean-response confidence versus prediction intervals",
+    "summary": "A confidence interval for the mean response at a chosen predictor estimates the mean fitted relation, while a prediction interval targets one additional response. The latter includes additional individual variation.",
+    "concept": "A confidence interval for the mean response at a chosen predictor estimates the mean fitted relation, while a prediction interval targets one additional response. The latter includes additional individual variation.",
+    "method": "For a standard simple linear model with independent normal homoscedastic errors, use SEmean=s*sqrt[1/n+(x0−xbar)²/Sxx] and SEpred=s*sqrt[1+1/n+(x0−xbar)²/Sxx]; multiply by a t critical value with n−2 df. Both two-sided intervals are centered at ŷ₀=b₀+b₁x₀. The mean-response interval uses ŷ₀±t*_(n−2)·s·sqrt[1/n+(x₀−x̄)²/Sxx]; the individual prediction interval replaces that standard error by s·sqrt[1+1/n+(x₀−x̄)²/Sxx].",
+    "guardrail": "Prediction intervals require model assumptions and concern a new response, not an exact deterministic point forecast. Uncertainty generally grows farther from xbar and extrapolation is risky. Distinguish uncertainty about the conditional mean from noise in a newly observed outcome; check residual plots, leverage and whether x₀ lies inside the observed predictor range.",
+    "latex": "SE_{\\mathrm{pred}}=s\\sqrt{1+\\frac1n+\\frac{(x_0-\\bar x)^2}{S_{xx}}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 11–12; Walpole et al. 9e Chs. 11–12; Navidi 4e Chs. 7–8; McClave & Sincich 13e Chs. 11–12; Navidi 4e §7.3",
+    "workedExample": {
+      "prompt": "With residual s=2, n=16 and x0=xbar, compare standard errors for the mean response and one future response.",
+      "steps": [
+        "SEmean=2×sqrt(1/16)=0.5.",
+        "SEpred=2×sqrt(1+1/16)=sqrt(4.25)≈2.062.",
+        "A prediction interval is necessarily wider at the same confidence level and x0."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "At the same x0 and confidence level, which is normally wider: a mean-response confidence interval or an individual prediction interval?",
+      "answer": "The individual prediction interval",
+      "explanation": "The individual prediction standard error includes one additional response-error variance term."
+    }
+  },
+  {
+    "id": "PS07-08",
+    "moduleId": "PS07",
+    "title": "Slope inference and degrees of freedom",
+    "summary": "Inference for a simple regression slope uses estimated residual variance and slope standard error. With an intercept, residual degrees of freedom are n−2; a t test evaluates a specified null slope.",
+    "concept": "Inference for a simple regression slope uses estimated residual variance and slope standard error. With an intercept, residual degrees of freedom are n−2; a t test evaluates a specified null slope.",
+    "method": "Check regression assumptions, compute t=(b1−β10)/SE(b1), use n−2 df, and interpret the slope estimate and its uncertainty in physical units.",
+    "guardrail": "Slope significance alone does not imply a good predictive model or prove causation; residual diagnostics, data design and extrapolation limits remain essential.",
+    "latex": "t=\\frac{b_1-\\beta_{1,0}}{SE(b_1)}",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 11–12; Walpole et al. 9e Chs. 11–12; Navidi 4e Chs. 7–8; McClave & Sincich 13e Chs. 11–12; McClave & Sincich 13e §11.4",
+    "workedExample": {
+      "prompt": "In an intercept-included simple regression with n=20, b1=0.8 and SE(b1)=0.2, test zero slope.",
+      "steps": [
+        "t=(0.8−0)/0.2=4.",
+        "Residual df=n−2=18.",
+        "Compare |t| to a t reference with 18 df for the prespecified alternative."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does the ordinary simple-regression slope test with an intercept use n−1 residual degrees of freedom?",
+      "answer": "No",
+      "explanation": "The usual model estimates two parameters, giving n−2 residual degrees of freedom."
+    }
+  },
+  {
+    "id": "PS07-09",
+    "moduleId": "PS07",
+    "title": "Residual diagnostics and model adequacy",
+    "summary": "Residual-versus-fitted and residual-versus-predictor plots help reveal curvature, unequal error variance, clusters and influential observations; normality diagnostics matter for small-sample inference.",
+    "concept": "Residual-versus-fitted and residual-versus-predictor plots help reveal curvature, unequal error variance, clusters and influential observations; normality diagnostics matter for small-sample inference.",
+    "method": "Plot residuals against predictors and fitted values, examine the spread and functional pattern, check influential cases and investigate data quality before using a model for prediction.",
+    "guardrail": "A high R² or significant slope does not repair heteroscedasticity, strong curvature, dependence or unmodeled confounding; interpret uncertainty only after checking the model.",
+    "latex": "e_i=y_i-\\hat y_i",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 11–12; Walpole et al. 9e Chs. 11–12; Navidi 4e Chs. 7–8; McClave & Sincich 13e Chs. 11–12; Navidi 4e §7.4; McClave & Sincich 13e §12.11",
+    "workedExample": {
+      "prompt": "A calibration fit has residuals that tend to be negative at low and high inputs, but positive in the middle. What should be investigated?",
+      "steps": [
+        "A structured pattern rather than random scatter is evidence the straight-line model may be missing curvature.",
+        "Try a justified nonlinear/transform model and check diagnostics; do not rely on R² alone."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Is a randomly scattered residual plot sufficient to prove a model is valid in all respects?",
+      "answer": "No",
+      "explanation": "Other assumptions, independence, data quality and validation remain relevant."
+    }
+  },
+  {
+    "id": "PS07-10",
+    "moduleId": "PS07",
+    "title": "Multiple regression and interaction interpretation",
+    "summary": "Multiple linear regression estimates the association between a response and several predictors while holding the others fixed in the fitted model. An interaction allows one predictor’s slope to change with another predictor.",
+    "concept": "Multiple linear regression estimates the association between a response and several predictors while holding the others fixed in the fitted model. An interaction allows one predictor’s slope to change with another predictor.",
+    "method": "For an identified fitted equation, substitute predictor values; interpret each coefficient conditionally, check collinearity and residual assumptions, and inspect whether interactions have engineering meaning.",
+    "guardrail": "Coefficients can be unstable under strong collinearity; model inclusion does not establish intervention effects, and extrapolation in combinations of predictors can be especially misleading.",
+    "latex": "\\hat y=b_0+b_1x_1+b_2x_2+b_{12}x_1x_2",
+    "status": "draft",
+    "reference": "Montgomery & Runger 3e Chs. 11–12; Walpole et al. 9e Chs. 11–12; Navidi 4e Chs. 7–8; McClave & Sincich 13e Chs. 11–12; Navidi 4e Ch. 8; McClave & Sincich 13e Ch. 12",
+    "workedExample": {
+      "prompt": "A fitted sensor model is yhat=2+0.7x1−0.2x2. Estimate output for x1=10 and x2=5.",
+      "steps": [
+        "Substitute x1=10 and x2=5.",
+        "yhat=2+0.7(10)−0.2(5)=2+7−1=8."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does the coefficient 0.7 automatically represent a causal effect of x1?",
+      "answer": "No",
+      "explanation": "Multiple regression describes adjusted association without establishing causality by itself."
+    }
+  },
+  {
+    "id": "PS01-05",
+    "moduleId": "PS01",
+    "title": "Random, stratified, systematic and cluster sampling",
+    "summary": "Probability sampling provides a known selection mechanism. Simple random samples select individuals; stratified samples draw within defined groups; cluster samples select entire groups. Systematic schemes require care when data have periodic structure.",
+    "concept": "Probability sampling provides a known selection mechanism. Simple random samples select individuals; stratified samples draw within defined groups; cluster samples select entire groups. Systematic schemes require care when data have periodic structure.",
+    "method": "Define the target population and sampling frame. Identify whether the strata or clusters match the engineering production process; then choose units randomly at the correct stage and document the sample plan.",
+    "guardrail": "Random selection cannot repair an incomplete sampling frame. A cluster sample generally requires accounting for dependence among units from the same cluster.",
+    "latex": "n=\\sum_{h=1}^{H}n_h",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1; Navidi, 4th ed., Ch. 1; McClave & Sincich, 13th ed., Chs. 1–2",
+    "workedExample": {
+      "prompt": "An inspection chooses 8 boards from each of four production shifts. How many boards are included?",
+      "steps": [
+        "Identify H=4 sampled strata and n_h=8 per shift.",
+        "Total n=8+8+8+8=32 sampled boards."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Are four conveniently selected units from each shift a stratified random sample?",
+      "answer": "Not necessarily",
+      "explanation": "Stratification is not sufficient: units must also be selected probabilistically within the strata to justify a stratified random-sampling claim."
+    }
+  },
+  {
+    "id": "PS01-06",
+    "moduleId": "PS01",
+    "title": "Types of data, measurement scales and missing observations",
+    "summary": "Nominal labels, ordinal rankings, quantitative counts and continuous measurements support different summaries and inference procedures. Missing observations can introduce bias when the missingness mechanism depends on unobserved values.",
+    "concept": "Nominal labels, ordinal rankings, quantitative counts and continuous measurements support different summaries and inference procedures. Missing observations can introduce bias when the missingness mechanism depends on unobserved values.",
+    "method": "List each variable and its physical unit. Decide whether categories have a meaningful order, whether zero is meaningful, and whether a statistic is appropriate; record how missing data were excluded or imputed.",
+    "guardrail": "Averaging nominal category codes is meaningless. Treating missing observations as zero can bias the analysis; never impute without stating the method and assumptions.",
+    "latex": "n_{\\mathrm{valid}}=n_{\\mathrm{observed}}-n_{\\mathrm{missing}}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1; Navidi, 4th ed., Ch. 1; McClave & Sincich, 13th ed., Chs. 1–2",
+    "workedExample": {
+      "prompt": "A sensor logs 60 readings but 5 are blank. How many valid readings remain?",
+      "steps": [
+        "Count 60 observations and 5 missing values.",
+        "Subtract: 60−5=55 observed nonmissing readings."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Is board defect type (open, short, misalignment) an ordinal variable?",
+      "answer": "No",
+      "explanation": "Defect categories are nominal labels; there is no inherent numeric ordering among the three defect types."
+    }
+  },
+  {
+    "id": "PS01-07",
+    "moduleId": "PS01",
+    "title": "Grouped data, weighted means and sample variance",
+    "summary": "A frequency-weighted mean accounts for repeated values; grouped class midpoints offer an approximation when exact observations are unavailable. Sample variance divides corrected squared deviations by n−1 for n greater than one.",
+    "concept": "A frequency-weighted mean accounts for repeated values; grouped class midpoints offer an approximation when exact observations are unavailable. Sample variance divides corrected squared deviations by n−1 for n greater than one.",
+    "method": "For exact value-frequency pairs compute sum(f_i x_i)/sum(f_i). For a sample variance compute the sample mean first, sum squared residuals, and divide by n−1; retain original units for the mean and squared units for variance. For grouped class-interval data, using class midpoints in frequency-weighted formulas estimates the mean and variance; it is not the exact raw-data variance unless the original values coincide with those midpoints. For exact discrete value-frequency pairs, calculate s²=Σ fᵢ(xᵢ−x̄)²/(Σ fᵢ−1) when the expanded data are an iid sample.",
+    "guardrail": "Midpoint-based grouped estimates are approximate. Population variance uses divisor N, not the sample divisor n−1; identify the population/sample distinction explicitly. Grouped midpoint calculations discard within-class variation; distinguish exact frequencies at observed values from grouped bins. Avoid replacing the n−1 sample denominator with a sum of class counts without defining n.",
+    "latex": "\\bar x=\\frac{\\sum_i f_ix_i}{\\sum_i f_i},\\quad s^2=\\frac{\\sum_i f_i(x_i-\\bar x)^2}{\\sum_i f_i-1}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1; Navidi, 4th ed., Ch. 1; McClave & Sincich, 13th ed., Chs. 1–2",
+    "workedExample": {
+      "prompt": "A board tester records voltages 4, 6, 8 with frequencies 1, 2, 1. Find the weighted mean.",
+      "steps": [
+        "Weighted sum=1(4)+2(6)+1(8)=24.",
+        "Total frequency=1+2+1=4; mean=24/4=6 V."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does the formula for sample variance divide by the sample size n for an unbiased population-variance estimate under iid sampling?",
+      "answer": "No",
+      "explanation": "The conventional sample variance uses n−1 as the denominator; n is used for the descriptive population variance."
+    }
+  },
+  {
+    "id": "PS01-08",
+    "moduleId": "PS01",
+    "title": "Quartiles, boxplots and unusual measurements",
+    "summary": "Quartiles partition an ordered data set, and interquartile range measures its central spread. Boxplot outlier fences often use Q1−1.5 IQR and Q3+1.5 IQR to flag unusual values for investigation.",
+    "concept": "Quartiles partition an ordered data set, and interquartile range measures its central spread. Boxplot outlier fences often use Q1−1.5 IQR and Q3+1.5 IQR to flag unusual values for investigation.",
+    "method": "Sort the observed values, use a stated quantile convention, calculate IQR=Q3−Q1 and then compare observations with the selected outlier fences. Report both the method and the actual measurement.",
+    "guardrail": "Quartile conventions differ for small samples and discrete data. An outlier flag is not a diagnosis of an erroneous measurement and should not automatically justify deleting a value.",
+    "latex": "IQR=Q_3-Q_1,\\quad U=Q_3+1.5IQR",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1; Navidi, 4th ed., Ch. 1; McClave & Sincich, 13th ed., Chs. 1–2",
+    "workedExample": {
+      "prompt": "For a data set with Q1=10 ohms and Q3=18 ohms, compute the upper boxplot fence.",
+      "steps": [
+        "IQR=18−10=8 ohms.",
+        "Upper fence=18+1.5(8)=30 ohms."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Should every measurement above the upper fence be removed before analysis?",
+      "answer": "No",
+      "explanation": "An outlier fence is a descriptive screening aid; determine the measurement cause and analysis objective before excluding data."
+    }
+  },
+  {
+    "id": "PS01-09",
+    "moduleId": "PS01",
+    "title": "Covariance and graphical exploration of paired data",
+    "summary": "Paired measurements from the same device can be summarized with scatterplots and sample covariance. The sign of covariance indicates the direction of the sample linear association, but its magnitude depends on measurement units.",
+    "concept": "Paired measurements from the same device can be summarized with scatterplots and sample covariance. The sign of covariance indicates the direction of the sample linear association, but its magnitude depends on measurement units.",
+    "method": "Keep each x-y measurement paired by device or experimental run. Calculate both means, center each observation, sum cross products and divide by n−1 for the sample covariance.",
+    "guardrail": "Positive covariance does not prove causation, and one influential measurement may strongly change the sign or magnitude. Correlation is a different standardized quantity. This lesson is a descriptive prerequisite to PS07 regression and correlation; refer to PS07 for inferential regression assumptions and prediction.",
+    "latex": "s_{xy}=\\frac{\\sum_i(x_i-\\bar x)(y_i-\\bar y)}{n-1}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1; Navidi, 4th ed., Ch. 1; McClave & Sincich, 13th ed., Chs. 1–2",
+    "workedExample": {
+      "prompt": "For measured paired x=(1,2,3) and y=(2,4,6), calculate the sample covariance.",
+      "steps": [
+        "Means are xbar=2 and ybar=4.",
+        "Cross-product sum=(-1)(-2)+0+(1)(2)=4.",
+        "Divide by n−1=2, so sample covariance=2."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does zero sample covariance rule out a curved deterministic relationship?",
+      "answer": "No",
+      "explanation": "Covariance measures sample linear co-movement; a symmetric nonlinear pattern can have zero covariance."
+    }
+  },
+  {
+    "id": "PS01-10",
+    "moduleId": "PS01",
+    "title": "Sampling bias, observation and experimental assignment",
+    "summary": "An observational study records existing conditions, while a randomized experiment assigns treatments to units. Random sampling addresses who is observed; random assignment addresses potential treatment confounding.",
+    "concept": "An observational study records existing conditions, while a randomized experiment assigns treatments to units. Random sampling addresses who is observed; random assignment addresses potential treatment confounding.",
+    "method": "Identify the sampling frame, measurement process, potential nonresponse and confounders. For experiments, record the unit of randomization, treatment groups, order and any blinding or blocking.",
+    "guardrail": "Random assignment does not ensure the sample represents an entire population. Observational association must not be described as an experimentally established cause.",
+    "latex": "\\widehat p=\\frac{x}{n}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1; Navidi, 4th ed., Ch. 1; McClave & Sincich, 13th ed., Chs. 1–2",
+    "workedExample": {
+      "prompt": "A defect survey finds 12 failed components among 200 inspected units. Find the observed defect proportion.",
+      "steps": [
+        "Number defective=12; number inspected=200.",
+        "Observed sample defect proportion=12/200=0.06."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Can a convenience sample of one production shift, even if large, guarantee factory-wide representativeness?",
+      "answer": "No",
+      "explanation": "Sampling many units within one shift does not automatically represent other shifts or production conditions."
+    }
+  },
+  {
+    "id": "PS02-05",
+    "moduleId": "PS02",
+    "title": "Permutations of repeated objects",
+    "summary": "When objects include repeated indistinguishable classes, naïvely counting all n! arrangements overcounts equivalent sequences. Divide the factorial of the total number of positions by factorials of each repetition count.",
+    "concept": "When objects include repeated indistinguishable classes, naïvely counting all n! arrangements overcounts equivalent sequences. Divide the factorial of the total number of positions by factorials of each repetition count.",
+    "method": "Identify distinguishable symbol types, verify their multiplicities sum to n, compute n!, divide by the product of multiplicity factorials, and check that the final result is an integer.",
+    "guardrail": "This formula requires indistinguishable objects within each type and distinguishable positions. Additional adjacency or ordering restrictions require separate casework.",
+    "latex": "N=\\frac{n!}{n_1!n_2!\\cdots n_k!}",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed., counting chapters; Balakrishnan, Schaum Combinatorics, introductory counting chapters; Kelley & Donnelly, Humongous Statistics Problems, Ch. 5",
+    "workedExample": {
+      "prompt": "How many distinct sequences use three A boards and two B boards?",
+      "steps": [
+        "Total length n=5 with multiplicities 3 and 2.",
+        "5!/(3!2!)=120/(6×2)=10 distinct sequences."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Would labeling every A board individually preserve the same count?",
+      "answer": "No",
+      "explanation": "If the A objects were distinguishable, some arrangements previously considered identical would become distinct."
+    }
+  },
+  {
+    "id": "PS02-06",
+    "moduleId": "PS02",
+    "title": "Circular arrangements and rotational equivalence",
+    "summary": "If n distinct objects are arranged around a circle and rotations are considered identical, fix one reference object and arrange the remaining n−1 objects linearly. Reflection is a separate equivalence choice.",
+    "concept": "If n distinct objects are arranged around a circle and rotations are considered identical, fix one reference object and arrange the remaining n−1 objects linearly. Reflection is a separate equivalence choice.",
+    "method": "First decide whether physical labels or fixed positions matter. If rotations are equivalent and mirror images remain distinct, fix one distinguished item and count (n−1)! orderings. The (n−1)! count assumes n distinct people or objects placed at unnumbered equally spaced positions on a circle, with rotations equivalent but reflected arrangements different. Numbered seats distinguish absolute positions and generally give n! assignments.",
+    "guardrail": "The circular-permutation formula does not apply unchanged to repeated objects or to necklaces that also identify mirror-image configurations. For bracelets/necklaces with reflection equivalence, a separate symmetry count is required; do not divide indiscriminately by two when repeated patterns exist.",
+    "latex": "P_{\\mathrm{circle}}=(n-1)!",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed., counting chapters; Balakrishnan, Schaum Combinatorics, introductory counting chapters; Kelley & Donnelly, Humongous Statistics Problems, Ch. 5",
+    "workedExample": {
+      "prompt": "How many distinct circular orders of five labeled sensors are possible when rotations are equivalent?",
+      "steps": [
+        "Fix one sensor as a reference.",
+        "Arrange the other four in 4!=24 circular orders."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Are mirrored arrangements automatically considered the same when counting circular permutations?",
+      "answer": "No",
+      "explanation": "Treating mirror images as equivalent requires another symmetry analysis."
+    }
+  },
+  {
+    "id": "PS02-07",
+    "moduleId": "PS02",
+    "title": "Combinations with repetition and nonnegative selections",
+    "summary": "Selecting r identical units from n distinguishable categories with unlimited repetition is equivalent to solving a nonnegative integer sum. The stars-and-bars count is a binomial coefficient.",
+    "concept": "Selecting r identical units from n distinguishable categories with unlimited repetition is equivalent to solving a nonnegative integer sum. The stars-and-bars count is a binomial coefficient.",
+    "method": "Write x1+...+xn=r with every xi a nonnegative integer; arrange r stars and n−1 separators and compute C(n+r−1,r).",
+    "guardrail": "Stars and bars requires nonnegative unbounded category counts. Upper inventory limits, required positive minimums, or prohibited combinations change the count.",
+    "latex": "N=\\binom{n+r-1}{r}",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed., counting chapters; Balakrishnan, Schaum Combinatorics, introductory counting chapters; Kelley & Donnelly, Humongous Statistics Problems, Ch. 5",
+    "workedExample": {
+      "prompt": "A lab orders 5 identical resistors from 3 resistance categories with unlimited inventory. How many order compositions are possible?",
+      "steps": [
+        "Solve x1+x2+x3=5 with xi≥0.",
+        "Use C(3+5−1,5)=C(7,5)=21 compositions."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does unlimited selection with repetition model a warehouse with only two units available in each category?",
+      "answer": "No",
+      "explanation": "Inventory caps invalidate unrestricted stars-and-bars counting; bounded counting or inclusion–exclusion is needed."
+    }
+  },
+  {
+    "id": "PS02-08",
+    "moduleId": "PS02",
+    "title": "Inclusion–exclusion for overlapping conditions",
+    "summary": "Counting either of two overlapping conditions by addition alone double-counts their intersection. Inclusion–exclusion subtracts the overlap once and generalizes to three or more sets.",
+    "concept": "Counting either of two overlapping conditions by addition alone double-counts their intersection. Inclusion–exclusion subtracts the overlap once and generalizes to three or more sets.",
+    "method": "Identify the universe, count the two sets separately, compute the intersection explicitly and subtract it: |A∪B|=|A|+|B|−|A∩B|.",
+    "guardrail": "Do not assume events or sets are disjoint unless stated. Inclusion–exclusion concerns membership counts; probability calculations require corresponding event probabilities.",
+    "latex": "|A\\cup B|=|A|+|B|-|A\\cap B|",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed., counting chapters; Balakrishnan, Schaum Combinatorics, introductory counting chapters; Kelley & Donnelly, Humongous Statistics Problems, Ch. 5",
+    "workedExample": {
+      "prompt": "Among tested boards, 18 have issue A, 12 have issue B, and 5 have both. How many have A or B?",
+      "steps": [
+        "Add 18+12=30.",
+        "Subtract the five double-counted boards: 30−5=25."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "If two defect classes overlap, is |A∪B| always |A|+|B|?",
+      "answer": "No",
+      "explanation": "The intersection must be subtracted, unless the two classes are proven disjoint."
+    }
+  },
+  {
+    "id": "PS02-09",
+    "moduleId": "PS02",
+    "title": "Complementary counting and pigeonhole reasoning",
+    "summary": "Complementary counting obtains a desired count by subtracting an easier forbidden count from all possibilities. The pigeonhole principle guarantees repetition when more objects are assigned than available categories.",
+    "concept": "Complementary counting obtains a desired count by subtracting an easier forbidden count from all possibilities. The pigeonhole principle guarantees repetition when more objects are assigned than available categories.",
+    "method": "Define the full outcome space and undesired outcomes precisely. Subtract cardinalities without overlap errors; when proving forced repetition, compare object count to available distinct categories.",
+    "guardrail": "Pigeonhole reasoning proves existence, not the exact number of collisions. Complement counting requires a complete, nonoverlapping partition of outcomes into desired and undesired.",
+    "latex": "N(A)=N(\\Omega)-N(A^c)",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed., counting chapters; Balakrishnan, Schaum Combinatorics, introductory counting chapters; Kelley & Donnelly, Humongous Statistics Problems, Ch. 5",
+    "workedExample": {
+      "prompt": "A 4-bit pattern has 16 possibilities. How many contain at least one 1?",
+      "steps": [
+        "There are 2^4=16 patterns in total.",
+        "Exactly one pattern has no 1 (0000).",
+        "Complement gives 16−1=15 patterns."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Do six sensors assigned to five unique rack colors guarantee that two share a color?",
+      "answer": "Yes",
+      "explanation": "Six objects into five possible categories force at least one shared category by the pigeonhole principle."
+    }
+  },
+  {
+    "id": "PS02-10",
+    "moduleId": "PS02",
+    "title": "Binomial coefficients and selection identities",
+    "summary": "Binomial coefficients count unordered subsets and appear in polynomial expansions and binomial probability models. Pascal’s identity partitions r-element selections according to inclusion of a designated item.",
+    "concept": "Binomial coefficients count unordered subsets and appear in polynomial expansions and binomial probability models. Pascal’s identity partitions r-element selections according to inclusion of a designated item.",
+    "method": "For C(n,r), verify 0≤r≤n. Use symmetry C(n,r)=C(n,n−r) or Pascal’s identity C(n,r)=C(n−1,r)+C(n−1,r−1) to simplify.",
+    "guardrail": "The coefficient C(n,r) counts selections, not ordered placements; selecting and arranging r positions generally requires permutations.",
+    "latex": "\\binom{n}{r}=\\binom{n-1}{r}+\\binom{n-1}{r-1}",
+    "status": "draft",
+    "reference": "Tucker, Applied Combinatorics, 6th ed., counting chapters; Balakrishnan, Schaum Combinatorics, introductory counting chapters; Kelley & Donnelly, Humongous Statistics Problems, Ch. 5",
+    "workedExample": {
+      "prompt": "How many ways can three sensor boards be selected from seven distinct boards?",
+      "steps": [
+        "Selections ignore order.",
+        "Compute C(7,3)=7!/(3!4!)=35."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does selecting a committee of three distinguish its seating order?",
+      "answer": "No",
+      "explanation": "A combination selects an unordered subset; assignments to ordered seats are permutations."
+    }
+  },
+  {
+    "id": "PS03-05",
+    "moduleId": "PS03",
+    "title": "Law of total probability and partitioned populations",
+    "summary": "The law of total probability sums conditional event probabilities weighted by a mutually exclusive, exhaustive partition. It is especially useful for equipment from different shifts, suppliers or operating modes.",
+    "concept": "The law of total probability sums conditional event probabilities weighted by a mutually exclusive, exhaustive partition. It is especially useful for equipment from different shifts, suppliers or operating modes.",
+    "method": "List all disjoint cases Bi that cover the population, determine P(Bi) and P(A|Bi), multiply each pair and add. Confirm that the partition weights total one.",
+    "guardrail": "Do not add unweighted conditional probabilities. Case groups must be mutually exclusive and collectively exhaustive for the chosen total-probability expansion.",
+    "latex": "P(A)=\\sum_i P(A\\mid B_i)P(B_i)",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner, foundational chapters; Lipschutz, Schaum Probability; Navidi, 4th ed., Ch. 2",
+    "workedExample": {
+      "prompt": "Supplier A provides 60% of boards with 2% defect rate; B provides 40% with 5%. Find overall defect probability.",
+      "steps": [
+        "Compute A contribution 0.60×0.02=0.012.",
+        "Compute B contribution 0.40×0.05=0.020.",
+        "Total probability 0.012+0.020=0.032."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "If case weights do not total one, can they be used directly as an exhaustive partition?",
+      "answer": "No",
+      "explanation": "Mutually exclusive exhaustive case probabilities must sum to one; otherwise check missing categories or incorrect weights."
+    }
+  },
+  {
+    "id": "PS03-06",
+    "moduleId": "PS03",
+    "title": "Bayes theorem, sensor tests and predictive value",
+    "summary": "Bayes theorem reverses conditional probability by combining sensitivity, false-positive rate and prior prevalence. A high sensitivity does not guarantee a high positive predictive value when the underlying defect is rare.",
+    "concept": "Bayes theorem reverses conditional probability by combining sensitivity, false-positive rate and prior prevalence. A high sensitivity does not guarantee a high positive predictive value when the underlying defect is rare.",
+    "method": "Define D for defect and + for a positive test. Compute P(+)=P(+|D)P(D)+P(+|not D)P(not D); divide the defect-positive joint probability by P(+).",
+    "guardrail": "Never confuse P(+|D) with P(D|+). Ignoring false positives or the defect base rate produces misleading interpretations of diagnostic or sensor-test results.",
+    "latex": "P(D\\mid +)=\\frac{P(+\\mid D)P(D)}{P(+\\mid D)P(D)+P(+\\mid D^c)P(D^c)}",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner, foundational chapters; Lipschutz, Schaum Probability; Navidi, 4th ed., Ch. 2",
+    "workedExample": {
+      "prompt": "A defect has prevalence 0.10, sensitivity 0.90 and false-positive rate 0.10. What is P(defect|positive)?",
+      "steps": [
+        "Defective and positive joint probability=0.10×0.90=0.09.",
+        "Nondefective and positive joint probability=0.90×0.10=0.09.",
+        "Bayes posterior=0.09/(0.09+0.09)=0.50."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Can a high-sensitivity inspection alone determine positive predictive value?",
+      "answer": "No",
+      "explanation": "Predictive value also depends on prevalence and false-positive probability."
+    }
+  },
+  {
+    "id": "PS03-07",
+    "moduleId": "PS03",
+    "title": "Series and parallel reliability under independence",
+    "summary": "For independent components in a series system all must work, so reliabilities multiply. A parallel system survives if at least one succeeds, so its failure probability is the product of individual failure probabilities.",
+    "concept": "For independent components in a series system all must work, so reliabilities multiply. A parallel system survives if at least one succeeds, so its failure probability is the product of individual failure probabilities.",
+    "method": "Define system success events and architecture. Under explicitly independent component failures, multiply all successes for series or use 1 minus all-fail for parallel. As a counterexample, two modules sharing one common supply that fails with probability 0.10 can both fail together despite otherwise independent internal electronics. Model this shared event separately instead of multiplying unconditional module failure probabilities.",
+    "guardrail": "Common-cause failure, environmental dependence or shared power paths invalidate the simple independence products. A parallel path must genuinely provide redundancy. Independent component success probabilities must apply to the complete success events, not only to their nominal hardware specifications.",
+    "latex": "R_{\\mathrm{series}}=\\prod_iR_i,\\quad R_{\\mathrm{parallel}}=1-\\prod_i(1-R_i)",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner, foundational chapters; Lipschutz, Schaum Probability; Navidi, 4th ed., Ch. 2",
+    "workedExample": {
+      "prompt": "Two independent components in series have reliabilities 0.90 and 0.80. Find system reliability.",
+      "steps": [
+        "For independent series success both components must work.",
+        "Multiply 0.90×0.80=0.72."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "If two parallel components share a single point of failure, may we blindly apply independent parallel reliability?",
+      "answer": "No",
+      "explanation": "Common-cause or dependent failures invalidate the product of independent component-failure probabilities."
+    }
+  },
+  {
+    "id": "PS03-08",
+    "moduleId": "PS03",
+    "title": "Odds, conditional events and diagnostic statements",
+    "summary": "Event odds compare event probability with its complement. Probability, odds and likelihood ratios are distinct quantities; converting between them carefully prevents mistaken statements in engineering risk assessments.",
+    "concept": "Event odds compare event probability with its complement. Probability, odds and likelihood ratios are distinct quantities; converting between them carefully prevents mistaken statements in engineering risk assessments.",
+    "method": "For event probability p strictly between zero and one, odds in favor are p/(1−p); odds against are its reciprocal. Conditional odds use a conditional probability on the specified information.",
+    "guardrail": "Odds are not percentages and can exceed one. Do not interpret a change in odds as the same numerical change in probability.",
+    "latex": "O(A)=\\frac{P(A)}{1-P(A)}",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner, foundational chapters; Lipschutz, Schaum Probability; Navidi, 4th ed., Ch. 2",
+    "workedExample": {
+      "prompt": "A system has event probability 0.20. Compute odds in favor of the event.",
+      "steps": [
+        "Complement probability=1−0.20=0.80.",
+        "Odds in favor=0.20/0.80=0.25 (equivalently 1 to 4)."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Are odds of 3:1 equivalent to an event probability of 0.75?",
+      "answer": "Yes",
+      "explanation": "Odds in favor 3:1 imply probability 3/(3+1)=0.75."
+    }
+  },
+  {
+    "id": "PS03-09",
+    "moduleId": "PS03",
+    "title": "Dependent draws and tree-diagram multiplication",
+    "summary": "Sampling without replacement generally changes the probability of later selections. A probability tree expresses each joint path as the product of successive conditional branch probabilities.",
+    "concept": "Sampling without replacement generally changes the probability of later selections. A probability tree expresses each joint path as the product of successive conditional branch probabilities.",
+    "method": "Write a tree for each sequential draw, update remaining population and relevant successes after each result, multiply branch probabilities along a path and add disjoint paths if necessary.",
+    "guardrail": "With-replacement and without-replacement models are not interchangeable. Denominators and numerators may change at each draw in the dependent case.",
+    "latex": "P(A\\cap B)=P(A)P(B\\mid A)",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner, foundational chapters; Lipschutz, Schaum Probability; Navidi, 4th ed., Ch. 2",
+    "workedExample": {
+      "prompt": "A bin holds 5 tested good units and 3 defective units. Two units are drawn without replacement. Find probability both are good.",
+      "steps": [
+        "First-good probability=5/8.",
+        "Second-good conditional probability=4/7.",
+        "Product=(5/8)(4/7)=5/14≈0.3571."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Is the second good-draw probability still 5/8 after a good first draw without replacement?",
+      "answer": "No",
+      "explanation": "One good object has already been removed; the second probability is 4/7."
+    }
+  },
+  {
+    "id": "PS03-10",
+    "moduleId": "PS03",
+    "title": "Two-way probability tables and independence",
+    "summary": "Contingency tables summarize joint, marginal and conditional frequencies. Two events are independent precisely when P(A∩B)=P(A)P(B) for events with well-defined probabilities.",
+    "concept": "Contingency tables summarize joint, marginal and conditional frequencies. Two events are independent precisely when P(A∩B)=P(A)P(B) for events with well-defined probabilities.",
+    "method": "Sum all cells to obtain N. Divide cells and margins by N; compute P(A|B) using the relevant B margin, and compare with P(A) only after checking P(B)>0.",
+    "guardrail": "An observed frequency table gives empirical probabilities; sampling variation means approximate equality is not automatic proof of population independence. Distinguish mutually exclusive from independent events.",
+    "latex": "P(A\\mid B)=\\frac{P(A\\cap B)}{P(B)}",
+    "status": "draft",
+    "reference": "Morin, Probability for the Enthusiastic Beginner, foundational chapters; Lipschutz, Schaum Probability; Navidi, 4th ed., Ch. 2",
+    "workedExample": {
+      "prompt": "Among 200 boards, 30 have both defect A and condition B; 75 have condition B. Estimate P(A|B).",
+      "steps": [
+        "Conditional denominator is the 75 boards with B.",
+        "Estimated conditional proportion=30/75=0.40."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "For two events of positive probability, does mutual exclusivity imply independence?",
+      "answer": "No",
+      "explanation": "Mutual exclusivity makes their intersection probability zero, while independence would require the positive product P(A)P(B)."
+    }
+  },
+  {
+    "id": "PS04-05",
+    "moduleId": "PS04",
+    "title": "Geometric distribution and first-success waiting time",
+    "summary": "The geometric distribution counts independent Bernoulli trials up to and including the first success. With constant success probability p, P(X=k)=(1−p)^(k−1)p and E(X)=1/p.",
+    "concept": "The geometric distribution counts independent Bernoulli trials up to and including the first success. With constant success probability p, P(X=k)=(1−p)^(k−1)p and E(X)=1/p.",
+    "method": "Check independent identical trials, fixed p and first-success support k=1,2,... . Compute the required failures before the first success and apply the pmf.",
+    "guardrail": "Some references define a geometric variable as failures before first success, which shifts the support and mean. Always state the chosen convention.",
+    "latex": "P(X=k)=(1-p)^{k-1}p,\\quad E(X)=\\frac1p",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6; Navidi, 4th ed., Ch. 4",
+    "workedExample": {
+      "prompt": "A test succeeds independently with probability 0.20. What is the expected number of trials until first success?",
+      "steps": [
+        "For trials-count geometric variable, E(X)=1/p.",
+        "Expected trials=1/0.20=5."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does the trial-count geometric distribution include X=0?",
+      "answer": "No",
+      "explanation": "With X defined as number of trials through the first success, the support starts at 1."
+    }
+  },
+  {
+    "id": "PS04-06",
+    "moduleId": "PS04",
+    "title": "Hypergeometric sampling versus binomial trials",
+    "summary": "Hypergeometric probabilities describe the successes in a fixed-size sample drawn without replacement from a finite population. Binomial probabilities describe a fixed number of independent Bernoulli trials with constant success rate.",
+    "concept": "Hypergeometric probabilities describe the successes in a fixed-size sample drawn without replacement from a finite population. Binomial probabilities describe a fixed number of independent Bernoulli trials with constant success rate.",
+    "method": "Identify the finite population size N, number K of successes and sample size n. Count the ways to choose k successes and n−k failures, then divide by C(N,n).",
+    "guardrail": "Do not apply a binomial model blindly to substantial without-replacement sampling when dependence matters. Hypergeometric supports only feasible success counts.",
+    "latex": "P(X=k)=\\frac{\\binom Kk\\binom{N-K}{n-k}}{\\binom Nn}",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6; Navidi, 4th ed., Ch. 4",
+    "workedExample": {
+      "prompt": "A batch has 6 acceptable and 4 defective units. Two units are drawn without replacement. Find probability both are defective.",
+      "steps": [
+        "Choose both defective: C(4,2)=6.",
+        "Total two-unit samples: C(10,2)=45.",
+        "Probability=6/45=2/15≈0.1333."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Is sampling repeatedly from a small finite lot without replacement exactly binomial?",
+      "answer": "No",
+      "explanation": "The draws become dependent and success probability changes; use a hypergeometric model."
+    }
+  },
+  {
+    "id": "PS04-07",
+    "moduleId": "PS04",
+    "title": "Exponential lifetimes and constant hazard models",
+    "summary": "The exponential distribution models nonnegative waiting times under a constant event rate λ. Its survival probability is exp(−λt), its cumulative distribution is 1−exp(−λt), and its mean is 1/λ.",
+    "concept": "The exponential distribution models nonnegative waiting times under a constant event rate λ. Its survival probability is exp(−λt), its cumulative distribution is 1−exp(−λt), and its mean is 1/λ.",
+    "method": "Confirm that a constant-hazard waiting-time model is appropriate. Convert the rate into the reciprocal of the time units, then evaluate survival or cumulative failure probability at the desired time.",
+    "guardrail": "Constant hazard is a substantive model assumption and may fail for aging or wear-out components. The memoryless property is specific to the exponential waiting-time model.",
+    "latex": "P(T>t)=e^{-\\lambda t},\\quad E(T)=\\frac1\\lambda",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6; Navidi, 4th ed., Ch. 4",
+    "workedExample": {
+      "prompt": "An exponential lifetime has λ=0.5 failures/hour. Compute mean lifetime.",
+      "steps": [
+        "For exponential rate λ=0.5 per hour, E(T)=1/λ.",
+        "Mean lifetime=2 hours."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Does constant-hazard exponential modeling automatically describe devices whose failure rate rises with age?",
+      "answer": "No",
+      "explanation": "Age-dependent wear-out behavior violates the exponential constant-hazard assumption."
+    }
+  },
+  {
+    "id": "PS04-08",
+    "moduleId": "PS04",
+    "title": "Cumulative distribution functions and percentiles",
+    "summary": "A cumulative distribution function F(x)=P(X≤x) describes the probability at or below a threshold. For discrete variables, jumps encode probability masses; for continuous variables, density integrates to cumulative probability.",
+    "concept": "A cumulative distribution function F(x)=P(X≤x) describes the probability at or below a threshold. For discrete variables, jumps encode probability masses; for continuous variables, density integrates to cumulative probability.",
+    "method": "Use F(b)−F(a) to compute interval probability P(a<X≤b). For discrete endpoints use care with strict versus non-strict inequalities and any point probability at a.",
+    "guardrail": "A continuous density is not itself a probability at a point. Do not use F(b)−F(a) for an interval with a different endpoint convention without adjusting discrete masses.",
+    "latex": "P(a<X\\le b)=F(b)-F(a)",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6; Navidi, 4th ed., Ch. 4",
+    "workedExample": {
+      "prompt": "A variable has F(2)=0.25 and F(5)=0.85. Find P(2<X≤5).",
+      "steps": [
+        "Apply P(2<X≤5)=F(5)−F(2).",
+        "0.85−0.25=0.60."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "For a discrete distribution, does P(X=a) have to be zero?",
+      "answer": "No",
+      "explanation": "A jump of the CDF at a may be positive and equals P(X=a)."
+    }
+  },
+  {
+    "id": "PS04-09",
+    "moduleId": "PS04",
+    "title": "Joint variables, covariance and linear combinations",
+    "summary": "Joint distributions describe two random variables simultaneously. Expectations are linear without independence, while the variance of a sum additionally includes twice the covariance term.",
+    "concept": "Joint distributions describe two random variables simultaneously. Expectations are linear without independence, while the variance of a sum additionally includes twice the covariance term.",
+    "method": "Calculate each mean, variance and covariance from a valid joint distribution. For aX+bY, use expected value aE(X)+bE(Y) and variance a²Var(X)+b²Var(Y)+2abCov(X,Y).",
+    "guardrail": "Independence implies zero covariance when the moments exist, but zero covariance does not generally imply independence. Dropping the covariance term requires justification.",
+    "latex": "\\mathrm{Var}(X+Y)=\\mathrm{Var}(X)+\\mathrm{Var}(Y)+2\\mathrm{Cov}(X,Y)",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6; Navidi, 4th ed., Ch. 4",
+    "workedExample": {
+      "prompt": "Independent errors X and Y have variances 4 and 9. What is variance of X+Y?",
+      "steps": [
+        "Independence implies zero covariance.",
+        "Var(X+Y)=4+9+2(0)=13."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "When two measurements share noise sources, may we assume their covariance is zero?",
+      "answer": "No",
+      "explanation": "Common measurement noise can induce dependence and nonzero covariance; assess its contribution."
+    }
+  },
+  {
+    "id": "PS04-10",
+    "moduleId": "PS04",
+    "title": "Normal approximation and continuity correction",
+    "summary": "For sufficiently large binomial counts away from extreme probabilities, a normal approximation may be used. Its mean is np and variance np(1−p), and continuity correction maps integer bounds to neighboring half-integer limits.",
+    "concept": "For sufficiently large binomial counts away from extreme probabilities, a normal approximation may be used. Its mean is np and variance np(1−p), and continuity correction maps integer bounds to neighboring half-integer limits.",
+    "method": "Check np and n(1−p) and choose an appropriate approximation accuracy. For P(X≤k), approximate using normal P(Y≤k+0.5), standardizing with mean np and sd sqrt(np(1−p)). A common classroom screening rule is both np≥5 and n(1−p)≥5 (some references recommend 10); check the desired accuracy and use the exact binomial distribution when either count is small. For P(X≥k), use normal cutoff k−0.5; for P(X≤k), use k+0.5.",
+    "guardrail": "Approximation adequacy depends on n and p; extreme probabilities or small expected counts may demand an exact binomial calculation. Clearly state when a continuity correction is used. If the binomial is highly skewed (p near 0 or 1), the approximation may be poor even when n appears large; do not treat the threshold rule as a proof of accuracy.",
+    "latex": "z=\\frac{k+0.5-np}{\\sqrt{np(1-p)}}\\quad\\mathrm{for}\\ P(X\\le k)",
+    "status": "draft",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6; Navidi, 4th ed., Ch. 4",
+    "workedExample": {
+      "prompt": "For X~Binomial(100,0.5), give corrected z-boundary for P(X≤54).",
+      "steps": [
+        "Normal mean np=50 and sd=sqrt(25)=5.",
+        "Continuity-corrected upper limit is 54.5.",
+        "z=(54.5−50)/5=0.90."
+      ]
+    },
+    "checkpoint": {
+      "prompt": "Should P(X≤54) use 54.5 rather than 54 as the continuity-corrected normal cutoff?",
+      "answer": "Yes",
+      "explanation": "The continuous approximation to count X≤54 uses an upper boundary at 54.5."
+    }
+  }
+]

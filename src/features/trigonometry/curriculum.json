@@ -1,0 +1,847 @@
+{
+  "schemaVersion": 1,
+  "groups": [
+    {
+      "id": "foundations",
+      "name": "Trigonometric Foundations",
+      "short": "Foundations",
+      "tagline": "Start with angles, triangles, and the unit circle.",
+      "tone": "cyan",
+      "symbol": "◇"
+    },
+    {
+      "id": "analytical",
+      "name": "Analytical Trigonometry",
+      "short": "Analytical",
+      "tagline": "Master identities, formulas, inverses, and equations.",
+      "tone": "violet",
+      "symbol": "∑"
+    },
+    {
+      "id": "applied",
+      "name": "Applied & Engineering Trigonometry",
+      "short": "Engineering",
+      "tagline": "Use trigonometry in geometry, vectors, complex numbers, and signals.",
+      "tone": "amber",
+      "symbol": "⌁"
+    },
+    {
+      "id": "enrichment",
+      "name": "Advanced & Enrichment",
+      "short": "Advanced",
+      "tagline": "Optional ideas beyond the primary review track.",
+      "tone": "slate",
+      "symbol": "✧"
+    }
+  ],
+  "topics": [
+    {
+      "id": "trig-angles",
+      "group": "foundations",
+      "title": "Angles & Measurement",
+      "symbol": "∠",
+      "summary": "Angle systems, measurement, arc geometry, and angular motion.",
+      "references": "Lial • McKeague • Schaum’s",
+      "formula": "s = rθ   ·   A = ½r²θ",
+      "note": "Use radians in arc-length and sector-area formulas.",
+      "subtopics": [
+        {
+          "id": "trig-angles-angles-and-their-classification",
+          "number": "01.1",
+          "title": "Angles and their classification",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-angles-degrees-minutes-and-seconds-dms",
+          "number": "01.2",
+          "title": "Degrees, minutes, and seconds (DMS)",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-angles-radian-measure",
+          "number": "01.3",
+          "title": "Radian measure",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-angles-degreeradian-conversion",
+          "number": "01.4",
+          "title": "Degree–radian conversion",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-angles-coterminal-angles-and-rotations",
+          "number": "01.5",
+          "title": "Coterminal angles and rotations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-angles-arc-length-and-sector-area",
+          "number": "01.6",
+          "title": "Arc length and sector area",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-angles-linear-and-angular-speed",
+          "number": "01.7",
+          "title": "Linear and angular speed",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "01",
+      "optional": false
+    },
+    {
+      "id": "trig-right-triangles",
+      "group": "foundations",
+      "title": "Right-Triangle Trigonometry",
+      "symbol": "△",
+      "summary": "Right triangles, special angles, and practical angle calculations.",
+      "references": "Lial • Schaum’s • Kelley",
+      "formula": "sin θ = opposite / hypotenuse",
+      "note": "Identify the sides relative to the selected acute angle.",
+      "subtopics": [
+        {
+          "id": "trig-right-triangles-pythagorean-theorem-and-special-triangles",
+          "number": "02.1",
+          "title": "Pythagorean theorem and special triangles",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-right-triangles-six-trigonometric-ratios",
+          "number": "02.2",
+          "title": "Six trigonometric ratios",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-right-triangles-exact-values-of-special-angles",
+          "number": "02.3",
+          "title": "Exact values of special angles",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-right-triangles-cofunction-relations",
+          "number": "02.4",
+          "title": "Cofunction relations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-right-triangles-finding-unknown-sides-and-angles",
+          "number": "02.5",
+          "title": "Finding unknown sides and angles",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-right-triangles-solving-right-triangles",
+          "number": "02.6",
+          "title": "Solving right triangles",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-right-triangles-elevation-depression-bearings-and-applications",
+          "number": "02.7",
+          "title": "Elevation, depression, bearings, and applications",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "02",
+      "optional": false
+    },
+    {
+      "id": "trig-unit-circle",
+      "group": "foundations",
+      "title": "Unit Circle & General Angles",
+      "symbol": "◉",
+      "summary": "Evaluate six trigonometric functions across all quadrants.",
+      "references": "Young • Lial • Corral",
+      "formula": "(x, y) = (cos θ, sin θ)",
+      "note": "Reference angles determine magnitude; the quadrant determines sign.",
+      "subtopics": [
+        {
+          "id": "trig-unit-circle-angles-in-standard-position",
+          "number": "03.1",
+          "title": "Angles in standard position",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-unit-circle-unit-circle-definitions",
+          "number": "03.2",
+          "title": "Unit-circle definitions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-unit-circle-quadrants-and-signs-of-functions",
+          "number": "03.3",
+          "title": "Quadrants and signs of functions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-unit-circle-reference-angle-reductions",
+          "number": "03.4",
+          "title": "Reference-angle reductions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-unit-circle-exact-values-on-the-unit-circle",
+          "number": "03.5",
+          "title": "Exact values on the unit circle",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-unit-circle-negative-and-coterminal-angles",
+          "number": "03.6",
+          "title": "Negative and coterminal angles",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-unit-circle-evaluating-functions-of-any-angle",
+          "number": "03.7",
+          "title": "Evaluating functions of any angle",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "03",
+      "optional": false
+    },
+    {
+      "id": "trig-graphs",
+      "group": "foundations",
+      "title": "Functions & Graphs",
+      "symbol": "∿",
+      "summary": "Read, sketch, transform, and model periodic functions.",
+      "references": "Lial • Sullivan • Young",
+      "formula": "y = A sin(B(x − C)) + D",
+      "note": "Amplitude is |A| and period is 2π/|B| for sine and cosine when B ≠ 0.",
+      "subtopics": [
+        {
+          "id": "trig-graphs-domain-range-periodicity-and-symmetry",
+          "number": "04.1",
+          "title": "Domain, range, periodicity, and symmetry",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-sine-and-cosine-graphs",
+          "number": "04.2",
+          "title": "Sine and cosine graphs",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-tangent-and-cotangent-graphs",
+          "number": "04.3",
+          "title": "Tangent and cotangent graphs",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-secant-and-cosecant-graphs",
+          "number": "04.4",
+          "title": "Secant and cosecant graphs",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-amplitude-and-period",
+          "number": "04.5",
+          "title": "Amplitude and period",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-phase-shifts-and-vertical-translations",
+          "number": "04.6",
+          "title": "Phase shifts and vertical translations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-reflections-and-combined-transformations",
+          "number": "04.7",
+          "title": "Reflections and combined transformations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-graphs-finding-an-equation-from-a-graph",
+          "number": "04.8",
+          "title": "Finding an equation from a graph",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "04",
+      "optional": false
+    },
+    {
+      "id": "trig-basic-identities",
+      "group": "analytical",
+      "title": "Fundamental Identities",
+      "symbol": "≡",
+      "summary": "Simplify trig expressions and establish common identities.",
+      "references": "Schaum’s • Lial • Young",
+      "formula": "sin² θ + cos² θ = 1",
+      "note": "Check that the original and transformed expressions are defined on the claimed domain.",
+      "subtopics": [
+        {
+          "id": "trig-basic-identities-reciprocal-identities",
+          "number": "05.1",
+          "title": "Reciprocal identities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-basic-identities-quotient-identities",
+          "number": "05.2",
+          "title": "Quotient identities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-basic-identities-pythagorean-identities",
+          "number": "05.3",
+          "title": "Pythagorean identities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-basic-identities-evenodd-and-cofunction-identities",
+          "number": "05.4",
+          "title": "Even–odd and cofunction identities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-basic-identities-simplifying-trig-expressions",
+          "number": "05.5",
+          "title": "Simplifying trig expressions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+          "number": "05.6",
+          "title": "Verifying identities and domain restrictions",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "05",
+      "optional": false
+    },
+    {
+      "id": "trig-advanced-identities",
+      "group": "analytical",
+      "title": "Advanced Identities & Formulas",
+      "symbol": "ƒ",
+      "summary": "Manipulate angles, powers, sums, and products of trig functions.",
+      "references": "Lial • Young • Schaum’s",
+      "formula": "sin(α ± β) = sin α cos β ± cos α sin β",
+      "note": "Sum-to-product and product-to-sum techniques also support waveform problems.",
+      "subtopics": [
+        {
+          "id": "trig-advanced-identities-sum-and-difference-formulas",
+          "number": "06.1",
+          "title": "Sum and difference formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-double-angle-formulas",
+          "number": "06.2",
+          "title": "Double-angle formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-half-angle-formulas",
+          "number": "06.3",
+          "title": "Half-angle formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-triple-angle-formulas",
+          "number": "06.4",
+          "title": "Triple-angle formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-power-reduction-formulas",
+          "number": "06.5",
+          "title": "Power-reduction formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-product-to-sum-formulas",
+          "number": "06.6",
+          "title": "Product-to-sum formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-sum-to-product-formulas",
+          "number": "06.7",
+          "title": "Sum-to-product formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-identities-combining-identities-efficiently",
+          "number": "06.8",
+          "title": "Combining identities efficiently",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "06",
+      "optional": false
+    },
+    {
+      "id": "trig-inverse-functions",
+      "group": "analytical",
+      "title": "Inverse Trigonometric Functions",
+      "symbol": "↶",
+      "summary": "Evaluate inverse functions with the correct principal branches.",
+      "references": "Young • Lial • Sullivan",
+      "formula": "arcsin(sin θ) = θ only on [−π/2, π/2]",
+      "note": "Inverse trig functions are single-valued only after restricting the original function’s domain.",
+      "subtopics": [
+        {
+          "id": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+          "number": "07.1",
+          "title": "Inverse sine, cosine, and tangent",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+          "number": "07.2",
+          "title": "Inverse secant, cosecant, and cotangent conventions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-inverse-functions-principal-values-and-domain-restrictions",
+          "number": "07.3",
+          "title": "Principal values and domain restrictions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+          "number": "07.4",
+          "title": "Graphs of inverse trig functions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-inverse-functions-exact-inverse-function-values",
+          "number": "07.5",
+          "title": "Exact inverse-function values",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-inverse-functions-compositions-with-inverse-functions",
+          "number": "07.6",
+          "title": "Compositions with inverse functions",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "07",
+      "optional": false
+    },
+    {
+      "id": "trig-equations",
+      "group": "analytical",
+      "title": "Trigonometric Equations",
+      "symbol": "=",
+      "summary": "Find all valid solutions, including general and interval-specific results.",
+      "references": "Schaum’s • Kelley • Lial",
+      "formula": "sin θ = sin α ⇒ θ = α + 2kπ or θ = π − α + 2kπ",
+      "note": "Use k ∈ ℤ, and verify any equation transformed through division or squaring.",
+      "subtopics": [
+        {
+          "id": "trig-equations-basic-trigonometric-equations",
+          "number": "08.1",
+          "title": "Basic trigonometric equations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-general-solutions-and-specified-intervals",
+          "number": "08.2",
+          "title": "General solutions and specified intervals",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-equations-solved-by-factoring",
+          "number": "08.3",
+          "title": "Equations solved by factoring",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-quadratic-type-equations",
+          "number": "08.4",
+          "title": "Quadratic-type equations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-equations-using-identities",
+          "number": "08.5",
+          "title": "Equations using identities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-multiple-angle-equations",
+          "number": "08.6",
+          "title": "Multiple-angle equations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-equations-involving-inverse-functions",
+          "number": "08.7",
+          "title": "Equations involving inverse functions",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-equations-extraneous-and-excluded-solutions",
+          "number": "08.8",
+          "title": "Extraneous and excluded solutions",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "08",
+      "optional": false
+    },
+    {
+      "id": "trig-oblique-triangles",
+      "group": "applied",
+      "title": "Oblique Triangles & Applications",
+      "symbol": "◭",
+      "summary": "Use sine and cosine laws when a triangle is not right-angled.",
+      "references": "Schaum’s • Lial • Corral",
+      "formula": "a / sin A = b / sin B = c / sin C",
+      "note": "In the SSA case, examine whether zero, one, or two valid triangles exist.",
+      "subtopics": [
+        {
+          "id": "trig-oblique-triangles-oblique-triangle-problem-types",
+          "number": "09.1",
+          "title": "Oblique-triangle problem types",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-law-of-sines",
+          "number": "09.2",
+          "title": "Law of Sines",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-ambiguous-case-ssa",
+          "number": "09.3",
+          "title": "Ambiguous case (SSA)",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-law-of-cosines",
+          "number": "09.4",
+          "title": "Law of Cosines",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-trigonometric-area-formulas",
+          "number": "09.5",
+          "title": "Trigonometric area formulas",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-herons-formula",
+          "number": "09.6",
+          "title": "Heron’s formula",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+          "number": "09.7",
+          "title": "Inradius and circumradius relationships",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+          "number": "09.8",
+          "title": "Surveying, navigation, and practical applications",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "09",
+      "optional": false
+    },
+    {
+      "id": "trig-vectors",
+      "group": "applied",
+      "title": "Vectors & Components",
+      "symbol": "➹",
+      "summary": "Resolve magnitudes and directions in two or three dimensions.",
+      "references": "Sullivan • Young • Ross",
+      "formula": "A · B = |A| |B| cos θ",
+      "note": "The cross product is a vector in 3D; the dot product is a scalar.",
+      "subtopics": [
+        {
+          "id": "trig-vectors-scalars-and-vectors",
+          "number": "10.1",
+          "title": "Scalars and vectors",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-magnitude-and-direction",
+          "number": "10.2",
+          "title": "Magnitude and direction",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-rectangular-vector-components",
+          "number": "10.3",
+          "title": "Rectangular vector components",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-vector-addition-and-subtraction",
+          "number": "10.4",
+          "title": "Vector addition and subtraction",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-unit-vectors-and-normalization",
+          "number": "10.5",
+          "title": "Unit vectors and normalization",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-dot-product-and-angle-between-vectors",
+          "number": "10.6",
+          "title": "Dot product and angle between vectors",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-cross-product-and-orientation",
+          "number": "10.7",
+          "title": "Cross product and orientation",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-vectors-applications-in-2d-and-3d",
+          "number": "10.8",
+          "title": "Applications in 2D and 3D",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "10",
+      "optional": false
+    },
+    {
+      "id": "trig-complex-polar",
+      "group": "applied",
+      "title": "Complex Numbers & Polar Form",
+      "symbol": "ℂ",
+      "summary": "Connect rectangular and polar complex-number representations.",
+      "references": "Sullivan • Lial • Schaum’s",
+      "formula": "z = r(cos θ + i sin θ) = reⁱθ",
+      "note": "When finding an argument, account for the complex number’s quadrant.",
+      "subtopics": [
+        {
+          "id": "trig-complex-polar-rectangular-complex-number-form",
+          "number": "11.1",
+          "title": "Rectangular complex-number form",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-the-complex-plane",
+          "number": "11.2",
+          "title": "The complex plane",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-modulus-and-argument",
+          "number": "11.3",
+          "title": "Modulus and argument",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-polar-and-trigonometric-forms",
+          "number": "11.4",
+          "title": "Polar and trigonometric forms",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-multiplication-and-division-in-polar-form",
+          "number": "11.5",
+          "title": "Multiplication and division in polar form",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-eulers-formula",
+          "number": "11.6",
+          "title": "Euler’s formula",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-de-moivres-theorem",
+          "number": "11.7",
+          "title": "De Moivre’s theorem",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+          "number": "11.8",
+          "title": "Powers and roots of complex numbers",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "11",
+      "optional": false
+    },
+    {
+      "id": "trig-polar-parametric",
+      "group": "applied",
+      "title": "Polar & Parametric Equations",
+      "symbol": "◎",
+      "summary": "Represent curves using angles, radii, and parameters.",
+      "references": "Lial • Sullivan • Larson",
+      "formula": "x = r cos θ,   y = r sin θ",
+      "note": "A polar point can have more than one coordinate representation.",
+      "subtopics": [
+        {
+          "id": "trig-polar-parametric-polar-coordinate-system",
+          "number": "12.1",
+          "title": "Polar coordinate system",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-polar-parametric-rectangular-and-polar-conversion",
+          "number": "12.2",
+          "title": "Rectangular and polar conversion",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-polar-parametric-polar-graphing-and-symmetry",
+          "number": "12.3",
+          "title": "Polar graphing and symmetry",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-polar-parametric-common-polar-curves",
+          "number": "12.4",
+          "title": "Common polar curves",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-polar-parametric-parametric-equations",
+          "number": "12.5",
+          "title": "Parametric equations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-polar-parametric-conversion-and-graphical-interpretation",
+          "number": "12.6",
+          "title": "Conversion and graphical interpretation",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "12",
+      "optional": false
+    },
+    {
+      "id": "trig-waves-phase",
+      "group": "applied",
+      "title": "Sinusoids, Waves & Phase",
+      "symbol": "〰",
+      "summary": "Relate periodic mathematics to electrical and physical waveforms.",
+      "references": "Sullivan • Gibilisco • Young",
+      "formula": "v(t) = Vₘ sin(ωt + φ),   ω = 2πf",
+      "note": "The sign convention and reference waveform determine whether one sinusoid leads or lags another.",
+      "subtopics": [
+        {
+          "id": "trig-waves-phase-sinusoidal-mathematical-models",
+          "number": "13.1",
+          "title": "Sinusoidal mathematical models",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+          "number": "13.2",
+          "title": "Amplitude, period, frequency, and angular frequency",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-phase-shift-versus-time-shift",
+          "number": "13.3",
+          "title": "Phase shift versus time shift",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+          "number": "13.4",
+          "title": "Phase difference and lead–lag relationships",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-combining-same-frequency-sinusoids",
+          "number": "13.5",
+          "title": "Combining same-frequency sinusoids",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-simple-harmonic-motion",
+          "number": "13.6",
+          "title": "Simple harmonic motion",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-damped-oscillations",
+          "number": "13.7",
+          "title": "Damped oscillations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+          "number": "13.8",
+          "title": "Introductory AC waveforms and phasor connections",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "13",
+      "optional": false
+    },
+    {
+      "id": "trig-advanced",
+      "group": "enrichment",
+      "title": "Advanced Trigonometry",
+      "symbol": "✦",
+      "summary": "Optional enrichment for deeper mathematical problem-solving.",
+      "references": "Ross • Tanton • Andreescu–Feng",
+      "formula": "cosh² x − sinh² x = 1",
+      "note": "These optional topics should not be confused with verified board-exam requirements.",
+      "subtopics": [
+        {
+          "id": "trig-advanced-advanced-trigonometric-inequalities",
+          "number": "14.1",
+          "title": "Advanced trigonometric inequalities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-nonroutine-equations-and-identity-proofs",
+          "number": "14.2",
+          "title": "Nonroutine equations and identity proofs",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-trigonometric-substitutions-and-transformations",
+          "number": "14.3",
+          "title": "Trigonometric substitutions and transformations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-spherical-trigonometry",
+          "number": "14.4",
+          "title": "Spherical trigonometry",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-hyperbolic-functions-and-identities",
+          "number": "14.5",
+          "title": "Hyperbolic functions and identities",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-trigonometric-series-and-approximations",
+          "number": "14.6",
+          "title": "Trigonometric series and approximations",
+          "prerequisiteIds": []
+        },
+        {
+          "id": "trig-advanced-advanced-competition-style-problems",
+          "number": "14.7",
+          "title": "Advanced competition-style problems",
+          "prerequisiteIds": []
+        }
+      ],
+      "number": "14",
+      "optional": true
+    }
+  ]
+}

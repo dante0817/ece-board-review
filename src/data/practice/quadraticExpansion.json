@@ -1,0 +1,1196 @@
+[
+  {
+    "id": "quadx-01",
+    "subskill": "Standard form",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Rewrite 3x²+7 = 4x in ax²+bx+c=0 form. Identify a, b, and c.",
+    "options": [
+      "a=3, b=−7, c=4",
+      "a=3, b=4, c=−7",
+      "a=3, b=−4, c=7",
+      "a=4, b=−3, c=7"
+    ],
+    "correctIndex": 2,
+    "explanation": "Move 4x to the left: 3x²−4x+7=0; hence a=3, b=−4, c=7.",
+    "family": "standard-form",
+    "objectiveId": "quad-obj-1",
+    "check": {
+      "kind": "coefficients",
+      "coeffs": [
+        3,
+        -4,
+        7
+      ],
+      "family": "standard-form",
+      "objective": "quad-obj-1",
+      "originalSides": [
+        "3*x**2+7",
+        "4*x"
+      ]
+    }
+  },
+  {
+    "id": "quadx-02",
+    "subskill": "Standard form",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "For 5−2x=−x², identify the coefficients after rewriting in standard form with a>0.",
+    "options": [
+      "a=2, b=−1, c=5",
+      "a=−1, b=−2, c=5",
+      "a=1, b=2, c=−5",
+      "a=1, b=−2, c=5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Add x² to both sides: x²−2x+5=0, so (a,b,c)=(1,−2,5).",
+    "family": "standard-form",
+    "objectiveId": "quad-obj-1",
+    "check": {
+      "kind": "coefficients",
+      "coeffs": [
+        1,
+        -2,
+        5
+      ],
+      "family": "standard-form",
+      "objective": "quad-obj-1",
+      "originalSides": [
+        "5-2*x",
+        "-x**2"
+      ]
+    }
+  },
+  {
+    "id": "quadx-03",
+    "subskill": "Standard form",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Simplify 2(x²−3x)=8−x² and identify a, b, c after standardizing.",
+    "options": [
+      "a=2, b=−3, c=−8",
+      "a=3, b=6, c=8",
+      "a=3, b=−6, c=−8",
+      "a=1, b=−6, c=−8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Expand and combine: 2x²−6x−8+x²=0; thus 3x²−6x−8=0.",
+    "family": "standard-form",
+    "objectiveId": "quad-obj-1",
+    "check": {
+      "kind": "coefficients",
+      "coeffs": [
+        3,
+        -6,
+        -8
+      ],
+      "family": "standard-form",
+      "objective": "quad-obj-1",
+      "originalSides": [
+        "2*(x**2-3*x)",
+        "8-x**2"
+      ]
+    }
+  },
+  {
+    "id": "quadx-04",
+    "subskill": "Standard form",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Bring x(x−4)=2x+3 into standard form. What are a, b, c?",
+    "options": [
+      "a=1, b=−2, c=3",
+      "a=1, b=−6, c=−3",
+      "a=1, b=6, c=−3",
+      "a=1, b=−4, c=−5"
+    ],
+    "correctIndex": 1,
+    "explanation": "x²−4x=2x+3, so x²−6x−3=0.",
+    "family": "standard-form",
+    "objectiveId": "quad-obj-1",
+    "check": {
+      "kind": "coefficients",
+      "coeffs": [
+        1,
+        -6,
+        -3
+      ],
+      "family": "standard-form",
+      "objective": "quad-obj-1",
+      "originalSides": [
+        "x*(x-4)",
+        "2*x+3"
+      ]
+    }
+  },
+  {
+    "id": "quadx-05",
+    "subskill": "Factoring",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Solve x²+2x−15=0.",
+    "options": [
+      "x=−3 or −5",
+      "x=5 or −3",
+      "x=3 or 5",
+      "x=3 or −5"
+    ],
+    "correctIndex": 3,
+    "explanation": "(x+5)(x−3)=0. Applying the zero-product property gives x=−5 or x=3.",
+    "family": "monic-sign-pair",
+    "objectiveId": "quad-obj-2",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        2,
+        -15
+      ],
+      "roots": [
+        "3",
+        "-5"
+      ],
+      "family": "monic-sign-pair",
+      "objective": "quad-obj-2"
+    }
+  },
+  {
+    "id": "quadx-06",
+    "subskill": "Factoring",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 6x²−x−2=0.",
+    "options": [
+      "x=2 or −1/6",
+      "x=−2/3 or 1/2",
+      "x=2/3 or −1/2",
+      "x=−2 or 1/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "6x²−x−2=(3x−2)(2x+1); hence x=2/3 or x=−1/2.",
+    "family": "nonmonic-factor",
+    "objectiveId": "quad-obj-2",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        6,
+        -1,
+        -2
+      ],
+      "roots": [
+        "2/3",
+        "-1/2"
+      ],
+      "family": "nonmonic-factor",
+      "objective": "quad-obj-2"
+    }
+  },
+  {
+    "id": "quadx-07",
+    "subskill": "Factoring",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 4x²−12x=0.",
+    "options": [
+      "x=0 or 3",
+      "x=0 or 4",
+      "x=0 or −3",
+      "x=3 only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factor the GCF: 4x(x−3)=0. Do not divide by x and lose the root x=0.",
+    "family": "gcf-zero-root",
+    "objectiveId": "quad-obj-2",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        4,
+        -12,
+        0
+      ],
+      "roots": [
+        "0",
+        "3"
+      ],
+      "family": "gcf-zero-root",
+      "objective": "quad-obj-2"
+    }
+  },
+  {
+    "id": "quadx-08",
+    "subskill": "Factoring",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Solve 9x²−24x+16=0.",
+    "options": [
+      "x=2/3 and 8/3",
+      "x=4/3 (double root)",
+      "x=4/9 and 4",
+      "x=−4/3 (double root)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The left side is (3x−4)², which vanishes at x=4/3; this is a repeated root.",
+    "family": "perfect-square-factor",
+    "objectiveId": "quad-obj-2",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        9,
+        -24,
+        16
+      ],
+      "roots": [
+        "4/3"
+      ],
+      "family": "perfect-square-factor",
+      "objective": "quad-obj-2"
+    }
+  },
+  {
+    "id": "quadx-09",
+    "subskill": "Factoring",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve (x−1)(x+4)=14.",
+    "options": [
+      "x=2 or −7",
+      "x=−3 or 6",
+      "x=1 or −4",
+      "x=3 or −6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand: x²+3x−4=14, so x²+3x−18=(x+6)(x−3)=0.",
+    "family": "factor-after-rearrange",
+    "objectiveId": "quad-obj-2",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        3,
+        -18
+      ],
+      "roots": [
+        "3",
+        "-6"
+      ],
+      "family": "factor-after-rearrange",
+      "objective": "quad-obj-2"
+    }
+  },
+  {
+    "id": "quadx-10",
+    "subskill": "Square-root method",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Solve (x+5)²=16.",
+    "options": [
+      "x=−1 only",
+      "x=1 or 9",
+      "x=−1 or −9",
+      "x=−5 or 4"
+    ],
+    "correctIndex": 2,
+    "explanation": "x+5=±4, so x=−5±4=−1 or −9.",
+    "family": "translated-square",
+    "objectiveId": "quad-obj-3",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        10,
+        9
+      ],
+      "roots": [
+        "-1",
+        "-9"
+      ],
+      "family": "translated-square",
+      "objective": "quad-obj-3"
+    }
+  },
+  {
+    "id": "quadx-11",
+    "subskill": "Square-root method",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 3(x−2)²=27.",
+    "options": [
+      "x=3 or −3",
+      "x=5 only",
+      "x=5 or −1",
+      "x=11 or −7"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide by 3: (x−2)²=9. Therefore x−2=±3 and x=5 or −1.",
+    "family": "scaled-square",
+    "objectiveId": "quad-obj-3",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        3,
+        -12,
+        -15
+      ],
+      "roots": [
+        "5",
+        "-1"
+      ],
+      "family": "scaled-square",
+      "objective": "quad-obj-3"
+    }
+  },
+  {
+    "id": "quadx-12",
+    "subskill": "Square-root method",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve (2x+1)²=25.",
+    "options": [
+      "x=2 only",
+      "x=12 or −13",
+      "x=2 or −3",
+      "x=3 or −2"
+    ],
+    "correctIndex": 2,
+    "explanation": "2x+1=±5, hence x=(−1±5)/2=2 or −3.",
+    "family": "linear-inside-square",
+    "objectiveId": "quad-obj-3",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        4,
+        4,
+        -24
+      ],
+      "roots": [
+        "2",
+        "-3"
+      ],
+      "family": "linear-inside-square",
+      "objective": "quad-obj-3"
+    }
+  },
+  {
+    "id": "quadx-13",
+    "subskill": "Square-root method",
+    "difficulty": "Advanced",
+    "problemType": "Conceptual",
+    "prompt": "In the real-number system, what is the solution set of (x−4)²=−9?",
+    "options": [
+      "x=−5 or 13",
+      "No real solution",
+      "x=4±3",
+      "x=1 or 7"
+    ],
+    "correctIndex": 1,
+    "explanation": "A real square is nonnegative. The right side is −9, so there is no real x. Over the complex numbers, x=4±3i.",
+    "family": "negative-squared-expression",
+    "objectiveId": "quad-obj-3",
+    "check": {
+      "kind": "real-none",
+      "rhs": -9,
+      "family": "negative-squared-expression",
+      "objective": "quad-obj-3"
+    }
+  },
+  {
+    "id": "quadx-14",
+    "subskill": "Completing the square",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Which constant completes the square in x²−14x+___?",
+    "options": [
+      "196",
+      "49",
+      "7",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "Take half of −14 and square: (−7)²=49, so x²−14x+49=(x−7)².",
+    "family": "complete-square-monic",
+    "objectiveId": "quad-obj-4",
+    "check": {
+      "kind": "half-square",
+      "b": -14,
+      "answer": 49,
+      "family": "complete-square-monic",
+      "objective": "quad-obj-4"
+    }
+  },
+  {
+    "id": "quadx-15",
+    "subskill": "Completing the square",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "After dividing 2x²+12x−5=0 by 2, what should be added to complete the square in x²+6x?",
+    "options": [
+      "18",
+      "9",
+      "3",
+      "36"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide by 2 first: x²+6x−5/2=0. The required addition is (6/2)²=9.",
+    "family": "complete-square-nonmonic",
+    "objectiveId": "quad-obj-4",
+    "check": {
+      "kind": "half-square",
+      "b": 6,
+      "answer": 9,
+      "family": "complete-square-nonmonic",
+      "objective": "quad-obj-4"
+    }
+  },
+  {
+    "id": "quadx-16",
+    "subskill": "Completing the square",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve x²+6x+1=0 by completing the square.",
+    "options": [
+      "x=−3±√2",
+      "x=−3±2√2",
+      "x=−6±√8",
+      "x=3±2√2"
+    ],
+    "correctIndex": 1,
+    "explanation": "x²+6x=−1; add 9: (x+3)²=8. Taking ± square roots gives x=−3±2√2.",
+    "family": "irrational-complete-square",
+    "objectiveId": "quad-obj-4",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        6,
+        1
+      ],
+      "roots": [
+        "-3+2*sqrt(2)",
+        "-3-2*sqrt(2)"
+      ],
+      "family": "irrational-complete-square",
+      "objective": "quad-obj-4"
+    }
+  },
+  {
+    "id": "quadx-17",
+    "subskill": "Completing the square",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve 2x²−8x+3=0.",
+    "options": [
+      "x=4±√10/2",
+      "x=−2±√10/2",
+      "x=2±√5",
+      "x=2±√10/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Divide by 2: x²−4x=−3/2. Add 4: (x−2)²=5/2; x=2±√(5/2)=2±√10/2.",
+    "family": "nonmonic-complete-square",
+    "objectiveId": "quad-obj-4",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        2,
+        -8,
+        3
+      ],
+      "roots": [
+        "2+sqrt(10)/2",
+        "2-sqrt(10)/2"
+      ],
+      "family": "nonmonic-complete-square",
+      "objective": "quad-obj-4"
+    }
+  },
+  {
+    "id": "quadx-18",
+    "subskill": "Quadratic formula",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve x²+4x−1=0.",
+    "options": [
+      "x=−2±√5",
+      "x=−2±√3",
+      "x=2±√5",
+      "x=−4±√5"
+    ],
+    "correctIndex": 0,
+    "explanation": "With a=1,b=4,c=−1, x=(−4±√20)/2=−2±√5.",
+    "family": "surds-monic",
+    "objectiveId": "quad-obj-5",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        4,
+        -1
+      ],
+      "roots": [
+        "-2+sqrt(5)",
+        "-2-sqrt(5)"
+      ],
+      "family": "surds-monic",
+      "objective": "quad-obj-5"
+    }
+  },
+  {
+    "id": "quadx-19",
+    "subskill": "Quadratic formula",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve 3x²−2x−2=0.",
+    "options": [
+      "x=(2±√7)/3",
+      "x=(1±√5)/3",
+      "x=(−1±√7)/3",
+      "x=(1±√7)/3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute a=3,b=−2,c=−2: x=(2±√28)/6=(1±√7)/3.",
+    "family": "surds-nonmonic",
+    "objectiveId": "quad-obj-5",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        3,
+        -2,
+        -2
+      ],
+      "roots": [
+        "(1+sqrt(7))/3",
+        "(1-sqrt(7))/3"
+      ],
+      "family": "surds-nonmonic",
+      "objective": "quad-obj-5"
+    }
+  },
+  {
+    "id": "quadx-20",
+    "subskill": "Quadratic formula",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve 2x²+4x+7=0 over the complex numbers.",
+    "options": [
+      "No complex solution",
+      "x=1±(√10/2)i",
+      "x=−1±√10",
+      "x=−1±(√10/2)i"
+    ],
+    "correctIndex": 3,
+    "explanation": "Δ=16−56=−40. Therefore x=(−4±√(−40))/4=−1±(√10/2)i.",
+    "family": "complex-quadratic",
+    "objectiveId": "quad-obj-5",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        2,
+        4,
+        7
+      ],
+      "roots": [
+        "-1+sqrt(10)*I/2",
+        "-1-sqrt(10)*I/2"
+      ],
+      "family": "complex-quadratic",
+      "objective": "quad-obj-5"
+    }
+  },
+  {
+    "id": "quadx-21",
+    "subskill": "Quadratic formula",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 5x²−6x+1=0.",
+    "options": [
+      "x=1 or −1/5",
+      "x=−1 or −1/5",
+      "x=1 or 1/5",
+      "x=3/5 or 1/5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Δ=36−20=16, so x=(6±4)/10 =1 or 1/5.",
+    "family": "rational-nonmonic",
+    "objectiveId": "quad-obj-5",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        5,
+        -6,
+        1
+      ],
+      "roots": [
+        "1",
+        "1/5"
+      ],
+      "family": "rational-nonmonic",
+      "objective": "quad-obj-5"
+    }
+  },
+  {
+    "id": "quadx-22",
+    "subskill": "Quadratic formula",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve 4x²+4x−3=0.",
+    "options": [
+      "x=−1/2 or 3/2",
+      "x=1/2 or −3/2",
+      "x=−3/4 or 1",
+      "x=3/2 or −1/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Δ=16+48=64, so x=(−4±8)/8=1/2 or −3/2.",
+    "family": "rational-opposite-sign",
+    "objectiveId": "quad-obj-5",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        4,
+        4,
+        -3
+      ],
+      "roots": [
+        "1/2",
+        "-3/2"
+      ],
+      "family": "rational-opposite-sign",
+      "objective": "quad-obj-5"
+    }
+  },
+  {
+    "id": "quadx-23",
+    "subskill": "Discriminant",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Classify the roots of 4x²−12x+9=0.",
+    "options": [
+      "Two distinct real roots",
+      "Two nonreal complex roots",
+      "One repeated real root",
+      "No roots of any kind"
+    ],
+    "correctIndex": 2,
+    "explanation": "Δ=(−12)²−4(4)(9)=144−144=0, so the equation has one real root of multiplicity two.",
+    "family": "discriminant-sign",
+    "objectiveId": "quad-obj-6",
+    "check": {
+      "kind": "discriminant",
+      "coeffs": [
+        4,
+        -12,
+        9
+      ],
+      "delta": 0,
+      "category": "repeated",
+      "family": "discriminant-sign",
+      "objective": "quad-obj-6"
+    }
+  },
+  {
+    "id": "quadx-24",
+    "subskill": "Discriminant",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Classify the roots of 5x²+x+2=0.",
+    "options": [
+      "Infinitely many roots",
+      "Two nonreal complex roots",
+      "One repeated real root",
+      "Two distinct real roots"
+    ],
+    "correctIndex": 1,
+    "explanation": "Δ=1²−4(5)(2)=−39<0, indicating nonreal complex conjugates.",
+    "family": "discriminant-sign",
+    "objectiveId": "quad-obj-6",
+    "check": {
+      "kind": "discriminant",
+      "coeffs": [
+        5,
+        1,
+        2
+      ],
+      "delta": -39,
+      "category": "nonreal",
+      "family": "discriminant-sign",
+      "objective": "quad-obj-6"
+    }
+  },
+  {
+    "id": "quadx-25",
+    "subskill": "Discriminant",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Without solving, how many real roots does 2x²+7x−4=0 have?",
+    "options": [
+      "One repeated real root",
+      "Two distinct real roots",
+      "No real roots",
+      "Exactly three real roots"
+    ],
+    "correctIndex": 1,
+    "explanation": "Δ=7²−4(2)(−4)=81>0, so there are two distinct real roots.",
+    "family": "discriminant-sign",
+    "objectiveId": "quad-obj-6",
+    "check": {
+      "kind": "discriminant",
+      "coeffs": [
+        2,
+        7,
+        -4
+      ],
+      "delta": 81,
+      "category": "two-real",
+      "family": "discriminant-sign",
+      "objective": "quad-obj-6"
+    }
+  },
+  {
+    "id": "quadx-26",
+    "subskill": "Discriminant",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "What does the discriminant tell us for 9x²+6x+1=0?",
+    "options": [
+      "Distinct irrational roots",
+      "Repeated real root",
+      "Nonreal conjugate roots",
+      "Two different integer roots"
+    ],
+    "correctIndex": 1,
+    "explanation": "Δ=36−4(9)(1)=0; in fact, (3x+1)²=0.",
+    "family": "discriminant-sign",
+    "objectiveId": "quad-obj-6",
+    "check": {
+      "kind": "discriminant",
+      "coeffs": [
+        9,
+        6,
+        1
+      ],
+      "delta": 0,
+      "category": "repeated",
+      "family": "discriminant-sign",
+      "objective": "quad-obj-6"
+    }
+  },
+  {
+    "id": "quadx-27",
+    "subskill": "Root relationships",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "For 3x²−8x+2=0, what is the sum of the roots?",
+    "options": [
+      "8/3",
+      "−8/3",
+      "2/3",
+      "−2/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "By Vieta, r₁+r₂=−b/a=8/3.",
+    "family": "vieta-sum",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "vieta",
+      "coeffs": [
+        3,
+        -8,
+        2
+      ],
+      "metric": "sum",
+      "expected": "8/3",
+      "family": "vieta-sum",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-28",
+    "subskill": "Root relationships",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "For 4x²+3x−7=0, what is the product of the roots?",
+    "options": [
+      "−3/4",
+      "3/4",
+      "−7/4",
+      "7/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "By Vieta, r₁r₂=c/a=−7/4.",
+    "family": "vieta-product",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "vieta",
+      "coeffs": [
+        4,
+        3,
+        -7
+      ],
+      "metric": "product",
+      "expected": "-7/4",
+      "family": "vieta-product",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-29",
+    "subskill": "Root relationships",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For 7x²−5=0, what is the sum of the roots?",
+    "options": [
+      "−5/7",
+      "7/5",
+      "0",
+      "5/7"
+    ],
+    "correctIndex": 2,
+    "explanation": "The coefficient of x is 0, so the sum −b/a is 0.",
+    "family": "vieta-sum",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "vieta",
+      "coeffs": [
+        7,
+        0,
+        -5
+      ],
+      "metric": "sum",
+      "expected": "0",
+      "family": "vieta-sum",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-30",
+    "subskill": "Root relationships",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "For 5x²−2x+6=0, what is the product of the roots?",
+    "options": [
+      "6/5",
+      "−6/5",
+      "−2/5",
+      "2/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The product c/a=6/5 even though the two roots are nonreal.",
+    "family": "vieta-product",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "vieta",
+      "coeffs": [
+        5,
+        -2,
+        6
+      ],
+      "metric": "product",
+      "expected": "6/5",
+      "family": "vieta-product",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-31",
+    "subskill": "Method selection",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Which method is quickest for (3x−2)²=49?",
+    "options": [
+      "Logarithm change of base",
+      "Synthetic division",
+      "Cramer’s rule",
+      "Square-root method"
+    ],
+    "correctIndex": 3,
+    "explanation": "The squared binomial is isolated, so take ±7 and solve two linear equations.",
+    "family": "direct-square-root",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "method",
+      "family": "direct-square-root",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-32",
+    "subskill": "Method selection",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Which method will always work for a general quadratic ax²+bx+c=0 with a≠0, including nonfactorable cases?",
+    "options": [
+      "Integer factoring only",
+      "Long division by x",
+      "Matrix inversion only",
+      "Quadratic formula"
+    ],
+    "correctIndex": 3,
+    "explanation": "The quadratic formula applies to every quadratic with a≠0 over the complex numbers.",
+    "family": "universal-formula",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "method",
+      "family": "universal-formula",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-33",
+    "subskill": "Method selection",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "You only need the number of real roots of 8x²+3x+5=0. What is the most direct computation?",
+    "options": [
+      "Run synthetic division",
+      "Compute the sum of roots",
+      "Evaluate b²−4ac",
+      "Complete the square and graph"
+    ],
+    "correctIndex": 2,
+    "explanation": "The discriminant determines whether there are two, one repeated, or no real roots.",
+    "family": "discriminant-decision",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "method",
+      "family": "discriminant-decision",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-34",
+    "subskill": "ECE application",
+    "difficulty": "Intermediate",
+    "problemType": "Application",
+    "prompt": "A simplified circuit model uses a normalized current i=I/(1 A), satisfying i²−7i+10=0. Which currents I are possible?",
+    "options": [
+      "1 A or 10 A",
+      "3 A or 4 A",
+      "−2 A or −5 A",
+      "2 A or 5 A"
+    ],
+    "correctIndex": 3,
+    "explanation": "The normalized equation factors as (i−2)(i−5)=0, so i=2 or 5, corresponding to I=2 A or 5 A. Check physical feasibility separately.",
+    "family": "current-roots",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        -7,
+        10
+      ],
+      "roots": [
+        "2",
+        "5"
+      ],
+      "family": "current-roots",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-35",
+    "subskill": "ECE application",
+    "difficulty": "Advanced",
+    "problemType": "Application",
+    "prompt": "Let r=R/(1 Ω) be the numerical resistance in ohms. If r²+2r−15=0, which positive resistance R is admissible?",
+    "options": [
+      "R=5 Ω",
+      "R=−5 Ω",
+      "R=3 Ω or −5 Ω",
+      "R=3 Ω"
+    ],
+    "correctIndex": 3,
+    "explanation": "The dimensionless equation has roots r=3 and r=−5. Since R>0, the admissible resistance is R=3 Ω.",
+    "family": "physical-domain-filter",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        2,
+        -15
+      ],
+      "roots": [
+        "3",
+        "-5"
+      ],
+      "family": "physical-domain-filter",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-36",
+    "subskill": "ECE application",
+    "difficulty": "Intermediate",
+    "problemType": "Application",
+    "prompt": "A rectangular plate has width x cm and length (x+3) cm. Its area is 40 cm². What is its positive width?",
+    "options": [
+      "x=8 cm",
+      "x=4 cm",
+      "x=−8 cm",
+      "x=5 cm"
+    ],
+    "correctIndex": 3,
+    "explanation": "x(x+3)=40 gives x²+3x−40=(x+8)(x−5)=0. Reject −8 because width must be positive.",
+    "family": "geometry-constraint",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        3,
+        -40
+      ],
+      "roots": [
+        "5",
+        "-8"
+      ],
+      "family": "geometry-constraint",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-37",
+    "subskill": "ECE application",
+    "difficulty": "Advanced",
+    "problemType": "Application",
+    "prompt": "For a simplified positive component-size parameter t, t(t−1)=12. What is t>0?",
+    "options": [
+      "t=4",
+      "t=3",
+      "t=−3",
+      "t=12"
+    ],
+    "correctIndex": 0,
+    "explanation": "t²−t−12=(t−4)(t+3)=0. The constraint t>0 leaves t=4.",
+    "family": "engineering-design-constraint",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "roots",
+      "coeffs": [
+        1,
+        -1,
+        -12
+      ],
+      "roots": [
+        "4",
+        "-3"
+      ],
+      "family": "engineering-design-constraint",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-38",
+    "subskill": "Quadratic-like equations",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve x⁴−5x²+4=0 over the real numbers.",
+    "options": [
+      "x=±1 only",
+      "x=±√5",
+      "x=1 or 2 only",
+      "x=±1 or ±2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Let u=x². Then u²−5u+4=(u−1)(u−4)=0, giving x²=1 or 4 and x=±1,±2.",
+    "family": "biquadratic-four-roots",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "substitution",
+      "powers": [
+        4,
+        2,
+        0
+      ],
+      "coeffs": [
+        1,
+        -5,
+        4
+      ],
+      "roots": [
+        "-2",
+        "-1",
+        "1",
+        "2"
+      ],
+      "family": "biquadratic-four-roots",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-39",
+    "subskill": "Quadratic-like equations",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve x⁴−10x²+9=0 over the real numbers.",
+    "options": [
+      "x=1 or 3 only",
+      "x=±1 or ±3",
+      "No real roots",
+      "x=±1 or ±9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Set u=x². Then (u−1)(u−9)=0, so x²=1 or 9 and x=±1,±3.",
+    "family": "biquadratic-factor",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "substitution",
+      "powers": [
+        4,
+        2,
+        0
+      ],
+      "coeffs": [
+        1,
+        -10,
+        9
+      ],
+      "roots": [
+        "-3",
+        "-1",
+        "1",
+        "3"
+      ],
+      "family": "biquadratic-factor",
+      "objective": "quad-obj-7"
+    }
+  },
+  {
+    "id": "quadx-40",
+    "subskill": "Quadratic-like equations",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Solve x⁴−4x²=0 over the real numbers.",
+    "options": [
+      "No real roots",
+      "x=±2 only",
+      "x=0 or ±4",
+      "x=0 or ±2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Factor x²(x²−4)=x²(x−2)(x+2)=0. Include the repeated root x=0, so the distinct roots are 0,−2,2.",
+    "family": "biquadratic-zero-root",
+    "objectiveId": "quad-obj-7",
+    "check": {
+      "kind": "substitution",
+      "powers": [
+        4,
+        2,
+        0
+      ],
+      "coeffs": [
+        1,
+        -4,
+        0
+      ],
+      "roots": [
+        "-2",
+        "0",
+        "2"
+      ],
+      "family": "biquadratic-zero-root",
+      "objective": "quad-obj-7"
+    }
+  }
+]

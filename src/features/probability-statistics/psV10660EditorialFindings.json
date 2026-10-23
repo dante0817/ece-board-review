@@ -1,0 +1,55 @@
+{
+  "release": "10.66.0",
+  "status": "developmental editorial correction; no SME question certification",
+  "changedLessons": [
+    "PS02-01",
+    "PS02-04"
+  ],
+  "changedQuestionIds": [],
+  "changedReferenceIds": [
+    "PS04-09"
+  ],
+  "sourceLocatorScanCount": 23,
+  "sourceLocatorScanDescription": "Machine extracted keyword-location audit; NO full passage verification",
+  "openGates": [
+    "full lesson-by-lesson passage review",
+    "99 model/assumption reviews",
+    "41 conceptual question signoffs",
+    "build and browser checks"
+  ],
+  "findings": [
+    {
+      "id": "E66-01",
+      "severity": "moderate",
+      "type": "lesson wording",
+      "lessonId": "PS02-01",
+      "resolution": "Clarified multiplication of stage-choice counts is not statistical independence"
+    },
+    {
+      "id": "E66-02",
+      "severity": "minor",
+      "type": "lesson guardrail",
+      "lessonId": "PS02-04",
+      "resolution": "Clarified overlapping invalid categories must use inclusion–exclusion"
+    },
+    {
+      "id": "E66-03",
+      "severity": "moderate",
+      "type": "source locator",
+      "lessonId": "PS04-09",
+      "resolution": "Navidi §2.6 PDF 155, actual covariance discussion; replaces less-specific §2.5 PDF 128"
+    },
+    {
+      "id": "E66-04",
+      "severity": "release gate",
+      "lessonId": null,
+      "resolution": "Strengthened examination eligibility to require verified lesson evidence as well as question approvals"
+    },
+    {
+      "id": "E66-05",
+      "severity": "release gate",
+      "lessonId": null,
+      "resolution": "Added joint competency/cognitive assignment feasibility check; independent quotas alone are insufficient"
+    }
+  ]
+}

@@ -1,0 +1,806 @@
+{
+  "trig-equations-basic-trigonometric-equations": {
+    "id": "trig-equations-basic-trigonometric-equations",
+    "title": "Basic trigonometric equations",
+    "summary": "Solve equations involving sine, cosine and tangent with special exact values; distinguish a principal inverse angle from all solutions.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-01-definition",
+            "type": "definition",
+            "text": "An equation such as sin θ = a asks for every angle whose sine is a. Use the unit circle to find all angle families, not just the principal value returned by arcsin. For sine and cosine, a real solution exists only when −1 ≤ a ≤ 1."
+          },
+          {
+            "id": "equations-01-formula-1",
+            "type": "formula",
+            "latex": "\\sin\\theta=a\\ \\Rightarrow\\ \\theta=\\arcsin(a)+2k\\pi\\ \\text{or}\\ \\theta=\\pi-\\arcsin(a)+2k\\pi"
+          },
+          {
+            "id": "equations-01-formula-2",
+            "type": "formula",
+            "latex": "\\cos\\theta=a\\ \\Rightarrow\\ \\theta=\\pm\\arccos(a)+2k\\pi"
+          },
+          {
+            "id": "equations-01-formula-3",
+            "type": "formula",
+            "latex": "\\tan\\theta=a\\ \\Rightarrow\\ \\theta=\\arctan(a)+k\\pi,\\quad k\\in\\mathbb Z"
+          }
+        ]
+      },
+      {
+        "id": "equations-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-01-worked-1",
+            "type": "worked-example",
+            "title": "Solve sin θ=1/2 for 0≤θ<2π",
+            "problem": "Solve sin θ=1/2 for 0≤θ<2π",
+            "strategy": "Use the reference angle π/6 and both positive-sine quadrants.",
+            "steps": [
+              "The reference angle with sine 1/2 is π/6.",
+              "Sine is positive in quadrants I and II: θ=π/6 or θ=5π/6.",
+              "Both angles are in [0,2π)."
+            ],
+            "check": "sin(π/6)=sin(5π/6)=1/2; no other unit-circle angles in this interval have this sine."
+          },
+          {
+            "id": "equations-01-worked-2",
+            "type": "worked-example",
+            "title": "Solve cos θ=−√2/2 for 0≤θ<2π",
+            "problem": "Solve cos θ=−√2/2 for 0≤θ<2π",
+            "strategy": "Cosine is negative in quadrants II and III.",
+            "steps": [
+              "The reference angle is π/4.",
+              "Quadrant II gives θ=3π/4; quadrant III gives θ=5π/4."
+            ],
+            "check": "Both give cosine −√2/2 and lie within the interval."
+          }
+        ]
+      },
+      {
+        "id": "equations-01-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-01-pitfall",
+            "type": "note",
+            "text": "Inverse sine alone does not list every solution of sin θ=a. Use radians unless degrees are expressly specified. Tangent has period π, whereas sine and cosine have period 2π."
+          },
+          {
+            "id": "equations-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Give the general solution of tan θ=1.",
+            "answer": "θ=π/4+kπ, k∈ℤ.",
+            "explanation": "tan(π/4)=1; any multiple of π preserves tangent where it is defined."
+          },
+          {
+            "id": "equations-01-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-general-solutions-and-specified-intervals": {
+    "id": "trig-equations-general-solutions-and-specified-intervals",
+    "title": "General solutions and specified intervals",
+    "summary": "Write all periodic solutions, then enumerate precisely those inside open, closed or half-open angle intervals.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-02-definition",
+            "type": "definition",
+            "text": "A general solution names infinitely many coterminal or periodic angles using an integer k. A specified interval selects only the values satisfying its endpoint inequalities. Check whether 0, π or 2π are included; a half-open revolution avoids double-counting the same terminal direction."
+          },
+          {
+            "id": "equations-02-formula-1",
+            "type": "formula",
+            "latex": "\\sin\\theta=0\\ \\Rightarrow\\ \\theta=k\\pi"
+          },
+          {
+            "id": "equations-02-formula-2",
+            "type": "formula",
+            "latex": "\\cos\\theta=0\\ \\Rightarrow\\ \\theta=\\frac\\pi2+k\\pi"
+          },
+          {
+            "id": "equations-02-formula-3",
+            "type": "formula",
+            "latex": "[0,2\\pi)\\ \\text{includes }0\\text{ but excludes }2\\pi"
+          }
+        ]
+      },
+      {
+        "id": "equations-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-02-worked-1",
+            "type": "worked-example",
+            "title": "Solve sin θ=0 on [0,2π)",
+            "problem": "Solve sin θ=0 on [0,2π)",
+            "strategy": "List the integer multiples of π within the stated bounds.",
+            "steps": [
+              "The general solution is θ=kπ for k∈ℤ.",
+              "From 0≤kπ<2π we get k=0 or k=1.",
+              "The solution set is {0,π}; 2π is excluded."
+            ],
+            "check": "Sine is zero at 0 and π, and 2π is outside the half-open interval."
+          },
+          {
+            "id": "equations-02-worked-2",
+            "type": "worked-example",
+            "title": "Solve cos θ=1/2 on (−π,π]",
+            "problem": "Solve cos θ=1/2 on (−π,π]",
+            "strategy": "Use signed solutions ±π/3 and test the endpoints.",
+            "steps": [
+              "General angles satisfy θ=±π/3+2kπ.",
+              "Within (−π,π], θ=−π/3 and θ=π/3."
+            ],
+            "check": "Both angles have cosine 1/2 and satisfy −π<θ≤π."
+          }
+        ]
+      },
+      {
+        "id": "equations-02-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-02-pitfall",
+            "type": "note",
+            "text": "A bracket [ includes an endpoint while a parenthesis ( excludes it. If an interval covers more than one revolution, count every distinct numerical angle in the interval."
+          },
+          {
+            "id": "equations-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "How many solutions of sin θ=0 lie in [0,2π]?",
+            "answer": "3: 0, π and 2π.",
+            "explanation": "Both endpoints are included, so k=0,1,2 are allowed."
+          },
+          {
+            "id": "equations-02-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-equations-solved-by-factoring": {
+    "id": "trig-equations-equations-solved-by-factoring",
+    "title": "Equations solved by factoring",
+    "summary": "Factor trigonometric equations into products and solve every factor separately, preserving the original domain.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-03-definition",
+            "type": "definition",
+            "text": "Treat a trigonometric function temporarily like an algebraic variable: first bring all terms to one side, factor, and apply the zero-product rule. A product is zero when at least one factor is zero. Never divide by a potentially zero factor without checking its zero case."
+          },
+          {
+            "id": "equations-03-formula-1",
+            "type": "formula",
+            "latex": "AB=0\\ \\Rightarrow\\ A=0\\ \\text{or}\\ B=0"
+          },
+          {
+            "id": "equations-03-formula-2",
+            "type": "formula",
+            "latex": "\\sin\\theta(2\\sin\\theta-1)=0"
+          },
+          {
+            "id": "equations-03-formula-3",
+            "type": "formula",
+            "latex": "\\sin^2\\theta-\\sin\\theta=\\sin\\theta(\\sin\\theta-1)"
+          }
+        ]
+      },
+      {
+        "id": "equations-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-03-worked-1",
+            "type": "worked-example",
+            "title": "Solve sin θ(2sin θ−1)=0 on [0,2π)",
+            "problem": "Solve sin θ(2sin θ−1)=0 on [0,2π)",
+            "strategy": "Apply the zero-product rule to both factors.",
+            "steps": [
+              "Either sin θ=0 or 2sin θ−1=0.",
+              "sin θ=0 gives θ=0 or π in the interval.",
+              "sin θ=1/2 gives θ=π/6 or 5π/6.",
+              "Union: {0,π/6,5π/6,π}."
+            ],
+            "check": "Every listed angle satisfies one of the original factors; the four angles are distinct."
+          },
+          {
+            "id": "equations-03-worked-2",
+            "type": "worked-example",
+            "title": "Solve tan θ(tan θ−1)=0 on [0,2π)",
+            "problem": "Solve tan θ(tan θ−1)=0 on [0,2π)",
+            "strategy": "Solve each tangent equation and check where tangent is defined.",
+            "steps": [
+              "tan θ=0 gives θ=0,π.",
+              "tan θ=1 gives θ=π/4,5π/4.",
+              "Collect {0,π/4,π,5π/4}."
+            ],
+            "check": "At all four solutions cos θ≠0, so tan θ is defined."
+          }
+        ]
+      },
+      {
+        "id": "equations-03-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-03-pitfall",
+            "type": "note",
+            "text": "Dividing sin θ(2sin θ−1)=0 by sin θ would discard all angles with sin θ=0. Original denominators or undefined trig functions remain excluded."
+          },
+          {
+            "id": "equations-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Solve sin θ(sin θ+1)=0 on [0,2π).",
+            "answer": "{0,π,3π/2}.",
+            "explanation": "sin θ=0 at 0 and π, while sin θ=−1 at 3π/2."
+          },
+          {
+            "id": "equations-03-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-quadratic-type-equations": {
+    "id": "trig-equations-quadratic-type-equations",
+    "title": "Quadratic-type equations",
+    "summary": "Apply algebraic factoring or the quadratic formula to equations in a single trigonometric function, then reject function values outside their real ranges.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-04-definition",
+            "type": "definition",
+            "text": "For equations quadratic in sin θ, cos θ or tan θ, put u equal to that function, solve the polynomial in u, and convert each admissible root into angles. Since −1≤sin θ,cos θ≤1, algebraic roots outside that range are impossible for real angles."
+          },
+          {
+            "id": "equations-04-formula-1",
+            "type": "formula",
+            "latex": "au^2+bu+c=0\\quad (u=\\sin\\theta,\\cos\\theta,\\text{ or }\\tan\\theta)"
+          },
+          {
+            "id": "equations-04-formula-2",
+            "type": "formula",
+            "latex": "u=\\frac{-b\\pm\\sqrt{b^2-4ac}}{2a}"
+          },
+          {
+            "id": "equations-04-formula-3",
+            "type": "formula",
+            "latex": "-1\\leq\\sin\\theta,\\cos\\theta\\leq1"
+          }
+        ]
+      },
+      {
+        "id": "equations-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-04-worked-1",
+            "type": "worked-example",
+            "title": "Solve 2sin²θ−sin θ−1=0 on [0,2π)",
+            "problem": "Solve 2sin²θ−sin θ−1=0 on [0,2π)",
+            "strategy": "Factor in u=sin θ and solve both valid linear factors.",
+            "steps": [
+              "Write (2u+1)(u−1)=0, with u=sin θ.",
+              "u=−1/2 gives θ=7π/6,11π/6.",
+              "u=1 gives θ=π/2.",
+              "Thus θ∈{π/2,7π/6,11π/6}."
+            ],
+            "check": "Substituting sin θ=1 and −1/2 into the polynomial gives zero."
+          },
+          {
+            "id": "equations-04-worked-2",
+            "type": "worked-example",
+            "title": "Solve 2cos²θ−3cos θ+1=0 on [0,2π)",
+            "problem": "Solve 2cos²θ−3cos θ+1=0 on [0,2π)",
+            "strategy": "Factor and use the unit circle for each cosine value.",
+            "steps": [
+              "(2cos θ−1)(cos θ−1)=0.",
+              "cos θ=1/2 gives θ=π/3,5π/3; cos θ=1 gives θ=0."
+            ],
+            "check": "Each solution is in the interval and makes a factor zero."
+          }
+        ]
+      },
+      {
+        "id": "equations-04-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-04-pitfall",
+            "type": "note",
+            "text": "If solving a sine-quadratic gives u=2, reject it because no real sine can equal 2. Do not reject tan θ=2: tangent has no magnitude bound."
+          },
+          {
+            "id": "equations-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "How many solutions of sin²θ=1/4 lie in [0,2π)?",
+            "answer": "4.",
+            "explanation": "sin θ=±1/2 produces one solution in each quadrant."
+          },
+          {
+            "id": "equations-04-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-equations-using-identities": {
+    "id": "trig-equations-equations-using-identities",
+    "title": "Equations using identities",
+    "summary": "Use Pythagorean and multiple-angle identities to rewrite a trigonometric equation into a solvable form, without losing zeros or changing the domain.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-05-definition",
+            "type": "definition",
+            "text": "Identify an identity that converts multiple different trig functions into a common function or a product. An identity can simplify an equation, but all solutions must still be checked in the original. Division by sine or cosine may discard valid angles."
+          },
+          {
+            "id": "equations-05-formula-1",
+            "type": "formula",
+            "latex": "\\sin 2\\theta=2\\sin\\theta\\cos\\theta"
+          },
+          {
+            "id": "equations-05-formula-2",
+            "type": "formula",
+            "latex": "\\cos 2\\theta=1-2\\sin^2\\theta=2\\cos^2\\theta-1"
+          },
+          {
+            "id": "equations-05-formula-3",
+            "type": "formula",
+            "latex": "\\sin^2\\theta+\\cos^2\\theta=1"
+          }
+        ]
+      },
+      {
+        "id": "equations-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-05-worked-1",
+            "type": "worked-example",
+            "title": "Solve 2sin θcos θ=sin θ on [0,2π)",
+            "problem": "Solve 2sin θcos θ=sin θ on [0,2π)",
+            "strategy": "Move terms to one side and factor without dividing by sin θ.",
+            "steps": [
+              "sin θ(2cos θ−1)=0.",
+              "sin θ=0 gives θ=0,π.",
+              "cos θ=1/2 gives θ=π/3,5π/3."
+            ],
+            "check": "All four angles satisfy the original equation."
+          },
+          {
+            "id": "equations-05-worked-2",
+            "type": "worked-example",
+            "title": "Solve 1−2sin²θ=0 on [0,2π)",
+            "problem": "Solve 1−2sin²θ=0 on [0,2π)",
+            "strategy": "Recognize cos 2θ=1−2sin²θ.",
+            "steps": [
+              "The equation is equivalent to cos 2θ=0.",
+              "Therefore 2θ=π/2+kπ, or θ=π/4+kπ/2.",
+              "For [0,2π), θ=π/4,3π/4,5π/4,7π/4."
+            ],
+            "check": "Each angle has sin² θ=1/2, making 1−2sin² θ=0."
+          }
+        ]
+      },
+      {
+        "id": "equations-05-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-05-pitfall",
+            "type": "note",
+            "text": "An identity like cos 2θ=1−2sin² θ holds for all real θ, but tangent and quotient identities may require nonzero denominators. Never cancel a trig factor that might be zero."
+          },
+          {
+            "id": "equations-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Solve sin 2θ=0 for all real θ.",
+            "answer": "θ=kπ/2, k∈ℤ.",
+            "explanation": "2θ=kπ; divide by 2, keeping every integer k."
+          },
+          {
+            "id": "equations-05-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-multiple-angle-equations": {
+    "id": "trig-equations-multiple-angle-equations",
+    "title": "Multiple-angle equations",
+    "summary": "Solve equations containing nθ, including changes in solution period and careful enumeration over a transformed interval.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-06-definition",
+            "type": "definition",
+            "text": "For sin(nθ), cos(nθ) or tan(nθ), first solve for the whole argument u=nθ and then divide by n. If θ is restricted, transform the interval to an interval for u so that solutions are not skipped or double counted."
+          },
+          {
+            "id": "equations-06-formula-1",
+            "type": "formula",
+            "latex": "\\sin(n\\theta)=0\\ \\Rightarrow\\ \\theta=\\frac{k\\pi}{n}"
+          },
+          {
+            "id": "equations-06-formula-2",
+            "type": "formula",
+            "latex": "\\cos(n\\theta)=1\\ \\Rightarrow\\ \\theta=\\frac{2k\\pi}{n}"
+          },
+          {
+            "id": "equations-06-formula-3",
+            "type": "formula",
+            "latex": "\\tan(n\\theta)=0\\ \\Rightarrow\\ \\theta=\\frac{k\\pi}{n}"
+          }
+        ]
+      },
+      {
+        "id": "equations-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-06-worked-1",
+            "type": "worked-example",
+            "title": "Solve sin 2θ=1 on [0,2π)",
+            "problem": "Solve sin 2θ=1 on [0,2π)",
+            "strategy": "Solve for u=2θ over [0,4π).",
+            "steps": [
+              "sin u=1 gives u=π/2+2kπ.",
+              "Therefore θ=π/4+kπ.",
+              "Within [0,2π), θ=π/4 and 5π/4."
+            ],
+            "check": "At each solution sin 2θ=1; there are two complete sine peaks over the transformed interval."
+          },
+          {
+            "id": "equations-06-worked-2",
+            "type": "worked-example",
+            "title": "Solve cos 3θ=1 on [0,2π)",
+            "problem": "Solve cos 3θ=1 on [0,2π)",
+            "strategy": "Solve for u=3θ and divide by three.",
+            "steps": [
+              "cos u=1 implies u=2kπ.",
+              "Hence θ=2kπ/3.",
+              "For 0≤θ<2π, k=0,1,2 giving {0,2π/3,4π/3}."
+            ],
+            "check": "The next value k=3 gives θ=2π, excluded by the half-open interval."
+          }
+        ]
+      },
+      {
+        "id": "equations-06-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-06-pitfall",
+            "type": "note",
+            "text": "Do not solve sin 2θ=1 as though it were sin θ=1. Dividing the argument by n changes the spacing of solutions; transform the interval as well."
+          },
+          {
+            "id": "equations-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Solve cos 2θ=0 on [0,2π).",
+            "answer": "{π/4,3π/4,5π/4,7π/4}.",
+            "explanation": "2θ=π/2+kπ, so θ=π/4+kπ/2 with k=0,1,2,3."
+          },
+          {
+            "id": "equations-06-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-equations-involving-inverse-functions": {
+    "id": "trig-equations-equations-involving-inverse-functions",
+    "title": "Equations involving inverse functions",
+    "summary": "Solve equations involving arcsin, arccos, and arctan by applying the corresponding trig function, while enforcing input and principal-value ranges.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-07-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-07-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-07-definition",
+            "type": "definition",
+            "text": "An inverse trig function returns a principal angle. For arcsin x and arccos x, a real input requires −1≤x≤1. Their output ranges are [−π/2,π/2] and [0,π]. Arctan has any real input but outputs an angle strictly between −π/2 and π/2."
+          },
+          {
+            "id": "equations-07-formula-1",
+            "type": "formula",
+            "latex": "\\arcsin x=y\\iff x=\\sin y,\\quad y\\in[-\\pi/2,\\pi/2]"
+          },
+          {
+            "id": "equations-07-formula-2",
+            "type": "formula",
+            "latex": "\\arccos x=y\\iff x=\\cos y,\\quad y\\in[0,\\pi]"
+          },
+          {
+            "id": "equations-07-formula-3",
+            "type": "formula",
+            "latex": "\\arctan x=y\\iff x=\\tan y,\\quad y\\in(-\\pi/2,\\pi/2)"
+          }
+        ]
+      },
+      {
+        "id": "equations-07-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-07-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-07-worked-1",
+            "type": "worked-example",
+            "title": "Solve arcsin(2x)=π/6",
+            "problem": "Solve arcsin(2x)=π/6",
+            "strategy": "Apply sine, then verify both input and output domains.",
+            "steps": [
+              "2x=sin(π/6)=1/2, hence x=1/4.",
+              "The input 2x=1/2 belongs to [−1,1]; π/6 is in the arcsin principal range."
+            ],
+            "check": "Substitution checks the original equation: arcsin(2·1/4)=arcsin(1/2)=π/6."
+          },
+          {
+            "id": "equations-07-worked-2",
+            "type": "worked-example",
+            "title": "Solve arctan x=π/2 over the reals",
+            "problem": "Solve arctan x=π/2 over the reals",
+            "strategy": "Check the arctangent range before applying tangent.",
+            "steps": [
+              "The principal range of arctan is (−π/2,π/2).",
+              "π/2 is not in that open range. There is no real solution."
+            ],
+            "check": "For every finite real x, arctan x is strictly below π/2."
+          }
+        ]
+      },
+      {
+        "id": "equations-07-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-07-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-07-pitfall",
+            "type": "note",
+            "text": "Do not confuse arcsin x=π/6 with sin x=π/6: one is an inverse-function equation, the other is a periodic trig equation. Applying an inverse requires the correct principal branch."
+          },
+          {
+            "id": "equations-07-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Solve arccos x=2π/3.",
+            "answer": "x=−1/2.",
+            "explanation": "cos(2π/3)=−1/2 and 2π/3 belongs to [0,π]."
+          },
+          {
+            "id": "equations-07-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-equations-extraneous-and-excluded-solutions": {
+    "id": "trig-equations-extraneous-and-excluded-solutions",
+    "title": "Extraneous and excluded solutions",
+    "summary": "Identify extraneous roots created by squaring or unsafe algebra, and exclude angles where the original expression is undefined.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "equations-08-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "equations-08-concept"
+        ],
+        "blocks": [
+          {
+            "id": "equations-08-definition",
+            "type": "definition",
+            "text": "A candidate is valid only if it satisfies the ORIGINAL equation and its original domain. Multiplication can produce extra roots, division can lose roots, and squaring can introduce sign-incompatible candidates. State exclusions before simplifying rational trig expressions."
+          },
+          {
+            "id": "equations-08-formula-1",
+            "type": "formula",
+            "latex": "\\frac{\\sin\\theta}{\\sin\\theta}=1\\quad\\text{requires }\\sin\\theta\\ne0"
+          },
+          {
+            "id": "equations-08-formula-2",
+            "type": "formula",
+            "latex": "\\frac{\\sin^2\\theta-1}{\\sin\\theta-1}=\\sin\\theta+1\\quad (\\sin\\theta\\ne1)"
+          },
+          {
+            "id": "equations-08-formula-3",
+            "type": "formula",
+            "latex": "\\sqrt{u}=v\\ \\Rightarrow\\ v\\ge0\\ \\text{and }u=v^2"
+          }
+        ]
+      },
+      {
+        "id": "equations-08-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "equations-08-solving"
+        ],
+        "blocks": [
+          {
+            "id": "equations-08-worked-1",
+            "type": "worked-example",
+            "title": "Solve (sin²θ−1)/(sin θ−1)=0 on [0,2π)",
+            "problem": "Solve (sin²θ−1)/(sin θ−1)=0 on [0,2π)",
+            "strategy": "Exclude zero denominators before cancelling factors.",
+            "steps": [
+              "Original denominator sin θ−1≠0, so θ≠π/2.",
+              "Factor numerator: (sin θ−1)(sin θ+1).",
+              "With sin θ≠1, simplify to sin θ+1=0.",
+              "sin θ=−1 gives θ=3π/2."
+            ],
+            "check": "At 3π/2 the numerator is zero and denominator is −2, not zero."
+          },
+          {
+            "id": "equations-08-worked-2",
+            "type": "worked-example",
+            "title": "Solve sin θ/sin θ=0 for real θ",
+            "problem": "Solve sin θ/sin θ=0 for real θ",
+            "strategy": "Keep the domain of the original quotient.",
+            "steps": [
+              "If sin θ≠0, the quotient equals 1, not 0.",
+              "Where sin θ=0, the quotient is undefined.",
+              "Therefore there are no real solutions."
+            ],
+            "check": "No real θ makes the original quotient equal zero."
+          },
+          {
+            "id": "equations-08-worked-3",
+            "type": "worked-example",
+            "title": "Check extraneous roots after squaring √(1+sin θ)=sin θ",
+            "problem": "For real θ, solve √(1+sin θ)=sin θ.",
+            "strategy": "Check the sign of the original right side before and after squaring.",
+            "steps": [
+              "Set u=sin θ. The original equation √(1+u)=u requires u≥0 and −1≤u≤1.",
+              "Squaring gives 1+u=u², or u²−u−1=0.",
+              "The algebraic roots are (1+√5)/2>1 and (1−√5)/2<0.",
+              "The positive root is outside the possible sine range; the negative root violates u≥0. No real θ satisfies the original equation."
+            ],
+            "check": "Substitution into the original equation rejects both roots, even though they satisfy the squared equation."
+          }
+        ]
+      },
+      {
+        "id": "equations-08-review",
+        "title": "Common mistakes, checkpoint and reference guide",
+        "objectiveIds": [
+          "equations-08-review"
+        ],
+        "blocks": [
+          {
+            "id": "equations-08-pitfall",
+            "type": "note",
+            "text": "Cancelling sin θ−1 then substituting θ=π/2 would mistakenly add an undefined angle. Squaring both sides can give extraneous roots when the original sides have incompatible signs."
+          },
+          {
+            "id": "equations-08-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Solve √(sin θ)=−1 for real θ.",
+            "answer": "No real solutions.",
+            "explanation": "A real square root is never negative, so it cannot equal −1."
+          },
+          {
+            "id": "equations-08-reference",
+            "type": "note",
+            "text": "Reference guide: Lial, Trigonometry, 10th ed., §§6.2–6.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §3.3; Schaum’s Outline of Trigonometry, 4th ed., Ch. 14; Kelley, The Humongous Book of Trigonometry Problems, Chs. 10–11; Young, Trigonometry, 3rd ed., chapter on trigonometric equations. The references inform original explanations and examples."
+          }
+        ]
+      }
+    ]
+  }
+}

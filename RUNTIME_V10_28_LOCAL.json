@@ -1,0 +1,44 @@
+{
+  "app": "BSECE Board Reviewer",
+  "version": "10.28.0",
+  "generatedAt": "2026-10-10T05:56:49.375Z",
+  "packageLockMatches": true,
+  "coreDependencies": {
+    "present": [
+      "react",
+      "react-dom",
+      "vite",
+      "@vitejs/plugin-react",
+      "@tailwindcss/vite",
+      "express",
+      "ws",
+      "@google/genai",
+      "esbuild",
+      "tsx",
+      "typescript"
+    ],
+    "missing": []
+  },
+  "installedTypecheck": {
+    "status": "pass",
+    "exitCode": 0,
+    "detail": "\n> bsece-board-reviewer@10.28.0 lint\n> tsc --noEmit\n\n"
+  },
+  "fullBuild": {
+    "status": "pass",
+    "exitCode": 0,
+    "detail": "\n(!) Some chunks are larger than 500 kB after minification. Consider:\n- Using dynamic import() to code-split the application\n- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks\n- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.\n\n  dist\\server.cjs      61.5kb\n  dist\\server.cjs.map  88.5kb\n\nDone in 390ms\n"
+  },
+  "processOwnership": "verified",
+  "browserSmoke": {
+    "status": "pass",
+    "exitCode": 0,
+    "detail": "\n> bsece-board-reviewer@10.28.0 smoke:browser:v10.28\n> node scripts/smokeBrowserV1028.mjs\n\nPASS: owned server health and HTML shell\nPASS: React navigation mounted in Chromium\nPASS: Calculator Skills opened through real browser click\nPASS: Numerical answer drills render in browser\nPASS: Mock assessment navigation works\nPASS: no uncaught JS exceptions recorded during smoke journey\nNOTE: Manual strict-exam, backup, numerical submissions and physical Canon device testing remain required.\n"
+  },
+  "physicalCanonF789SGA": "not-tested",
+  "qualifiedDeviceApproval": "not-verified",
+  "overall": "automated-runtime-smoke-passed; manual-and-device-review-pending",
+  "limitations": [
+    "Physical Canon F-789SGA operation and editorial device approval were not tested."
+  ]
+}

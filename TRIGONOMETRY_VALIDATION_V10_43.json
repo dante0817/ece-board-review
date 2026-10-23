@@ -1,0 +1,27 @@
+{
+  "version": "10.43.0",
+  "baseVersion": "10.42.0",
+  "topic": "08 – Trigonometric Equations",
+  "newLessons": 8,
+  "newQuestions": 64,
+  "totalTrigonometryLessons": 57,
+  "totalTrigonometryQuestions": 456,
+  "algebraPracticePreserved": 422,
+  "combinedPracticeCatalog": 878,
+  "curriculumSubtopics": 102,
+  "testStatus": {
+    "focusedTopic08": "passed",
+    "trigonometryV1037toV1042": "passed",
+    "practiceCatalog": "passed",
+    "learnReader": "passed",
+    "manualLearn": "passed",
+    "algebraReferences": "passed",
+    "sourceImports": "passed",
+    "targetedTypeScriptChecks": "passed",
+    "fullLint": "blocked_missing_dependencies",
+    "fullBuild": "blocked_vite_not_installed",
+    "browserRuntime": "not_run",
+    "independentMathEditorialCertification": "pending"
+  },
+  "notes": "All added mathematics content is labeled draft-unverified; examples are validated by representative numerical tests but not exhaustive professional audit."
+}

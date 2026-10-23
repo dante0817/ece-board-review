@@ -1,0 +1,46 @@
+BSECE BOARD REVIEWER v10.17.0 — VALIDATION REPORT
+Date: 2026-10-09
+Release class: SOURCE CANDIDATE; full application build/browser validation outstanding.
+
+PASS — Existing executable regression groups:
+  validate:algebra:v10.8
+  validate:integrity:v10.9
+  validate:assessment:v10.10
+  validate:curriculum:v10.11
+  validate:learning-paths:v10.12
+  validate:board:v10.13
+  validate:board:v10.14
+  validate:tos:v10.15
+  validate:content:v10.16
+  validate:calculator:v10.17
+
+PASS — v10.17 calculator-specific checks:
+  - 10 unique exact-question-ID Canon guides
+  - correct keyed answer and independently specified fixture for each of 10 examples
+  - supported/locked/pending lookup results and no keyword-based fallback
+  - manual provenance flags; no claim of physical-device certification
+  - review-only mock integration and after-check reference practice integration
+  - calculator profile Settings / backup namespace / navigation integration
+  - resonant-frequency precedence-trap regression and independently computed ratio
+
+PASS — Focused TypeScript configurations:
+  tsconfig.integrity.json
+  tsconfig.assessment.json
+  tsconfig.curriculum.json
+  tsconfig.learning-paths.json
+  tsconfig.board.json
+  tsconfig.calculator.json
+
+PASS — TypeScript compiler parser: 240 source .ts/.tsx files, zero syntax diagnostics.
+
+UNVERIFIED — Full-project TypeScript check, Vite/server production build and interactive browser test.
+  npm ci --offline --ignore-scripts --no-audit --no-fund failed with ENOTCACHED:
+  registry.npmjs.org/zwitch is not cached in the current environment.
+
+UNVERIFIED — Physical Canon F-789SGA button sequences and actual LCD displays; published
+  manual supports the selected modes/functions, but real-device QA is required.
+
+UNVERIFIED — Mathematical and engineering correctness of all other legacy questions.
+  Ten guided examples do not imply complete calculator coverage for 368 practice/mock questions.
+
+IMPORTANT: Any future source changes require rerunning this validation chain.

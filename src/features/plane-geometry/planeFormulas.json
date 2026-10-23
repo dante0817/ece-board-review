@@ -1,0 +1,296 @@
+[
+  {
+    "id": "PG-F001",
+    "topic_id": "GEO-001",
+    "name": "Points, lines, segments, rays, and planes",
+    "latex": "AB+BC=AC\\quad(B\\text{ between }A,C)",
+    "conditions": "Do not interpret a full line or ray as having a finite length."
+  },
+  {
+    "id": "PG-F002",
+    "topic_id": "GEO-002",
+    "name": "Angle types, measurement, and relationships",
+    "latex": "\\alpha+\\beta=90^\\circ\\ \\text{or}\\ 180^\\circ",
+    "conditions": "Do not confuse complementary with supplementary angles."
+  },
+  {
+    "id": "PG-F003",
+    "topic_id": "GEO-003",
+    "name": "Parallel and perpendicular lines",
+    "latex": "\\ell\\perp m\\Longrightarrow \\theta=90^\\circ",
+    "conditions": "Lines that look perpendicular in a schematic may not be."
+  },
+  {
+    "id": "PG-F004",
+    "topic_id": "GEO-004",
+    "name": "Transversal and corresponding angles",
+    "latex": "\\theta_{\\mathrm{corr}}=\\theta\\quad(\\ell\\parallel m)",
+    "conditions": "Angle-pair theorems require the two lines to be parallel."
+  },
+  {
+    "id": "PG-F005",
+    "topic_id": "GEO-005",
+    "name": "Reasoning, postulates, and elementary proofs",
+    "latex": "A=B,\\ B=C\\ \\Longrightarrow\\ A=C",
+    "conditions": "A diagram is not proof of equality, parallelism or congruence."
+  },
+  {
+    "id": "PG-F006",
+    "topic_id": "GEO-006",
+    "name": "Geometric constructions with compass and straightedge",
+    "latex": "PA=PB\\quad(P\\text{ on perpendicular bisector of }AB)",
+    "conditions": "An unmarked straightedge cannot directly measure lengths."
+  },
+  {
+    "id": "PG-F007",
+    "topic_id": "GEO-007",
+    "name": "Triangle classifications and angle sums",
+    "latex": "A+B+C=180^\\circ",
+    "conditions": "Two interior angles cannot both be obtuse."
+  },
+  {
+    "id": "PG-F008",
+    "topic_id": "GEO-008",
+    "name": "Congruent triangles and criteria",
+    "latex": "\\text{SSS, SAS, ASA, AAS (and HL for right triangles)}",
+    "conditions": "SSA and AAA do not establish triangle congruence in general."
+  },
+  {
+    "id": "PG-F009",
+    "topic_id": "GEO-009",
+    "name": "Triangle inequalities and side-angle relationships",
+    "latex": "|a-b|<c<a+b",
+    "conditions": "Equality yields a degenerate triangle, not a proper triangle."
+  },
+  {
+    "id": "PG-F010",
+    "topic_id": "GEO-010",
+    "name": "Triangle medians, altitudes, and centers",
+    "latex": "AG=\\tfrac23 AM\\quad(G\\text{ centroid})",
+    "conditions": "The orthocenter can lie outside an obtuse triangle."
+  },
+  {
+    "id": "PG-F011",
+    "topic_id": "GEO-011",
+    "name": "Pythagorean theorem and converse",
+    "latex": "a^2+b^2=c^2",
+    "conditions": "Never use the Pythagorean equality for a non-right triangle."
+  },
+  {
+    "id": "PG-F012",
+    "topic_id": "GEO-012",
+    "name": "Special right triangles (30-60-90, 45-45-90)",
+    "latex": "45^\\circ:\\ 1:1:\\sqrt2\\quad 30^\\circ:\\ 1:\\sqrt3:2",
+    "conditions": "Do not confuse the side opposite 30° with the longer leg."
+  },
+  {
+    "id": "PG-F013",
+    "topic_id": "GEO-013",
+    "name": "Triangle similarity criteria and proportions",
+    "latex": "\\tfrac{a}{a\\prime}=\\tfrac{b}{b\\prime}=\\tfrac{c}{c\\prime}",
+    "conditions": "Similarity does not imply equal size or equal area."
+  },
+  {
+    "id": "PG-F014",
+    "topic_id": "GEO-014",
+    "name": "Proportional segments and midsegment theorem",
+    "latex": "MN=\\tfrac12 BC",
+    "conditions": "A line through only one midpoint is not necessarily a midsegment."
+  },
+  {
+    "id": "PG-F015",
+    "topic_id": "GEO-015",
+    "name": "Right-triangle trigonometric ratios and applications",
+    "latex": "\\tan\\theta=\\tfrac{\\mathrm{opposite}}{\\mathrm{adjacent}}",
+    "conditions": "The standard ratios assume a right triangle and correctly identified reference angle."
+  },
+  {
+    "id": "PG-F016",
+    "topic_id": "GEO-016",
+    "name": "Heron formula and area from three sides",
+    "latex": "s=\\tfrac{a+b+c}{2},\\quad A=\\sqrt{s(s-a)(s-b)(s-c)}",
+    "conditions": "Sides must satisfy strict triangle inequalities."
+  },
+  {
+    "id": "PG-F017",
+    "topic_id": "GEO-017",
+    "name": "Parallelograms and trapezoids",
+    "latex": "A_{\\mathrm{parallelogram}}=bh",
+    "conditions": "Textbooks vary on whether a trapezoid has exactly one or at least one parallel pair; state the convention."
+  },
+  {
+    "id": "PG-F018",
+    "topic_id": "GEO-018",
+    "name": "Rectangles, squares, rhombi, and kites",
+    "latex": "A_{\\mathrm{kite}}=\\tfrac12 d_1d_2",
+    "conditions": "The kite diagonal-area rule requires perpendicular diagonals; ordinary convex kites satisfy it."
+  },
+  {
+    "id": "PG-F019",
+    "topic_id": "GEO-019",
+    "name": "Properties of regular polygons",
+    "latex": "\\theta_\\mathrm{central}=\\tfrac{360^\\circ}{n}",
+    "conditions": "A polygon with only equal angles is not necessarily regular."
+  },
+  {
+    "id": "PG-F020",
+    "topic_id": "GEO-020",
+    "name": "Polygon angles and number of diagonals",
+    "latex": "S=(n-2)180^\\circ,\\quad D=\\tfrac{n(n-3)}{2}",
+    "conditions": "These formulas assume a simple polygon with n≥3."
+  },
+  {
+    "id": "PG-F021",
+    "topic_id": "GEO-021",
+    "name": "Perimeter and area of triangles",
+    "latex": "A=\\tfrac12 bh",
+    "conditions": "A slanted side is not automatically the perpendicular height."
+  },
+  {
+    "id": "PG-F022",
+    "topic_id": "GEO-022",
+    "name": "Areas of quadrilaterals and trapezoids",
+    "latex": "A=\\tfrac12(b_1+b_2)h",
+    "conditions": "Nonparallel side lengths must not be substituted for the height."
+  },
+  {
+    "id": "PG-F023",
+    "topic_id": "GEO-023",
+    "name": "Areas of regular polygons and apothems",
+    "latex": "A=\\tfrac12 Pa",
+    "conditions": "Formula A=Pa/2 assumes the apothem of a tangential regular polygon."
+  },
+  {
+    "id": "PG-F024",
+    "topic_id": "GEO-024",
+    "name": "Composite plane figures and removed regions",
+    "latex": "A_{\\mathrm{net}}=\\sum A_{\\mathrm{parts}}-\\sum A_{\\mathrm{holes}}",
+    "conditions": "Perimeter needs a separate boundary trace; area subtraction alone does not give perimeter."
+  },
+  {
+    "id": "PG-F025",
+    "topic_id": "GEO-025",
+    "name": "Similarity scaling: perimeters and areas",
+    "latex": "\\tfrac{A_2}{A_1}=\\left(\\tfrac{s_2}{s_1}\\right)^2",
+    "conditions": "A ratio of areas must not be used directly as the side ratio."
+  },
+  {
+    "id": "PG-F026",
+    "topic_id": "GEO-026",
+    "name": "Circle vocabulary, chords, diameters, and tangents",
+    "latex": "d=2r,\\quad OT\\perp\\text{tangent at }T",
+    "conditions": "A secant passes through two circle points; a tangent touches at exactly one point."
+  },
+  {
+    "id": "PG-F027",
+    "topic_id": "GEO-027",
+    "name": "Central angles, arc length, and circumference",
+    "latex": "C=2\\pi r,\\quad L=\\tfrac{\\theta}{360^\\circ}2\\pi r",
+    "conditions": "If the angle is supplied in radians, use L=rθ instead."
+  },
+  {
+    "id": "PG-F028",
+    "topic_id": "GEO-028",
+    "name": "Inscribed angles, secants, and intersecting chords",
+    "latex": "PA\\cdot PB=PC\\cdot PD",
+    "conditions": "The half-arc theorem requires the vertex on the circle; interior intersection uses an arc sum."
+  },
+  {
+    "id": "PG-F029",
+    "topic_id": "GEO-029",
+    "name": "Circle sectors and circular segments",
+    "latex": "A_{\\mathrm{sector}}=\\tfrac{\\theta}{360^\\circ}\\pi r^2",
+    "conditions": "The sector-minus-triangle expression is for the minor segment when 0°<θ≤180°."
+  },
+  {
+    "id": "PG-F030",
+    "topic_id": "GEO-030",
+    "name": "Tangency, secant lengths, and chord properties",
+    "latex": "PT^2=PO^2-r^2",
+    "conditions": "For tangent length, external point distance must exceed radius."
+  },
+  {
+    "id": "PG-F031",
+    "topic_id": "GEO-031",
+    "name": "Cyclic quadrilaterals and Ptolemy theorem",
+    "latex": "AC\\cdot BD=AB\\cdot CD+BC\\cdot DA",
+    "conditions": "Not every quadrilateral is cyclic."
+  },
+  {
+    "id": "PG-F032",
+    "topic_id": "GEO-032",
+    "name": "Inscribed and circumscribed polygons",
+    "latex": "a=\\tfrac{s}{2\\tan(\\pi/n)}",
+    "conditions": "For a regular n-gon, side and apothem formulas must use the same n and circle."
+  },
+  {
+    "id": "PG-F033",
+    "topic_id": "GEO-033",
+    "name": "Loci and geometric constructions",
+    "latex": "\\{P:|PO|=r\\}\\ \\text{is a circle}",
+    "conditions": "A construction solves only the stated conditions; an extra constraint may eliminate some points."
+  },
+  {
+    "id": "PG-F034",
+    "topic_id": "GEO-034",
+    "name": "Translations, rotations, reflections, dilations",
+    "latex": "(x,y)\\xrightarrow{90^\\circ\\mathrm{CCW}}(-y,x)",
+    "conditions": "A dilation with scale other than ±1 does not preserve area."
+  },
+  {
+    "id": "PG-F035",
+    "topic_id": "GEO-035",
+    "name": "Surveying-style distances and indirect measurements",
+    "latex": "\\tfrac{H}{h}=\\tfrac{D}{d}\\quad\\text{(similar triangles)}",
+    "conditions": "Sloping-ground distances cannot be substituted for horizontal distances without adjustment."
+  },
+  {
+    "id": "PG-F014-B",
+    "topic_id": "GEO-014",
+    "name": "Angle bisector theorem",
+    "latex": "\\frac{BD}{DC}=\\frac{AB}{AC}",
+    "conditions": "Angle bisector from vertex A of a nondegenerate triangle."
+  },
+  {
+    "id": "PG-F019-B",
+    "topic_id": "GEO-019",
+    "name": "Regular polygon apothem",
+    "latex": "a=\\frac{s}{2\\tan(\\pi/n)}",
+    "conditions": "Regular n-gon, n at least 3, with side length s."
+  },
+  {
+    "id": "PG-F028-B",
+    "topic_id": "GEO-028",
+    "name": "Inscribed angle theorem",
+    "latex": "\\angle APB=\\tfrac12\\widehat{AB}",
+    "conditions": "Vertex P lies on the circle, and the chosen intercepted arc excludes P."
+  },
+  {
+    "id": "PG-F029-B",
+    "topic_id": "GEO-029",
+    "name": "Minor circular segment area",
+    "latex": "A=\\frac{r^2}{2}(\\theta-\\sin\\theta)",
+    "conditions": "Angle theta in radians, 0<theta<=pi, minor segment only."
+  },
+  {
+    "id": "PG-F030-B",
+    "topic_id": "GEO-030",
+    "name": "Tangent–secant theorem",
+    "latex": "PT^2=PA\\cdot PB",
+    "conditions": "Exterior point P; A near intersection, B far intersection of a secant."
+  },
+  {
+    "id": "PG-F031-B",
+    "topic_id": "GEO-031",
+    "name": "Cyclic supplementary angles",
+    "latex": "\\angle A+\\angle C=180^\\circ",
+    "conditions": "All four quadrilateral vertices must lie on a circle."
+  },
+  {
+    "id": "PG-F035-B",
+    "topic_id": "GEO-035",
+    "name": "Angle of elevation",
+    "latex": "H=D\\tan\\theta",
+    "conditions": "Flat ground, horizontal distance D, no instrument or target offset."
+  }
+]

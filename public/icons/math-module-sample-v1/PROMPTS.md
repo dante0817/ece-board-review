@@ -1,0 +1,16 @@
+# Mathematics module icon sample v1
+
+Generated with the built-in ImageGen tool. Scope: Algebra, Trigonometry and Analytic Geometry icons in Foundation Mathematics only. Existing tile styles, colors, module cards and other app icons are preserved.
+
+## algebra
+
+Use case: stylized-concept. Asset type: a single transparent 3D icon for an Algebra module in an educational app. Subject: only the mathematical symbol x squared, a chunky lowercase x with a small raised superscript 2 at its upper right, formed from glossy sculpted material. Style: vividly colored polished 3D enamel/plastic, thick rounded beveled edges, rich cobalt blue-to-cyan iridescent faces with small violet edge reflections, deep dimensional sides, bright upper-left highlights, soft cast shadow behind and below. Similar finish to premium glossy 3D app logos, very highly saturated and tactile. Nearly front-facing with slight 3/4 depth, optically centered, occupies 80 percent of the square canvas. Truly transparent background with alpha, including behind the soft shadow. No colored square, no tile, no box, no card, no background surface, no decorative stars, no logo, no words. Render only the x² object and its subtle shadow; it will be placed inside an existing colored app tile. Simple silhouette readable at 40 pixels.
+
+## trigonometry
+
+Use case: stylized-concept. Asset type: one transparent 3D mathematics module icon for a small educational app tile. Style: vivid premium polished 3D enamel/plastic, chunky sculpted volume, rounded bevels, strongly saturated colors, bright upper-left studio highlights, darker extruded sides, soft cast shadow below and behind. Nearly front facing with a little 3/4 depth, optically centered, object fills 80 percent of a square canvas. Truly transparent background with alpha including behind the soft shadow. No tile, no box, no card, no background surface, no logo, no caption, no extra decorative objects. Simple clear silhouette readable at 40 pixels. Subject: a single thick right-angle triangular frame, a clear right triangle, with a tiny square angle marker in its lower-left corner. Glossy emerald-to-turquoise faces with subtle yellow-green highlights and deep teal dimensional sides. The interior of the triangle is hollow and transparent. No ruler ticks and no lettering.
+
+## analytic-geometry
+
+Use case: stylized-concept. Asset type: one transparent 3D mathematics module icon for a small educational app tile. Style: vivid premium polished 3D enamel/plastic, chunky sculpted volume, rounded bevels, strongly saturated colors, bright upper-left studio highlights, darker extruded sides, soft cast shadow below and behind. Nearly front facing with a little 3/4 depth, optically centered, object fills 80 percent of a square canvas. Truly transparent background with alpha including behind the soft shadow. No tile, no box, no card, no background surface, no logo, no caption, no extra decorative objects. Simple clear silhouette readable at 40 pixels. Subject: a simple coordinate graph icon: two thick rounded axis bars meeting at the bottom-left, and one smooth upward-curving parabola segment floating just above the horizontal axis. Rich purple and magenta enamel axes, bright warm gold-to-orange sculpted curve, deep violet sides. No grid, no ticks, no arrowheads, no lettering.
+

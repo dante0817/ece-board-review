@@ -1,0 +1,2484 @@
+[
+  {
+    "id": "SMP-036-C1",
+    "topic_id": "GEO-036",
+    "title": "Plane intersection",
+    "level": "Challenge",
+    "kind": "conceptual",
+    "prompt": "Which configuration is possible for two distinct planes in Euclidean 3D?",
+    "options": [
+      "They meet at exactly two isolated points",
+      "They meet in only a finite line segment",
+      "They form an isolated shared circle",
+      "They intersect in exactly one straight line"
+    ],
+    "correctIndex": 3,
+    "expected": null,
+    "unit": "",
+    "formulaId": "",
+    "work": [
+      "Two distinct planes either are parallel or intersect along a complete straight line.",
+      "A circle or finite segment cannot be the entire intersection of two infinite planes."
+    ],
+    "restriction": "",
+    "example": false
+  },
+  {
+    "id": "SMP-036-C2",
+    "topic_id": "GEO-036",
+    "title": "Line-plane incidence",
+    "level": "Challenge",
+    "kind": "conceptual",
+    "prompt": "If a straight line contains two different points of a plane, what follows?",
+    "options": [
+      "The line cannot be parallel to the plane",
+      "The plane must be perpendicular to the line",
+      "The entire line lies in the plane",
+      "The line crosses the plane at a single point"
+    ],
+    "correctIndex": 2,
+    "expected": null,
+    "unit": "",
+    "formulaId": "",
+    "work": [
+      "Any two distinct points determine a line.",
+      "The plane containing both points also contains that entire line."
+    ],
+    "restriction": "",
+    "example": false
+  },
+  {
+    "id": "SMP-037-C1",
+    "topic_id": "GEO-037",
+    "title": "Skew lines",
+    "level": "Challenge",
+    "kind": "conceptual",
+    "prompt": "Which statement about two skew lines is correct?",
+    "options": [
+      "They lie on the same plane and never meet",
+      "Their distance must be zero",
+      "They do not intersect and are not coplanar",
+      "They intersect at 90°"
+    ],
+    "correctIndex": 2,
+    "expected": null,
+    "unit": "",
+    "formulaId": "",
+    "work": [
+      "Skew lines are noncoplanar and nonintersecting.",
+      "Parallel lines must be coplanar, so skew lines are not parallel."
+    ],
+    "restriction": "",
+    "example": false
+  },
+  {
+    "id": "SMP-037-C2",
+    "topic_id": "GEO-037",
+    "title": "Perpendicular lines",
+    "level": "Challenge",
+    "kind": "conceptual",
+    "prompt": "What must be established before declaring two straight lines perpendicular?",
+    "options": [
+      "They never meet",
+      "They intersect at a right angle",
+      "They appear to form a right angle in a perspective drawing",
+      "They have different slopes in two different planes"
+    ],
+    "correctIndex": 1,
+    "expected": null,
+    "unit": "",
+    "formulaId": "",
+    "work": [
+      "Perpendicularity of lines requires a common intersection at 90°.",
+      "Perspective illustrations may distort apparent angles."
+    ],
+    "restriction": "",
+    "example": false
+  },
+  {
+    "id": "SMP-038-C1",
+    "topic_id": "GEO-038",
+    "title": "Dihedral angle",
+    "level": "Challenge",
+    "kind": "conceptual",
+    "prompt": "The dihedral angle between two half-planes sharing an edge is measured using:",
+    "options": [
+      "The distance between arbitrary points on the two faces",
+      "A section by a plane perpendicular to their common edge",
+      "Their projected area on a horizontal plane",
+      "The angles of any triangle drawn on one face"
+    ],
+    "correctIndex": 1,
+    "expected": null,
+    "unit": "",
+    "formulaId": "",
+    "work": [
+      "Take a cross-section perpendicular to the common edge.",
+      "The two intersection rays determine the plane angle of the dihedral angle."
+    ],
+    "restriction": "",
+    "example": false
+  },
+  {
+    "id": "SMP-038-C2",
+    "topic_id": "GEO-038",
+    "title": "Perpendicular planes",
+    "level": "Challenge",
+    "kind": "conceptual",
+    "prompt": "Two adjacent walls meet at an interior dihedral angle of 90°. They are:",
+    "options": [
+      "Perpendicular planes",
+      "Parallel planes",
+      "Skew planes",
+      "Coincident planes"
+    ],
+    "correctIndex": 0,
+    "expected": null,
+    "unit": "",
+    "formulaId": "",
+    "work": [
+      "A right dihedral angle describes perpendicular intersecting planes.",
+      "Distinct planes cannot be skew in the line-geometry sense."
+    ],
+    "restriction": "",
+    "example": false
+  },
+  {
+    "id": "SMP-039-C1",
+    "topic_id": "GEO-039",
+    "title": "Polyhedron face count — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A convex hexagonal prism has 12 vertices and 18 edges. Determine the number of faces.",
+    "options": [
+      7,
+      9,
+      8,
+      6
+    ],
+    "correctIndex": 2,
+    "expected": 8,
+    "unit": "faces",
+    "formulaId": "SMF-002",
+    "work": [
+      "For a convex polyhedron, V − E + F = 2; therefore F = 2 + E − V.",
+      "Substitute the given measurements: euler faces with inputs 12, 18 gives 8 faces."
+    ],
+    "verifyTag": "euler-faces",
+    "verifyInputs": [
+      12,
+      18
+    ],
+    "restriction": "The Euler relation assumes a closed connected genus-zero polyhedral surface.",
+    "example": false
+  },
+  {
+    "id": "SMP-039-C2",
+    "topic_id": "GEO-039",
+    "title": "Polyhedron face count — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A convex heptagonal prism has 14 vertices and 21 edges. Determine the number of faces.",
+    "options": [
+      10,
+      9,
+      7,
+      8
+    ],
+    "correctIndex": 1,
+    "expected": 9,
+    "unit": "faces",
+    "formulaId": "SMF-002",
+    "work": [
+      "For a convex polyhedron, V − E + F = 2; therefore F = 2 + E − V.",
+      "Substitute the given measurements: euler faces with inputs 14, 21 gives 9 faces."
+    ],
+    "verifyTag": "euler-faces",
+    "verifyInputs": [
+      14,
+      21
+    ],
+    "restriction": "The Euler relation assumes a closed connected genus-zero polyhedral surface.",
+    "example": false
+  },
+  {
+    "id": "SMP-040-C1",
+    "topic_id": "GEO-040",
+    "title": "Internal box diagonal — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A rectangular instrument cabinet has perpendicular internal dimensions 5 m, 12 m, and 13 m. Find the straight-line space diagonal.",
+    "options": [
+      13.788582233137676,
+      16.54629867976521,
+      22.061731573020282,
+      18.384776310850235
+    ],
+    "correctIndex": 3,
+    "expected": 18.384776310850235,
+    "unit": "m",
+    "formulaId": "SMF-001",
+    "work": [
+      "Apply 3D Pythagoras: d = √(length² + width² + height²).",
+      "Substitute the given measurements: diagonal with inputs 5, 12, 13 gives 18.384776 m."
+    ],
+    "verifyTag": "diagonal",
+    "verifyInputs": [
+      5,
+      12,
+      13
+    ],
+    "restriction": "Edges meet at right angles.",
+    "example": false
+  },
+  {
+    "id": "SMP-040-C2",
+    "topic_id": "GEO-040",
+    "title": "Internal box diagonal — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A rectangular instrument cabinet has perpendicular internal dimensions 9 m, 12 m, and 20 m. Find the straight-line space diagonal.",
+    "options": [
+      22.5,
+      30.0,
+      25.0,
+      18.75
+    ],
+    "correctIndex": 2,
+    "expected": 25.0,
+    "unit": "m",
+    "formulaId": "SMF-001",
+    "work": [
+      "Apply 3D Pythagoras: d = √(length² + width² + height²).",
+      "Substitute the given measurements: diagonal with inputs 9, 12, 20 gives 25 m."
+    ],
+    "verifyTag": "diagonal",
+    "verifyInputs": [
+      9,
+      12,
+      20
+    ],
+    "restriction": "Edges meet at right angles.",
+    "example": false
+  },
+  {
+    "id": "SMP-041-C1",
+    "topic_id": "GEO-041",
+    "title": "Planar section of box — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right prism has a rectangular base 7 cm by 11 cm. A plane cuts it parallel to its base. Find the section area.",
+    "options": [
+      77,
+      57.75,
+      69.3,
+      92.39999999999999
+    ],
+    "correctIndex": 0,
+    "expected": 77,
+    "unit": "cm²",
+    "formulaId": "",
+    "work": [
+      "Parallel cross-sections of a prism are congruent to the base; A = width × length.",
+      "Substitute the given measurements: rectangle with inputs 7, 11 gives 77 cm²."
+    ],
+    "verifyTag": "rectangle",
+    "verifyInputs": [
+      7,
+      11
+    ],
+    "restriction": "The cutting plane is parallel to the base and intersects the interior.",
+    "example": false
+  },
+  {
+    "id": "SMP-041-C2",
+    "topic_id": "GEO-041",
+    "title": "Planar section of box — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right prism has a rectangular base 9 cm by 13 cm. A plane cuts it parallel to its base. Find the section area.",
+    "options": [
+      87.75,
+      105.3,
+      140.4,
+      117
+    ],
+    "correctIndex": 3,
+    "expected": 117,
+    "unit": "cm²",
+    "formulaId": "",
+    "work": [
+      "Parallel cross-sections of a prism are congruent to the base; A = width × length.",
+      "Substitute the given measurements: rectangle with inputs 9, 13 gives 117 cm²."
+    ],
+    "verifyTag": "rectangle",
+    "verifyInputs": [
+      9,
+      13
+    ],
+    "restriction": "The cutting plane is parallel to the base and intersects the interior.",
+    "example": false
+  },
+  {
+    "id": "SMP-042-C1",
+    "topic_id": "GEO-042",
+    "title": "Closed square prism total area — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A closed right square prism has base perimeter 12 m, vertical height 8 m, and base area 9 m². Find the total exterior area.",
+    "options": [
+      136.79999999999998,
+      114,
+      85.5,
+      102.60000000000001
+    ],
+    "correctIndex": 1,
+    "expected": 114,
+    "unit": "m²",
+    "formulaId": "SMF-009",
+    "work": [
+      "For a right prism: S = perimeter × height + 2 × base area.",
+      "Substitute the given measurements: prism total with inputs 12, 8, 9 gives 114 m²."
+    ],
+    "verifyTag": "prism-total",
+    "verifyInputs": [
+      12,
+      8,
+      9
+    ],
+    "restriction": "The given measurements describe a square base; both end faces are included.",
+    "example": false
+  },
+  {
+    "id": "SMP-042-C2",
+    "topic_id": "GEO-042",
+    "title": "Closed square prism total area — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A closed right square prism has base perimeter 16 m, vertical height 9 m, and base area 16 m². Find the total exterior area.",
+    "options": [
+      176,
+      132.0,
+      158.4,
+      211.2
+    ],
+    "correctIndex": 0,
+    "expected": 176,
+    "unit": "m²",
+    "formulaId": "SMF-009",
+    "work": [
+      "For a right prism: S = perimeter × height + 2 × base area.",
+      "Substitute the given measurements: prism total with inputs 16, 9, 16 gives 176 m²."
+    ],
+    "verifyTag": "prism-total",
+    "verifyInputs": [
+      16,
+      9,
+      16
+    ],
+    "restriction": "The given measurements describe a square base; both end faces are included.",
+    "example": false
+  },
+  {
+    "id": "SMP-043-C1",
+    "topic_id": "GEO-043",
+    "title": "Prism capacity — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A straight-sided reservoir has uniform polygonal cross-section of area 32 m² and length 7 m. Determine internal volume.",
+    "options": [
+      201.6,
+      268.8,
+      224,
+      168.0
+    ],
+    "correctIndex": 2,
+    "expected": 224,
+    "unit": "m³",
+    "formulaId": "SMF-007",
+    "work": [
+      "For a prism: V = base area × perpendicular length.",
+      "Substitute the given measurements: prism volume with inputs 32, 7 gives 224 m³."
+    ],
+    "verifyTag": "prism-volume",
+    "verifyInputs": [
+      32,
+      7
+    ],
+    "restriction": "Cross-sectional area is constant along the length.",
+    "example": false
+  },
+  {
+    "id": "SMP-043-C2",
+    "topic_id": "GEO-043",
+    "title": "Prism capacity — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A straight-sided reservoir has uniform polygonal cross-section of area 45 m² and length 11 m. Determine internal volume.",
+    "options": [
+      594.0,
+      495,
+      371.25,
+      445.5
+    ],
+    "correctIndex": 1,
+    "expected": 495,
+    "unit": "m³",
+    "formulaId": "SMF-007",
+    "work": [
+      "For a prism: V = base area × perpendicular length.",
+      "Substitute the given measurements: prism volume with inputs 45, 11 gives 495 m³."
+    ],
+    "verifyTag": "prism-volume",
+    "verifyInputs": [
+      45,
+      11
+    ],
+    "restriction": "Cross-sectional area is constant along the length.",
+    "example": false
+  },
+  {
+    "id": "SMP-044-C1",
+    "topic_id": "GEO-044",
+    "title": "Skew prism volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A leaning prism has base area 21 cm² and perpendicular distance 9 cm between its parallel bases. Find volume (do not use the slant edge).",
+    "options": [
+      141.75,
+      170.1,
+      226.79999999999998,
+      189
+    ],
+    "correctIndex": 3,
+    "expected": 189,
+    "unit": "cm³",
+    "formulaId": "SMF-007",
+    "work": [
+      "An oblique prism retains V = base area × perpendicular height.",
+      "Substitute the given measurements: prism volume with inputs 21, 9 gives 189 cm³."
+    ],
+    "verifyTag": "prism-volume",
+    "verifyInputs": [
+      21,
+      9
+    ],
+    "restriction": "The given distance is the perpendicular separation of its bases.",
+    "example": false
+  },
+  {
+    "id": "SMP-044-C2",
+    "topic_id": "GEO-044",
+    "title": "Skew prism volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A leaning prism has base area 34 cm² and perpendicular distance 6 cm between its parallel bases. Find volume (do not use the slant edge).",
+    "options": [
+      183.6,
+      244.79999999999998,
+      204,
+      153.0
+    ],
+    "correctIndex": 2,
+    "expected": 204,
+    "unit": "cm³",
+    "formulaId": "SMF-007",
+    "work": [
+      "An oblique prism retains V = base area × perpendicular height.",
+      "Substitute the given measurements: prism volume with inputs 34, 6 gives 204 cm³."
+    ],
+    "verifyTag": "prism-volume",
+    "verifyInputs": [
+      34,
+      6
+    ],
+    "restriction": "The given distance is the perpendicular separation of its bases.",
+    "example": false
+  },
+  {
+    "id": "SMP-045-C1",
+    "topic_id": "GEO-045",
+    "title": "Packaging box volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A rectangular electronics enclosure is 4 cm wide, 7 cm deep, and 11 cm tall internally. Find the enclosed volume.",
+    "options": [
+      308,
+      231.0,
+      277.2,
+      369.59999999999997
+    ],
+    "correctIndex": 0,
+    "expected": 308,
+    "unit": "cm³",
+    "formulaId": "SMF-010",
+    "work": [
+      "For a rectangular cuboid: V = length × width × height.",
+      "Substitute the given measurements: cuboid with inputs 4, 7, 11 gives 308 cm³."
+    ],
+    "verifyTag": "cuboid",
+    "verifyInputs": [
+      4,
+      7,
+      11
+    ],
+    "restriction": "The interior is a rectangular box without internal obstructions.",
+    "example": false
+  },
+  {
+    "id": "SMP-045-C2",
+    "topic_id": "GEO-045",
+    "title": "Packaging box volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A rectangular electronics enclosure is 5 cm wide, 9 cm deep, and 12 cm tall internally. Find the enclosed volume.",
+    "options": [
+      405.0,
+      486.0,
+      648.0,
+      540
+    ],
+    "correctIndex": 3,
+    "expected": 540,
+    "unit": "cm³",
+    "formulaId": "SMF-010",
+    "work": [
+      "For a rectangular cuboid: V = length × width × height.",
+      "Substitute the given measurements: cuboid with inputs 5, 9, 12 gives 540 cm³."
+    ],
+    "verifyTag": "cuboid",
+    "verifyInputs": [
+      5,
+      9,
+      12
+    ],
+    "restriction": "The interior is a rectangular box without internal obstructions.",
+    "example": false
+  },
+  {
+    "id": "SMP-046-C1",
+    "topic_id": "GEO-046",
+    "title": "Closed cylinder surface area — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A completely closed upright circular cylinder has radius 4 m and height 9 m. Calculate the area of its curved wall plus both circular ends.",
+    "options": [
+      392.0707631680062,
+      326.7256359733385,
+      245.04422698000388,
+      294.05307237600465
+    ],
+    "correctIndex": 1,
+    "expected": 326.7256359733385,
+    "unit": "m²",
+    "formulaId": "SMF-017",
+    "work": [
+      "S = 2πrh + 2πr² = 2πr(h+r).",
+      "Substitute the given measurements: cylinder total with inputs 4, 9 gives 326.72564 m²."
+    ],
+    "verifyTag": "cylinder-total",
+    "verifyInputs": [
+      4,
+      9
+    ],
+    "restriction": "Valid for a right circular cylinder, with both bases included.",
+    "example": false
+  },
+  {
+    "id": "SMP-046-C2",
+    "topic_id": "GEO-046",
+    "title": "Closed cylinder surface area — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A completely closed upright circular cylinder has radius 5 m and height 12 m. Calculate the area of its curved wall plus both circular ends.",
+    "options": [
+      534.0707511102648,
+      400.5530633326986,
+      480.66367599923836,
+      640.8849013323178
+    ],
+    "correctIndex": 0,
+    "expected": 534.0707511102648,
+    "unit": "m²",
+    "formulaId": "SMF-017",
+    "work": [
+      "S = 2πrh + 2πr² = 2πr(h+r).",
+      "Substitute the given measurements: cylinder total with inputs 5, 12 gives 534.07075 m²."
+    ],
+    "verifyTag": "cylinder-total",
+    "verifyInputs": [
+      5,
+      12
+    ],
+    "restriction": "Valid for a right circular cylinder, with both bases included.",
+    "example": false
+  },
+  {
+    "id": "SMP-047-C1",
+    "topic_id": "GEO-047",
+    "title": "Water tank volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A cylindrical storage vessel has internal radius 2.5 m and usable axial height 12 m. Determine full capacity in cubic meters.",
+    "options": [
+      212.05750411731103,
+      282.7433388230814,
+      235.61944901923448,
+      176.71458676442586
+    ],
+    "correctIndex": 2,
+    "expected": 235.61944901923448,
+    "unit": "m³",
+    "formulaId": "SMF-015",
+    "work": [
+      "Use V = πr²h for a circular cylinder.",
+      "Substitute the given measurements: cylinder volume with inputs 2.5, 12 gives 235.61945 m³."
+    ],
+    "verifyTag": "cylinder-volume",
+    "verifyInputs": [
+      2.5,
+      12
+    ],
+    "restriction": "Assumes a uniform circular section and perpendicular (axial) height.",
+    "example": false
+  },
+  {
+    "id": "SMP-047-C2",
+    "topic_id": "GEO-047",
+    "title": "Water tank volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A cylindrical storage vessel has internal radius 3.5 m and usable axial height 10 m. Determine full capacity in cubic meters.",
+    "options": [
+      461.81412007769956,
+      384.84510006474966,
+      288.63382504856224,
+      346.3605900582747
+    ],
+    "correctIndex": 1,
+    "expected": 384.84510006474966,
+    "unit": "m³",
+    "formulaId": "SMF-015",
+    "work": [
+      "Use V = πr²h for a circular cylinder.",
+      "Substitute the given measurements: cylinder volume with inputs 3.5, 10 gives 384.8451 m³."
+    ],
+    "verifyTag": "cylinder-volume",
+    "verifyInputs": [
+      3.5,
+      10
+    ],
+    "restriction": "Assumes a uniform circular section and perpendicular (axial) height.",
+    "example": false
+  },
+  {
+    "id": "SMP-048-C1",
+    "topic_id": "GEO-048",
+    "title": "Oblique cylindrical vessel — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An oblique cylindrical core has circular base radius 2 cm and perpendicular distance 11 cm between bases. Determine its volume.",
+    "options": [
+      103.67255756846316,
+      124.4070690821558,
+      165.87609210954105,
+      138.23007675795088
+    ],
+    "correctIndex": 3,
+    "expected": 138.23007675795088,
+    "unit": "cm³",
+    "formulaId": "SMF-015",
+    "work": [
+      "For an oblique cylinder, V = πr² × perpendicular height.",
+      "Substitute the given measurements: cylinder volume with inputs 2, 11 gives 138.23008 cm³."
+    ],
+    "verifyTag": "cylinder-volume",
+    "verifyInputs": [
+      2,
+      11
+    ],
+    "restriction": "Use perpendicular height, not the tilted generator length.",
+    "example": false
+  },
+  {
+    "id": "SMP-048-C2",
+    "topic_id": "GEO-048",
+    "title": "Oblique cylindrical vessel — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An oblique cylindrical core has circular base radius 4 cm and perpendicular distance 9 cm between bases. Determine its volume.",
+    "options": [
+      407.1504079052372,
+      542.8672105403163,
+      452.3893421169302,
+      339.29200658769764
+    ],
+    "correctIndex": 2,
+    "expected": 452.3893421169302,
+    "unit": "cm³",
+    "formulaId": "SMF-015",
+    "work": [
+      "For an oblique cylinder, V = πr² × perpendicular height.",
+      "Substitute the given measurements: cylinder volume with inputs 4, 9 gives 452.38934 cm³."
+    ],
+    "verifyTag": "cylinder-volume",
+    "verifyInputs": [
+      4,
+      9
+    ],
+    "restriction": "Use perpendicular height, not the tilted generator length.",
+    "example": false
+  },
+  {
+    "id": "SMP-049-C1",
+    "topic_id": "GEO-049",
+    "title": "Steel pipe wall volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A hollow pipe is 10 cm long, with outer radius 7 cm and inner radius 5 cm. Determine the volume of wall material.",
+    "options": [
+      753.9822368615503,
+      565.4866776461627,
+      678.5840131753953,
+      904.7786842338603
+    ],
+    "correctIndex": 0,
+    "expected": 753.9822368615503,
+    "unit": "cm³",
+    "formulaId": "SMF-018",
+    "work": [
+      "Subtract inner cylindrical volume from outer volume: V = π(R²−r²)L.",
+      "Substitute the given measurements: pipe volume with inputs 7, 5, 10 gives 753.98224 cm³."
+    ],
+    "verifyTag": "pipe-volume",
+    "verifyInputs": [
+      7,
+      5,
+      10
+    ],
+    "restriction": "Outer radius must be greater than the inner radius.",
+    "example": false
+  },
+  {
+    "id": "SMP-049-C2",
+    "topic_id": "GEO-049",
+    "title": "Steel pipe wall volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A hollow pipe is 12 cm long, with outer radius 8 cm and inner radius 3 cm. Determine the volume of wall material.",
+    "options": [
+      1555.088363526948,
+      1866.1060362323374,
+      2488.1413816431163,
+      2073.4511513692637
+    ],
+    "correctIndex": 3,
+    "expected": 2073.4511513692637,
+    "unit": "cm³",
+    "formulaId": "SMF-018",
+    "work": [
+      "Subtract inner cylindrical volume from outer volume: V = π(R²−r²)L.",
+      "Substitute the given measurements: pipe volume with inputs 8, 3, 12 gives 2073.4512 cm³."
+    ],
+    "verifyTag": "pipe-volume",
+    "verifyInputs": [
+      8,
+      3,
+      12
+    ],
+    "restriction": "Outer radius must be greater than the inner radius.",
+    "example": false
+  },
+  {
+    "id": "SMP-050-C1",
+    "topic_id": "GEO-050",
+    "title": "Regular pyramid lateral area — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right regular square pyramid has base perimeter 24 m and a common triangular-face slant height of 5 m. Find lateral area (exclude base).",
+    "options": [
+      72.0,
+      60.0,
+      45.0,
+      54.0
+    ],
+    "correctIndex": 1,
+    "expected": 60.0,
+    "unit": "m²",
+    "formulaId": "SMF-023",
+    "work": [
+      "For a regular pyramid, lateral area = (base perimeter × face slant height)/2.",
+      "Substitute the given measurements: pyramid lateral with inputs 24, 5 gives 60 m²."
+    ],
+    "verifyTag": "pyramid-lateral",
+    "verifyInputs": [
+      24,
+      5
+    ],
+    "restriction": "Common slant height requires a right regular pyramid.",
+    "example": false
+  },
+  {
+    "id": "SMP-050-C2",
+    "topic_id": "GEO-050",
+    "title": "Regular pyramid lateral area — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right regular square pyramid has base perimeter 32 m and a common triangular-face slant height of 5 m. Find lateral area (exclude base).",
+    "options": [
+      80.0,
+      60.0,
+      72.0,
+      96.0
+    ],
+    "correctIndex": 0,
+    "expected": 80.0,
+    "unit": "m²",
+    "formulaId": "SMF-023",
+    "work": [
+      "For a regular pyramid, lateral area = (base perimeter × face slant height)/2.",
+      "Substitute the given measurements: pyramid lateral with inputs 32, 5 gives 80 m²."
+    ],
+    "verifyTag": "pyramid-lateral",
+    "verifyInputs": [
+      32,
+      5
+    ],
+    "restriction": "Common slant height requires a right regular pyramid.",
+    "example": false
+  },
+  {
+    "id": "SMP-051-C1",
+    "topic_id": "GEO-051",
+    "title": "Pyramid sand volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A pyramid-shaped sand pile has flat base area 72 m² and perpendicular height 10 m. Estimate idealized sand volume.",
+    "options": [
+      216.0,
+      288.0,
+      240.0,
+      180.0
+    ],
+    "correctIndex": 2,
+    "expected": 240.0,
+    "unit": "m³",
+    "formulaId": "SMF-021",
+    "work": [
+      "Pyramid volume equals one third of base area times perpendicular height.",
+      "Substitute the given measurements: pyramid volume with inputs 72, 10 gives 240 m³."
+    ],
+    "verifyTag": "pyramid-volume",
+    "verifyInputs": [
+      72,
+      10
+    ],
+    "restriction": "Use perpendicular height; the pile is modeled as a perfect pyramid.",
+    "example": false
+  },
+  {
+    "id": "SMP-051-C2",
+    "topic_id": "GEO-051",
+    "title": "Pyramid sand volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A pyramid-shaped sand pile has flat base area 108 m² and perpendicular height 8 m. Estimate idealized sand volume.",
+    "options": [
+      345.59999999999997,
+      288.0,
+      216.0,
+      259.2
+    ],
+    "correctIndex": 1,
+    "expected": 288.0,
+    "unit": "m³",
+    "formulaId": "SMF-021",
+    "work": [
+      "Pyramid volume equals one third of base area times perpendicular height.",
+      "Substitute the given measurements: pyramid volume with inputs 108, 8 gives 288 m³."
+    ],
+    "verifyTag": "pyramid-volume",
+    "verifyInputs": [
+      108,
+      8
+    ],
+    "restriction": "Use perpendicular height; the pile is modeled as a perfect pyramid.",
+    "example": false
+  },
+  {
+    "id": "SMP-052-C1",
+    "topic_id": "GEO-052",
+    "title": "Oblique pyramid — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An irregular pyramid has polygonal base area 60 cm² and perpendicular apex-to-base height 9 cm. Compute its volume.",
+    "options": [
+      135.0,
+      162.0,
+      216.0,
+      180.0
+    ],
+    "correctIndex": 3,
+    "expected": 180.0,
+    "unit": "cm³",
+    "formulaId": "SMF-021",
+    "work": [
+      "Even for an oblique or irregular pyramid, V = (base area × perpendicular height)/3.",
+      "Substitute the given measurements: pyramid volume with inputs 60, 9 gives 180 cm³."
+    ],
+    "verifyTag": "pyramid-volume",
+    "verifyInputs": [
+      60,
+      9
+    ],
+    "restriction": "The area provided is the complete base area.",
+    "example": false
+  },
+  {
+    "id": "SMP-052-C2",
+    "topic_id": "GEO-052",
+    "title": "Oblique pyramid — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An irregular pyramid has polygonal base area 42 cm² and perpendicular apex-to-base height 13 cm. Compute its volume.",
+    "options": [
+      163.8,
+      218.4,
+      182.0,
+      136.5
+    ],
+    "correctIndex": 2,
+    "expected": 182.0,
+    "unit": "cm³",
+    "formulaId": "SMF-021",
+    "work": [
+      "Even for an oblique or irregular pyramid, V = (base area × perpendicular height)/3.",
+      "Substitute the given measurements: pyramid volume with inputs 42, 13 gives 182 cm³."
+    ],
+    "verifyTag": "pyramid-volume",
+    "verifyInputs": [
+      42,
+      13
+    ],
+    "restriction": "The area provided is the complete base area.",
+    "example": false
+  },
+  {
+    "id": "SMP-053-C1",
+    "topic_id": "GEO-053",
+    "title": "Cone slant height — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right circular funnel cone has radius 8 cm and perpendicular height 15 cm. Find a straight generator (slant height).",
+    "options": [
+      17.0,
+      12.75,
+      15.3,
+      20.4
+    ],
+    "correctIndex": 0,
+    "expected": 17.0,
+    "unit": "cm",
+    "formulaId": "SMF-026",
+    "work": [
+      "Slant height satisfies l² = r²+h²; take l = √(r²+h²).",
+      "Substitute the given measurements: cone slant with inputs 8, 15 gives 17 cm."
+    ],
+    "verifyTag": "cone-slant",
+    "verifyInputs": [
+      8,
+      15
+    ],
+    "restriction": "A right circular cone, with apex directly over base center.",
+    "example": false
+  },
+  {
+    "id": "SMP-053-C2",
+    "topic_id": "GEO-053",
+    "title": "Cone slant height — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right circular funnel cone has radius 7 cm and perpendicular height 24 cm. Find a straight generator (slant height).",
+    "options": [
+      18.75,
+      22.5,
+      30.0,
+      25.0
+    ],
+    "correctIndex": 3,
+    "expected": 25.0,
+    "unit": "cm",
+    "formulaId": "SMF-026",
+    "work": [
+      "Slant height satisfies l² = r²+h²; take l = √(r²+h²).",
+      "Substitute the given measurements: cone slant with inputs 7, 24 gives 25 cm."
+    ],
+    "verifyTag": "cone-slant",
+    "verifyInputs": [
+      7,
+      24
+    ],
+    "restriction": "A right circular cone, with apex directly over base center.",
+    "example": false
+  },
+  {
+    "id": "SMP-054-C1",
+    "topic_id": "GEO-054",
+    "title": "Cone storage capacity — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A conical vessel has circular opening radius 4 m and perpendicular depth 15 m. Determine its ideal internal volume.",
+    "options": [
+      301.5928947446201,
+      251.32741228718342,
+      188.49555921538757,
+      226.19467105846508
+    ],
+    "correctIndex": 1,
+    "expected": 251.32741228718342,
+    "unit": "m³",
+    "formulaId": "SMF-025",
+    "work": [
+      "V = πr²h/3.",
+      "Substitute the given measurements: cone volume with inputs 4, 15 gives 251.32741 m³."
+    ],
+    "verifyTag": "cone-volume",
+    "verifyInputs": [
+      4,
+      15
+    ],
+    "restriction": "Assumes a complete cone, not a frustum.",
+    "example": false
+  },
+  {
+    "id": "SMP-054-C2",
+    "topic_id": "GEO-054",
+    "title": "Cone storage capacity — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A conical vessel has circular opening radius 6 m and perpendicular depth 11 m. Determine its ideal internal volume.",
+    "options": [
+      414.6902302738527,
+      311.01767270538954,
+      373.22120724646743,
+      497.6282763286232
+    ],
+    "correctIndex": 0,
+    "expected": 414.6902302738527,
+    "unit": "m³",
+    "formulaId": "SMF-025",
+    "work": [
+      "V = πr²h/3.",
+      "Substitute the given measurements: cone volume with inputs 6, 11 gives 414.69023 m³."
+    ],
+    "verifyTag": "cone-volume",
+    "verifyInputs": [
+      6,
+      11
+    ],
+    "restriction": "Assumes a complete cone, not a frustum.",
+    "example": false
+  },
+  {
+    "id": "SMP-055-C1",
+    "topic_id": "GEO-055",
+    "title": "Leaning cone volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An off-center-apex (oblique) cone has base radius 5 m and perpendicular apex altitude 12 m. Find volume.",
+    "options": [
+      282.7433388230814,
+      376.9911184307752,
+      314.1592653589793,
+      235.61944901923448
+    ],
+    "correctIndex": 2,
+    "expected": 314.1592653589793,
+    "unit": "m³",
+    "formulaId": "SMF-025",
+    "work": [
+      "V = πr²h/3 uses perpendicular altitude even for an oblique cone.",
+      "Substitute the given measurements: cone volume with inputs 5, 12 gives 314.15927 m³."
+    ],
+    "verifyTag": "cone-volume",
+    "verifyInputs": [
+      5,
+      12
+    ],
+    "restriction": "Do not use the right-cone curved-surface-area shortcut.",
+    "example": false
+  },
+  {
+    "id": "SMP-055-C2",
+    "topic_id": "GEO-055",
+    "title": "Leaning cone volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An off-center-apex (oblique) cone has base radius 3 m and perpendicular apex altitude 16 m. Find volume.",
+    "options": [
+      180.95573684677208,
+      150.79644737231007,
+      113.09733552923255,
+      135.71680263507906
+    ],
+    "correctIndex": 1,
+    "expected": 150.79644737231007,
+    "unit": "m³",
+    "formulaId": "SMF-025",
+    "work": [
+      "V = πr²h/3 uses perpendicular altitude even for an oblique cone.",
+      "Substitute the given measurements: cone volume with inputs 3, 16 gives 150.79645 m³."
+    ],
+    "verifyTag": "cone-volume",
+    "verifyInputs": [
+      3,
+      16
+    ],
+    "restriction": "Do not use the right-cone curved-surface-area shortcut.",
+    "example": false
+  },
+  {
+    "id": "SMP-056-C1",
+    "topic_id": "GEO-056",
+    "title": "Tapered vessel volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right circular conical frustum has lower radius 6 m, upper radius 3 m, and perpendicular height 8 m. Determine volume.",
+    "options": [
+      395.84067435231395,
+      475.00880922277673,
+      633.3450789637023,
+      527.7875658030853
+    ],
+    "correctIndex": 3,
+    "expected": 527.7875658030853,
+    "unit": "m³",
+    "formulaId": "SMF-029",
+    "work": [
+      "V = (πh/3)(R²+Rr+r²).",
+      "Substitute the given measurements: frustum volume with inputs 6, 3, 8 gives 527.78757 m³."
+    ],
+    "verifyTag": "frustum-volume",
+    "verifyInputs": [
+      6,
+      3,
+      8
+    ],
+    "restriction": "Both ends are parallel circles of a conical frustum.",
+    "example": false
+  },
+  {
+    "id": "SMP-056-C2",
+    "topic_id": "GEO-056",
+    "title": "Tapered vessel volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A right circular conical frustum has lower radius 8 m, upper radius 2 m, and perpendicular height 7 m. Determine volume.",
+    "options": [
+      554.1769440932396,
+      738.9025921243194,
+      615.7521601035995,
+      461.8141200776996
+    ],
+    "correctIndex": 2,
+    "expected": 615.7521601035995,
+    "unit": "m³",
+    "formulaId": "SMF-029",
+    "work": [
+      "V = (πh/3)(R²+Rr+r²).",
+      "Substitute the given measurements: frustum volume with inputs 8, 2, 7 gives 615.75216 m³."
+    ],
+    "verifyTag": "frustum-volume",
+    "verifyInputs": [
+      8,
+      2,
+      7
+    ],
+    "restriction": "Both ends are parallel circles of a conical frustum.",
+    "example": false
+  },
+  {
+    "id": "SMP-057-C1",
+    "topic_id": "GEO-057",
+    "title": "Pyramid pedestal — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A pyramid truncated parallel to the base has lower area 81 m², upper area 25 m², and perpendicular height 8 m. Find frustum volume.",
+    "options": [
+      402.6666666666667,
+      302.0,
+      362.40000000000003,
+      483.2
+    ],
+    "correctIndex": 0,
+    "expected": 402.6666666666667,
+    "unit": "m³",
+    "formulaId": "SMF-033",
+    "work": [
+      "V = h(A₁+A₂+√(A₁A₂))/3.",
+      "Substitute the given measurements: pyramidal frustum with inputs 81, 25, 8 gives 402.66667 m³."
+    ],
+    "verifyTag": "pyramidal-frustum",
+    "verifyInputs": [
+      81,
+      25,
+      8
+    ],
+    "restriction": "Cross-sections are similar polygons; the cutting plane is parallel to the base.",
+    "example": false
+  },
+  {
+    "id": "SMP-057-C2",
+    "topic_id": "GEO-057",
+    "title": "Pyramid pedestal — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A pyramid truncated parallel to the base has lower area 100 m², upper area 36 m², and perpendicular height 9 m. Find frustum volume.",
+    "options": [
+      441.0,
+      529.2,
+      705.6,
+      588.0
+    ],
+    "correctIndex": 3,
+    "expected": 588.0,
+    "unit": "m³",
+    "formulaId": "SMF-033",
+    "work": [
+      "V = h(A₁+A₂+√(A₁A₂))/3.",
+      "Substitute the given measurements: pyramidal frustum with inputs 100, 36, 9 gives 588 m³."
+    ],
+    "verifyTag": "pyramidal-frustum",
+    "verifyInputs": [
+      100,
+      36,
+      9
+    ],
+    "restriction": "Cross-sections are similar polygons; the cutting plane is parallel to the base.",
+    "example": false
+  },
+  {
+    "id": "SMP-058-C1",
+    "topic_id": "GEO-058",
+    "title": "Spherical tank volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A spherical tank has interior radius 5 m. What is its complete internal volume?",
+    "options": [
+      628.3185307179587,
+      523.5987755982989,
+      392.69908169872417,
+      471.23889803846896
+    ],
+    "correctIndex": 1,
+    "expected": 523.5987755982989,
+    "unit": "m³",
+    "formulaId": "SMF-037",
+    "work": [
+      "V = (4π/3)r³.",
+      "Substitute the given measurements: sphere volume with inputs 5 gives 523.59878 m³."
+    ],
+    "verifyTag": "sphere-volume",
+    "verifyInputs": [
+      5
+    ],
+    "restriction": "The cavity is a full sphere.",
+    "example": false
+  },
+  {
+    "id": "SMP-058-C2",
+    "topic_id": "GEO-058",
+    "title": "Spherical tank volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A spherical tank has interior radius 7 m. What is its complete internal volume?",
+    "options": [
+      1436.755040241732,
+      1077.5662801812991,
+      1293.0795362175588,
+      1724.1060482900784
+    ],
+    "correctIndex": 0,
+    "expected": 1436.755040241732,
+    "unit": "m³",
+    "formulaId": "SMF-037",
+    "work": [
+      "V = (4π/3)r³.",
+      "Substitute the given measurements: sphere volume with inputs 7 gives 1436.755 m³."
+    ],
+    "verifyTag": "sphere-volume",
+    "verifyInputs": [
+      7
+    ],
+    "restriction": "The cavity is a full sphere.",
+    "example": false
+  },
+  {
+    "id": "SMP-059-C1",
+    "topic_id": "GEO-059",
+    "title": "Closed hemisphere total area — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A closed hemispherical enclosure has radius 6 m. Find its curved wall area plus its flat circular floor.",
+    "options": [
+      305.3628059289279,
+      407.15040790523716,
+      339.29200658769764,
+      254.46900494077323
+    ],
+    "correctIndex": 2,
+    "expected": 339.29200658769764,
+    "unit": "m²",
+    "formulaId": "SMF-039",
+    "work": [
+      "S = 2πr² + πr² = 3πr².",
+      "Substitute the given measurements: hemisphere total with inputs 6 gives 339.29201 m²."
+    ],
+    "verifyTag": "hemisphere-total",
+    "verifyInputs": [
+      6
+    ],
+    "restriction": "Total area includes the circular closure.",
+    "example": false
+  },
+  {
+    "id": "SMP-059-C2",
+    "topic_id": "GEO-059",
+    "title": "Closed hemisphere total area — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A closed hemispherical enclosure has radius 9 m. Find its curved wall area plus its flat circular floor.",
+    "options": [
+      916.0884177867837,
+      763.4070148223198,
+      572.5552611167398,
+      687.0663133400878
+    ],
+    "correctIndex": 1,
+    "expected": 763.4070148223198,
+    "unit": "m²",
+    "formulaId": "SMF-039",
+    "work": [
+      "S = 2πr² + πr² = 3πr².",
+      "Substitute the given measurements: hemisphere total with inputs 9 gives 763.40701 m²."
+    ],
+    "verifyTag": "hemisphere-total",
+    "verifyInputs": [
+      9
+    ],
+    "restriction": "Total area includes the circular closure.",
+    "example": false
+  },
+  {
+    "id": "SMP-060-C1",
+    "topic_id": "GEO-060",
+    "title": "Circumscribed sphere radius — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A cube of edge 8 cm is inscribed in a sphere (all eight cube vertices on the sphere). Determine the sphere radius.",
+    "options": [
+      5.196152422706632,
+      6.235382907247958,
+      8.31384387633061,
+      6.928203230275509
+    ],
+    "correctIndex": 3,
+    "expected": 6.928203230275509,
+    "unit": "cm",
+    "formulaId": "SMF-042",
+    "work": [
+      "Cube space diagonal = edge√3 and equals the enclosing sphere diameter; r = edge√3/2.",
+      "Substitute the given measurements: circumscribed radius with inputs 8 gives 6.9282032 cm."
+    ],
+    "verifyTag": "circumscribed-radius",
+    "verifyInputs": [
+      8
+    ],
+    "restriction": "Sphere passes through all cube vertices.",
+    "example": false
+  },
+  {
+    "id": "SMP-060-C2",
+    "topic_id": "GEO-060",
+    "title": "Circumscribed sphere radius — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A cube of edge 10 cm is inscribed in a sphere (all eight cube vertices on the sphere). Determine the sphere radius.",
+    "options": [
+      7.794228634059947,
+      10.392304845413262,
+      8.660254037844386,
+      6.495190528383289
+    ],
+    "correctIndex": 2,
+    "expected": 8.660254037844386,
+    "unit": "cm",
+    "formulaId": "SMF-042",
+    "work": [
+      "Cube space diagonal = edge√3 and equals the enclosing sphere diameter; r = edge√3/2.",
+      "Substitute the given measurements: circumscribed radius with inputs 10 gives 8.660254 cm."
+    ],
+    "verifyTag": "circumscribed-radius",
+    "verifyInputs": [
+      10
+    ],
+    "restriction": "Sphere passes through all cube vertices.",
+    "example": false
+  },
+  {
+    "id": "SMP-061-C1",
+    "topic_id": "GEO-061",
+    "title": "Spherical cap volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A plane removes a spherical cap of height 3 cm from a sphere of radius 8 cm. Calculate the cap volume.",
+    "options": [
+      197.92033717615698,
+      148.44025288211773,
+      178.1283034585413,
+      237.50440461138837
+    ],
+    "correctIndex": 0,
+    "expected": 197.92033717615698,
+    "unit": "cm³",
+    "formulaId": "SMF-044",
+    "work": [
+      "V = πh²(R−h/3).",
+      "Substitute the given measurements: cap volume with inputs 8, 3 gives 197.92034 cm³."
+    ],
+    "verifyTag": "cap-volume",
+    "verifyInputs": [
+      8,
+      3
+    ],
+    "restriction": "Cap height is between 0 and 2R.",
+    "example": false
+  },
+  {
+    "id": "SMP-061-C2",
+    "topic_id": "GEO-061",
+    "title": "Spherical cap volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A plane removes a spherical cap of height 4 cm from a sphere of radius 9 cm. Calculate the cap volume.",
+    "options": [
+      289.026524130261,
+      346.8318289563132,
+      462.44243860841755,
+      385.368698840348
+    ],
+    "correctIndex": 3,
+    "expected": 385.368698840348,
+    "unit": "cm³",
+    "formulaId": "SMF-044",
+    "work": [
+      "V = πh²(R−h/3).",
+      "Substitute the given measurements: cap volume with inputs 9, 4 gives 385.3687 cm³."
+    ],
+    "verifyTag": "cap-volume",
+    "verifyInputs": [
+      9,
+      4
+    ],
+    "restriction": "Cap height is between 0 and 2R.",
+    "example": false
+  },
+  {
+    "id": "SMP-062-C1",
+    "topic_id": "GEO-062",
+    "title": "Two-base spherical segment — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A sphere is cut by two parallel planes 5 cm apart, yielding section-circle radii 3 cm and 4 cm. Find the enclosed spherical segment volume.",
+    "options": [
+      314.1592653589793,
+      261.79938779914943,
+      196.34954084936209,
+      235.61944901923448
+    ],
+    "correctIndex": 1,
+    "expected": 261.79938779914943,
+    "unit": "cm³",
+    "formulaId": "SMF-047",
+    "work": [
+      "V = πh(3a²+3b²+h²)/6 for the two circular section radii a and b.",
+      "Substitute the given measurements: segment volume with inputs 3, 4, 5 gives 261.79939 cm³."
+    ],
+    "verifyTag": "segment-volume",
+    "verifyInputs": [
+      3,
+      4,
+      5
+    ],
+    "restriction": "The two cuts bound one contiguous segment of a sphere.",
+    "example": false
+  },
+  {
+    "id": "SMP-062-C2",
+    "topic_id": "GEO-062",
+    "title": "Two-base spherical segment — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A sphere is cut by two parallel planes 6 cm apart, yielding section-circle radii 4 cm and 5 cm. Find the enclosed spherical segment volume.",
+    "options": [
+      499.5132319207771,
+      374.63492394058284,
+      449.5619087286994,
+      599.4158783049326
+    ],
+    "correctIndex": 0,
+    "expected": 499.5132319207771,
+    "unit": "cm³",
+    "formulaId": "SMF-047",
+    "work": [
+      "V = πh(3a²+3b²+h²)/6 for the two circular section radii a and b.",
+      "Substitute the given measurements: segment volume with inputs 4, 5, 6 gives 499.51323 cm³."
+    ],
+    "verifyTag": "segment-volume",
+    "verifyInputs": [
+      4,
+      5,
+      6
+    ],
+    "restriction": "The two cuts bound one contiguous segment of a sphere.",
+    "example": false
+  },
+  {
+    "id": "SMP-063-C1",
+    "topic_id": "GEO-063",
+    "title": "Regular tetrahedron total surface area — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A regular tetrahedron has all edges 5 cm long. Find total area of its four equilateral triangle faces.",
+    "options": [
+      38.97114317029973,
+      51.961524227066306,
+      43.301270189221924,
+      32.47595264191644
+    ],
+    "correctIndex": 2,
+    "expected": 43.301270189221924,
+    "unit": "cm²",
+    "formulaId": "SMF-049",
+    "work": [
+      "Each face has area (√3/4)a². Four faces give S = √3a².",
+      "Substitute the given measurements: tetra area with inputs 5 gives 43.30127 cm²."
+    ],
+    "verifyTag": "tetra-area",
+    "verifyInputs": [
+      5
+    ],
+    "restriction": "All four faces must be equilateral.",
+    "example": false
+  },
+  {
+    "id": "SMP-063-C2",
+    "topic_id": "GEO-063",
+    "title": "Regular tetrahedron total surface area — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A regular tetrahedron has all edges 7 cm long. Find total area of its four equilateral triangle faces.",
+    "options": [
+      101.84458748504997,
+      84.87048957087498,
+      63.652867178156235,
+      76.38344061378749
+    ],
+    "correctIndex": 1,
+    "expected": 84.87048957087498,
+    "unit": "cm²",
+    "formulaId": "SMF-049",
+    "work": [
+      "Each face has area (√3/4)a². Four faces give S = √3a².",
+      "Substitute the given measurements: tetra area with inputs 7 gives 84.87049 cm²."
+    ],
+    "verifyTag": "tetra-area",
+    "verifyInputs": [
+      7
+    ],
+    "restriction": "All four faces must be equilateral.",
+    "example": false
+  },
+  {
+    "id": "SMP-064-C1",
+    "topic_id": "GEO-064",
+    "title": "Ellipsoidal vessel — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An ellipsoid has three mutually perpendicular semiaxes 4 m, 6 m, and 8 m. Find its enclosed volume.",
+    "options": [
+      603.1857894892403,
+      723.8229473870883,
+      965.0972631827844,
+      804.247719318987
+    ],
+    "correctIndex": 3,
+    "expected": 804.247719318987,
+    "unit": "m³",
+    "formulaId": "SMF-053",
+    "work": [
+      "V = (4π/3)abc.",
+      "Substitute the given measurements: ellipsoid volume with inputs 4, 6, 8 gives 804.24772 m³."
+    ],
+    "verifyTag": "ellipsoid-volume",
+    "verifyInputs": [
+      4,
+      6,
+      8
+    ],
+    "restriction": "The given distances are semiaxes, not full diameters.",
+    "example": false
+  },
+  {
+    "id": "SMP-064-C2",
+    "topic_id": "GEO-064",
+    "title": "Ellipsoidal vessel — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "An ellipsoid has three mutually perpendicular semiaxes 3 m, 5 m, and 9 m. Find its enclosed volume.",
+    "options": [
+      508.9380098815465,
+      678.5840131753953,
+      565.4866776461628,
+      424.1150082346221
+    ],
+    "correctIndex": 2,
+    "expected": 565.4866776461628,
+    "unit": "m³",
+    "formulaId": "SMF-053",
+    "work": [
+      "V = (4π/3)abc.",
+      "Substitute the given measurements: ellipsoid volume with inputs 3, 5, 9 gives 565.48668 m³."
+    ],
+    "verifyTag": "ellipsoid-volume",
+    "verifyInputs": [
+      3,
+      5,
+      9
+    ],
+    "restriction": "The given distances are semiaxes, not full diameters.",
+    "example": false
+  },
+  {
+    "id": "SMP-065-C1",
+    "topic_id": "GEO-065",
+    "title": "Torus ring volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A ring-shaped toroidal seal has major radius 7 cm and circular tube radius 2 cm. Calculate solid volume.",
+    "options": [
+      552.697846461004,
+      414.523384845753,
+      497.42806181490363,
+      663.2374157532048
+    ],
+    "correctIndex": 0,
+    "expected": 552.697846461004,
+    "unit": "cm³",
+    "formulaId": "SMF-055",
+    "work": [
+      "V = (2πR)(πr²) = 2π²Rr².",
+      "Substitute the given measurements: torus volume with inputs 7, 2 gives 552.69785 cm³."
+    ],
+    "verifyTag": "torus-volume",
+    "verifyInputs": [
+      7,
+      2
+    ],
+    "restriction": "Ring torus with major radius R strictly larger than tube radius r.",
+    "example": false
+  },
+  {
+    "id": "SMP-065-C2",
+    "topic_id": "GEO-065",
+    "title": "Torus ring volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A ring-shaped toroidal seal has major radius 9 cm and circular tube radius 3 cm. Calculate solid volume.",
+    "options": [
+      1199.156934732357,
+      1438.9883216788287,
+      1918.6510955717713,
+      1598.8759129764762
+    ],
+    "correctIndex": 3,
+    "expected": 1598.8759129764762,
+    "unit": "cm³",
+    "formulaId": "SMF-055",
+    "work": [
+      "V = (2πR)(πr²) = 2π²Rr².",
+      "Substitute the given measurements: torus volume with inputs 9, 3 gives 1598.8759 cm³."
+    ],
+    "verifyTag": "torus-volume",
+    "verifyInputs": [
+      9,
+      3
+    ],
+    "restriction": "Ring torus with major radius R strictly larger than tube radius r.",
+    "example": false
+  },
+  {
+    "id": "SMP-066-C1",
+    "topic_id": "GEO-066",
+    "title": "Composite solid volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A vessel assembly has three disjoint chambers holding 46 L, 38 L and 15 L. Find total capacity.",
+    "options": [
+      118.8,
+      99,
+      74.25,
+      89.10000000000001
+    ],
+    "correctIndex": 1,
+    "expected": 99,
+    "unit": "L",
+    "formulaId": "SMF-057",
+    "work": [
+      "Add the nonoverlapping chamber volumes.",
+      "Substitute the given measurements: sum with inputs 46, 38, 15 gives 99 L."
+    ],
+    "verifyTag": "sum",
+    "verifyInputs": [
+      46,
+      38,
+      15
+    ],
+    "restriction": "The chambers do not overlap.",
+    "example": false
+  },
+  {
+    "id": "SMP-066-C2",
+    "topic_id": "GEO-066",
+    "title": "Composite solid volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A vessel assembly has three disjoint chambers holding 70 L, 25 L and 12 L. Find total capacity.",
+    "options": [
+      107,
+      80.25,
+      96.3,
+      128.4
+    ],
+    "correctIndex": 0,
+    "expected": 107,
+    "unit": "L",
+    "formulaId": "SMF-057",
+    "work": [
+      "Add the nonoverlapping chamber volumes.",
+      "Substitute the given measurements: sum with inputs 70, 25, 12 gives 107 L."
+    ],
+    "verifyTag": "sum",
+    "verifyInputs": [
+      70,
+      25,
+      12
+    ],
+    "restriction": "The chambers do not overlap.",
+    "example": false
+  },
+  {
+    "id": "SMP-067-C1",
+    "topic_id": "GEO-067",
+    "title": "Bored metal block — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A rectangular block is 12 cm by 10 cm by 8 cm. A round hole of radius 2 cm passes through its 8-cm dimension. Find solid volume remaining.",
+    "options": [
+      773.522131576614,
+      1031.362842102152,
+      859.4690350851266,
+      644.601776313845
+    ],
+    "correctIndex": 2,
+    "expected": 859.4690350851266,
+    "unit": "cm³",
+    "formulaId": "SMF-057",
+    "work": [
+      "Vremaining = length × width × thickness − π(hole radius)²×thickness.",
+      "Substitute the given measurements: drilled block with inputs 12, 10, 8, 2 gives 859.46904 cm³."
+    ],
+    "verifyTag": "drilled-block",
+    "verifyInputs": [
+      12,
+      10,
+      8,
+      2
+    ],
+    "restriction": "The through-hole lies wholly inside the block.",
+    "example": false
+  },
+  {
+    "id": "SMP-067-C2",
+    "topic_id": "GEO-067",
+    "title": "Bored metal block — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A rectangular block is 15 cm by 12 cm by 6 cm. A round hole of radius 3 cm passes through its 6-cm dimension. Find solid volume remaining.",
+    "options": [
+      1092.4247960473813,
+      910.3539967061512,
+      682.7654975296134,
+      819.3185970355361
+    ],
+    "correctIndex": 1,
+    "expected": 910.3539967061512,
+    "unit": "cm³",
+    "formulaId": "SMF-057",
+    "work": [
+      "Vremaining = length × width × thickness − π(hole radius)²×thickness.",
+      "Substitute the given measurements: drilled block with inputs 15, 12, 6, 3 gives 910.354 cm³."
+    ],
+    "verifyTag": "drilled-block",
+    "verifyInputs": [
+      15,
+      12,
+      6,
+      3
+    ],
+    "restriction": "The through-hole lies wholly inside the block.",
+    "example": false
+  },
+  {
+    "id": "SMP-068-C1",
+    "topic_id": "GEO-068",
+    "title": "Scaled prototype volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A 13-liter prototype is enlarged so every linear dimension is multiplied by 2.5. What is the resulting volume?",
+    "options": [
+      152.34375,
+      182.8125,
+      243.75,
+      203.125
+    ],
+    "correctIndex": 3,
+    "expected": 203.125,
+    "unit": "L",
+    "formulaId": "SMF-060",
+    "work": [
+      "For similar solids, Vnew = Voriginal × (linear scale)³.",
+      "Substitute the given measurements: scale volume with inputs 13, 2.5 gives 203.125 L."
+    ],
+    "verifyTag": "scale-volume",
+    "verifyInputs": [
+      13,
+      2.5
+    ],
+    "restriction": "Uniform scaling in all three spatial dimensions.",
+    "example": false
+  },
+  {
+    "id": "SMP-068-C2",
+    "topic_id": "GEO-068",
+    "title": "Scaled prototype volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A 8-liter prototype is enlarged so every linear dimension is multiplied by 3. What is the resulting volume?",
+    "options": [
+      194.4,
+      259.2,
+      216,
+      162.0
+    ],
+    "correctIndex": 2,
+    "expected": 216,
+    "unit": "L",
+    "formulaId": "SMF-060",
+    "work": [
+      "For similar solids, Vnew = Voriginal × (linear scale)³.",
+      "Substitute the given measurements: scale volume with inputs 8, 3 gives 216 L."
+    ],
+    "verifyTag": "scale-volume",
+    "verifyInputs": [
+      8,
+      3
+    ],
+    "restriction": "Uniform scaling in all three spatial dimensions.",
+    "example": false
+  },
+  {
+    "id": "SMP-069-C1",
+    "topic_id": "GEO-069",
+    "title": "Truncated cone removal — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "From a right cone with radius 6 cm and height 12 cm, remove a smaller similar tip cone with radius 2 cm and height 4 cm. Find the remaining frustum volume.",
+    "options": [
+      435.63418129778466,
+      326.7256359733385,
+      392.0707631680062,
+      522.7610175573416
+    ],
+    "correctIndex": 0,
+    "expected": 435.63418129778466,
+    "unit": "cm³",
+    "formulaId": "SMF-057",
+    "work": [
+      "Subtract similar cone volumes: V = (π/3)(R²H−r²h).",
+      "Substitute the given measurements: truncated cone with inputs 6, 12, 2, 4 gives 435.63418 cm³."
+    ],
+    "verifyTag": "truncated-cone",
+    "verifyInputs": [
+      6,
+      12,
+      2,
+      4
+    ],
+    "restriction": "The tip cone is similar and removed by a cut parallel to the base.",
+    "example": false
+  },
+  {
+    "id": "SMP-069-C2",
+    "topic_id": "GEO-069",
+    "title": "Truncated cone removal — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "From a right cone with radius 9 cm and height 15 cm, remove a smaller similar tip cone with radius 3 cm and height 5 cm. Find the remaining frustum volume.",
+    "options": [
+      918.9158511750145,
+      1102.6990214100174,
+      1470.265361880023,
+      1225.2211349000193
+    ],
+    "correctIndex": 3,
+    "expected": 1225.2211349000193,
+    "unit": "cm³",
+    "formulaId": "SMF-057",
+    "work": [
+      "Subtract similar cone volumes: V = (π/3)(R²H−r²h).",
+      "Substitute the given measurements: truncated cone with inputs 9, 15, 3, 5 gives 1225.2211 cm³."
+    ],
+    "verifyTag": "truncated-cone",
+    "verifyInputs": [
+      9,
+      15,
+      3,
+      5
+    ],
+    "restriction": "The tip cone is similar and removed by a cut parallel to the base.",
+    "example": false
+  },
+  {
+    "id": "SMP-070-C1",
+    "topic_id": "GEO-070",
+    "title": "Revolving a rectangle — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "Rotate a rectangle of height 4 cm and length 7 cm fully about the axis along its length. Find the volume swept out.",
+    "options": [
+      422.2300526424682,
+      351.85837720205683,
+      263.89378290154264,
+      316.6725394818512
+    ],
+    "correctIndex": 1,
+    "expected": 351.85837720205683,
+    "unit": "cm³",
+    "formulaId": "SMF-061",
+    "work": [
+      "The rotation produces a cylinder: V = π(radius)² × length.",
+      "Substitute the given measurements: disk with inputs 4, 7 gives 351.85838 cm³."
+    ],
+    "verifyTag": "disk",
+    "verifyInputs": [
+      4,
+      7
+    ],
+    "restriction": "The axis coincides with one long side of the rectangle.",
+    "example": false
+  },
+  {
+    "id": "SMP-070-C2",
+    "topic_id": "GEO-070",
+    "title": "Revolving a rectangle — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "Rotate a rectangle of height 2.5 cm and length 9 cm fully about the axis along its length. Find the volume swept out.",
+    "options": [
+      176.71458676442586,
+      132.5359400733194,
+      159.0431280879833,
+      212.05750411731103
+    ],
+    "correctIndex": 0,
+    "expected": 176.71458676442586,
+    "unit": "cm³",
+    "formulaId": "SMF-061",
+    "work": [
+      "The rotation produces a cylinder: V = π(radius)² × length.",
+      "Substitute the given measurements: disk with inputs 2.5, 9 gives 176.71459 cm³."
+    ],
+    "verifyTag": "disk",
+    "verifyInputs": [
+      2.5,
+      9
+    ],
+    "restriction": "The axis coincides with one long side of the rectangle.",
+    "example": false
+  },
+  {
+    "id": "SMP-071-C1",
+    "topic_id": "GEO-071",
+    "title": "Cavalieri matching sections — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "Two solids of equal height 7 cm have equal horizontal sections of constant area 18 cm² at every level. Find the volume of either solid.",
+    "options": [
+      113.4,
+      151.2,
+      126,
+      94.5
+    ],
+    "correctIndex": 2,
+    "expected": 126,
+    "unit": "cm³",
+    "formulaId": "SMF-064",
+    "work": [
+      "By Cavalieri, the two volumes match; each is integral of section area: V = Ah.",
+      "Substitute the given measurements: cavalieri with inputs 18, 7 gives 126 cm³."
+    ],
+    "verifyTag": "cavalieri",
+    "verifyInputs": [
+      18,
+      7
+    ],
+    "restriction": "All corresponding heights have equal cross-sectional area.",
+    "example": false
+  },
+  {
+    "id": "SMP-071-C2",
+    "topic_id": "GEO-071",
+    "title": "Cavalieri matching sections — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "Two solids of equal height 11 cm have equal horizontal sections of constant area 24 cm² at every level. Find the volume of either solid.",
+    "options": [
+      316.8,
+      264,
+      198.0,
+      237.6
+    ],
+    "correctIndex": 1,
+    "expected": 264,
+    "unit": "cm³",
+    "formulaId": "SMF-064",
+    "work": [
+      "By Cavalieri, the two volumes match; each is integral of section area: V = Ah.",
+      "Substitute the given measurements: cavalieri with inputs 24, 11 gives 264 cm³."
+    ],
+    "verifyTag": "cavalieri",
+    "verifyInputs": [
+      24,
+      11
+    ],
+    "restriction": "All corresponding heights have equal cross-sectional area.",
+    "example": false
+  },
+  {
+    "id": "SMP-072-C1",
+    "topic_id": "GEO-072",
+    "title": "Earthworks prismoid — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A true prismoid of height 8 m has end areas 100 m² and 36 m² and midsection area 64 m². Find volume by the prismoidal rule.",
+    "options": [
+      392.0,
+      470.4,
+      627.1999999999999,
+      522.6666666666666
+    ],
+    "correctIndex": 3,
+    "expected": 522.6666666666666,
+    "unit": "m³",
+    "formulaId": "SMF-065",
+    "work": [
+      "V = (h/6)(A₁+4Am+A₂). For similar linear sections, the area varies quadratically.",
+      "Substitute the given measurements: prismoid with inputs 100, 64, 36, 8 gives 522.66667 m³."
+    ],
+    "verifyTag": "prismoid",
+    "verifyInputs": [
+      100,
+      64,
+      36,
+      8
+    ],
+    "restriction": "Only use for an appropriate prismoid, not an arbitrary body.",
+    "example": false
+  },
+  {
+    "id": "SMP-072-C2",
+    "topic_id": "GEO-072",
+    "title": "Earthworks prismoid — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A true prismoid of height 12 m has end areas 64 m² and 16 m² and midsection area 36 m². Find volume by the prismoidal rule.",
+    "options": [
+      403.2,
+      537.6,
+      448.0,
+      336.0
+    ],
+    "correctIndex": 2,
+    "expected": 448.0,
+    "unit": "m³",
+    "formulaId": "SMF-065",
+    "work": [
+      "V = (h/6)(A₁+4Am+A₂). For similar linear sections, the area varies quadratically.",
+      "Substitute the given measurements: prismoid with inputs 64, 36, 16, 12 gives 448 m³."
+    ],
+    "verifyTag": "prismoid",
+    "verifyInputs": [
+      64,
+      36,
+      16,
+      12
+    ],
+    "restriction": "Only use for an appropriate prismoid, not an arbitrary body.",
+    "example": false
+  },
+  {
+    "id": "SMP-073-C1",
+    "topic_id": "GEO-073",
+    "title": "Centroid volume sweep — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A thin rectangular planar region with area 12 cm² revolves through 360° about an external coplanar axis 5 cm from its centroid. Determine swept volume.",
+    "options": [
+      376.99111843077515,
+      282.74333882308133,
+      339.29200658769764,
+      452.38934211693015
+    ],
+    "correctIndex": 0,
+    "expected": 376.99111843077515,
+    "unit": "cm³",
+    "formulaId": "SMF-066",
+    "work": [
+      "Pappus volume theorem: V = area × (2π× centroid-axis distance).",
+      "Substitute the given measurements: pappus volume with inputs 12, 5 gives 376.99112 cm³."
+    ],
+    "verifyTag": "pappus-volume",
+    "verifyInputs": [
+      12,
+      5
+    ],
+    "restriction": "The axis is coplanar and external to the entire region.",
+    "example": false
+  },
+  {
+    "id": "SMP-073-C2",
+    "topic_id": "GEO-073",
+    "title": "Centroid volume sweep — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A thin rectangular planar region with area 15 cm² revolves through 360° about an external coplanar axis 7 cm from its centroid. Determine swept volume.",
+    "options": [
+      494.8008429403924,
+      593.7610115284708,
+      791.6813487046278,
+      659.7344572538565
+    ],
+    "correctIndex": 3,
+    "expected": 659.7344572538565,
+    "unit": "cm³",
+    "formulaId": "SMF-066",
+    "work": [
+      "Pappus volume theorem: V = area × (2π× centroid-axis distance).",
+      "Substitute the given measurements: pappus volume with inputs 15, 7 gives 659.73446 cm³."
+    ],
+    "verifyTag": "pappus-volume",
+    "verifyInputs": [
+      15,
+      7
+    ],
+    "restriction": "The axis is coplanar and external to the entire region.",
+    "example": false
+  },
+  {
+    "id": "SMP-074-C1",
+    "topic_id": "GEO-074",
+    "title": "Centroid surface sweep — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A straight plane curve of length 14 cm revolves once about a coplanar axis 6 cm from its centroid that does not meet the curve. Find swept area.",
+    "options": [
+      633.3450789637023,
+      527.7875658030853,
+      395.84067435231395,
+      475.00880922277673
+    ],
+    "correctIndex": 1,
+    "expected": 527.7875658030853,
+    "unit": "cm²",
+    "formulaId": "SMF-067",
+    "work": [
+      "Pappus surface theorem: S = curve length × (2π× centroid-axis distance).",
+      "Substitute the given measurements: pappus area with inputs 14, 6 gives 527.78757 cm²."
+    ],
+    "verifyTag": "pappus-area",
+    "verifyInputs": [
+      14,
+      6
+    ],
+    "restriction": "The generating curve does not intersect the rotation axis.",
+    "example": false
+  },
+  {
+    "id": "SMP-074-C2",
+    "topic_id": "GEO-074",
+    "title": "Centroid surface sweep — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A straight plane curve of length 9 cm revolves once about a coplanar axis 5 cm from its centroid that does not meet the curve. Find swept area.",
+    "options": [
+      282.7433388230814,
+      212.05750411731105,
+      254.46900494077326,
+      339.29200658769764
+    ],
+    "correctIndex": 0,
+    "expected": 282.7433388230814,
+    "unit": "cm²",
+    "formulaId": "SMF-067",
+    "work": [
+      "Pappus surface theorem: S = curve length × (2π× centroid-axis distance).",
+      "Substitute the given measurements: pappus area with inputs 9, 5 gives 282.74334 cm²."
+    ],
+    "verifyTag": "pappus-area",
+    "verifyInputs": [
+      9,
+      5
+    ],
+    "restriction": "The generating curve does not intersect the rotation axis.",
+    "example": false
+  },
+  {
+    "id": "SMP-075-C1",
+    "topic_id": "GEO-075",
+    "title": "Half-full horizontal cylinder volume — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A horizontal right circular cylinder of radius 1.5 m and length 6 m is filled exactly to its centerline. How many liters are inside?",
+    "options": [
+      19085.175370557994,
+      25446.900494077323,
+      21205.750411731104,
+      15904.312808798328
+    ],
+    "correctIndex": 2,
+    "expected": 21205.750411731104,
+    "unit": "L",
+    "formulaId": "SMF-068",
+    "work": [
+      "Half of full-cylinder volume = ½πr²L cubic meters; multiply by 1,000 L/m³.",
+      "Substitute the given measurements: half cylinder liters with inputs 1.5, 6 gives 21205.75 L."
+    ],
+    "verifyTag": "half-cylinder-liters",
+    "verifyInputs": [
+      1.5,
+      6
+    ],
+    "restriction": "The axis is horizontal and the liquid surface passes through the center.",
+    "example": false
+  },
+  {
+    "id": "SMP-075-C2",
+    "topic_id": "GEO-075",
+    "title": "Half-full horizontal cylinder volume — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A horizontal right circular cylinder of radius 0.8 m and length 10 m is filled exactly to its centerline. How many liters are inside?",
+    "options": [
+      12063.715789784806,
+      10053.096491487338,
+      7539.822368615503,
+      9047.786842338604
+    ],
+    "correctIndex": 1,
+    "expected": 10053.096491487338,
+    "unit": "L",
+    "formulaId": "SMF-068",
+    "work": [
+      "Half of full-cylinder volume = ½πr²L cubic meters; multiply by 1,000 L/m³.",
+      "Substitute the given measurements: half cylinder liters with inputs 0.8, 10 gives 10053.096 L."
+    ],
+    "verifyTag": "half-cylinder-liters",
+    "verifyInputs": [
+      0.8,
+      10
+    ],
+    "restriction": "The axis is horizontal and the liquid surface passes through the center.",
+    "example": false
+  },
+  {
+    "id": "SMP-076-C1",
+    "topic_id": "GEO-076",
+    "title": "Metal pipe material mass — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A homogeneous fabricated component has net solid volume 0.04 m³ and material density 7850 kg/m³. Find its mass.",
+    "options": [
+      235.5,
+      282.6,
+      376.8,
+      314.0
+    ],
+    "correctIndex": 3,
+    "expected": 314.0,
+    "unit": "kg",
+    "formulaId": "SMF-069",
+    "work": [
+      "Mass = density × material (not cavity) volume.",
+      "Substitute the given measurements: mass with inputs 0.04, 7850 gives 314 kg."
+    ],
+    "verifyTag": "mass",
+    "verifyInputs": [
+      0.04,
+      7850
+    ],
+    "restriction": "Consistent density and volume units.",
+    "example": false
+  },
+  {
+    "id": "SMP-076-C2",
+    "topic_id": "GEO-076",
+    "title": "Metal pipe material mass — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A homogeneous fabricated component has net solid volume 0.065 m³ and material density 2700 kg/m³. Find its mass.",
+    "options": [
+      157.95000000000002,
+      210.6,
+      175.5,
+      131.625
+    ],
+    "correctIndex": 2,
+    "expected": 175.5,
+    "unit": "kg",
+    "formulaId": "SMF-069",
+    "work": [
+      "Mass = density × material (not cavity) volume.",
+      "Substitute the given measurements: mass with inputs 0.065, 2700 gives 175.5 kg."
+    ],
+    "verifyTag": "mass",
+    "verifyInputs": [
+      0.065,
+      2700
+    ],
+    "restriction": "Consistent density and volume units.",
+    "example": false
+  },
+  {
+    "id": "SMP-077-C1",
+    "topic_id": "GEO-077",
+    "title": "Optimal closed-cylinder radius — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A fully closed right circular cylinder must hold 54π cm³ while minimizing total material surface area. Find its optimal radius.",
+    "options": [
+      3.0,
+      2.25,
+      2.7,
+      3.5999999999999996
+    ],
+    "correctIndex": 0,
+    "expected": 3.0,
+    "unit": "cm",
+    "formulaId": "SMF-072",
+    "work": [
+      "Minimum area occurs at h = 2r. Thus V = πr²h = 2πr³, giving r = (V/(2π))^(1/3).",
+      "Substitute the given measurements: opt radius with inputs 169.646 gives 3 cm."
+    ],
+    "verifyTag": "opt-radius",
+    "verifyInputs": [
+      169.64600329384882
+    ],
+    "restriction": "Fixed volume, right cylinder, two end disks included.",
+    "example": false
+  },
+  {
+    "id": "SMP-077-C2",
+    "topic_id": "GEO-077",
+    "title": "Optimal closed-cylinder radius — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "A fully closed right circular cylinder must hold 128π cm³ while minimizing total material surface area. Find its optimal radius.",
+    "options": [
+      2.9999999999999996,
+      3.5999999999999996,
+      4.799999999999999,
+      3.9999999999999996
+    ],
+    "correctIndex": 3,
+    "expected": 3.9999999999999996,
+    "unit": "cm",
+    "formulaId": "SMF-072",
+    "work": [
+      "Minimum area occurs at h = 2r. Thus V = πr²h = 2πr³, giving r = (V/(2π))^(1/3).",
+      "Substitute the given measurements: opt radius with inputs 402.124 gives 4 cm."
+    ],
+    "verifyTag": "opt-radius",
+    "verifyInputs": [
+      402.1238596594935
+    ],
+    "restriction": "Fixed volume, right cylinder, two end disks included.",
+    "example": false
+  },
+  {
+    "id": "SMP-078-C1",
+    "topic_id": "GEO-078",
+    "title": "Cubic millimeters to cubic meters — challenge 1",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "Convert a machined component volume of 50000000 mm³ to cubic meters.",
+    "options": [
+      0.06,
+      0.05,
+      0.037500000000000006,
+      0.045000000000000005
+    ],
+    "correctIndex": 1,
+    "expected": 0.05,
+    "unit": "m³",
+    "formulaId": "SMF-005",
+    "work": [
+      "Since 1 m = 1000 mm, 1 m³ = 10⁹ mm³; divide by 10⁹.",
+      "Substitute the given measurements: mm3 m3 with inputs 50000000 gives 0.05 m³."
+    ],
+    "verifyTag": "mm3-m3",
+    "verifyInputs": [
+      50000000
+    ],
+    "restriction": "Volume conversion applies the length factor three times.",
+    "example": false
+  },
+  {
+    "id": "SMP-078-C2",
+    "topic_id": "GEO-078",
+    "title": "Cubic millimeters to cubic meters — challenge 2",
+    "level": "Challenge",
+    "kind": "numeric",
+    "prompt": "Convert a machined component volume of 125000000 mm³ to cubic meters.",
+    "options": [
+      0.125,
+      0.09375,
+      0.1125,
+      0.15
+    ],
+    "correctIndex": 0,
+    "expected": 0.125,
+    "unit": "m³",
+    "formulaId": "SMF-005",
+    "work": [
+      "Since 1 m = 1000 mm, 1 m³ = 10⁹ mm³; divide by 10⁹.",
+      "Substitute the given measurements: mm3 m3 with inputs 125000000 gives 0.125 m³."
+    ],
+    "verifyTag": "mm3-m3",
+    "verifyInputs": [
+      125000000
+    ],
+    "restriction": "Volume conversion applies the length factor three times.",
+    "example": false
+  }
+]

@@ -1,0 +1,48 @@
+ECE Board Reviewer — Algebra v10.8 Validation
+==============================================
+
+Dependency-independent regression chain:
+PASS — Algebra reference validation
+PASS — v10.5 structural regression
+PASS — v10.6 structural regression
+PASS — v10.7 structural regression
+PASS — v10.8 structural validation
+
+Reference/content integrity:
+- Reference-informed topics: 23/23
+- Verified source entries: 69/69
+- Audited shared practice questions: 260/260
+- Misconception references: valid
+- Formula-string escaping: valid
+- Known ambiguity regressions: absent
+- High-priority 15-item banks: 8/8
+- Timed reference-assessment candidates: 203
+
+Assessment/mock integrity:
+- Curated mock bank: 37 unique base questions
+- Curated Algebra mock questions: 13; all canonical topic IDs
+- Algebra-only unique availability: 216 (13 curated + 203 reference-assessment)
+- Comprehensive unique availability: 240 (37 curated + 203 reference-assessment)
+- 50-question comprehensive generation: 50/50 unique
+- Clone/cycle fallback: removed
+- Reference option-key distribution in runtime check: A=42, B=57, C=52, D=52
+- mock-q-03: verified 672 (A)
+- mock-q-05: rectangular complex arithmetic; no De Moivre dependency
+- mock-q-32: canonical top-word-problems mapping
+
+Code checks:
+- TypeScript/TSX syntax transpilation: 211 files, 0 error diagnostics
+- Relative imports: 537 checked, 0 missing
+- Selected data-module TypeScript compilation: PASS
+- Mock generator runtime checks: PASS
+
+Packaging:
+- node_modules: not included
+- dist: not included
+- .vite: not included
+
+Not claimed in this environment:
+- Fresh dependency-backed `npm run lint`
+- Fresh dependency-backed `npm run build`
+
+Reason: node_modules was intentionally removed for the portable source package. Run npm install, lint, and build on the target development PC.

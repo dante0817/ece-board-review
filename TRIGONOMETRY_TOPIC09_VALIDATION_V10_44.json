@@ -1,0 +1,73 @@
+{
+  "release": "10.44.0",
+  "source_base": "10.43.0",
+  "date": "2026-10-12",
+  "topic_09": {
+    "subtopics": 8,
+    "new_draft_lessons": 8,
+    "new_draft_questions": 64,
+    "new_svg_diagrams": [
+      "oblique-triangle",
+      "ssa-ambiguity"
+    ]
+  },
+  "curriculum": {
+    "topics": 14,
+    "subtopics": 102,
+    "core_subtopics": 95,
+    "available_draft_lessons": 65,
+    "planned_without_lessons": 37
+  },
+  "practice": {
+    "trigonometry_questions": 520,
+    "algebra_questions": 422,
+    "catalog_total": 942
+  },
+  "source_diff": {
+    "added_files": [
+      "scripts/validateTrigonometryObliqueTrianglesV1044.mjs",
+      "src/data/lessons/trigonometryObliqueTriangles.json",
+      "src/data/lessons/trigonometryObliqueTriangles.ts",
+      "src/data/practice/trigonometryObliqueTriangles.json",
+      "src/data/practice/trigonometryObliqueTriangles.ts",
+      "src/data/practice/trigonometryObliqueTrianglesAnswerLedgerV1044.json"
+    ],
+    "modified_files": [
+      "package-lock.json",
+      "package.json",
+      "scripts/validatePracticeV1034.mjs",
+      "scripts/validateTrigonometryAdvancedIdentitiesV1041.mjs",
+      "scripts/validateTrigonometryEquationsV1043.mjs",
+      "scripts/validateTrigonometryFoundationCompletionV1039.mjs",
+      "scripts/validateTrigonometryFundamentalIdentitiesV1040.mjs",
+      "scripts/validateTrigonometryInverseFunctionsV1042.mjs",
+      "src/components/learn-reader/TrigonometryDiagram.tsx",
+      "src/domain/learn/lessonTypes.ts",
+      "src/domain/practice/catalog.ts",
+      "src/features/trigonometry/TrigonometryScreen.tsx"
+    ],
+    "removed_files": []
+  },
+  "validation": {
+    "topic_09_validator": "pass",
+    "trigonometry_chain_v10_37_to_v10_44": "pass",
+    "practice_v10_34_regression": "pass",
+    "manual_learn_v10_35_1_regression": "pass",
+    "learn_reader_v10_31_regression": "pass",
+    "algebra_reference": "pass",
+    "content_audit_v10_30": "pass",
+    "local_import_scan": "pass_0_unresolved",
+    "typescript_practice_project": "pass",
+    "typescript_learn_reader_project": "pass",
+    "npm_ci_offline": "blocked_uncached_zwitch",
+    "npm_lint_full": "unverified_missing_dependencies",
+    "npm_build": "blocked_vite_unavailable",
+    "browser_end_to_end": "not_run",
+    "human_editorial_certification": "pending_draft"
+  },
+  "limitations": [
+    "Draft lessons/questions are not independently editorially certified.",
+    "No fully integrated browser or production build validation because npm dependencies could not be installed offline.",
+    "Existing learning and practice records preserved by non-destructive schema and historical-ID checks, not by an exhaustive real-user migration test."
+  ]
+}

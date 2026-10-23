@@ -1,0 +1,602 @@
+[
+  {
+    "id": "TRI40-051-001",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Basic",
+    "family": "reciprocal-pairs",
+    "prompt": "Which function is the reciprocal of sine?",
+    "options": [
+      "csc θ",
+      "sec θ",
+      "cot θ",
+      "arcsin θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "csc θ = 1/sin θ for sin θ ≠ 0."
+  },
+  {
+    "id": "TRI40-051-002",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Basic",
+    "family": "secant",
+    "prompt": "If cos θ = 1/4, find sec θ.",
+    "options": [
+      "1/4",
+      "−4",
+      "√15",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Secant is the reciprocal of cosine: 1/(1/4)=4. Since cosine is nonzero, secant is defined."
+  },
+  {
+    "id": "TRI40-051-003",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Basic",
+    "family": "cosecant",
+    "prompt": "If sin θ = −2/3, find csc θ.",
+    "options": [
+      "3/2",
+      "−2/3",
+      "−3/2",
+      "2/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cosecant is the reciprocal of sine: 1/(−2/3)=−3/2, retaining the negative sign."
+  },
+  {
+    "id": "TRI40-051-004",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Intermediate",
+    "family": "cotangent",
+    "prompt": "If tan θ = 5/2, find cot θ.",
+    "options": [
+      "5/2",
+      "2/5",
+      "−2/5",
+      "−5/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cotangent is the reciprocal of the given nonzero tangent."
+  },
+  {
+    "id": "TRI40-051-005",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Intermediate",
+    "family": "reciprocal-product",
+    "prompt": "Where cos θ ≠ 0, simplify cos θ · sec θ.",
+    "options": [
+      "1",
+      "0",
+      "cos² θ",
+      "sin θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "cos θ · (1/cos θ) = 1; retain cos θ ≠ 0."
+  },
+  {
+    "id": "TRI40-051-006",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Intermediate",
+    "family": "undefined",
+    "prompt": "At which listed angle is csc θ undefined?",
+    "options": [
+      "90°",
+      "30°",
+      "270°",
+      "180°"
+    ],
+    "correctIndex": 3,
+    "explanation": "csc θ = 1/sin θ, and sin 180° = 0."
+  },
+  {
+    "id": "TRI40-051-007",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Advanced",
+    "family": "domain",
+    "prompt": "For which angles is sin θ · csc θ = 1 valid?",
+    "options": [
+      "Every real θ",
+      "Only where cos θ = 0",
+      "Where sin θ ≠ 0",
+      "Only where sin θ = 0"
+    ],
+    "correctIndex": 2,
+    "explanation": "Both factors are defined only if sin θ ≠ 0."
+  },
+  {
+    "id": "TRI40-051-008",
+    "subtopicId": "trig-basic-identities-reciprocal-identities",
+    "difficulty": "Advanced",
+    "family": "inverse-confusion",
+    "prompt": "Which expression represents inverse sine, not reciprocal sine?",
+    "options": [
+      "csc x",
+      "arcsin x",
+      "1/sin x",
+      "sin x · csc x"
+    ],
+    "correctIndex": 1,
+    "explanation": "arcsin is the inverse function; csc x = 1/sin x is the reciprocal (where defined)."
+  },
+  {
+    "id": "TRI40-052-001",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Basic",
+    "family": "tangent-quotient",
+    "prompt": "Complete tan θ = ?",
+    "options": [
+      "cos θ / sin θ",
+      "sin θ / cos θ",
+      "1/sin θ",
+      "1/cos θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "The tangent quotient divides sine by cosine, where cosine is nonzero."
+  },
+  {
+    "id": "TRI40-052-002",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Basic",
+    "family": "cotangent-quotient",
+    "prompt": "Complete cot θ = ?",
+    "options": [
+      "cos θ / sin θ",
+      "sin θ / cos θ",
+      "1/cos θ",
+      "sin θ · cos θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cotangent quotient divides cosine by sine, where sine is nonzero."
+  },
+  {
+    "id": "TRI40-052-003",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Basic",
+    "family": "calculate-tan",
+    "prompt": "If sin θ = 3/5 and cos θ = 4/5, what is tan θ?",
+    "options": [
+      "4/3",
+      "3/5",
+      "4/5",
+      "3/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Using the quotient identity, tan θ = sin θ/cos θ = (3/5)/(4/5)=3/4."
+  },
+  {
+    "id": "TRI40-052-004",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Intermediate",
+    "family": "sign-tan",
+    "prompt": "If sin θ = 3/5 and cos θ = −4/5, what is tan θ?",
+    "options": [
+      "3/4",
+      "−4/3",
+      "−3/4",
+      "4/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sine/cosine gives (3/5)/(−4/5)=−3/4."
+  },
+  {
+    "id": "TRI40-052-005",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Intermediate",
+    "family": "quotient-domain",
+    "prompt": "At which listed angle is cot θ undefined?",
+    "options": [
+      "90°",
+      "0°",
+      "45°",
+      "270°"
+    ],
+    "correctIndex": 1,
+    "explanation": "cot θ = cos θ/sin θ and sin 0° = 0."
+  },
+  {
+    "id": "TRI40-052-006",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Intermediate",
+    "family": "simplify-tan",
+    "prompt": "Simplify tan θ · cos θ on its original domain.",
+    "options": [
+      "sin θ (cos θ ≠ 0)",
+      "sin θ (all real θ)",
+      "cos θ",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Replace tan θ with sin θ/cos θ and cancel the nonzero cosine."
+  },
+  {
+    "id": "TRI40-052-007",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Advanced",
+    "family": "product-domain",
+    "prompt": "When is tan θ · cot θ = 1 defined?",
+    "options": [
+      "All real θ",
+      "Only when sin θ = 0",
+      "Only when cos θ = 0",
+      "When both sin θ and cos θ are nonzero"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both tangent and cotangent must exist; their denominators are cosine and sine."
+  },
+  {
+    "id": "TRI40-052-008",
+    "subtopicId": "trig-basic-identities-quotient-identities",
+    "difficulty": "Advanced",
+    "family": "quadrantal",
+    "prompt": "Find cot 90° exactly.",
+    "options": [
+      "Undefined",
+      "1",
+      "0",
+      "−1"
+    ],
+    "correctIndex": 2,
+    "explanation": "cot 90° = cos 90°/sin 90° = 0/1 = 0."
+  },
+  {
+    "id": "TRI40-054-001",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Basic",
+    "family": "odd-sine",
+    "prompt": "Evaluate sin(−30°).",
+    "options": [
+      "1/2",
+      "−√3/2",
+      "0",
+      "−1/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sine is odd: sin(−30°)=−sin30°=−1/2."
+  },
+  {
+    "id": "TRI40-054-002",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Basic",
+    "family": "even-cosine",
+    "prompt": "Evaluate cos(−60°).",
+    "options": [
+      "−1/2",
+      "√3/2",
+      "1/2",
+      "−√3/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "cos is even, so cos(−60°)=cos60°=1/2."
+  },
+  {
+    "id": "TRI40-054-003",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Basic",
+    "family": "cofunction",
+    "prompt": "Complete sin 25° = cos(?).",
+    "options": [
+      "25°",
+      "65°",
+      "155°",
+      "115°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Complementary arguments total 90°, so 90°−25°=65°."
+  },
+  {
+    "id": "TRI40-054-004",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Intermediate",
+    "family": "odd-tan",
+    "prompt": "Evaluate tan(−45°).",
+    "options": [
+      "−1",
+      "1",
+      "0",
+      "Undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tangent is odd and tan45°=1."
+  },
+  {
+    "id": "TRI40-054-005",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Intermediate",
+    "family": "even-sec",
+    "prompt": "Simplify sec(−θ) wherever sec θ is defined.",
+    "options": [
+      "−sec θ",
+      "csc θ",
+      "−csc θ",
+      "sec θ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Secant is even because cosine is even."
+  },
+  {
+    "id": "TRI40-054-006",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Intermediate",
+    "family": "cofunction-radian",
+    "prompt": "Evaluate cos(π/2 − π/6).",
+    "options": [
+      "√3/2",
+      "0",
+      "1/2",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "cos(π/2−x)=sin x; sin(π/6)=1/2."
+  },
+  {
+    "id": "TRI40-054-007",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Advanced",
+    "family": "cofunction-tan",
+    "prompt": "Evaluate cot(60°) exactly.",
+    "options": [
+      "√3",
+      "√3/3",
+      "1",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "cot60°=tan(90°−60°)=tan30°=1/√3=√3/3."
+  },
+  {
+    "id": "TRI40-054-008",
+    "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "difficulty": "Advanced",
+    "family": "parity-cot",
+    "prompt": "Simplify cot(−θ) wherever cot θ is defined.",
+    "options": [
+      "−cot θ",
+      "cot θ",
+      "tan θ",
+      "−tan θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "cot(−θ)=cos(−θ)/sin(−θ)=−cos θ/sin θ."
+  },
+  {
+    "id": "TRI40-055-001",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Basic",
+    "family": "pythagorean-rewrite",
+    "prompt": "Simplify 1 − sin² θ.",
+    "options": [
+      "cos² θ",
+      "sin² θ",
+      "tan² θ",
+      "1 + cos² θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "sin² θ + cos² θ=1, so subtract sin² θ."
+  },
+  {
+    "id": "TRI40-055-002",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Basic",
+    "family": "reciprocal-rewrite",
+    "prompt": "Simplify sin θ · csc θ where sin θ ≠ 0.",
+    "options": [
+      "0",
+      "sin² θ",
+      "cos θ",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "csc θ = 1/sin θ; product equals 1 only where sin θ ≠ 0."
+  },
+  {
+    "id": "TRI40-055-003",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Basic",
+    "family": "tan-over-sec",
+    "prompt": "Simplify tan θ / sec θ for cos θ ≠ 0.",
+    "options": [
+      "cos θ",
+      "tan θ",
+      "sin θ",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "(sin θ/cos θ)/(1/cos θ)=sin θ."
+  },
+  {
+    "id": "TRI40-055-004",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Intermediate",
+    "family": "pythagorean-cancel",
+    "prompt": "Simplify (1 − cos² θ)/sin θ for sin θ ≠ 0.",
+    "options": [
+      "cos θ",
+      "sin θ",
+      "csc θ",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Replace numerator by sin² θ then cancel nonzero sin θ."
+  },
+  {
+    "id": "TRI40-055-005",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Intermediate",
+    "family": "ratio-simplification",
+    "prompt": "Simplify (sin θ / cos θ) · cos θ where cos θ ≠ 0.",
+    "options": [
+      "sin θ",
+      "cos θ",
+      "tan θ",
+      "sec θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cancel the nonzero cosine factor."
+  },
+  {
+    "id": "TRI40-055-006",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Intermediate",
+    "family": "conjugate",
+    "prompt": "Simplify (1 − cos θ)(1 + cos θ).",
+    "options": [
+      "cos² θ",
+      "1",
+      "−sin² θ",
+      "sin² θ"
+    ],
+    "correctIndex": 3,
+    "explanation": "Difference of squares gives 1−cos² θ=sin² θ."
+  },
+  {
+    "id": "TRI40-055-007",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Advanced",
+    "family": "factor-cancel",
+    "prompt": "Simplify sin² θ / (1 − cos θ) where 1 − cos θ ≠ 0.",
+    "options": [
+      "1 − cos θ",
+      "sin θ",
+      "1 + cos θ",
+      "cos θ"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use sin² θ=(1−cos θ)(1+cos θ), then cancel nonzero 1−cos θ."
+  },
+  {
+    "id": "TRI40-055-008",
+    "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+    "difficulty": "Advanced",
+    "family": "domain-preservation",
+    "prompt": "The expression (1 − cos² θ)/sin θ simplifies to sin θ on which domain?",
+    "options": [
+      "All real θ",
+      "sin θ ≠ 0",
+      "cos θ ≠ 0",
+      "sin θ = 0"
+    ],
+    "correctIndex": 1,
+    "explanation": "The original denominator sin θ cannot be zero even if the final expression extends further."
+  },
+  {
+    "id": "TRI40-056-001",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Basic",
+    "family": "prove-difference-squares",
+    "prompt": "Which identity proves (1 − cos θ)(1 + cos θ)=sin² θ?",
+    "options": [
+      "1 + tan² θ = sec² θ",
+      "sin² θ + cos² θ = 1",
+      "sin(−θ)=−sin θ",
+      "sin 2θ = 2sin θ cos θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "Expand to 1−cos² θ and apply the fundamental Pythagorean identity."
+  },
+  {
+    "id": "TRI40-056-002",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Basic",
+    "family": "identities-vs-equations",
+    "prompt": "What must hold for a trigonometric statement to be an identity?",
+    "options": [
+      "Equality at every point of its common domain",
+      "Equality at one angle",
+      "Equality only when θ = 0",
+      "Equality at any two test angles"
+    ],
+    "correctIndex": 0,
+    "explanation": "An identity holds throughout its stated common domain, not just at a few examples."
+  },
+  {
+    "id": "TRI40-056-003",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Basic",
+    "family": "proof-first-step",
+    "prompt": "To verify (1 − sin² θ)=cos² θ, which is the simplest step?",
+    "options": [
+      "Divide by sin θ",
+      "Take arccos of both sides",
+      "Square each side",
+      "Apply sin² θ + cos² θ = 1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Subtract sin² θ from the Pythagorean identity."
+  },
+  {
+    "id": "TRI40-056-004",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "fractional-proof",
+    "prompt": "On sin θ ≠ 0, (1 − cos θ)/sin θ equals which expression?",
+    "options": [
+      "sin θ / (1 − cos θ)",
+      "(1 + cos θ)/sin θ",
+      "sin θ / (1 + cos θ)",
+      "cos θ / (1 + sin θ)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply by (1+cos θ)/(1+cos θ) and replace 1−cos² θ by sin² θ."
+  },
+  {
+    "id": "TRI40-056-005",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "domain-proof",
+    "prompt": "What restriction is required for (1 − cos θ)/sin θ?",
+    "options": [
+      "cos θ ≠ 0",
+      "sin θ ≠ 0",
+      "sin θ = 0",
+      "No restrictions"
+    ],
+    "correctIndex": 1,
+    "explanation": "The original fraction has denominator sin θ."
+  },
+  {
+    "id": "TRI40-056-006",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "check-proof",
+    "prompt": "Which procedure gives a proof of (1−cos θ)(1+cos θ)=sin² θ?",
+    "options": [
+      "Expand the left, then use 1−cos² θ=sin² θ",
+      "Test θ = 30° only",
+      "Draw one right triangle only",
+      "Replace cos θ with tan θ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factoring/algebra plus the identity proves equality for all real angles."
+  },
+  {
+    "id": "TRI40-056-007",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Advanced",
+    "family": "undefined-point",
+    "prompt": "Why does (1 − cos θ)/sin θ = sin θ/(1 + cos θ) exclude θ = 0?",
+    "options": [
+      "Both sides are defined and equal",
+      "The sine identity fails at 0",
+      "Cosine has no value at 0",
+      "The left side has a zero denominator"
+    ],
+    "correctIndex": 3,
+    "explanation": "At θ=0, sin θ=0; left fraction is undefined."
+  },
+  {
+    "id": "TRI40-056-008",
+    "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "difficulty": "Advanced",
+    "family": "identity-counterexample",
+    "prompt": "Which is NOT a true identity for all real θ?",
+    "options": [
+      "sin² θ + cos² θ = 1",
+      "cos(−θ)=cos θ",
+      "sin θ + cos θ = 1",
+      "1−cos² θ=sin² θ"
+    ],
+    "correctIndex": 2,
+    "explanation": "At θ=45°, sinθ+cosθ=√2, not 1; the other statements hold for every real θ."
+  }
+]

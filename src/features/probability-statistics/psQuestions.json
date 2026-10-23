@@ -1,0 +1,5620 @@
+[
+  {
+    "id": "PS01-01-Q01",
+    "topicId": "PS01-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A tester measures 18 boards from batch A and 12 from batch B. How many boards were sampled?",
+    "options": [
+      "24",
+      "30",
+      "36",
+      "40"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Add the observed boards from each batch: 18+12=30."
+    ],
+    "restriction": "A large convenience sample can still be biased.",
+    "auditRule": "sum",
+    "auditArgs": [
+      18,
+      12
+    ],
+    "auditExpected": 30,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-01-Q02",
+    "topicId": "PS01-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which procedure is most likely to improve representativeness?",
+    "options": [
+      "Sample only accessible boards",
+      "Select boards randomly from the target batch",
+      "Discard the highest readings",
+      "Measure the same board repeatedly"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "A random design addresses selection bias; repetition on one board does not represent the batch."
+    ],
+    "restriction": "A large convenience sample can still be biased.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-02-Q01",
+    "topicId": "PS01-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Measured voltage deviations (mV) are 2, 3, 4, and 7. Find the sample mean.",
+    "options": [
+      "3",
+      "4",
+      "4.5",
+      "5"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Sum the values: 2+3+4+7=16.",
+      "Divide by n=4: 16/4=4 mV."
+    ],
+    "restriction": "The median of an even-sized sample averages the two central observations.",
+    "auditRule": "mean",
+    "auditArgs": [
+      2,
+      3,
+      4,
+      7
+    ],
+    "auditExpected": 4,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-02-Q02",
+    "topicId": "PS01-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which summary is usually less affected by one very high outlier?",
+    "options": [
+      "Mean",
+      "Median",
+      "Range",
+      "Sum"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Median is based on position, unlike mean and sum."
+    ],
+    "restriction": "The median of an even-sized sample averages the two central observations.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-03-Q01",
+    "topicId": "PS01-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Readings are 2, 4, and 6. What is their sample variance?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Mean=4; squared deviations: 4,0,4.",
+      "Sample variance=8/(3−1)=4."
+    ],
+    "restriction": "Distinguish the sample estimator s² from population variance σ².",
+    "auditRule": "sampleVariance",
+    "auditArgs": [
+      2,
+      4,
+      6
+    ],
+    "auditExpected": 4,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-03-Q02",
+    "topicId": "PS01-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why is n−1 used in ordinary sample variance?",
+    "options": [
+      "Because observations are ordered",
+      "To correct bias when estimating population variance",
+      "To force all variances below 1",
+      "Because negative data are forbidden"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The sample mean is estimated using the same data, losing one degree of freedom."
+    ],
+    "restriction": "Distinguish the sample estimator s² from population variance σ².",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-04-Q01",
+    "topicId": "PS01-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "In 50 sensor tests, 8 readings were outside tolerance. What percentage was outside tolerance?",
+    "options": [
+      "8",
+      "12",
+      "16",
+      "20"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "8/50=0.16; convert to a percentage: 16%."
+    ],
+    "restriction": "Relative frequencies sum to one when categories partition all observations.",
+    "auditRule": "percent",
+    "auditArgs": [
+      8,
+      50
+    ],
+    "auditExpected": 16,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-04-Q02",
+    "topicId": "PS01-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which chart best displays the distribution of grouped numerical voltage measurements?",
+    "options": [
+      "Histogram",
+      "Organization chart",
+      "Flowchart",
+      "Network diagram"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "A histogram uses adjacent bins of numerical values."
+    ],
+    "restriction": "Relative frequencies sum to one when categories partition all observations.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-01-Q01",
+    "topicId": "PS02-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A board supports 3 clock modes and 4 filter settings. How many mode-setting configurations?",
+    "options": [
+      "7",
+      "12",
+      "16",
+      "24"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "There are three clock-mode choices and four filter-setting choices for each clock mode. The multiplication rule gives 3×4=12 configurations; this counting rule does not require probabilistic independence."
+    ],
+    "restriction": "Check whether choices change after each selection.",
+    "auditRule": "product",
+    "auditArgs": [
+      3,
+      4
+    ],
+    "auditExpected": 12,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-01-Q02",
+    "topicId": "PS02-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "When does multiplication of stage counts apply?",
+    "options": [
+      "When counting outcomes across successive choices",
+      "Only when events are mutually exclusive",
+      "Only for continuous data",
+      "Only for repeated objects"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Each distinct sequence of choices contributes one outcome."
+    ],
+    "restriction": "Check whether choices change after each selection.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-02-Q01",
+    "topicId": "PS02-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Six distinct components are assigned to three numbered slots. How many arrangements?",
+    "options": [
+      "20",
+      "60",
+      "120",
+      "216"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "There are 6 choices, then 5, then 4.",
+      "6P3=6×5×4=120."
+    ],
+    "restriction": "Do not use permutations when order is irrelevant.",
+    "auditRule": "nPr",
+    "auditArgs": [
+      6,
+      3
+    ],
+    "auditExpected": 120,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-02-Q02",
+    "topicId": "PS02-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which task requires permutations rather than combinations?",
+    "options": [
+      "Select three items for an unordered kit",
+      "Assign three items to first, second, third positions",
+      "Count defective items",
+      "Find a population mean"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The slots are numbered, so different orders are different outcomes."
+    ],
+    "restriction": "Do not use permutations when order is irrelevant.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-03-Q01",
+    "topicId": "PS02-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "How many unordered groups of two sensors can be chosen from six distinct sensors?",
+    "options": [
+      "12",
+      "15",
+      "30",
+      "36"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "6C2=(6×5)/(2×1)=15."
+    ],
+    "restriction": "For distinct items with 0≤r≤n, nCr=nC(n−r).",
+    "auditRule": "nCr",
+    "auditArgs": [
+      6,
+      2
+    ],
+    "auditExpected": 15,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-03-Q02",
+    "topicId": "PS02-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which property is always true for combinations?",
+    "options": [
+      "6C2=6P2",
+      "nCr=nC(n−r)",
+      "nCr=n! for all r",
+      "Order changes a combination"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Selecting r objects uniquely determines the complementary set of n−r objects."
+    ],
+    "restriction": "For distinct items with 0≤r≤n, nCr=nC(n−r).",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-04-Q01",
+    "topicId": "PS02-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A four-digit PIN uses 0–9 with repetitions allowed. How many PINs do NOT start with zero?",
+    "options": [
+      "900",
+      "9000",
+      "9999",
+      "10000"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "First digit: 9 nonzero choices; remaining digits: 10 each.",
+      "9×10³=9000."
+    ],
+    "restriction": "Subtract only disjoint, correctly counted forbidden outcomes.",
+    "auditRule": "product",
+    "auditArgs": [
+      9,
+      10,
+      10,
+      10
+    ],
+    "auditExpected": 9000,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS02-04-Q02",
+    "topicId": "PS02-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which complement formula is correct?",
+    "options": [
+      "P(Aᶜ)=1−P(A)",
+      "P(Aᶜ)=P(A)",
+      "P(Aᶜ)=1+P(A)",
+      "P(Aᶜ)=1/P(A)"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The event and its complement are disjoint and cover the sample space."
+    ],
+    "restriction": "Subtract only disjoint, correctly counted forbidden outcomes.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-01-Q01",
+    "topicId": "PS03-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Two alarms have probabilities P(A)=0.3, P(B)=0.4, P(A∩B)=0.1. Find P(A∪B).",
+    "options": [
+      "0.5",
+      "0.6",
+      "0.7",
+      "0.8"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Add marginal probabilities and subtract overlap: 0.3+0.4−0.1=0.6."
+    ],
+    "restriction": "Do not omit overlap unless the events are mutually exclusive.",
+    "auditRule": "union",
+    "auditArgs": [
+      0.3,
+      0.4,
+      0.1
+    ],
+    "auditExpected": 0.6,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-01-Q02",
+    "topicId": "PS03-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "For mutually exclusive events, what is P(A∩B)?",
+    "options": [
+      "1",
+      "P(A)+P(B)",
+      "0",
+      "P(A)P(B)"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Mutually exclusive events cannot occur together."
+    ],
+    "restriction": "Do not omit overlap unless the events are mutually exclusive.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-02-Q01",
+    "topicId": "PS03-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "P(fault and alert)=0.06; P(alert)=0.20. Find P(fault | alert).",
+    "options": [
+      "0.06",
+      "0.12",
+      "0.3",
+      "0.5"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Divide joint by the conditioning probability: 0.06/0.20=0.30."
+    ],
+    "restriction": "Do not confuse independence with mutual exclusivity.",
+    "auditRule": "divide",
+    "auditArgs": [
+      0.06,
+      0.2
+    ],
+    "auditExpected": 0.3,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-02-Q02",
+    "topicId": "PS03-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Independent events A and B satisfy which equation?",
+    "options": [
+      "P(A∩B)=0",
+      "P(A∩B)=P(A)P(B)",
+      "P(A)=P(B)",
+      "P(A∪B)=1"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "For independent events, the joint probability is the product of their marginals."
+    ],
+    "restriction": "Do not confuse independence with mutual exclusivity.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-03-Q01",
+    "topicId": "PS03-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A defect occurs with probability 0.10; detector sensitivity 0.90 and false-positive rate 0.10. Find P(defect | positive).",
+    "options": [
+      "0.1",
+      "0.3",
+      "0.5",
+      "0.9"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "P(+)=0.90×0.10+0.10×0.90=0.18.",
+      "Posterior=0.09/0.18=0.50."
+    ],
+    "restriction": "A positive test is not the same as certainty of the condition.",
+    "auditRule": "bayes",
+    "auditArgs": [
+      0.1,
+      0.9,
+      0.1
+    ],
+    "auditExpected": 0.5,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-03-Q02",
+    "topicId": "PS03-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What does the prior probability describe?",
+    "options": [
+      "Probability before observing new evidence",
+      "Always the false-positive rate",
+      "The probability of any event is 1",
+      "The result of a t-test"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "A prior expresses initial probability before incorporating the observation."
+    ],
+    "restriction": "A positive test is not the same as certainty of the condition.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-04-Q01",
+    "topicId": "PS03-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Two independent series components have reliabilities 0.9 and 0.8. Find total reliability.",
+    "options": [
+      "0.17",
+      "0.72",
+      "0.8",
+      "0.9"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Both must work: 0.9×0.8=0.72."
+    ],
+    "restriction": "Do not multiply reliabilities when common-cause failures make components dependent.",
+    "auditRule": "product",
+    "auditArgs": [
+      0.9,
+      0.8
+    ],
+    "auditExpected": 0.72,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS03-04-Q02",
+    "topicId": "PS03-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "In a series reliability model, system success requires:",
+    "options": [
+      "At least one component succeeds",
+      "Every required component succeeds",
+      "Only the last component succeeds",
+      "No independence assumptions ever"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "A series system fails if any essential component fails."
+    ],
+    "restriction": "Do not multiply reliabilities when common-cause failures make components dependent.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-01-Q01",
+    "topicId": "PS04-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A sensor reports X=0 with probability 0.7 and X=1 with probability 0.3. Find E[X].",
+    "options": [
+      "0.21",
+      "0.3",
+      "0.7",
+      "1"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "E[X]=0×0.7+1×0.3=0.3."
+    ],
+    "restriction": "Do not assume expected value must be one of the possible outcomes.",
+    "auditRule": "weighted",
+    "auditArgs": [
+      0,
+      1,
+      0.7,
+      0.3
+    ],
+    "auditExpected": 0.3,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-01-Q02",
+    "topicId": "PS04-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which property must every discrete PMF satisfy?",
+    "options": [
+      "Probabilities sum to 0",
+      "All probabilities are equal",
+      "Probabilities sum to 1",
+      "Expected value is an integer"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A valid PMF exhausts the sample space and totals 1."
+    ],
+    "restriction": "Do not assume expected value must be one of the possible outcomes.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-02-Q01",
+    "topicId": "PS04-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Three independent modules each pass with probability 0.5. Probability exactly two pass?",
+    "options": [
+      "0.125",
+      "0.25",
+      "0.375",
+      "0.5"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "3C2=3; probability=3×0.5²×0.5=0.375."
+    ],
+    "restriction": "Trials must be independent with two outcomes under the model.",
+    "auditRule": "binomial",
+    "auditArgs": [
+      3,
+      2,
+      0.5
+    ],
+    "auditExpected": 0.375,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-02-Q02",
+    "topicId": "PS04-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What distinguishes a binomial count?",
+    "options": [
+      "Constant number of independent success/failure trials",
+      "Continuous observations only",
+      "Changing success probability every trial",
+      "An unlimited number of outcomes per trial"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "A binomial model fixes n and uses independent identical Bernoulli trials."
+    ],
+    "restriction": "Trials must be independent with two outcomes under the model.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-03-Q01",
+    "topicId": "PS04-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "If the mean defects per board is λ=2, what is P(X=0)? (approximately)",
+    "options": [
+      "0.1353",
+      "0.2707",
+      "0.5",
+      "0.8647"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "P(0)=e^(−2)≈0.1353."
+    ],
+    "restriction": "A Poisson model requires a suitable independent-event, constant-rate assumption.",
+    "auditRule": "poissonZero",
+    "auditArgs": [
+      2
+    ],
+    "auditExpected": 0.1353,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-03-Q02",
+    "topicId": "PS04-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which parameter is both the mean and variance of a Poisson variable?",
+    "options": [
+      "n",
+      "λ",
+      "p",
+      "z"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The Poisson mean and variance are both λ."
+    ],
+    "restriction": "A Poisson model requires a suitable independent-event, constant-rate assumption.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-04-Q01",
+    "topicId": "PS04-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A measurement is x=105 with μ=100 and σ=2.5. Find its z-score.",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "2.5"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "z=(105−100)/2.5=2."
+    ],
+    "restriction": "A z-score is not a probability; a normal table or CDF is needed for tail areas.",
+    "auditRule": "zscore",
+    "auditArgs": [
+      105,
+      100,
+      2.5
+    ],
+    "auditExpected": 2,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS04-04-Q02",
+    "topicId": "PS04-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A z-score of −1 indicates the observation lies:",
+    "options": [
+      "One standard deviation below the mean",
+      "One standard deviation above the mean",
+      "At the median only if skewed",
+      "One variance above the mean"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "A negative standardized score is below the population mean."
+    ],
+    "restriction": "A z-score is not a probability; a normal table or CDF is needed for tail areas.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-01-Q01",
+    "topicId": "PS05-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Population σ=12 and n=36 independent observations. Find SE of the sample mean.",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "6"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=12/√36=12/6=2."
+    ],
+    "restriction": "Do not confuse the standard deviation of raw observations with the standard error of a mean.",
+    "auditRule": "se",
+    "auditArgs": [
+      12,
+      36
+    ],
+    "auditExpected": 2,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-01-Q02",
+    "topicId": "PS05-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "If sample size quadruples under iid sampling, standard error becomes:",
+    "options": [
+      "Four times larger",
+      "Twice as large",
+      "One-half as large",
+      "Unchanged"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The square root of four is two, so the SE is halved."
+    ],
+    "restriction": "Do not confuse the standard deviation of raw observations with the standard error of a mean.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-02-Q01",
+    "topicId": "PS05-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "With x̄=50, σ=10, n=100 and z*=1.96, what is the 95% margin of error?",
+    "options": [
+      "0.98",
+      "1.96",
+      "3.92",
+      "10"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=10/√100=1; margin=1.96×1=1.96."
+    ],
+    "restriction": "A 95% frequentist interval is a procedure with 95% long-run coverage, not a probability statement about a fixed μ.",
+    "auditRule": "marginZ",
+    "auditArgs": [
+      1.96,
+      10,
+      100
+    ],
+    "auditExpected": 1.96,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-02-Q02",
+    "topicId": "PS05-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which is the correct repeated-sampling interpretation of a 95% confidence procedure?",
+    "options": [
+      "95% of similarly constructed intervals cover μ",
+      "95% of observations equal μ",
+      "The sample mean equals μ with 95% probability",
+      "There is 95% chance μ changes"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Confidence is the long-run coverage of the interval procedure."
+    ],
+    "restriction": "A 95% frequentist interval is a procedure with 95% long-run coverage, not a probability statement about a fixed μ.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-03-Q01",
+    "topicId": "PS05-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "With s=4, n=16 and critical t*=2.131, find the approximate margin of error.",
+    "options": [
+      "1.0655",
+      "2.131",
+      "4.262",
+      "8.524"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "s/√n=4/4=1; margin=2.131."
+    ],
+    "restriction": "With very small n, assess the normality assumption and sensitivity to outliers.",
+    "auditRule": "marginT",
+    "auditArgs": [
+      2.131,
+      4,
+      16
+    ],
+    "auditExpected": 2.131,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-03-Q02",
+    "topicId": "PS05-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What degrees of freedom applies to a one-sample Student t interval?",
+    "options": [
+      "n",
+      "n−1",
+      "2n",
+      "n+1"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "One degree of freedom is consumed by estimating the population mean."
+    ],
+    "restriction": "With very small n, assess the normality assumption and sensitivity to outliers.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-04-Q01",
+    "topicId": "PS05-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "At 95% (z*=1.96), with σ=10 and desired E=2, how many observations are required?",
+    "options": [
+      "96",
+      "97",
+      "98",
+      "100"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "(1.96×10/2)²=96.04.",
+      "Round up: n=97."
+    ],
+    "restriction": "Assumed σ and independent random observations should be realistic.",
+    "auditRule": "sampleSize",
+    "auditArgs": [
+      1.96,
+      10,
+      2
+    ],
+    "auditExpected": 97,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS05-04-Q02",
+    "topicId": "PS05-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why round the sample-size result up?",
+    "options": [
+      "Rounding down may exceed the target margin",
+      "Because confidence is always 100%",
+      "Because n is a real number",
+      "To reduce the population variance"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "We need n at least the computed minimum and n must be an integer."
+    ],
+    "restriction": "Assumed σ and independent random observations should be realistic.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-01-Q01",
+    "topicId": "PS06-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "With x̄=52, μ₀=50, σ=10 and n=100, what is the z statistic?",
+    "options": [
+      "0.2",
+      "1",
+      "2",
+      "5"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "SE=10/10=1; z=(52−50)/1=2."
+    ],
+    "restriction": "Never equate failure to reject with proof that H0 is true.",
+    "auditRule": "zTest",
+    "auditArgs": [
+      52,
+      50,
+      10,
+      100
+    ],
+    "auditExpected": 2,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-01-Q02",
+    "topicId": "PS06-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Failing to reject H₀ means:",
+    "options": [
+      "H₀ is proved true",
+      "Evidence is insufficient to reject H₀ at the chosen threshold",
+      "H₁ has zero probability",
+      "The observed mean equals μ₀"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Failure to reject does not establish equivalence or prove the null."
+    ],
+    "restriction": "Never equate failure to reject with proof that H0 is true.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-02-Q01",
+    "topicId": "PS06-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "With x̄=14, μ₀=12, s=4 and n=16, find the one-sample t statistic.",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "SE=4/4=1; t=(14−12)/1=2."
+    ],
+    "restriction": "Assumptions matter, especially for small samples.",
+    "auditRule": "tTest",
+    "auditArgs": [
+      14,
+      12,
+      4,
+      16
+    ],
+    "auditExpected": 2,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-02-Q02",
+    "topicId": "PS06-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which quantity replaces unknown σ in the standard one-sample t statistic?",
+    "options": [
+      "Sample standard deviation s",
+      "Sample size n",
+      "The p-value",
+      "Significance level α"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The t procedure substitutes s for unknown σ and accounts for its uncertainty."
+    ],
+    "restriction": "Assumptions matter, especially for small samples.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-03-Q01",
+    "topicId": "PS06-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Across 200 tests of true null hypotheses, each calibrated to have an exact Type I error probability of 0.05, what is the expected count of false rejections?",
+    "options": [
+      "1",
+      "5",
+      "10",
+      "20"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The exact false-rejection probability is 0.05 per test under the stated calibration.",
+      "Linearity of expectation gives 200×0.05=10 expected false rejections; independence is not needed."
+    ],
+    "restriction": "A p-value is not the probability that H0 is true.",
+    "auditRule": "product",
+    "auditArgs": [
+      200,
+      0.05
+    ],
+    "auditExpected": 10,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-03-Q02",
+    "topicId": "PS06-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which description correctly defines a Type I hypothesis-testing error?",
+    "options": [
+      "Failing to reject a false H₀",
+      "Rejecting a true H₀",
+      "Sampling without replacement",
+      "Reporting a confidence interval"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "A Type I error is a false rejection of a true null hypothesis."
+    ],
+    "restriction": "A p-value is not the probability that H0 is true.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-04-Q01",
+    "topicId": "PS06-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "In a contingency table, a row total is 20, column total 30, and grand total 60. Expected cell count under independence?",
+    "options": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Expected=(20×30)/60=10."
+    ],
+    "restriction": "Small expected cell counts can invalidate the usual asymptotic approximation.",
+    "auditRule": "expectedCount",
+    "auditArgs": [
+      20,
+      30,
+      60
+    ],
+    "auditExpected": 10,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS06-04-Q02",
+    "topicId": "PS06-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the null hypothesis for a test of independence?",
+    "options": [
+      "The variables are associated",
+      "The variables are independent",
+      "Every cell count is identical",
+      "The sample is always normal"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "An independence test begins with no association between the categorical variables."
+    ],
+    "restriction": "Small expected cell counts can invalidate the usual asymptotic approximation.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-01-Q01",
+    "topicId": "PS07-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Three calibration pairs are (1,2),(2,4),(3,6). What is Pearson r?",
+    "options": [
+      "-1",
+      "0",
+      "0.5",
+      "1"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "All points lie on the increasing line y=2x.",
+      "The standardized linear correlation is +1."
+    ],
+    "restriction": "Correlation does not establish causality or nonlinear fit.",
+    "auditRule": "correlation",
+    "auditArgs": [
+      1,
+      2,
+      3,
+      2,
+      4,
+      6
+    ],
+    "auditExpected": 1,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-01-Q02",
+    "topicId": "PS07-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What does r≈0 primarily imply?",
+    "options": [
+      "No linear association",
+      "No relationship of any kind",
+      "Perfect negative correlation",
+      "Definite causation"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Nonlinear patterns can still exist when linear correlation is near zero."
+    ],
+    "restriction": "Correlation does not establish causality or nonlinear fit.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-02-Q01",
+    "topicId": "PS07-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "Calibration pairs (x,y) are (1,3),(2,5),(3,7). What is fitted slope b₁?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Each +1 increase in x corresponds to +2 in y.",
+      "The least-squares slope is 2."
+    ],
+    "restriction": "Do not extrapolate far beyond observed predictor values without a justified model.",
+    "auditRule": "slope",
+    "auditArgs": [
+      1,
+      2,
+      3,
+      3,
+      5,
+      7
+    ],
+    "auditExpected": 2,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-02-Q02",
+    "topicId": "PS07-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Least squares chooses coefficients by minimizing:",
+    "options": [
+      "Sum of residuals",
+      "Sum of squared residuals",
+      "Total x values",
+      "Maximum raw y value"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Ordinary least squares minimizes squared vertical residuals."
+    ],
+    "restriction": "Do not extrapolate far beyond observed predictor values without a justified model.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-03-Q01",
+    "topicId": "PS07-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A model predicts ŷ=10 when a sensor reports y=12. Find the residual.",
+    "options": [
+      "-2",
+      "0",
+      "2",
+      "22"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Residual=observed−predicted=12−10=+2."
+    ],
+    "restriction": "A prediction interval is wider than a mean-response confidence interval at the same x in the usual model.",
+    "auditRule": "difference",
+    "auditArgs": [
+      12,
+      10
+    ],
+    "auditExpected": 2,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-03-Q02",
+    "topicId": "PS07-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What suggests a straight-line model may be unsuitable?",
+    "options": [
+      "Random residual scatter around zero",
+      "Pronounced curved pattern in residuals",
+      "Equal x units",
+      "Finite model coefficients"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Systematic curved residuals indicate structure missed by the straight-line model."
+    ],
+    "restriction": "A prediction interval is wider than a mean-response confidence interval at the same x in the usual model.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-04-Q01",
+    "topicId": "PS07-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "For an ordinary least-squares regression WITH AN INTERCEPT, residual SS=20 and total corrected SS=100. Find R².",
+    "options": [
+      "0.2",
+      "0.6",
+      "0.8",
+      "1.2"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "R²=1−20/100=0.80."
+    ],
+    "restriction": "Do not report causation from observational regression alone.",
+    "auditRule": "rSquared",
+    "auditArgs": [
+      20,
+      100
+    ],
+    "auditExpected": 0.8,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS07-04-Q02",
+    "topicId": "PS07-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which statement is justified by a statistically significant observational slope?",
+    "options": [
+      "The predictor necessarily causes response change",
+      "The data show evidence of association under model assumptions",
+      "Every future value is predicted exactly",
+      "There is no confounding"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Observational regression cannot establish causation alone."
+    ],
+    "restriction": "Do not report causation from observational regression alone.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-01-Q01",
+    "topicId": "PS08-01",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A lab tests 3 voltage levels and 2 temperature levels. How many treatment combinations?",
+    "options": [
+      "5",
+      "6",
+      "8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "3 voltage levels×2 temperature levels=6 combinations."
+    ],
+    "restriction": "Repeated readings from one unit are not automatically independent experimental replications.",
+    "auditRule": "product",
+    "auditArgs": [
+      3,
+      2
+    ],
+    "auditExpected": 6,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-01-Q02",
+    "topicId": "PS08-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why randomize treatment assignment?",
+    "options": [
+      "To prevent any measurement error",
+      "To reduce systematic confounding with uncontrolled influences",
+      "To guarantee statistical significance",
+      "To make all responses equal"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Randomization reduces systematic association between treatments and uncontrolled factors."
+    ],
+    "restriction": "Repeated readings from one unit are not automatically independent experimental replications.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-02-Q01",
+    "topicId": "PS08-02",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "One-way ANOVA gives MS_between=24 and MS_within=6. What is F?",
+    "options": [
+      "0.25",
+      "2",
+      "4",
+      "18"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "F=24/6=4."
+    ],
+    "restriction": "ANOVA inference depends on design, independence and appropriate residual behavior.",
+    "auditRule": "divide",
+    "auditArgs": [
+      24,
+      6
+    ],
+    "auditExpected": 4,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-02-Q02",
+    "topicId": "PS08-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the usual one-way ANOVA null hypothesis?",
+    "options": [
+      "All treatment population means are equal",
+      "All observations are identical",
+      "Each variance is zero",
+      "The largest mean equals zero"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "ANOVA evaluates equality of treatment means, not individual observations."
+    ],
+    "restriction": "ANOVA inference depends on design, independence and appropriate residual behavior.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-03-Q01",
+    "topicId": "PS08-03",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "A complete-block design uses 4 blocks and 3 treatments, each once per block. How many runs?",
+    "options": [
+      "7",
+      "9",
+      "12",
+      "16"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Every one of four blocks receives all three treatments: 4×3=12."
+    ],
+    "restriction": "Blocks are not additional treatment levels.",
+    "auditRule": "product",
+    "auditArgs": [
+      4,
+      3
+    ],
+    "auditExpected": 12,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-03-Q02",
+    "topicId": "PS08-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What is the principal purpose of introducing blocks in an experiment?",
+    "options": [
+      "To deliberately confound treatment with noise",
+      "To reduce nuisance variation when comparing treatments",
+      "To remove the need for randomization",
+      "To prevent estimating treatment effects"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Blocking accounts for variation shared by similar units."
+    ],
+    "restriction": "Blocks are not additional treatment levels.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-04-Q01",
+    "topicId": "PS08-04",
+    "kind": "calculation",
+    "level": "Foundation",
+    "prompt": "For two-factor cell means, at low temperature a voltage increase changes response from 6 to 8; at high temperature it changes from 10 to 16. What is (voltage effect at high temperature) minus (voltage effect at low temperature)?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Voltage effect at low temperature=8−6=2.",
+      "Voltage effect at high temperature=16−10=6.",
+      "Interaction contrast=6−2=4."
+    ],
+    "restriction": "Avoid interpreting main effects alone when a substantial interaction exists.",
+    "auditRule": "interaction",
+    "auditArgs": [
+      6,
+      8,
+      10,
+      16
+    ],
+    "auditExpected": 4,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS08-04-Q02",
+    "topicId": "PS08-04",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A two-factor interaction means:",
+    "options": [
+      "The factors each have exactly zero effect",
+      "The effect of one factor depends on the other factor level",
+      "Both factors are always independent",
+      "Only one treatment can be randomized"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Different conditional effects indicate interaction."
+    ],
+    "restriction": "Avoid interpreting main effects alone when a substantial interaction exists.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": true,
+    "assessmentEligible": false,
+    "reviewStatus": "guided-legacy",
+    "origin": "v10.58.0"
+  },
+  {
+    "id": "PS01-02-P01",
+    "topicId": "PS01-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A calibration check yields readings of 3, 5, 7, and 13 mV. What is their arithmetic mean?",
+    "options": [
+      "6 mV",
+      "7 mV",
+      "8 mV",
+      "9 mV"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Add 3+5+7+13=28 and divide by four readings to obtain 7 mV."
+    ],
+    "restriction": "The arithmetic mean is sensitive to the 13 mV reading; it is not the mean absolute deviation.",
+    "auditRule": "mean",
+    "auditArgs": [
+      3,
+      5,
+      7,
+      13
+    ],
+    "auditExpected": 7,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS01-01-P01",
+    "topicId": "PS01-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A technician measures only boards located at the top of a shipping container. Which concern is most appropriate?",
+    "options": [
+      "It is necessarily a census",
+      "Selection bias is possible",
+      "The sample mean must be zero",
+      "The data are automatically normally distributed"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Convenience selection can systematically omit boards in other locations."
+    ],
+    "restriction": "More observations from the same convenience location do not guarantee representativeness.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS02-03-P01",
+    "topicId": "PS02-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many unordered committees of two can be chosen from six engineers?",
+    "options": [
+      "12",
+      "15",
+      "30",
+      "36"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The order does not matter: C(6,2)=6×5/2=15."
+    ],
+    "restriction": "This is a combination without replacement.",
+    "auditRule": "choose",
+    "auditArgs": [
+      6,
+      2
+    ],
+    "auditExpected": 15,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS02-04-P01",
+    "topicId": "PS02-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many 3-digit codes use distinct digits from 0–9 when the first digit cannot be zero?",
+    "options": [
+      "648",
+      "720",
+      "900",
+      "504"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "There are 9 nonzero choices for the first digit, then 9, then 8: 9×9×8=648."
+    ],
+    "restriction": "The leading-zero restriction changes the count.",
+    "auditRule": "product",
+    "auditArgs": [
+      9,
+      9,
+      8
+    ],
+    "auditExpected": 648,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS03-02-P01",
+    "topicId": "PS03-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For P(A∩B)=0.18 and P(B)=0.30, calculate P(A|B).",
+    "options": [
+      "0.18",
+      "0.30",
+      "0.60",
+      "0.90"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "P(A|B)=P(A∩B)/P(B)=0.18/0.30=0.60."
+    ],
+    "restriction": "Conditioning requires P(B)>0.",
+    "auditRule": "divide",
+    "auditArgs": [
+      0.18,
+      0.3
+    ],
+    "auditExpected": 0.6,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS03-04-P01",
+    "topicId": "PS03-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two independent parallel modules are each available with probability 0.90. The system operates if at least one module operates. Assuming perfect coverage and no common-cause failure, what is system reliability?",
+    "options": [
+      "0.81",
+      "0.90",
+      "0.99",
+      "1.00"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "P(at least one works)=1−P(both fail)=1−(0.10)²=0.99."
+    ],
+    "restriction": "The value 0.99 assumes independent failures, true parallel availability and perfect system-level coverage; standby switching with imperfect coverage needs a different model.",
+    "auditRule": "parallel",
+    "auditArgs": [
+      0.9,
+      0.9
+    ],
+    "auditExpected": 0.99,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS04-02-P01",
+    "topicId": "PS04-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For X~Binomial(n=4,p=0.5), find P(X=2).",
+    "options": [
+      "0.125",
+      "0.25",
+      "0.375",
+      "0.50"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "C(4,2)(0.5)^2(0.5)^2=6/16=0.375."
+    ],
+    "restriction": "Trials must be independent with common success probability.",
+    "auditRule": "binomial",
+    "auditArgs": [
+      4,
+      2,
+      0.5
+    ],
+    "auditExpected": 0.375,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS04-04-P01",
+    "topicId": "PS04-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A sensor output is modeled N(20,4²). What is z for an observation of 28?",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "4"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "z=(28−20)/4=2."
+    ],
+    "restriction": "The normal model concerns the stated measurement distribution.",
+    "auditRule": "zscore",
+    "auditArgs": [
+      28,
+      20,
+      4
+    ],
+    "auditExpected": 2,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS06-01-P01",
+    "topicId": "PS06-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "For a two-sided z test at significance level 0.05, the test statistic is z=2.5 and critical cutoffs are ±1.96. What is the decision?",
+    "options": [
+      "Reject H0",
+      "Fail to reject H0",
+      "Accept H0 as proven",
+      "No decision can ever be made"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Since 2.5>1.96, the statistic is in the rejection region."
+    ],
+    "restriction": "The two-sided 5% rejection rule is prespecified; rejecting H0 does not prove any specific alternative parameter value.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS06-03-P01",
+    "topicId": "PS06-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A valid hypothesis test reports p=0.07 and the prespecified significance level is 0.05. Which action is appropriate?",
+    "options": [
+      "Reject H0",
+      "Fail to reject H0",
+      "Conclude H0 is definitely true",
+      "Change α to 0.10 after observing p"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Because 0.07>0.05, fail to reject H0 at α=0.05."
+    ],
+    "restriction": "Failure to reject does not prove the null is true.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS07-02-P01",
+    "topicId": "PS07-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For fitted regression y-hat=3+2x, what is the predicted response at x=4?",
+    "options": [
+      "7",
+      "8",
+      "11",
+      "14"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Substitute x=4: predicted y=3+2×4=11."
+    ],
+    "restriction": "Prediction is not evidence of causation.",
+    "auditRule": "line",
+    "auditArgs": [
+      3,
+      2,
+      4
+    ],
+    "auditExpected": 11,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS07-03-P01",
+    "topicId": "PS07-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A least-squares model predicts 17 but the observed output is 20. Find residual observed minus predicted.",
+    "options": [
+      "-3",
+      "0",
+      "3",
+      "37"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Residual=20−17=+3."
+    ],
+    "restriction": "The sign convention here is observed minus predicted.",
+    "auditRule": "difference",
+    "auditArgs": [
+      20,
+      17
+    ],
+    "auditExpected": 3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-01-P01",
+    "topicId": "PS05-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For independent readings with population σ=15 and n=25, what is the standard error of the sample mean?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "15"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=σ/√n=15/5=3."
+    ],
+    "restriction": "The independent-sampling assumption matters.",
+    "auditRule": "se",
+    "auditArgs": [
+      15,
+      25
+    ],
+    "auditExpected": 3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-02-P01",
+    "topicId": "PS05-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A 95% two-sided z interval uses x̄=40, σ=8, n=64 and z*=1.96. What is its upper endpoint?",
+    "options": [
+      "40.98",
+      "41.96",
+      "43.92",
+      "45.00"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=8/8=1; upper=40+1.96×1=41.96."
+    ],
+    "restriction": "Population σ is stated as known; sampling is independent.",
+    "auditRule": "zupper",
+    "auditArgs": [
+      40,
+      8,
+      64,
+      1.96
+    ],
+    "auditExpected": 41.96,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-03-P01",
+    "topicId": "PS05-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "With n=25, s=10 and t*=2.064, what is the two-sided confidence margin for a mean?",
+    "options": [
+      "2.064",
+      "4.128",
+      "5.160",
+      "10.320"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=s/√n=10/5=2; margin=2.064×2=4.128."
+    ],
+    "restriction": "Use a t critical value with df=24 and an appropriate sampling model.",
+    "auditRule": "tmargin",
+    "auditArgs": [
+      10,
+      25,
+      2.064
+    ],
+    "auditExpected": 4.128,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-04-P01",
+    "topicId": "PS05-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For known σ=6, z*=2 and margin goal E=1.5, what minimum n is required?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "72"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "n=ceil((z*σ/E)^2)=ceil((2×6/1.5)^2)=64."
+    ],
+    "restriction": "Round up after the calculation.",
+    "auditRule": "nmean",
+    "auditArgs": [
+      2,
+      6,
+      1.5
+    ],
+    "auditExpected": 64,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-01-P01",
+    "topicId": "PS08-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A factorial study has 3 temperature levels, 2 voltage levels and 4 independent replicates per combination. How many runs are needed?",
+    "options": [
+      "9",
+      "20",
+      "24",
+      "36"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The full factorial needs 3×2×4=24 runs."
+    ],
+    "restriction": "Each replicate must be a genuinely independent experimental unit.",
+    "auditRule": "product",
+    "auditArgs": [
+      3,
+      2,
+      4
+    ],
+    "auditExpected": 24,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-02-P01",
+    "topicId": "PS08-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In one-way ANOVA, MS_treatment=15 and MS_error=3. Find F.",
+    "options": [
+      "0.2",
+      "3",
+      "5",
+      "45"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "F=15/3=5."
+    ],
+    "restriction": "An F value requires its degrees of freedom for a significance decision.",
+    "auditRule": "divide",
+    "auditArgs": [
+      15,
+      3
+    ],
+    "auditExpected": 5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-03-P01",
+    "topicId": "PS08-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A randomized complete block experiment has five blocks and three treatments, with one observation per treatment–block cell. Under the usual additive RCBD model, how many residual degrees of freedom are there?",
+    "options": [
+      "4",
+      "8",
+      "10",
+      "14"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Residual df=(t−1)(b−1)=(3−1)(5−1)=8."
+    ],
+    "restriction": "In an unreplicated randomized complete-block design, residual df=(t−1)(b−1) assumes the classical additive block-and-treatment model; a separate interaction is not estimable.",
+    "auditRule": "blockdf",
+    "auditArgs": [
+      3,
+      5
+    ],
+    "auditExpected": 8,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-04-P01",
+    "topicId": "PS08-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "At B-low, increasing A changes response 4→9; at B-high, it changes 8→17. What is the interaction difference-in-differences?",
+    "options": [
+      "-4",
+      "0",
+      "4",
+      "9"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "A effect at B-low=9−4=5; at B-high=17−8=9; difference=9−5=4."
+    ],
+    "restriction": "The signed contrast is (A effect at B-high) minus (A effect at B-low).",
+    "auditRule": "interaction",
+    "auditArgs": [
+      4,
+      9,
+      8,
+      17
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-05-P01",
+    "topicId": "PS05-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A random sample of 100 independent devices has population σ=30. What is the sampling mean SE?",
+    "options": [
+      "0.3",
+      "3",
+      "10",
+      "30"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=30/√100=3."
+    ],
+    "restriction": "Requires independent observations and finite population variance.",
+    "auditRule": "se",
+    "auditArgs": [
+      30,
+      100
+    ],
+    "auditExpected": 3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-05-P02",
+    "topicId": "PS05-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which claim about the central limit theorem is most accurate?",
+    "options": [
+      "All populations are normally distributed for n≥30",
+      "Every sample of 30 has an exactly normal sample mean",
+      "With suitable conditions, the distribution of the sample mean approaches normality as n increases",
+      "Independence is never needed"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The CLT concerns sampling means under suitable conditions, not the shape of every raw observation."
+    ],
+    "restriction": "Heavy tails and dependence may affect the approximation.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-06-P01",
+    "topicId": "PS05-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In a random independent sample of 200 components, 80 are defective. Find p-hat.",
+    "options": [
+      "0.20",
+      "0.30",
+      "0.40",
+      "0.60"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "p-hat=80/200=0.40."
+    ],
+    "restriction": "Distinguish sample proportion from the population parameter.",
+    "auditRule": "divide",
+    "auditArgs": [
+      80,
+      200
+    ],
+    "auditExpected": 0.4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-06-P02",
+    "topicId": "PS05-06",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A simple Wald proportion CI is most questionable when:",
+    "options": [
+      "n is large and p-hat near 0.5",
+      "n=10 and zero successes are observed",
+      "the sample is independently drawn with 200 successes",
+      "a z critical value is correctly selected"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Boundary proportions and very small success counts undermine the normal Wald approximation."
+    ],
+    "restriction": "Consider Wilson or exact methods instead of an automatic Wald interval.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-07-P01",
+    "topicId": "PS05-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Independent samples have s1=6,n1=9 and s2=8,n2=16. Find SE of the estimated mean difference.",
+    "options": [
+      "1",
+      "2",
+      "sqrt(8) ≈ 2.828",
+      "7"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "SE=√(36/9+64/16)=√8≈2.828."
+    ],
+    "restriction": "The two groups must be independent; Welch does not require equal population variances.",
+    "auditRule": "welchse",
+    "auditArgs": [
+      6,
+      9,
+      8,
+      16
+    ],
+    "auditExpected": 2.8284271247461903,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-07-P02",
+    "topicId": "PS05-07",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "When sample variances are different and equal population variances are not assumed, which interval is appropriate?",
+    "options": [
+      "Welch two-sample t interval",
+      "Pooled-variance t interval by default",
+      "One-sample z interval with n=n1+n2",
+      "Paired t interval without pairs"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Welch uses separate estimated group variances and an appropriate degrees-of-freedom approximation."
+    ],
+    "restriction": "The independence of the groups must still be supported.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-08-P01",
+    "topicId": "PS05-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For 9 independent paired differences, s_d=6 and t*=2.306, what is the margin of error?",
+    "options": [
+      "2.306",
+      "4.612",
+      "6",
+      "13.836"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "s_d/√9=2; margin=2.306×2=4.612."
+    ],
+    "restriction": "The sampling units are pairs and the small-sample differences should be approximately normal.",
+    "auditRule": "pairedmargin",
+    "auditArgs": [
+      6,
+      9,
+      2.306
+    ],
+    "auditExpected": 4.612,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-08-P02",
+    "topicId": "PS05-08",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "For before/after readings from each of 12 sensors, which sample should enter a paired t interval?",
+    "options": [
+      "The 24 readings treated as independent",
+      "The 12 within-sensor differences",
+      "The pre readings only",
+      "The post readings only"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Pairwise differences account for matching of observations from the same sensor."
+    ],
+    "restriction": "Paired differences must themselves be appropriately independent across sensors.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-09-P01",
+    "topicId": "PS05-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Independent samples have 45 failures of 150 boards and 15 failures of 150 boards. Estimate p1−p2.",
+    "options": [
+      "0.10",
+      "0.15",
+      "0.20",
+      "0.30"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "p1=45/150=0.30 and p2=15/150=0.10; difference=0.20."
+    ],
+    "restriction": "The order p1−p2 must match the statement.",
+    "auditRule": "proportiondiff",
+    "auditArgs": [
+      45,
+      150,
+      15,
+      150
+    ],
+    "auditExpected": 0.2,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-09-P02",
+    "topicId": "PS05-09",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "In a standard confidence interval for p1−p2 based on independent samples, which estimate is used in the standard error?",
+    "options": [
+      "One pooled estimate required by H0:p1=p2",
+      "Separate sample proportions for the two groups",
+      "Only the first group proportion",
+      "Only the second group proportion"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Use the unpooled estimator for interval estimation of the difference."
+    ],
+    "restriction": "Do not confuse the interval SE with the pooled SE used in certain equality tests.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-10-P01",
+    "topicId": "PS05-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For a 95% proportion estimate with z*=1.96, planning p0=0.5 and E=0.10, what is minimum n?",
+    "options": [
+      "49",
+      "97",
+      "100",
+      "196"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "n=ceil(1.96²×0.25/0.1²)=ceil(96.04)=97."
+    ],
+    "restriction": "Assumes the usual simple independent large-population planning model.",
+    "auditRule": "nprop",
+    "auditArgs": [
+      1.96,
+      0.5,
+      0.1
+    ],
+    "auditExpected": 97,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS05-10-P02",
+    "topicId": "PS05-10",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why is planning p0=0.5 conservative for a proportion CI sample-size calculation?",
+    "options": [
+      "It sets sampling error to zero",
+      "It maximizes p0(1−p0)",
+      "It guarantees no nonresponse",
+      "It proves population probability is 0.5"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "p0(1−p0) has maximum 0.25 at p0=0.5."
+    ],
+    "restriction": "The planning value is not a claim about the actual population.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-05-P01",
+    "topicId": "PS08-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Eight independently randomized boards each receive treatment B and each yields five repeat readings. How many independent treatment-B experimental units are present?",
+    "options": [
+      "5",
+      "8",
+      "13",
+      "40"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Each board is the unit assigned treatment; there are 8 units, not 40."
+    ],
+    "restriction": "Repeat measures on one unit are not new randomized units.",
+    "auditRule": "identity",
+    "auditArgs": [
+      8
+    ],
+    "auditExpected": 8,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-05-P02",
+    "topicId": "PS08-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which is pseudoreplication in a board-reliability experiment?",
+    "options": [
+      "Randomizing treatment across 20 separate boards",
+      "Measuring each of three treated boards ten times and claiming n=30 independent randomized boards",
+      "Randomizing order of trial runs",
+      "Blocking boards by manufacturing lot"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Multiple reads of a board do not create more independently treated boards."
+    ],
+    "restriction": "Model nested readings separately when needed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-06-P01",
+    "topicId": "PS08-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "One-way ANOVA uses k=4 groups and N=24 independent readings. Find residual degrees of freedom.",
+    "options": [
+      "3",
+      "6",
+      "20",
+      "23"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "df_error=N−k=24−4=20."
+    ],
+    "restriction": "This is the standard one-way independent-group ANOVA model.",
+    "auditRule": "anovaedf",
+    "auditArgs": [
+      24,
+      4
+    ],
+    "auditExpected": 20,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-06-P02",
+    "topicId": "PS08-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In a balanced one-way experiment, SS_between=60 with df=3 and SS_error=80 with df=16. Find F.",
+    "options": [
+      "0.25",
+      "2",
+      "4",
+      "12"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "MS_between=60/3=20, MS_error=80/16=5, F=20/5=4."
+    ],
+    "restriction": "Compare the F statistic with an F distribution with df=(3,16).",
+    "auditRule": "anovaF",
+    "auditArgs": [
+      60,
+      3,
+      80,
+      16
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-07-P01",
+    "topicId": "PS08-07",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A correctly specified ANOVA yields p=0.013 and α=0.05. What is the correct decision?",
+    "options": [
+      "Reject the equal-means null",
+      "Accept the null as proven",
+      "Do not reject the null",
+      "Declare every pair significantly different"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Since p<α, reject the omnibus equal-means null."
+    ],
+    "restriction": "The result does not automatically identify the differing pairs.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-07-P02",
+    "topicId": "PS08-07",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "In one-way ANOVA with four treatment groups and N=24 independent observations, what are df1 and df2?",
+    "options": [
+      "(4,24)",
+      "(3,20)",
+      "(4,20)",
+      "(3,23)"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "df1=k−1=3; df2=N−k=20."
+    ],
+    "restriction": "The df count relies on the specified one-way group structure.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-08-P01",
+    "topicId": "PS08-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A randomized complete block study uses four treatments and six blocks, each treatment occurring once within each block. Under the classical additive model, what is residual df?",
+    "options": [
+      "9",
+      "12",
+      "15",
+      "24"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "df_error=(t−1)(b−1)=3×5=15."
+    ],
+    "restriction": "Under the additive, unreplicated RCBD model, residual df=(t−1)(b−1); treatment-by-block interaction cannot be estimated separately from error.",
+    "auditRule": "blockdf",
+    "auditArgs": [
+      4,
+      6
+    ],
+    "auditExpected": 15,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-08-P02",
+    "topicId": "PS08-08",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which practice matches randomized complete blocking?",
+    "options": [
+      "Assign every treatment once to each block in randomized order",
+      "Apply only one treatment across all blocks",
+      "Treat repeated measurements as extra blocks",
+      "Omit randomization within blocks"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Every block contains all treatments, with assignments randomized within each block."
+    ],
+    "restriction": "Blocking should target a relevant nuisance source.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-09-P01",
+    "topicId": "PS08-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In a balanced 2² experiment, the response means are y(A−,B−)=5, y(A+,B−)=9, y(A−,B+)=7, y(A+,B+)=15. What is the A main effect?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "At B− the A effect is 9−5=4; at B+ it is 15−7=8; average effect=(4+8)/2=6."
+    ],
+    "restriction": "Cell definitions and factor signs determine the contrast.",
+    "auditRule": "factorA",
+    "auditArgs": [
+      5,
+      9,
+      7,
+      15
+    ],
+    "auditExpected": 6,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-09-P02",
+    "topicId": "PS08-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For the same four cell means 5, 9, 7, and 15, what is the interaction difference-in-differences (A effect at B+ minus at B−)?",
+    "options": [
+      "-4",
+      "0",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "(15−7)−(9−5)=8−4=4."
+    ],
+    "restriction": "The sign convention is explicitly stated.",
+    "auditRule": "interaction",
+    "auditArgs": [
+      5,
+      9,
+      7,
+      15
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-10-P01",
+    "topicId": "PS08-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A full 2³ factorial design with 3 genuinely independent replications per treatment combination requires how many runs?",
+    "options": [
+      "8",
+      "12",
+      "18",
+      "24"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "2³=8 treatment combinations and 3 independent replicates each, so 8×3=24 runs."
+    ],
+    "restriction": "Replication means independently randomized experimental units.",
+    "auditRule": "factorialruns",
+    "auditArgs": [
+      3,
+      3
+    ],
+    "auditExpected": 24,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS08-10-P02",
+    "topicId": "PS08-10",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "After a significant omnibus F test among four treatment groups, which follow-up is most defensible?",
+    "options": [
+      "Report that all six pairs definitely differ",
+      "Run planned contrasts or multiplicity-aware comparisons",
+      "Assume effect sizes are practically important",
+      "Rerun all pairwise tests at α=0.05 with no correction and claim familywise α=0.05"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The overall F test does not identify all pair differences; appropriate comparisons address that question."
+    ],
+    "restriction": "Inspect assumptions and practical size of the difference as well.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.60.0"
+  },
+  {
+    "id": "PS06-01-P02",
+    "topicId": "PS06-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For independent normal observations, σ=12 is known, n=36 and xbar=104. Under H0: μ=100, what is the one-sample z statistic?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=12/sqrt(36)=2.",
+      "z=(104−100)/2=2."
+    ],
+    "restriction": "Requires independence and an appropriate normal/large-sample sampling model.",
+    "auditRule": "zmean",
+    "auditArgs": [
+      104,
+      100,
+      12,
+      36
+    ],
+    "auditExpected": 2,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-01-P03",
+    "topicId": "PS06-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A monitoring plan will flag a sensor for either a positive or negative mean shift. Which alternative is appropriate?",
+    "options": [
+      "μ>μ0",
+      "μ<μ0",
+      "μ≠μ0",
+      "μ=μ0"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Two directions are relevant; use a two-sided alternative."
+    ],
+    "restriction": "Select the alternative before inspecting results.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-02-P01",
+    "topicId": "PS06-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A random sample of 16 independent near-normal measurements has xbar=52 and s=8. Test H0: μ=50. What is the one-sample t statistic?",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "4"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=8/sqrt(16)=2.",
+      "t=(52−50)/2=1."
+    ],
+    "restriction": "Assumes independent observations and an acceptable small-sample t model.",
+    "auditRule": "tmean",
+    "auditArgs": [
+      52,
+      50,
+      8,
+      16
+    ],
+    "auditExpected": 1,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-02-P02",
+    "topicId": "PS06-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For a one-sample t test using n=21 observations, how many degrees of freedom are used?",
+    "options": [
+      "19",
+      "20",
+      "21",
+      "22"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "One population mean estimated: df=n−1=20."
+    ],
+    "restriction": "Assumes a standard one-sample t procedure.",
+    "auditRule": "df1",
+    "auditArgs": [
+      21
+    ],
+    "auditExpected": 20,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-03-P02",
+    "topicId": "PS06-03",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A larger sample generally improves statistical power for a fixed true effect and valid test. What else must be reported to judge practical relevance?",
+    "options": [
+      "Only p-value",
+      "Effect size and uncertainty",
+      "Only α",
+      "Only test statistic sign"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Practical relevance concerns magnitude and precision, not statistical significance alone."
+    ],
+    "restriction": "Power is conditional on a specified effect and design.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-04-P01",
+    "topicId": "PS06-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In a 2×3 independence table, one row total is 40, one column total is 30, and N=120. What is that cell’s expected count under independence?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "30"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "E=row total × column total / grand total = 40×30/120=10."
+    ],
+    "restriction": "Assumes the null independence model for expected counts.",
+    "auditRule": "expected",
+    "auditArgs": [
+      40,
+      30,
+      120
+    ],
+    "auditExpected": 10,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-05-P01",
+    "topicId": "PS06-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For a specified alternative, a test has Type II error probability β=0.15. What is its power?",
+    "options": [
+      "0.15",
+      "0.75",
+      "0.85",
+      "0.95"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Power=1−β=1−0.15=0.85."
+    ],
+    "restriction": "Power is defined at the specified alternative, not universally.",
+    "auditRule": "power",
+    "auditArgs": [
+      0.15
+    ],
+    "auditExpected": 0.85,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-05-P02",
+    "topicId": "PS06-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A device is tested both before and after a software update using the same 12 units. Which analysis best accounts for the study design?",
+    "options": [
+      "Independent pooled t test",
+      "Paired differences analysis",
+      "Two-proportion z test",
+      "Chi-square goodness-of-fit test"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The before and after observations are matched within units."
+    ],
+    "restriction": "Inspect the distribution of pairwise differences and independence across units.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-06-P01",
+    "topicId": "PS06-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Out of n=100 independent inspections, 62 meet a criterion. Test H0:p=0.5 using a one-proportion z statistic; what is z?",
+    "options": [
+      "1.2",
+      "2.0",
+      "2.4",
+      "3.1"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "phat=0.62; null SE=sqrt(0.5×0.5/100)=0.05.",
+      "z=(0.62−0.50)/0.05=2.4."
+    ],
+    "restriction": "Expected successes and failures under the null are both 50.",
+    "auditRule": "zprop",
+    "auditArgs": [
+      62,
+      100,
+      0.5
+    ],
+    "auditExpected": 2.4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-06-P02",
+    "topicId": "PS06-06",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Under H0:p=0.01, a sample of n=20 independent trials has expected successes only 0.2. Which test is preferable to a routine normal z approximation?",
+    "options": [
+      "Exact binomial test",
+      "Paired t test",
+      "ANOVA F test",
+      "OLS slope t test"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The null expected success count is too small for a reliable normal approximation."
+    ],
+    "restriction": "Exact procedures still require a justified binomial model.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-07-P01",
+    "topicId": "PS06-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two independent groups have s1=6, n1=36 and s2=8, n2=64. Compute the Welch standard error for the difference of means (three decimals).",
+    "options": [
+      "1.000",
+      "1.414",
+      "2.000",
+      "2.828"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=sqrt(6²/36+8²/64)=sqrt(2)=1.414."
+    ],
+    "restriction": "Use the unpooled standard error for Welch tests.",
+    "auditRule": "welchse",
+    "auditArgs": [
+      6,
+      36,
+      8,
+      64
+    ],
+    "auditExpected": 1.4142135623730951,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-07-P02",
+    "topicId": "PS06-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two independent group means differ by 6.0, with s1=5, n1=25 and s2=12, n2=36. Under a zero-difference null, what is Welch t (three decimals)?",
+    "options": [
+      "1.342",
+      "2.683",
+      "3.000",
+      "4.615"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SE=sqrt(5²/25+12²/36)=sqrt(5)=2.236.",
+      "t=6/sqrt(5)=2.683."
+    ],
+    "restriction": "Check the option selection and Welch degrees of freedom before drawing a conclusion.",
+    "auditRule": "welcht",
+    "auditArgs": [
+      6,
+      5,
+      25,
+      12,
+      36
+    ],
+    "auditExpected": 2.6832815729997477,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-08-P01",
+    "topicId": "PS06-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For n=16 independent paired differences with mean 3.0 and difference SD 4.0, test zero mean difference. What is the paired t statistic?",
+    "options": [
+      "0.75",
+      "1.5",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "SEd=4/sqrt(16)=1.",
+      "t=3/1=3 with df=15."
+    ],
+    "restriction": "The sampling units are 16 pairs, not 32 independent measurements.",
+    "auditRule": "pairedt",
+    "auditArgs": [
+      3,
+      4,
+      16
+    ],
+    "auditExpected": 3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-08-P02",
+    "topicId": "PS06-08",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which measurement should enter a paired t test for before-and-after readings on the same instrument?",
+    "options": [
+      "The 2n raw readings as separate samples",
+      "The n within-instrument differences",
+      "Only the after readings",
+      "The pooled standard deviation of raw readings"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "A paired test is a one-sample test of within-pair differences."
+    ],
+    "restriction": "Assumptions concern differences across independent pairs.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-09-P01",
+    "topicId": "PS06-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Group A has 70 successes of 100; group B has 50 successes of 100. Under H0:pA=pB, compute pooled-proportion z (three decimals).",
+    "options": [
+      "1.443",
+      "2.887",
+      "3.536",
+      "4.000"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Pooled p=(70+50)/200=0.60.",
+      "SE=sqrt(0.6×0.4×(1/100+1/100))=sqrt(0.0048).",
+      "z=0.20/sqrt(0.0048)=2.887."
+    ],
+    "restriction": "Requires independent trials and adequate expected cell counts.",
+    "auditRule": "twopropz",
+    "auditArgs": [
+      70,
+      100,
+      50,
+      100
+    ],
+    "auditExpected": 2.886751345948129,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS06-10-P01",
+    "topicId": "PS06-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A goodness-of-fit test observes counts [28,32,30] against equal expected counts [30,30,30]. What is Pearson χ² (three decimals)?",
+    "options": [
+      "0.133",
+      "0.267",
+      "0.533",
+      "1.333"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "χ²=(−2)²/30+(2)²/30+0=8/30=0.267."
+    ],
+    "restriction": "Probabilities are fully specified in advance and observations independent.",
+    "auditRule": "chifit",
+    "auditArgs": [
+      28,
+      32,
+      30
+    ],
+    "auditExpected": 0.26666666666666666,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-01-P01",
+    "topicId": "PS07-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For x=[1,2,3] and y=[2,4,6], what is the Pearson sample correlation coefficient?",
+    "options": [
+      "-1",
+      "0",
+      "0.5",
+      "1"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Each y value equals 2x, hence a perfect positive linear relationship."
+    ],
+    "restriction": "This calculation describes linear association, not causal proof.",
+    "auditRule": "corr3",
+    "auditArgs": [
+      1,
+      2,
+      3,
+      2,
+      4,
+      6
+    ],
+    "auditExpected": 1,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-01-P02",
+    "topicId": "PS07-01",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Two variables have a near-zero Pearson r but a clear U-shaped scatterplot. Which statement is most defensible?",
+    "options": [
+      "No relationship exists",
+      "A nonlinear relation may exist",
+      "Causation is proven",
+      "Outliers must be absent"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Pearson r summarizes linear, not all, association."
+    ],
+    "restriction": "Inspect the scatterplot before using r.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-02-P02",
+    "topicId": "PS07-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In a fitted line yhat=4+1.5x, what is the slope?",
+    "options": [
+      "1.5",
+      "4",
+      "5.5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "The coefficient multiplying x is the slope."
+    ],
+    "restriction": "The slope measures fitted response per unit of x.",
+    "auditRule": "identity",
+    "auditArgs": [
+      1.5
+    ],
+    "auditExpected": 1.5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-02-P03",
+    "topicId": "PS07-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "The ordinary least-squares line has ybar=12, xbar=4 and slope b1=2. What is intercept b0?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "b0=ybar−b1×xbar=12−2×4=4."
+    ],
+    "restriction": "Assumes simple OLS with an intercept and nonzero predictor variation.",
+    "auditRule": "intercept",
+    "auditArgs": [
+      12,
+      2,
+      4
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-03-P02",
+    "topicId": "PS07-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An instrument shows observed output 14.5 against fitted prediction 12.0. What is residual observed minus predicted?",
+    "options": [
+      "-2.5",
+      "0.5",
+      "2.5",
+      "26.5"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Residual e=14.5−12=2.5."
+    ],
+    "restriction": "Residual is observed minus fitted by this convention.",
+    "auditRule": "difference",
+    "auditArgs": [
+      14.5,
+      12
+    ],
+    "auditExpected": 2.5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-04-P02",
+    "topicId": "PS07-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For an intercept-included OLS fit with SST=200 and SSE=50, what is R²?",
+    "options": [
+      "0.25",
+      "0.50",
+      "0.75",
+      "0.90"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "R²=1−SSE/SST=1−50/200=0.75."
+    ],
+    "restriction": "Standard R² interpretation assumes an intercept and nonzero SST.",
+    "auditRule": "r2",
+    "auditArgs": [
+      50,
+      200
+    ],
+    "auditExpected": 0.75,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-05-P01",
+    "topicId": "PS07-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A regression on independent observations has visibly curved residuals against x. What should be examined first?",
+    "options": [
+      "Only a larger R²",
+      "Linearity and model form",
+      "Changing the significance level",
+      "Forcing intercept to zero"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Systematic residual curvature suggests a misspecified response function."
+    ],
+    "restriction": "A transformation or nonlinear model requires justification and verification.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-05-P02",
+    "topicId": "PS07-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "An extreme data point greatly changes a fitted slope after removal. What is a sensible next action?",
+    "options": [
+      "Automatically delete it",
+      "Examine leverage, influence and data validity",
+      "Claim causation",
+      "Ignore diagnostics"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "An influential observation requires investigation, not automatic deletion."
+    ],
+    "restriction": "Check provenance, measurement errors and justified sensitivity analyses.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-06-P01",
+    "topicId": "PS07-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For x=[0,1,2] and y=[1,3,4], what is OLS slope b1 (three decimals)?",
+    "options": [
+      "1.000",
+      "1.500",
+      "2.000",
+      "2.500"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "xbar=1, ybar=8/3.",
+      "Sxy=(−1)(−5/3)+(1)(4/3)=3; Sxx=2; b1=1.5."
+    ],
+    "restriction": "An intercept is included and predictor variation is nonzero.",
+    "auditRule": "slope3",
+    "auditArgs": [
+      0,
+      1,
+      2,
+      1,
+      3,
+      4
+    ],
+    "auditExpected": 1.5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-06-P02",
+    "topicId": "PS07-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For the same x=[0,1,2], y=[1,3,4] data, find intercept b0 (three decimals).",
+    "options": [
+      "0.667",
+      "1.000",
+      "1.167",
+      "1.500"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "xbar=1, ybar=8/3, slope=1.5.",
+      "b0=8/3−1.5=7/6≈1.167."
+    ],
+    "restriction": "This is the fitted response at x=0; its interpretation is context-dependent.",
+    "auditRule": "intercept3",
+    "auditArgs": [
+      0,
+      1,
+      2,
+      1,
+      3,
+      4
+    ],
+    "auditExpected": 1.1666666666666667,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-07-P01",
+    "topicId": "PS07-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In simple regression with n=25, residual SD s=3, and x0=xbar, what is SE of estimated mean response?",
+    "options": [
+      "0.3",
+      "0.6",
+      "3.0",
+      "3.06"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "SEmean=s/sqrt(n)=3/sqrt(25)=0.6."
+    ],
+    "restriction": "Requires the usual homoscedastic independent-error model.",
+    "auditRule": "meanse",
+    "auditArgs": [
+      3,
+      25
+    ],
+    "auditExpected": 0.6,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-07-P02",
+    "topicId": "PS07-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "In simple regression with n=16, residual SD s=2 and x0=xbar, what is the individual prediction SE (three decimals)?",
+    "options": [
+      "0.500",
+      "2.000",
+      "2.062",
+      "4.000"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "SEpred=s×sqrt(1+1/n)=2sqrt(17/16)≈2.062."
+    ],
+    "restriction": "Individual prediction includes error for a new response and is wider than mean-response CI.",
+    "auditRule": "predse",
+    "auditArgs": [
+      2,
+      16
+    ],
+    "auditExpected": 2.0615528128088303,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-08-P01",
+    "topicId": "PS07-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A regression slope estimate b1=1.2 has reported SE(b1)=0.3. For H0:β1=0, what is slope t statistic?",
+    "options": [
+      "0.25",
+      "0.9",
+      "4",
+      "6"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "t=(1.2−0)/0.3=4."
+    ],
+    "restriction": "Requires the usual regression assumptions for t inference.",
+    "auditRule": "slopet",
+    "auditArgs": [
+      1.2,
+      0.3
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-08-P02",
+    "topicId": "PS07-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A simple OLS regression with an intercept is fitted to 18 independent observations. What are residual degrees of freedom?",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Two coefficients are fitted, so residual df=n−2=16."
+    ],
+    "restriction": "This df is for ordinary simple regression with an intercept.",
+    "auditRule": "df2",
+    "auditArgs": [
+      18
+    ],
+    "auditExpected": 16,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-09-P01",
+    "topicId": "PS07-09",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "After fitting a straight line, the residual spread fans out as x increases. Which concern does this suggest?",
+    "options": [
+      "Constant variance",
+      "Heteroscedasticity",
+      "Guaranteed normality",
+      "Perfect fit"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "A funnel-shaped residual plot suggests errors may have unequal variance."
+    ],
+    "restriction": "Additional evidence and robust or revised modeling may be needed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS07-10-P01",
+    "topicId": "PS07-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A fitted model is yhat=3+0.5x1−0.1x2. Predict y for x1=8, x2=10.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "yhat=3+0.5(8)−0.1(10)=3+4−1=6."
+    ],
+    "restriction": "The coefficients describe conditional predictions under this fitted model.",
+    "auditRule": "multiple",
+    "auditArgs": [
+      3,
+      0.5,
+      -0.1,
+      8,
+      10
+    ],
+    "auditExpected": 6,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.61.0"
+  },
+  {
+    "id": "PS01-01-P02",
+    "topicId": "PS01-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A quality-control sample contains 14 observations from line A, 18 from line B and 8 from line C. What is total sample size?",
+    "options": [
+      "36",
+      "40",
+      "42",
+      "44"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Sum line sample counts: 14+18+8=40."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "sum",
+    "auditArgs": [
+      14,
+      18,
+      8
+    ],
+    "auditExpected": 40,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-02-P02",
+    "topicId": "PS01-02",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Voltage level in volts is best classified as which type of recorded variable?",
+    "options": [
+      "Nominal category",
+      "Ordinal category",
+      "Quantitative measurement",
+      "Unordered identifier"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Voltage is a numerical physical measurement and has meaningful numerical differences."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-03-P02",
+    "topicId": "PS01-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Measured offsets from nominal are 1, 3, 5 and 7 mV. What is their arithmetic mean in mV?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "(1+3+5+7)/4=4 mV."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "mean",
+    "auditArgs": [
+      1,
+      3,
+      5,
+      7
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-04-P02",
+    "topicId": "PS01-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A failure histogram has frequencies 3, 5, 4 and 8. How many devices are represented in total?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "24"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Count the frequencies: 3+5+4+8=20."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "sum",
+    "auditArgs": [
+      3,
+      5,
+      4,
+      8
+    ],
+    "auditExpected": 20,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-05-P01",
+    "topicId": "PS01-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Five shifts provide 6 randomly selected inspection units each. How many inspected units are in the stratified plan?",
+    "options": [
+      "24",
+      "28",
+      "30",
+      "36"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Each of 5 strata contributes 6 units, total 5×6=30."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "product",
+    "auditArgs": [
+      5,
+      6
+    ],
+    "auditExpected": 30,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-05-P02",
+    "topicId": "PS01-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which sampling method first divides all boards by shift and then randomly samples within every shift?",
+    "options": [
+      "Cluster sampling",
+      "Stratified random sampling",
+      "Convenience sampling",
+      "Complete census"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Strata are production shifts, with random selection inside each stratum."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-06-P01",
+    "topicId": "PS01-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Of 125 sensor records, 9 are missing and 4 additional, nonoverlapping records fail calibration validation. How many usable records remain?",
+    "options": [
+      "108",
+      "112",
+      "116",
+      "120"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The two excluded groups are distinct: 9 missing and 4 separate invalid records.",
+      "Usable records = 125−9−4 = 112."
+    ],
+    "restriction": "The missing and invalid-record counts must not overlap; overlapping exclusions require inclusion–exclusion. This does not address missingness bias.",
+    "auditRule": "subtract",
+    "auditArgs": [
+      125,
+      9,
+      4
+    ],
+    "auditExpected": 112,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-06-P02",
+    "topicId": "PS01-06",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Component package style (DIP, QFN, BGA) is categorized as what measurement scale?",
+    "options": [
+      "Nominal",
+      "Ordinal",
+      "Interval",
+      "Ratio"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Package-type labels are unordered categories, even if encoded with numeric codes."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-07-P01",
+    "topicId": "PS01-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Resistance values 10 and 20 ohms have frequencies 3 and 2. What is the frequency-weighted mean in ohms?",
+    "options": [
+      "12",
+      "14",
+      "15",
+      "16"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Weighted mean=(3×10+2×20)/(3+2)=70/5=14."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "weighted",
+    "auditArgs": [
+      10,
+      3,
+      20,
+      2
+    ],
+    "auditExpected": 14,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-07-P02",
+    "topicId": "PS01-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A sample contains voltage residuals 1, 3 and 5 volts. What is the unbiased sample variance in V²?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Sample mean=3; squared deviations are 4, 0, 4; divide 8 by n−1=2 for s²=4."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "samplevar",
+    "auditArgs": [
+      1,
+      3,
+      5
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-08-P01",
+    "topicId": "PS01-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A distribution has lower quartile 7 and upper quartile 19. What is the interquartile range?",
+    "options": [
+      "9",
+      "11",
+      "12",
+      "26"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "IQR=19−7=12."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "difference",
+    "auditArgs": [
+      19,
+      7
+    ],
+    "auditExpected": 12,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-08-P02",
+    "topicId": "PS01-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A board-lifetime sample has Q1=20 and Q3=28 days. What is its upper 1.5-IQR fence?",
+    "options": [
+      "32",
+      "36",
+      "40",
+      "44"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "IQR=8; upper fence=28+1.5×8=40 days."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "fence",
+    "auditArgs": [
+      20,
+      28
+    ],
+    "auditExpected": 40,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-09-P01",
+    "topicId": "PS01-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For paired data x=[1,2,3], y=[2,3,4], calculate sample covariance.",
+    "options": [
+      "0",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Means 2 and 3; cross products sum 2; sample covariance=2/(3−1)=1."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "cov3",
+    "auditArgs": [
+      1,
+      2,
+      3,
+      2,
+      3,
+      4
+    ],
+    "auditExpected": 1,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-09-P02",
+    "topicId": "PS01-09",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A paired-voltage scatterplot curves upward then downward. Which conclusion about sample covariance is justified?",
+    "options": [
+      "Zero covariance means independence",
+      "Covariance describes linear co-movement only",
+      "Covariance always equals slope",
+      "Covariance is always between −1 and 1"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The covariance sign and size characterize sample linear co-movement and depend on measurement scales."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-10-P01",
+    "topicId": "PS01-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A random inspection finds 21 nonconforming boards among 300. What sample defect proportion is observed?",
+    "options": [
+      "0.05",
+      "0.06",
+      "0.07",
+      "0.09"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Observed proportion=21/300=0.07."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": "divide",
+    "auditArgs": [
+      21,
+      300
+    ],
+    "auditExpected": 0.07,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS01-10-P02",
+    "topicId": "PS01-10",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What chiefly distinguishes random assignment of a treatment from random sampling of units?",
+    "options": [
+      "They are identical",
+      "Assignment supports causal comparisons",
+      "Sampling always guarantees causation",
+      "Assignment removes all measurement error"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Random assignment helps control confounding in treatment comparisons; sampling concerns representativeness."
+    ],
+    "restriction": "Interpret results only for the stated sampling design and population; avoid mistaking convenience samples for random samples.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-01-P02",
+    "topicId": "PS02-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A configuration sequence has three switch stages, each with four available settings; every setting may be paired with every setting at the other stages. How many complete configurations are possible?",
+    "options": [
+      "12",
+      "16",
+      "48",
+      "64"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "By the fundamental counting principle, each of the 4 choices in stage 1 can be followed by 4 at stage 2 and 4 at stage 3: 4×4×4=64. Random-event independence is not needed for counting."
+    ],
+    "restriction": "Counting configurations requires that all stated combinations are permitted; it does not require statistically independent random switches.",
+    "auditRule": "power",
+    "auditArgs": [
+      4,
+      3
+    ],
+    "auditExpected": 64,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-02-P02",
+    "topicId": "PS02-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Calculate the number of ordered ways to choose two distinct modules from eight distinct modules.",
+    "options": [
+      "16",
+      "28",
+      "56",
+      "64"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "8P2=8×7=56."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "perm",
+    "auditArgs": [
+      8,
+      2
+    ],
+    "auditExpected": 56,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-03-P02",
+    "topicId": "PS02-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many ways are there to select four distinct resistors from seven different resistors, ignoring selection order?",
+    "options": [
+      "21",
+      "28",
+      "35",
+      "210"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "C(7,4)=35."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "choose",
+    "auditArgs": [
+      7,
+      4
+    ],
+    "auditExpected": 35,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-04-P02",
+    "topicId": "PS02-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Six freely configurable binary switches can each be 0 or 1, with every six-bit setting allowed. How many distinct configurations exist?",
+    "options": [
+      "12",
+      "32",
+      "36",
+      "64"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "Each of the six stages has two available settings and every combination is permitted, giving 2^6=64 configurations."
+    ],
+    "restriction": "The 64 configurations are a counting result, not a claim that random bit values are statistically independent or equally likely.",
+    "auditRule": "power",
+    "auditArgs": [
+      2,
+      6
+    ],
+    "auditExpected": 64,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-05-P01",
+    "topicId": "PS02-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many different strings can be formed from letters A,A,B,B,C?",
+    "options": [
+      "12",
+      "24",
+      "30",
+      "60"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "5!/(2!2!1!)=120/4=30."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "multinomial",
+    "auditArgs": [
+      2,
+      2,
+      1
+    ],
+    "auditExpected": 30,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-05-P02",
+    "topicId": "PS02-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "When arranging repeated identical pieces, what adjustment removes repeated orderings?",
+    "options": [
+      "Add all multiplicities",
+      "Divide by factorials of identical-piece counts",
+      "Multiply by all multiplicities",
+      "Always divide by n"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Repeated identical objects make some n! label permutations indistinguishable, so divide by multiplicity factorials."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-06-P01",
+    "topicId": "PS02-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Six different antennas surround a circular platform. Rotations are considered identical, reflections distinct. How many circular orders?",
+    "options": [
+      "24",
+      "60",
+      "120",
+      "720"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Fix one antenna and arrange other five: 5!=120."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "circular",
+    "auditArgs": [
+      6
+    ],
+    "auditExpected": 120,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-06-P02",
+    "topicId": "PS02-06",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Six numbered seats are fixed around a circular stage. Are rotations of people automatically equivalent in this labeled-seat problem?",
+    "options": [
+      "Yes, because seats form a circle",
+      "No, because fixed seat labels make positions distinct",
+      "Yes, because n people always yield (n−1)!",
+      "No, because all circular problems require n!÷2"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Labeled physical seats are distinct positions; rotating the occupants changes assigned seats."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-07-P01",
+    "topicId": "PS02-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A parts request chooses four indistinguishable cables from two types with unlimited supply. How many type-count combinations?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Solutions to x1+x2=4, xi≥0: C(5,4)=5."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "starsbars",
+    "auditArgs": [
+      2,
+      4
+    ],
+    "auditExpected": 5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-07-P02",
+    "topicId": "PS02-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many nonnegative integer triples (x,y,z) satisfy x+y+z=4?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "20"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Stars-and-bars count C(3+4−1,4)=C(6,4)=15."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "starsbars",
+    "auditArgs": [
+      3,
+      4
+    ],
+    "auditExpected": 15,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-08-P01",
+    "topicId": "PS02-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Of 100 units, 35 have fault A, 28 have fault B and 10 have both. How many have at least one fault?",
+    "options": [
+      "43",
+      "53",
+      "63",
+      "73"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Inclusion–exclusion: 35+28−10=53."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "inclusion",
+    "auditArgs": [
+      35,
+      28,
+      10
+    ],
+    "auditExpected": 53,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-08-P02",
+    "topicId": "PS02-08",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Why does simply adding counts from two overlapping fault categories overcount affected boards?",
+    "options": [
+      "It ignores the complement",
+      "It counts boards in both categories twice",
+      "It assumes no boards were tested",
+      "It divides all categories by sample size"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Overlapping members belong to both sets and are included twice unless the intersection is subtracted."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-09-P01",
+    "topicId": "PS02-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many 5-bit binary strings contain at least one 1?",
+    "options": [
+      "15",
+      "16",
+      "30",
+      "31"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "There are 2^5=32 possible strings and only the all-zero string has no 1. 32−1=31."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "complementbit",
+    "auditArgs": [
+      5
+    ],
+    "auditExpected": 31,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-09-P02",
+    "topicId": "PS02-09",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Nine boards are placed in eight bins. What must be true?",
+    "options": [
+      "Every bin holds at least one board",
+      "Two boards share at least one bin",
+      "Exactly one bin has two boards",
+      "One bin has nine boards"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The pigeonhole principle guarantees at least one bin contains at least two boards."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-10-P01",
+    "topicId": "PS02-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "How many unordered sets of 3 devices can be selected from 9 distinct devices?",
+    "options": [
+      "27",
+      "72",
+      "84",
+      "504"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "C(9,3)=9×8×7/(3×2×1)=84."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": "choose",
+    "auditArgs": [
+      9,
+      3
+    ],
+    "auditExpected": 84,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS02-10-P02",
+    "topicId": "PS02-10",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which identity expresses symmetry of binomial coefficients?",
+    "options": [
+      "C(n,r)=C(r,n)",
+      "C(n,r)=C(n,n−r)",
+      "C(n,r)=n×r",
+      "C(n,r)=n!×r!"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Choosing r of n objects is equivalent to choosing the n−r objects to omit."
+    ],
+    "restriction": "Select the correct counting model and check whether positions or objects are distinguishable, and whether replacement is allowed.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-01-P02",
+    "topicId": "PS03-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An event can occur in 18 of 60 equally likely outcomes. What probability does it have?",
+    "options": [
+      "0.2",
+      "0.3",
+      "0.4",
+      "0.6"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "18/60=0.30 for equally likely sample-space outcomes."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "divide",
+    "auditArgs": [
+      18,
+      60
+    ],
+    "auditExpected": 0.3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-02-P02",
+    "topicId": "PS03-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two mutually exclusive alarms have probabilities 0.12 and 0.19. What is probability at least one triggers?",
+    "options": [
+      "0.07",
+      "0.31",
+      "0.33",
+      "0.43"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "P(A∪B)=P(A)+P(B)=0.31 because events are disjoint."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "sum",
+    "auditArgs": [
+      0.12,
+      0.19
+    ],
+    "auditExpected": 0.31,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-03-P02",
+    "topicId": "PS03-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An inspection has P(A∩B)=0.15 and P(B)=0.50. What is P(A|B)?",
+    "options": [
+      "0.15",
+      "0.25",
+      "0.30",
+      "0.65"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "P(A|B)=P(A∩B)/P(B)=0.15/0.50=0.30."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "divide",
+    "auditArgs": [
+      0.15,
+      0.5
+    ],
+    "auditExpected": 0.3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-04-P02",
+    "topicId": "PS03-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Under independence, a system needs two subsystems with reliabilities 0.95 and 0.90 to work. What is joint success probability?",
+    "options": [
+      "0.805",
+      "0.855",
+      "0.875",
+      "0.95"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Multiply 0.95×0.90=0.855."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "product",
+    "auditArgs": [
+      0.95,
+      0.9
+    ],
+    "auditExpected": 0.855,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-05-P01",
+    "topicId": "PS03-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two suppliers provide 70% and 30% of output with defect rates 0.01 and 0.04. What overall defect probability results?",
+    "options": [
+      "0.010",
+      "0.019",
+      "0.025",
+      "0.040"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Use law of total probability: 0.7×0.01+0.3×0.04=0.019."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "total2",
+    "auditArgs": [
+      0.7,
+      0.01,
+      0.3,
+      0.04
+    ],
+    "auditExpected": 0.019,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-05-P02",
+    "topicId": "PS03-05",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A formula sums P(defect|supplier) terms without weighting suppliers. What is missing?",
+    "options": [
+      "Squared probabilities",
+      "Supplier prior probabilities",
+      "A factorial coefficient",
+      "A normal approximation"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The total-probability formula weights each conditional rate by the probability of its supplier group."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-06-P01",
+    "topicId": "PS03-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Prevalence is 0.20, sensitivity is 0.80, and false-positive probability is 0.20. What is P(defect|positive)?",
+    "options": [
+      "0.20",
+      "0.40",
+      "0.50",
+      "0.80"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Defective positives: 0.2×0.8=0.16; nondefective positives: 0.8×0.2=0.16; PPV=0.16/0.32=0.5."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "bayes_ppv",
+    "auditArgs": [
+      0.2,
+      0.8,
+      0.2
+    ],
+    "auditExpected": 0.5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-06-P02",
+    "topicId": "PS03-06",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which additional input is needed to interpret an inspection with known sensitivity and false-positive rate?",
+    "options": [
+      "Population defect prevalence",
+      "Number of unrelated spreadsheets",
+      "Number of graph colors",
+      "Resistor tolerance unit"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Bayesian positive predictive value depends on the prevalence or prior probability of defects."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-07-P01",
+    "topicId": "PS03-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Three independent series components each have reliability 0.9. What is system reliability?",
+    "options": [
+      "0.729",
+      "0.810",
+      "0.900",
+      "0.999"
+    ],
+    "correctIndex": 0,
+    "work": [
+      "Series reliability=0.9×0.9×0.9=0.729."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "product",
+    "auditArgs": [
+      0.9,
+      0.9,
+      0.9
+    ],
+    "auditExpected": 0.729,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-07-P02",
+    "topicId": "PS03-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two independent redundant parallel subsystems have reliabilities 0.6 and 0.7. What is system reliability?",
+    "options": [
+      "0.42",
+      "0.70",
+      "0.82",
+      "0.88"
+    ],
+    "correctIndex": 3,
+    "work": [
+      "The only failure state is both fail: (0.4)(0.3)=0.12; reliability=0.88."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "parallel",
+    "auditArgs": [
+      0.6,
+      0.7
+    ],
+    "auditExpected": 0.88,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-08-P01",
+    "topicId": "PS03-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An unwanted event has probability 0.25. What are its odds in favor, expressed as a decimal ratio?",
+    "options": [
+      "0.25",
+      "0.3333",
+      "0.5",
+      "0.75"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Odds=p/(1−p)=0.25/0.75≈0.3333."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "odds",
+    "auditArgs": [
+      0.25
+    ],
+    "auditExpected": 0.3333333333333333,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-08-P02",
+    "topicId": "PS03-08",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "A reliability report says “odds in favor are 4:1.” What is the corresponding event probability?",
+    "options": [
+      "0.2",
+      "0.4",
+      "0.8",
+      "0.9"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Probability=4/(4+1)=0.8."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-09-P01",
+    "topicId": "PS03-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A lot contains 6 working and 4 faulty units. If two are drawn without replacement, what is probability both are working?",
+    "options": [
+      "0.20",
+      "0.30",
+      "0.3333",
+      "0.60"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Draw one working: 6/10; second working given first: 5/9; product=1/3."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "without_replacement",
+    "auditArgs": [
+      6,
+      4,
+      2
+    ],
+    "auditExpected": 0.3333333333333333,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-09-P02",
+    "topicId": "PS03-09",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which sampling situation typically makes two successive draws dependent?",
+    "options": [
+      "Returning and remixing the first part",
+      "Drawing without replacement from a small lot",
+      "Independent trials with fixed success rate",
+      "Two independent coin tosses"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Removing an item changes the composition of the remaining population."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-10-P01",
+    "topicId": "PS03-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A table has 45 units satisfying both A and B out of 90 units satisfying B. Estimate P(A|B).",
+    "options": [
+      "0.25",
+      "0.40",
+      "0.50",
+      "0.75"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Conditional fraction=45/90=0.5."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": "divide",
+    "auditArgs": [
+      45,
+      90
+    ],
+    "auditExpected": 0.5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS03-10-P02",
+    "topicId": "PS03-10",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "If P(A)=0.5, P(B)=0.4 and P(A∩B)=0.2, what follows?",
+    "options": [
+      "A and B are mutually exclusive",
+      "A and B are independent",
+      "A implies B",
+      "P(A|B)=0"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The product P(A)P(B)=0.5×0.4=0.2 equals the stated intersection probability."
+    ],
+    "restriction": "Apply probability rules only with the stated conditioning, exhaustiveness, and independence assumptions.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-01-P02",
+    "topicId": "PS04-01",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A discrete variable has outcomes 1, 2, 3 with probabilities 0.2, 0.3, 0.5. What is its expected value?",
+    "options": [
+      "1.8",
+      "2.1",
+      "2.3",
+      "2.8"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "E(X)=1(0.2)+2(0.3)+3(0.5)=2.3."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "expect",
+    "auditArgs": [
+      1,
+      0.2,
+      2,
+      0.3,
+      3,
+      0.5
+    ],
+    "auditExpected": 2.3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-02-P02",
+    "topicId": "PS04-02",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An independent set of 5 Bernoulli trials has constant success probability p=0.4. What is the probability of exactly 2 successes?",
+    "options": [
+      "0.2304",
+      "0.2592",
+      "0.3456",
+      "0.4608"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Use the binomial PMF: C(5,2)(0.4)^2(0.6)^3.",
+      "The value is 10×0.16×0.216 = 0.3456."
+    ],
+    "restriction": "This binomial model requires five independent trials with the same 0.4 success probability; the scenario is intentionally different from the other PS04-02 practice item.",
+    "auditRule": "binomial",
+    "auditArgs": [
+      5,
+      2,
+      0.4
+    ],
+    "auditExpected": 0.3456,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-03-P02",
+    "topicId": "PS04-03",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A Poisson count variable has λ=3. What is its variance?",
+    "options": [
+      "1",
+      "1.732",
+      "3",
+      "9"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "For Poisson(λ), variance equals λ=3."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "identity",
+    "auditArgs": [
+      3
+    ],
+    "auditExpected": 3,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-04-P02",
+    "topicId": "PS04-04",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A normally distributed measurement has μ=100 and σ=8. Find z-score at x=116.",
+    "options": [
+      "1",
+      "1.5",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Standardize: (116−100)/8=2."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "zscore",
+    "auditArgs": [
+      116,
+      100,
+      8
+    ],
+    "auditExpected": 2,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-05-P01",
+    "topicId": "PS04-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "For independent trials with success probability p=0.25, what is expected trial count through first success?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "The mean of trial-count geometric variable is 1/p=4."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "geomean",
+    "auditArgs": [
+      0.25
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-05-P02",
+    "topicId": "PS04-05",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Independent attempts succeed with probability 0.5. What is the probability first success occurs on trial 3?",
+    "options": [
+      "0.0625",
+      "0.125",
+      "0.25",
+      "0.5"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "P(X=3)=(1−0.5)^2×0.5=0.125."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "geomp",
+    "auditArgs": [
+      3,
+      0.5
+    ],
+    "auditExpected": 0.125,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-06-P01",
+    "topicId": "PS04-06",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A batch has 8 good and 4 defective parts. Three are drawn without replacement. What is P(exactly 1 defective)?",
+    "options": [
+      "0.2182",
+      "0.4364",
+      "0.5091",
+      "0.7273"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Hypergeometric: C(4,1)C(8,2)/C(12,3)=4×28/220≈0.5091."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "hypergeom",
+    "auditArgs": [
+      12,
+      4,
+      3,
+      1
+    ],
+    "auditExpected": 0.509090909090909,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-06-P02",
+    "topicId": "PS04-06",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "Which model is exact for counting defective units in a fixed sample from a finite lot without replacement?",
+    "options": [
+      "Poisson",
+      "Hypergeometric",
+      "Exponential",
+      "Normal"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "The hypergeometric model captures the changing composition of a finite population without replacement."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-07-P01",
+    "topicId": "PS04-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An exponential lifetime has rate λ=0.25 per hour. What is its mean lifetime in hours?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Mean exponential lifetime is 1/λ=4 hours."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "geomean",
+    "auditArgs": [
+      0.25
+    ],
+    "auditExpected": 4,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-07-P02",
+    "topicId": "PS04-07",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "An exponential waiting time has rate λ=ln(2) per hour. What is P(T>1 hour)?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.6321",
+      "0.75"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "Survival S(1)=exp(−ln 2)=0.5."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "exp_survival",
+    "auditArgs": [
+      0.6931471805599453,
+      1
+    ],
+    "auditExpected": 0.5,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-08-P01",
+    "topicId": "PS04-08",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "A cumulative distribution has F(2)=0.18 and F(8)=0.73. Find P(2<X≤8).",
+    "options": [
+      "0.37",
+      "0.45",
+      "0.55",
+      "0.91"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Interval probability=F(8)−F(2)=0.73−0.18=0.55."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "difference",
+    "auditArgs": [
+      0.73,
+      0.18
+    ],
+    "auditExpected": 0.55,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-08-P02",
+    "topicId": "PS04-08",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "What does an upward jump of a discrete CDF at x=4 represent?",
+    "options": [
+      "The density at exactly x=4",
+      "P(X=4)",
+      "A negative probability",
+      "The sample variance"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "CDF jump height F(4)−F(4−) is the probability mass at 4."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-09-P01",
+    "topicId": "PS04-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Independent random measurement errors have variances 9 and 16. What is variance of their sum?",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "49"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Under independence covariance is zero, so Var(X+Y)=9+16=25."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "sum",
+    "auditArgs": [
+      9,
+      16
+    ],
+    "auditExpected": 25,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-09-P02",
+    "topicId": "PS04-09",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "Two random errors have variances 4 and 9, and covariance 2. What is Var(X+Y)?",
+    "options": [
+      "9",
+      "13",
+      "17",
+      "25"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "Var(X+Y)=4+9+2(2)=17."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "varsum",
+    "auditArgs": [
+      4,
+      9,
+      2
+    ],
+    "auditExpected": 17,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-10-P01",
+    "topicId": "PS04-10",
+    "kind": "calculation",
+    "level": "Applied",
+    "prompt": "With X~Binomial(100,0.5), compute continuity-corrected z cutoff for approximation to P(X≤59).",
+    "options": [
+      "1.7",
+      "1.8",
+      "1.9",
+      "2.0"
+    ],
+    "correctIndex": 2,
+    "work": [
+      "np=50, sd=5, corrected upper point 59.5; z=(59.5−50)/5=1.9."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": "continuity",
+    "auditArgs": [
+      100,
+      0.5,
+      59
+    ],
+    "auditExpected": 1.9,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  },
+  {
+    "id": "PS04-10-P02",
+    "topicId": "PS04-10",
+    "kind": "concept",
+    "level": "Applied",
+    "prompt": "When is a binomial normal approximation most likely to be poor?",
+    "options": [
+      "Large expected successes and failures",
+      "Very small np with extreme p",
+      "Symmetric p=0.5 with large n",
+      "Both np and n(1−p) comfortably large"
+    ],
+    "correctIndex": 1,
+    "work": [
+      "A normal approximation may be inaccurate when expected counts are small, particularly for highly skewed binomial models."
+    ],
+    "restriction": "Check the distribution model, parameterization, support, and approximation assumptions before calculating probabilities.",
+    "auditRule": null,
+    "auditArgs": [],
+    "auditExpected": null,
+    "guidedOnly": false,
+    "assessmentEligible": false,
+    "reviewStatus": "editorial-pending",
+    "origin": "v10.62.0"
+  }
+]

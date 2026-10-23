@@ -1,0 +1,722 @@
+[
+  {
+    "id": "TRI42-071-001",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Basic",
+    "family": "arcsin-positive",
+    "prompt": "arcsin(1/2) equals which angle in radians?",
+    "options": [
+      "5π/6",
+      "π/6",
+      "π/3",
+      "−π/6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Because sin(π/6)=1/2 and π/6 is in the arcsin range [−π/2,π/2]."
+  },
+  {
+    "id": "TRI42-071-002",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Basic",
+    "family": "arccos-positive",
+    "prompt": "arccos(1/2) equals which angle?",
+    "options": [
+      "π/3",
+      "−π/3",
+      "2π/3",
+      "π/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine of π/3 is 1/2; arccos returns an angle from 0 through π."
+  },
+  {
+    "id": "TRI42-071-003",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Basic",
+    "family": "arctan-negative",
+    "prompt": "arctan(−1) equals which angle?",
+    "options": [
+      "3π/4",
+      "π/4",
+      "−3π/4",
+      "−π/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "Tangent of −π/4 is −1, and the result lies between −π/2 and π/2."
+  },
+  {
+    "id": "TRI42-071-004",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Basic",
+    "family": "input-domain",
+    "prompt": "What is the real domain of arcsin x?",
+    "options": [
+      "All real numbers",
+      "[0,π]",
+      "[−1,1]",
+      "(−π/2,π/2)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Only ratios between −1 and 1 are possible for real sine values; the principal angle is the output."
+  },
+  {
+    "id": "TRI42-071-005",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Intermediate",
+    "family": "principal-negative",
+    "prompt": "Which expression returns a principal angle whose cosine is −1?",
+    "options": [
+      "arccos(−1)=−π",
+      "arccos(−1)=π",
+      "arcsin(−1)=π",
+      "arctan(−1)=π"
+    ],
+    "correctIndex": 1,
+    "explanation": "The inverse cosine range is [0,π], so the principal angle with cosine −1 is π."
+  },
+  {
+    "id": "TRI42-071-006",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Intermediate",
+    "family": "arctan-root",
+    "prompt": "Evaluate arctan(√3) exactly.",
+    "options": [
+      "π/3",
+      "2π/3",
+      "−π/3",
+      "π/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since tan(π/3)=√3 and π/3 belongs to the arctangent output interval, the exact answer is π/3."
+  },
+  {
+    "id": "TRI42-071-007",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Intermediate",
+    "family": "arcsin-endpoint",
+    "prompt": "Evaluate arcsin(−1) in radians.",
+    "options": [
+      "π/2",
+      "3π/2",
+      "−π",
+      "−π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sine is −1 at −π/2, the negative endpoint of the arcsin principal interval."
+  },
+  {
+    "id": "TRI42-071-008",
+    "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+    "difficulty": "Advanced",
+    "family": "inverse-v-reciprocal",
+    "prompt": "Which notation represents reciprocal sine rather than inverse sine?",
+    "options": [
+      "arcsin x = 1/sin x",
+      "sin⁻¹ x = 1/sin x",
+      "csc x = 1/sin x",
+      "arctan x = 1/tan x"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cosecant is reciprocal sine; arcsin or sin⁻¹ denote the inverse sine function."
+  },
+  {
+    "id": "TRI42-072-001",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Basic",
+    "family": "arcsec-positive",
+    "prompt": "For this app, what is arcsec(2)?",
+    "options": [
+      "π/6",
+      "2π/3",
+      "−π/3",
+      "π/3"
+    ],
+    "correctIndex": 3,
+    "explanation": "arcsec(2)=arccos(1/2)=π/3 using the principal arccos range."
+  },
+  {
+    "id": "TRI42-072-002",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Basic",
+    "family": "arccsc-negative",
+    "prompt": "Under the declared convention, arccsc(−2) equals:",
+    "options": [
+      "5π/6",
+      "−π/3",
+      "−π/6",
+      "π/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "arccsc(−2)=arcsin(−1/2)=−π/6 on the chosen cosecant inverse branch."
+  },
+  {
+    "id": "TRI42-072-003",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Basic",
+    "family": "sec-domain",
+    "prompt": "What is the real domain of arcsec(x) as defined in this app?",
+    "options": [
+      "−1≤x≤1",
+      "x≤−1 or x≥1",
+      "x>0",
+      "All real x"
+    ],
+    "correctIndex": 1,
+    "explanation": "arcsec x=arccos(1/x) requires |1/x|≤1, so |x|≥1."
+  },
+  {
+    "id": "TRI42-072-004",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Intermediate",
+    "family": "arccot-positive",
+    "prompt": "Using arccot(x)∈(0,π), what is arccot(1)?",
+    "options": [
+      "π/4",
+      "3π/4",
+      "−π/4",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "cot(π/4)=1 and π/4 belongs to our declared arccot range."
+  },
+  {
+    "id": "TRI42-072-005",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Intermediate",
+    "family": "arccot-negative",
+    "prompt": "Using arccot(x)∈(0,π), what is arccot(−1)?",
+    "options": [
+      "−π/4",
+      "π/4",
+      "5π/4",
+      "3π/4"
+    ],
+    "correctIndex": 3,
+    "explanation": "cot(3π/4)=−1; the selected branch of arccot is (0,π)."
+  },
+  {
+    "id": "TRI42-072-006",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Intermediate",
+    "family": "arcsec-negative-endpoint",
+    "prompt": "With this app’s branches, what is arcsec(−1)?",
+    "options": [
+      "0",
+      "−π",
+      "π",
+      "π/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "arcsec(−1)=arccos(−1)=π, and secπ=−1."
+  },
+  {
+    "id": "TRI42-072-007",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Advanced",
+    "family": "inverse-domain",
+    "prompt": "Which expression is not real-valued under the declared branches?",
+    "options": [
+      "arcsec(−2)",
+      "arccsc(1/2)",
+      "arccot(0)",
+      "arccsc(−1)"
+    ],
+    "correctIndex": 1,
+    "explanation": "|1/2|<1 violates the real inverse-cosecant domain; the other values have valid real branches."
+  },
+  {
+    "id": "TRI42-072-008",
+    "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+    "difficulty": "Advanced",
+    "family": "arccot-zero",
+    "prompt": "Using arccot(x)∈(0,π), what is arccot(0)?",
+    "options": [
+      "π/2",
+      "0",
+      "π",
+      "−π/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "cot(π/2)=0 and π/2 lies strictly between 0 and π; end angles themselves are not attained."
+  },
+  {
+    "id": "TRI42-073-001",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Basic",
+    "family": "arcsin-domain",
+    "prompt": "Which x-values make arcsin(x) real?",
+    "options": [
+      "x≥0",
+      "−1≤x≤1",
+      "x>1",
+      "All real x"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sine of a real angle is between −1 and 1 inclusive, so arcsin has that input domain."
+  },
+  {
+    "id": "TRI42-073-002",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Basic",
+    "family": "arccos-branch",
+    "prompt": "What is the principal output range of arccos(x)?",
+    "options": [
+      "[0,π]",
+      "[−π/2,π/2]",
+      "(−π/2,π/2)",
+      "All real numbers"
+    ],
+    "correctIndex": 0,
+    "explanation": "The restricted cosine function is one-to-one over 0≤θ≤π, which becomes the output range of arccos."
+  },
+  {
+    "id": "TRI42-073-003",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "linear-domain",
+    "prompt": "What is the real domain of arcsin(2x−1)?",
+    "options": [
+      "[−1,1]",
+      "[0,2]",
+      "All real x",
+      "[0,1]"
+    ],
+    "correctIndex": 3,
+    "explanation": "Require −1≤2x−1≤1, then add 1 and divide by 2 to obtain 0≤x≤1."
+  },
+  {
+    "id": "TRI42-073-004",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "fold-positive",
+    "prompt": "Find arcsin(sin(5π/6)).",
+    "options": [
+      "5π/6",
+      "−π/6",
+      "π/6",
+      "−5π/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "sin(5π/6)=1/2 and arcsin(1/2)=π/6, the principal angle."
+  },
+  {
+    "id": "TRI42-073-005",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "fold-tangent",
+    "prompt": "Find arctan(tan(3π/4)).",
+    "options": [
+      "3π/4",
+      "−π/4",
+      "π/4",
+      "−3π/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "tan(3π/4)=−1; arctan(−1)=−π/4 belongs to (−π/2,π/2)."
+  },
+  {
+    "id": "TRI42-073-006",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Intermediate",
+    "family": "domain-inequality",
+    "prompt": "For which x is arccos(3−x) real?",
+    "options": [
+      "[2,4]",
+      "[−1,1]",
+      "[3,5]",
+      "(2,4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Require −1≤3−x≤1, giving 2≤x≤4; endpoints yield valid inverse cosine values."
+  },
+  {
+    "id": "TRI42-073-007",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Advanced",
+    "family": "fold-cosine",
+    "prompt": "Find arccos(cos(4π/3)).",
+    "options": [
+      "4π/3",
+      "−2π/3",
+      "π/3",
+      "2π/3"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos(4π/3)=−1/2; arccos(−1/2)=2π/3 in [0,π]."
+  },
+  {
+    "id": "TRI42-073-008",
+    "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+    "difficulty": "Advanced",
+    "family": "arctan-range",
+    "prompt": "Which is the valid output range of arctan x?",
+    "options": [
+      "[−π/2,π/2]",
+      "[0,π]",
+      "(−π/2,π/2)",
+      "All real numbers"
+    ],
+    "correctIndex": 2,
+    "explanation": "Arctangent never reaches the angles ±π/2; those are horizontal asymptotes of its graph."
+  },
+  {
+    "id": "TRI42-074-001",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Basic",
+    "family": "intercept-sine",
+    "prompt": "The graph y=arcsin(x) passes through which point?",
+    "options": [
+      "(0,π/2)",
+      "(1,0)",
+      "(−1,0)",
+      "(0,0)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Since sin 0=0 and 0 is in the principal range, arcsin 0=0."
+  },
+  {
+    "id": "TRI42-074-002",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Basic",
+    "family": "intercept-cosine",
+    "prompt": "What is the y-intercept of y=arccos(x)?",
+    "options": [
+      "0",
+      "π",
+      "π/2",
+      "−π/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "At x=0, arccos 0=π/2; this graph decreases from y=π to y=0."
+  },
+  {
+    "id": "TRI42-074-003",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Basic",
+    "family": "monotonicity",
+    "prompt": "Which inverse trigonometric function is decreasing on its real domain?",
+    "options": [
+      "arcsin x",
+      "arccos x",
+      "arctan x",
+      "x"
+    ],
+    "correctIndex": 1,
+    "explanation": "The principal arccos curve decreases from π to 0 as x increases from −1 to 1."
+  },
+  {
+    "id": "TRI42-074-004",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Intermediate",
+    "family": "arctan-asymptote",
+    "prompt": "What is the upper horizontal asymptote of y=arctan x?",
+    "options": [
+      "y=π/2",
+      "y=π",
+      "x=π/2",
+      "y=0"
+    ],
+    "correctIndex": 0,
+    "explanation": "As x approaches positive infinity, arctan x approaches π/2 without reaching that value."
+  },
+  {
+    "id": "TRI42-074-005",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Intermediate",
+    "family": "arcsin-endpoint",
+    "prompt": "What is the point on y=arcsin x at x=1?",
+    "options": [
+      "(1,0)",
+      "(1,π)",
+      "(1,−π/2)",
+      "(1,π/2)"
+    ],
+    "correctIndex": 3,
+    "explanation": "The principal inverse sine takes the endpoint input 1 to π/2, so this is a closed endpoint."
+  },
+  {
+    "id": "TRI42-074-006",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Intermediate",
+    "family": "graph-domain",
+    "prompt": "The graph y=arccos x has what x-domain?",
+    "options": [
+      "All real x",
+      "[0,π]",
+      "[−1,1]",
+      "(−π/2,π/2)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The graph exists only for inputs from −1 through 1; [0,π] is its output range."
+  },
+  {
+    "id": "TRI42-074-007",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Advanced",
+    "family": "graph-reflection",
+    "prompt": "How does the restricted graph y=sin x, −π/2≤x≤π/2, relate to y=arcsin x?",
+    "options": [
+      "They reflect across the x-axis.",
+      "They reflect across y=x.",
+      "They are vertical translates.",
+      "They are the same graph."
+    ],
+    "correctIndex": 1,
+    "explanation": "Taking an inverse swaps x and y; reflection across y=x exchanges the coordinates."
+  },
+  {
+    "id": "TRI42-074-008",
+    "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+    "difficulty": "Advanced",
+    "family": "inverse-asymptotes",
+    "prompt": "Which inverse trig graph has two horizontal asymptotes?",
+    "options": [
+      "y=arctan x",
+      "y=arcsin x",
+      "y=arccos x",
+      "y=sin x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Arctan approaches ±π/2 for large |x|; arcsin and arccos are bounded-domain curves with endpoints."
+  },
+  {
+    "id": "TRI42-075-001",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Basic",
+    "family": "exact-sine-root",
+    "prompt": "Evaluate arcsin(√3/2).",
+    "options": [
+      "π/6",
+      "π/3",
+      "2π/3",
+      "−π/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sine of π/3 is √3/2, and π/3 lies in the arcsin principal range."
+  },
+  {
+    "id": "TRI42-075-002",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Basic",
+    "family": "exact-cos-endpoint",
+    "prompt": "Evaluate arccos(−1).",
+    "options": [
+      "π",
+      "−π",
+      "0",
+      "π/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cosine of π is −1; arccos outputs angles in [0,π]."
+  },
+  {
+    "id": "TRI42-075-003",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Basic",
+    "family": "exact-tan-small",
+    "prompt": "Evaluate arctan(1/√3).",
+    "options": [
+      "π/3",
+      "5π/6",
+      "−π/6",
+      "π/6"
+    ],
+    "correctIndex": 3,
+    "explanation": "tan(π/6)=1/√3 and π/6 is the principal arctangent angle."
+  },
+  {
+    "id": "TRI42-075-004",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Intermediate",
+    "family": "exact-cos-negative",
+    "prompt": "Evaluate arccos(−√2/2).",
+    "options": [
+      "π/4",
+      "−3π/4",
+      "3π/4",
+      "5π/4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cosine equals −√2/2 at 3π/4 in the interval [0,π]."
+  },
+  {
+    "id": "TRI42-075-005",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Intermediate",
+    "family": "exact-sine-negative",
+    "prompt": "Evaluate arcsin(−√3/2).",
+    "options": [
+      "4π/3",
+      "−π/3",
+      "π/3",
+      "−2π/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sine equals −√3/2 at −π/3, an allowed principal value for arcsin."
+  },
+  {
+    "id": "TRI42-075-006",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Intermediate",
+    "family": "exact-tan-negative",
+    "prompt": "Evaluate arctan(−√3).",
+    "options": [
+      "−π/3",
+      "2π/3",
+      "π/3",
+      "−π/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "tan(−π/3)=−√3 and −π/3 belongs to the arctangent range."
+  },
+  {
+    "id": "TRI42-075-007",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Advanced",
+    "family": "nested-exact",
+    "prompt": "Evaluate arcsin(cos(0)).",
+    "options": [
+      "0",
+      "π",
+      "−π/2",
+      "π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos0=1, so arcsin(cos0)=arcsin1=π/2."
+  },
+  {
+    "id": "TRI42-075-008",
+    "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+    "difficulty": "Advanced",
+    "family": "nested-principal",
+    "prompt": "Find arccos(cos(7π/6)).",
+    "options": [
+      "7π/6",
+      "−5π/6",
+      "5π/6",
+      "π/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "cos7π/6=−√3/2, whose principal cosine angle is 5π/6."
+  },
+  {
+    "id": "TRI42-076-001",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Basic",
+    "family": "sine-cosine-compose",
+    "prompt": "Simplify sin(arccos(3/5)).",
+    "options": [
+      "−4/5",
+      "3/5",
+      "5/4",
+      "4/5"
+    ],
+    "correctIndex": 3,
+    "explanation": "If θ=arccos(3/5), sinθ is nonnegative; √(1−9/25)=4/5."
+  },
+  {
+    "id": "TRI42-076-002",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Basic",
+    "family": "cosine-sine-compose",
+    "prompt": "Simplify cos(arcsin(3/5)).",
+    "options": [
+      "−4/5",
+      "3/5",
+      "4/5",
+      "5/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Since arcsin(3/5) is in [−π/2,π/2], cosine is nonnegative: √(1−9/25)=4/5."
+  },
+  {
+    "id": "TRI42-076-003",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Basic",
+    "family": "direct-composition",
+    "prompt": "For all real t, simplify tan(arctan t).",
+    "options": [
+      "1/t",
+      "t",
+      "−t",
+      "|t|"
+    ],
+    "correctIndex": 1,
+    "explanation": "The tangent and its chosen inverse cancel for every real input t."
+  },
+  {
+    "id": "TRI42-076-004",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Intermediate",
+    "family": "compose-negative-cos",
+    "prompt": "Simplify sin(arccos(−4/5)).",
+    "options": [
+      "3/5",
+      "−3/5",
+      "−4/5",
+      "4/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "For θ=arccos(−4/5) in quadrant II, sine is positive: √(1−16/25)=3/5."
+  },
+  {
+    "id": "TRI42-076-005",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Intermediate",
+    "family": "symbolic-sine-to-tan",
+    "prompt": "For −1<x<1, tan(arcsin x) equals:",
+    "options": [
+      "√(1−x²)/x",
+      "x/√(1+x²)",
+      "√(1−x²)",
+      "x/√(1−x²)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Set θ=arcsin x and use cosθ=√(1−x²)>0, hence tanθ=x/√(1−x²)."
+  },
+  {
+    "id": "TRI42-076-006",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Intermediate",
+    "family": "symbolic-tan-to-cos",
+    "prompt": "For all real t, cos(arctan t) equals:",
+    "options": [
+      "t/√(1+t²)",
+      "−1/√(1+t²)",
+      "1/√(1+t²)",
+      "√(1+t²)"
+    ],
+    "correctIndex": 2,
+    "explanation": "For θ=arctan t, cosθ is positive; the adjacent-over-hypotenuse ratio is 1/√(1+t²)."
+  },
+  {
+    "id": "TRI42-076-007",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Advanced",
+    "family": "inverse-outside-branch",
+    "prompt": "Evaluate arcsin(sin(2π/3)).",
+    "options": [
+      "2π/3",
+      "π/3",
+      "−π/3",
+      "4π/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "sin2π/3=√3/2; arcsin selects the principal π/3, not 2π/3."
+  },
+  {
+    "id": "TRI42-076-008",
+    "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+    "difficulty": "Advanced",
+    "family": "composite-domain",
+    "prompt": "Which input makes tan(arcsin x) undefined although arcsin x is real?",
+    "options": [
+      "x=1",
+      "x=0",
+      "x=1/2",
+      "x=−1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "At x=1, arcsin1=π/2 where tangent is undefined; the composite has domain −1<x<1."
+  }
+]

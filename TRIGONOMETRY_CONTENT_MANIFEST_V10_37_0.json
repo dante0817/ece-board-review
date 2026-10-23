@@ -1,0 +1,938 @@
+{
+  "version": "10.37.0",
+  "statusLegend": {
+    "draft": "Original authored pilot material with automated structural and answer-key checks; awaiting independent editorial review",
+    "planned": "Curriculum entry only; no completed lesson or practice bank"
+  },
+  "sourceReferenceRoles": [
+    "Lial 10th",
+    "Schaum 4th",
+    "Kelley Humongous",
+    "Young 3rd",
+    "Sullivan 9th",
+    "Gibilisco DeMYSTiFieD"
+  ],
+  "definedSubtopics": 102,
+  "draftPilotSubtopics": 4,
+  "pilotQuestions": 32,
+  "items": [
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-angles-and-their-classification",
+      "displayNumber": "01.1",
+      "title": "Angles and their classification",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-degrees-minutes-and-seconds-dms",
+      "displayNumber": "01.2",
+      "title": "Degrees, minutes, and seconds (DMS)",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-radian-measure",
+      "displayNumber": "01.3",
+      "title": "Radian measure",
+      "optional": false,
+      "lessonStatus": "draft",
+      "questionCount": 8
+    },
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-degreeradian-conversion",
+      "displayNumber": "01.4",
+      "title": "Degree–radian conversion",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-coterminal-angles-and-rotations",
+      "displayNumber": "01.5",
+      "title": "Coterminal angles and rotations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-arc-length-and-sector-area",
+      "displayNumber": "01.6",
+      "title": "Arc length and sector area",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-angles",
+      "subtopicId": "trig-angles-linear-and-angular-speed",
+      "displayNumber": "01.7",
+      "title": "Linear and angular speed",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-pythagorean-theorem-and-special-triangles",
+      "displayNumber": "02.1",
+      "title": "Pythagorean theorem and special triangles",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-six-trigonometric-ratios",
+      "displayNumber": "02.2",
+      "title": "Six trigonometric ratios",
+      "optional": false,
+      "lessonStatus": "draft",
+      "questionCount": 8
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-exact-values-of-special-angles",
+      "displayNumber": "02.3",
+      "title": "Exact values of special angles",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-cofunction-relations",
+      "displayNumber": "02.4",
+      "title": "Cofunction relations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-finding-unknown-sides-and-angles",
+      "displayNumber": "02.5",
+      "title": "Finding unknown sides and angles",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-solving-right-triangles",
+      "displayNumber": "02.6",
+      "title": "Solving right triangles",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-right-triangles",
+      "subtopicId": "trig-right-triangles-elevation-depression-bearings-and-applications",
+      "displayNumber": "02.7",
+      "title": "Elevation, depression, bearings, and applications",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-angles-in-standard-position",
+      "displayNumber": "03.1",
+      "title": "Angles in standard position",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-unit-circle-definitions",
+      "displayNumber": "03.2",
+      "title": "Unit-circle definitions",
+      "optional": false,
+      "lessonStatus": "draft",
+      "questionCount": 8
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-quadrants-and-signs-of-functions",
+      "displayNumber": "03.3",
+      "title": "Quadrants and signs of functions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-reference-angle-reductions",
+      "displayNumber": "03.4",
+      "title": "Reference-angle reductions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-exact-values-on-the-unit-circle",
+      "displayNumber": "03.5",
+      "title": "Exact values on the unit circle",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-negative-and-coterminal-angles",
+      "displayNumber": "03.6",
+      "title": "Negative and coterminal angles",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-unit-circle",
+      "subtopicId": "trig-unit-circle-evaluating-functions-of-any-angle",
+      "displayNumber": "03.7",
+      "title": "Evaluating functions of any angle",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-domain-range-periodicity-and-symmetry",
+      "displayNumber": "04.1",
+      "title": "Domain, range, periodicity, and symmetry",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-sine-and-cosine-graphs",
+      "displayNumber": "04.2",
+      "title": "Sine and cosine graphs",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-tangent-and-cotangent-graphs",
+      "displayNumber": "04.3",
+      "title": "Tangent and cotangent graphs",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-secant-and-cosecant-graphs",
+      "displayNumber": "04.4",
+      "title": "Secant and cosecant graphs",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-amplitude-and-period",
+      "displayNumber": "04.5",
+      "title": "Amplitude and period",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-phase-shifts-and-vertical-translations",
+      "displayNumber": "04.6",
+      "title": "Phase shifts and vertical translations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-reflections-and-combined-transformations",
+      "displayNumber": "04.7",
+      "title": "Reflections and combined transformations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-graphs",
+      "subtopicId": "trig-graphs-finding-an-equation-from-a-graph",
+      "displayNumber": "04.8",
+      "title": "Finding an equation from a graph",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-basic-identities",
+      "subtopicId": "trig-basic-identities-reciprocal-identities",
+      "displayNumber": "05.1",
+      "title": "Reciprocal identities",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-basic-identities",
+      "subtopicId": "trig-basic-identities-quotient-identities",
+      "displayNumber": "05.2",
+      "title": "Quotient identities",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-basic-identities",
+      "subtopicId": "trig-basic-identities-pythagorean-identities",
+      "displayNumber": "05.3",
+      "title": "Pythagorean identities",
+      "optional": false,
+      "lessonStatus": "draft",
+      "questionCount": 8
+    },
+    {
+      "topicId": "trig-basic-identities",
+      "subtopicId": "trig-basic-identities-evenodd-and-cofunction-identities",
+      "displayNumber": "05.4",
+      "title": "Even–odd and cofunction identities",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-basic-identities",
+      "subtopicId": "trig-basic-identities-simplifying-trig-expressions",
+      "displayNumber": "05.5",
+      "title": "Simplifying trig expressions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-basic-identities",
+      "subtopicId": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+      "displayNumber": "05.6",
+      "title": "Verifying identities and domain restrictions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-sum-and-difference-formulas",
+      "displayNumber": "06.1",
+      "title": "Sum and difference formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-double-angle-formulas",
+      "displayNumber": "06.2",
+      "title": "Double-angle formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-half-angle-formulas",
+      "displayNumber": "06.3",
+      "title": "Half-angle formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-triple-angle-formulas",
+      "displayNumber": "06.4",
+      "title": "Triple-angle formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-power-reduction-formulas",
+      "displayNumber": "06.5",
+      "title": "Power-reduction formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-product-to-sum-formulas",
+      "displayNumber": "06.6",
+      "title": "Product-to-sum formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-sum-to-product-formulas",
+      "displayNumber": "06.7",
+      "title": "Sum-to-product formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced-identities",
+      "subtopicId": "trig-advanced-identities-combining-identities-efficiently",
+      "displayNumber": "06.8",
+      "title": "Combining identities efficiently",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-inverse-functions",
+      "subtopicId": "trig-inverse-functions-inverse-sine-cosine-and-tangent",
+      "displayNumber": "07.1",
+      "title": "Inverse sine, cosine, and tangent",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-inverse-functions",
+      "subtopicId": "trig-inverse-functions-inverse-secant-cosecant-and-cotangent-conventions",
+      "displayNumber": "07.2",
+      "title": "Inverse secant, cosecant, and cotangent conventions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-inverse-functions",
+      "subtopicId": "trig-inverse-functions-principal-values-and-domain-restrictions",
+      "displayNumber": "07.3",
+      "title": "Principal values and domain restrictions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-inverse-functions",
+      "subtopicId": "trig-inverse-functions-graphs-of-inverse-trig-functions",
+      "displayNumber": "07.4",
+      "title": "Graphs of inverse trig functions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-inverse-functions",
+      "subtopicId": "trig-inverse-functions-exact-inverse-function-values",
+      "displayNumber": "07.5",
+      "title": "Exact inverse-function values",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-inverse-functions",
+      "subtopicId": "trig-inverse-functions-compositions-with-inverse-functions",
+      "displayNumber": "07.6",
+      "title": "Compositions with inverse functions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-basic-trigonometric-equations",
+      "displayNumber": "08.1",
+      "title": "Basic trigonometric equations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-general-solutions-and-specified-intervals",
+      "displayNumber": "08.2",
+      "title": "General solutions and specified intervals",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-equations-solved-by-factoring",
+      "displayNumber": "08.3",
+      "title": "Equations solved by factoring",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-quadratic-type-equations",
+      "displayNumber": "08.4",
+      "title": "Quadratic-type equations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-equations-using-identities",
+      "displayNumber": "08.5",
+      "title": "Equations using identities",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-multiple-angle-equations",
+      "displayNumber": "08.6",
+      "title": "Multiple-angle equations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-equations-involving-inverse-functions",
+      "displayNumber": "08.7",
+      "title": "Equations involving inverse functions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-equations",
+      "subtopicId": "trig-equations-extraneous-and-excluded-solutions",
+      "displayNumber": "08.8",
+      "title": "Extraneous and excluded solutions",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-oblique-triangle-problem-types",
+      "displayNumber": "09.1",
+      "title": "Oblique-triangle problem types",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-law-of-sines",
+      "displayNumber": "09.2",
+      "title": "Law of Sines",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-ambiguous-case-ssa",
+      "displayNumber": "09.3",
+      "title": "Ambiguous case (SSA)",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-law-of-cosines",
+      "displayNumber": "09.4",
+      "title": "Law of Cosines",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-trigonometric-area-formulas",
+      "displayNumber": "09.5",
+      "title": "Trigonometric area formulas",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-herons-formula",
+      "displayNumber": "09.6",
+      "title": "Heron’s formula",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+      "displayNumber": "09.7",
+      "title": "Inradius and circumradius relationships",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-oblique-triangles",
+      "subtopicId": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+      "displayNumber": "09.8",
+      "title": "Surveying, navigation, and practical applications",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-scalars-and-vectors",
+      "displayNumber": "10.1",
+      "title": "Scalars and vectors",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-magnitude-and-direction",
+      "displayNumber": "10.2",
+      "title": "Magnitude and direction",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-rectangular-vector-components",
+      "displayNumber": "10.3",
+      "title": "Rectangular vector components",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-vector-addition-and-subtraction",
+      "displayNumber": "10.4",
+      "title": "Vector addition and subtraction",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-unit-vectors-and-normalization",
+      "displayNumber": "10.5",
+      "title": "Unit vectors and normalization",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-dot-product-and-angle-between-vectors",
+      "displayNumber": "10.6",
+      "title": "Dot product and angle between vectors",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-cross-product-and-orientation",
+      "displayNumber": "10.7",
+      "title": "Cross product and orientation",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-vectors",
+      "subtopicId": "trig-vectors-applications-in-2d-and-3d",
+      "displayNumber": "10.8",
+      "title": "Applications in 2D and 3D",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+      "displayNumber": "11.1",
+      "title": "Rectangular complex-number form",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-the-complex-plane",
+      "displayNumber": "11.2",
+      "title": "The complex plane",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-modulus-and-argument",
+      "displayNumber": "11.3",
+      "title": "Modulus and argument",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+      "displayNumber": "11.4",
+      "title": "Polar and trigonometric forms",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+      "displayNumber": "11.5",
+      "title": "Multiplication and division in polar form",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-eulers-formula",
+      "displayNumber": "11.6",
+      "title": "Euler’s formula",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-de-moivres-theorem",
+      "displayNumber": "11.7",
+      "title": "De Moivre’s theorem",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-complex-polar",
+      "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+      "displayNumber": "11.8",
+      "title": "Powers and roots of complex numbers",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-polar-parametric",
+      "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+      "displayNumber": "12.1",
+      "title": "Polar coordinate system",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-polar-parametric",
+      "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+      "displayNumber": "12.2",
+      "title": "Rectangular and polar conversion",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-polar-parametric",
+      "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+      "displayNumber": "12.3",
+      "title": "Polar graphing and symmetry",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-polar-parametric",
+      "subtopicId": "trig-polar-parametric-common-polar-curves",
+      "displayNumber": "12.4",
+      "title": "Common polar curves",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-polar-parametric",
+      "subtopicId": "trig-polar-parametric-parametric-equations",
+      "displayNumber": "12.5",
+      "title": "Parametric equations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-polar-parametric",
+      "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+      "displayNumber": "12.6",
+      "title": "Conversion and graphical interpretation",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+      "displayNumber": "13.1",
+      "title": "Sinusoidal mathematical models",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+      "displayNumber": "13.2",
+      "title": "Amplitude, period, frequency, and angular frequency",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+      "displayNumber": "13.3",
+      "title": "Phase shift versus time shift",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+      "displayNumber": "13.4",
+      "title": "Phase difference and lead–lag relationships",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+      "displayNumber": "13.5",
+      "title": "Combining same-frequency sinusoids",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+      "displayNumber": "13.6",
+      "title": "Simple harmonic motion",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-damped-oscillations",
+      "displayNumber": "13.7",
+      "title": "Damped oscillations",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-waves-phase",
+      "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+      "displayNumber": "13.8",
+      "title": "Introductory AC waveforms and phasor connections",
+      "optional": false,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-advanced-trigonometric-inequalities",
+      "displayNumber": "14.1",
+      "title": "Advanced trigonometric inequalities",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-nonroutine-equations-and-identity-proofs",
+      "displayNumber": "14.2",
+      "title": "Nonroutine equations and identity proofs",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-trigonometric-substitutions-and-transformations",
+      "displayNumber": "14.3",
+      "title": "Trigonometric substitutions and transformations",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-spherical-trigonometry",
+      "displayNumber": "14.4",
+      "title": "Spherical trigonometry",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-hyperbolic-functions-and-identities",
+      "displayNumber": "14.5",
+      "title": "Hyperbolic functions and identities",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-trigonometric-series-and-approximations",
+      "displayNumber": "14.6",
+      "title": "Trigonometric series and approximations",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    },
+    {
+      "topicId": "trig-advanced",
+      "subtopicId": "trig-advanced-advanced-competition-style-problems",
+      "displayNumber": "14.7",
+      "title": "Advanced competition-style problems",
+      "optional": true,
+      "lessonStatus": "planned",
+      "questionCount": 0
+    }
+  ]
+}

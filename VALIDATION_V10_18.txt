@@ -1,0 +1,18 @@
+v10.18.0 source-level validation results — 2026-10-09
+
+Baseline: v10.17.0 working source; packaged separately without modifying prior release.
+
+PASS — 15/15 validation scripts including v10.18 calculator access/evidence suite (see validation-v1018/summary.txt).
+PASS — focused TypeScript: tsconfig.integrity.json, tsconfig.assessment.json, tsconfig.curriculum.json,
+        tsconfig.learning-paths.json, tsconfig.board.json, tsconfig.calculator.v1018.json.
+PASS — source parsing 243 TS/TSX files, 0 syntax diagnostics.
+PASS — mathematical numeric oracle checks for 10 specific pre-existing Canon example results.
+PASS — learner backup/restore and corrupted aid-event rejection.
+
+NOT VERIFIED — npm ci dependency installation; offline failed on uncached zwitch module, online installation timed out.
+NOT VERIFIED — full-project TypeScript typecheck and production build.
+NOT VERIFIED — interactive desktop/mobile browser, keyboard accessibility, or runtime integration.
+NOT VERIFIED — any real Canon F-789SGA physical keys/LCD/hardware behavior; no device-approved guides.
+NOT VERIFIED — comprehensive independent review of all prior mathematics/ECE questions.
+
+The above source-level passing results MUST NOT be described as production certification.

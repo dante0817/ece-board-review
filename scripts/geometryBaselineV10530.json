@@ -1,0 +1,15 @@
+{
+  "baseline": "v10.53.0",
+  "protectedSha256": {
+    "src/data/geometry/solidMensurationFormulas.json": "e9566509c6ff5e6b56a463842ef83d199bc7fbee191eb3ca324b41297e2a3d0a",
+    "src/data/geometry/solidMensurationLessons.json": "1ed47d54248257341d46ca1e078d2e2455e12353a35da28ff370db5ace875fe6",
+    "src/data/geometry/solidMensurationChallenges.json": "fc6f55dd99ac8c4ba7f3fce73d9a12e7f605970b5da3de30272365dd2acb8c17",
+    "src/data/geometry/solidMensurationUnits.json": "64e4f0b0a31027038d4da29d39e8307eb6c0830fe425ab8231fa5aa3cdbe3847",
+    "src/data/geometry/solidMensurationNumericChecks.json": "3fd4de9efaa2e9cd5f69b37d62a41fbf9e450164c89fe6bb8f4da8435267e993",
+    "src/data/geometry/solidMensurationPractice.json": "bf22ba954c3ff972a6396c89c7f9731155cefb606add47f0c7e64604e998e1d9",
+    "src/features/solid-mensuration/solidMensurationContent.ts": "d90ee7a381158dad7f949f35f8e37c5e3539e95b6a02e98914a9ce11cc846532",
+    "src/features/solid-mensuration/solidPracticeEngine.mjs": "92e538fe7f045a6b45bdaecca14bb86931caee54e8ff0df5221f6443b882bf6e",
+    "src/features/solid-mensuration/SolidPracticePanel.tsx": "6a6cf0ff5a160ee9d75a6ed06d0b91739a2f54ef4aa1a8736789f8ebddd6a035",
+    "src/domain/learn/manualLearnTracking.ts": "4f82abd913d78b9489870ca91934f26e053a7350e9a5523083ca217532bcb5ba"
+  }
+}

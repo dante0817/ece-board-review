@@ -1,0 +1,20 @@
+ECE Board Review 9 — v10.3 pilot UAT and Foundation batch
+
+UAT completed in the local running app before batch expansion:
+- Rational Expressions: catalog entry opens its custom lesson; reference blueprint and lifecycle tabs render; existing drill starts, accepts an answer, and displays explanation feedback.
+- Quadratic Equations: dedicated screen opens from Algebra; shared Learn content renders; correct pilot answer increments score and displays explanation/tag.
+- Relations & Functions: dedicated screen opens from Algebra; shared Learn content renders; correct pilot answer increments score and displays explanation/tag.
+
+Foundation batch added to the same reference-informed content model and lifecycle:
+- Factoring (`top-factoring`)
+- Polynomials (`top-polynomial-eq`)
+- Exponents & Radicals (`top-laws-exponents`)
+- Inequalities (`top-inequalities`)
+- Each has objectives, prerequisite checks, conditional rule cards, misconception tags, two worked examples, six original practice items, ECE bridges, and three source roles.
+- All four catalog/navigation routes opened successfully in the running app; an inequality item scored correctly with the expected feedback/tag.
+
+Build checks:
+- Structural content check: PASS for all four new topics (objectives, prerequisites, rules, misconceptions, two examples, six questions, three sources, in-range answer indexes).
+- `npm run lint`: PASS (TypeScript `tsc --noEmit`).
+- `npm run build`: PASS (Vite and server bundle). Vite reports the existing large-chunk advisory.
+- Reference locators for the new batch are chapter-level topic labels; exact page numbers were not verified.

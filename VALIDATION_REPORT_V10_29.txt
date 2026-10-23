@@ -1,0 +1,32 @@
+BSECE Board Reviewer v10.29.0 — Validation Report
+Baseline: Codex-fixed v10.28.0a; application version now 10.29.0.
+
+EXECUTED IN THIS SESSION
+PASS — Existing v10.28 source QA: 38/38 checks.
+PASS — New v10.29 targeted safety/integrity checks: 7/7 grouped assertions.
+PASS — Source parse: 262 TS/TSX files; 0 parsing errors.
+PASS — Relative imports: 876; unresolved: 0.
+PASS — Package/lockfile version: 10.29.0 in all required top-level positions.
+PASS — New tests: loopback and DNS-rebinding restrictions, nonlocal bearer authentication, rate limits, input sizes, blank review scoring, Cramer rank counterexample, mobile timer and modal controls, strict interruption notice.
+PASS — Historical v10.28 source-level regression scripts still pass, retaining the 13 earlier Codex fixes.
+
+CURRENT ENVIRONMENT LIMITATIONS
+NOT VERIFIED — Full npm dependency installation on this Linux runtime.
+BLOCKED — npm run lint: missing installed React, Vite and Node dependencies/types, not a demonstrated source code defect.
+BLOCKED — npm run build: vite executable not installed.
+NOT RUN — Real development/production browser workflows after the v10.29 changes.
+NOT RUN — Installed HTTP/WebSocket security integration and live Gemini/voice.
+NOT RUN — Real Canon F-789SGA keys, LCD and independent editorial approval.
+
+REQUIRED WINDOWS RELEASE GATE
+npm ci
+npm run qa:source:v10.29
+npm run lint
+npm run build
+npm run certify:runtime:v10.28 -- --verify --output=RUNTIME_V10_29_LOCAL.json
+node --import tsx scripts/browserQaV1028.mjs
+node scripts/apiQaV1028.mjs
+npm audit
+Then follow BROWSER_QA_V10_29.md for new v10.29 scenarios and inspect actual screenshots.
+
+Status: SOURCE RELEASE CANDIDATE. Full v10.29 browser/build/API and Canon hardware certification is not claimed.

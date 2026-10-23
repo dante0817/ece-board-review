@@ -1,0 +1,962 @@
+[
+  {
+    "id": "TRI48-131-001",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Basic",
+    "family": "amplitude",
+    "prompt": "For y=2+3sin(4πt), what is the amplitude?",
+    "options": [
+      "2",
+      "3",
+      "4π",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Amplitude is the absolute coefficient of sine: |3|=3; the constant 2 sets the midline."
+  },
+  {
+    "id": "TRI48-131-002",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Basic",
+    "family": "midline",
+    "prompt": "For y=−2cos(3t)+1, what is its midline?",
+    "options": [
+      "−2",
+      "3",
+      "1",
+      "−1"
+    ],
+    "correctIndex": 2,
+    "explanation": "The constant additive offset is D=1, so the signal oscillates symmetrically around y=1."
+  },
+  {
+    "id": "TRI48-131-003",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Intermediate",
+    "family": "range",
+    "prompt": "Which is the range of y=3+4cos(t)?",
+    "options": [
+      "[−4,4]",
+      "[−1,7]",
+      "[3,7]",
+      "[0,7]"
+    ],
+    "correctIndex": 1,
+    "explanation": "Since cosine varies from −1 to 1, 3+4cos(t) varies between 3−4=−1 and 3+4=7."
+  },
+  {
+    "id": "TRI48-131-004",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Intermediate",
+    "family": "evaluate",
+    "prompt": "Evaluate y=5sin(2t) at t=0.",
+    "options": [
+      "5",
+      "2",
+      "10",
+      "0"
+    ],
+    "correctIndex": 3,
+    "explanation": "At t=0 the argument is 0, and sin0=0, giving y=5·0=0. The result follows from the model’s midline, amplitude and exact trigonometric values."
+  },
+  {
+    "id": "TRI48-131-005",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Intermediate",
+    "family": "reflection",
+    "prompt": "Which is the amplitude of y=−6sin(t)?",
+    "options": [
+      "−6",
+      "1",
+      "6",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "The negative coefficient reflects the graph, but amplitude is the nonnegative value |−6|=6."
+  },
+  {
+    "id": "TRI48-131-006",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Intermediate",
+    "family": "sample",
+    "prompt": "For y=4cos(πt), find y(1).",
+    "options": [
+      "−4",
+      "0",
+      "4",
+      "π"
+    ],
+    "correctIndex": 0,
+    "explanation": "At t=1 the argument is π and cosπ=−1, so y=4(−1)=−4. The result follows from the model’s midline, amplitude and exact trigonometric values."
+  },
+  {
+    "id": "TRI48-131-007",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Advanced",
+    "family": "extrema",
+    "prompt": "For y=1−2sin(t), what is the maximum?",
+    "options": [
+      "1",
+      "2",
+      "−1",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "The highest value is attained when sin(t)=−1: y=1−2(−1)=3. The result follows from the model’s midline, amplitude and exact trigonometric values."
+  },
+  {
+    "id": "TRI48-131-008",
+    "subtopicId": "trig-waves-phase-sinusoidal-mathematical-models",
+    "difficulty": "Advanced",
+    "family": "bounds",
+    "prompt": "A sinusoid has midline 5 and amplitude 2. What is its minimum?",
+    "options": [
+      "−2",
+      "3",
+      "5",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "The minimum of D+A sin is D−|A|, so 5−2=3. The result follows from the model’s midline, amplitude and exact trigonometric values."
+  },
+  {
+    "id": "TRI48-132-001",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Basic",
+    "family": "period",
+    "prompt": "A 50 Hz signal has period",
+    "options": [
+      "0.02 s",
+      "50 s",
+      "2π s",
+      "0.5 s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The period is the reciprocal of frequency: T=1/50 second=0.02 second."
+  },
+  {
+    "id": "TRI48-132-002",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Basic",
+    "family": "angular-frequency",
+    "prompt": "For frequency 60 Hz, angular frequency is",
+    "options": [
+      "60π rad/s",
+      "30π rad/s",
+      "120π rad/s",
+      "60 rad/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Angular frequency is ω=2πf=2π×60=120π radians per second. One complete cycle is 2π radians, so use seconds consistently when converting units."
+  },
+  {
+    "id": "TRI48-132-003",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Intermediate",
+    "family": "freq-from-omega",
+    "prompt": "If ω=40π rad/s, find f.",
+    "options": [
+      "80 Hz",
+      "20 Hz",
+      "40 Hz",
+      "10 Hz"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide angular rate by 2π: f=40π/(2π)=20 Hz. One complete cycle is 2π radians, so use seconds consistently when converting units."
+  },
+  {
+    "id": "TRI48-132-004",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Intermediate",
+    "family": "freq-from-T",
+    "prompt": "A signal has T=0.005 s. Find f.",
+    "options": [
+      "5 Hz",
+      "50 Hz",
+      "500 Hz",
+      "200 Hz"
+    ],
+    "correctIndex": 3,
+    "explanation": "Frequency is one over period: f=1/(0.005 s)=200 Hz. One complete cycle is 2π radians, so use seconds consistently when converting units."
+  },
+  {
+    "id": "TRI48-132-005",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Intermediate",
+    "family": "period-from-model",
+    "prompt": "For sin(4t), with t in seconds, the period is",
+    "options": [
+      "π/2 s",
+      "2π s",
+      "4 s",
+      "π/4 s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The radian coefficient is ω=4 rad/s; T=2π/4=π/2 s. One complete cycle is 2π radians, so use seconds consistently when converting units."
+  },
+  {
+    "id": "TRI48-132-006",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Intermediate",
+    "family": "rad-cycle",
+    "prompt": "At f=25 Hz, angular rate equals",
+    "options": [
+      "25π rad/s",
+      "100π rad/s",
+      "50π rad/s",
+      "25 rad/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each cycle corresponds to 2π radians, giving ω=2π(25)=50π rad/s. One complete cycle is 2π radians, so use seconds consistently when converting units."
+  },
+  {
+    "id": "TRI48-132-007",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Advanced",
+    "family": "cycles",
+    "prompt": "A 100 Hz waveform completes how many cycles in 0.02 s?",
+    "options": [
+      "1",
+      "2",
+      "5",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply frequency by elapsed time: (100 cycles/s)(0.02 s)=2 cycles."
+  },
+  {
+    "id": "TRI48-132-008",
+    "subtopicId": "trig-waves-phase-amplitude-period-frequency-and-angular-frequency",
+    "difficulty": "Advanced",
+    "family": "omega-period",
+    "prompt": "For ω=10 rad/s, the period is",
+    "options": [
+      "5π s",
+      "π/10 s",
+      "10π s",
+      "π/5 s"
+    ],
+    "correctIndex": 3,
+    "explanation": "A full oscillation changes phase by 2π radians: T=2π/10=π/5 seconds."
+  },
+  {
+    "id": "TRI48-133-001",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Basic",
+    "family": "advance",
+    "prompt": "Compared with sin(ωt), what does sin(ωt+π/2) do for ω>0?",
+    "options": [
+      "Advances by T/4",
+      "Delays by T/4",
+      "Reverses amplitude",
+      "Doubles frequency"
+    ],
+    "correctIndex": 0,
+    "explanation": "Positive phase +π/2 at fixed positive ω shifts the same waveform left by (π/2)/ω=T/4."
+  },
+  {
+    "id": "TRI48-133-002",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Basic",
+    "family": "delay",
+    "prompt": "Compared with sin(2πt), sin(2πt−π) is delayed by",
+    "options": [
+      "0.25 s",
+      "1 s",
+      "0.5 s",
+      "2 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide the magnitude of phase −π by angular frequency 2π rad/s: delay=π/(2π)=0.5 s."
+  },
+  {
+    "id": "TRI48-133-003",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Intermediate",
+    "family": "time-from-phase",
+    "prompt": "For sin(4πt+π/2), find its time advance.",
+    "options": [
+      "1/4 s",
+      "1/8 s",
+      "1/2 s",
+      "1 s"
+    ],
+    "correctIndex": 1,
+    "explanation": "Advance=φ/ω=(π/2)/(4π)=1/8 second. Here ω is positive, and a positive phase term advances rather than delays a signal."
+  },
+  {
+    "id": "TRI48-133-004",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Intermediate",
+    "family": "shift-form",
+    "prompt": "For cos(2π(t−0.25)), the phase angle in the expanded argument is",
+    "options": [
+      "π",
+      "π/2",
+      "−π",
+      "−π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand 2π(t−0.25)=2πt−π/2, so the phase constant is −π/2 radians."
+  },
+  {
+    "id": "TRI48-133-005",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Intermediate",
+    "family": "delay-general",
+    "prompt": "sin(10t−2) is delayed, relative to sin(10t), by",
+    "options": [
+      "0.2 s",
+      "2 s",
+      "5 s",
+      "20 s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solve 10(t−t₀)=10t−2, obtaining t₀=2/10=0.2 seconds. Here ω is positive, and a positive phase term advances rather than delays a signal."
+  },
+  {
+    "id": "TRI48-133-006",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Intermediate",
+    "family": "advance-general",
+    "prompt": "For sin(5t+π/4), the time advance is",
+    "options": [
+      "π/4 s",
+      "π/5 s",
+      "π/20 s",
+      "20π s"
+    ],
+    "correctIndex": 2,
+    "explanation": "The waveform is sin[5(t+π/20)], which is an advance of π/20 seconds."
+  },
+  {
+    "id": "TRI48-133-007",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Advanced",
+    "family": "quarter-cycle",
+    "prompt": "For a 50 Hz sine wave with −90° phase, the time delay is",
+    "options": [
+      "20 ms",
+      "5 ms",
+      "10 ms",
+      "2 ms"
+    ],
+    "correctIndex": 1,
+    "explanation": "A 90° delay is one quarter cycle; T=1/50=20 ms and T/4=5 ms. Here ω is positive, and a positive phase term advances rather than delays a signal."
+  },
+  {
+    "id": "TRI48-133-008",
+    "subtopicId": "trig-waves-phase-phase-shift-versus-time-shift",
+    "difficulty": "Advanced",
+    "family": "delay-symbol",
+    "prompt": "Which phase term represents delay t₀ in sin(ω(t−t₀))?",
+    "options": [
+      "+ωt₀",
+      "+t₀/ω",
+      "−t₀/ω",
+      "−ωt₀"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expanding the argument gives ωt−ωt₀, making the constant phase term −ωt₀."
+  },
+  {
+    "id": "TRI48-134-001",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Basic",
+    "family": "lead",
+    "prompt": "Relative to sin(ωt), sin(ωt+π/3) for ω>0",
+    "options": [
+      "leads by 60°",
+      "lags by 60°",
+      "leads by 30°",
+      "lags by 120°"
+    ],
+    "correctIndex": 0,
+    "explanation": "A positive phase +π/3 corresponds to an earlier time shift by 60° under the common sine reference."
+  },
+  {
+    "id": "TRI48-134-002",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Basic",
+    "family": "lag",
+    "prompt": "Relative to sin(ωt), sin(ωt−π/4)",
+    "options": [
+      "leads 45°",
+      "lags 45°",
+      "lags 90°",
+      "is in phase"
+    ],
+    "correctIndex": 1,
+    "explanation": "Negative phase −π/4 shifts the wave later by 45° under the sine-reference convention."
+  },
+  {
+    "id": "TRI48-134-003",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Intermediate",
+    "family": "difference",
+    "prompt": "Compare sin(ωt+30°) with sin(ωt−60°). The first signal",
+    "options": [
+      "lags 30°",
+      "leads 30°",
+      "leads 90°",
+      "lags 90°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Subtract phases: 30°−(−60°)=90°, so the first sinusoid leads the second by 90°."
+  },
+  {
+    "id": "TRI48-134-004",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Intermediate",
+    "family": "time-separation",
+    "prompt": "Two 60 Hz waves differ by 120°. What is the shorter time separation?",
+    "options": [
+      "1/60 s",
+      "1/120 s",
+      "1/360 s",
+      "1/180 s"
+    ],
+    "correctIndex": 3,
+    "explanation": "120° is 1/3 cycle; at 60 Hz that lasts 1/(3×60)=1/180 second. Both comparisons assume a common positive frequency and sine-wave reference."
+  },
+  {
+    "id": "TRI48-134-005",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Intermediate",
+    "family": "cos-lead",
+    "prompt": "Using sine as reference, cos(ωt)",
+    "options": [
+      "leads sin(ωt) by 90°",
+      "lags sin(ωt) by 90°",
+      "leads by 180°",
+      "has zero phase difference"
+    ],
+    "correctIndex": 0,
+    "explanation": "cos(ωt)=sin(ωt+π/2) leads a zero-phase sine by π/2 or 90°. Both comparisons assume a common positive frequency and sine-wave reference."
+  },
+  {
+    "id": "TRI48-134-006",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Intermediate",
+    "family": "phase-subtraction",
+    "prompt": "Compare sin(ωt+π/6) and sin(ωt−π/3). The first leads by",
+    "options": [
+      "π/6",
+      "π/2",
+      "π/3",
+      "π"
+    ],
+    "correctIndex": 1,
+    "explanation": "The phase difference is π/6−(−π/3)=π/2 radians, so the first leads by 90°."
+  },
+  {
+    "id": "TRI48-134-007",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Advanced",
+    "family": "ordered-lead",
+    "prompt": "At one common frequency, a pair of sine signals has phases +90° and +180°. The +180° signal",
+    "options": [
+      "lags by 90°",
+      "is in phase",
+      "leads by 90°",
+      "is always larger"
+    ],
+    "correctIndex": 2,
+    "explanation": "With a shared positive-frequency sine reference, 180° is 90° ahead of 90°, hence it leads."
+  },
+  {
+    "id": "TRI48-134-008",
+    "subtopicId": "trig-waves-phase-phase-difference-and-leadlag-relationships",
+    "difficulty": "Advanced",
+    "family": "antiphase",
+    "prompt": "Two equal-frequency sine waves 180° apart are",
+    "options": [
+      "in phase",
+      "orthogonal",
+      "same amplitude necessarily",
+      "in antiphase"
+    ],
+    "correctIndex": 3,
+    "explanation": "A π radian or 180° separation places positive peaks at negative peaks; the phases are opposite."
+  },
+  {
+    "id": "TRI48-135-001",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Basic",
+    "family": "identical-sine",
+    "prompt": "Simplify sin x+sin x.",
+    "options": [
+      "2sin x",
+      "sin(2x)",
+      "2cos x",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "The like sinusoidal terms add algebraically to 2sin x at every argument x."
+  },
+  {
+    "id": "TRI48-135-002",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Basic",
+    "family": "quadrature",
+    "prompt": "Find the amplitude of 3sin x+4cos x.",
+    "options": [
+      "7",
+      "1",
+      "5",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "The coefficients form perpendicular sine/cosine components, so amplitude is √(3²+4²)=5."
+  },
+  {
+    "id": "TRI48-135-003",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Intermediate",
+    "family": "phase-combination",
+    "prompt": "Rewrite sin x+cos x in single-sine form.",
+    "options": [
+      "sin(x+π/4)",
+      "√2sin(x+π/4)",
+      "2sin(x+π/2)",
+      "√2sin(x−π/4)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Expansion gives √2(sin x cosπ/4+cos x sinπ/4)=sin x+cos x. Only sinusoids with the same angular frequency can be combined by this simple method."
+  },
+  {
+    "id": "TRI48-135-004",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Intermediate",
+    "family": "cancel",
+    "prompt": "Simplify 2sin x−2sin x.",
+    "options": [
+      "4sin x",
+      "2sin(2x)",
+      "sin x",
+      "0"
+    ],
+    "correctIndex": 3,
+    "explanation": "The coefficients of identical waveforms sum to 2−2=0, so the result is zero."
+  },
+  {
+    "id": "TRI48-135-005",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Intermediate",
+    "family": "antiphase-sum",
+    "prompt": "Simplify sin x+sin(x+π).",
+    "options": [
+      "0",
+      "2sin x",
+      "sin(2x)",
+      "2cos x"
+    ],
+    "correctIndex": 0,
+    "explanation": "A π radian phase shift negates sine, so the two terms cancel exactly."
+  },
+  {
+    "id": "TRI48-135-006",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Intermediate",
+    "family": "equal-components",
+    "prompt": "Find the amplitude of 2sin x+2cos x.",
+    "options": [
+      "2",
+      "4",
+      "2√2",
+      "√2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Compute R=√(2²+2²)=2√2 rather than summing amplitudes directly. Only sinusoids with the same angular frequency can be combined by this simple method."
+  },
+  {
+    "id": "TRI48-135-007",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Advanced",
+    "family": "reordered-components",
+    "prompt": "Find the amplitude of 3cos x+4sin x.",
+    "options": [
+      "1",
+      "5",
+      "7",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sine and cosine coefficients are 4 and 3, so R=√(4²+3²)=5. Only sinusoids with the same angular frequency can be combined by this simple method."
+  },
+  {
+    "id": "TRI48-135-008",
+    "subtopicId": "trig-waves-phase-combining-same-frequency-sinusoids",
+    "difficulty": "Advanced",
+    "family": "sum-to-product",
+    "prompt": "Simplify sin x+sin(x+2π/3).",
+    "options": [
+      "2sin(x+π/3)",
+      "sin(x−π/3)",
+      "0",
+      "sin(x+π/3)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sum-to-product gives 2sin(x+π/3)cos(π/3)=sin(x+π/3). Only sinusoids with the same angular frequency can be combined by this simple method."
+  },
+  {
+    "id": "TRI48-136-001",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Basic",
+    "family": "position-amplitude",
+    "prompt": "For x=0.2cos(5t) m, amplitude is",
+    "options": [
+      "0.2 m",
+      "5 m",
+      "1 m",
+      "0.04 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "The displacement amplitude is the absolute coefficient of cosine, namely 0.2 meter."
+  },
+  {
+    "id": "TRI48-136-002",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Basic",
+    "family": "shm-period",
+    "prompt": "For x=2sin(4πt), the period is",
+    "options": [
+      "2 s",
+      "π/2 s",
+      "0.5 s",
+      "4 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "The angular frequency is 4π rad/s, and T=2π/(4π)=0.5 second. This result assumes ideal undamped simple harmonic motion at fixed angular frequency."
+  },
+  {
+    "id": "TRI48-136-003",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Intermediate",
+    "family": "shm-acceleration",
+    "prompt": "If x=3cos(2t), which relation holds for acceleration a?",
+    "options": [
+      "a=−2x",
+      "a=−4x",
+      "a=+4x",
+      "a=3x"
+    ],
+    "correctIndex": 1,
+    "explanation": "For ideal SHM a=−ω²x and ω=2 rad/s, hence a=−4x. This result assumes ideal undamped simple harmonic motion at fixed angular frequency."
+  },
+  {
+    "id": "TRI48-136-004",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Intermediate",
+    "family": "velocity",
+    "prompt": "If x=2sin(3t), find velocity at t=0.",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Derivative v=6cos(3t), so at t=0 the velocity is v(0)=6 in the given length/time units."
+  },
+  {
+    "id": "TRI48-136-005",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Intermediate",
+    "family": "max-speed",
+    "prompt": "For x=0.1cos(20t) m, maximum speed is",
+    "options": [
+      "2 m/s",
+      "0.1 m/s",
+      "20 m/s",
+      "200 m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "The maximum speed of ideal SHM is Aω=0.1×20=2 meters per second. This result assumes ideal undamped simple harmonic motion at fixed angular frequency."
+  },
+  {
+    "id": "TRI48-136-006",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Intermediate",
+    "family": "max-acceleration",
+    "prompt": "For x=0.1cos(20t) m, maximum acceleration magnitude is",
+    "options": [
+      "2 m/s²",
+      "20 m/s²",
+      "40 m/s²",
+      "400 m/s²"
+    ],
+    "correctIndex": 2,
+    "explanation": "The maximum acceleration is Aω²=0.1×(20)²=40 meters per second squared."
+  },
+  {
+    "id": "TRI48-136-007",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Advanced",
+    "family": "initial-displacement",
+    "prompt": "For x=Acos(ωt), A>0 and ω>0, at t=0 the displacement is",
+    "options": [
+      "zero",
+      "+A",
+      "−A",
+      "A/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "cos0=1, so the ideal oscillator begins at x(0)=+A, its positive extreme."
+  },
+  {
+    "id": "TRI48-136-008",
+    "subtopicId": "trig-waves-phase-simple-harmonic-motion",
+    "difficulty": "Advanced",
+    "family": "zero-crossing",
+    "prompt": "For x=5sin(πt), at t=1 the displacement equals",
+    "options": [
+      "5",
+      "−5",
+      "π",
+      "0"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute t=1: sinπ=0, so the position is zero. This result assumes ideal undamped simple harmonic motion at fixed angular frequency."
+  },
+  {
+    "id": "TRI48-137-001",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Basic",
+    "family": "envelope",
+    "prompt": "For x=A₀e^(−kt)cos(ωt), k>0, upper envelope is",
+    "options": [
+      "A₀e^(−kt)",
+      "A₀e^(kt)",
+      "A₀cos(ωt)",
+      "kA₀"
+    ],
+    "correctIndex": 0,
+    "explanation": "The cosine stays between −1 and 1, so the positive amplitude bound is A₀e^(−kt)."
+  },
+  {
+    "id": "TRI48-137-002",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Basic",
+    "family": "envelope-ratio",
+    "prompt": "For amplitude A₀e^(−0.5t), the ratio A(2)/A₀ is",
+    "options": [
+      "e^(−2)",
+      "1/2",
+      "e^(−1)",
+      "e^(+1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute t=2 s: the exponent is −0.5×2=−1, so the ratio is e^(−1)."
+  },
+  {
+    "id": "TRI48-137-003",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Intermediate",
+    "family": "damped-frequency",
+    "prompt": "A damped cosine has ωd=4π rad/s. Its oscillation frequency is",
+    "options": [
+      "4 Hz",
+      "2 Hz",
+      "π Hz",
+      "8 Hz"
+    ],
+    "correctIndex": 1,
+    "explanation": "The cosine factor oscillates with f_d=ω_d/(2π)=(4π)/(2π)=2 Hz. The exponential gives the envelope; instantaneous displacement also contains the cosine factor."
+  },
+  {
+    "id": "TRI48-137-004",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Intermediate",
+    "family": "initial-envelope",
+    "prompt": "At t=0, the upper envelope A₀e^(−kt) is",
+    "options": [
+      "0",
+      "k",
+      "A₀/e",
+      "A₀"
+    ],
+    "correctIndex": 3,
+    "explanation": "Exponent −k×0=0, and e^0=1, so the initial envelope is A₀. The exponential gives the envelope; instantaneous displacement also contains the cosine factor."
+  },
+  {
+    "id": "TRI48-137-005",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Intermediate",
+    "family": "decay-rate",
+    "prompt": "Which change produces faster envelope decay in e^(−kt)?",
+    "options": [
+      "Increase positive k",
+      "Reduce positive k",
+      "Set ω=0",
+      "Increase phase φ"
+    ],
+    "correctIndex": 0,
+    "explanation": "For fixed t>0, larger positive k makes e^(−kt) smaller, so the envelope falls more quickly."
+  },
+  {
+    "id": "TRI48-137-006",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Intermediate",
+    "family": "half-life",
+    "prompt": "At t=ln2/k, the envelope A₀e^(−kt) equals",
+    "options": [
+      "A₀/e",
+      "A₀/4",
+      "A₀/2",
+      "2A₀"
+    ],
+    "correctIndex": 2,
+    "explanation": "Substitute t=ln2/k: A/A₀=e^(−ln2)=1/2. The exponential gives the envelope; instantaneous displacement also contains the cosine factor."
+  },
+  {
+    "id": "TRI48-137-007",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Advanced",
+    "family": "time-constant",
+    "prompt": "For e^(−t/3), the time constant is",
+    "options": [
+      "1/3 s",
+      "3 s",
+      "9 s",
+      "ln3 s"
+    ],
+    "correctIndex": 1,
+    "explanation": "Match e^(−t/τ): the denominator in t/3 is τ=3 seconds. The exponential gives the envelope; instantaneous displacement also contains the cosine factor."
+  },
+  {
+    "id": "TRI48-137-008",
+    "subtopicId": "trig-waves-phase-damped-oscillations",
+    "difficulty": "Advanced",
+    "family": "decay-sample",
+    "prompt": "For e^(−0.2t), the envelope at t=5 s is A₀ times",
+    "options": [
+      "e^(+1)",
+      "e^(−5)",
+      "0.2",
+      "e^(−1)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitution gives −0.2×5=−1, so the amplitude multiplier is e^(−1)."
+  },
+  {
+    "id": "TRI48-138-001",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Basic",
+    "family": "rms-from-peak",
+    "prompt": "A pure sinusoid has 10 V peak. Its RMS voltage is",
+    "options": [
+      "10/√2 V",
+      "10√2 V",
+      "20 V",
+      "5 V"
+    ],
+    "correctIndex": 0,
+    "explanation": "For a sinusoidal voltage, RMS equals peak divided by √2, giving 10/√2 volts."
+  },
+  {
+    "id": "TRI48-138-002",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Basic",
+    "family": "peak-from-rms",
+    "prompt": "A pure sinusoid is 120 V RMS. Its peak voltage is",
+    "options": [
+      "120/√2 V",
+      "60 V",
+      "120√2 V",
+      "240 V"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply the sinusoidal RMS magnitude by √2: V_m=120√2 volts. The result uses the stated sinusoidal steady-state and phasor reference conventions."
+  },
+  {
+    "id": "TRI48-138-003",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Intermediate",
+    "family": "ac-frequency",
+    "prompt": "For v=5sin(100πt), find frequency with t in seconds.",
+    "options": [
+      "100 Hz",
+      "50 Hz",
+      "25 Hz",
+      "200 Hz"
+    ],
+    "correctIndex": 1,
+    "explanation": "The angular frequency is 100π rad/s, so f=ω/(2π)=50 Hz. The result uses the stated sinusoidal steady-state and phasor reference conventions."
+  },
+  {
+    "id": "TRI48-138-004",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Intermediate",
+    "family": "voltage-lead",
+    "prompt": "If v=5sin(ωt+30°) and i=2sin(ωt), voltage",
+    "options": [
+      "lags current 30°",
+      "leads current 60°",
+      "lags current 60°",
+      "leads current 30°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Both waveforms use the same sine reference and positive frequency; +30° means voltage leads current by 30°."
+  },
+  {
+    "id": "TRI48-138-005",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Intermediate",
+    "family": "phasor-rms",
+    "prompt": "Using a cosine-reference RMS phasor, v=√2·10cos(ωt+20°) maps to",
+    "options": [
+      "10∠20° V",
+      "√2·10∠20° V",
+      "10∠−70° V",
+      "10∠−20° V"
+    ],
+    "correctIndex": 0,
+    "explanation": "The √2 times RMS factor shows RMS magnitude 10, with phase +20° in a cosine reference."
+  },
+  {
+    "id": "TRI48-138-006",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Intermediate",
+    "family": "inductor",
+    "prompt": "For an ideal inductor with passive sign convention, its impedance is",
+    "options": [
+      "−jX_L",
+      "+jX_L",
+      "+X_L",
+      "0"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ideal inductive impedance is jωL=jX_L; voltage leads current by 90° in sinusoidal steady state."
+  },
+  {
+    "id": "TRI48-138-007",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Advanced",
+    "family": "capacitor",
+    "prompt": "For an ideal capacitor, impedance has imaginary sign",
+    "options": [
+      "positive",
+      "zero",
+      "negative",
+      "undefined"
+    ],
+    "correctIndex": 2,
+    "explanation": "Ideal capacitive impedance 1/(jωC)=−j/(ωC), so its imaginary component is negative."
+  },
+  {
+    "id": "TRI48-138-008",
+    "subtopicId": "trig-waves-phase-introductory-ac-waveforms-and-phasor-connections",
+    "difficulty": "Advanced",
+    "family": "phasor-angle",
+    "prompt": "For complex phasor 3+j4, its principal argument is approximately",
+    "options": [
+      "36.87°",
+      "90°",
+      "−53.13°",
+      "53.13°"
+    ],
+    "correctIndex": 3,
+    "explanation": "For positive real and imaginary parts the vector is in QI, and arg=atan2(4,3)≈53.13°."
+  }
+]

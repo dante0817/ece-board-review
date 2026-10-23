@@ -1,0 +1,23 @@
+BSECE BOARD REVIEWER v10.55.0 — PLANE GEOMETRY SOURCE CANDIDATE
+
+BASELINE: BSECE_Board_Reviewer_v10.54.0_Geometry_Hub_SOURCE.zip
+CONTENTS: 35 Plane Geometry lessons, 42 formula notes, 70 practice questions (53 numeric / 17 conceptual), 6 units.
+NAVIGATION: Mathematics > Geometry > Plane Geometry & Mensuration
+STABLE IDs: GEO-001 to GEO-035; geo-plane-001 to geo-plane-035
+PROTECTED EXISTING CONTENT: 9 Solid Mensuration content files byte-identical to recorded v10.53 baseline.
+INTENTIONAL SHARED CHANGE: manualLearnTracking.ts adds geo-plane validation and normalized geometry reader section keys without storage migration.
+
+PASS — New Plane geometry curriculum IDs, question IDs, formula ID integrity.
+PASS — Independently recomputed 53/53 numeric practice answers.
+PASS — Structural validation of 17/17 conceptual multiple choice questions.
+PASS — Actual shared study-tracking TypeScript module exercised with old+new records.
+PASS — Existing Geometry hub structural tests.
+PASS — Solid Mensuration v10.51.0, v10.52.0, v10.53.0 regression validators.
+PASS — Mathematics and Trigonometry v10.50.3 backwards regression chain.
+PASS — Algebra v10.8 structural validator.
+PASS — Modified TypeScript and TSX syntax parser.
+NOT VERIFIED — Full Vite/Express bundle: npm install incomplete (npm CLI exit-handler error), vite executable absent.
+NOT VERIFIED — Real browser acceptance or responsive screenshots; browser smoke script included for local testing.
+NOT VERIFIED — Independent mathematical editorial review or pedagogical usability study.
+
+Practical acceptance: run npm ci, npm run lint, npm run build and browser smoke locally. Do not classify as production-certified without those checks.

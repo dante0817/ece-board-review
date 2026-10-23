@@ -1,0 +1,629 @@
+[
+  {
+    "id": "PS01-01-P01",
+    "topicId": "PS01-01",
+    "promptSHA256": "c597498c108879b79cba862b4e2a39f7c56a9dd384ac51535f4bd45c5b5f93b8",
+    "answerKey": "Selection bias is possible",
+    "checkRationale": "Convenience selection can systematically omit boards in other locations.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-01-P01",
+    "topicId": "PS06-01",
+    "promptSHA256": "beaadd6f38461b481768a78ee67c3e06a3a13d4515d28f47de73c8bb873278aa",
+    "answerKey": "Reject H0",
+    "checkRationale": "Since 2.5>1.96, the statistic is in the rejection region.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-03-P01",
+    "topicId": "PS06-03",
+    "promptSHA256": "c0118bb6c17594bfd119e6c5aff150042e3f40e3199350dd6c52425fa0d9cb0c",
+    "answerKey": "Fail to reject H0",
+    "checkRationale": "Because 0.07>0.05, fail to reject H0 at α=0.05.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS05-05-P02",
+    "topicId": "PS05-05",
+    "promptSHA256": "8ae606ea5da34e2c582013fa87fa73a28da57c5af8d069dd2d52e9ef94173b35",
+    "answerKey": "With suitable conditions, the distribution of the sample mean approaches normality as n increases",
+    "checkRationale": "The CLT concerns sampling means under suitable conditions, not the shape of every raw observation.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS05-06-P02",
+    "topicId": "PS05-06",
+    "promptSHA256": "2d513dbf58629d21f61e7e5908d9ba41c95ae2e60f380e3f0a4ad08d0b3be5df",
+    "answerKey": "n=10 and zero successes are observed",
+    "checkRationale": "Boundary proportions and very small success counts undermine the normal Wald approximation.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS05-07-P02",
+    "topicId": "PS05-07",
+    "promptSHA256": "205fe69ec9cc891827d2e5239958e180b6188b32d8c86679d4cce58441ca9057",
+    "answerKey": "Welch two-sample t interval",
+    "checkRationale": "Welch uses separate estimated group variances and an appropriate degrees-of-freedom approximation.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS05-08-P02",
+    "topicId": "PS05-08",
+    "promptSHA256": "fbef03ff0f03dd453d340bf3fdb2220f7952d8d9067bb077f13c7e9b63387e1c",
+    "answerKey": "The 12 within-sensor differences",
+    "checkRationale": "Pairwise differences account for matching of observations from the same sensor.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS05-09-P02",
+    "topicId": "PS05-09",
+    "promptSHA256": "6349e912741a13fb56f682ab733e1a76a984b3a726ff7294ce709ab5a61108c9",
+    "answerKey": "Separate sample proportions for the two groups",
+    "checkRationale": "Use the unpooled estimator for interval estimation of the difference.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS05-10-P02",
+    "topicId": "PS05-10",
+    "promptSHA256": "81141d09fe5feb1f925170ae19f31522d93b025dd83d8c0a97c3e8c0203a924c",
+    "answerKey": "It maximizes p0(1−p0)",
+    "checkRationale": "p0(1−p0) has maximum 0.25 at p0=0.5.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS08-05-P02",
+    "topicId": "PS08-05",
+    "promptSHA256": "659b9a080ef7547dd141303880789a680aac66f2b6c6476e093c006d888af0bb",
+    "answerKey": "Measuring each of three treated boards ten times and claiming n=30 independent randomized boards",
+    "checkRationale": "Multiple reads of a board do not create more independently treated boards.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS08-07-P01",
+    "topicId": "PS08-07",
+    "promptSHA256": "d987b3316901c0a1b6224d072896b2b8612c065b5f5caabfbfa4354064d24c6c",
+    "answerKey": "Reject the equal-means null",
+    "checkRationale": "Since p<α, reject the omnibus equal-means null.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify experimental-unit and design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS08-07-P02",
+    "topicId": "PS08-07",
+    "promptSHA256": "9bfa27558934be06a2b20f5091ee518913e872209fb9f6e10ba596d2217361f6",
+    "answerKey": "(3,20)",
+    "checkRationale": "df1=k−1=3; df2=N−k=20.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify experimental-unit and design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS08-08-P02",
+    "topicId": "PS08-08",
+    "promptSHA256": "ce5230fd38dbe768e1a6b56378ce56a795c0266ce9c47690dd6704c2f83df15d",
+    "answerKey": "Assign every treatment once to each block in randomized order",
+    "checkRationale": "Every block contains all treatments, with assignments randomized within each block.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify experimental-unit and design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS08-10-P02",
+    "topicId": "PS08-10",
+    "promptSHA256": "dfc50a4da9e876a27e4c0b91c1a9a124d67d3cb2da1a827eb62ee2cd7623ae00",
+    "answerKey": "Run planned contrasts or multiplicity-aware comparisons",
+    "checkRationale": "The overall F test does not identify all pair differences; appropriate comparisons address that question.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test",
+      "verify experimental-unit and design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-01-P03",
+    "topicId": "PS06-01",
+    "promptSHA256": "1ddd81af7296b4d632f8dd16cedfb8fe102e73b4763e3f1e48ae69af31cbb09d",
+    "answerKey": "μ≠μ0",
+    "checkRationale": "Two directions are relevant; use a two-sided alternative.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-03-P02",
+    "topicId": "PS06-03",
+    "promptSHA256": "13c4fda3f54289938471e7101308cc27d384d5d02c6ec296753724b8fc814108",
+    "answerKey": "Effect size and uncertainty",
+    "checkRationale": "Practical relevance concerns magnitude and precision, not statistical significance alone.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test",
+      "verify sampling/design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-05-P02",
+    "topicId": "PS06-05",
+    "promptSHA256": "a54e408225d4e56b86051103fb0f36d6e86a813f77e35b597c1ebf7ecb5b6669",
+    "answerKey": "Paired differences analysis",
+    "checkRationale": "The before and after observations are matched within units.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-06-P02",
+    "topicId": "PS06-06",
+    "promptSHA256": "9fd5c7b9d60f740a397189bbe318010d36277d2421cc47ff6f761d989cbb42b3",
+    "answerKey": "Exact binomial test",
+    "checkRationale": "The null expected success count is too small for a reliable normal approximation.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test",
+      "verify sampling/design assumptions",
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS06-08-P02",
+    "topicId": "PS06-08",
+    "promptSHA256": "02171604a17515178047401b54d5021e035b2887a2baacfedf61505c18d869fb",
+    "answerKey": "The n within-instrument differences",
+    "checkRationale": "A paired test is a one-sample test of within-pair differences.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify null, alternative and conditions of the test"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS07-01-P02",
+    "topicId": "PS07-01",
+    "promptSHA256": "b0e6e972eb92603503728d9a5f7f33cceceb467c8ce1351eba2dbeb944b4b5d0",
+    "answerKey": "A nonlinear relation may exist",
+    "checkRationale": "Pearson r summarizes linear, not all, association.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS07-05-P01",
+    "topicId": "PS07-05",
+    "promptSHA256": "962e87139cb021bb45f7dcbc4949d6dea6b6a5bbc25d75cfa65e8f858b260b8e",
+    "answerKey": "Linearity and model form",
+    "checkRationale": "Systematic residual curvature suggests a misspecified response function.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify linear-model interpretation and diagnostics"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS07-05-P02",
+    "topicId": "PS07-05",
+    "promptSHA256": "d0b144e5c074647efdc76e42b214af7ab08942c8c5d5f367cb1113fc9115de52",
+    "answerKey": "Examine leverage, influence and data validity",
+    "checkRationale": "An influential observation requires investigation, not automatic deletion.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify linear-model interpretation and diagnostics"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS07-09-P01",
+    "topicId": "PS07-09",
+    "promptSHA256": "2017ecf450e0d5eec2e45e0c93b06f8ee8a14ab349c1ceabde57714b0ad0342d",
+    "answerKey": "Heteroscedasticity",
+    "checkRationale": "A funnel-shaped residual plot suggests errors may have unequal variance.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify linear-model interpretation and diagnostics"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS01-02-P02",
+    "topicId": "PS01-02",
+    "promptSHA256": "36040ca5e746b9550d6c739a593d92ac3fcc4dbe15611639736e2313b283c725",
+    "answerKey": "Quantitative measurement",
+    "checkRationale": "Voltage is a numerical physical measurement and has meaningful numerical differences.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS01-05-P02",
+    "topicId": "PS01-05",
+    "promptSHA256": "c8b0c323de52b45c7e851446c67668c61c2a166b8163af8191c461ac9f92a989",
+    "answerKey": "Stratified random sampling",
+    "checkRationale": "Strata are production shifts, with random selection inside each stratum.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS01-06-P02",
+    "topicId": "PS01-06",
+    "promptSHA256": "4c22818002dd5d3335604970434693e6efbdc9090520e50f05cfacaf962808b8",
+    "answerKey": "Nominal",
+    "checkRationale": "Package-type labels are unordered categories, even if encoded with numeric codes.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS01-09-P02",
+    "topicId": "PS01-09",
+    "promptSHA256": "a888aaf05cb27e218e3f778cda77201eb7268f4c28ba1dfc307591073cdade56",
+    "answerKey": "Covariance describes linear co-movement only",
+    "checkRationale": "The covariance sign and size characterize sample linear co-movement and depend on measurement scales.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS01-10-P02",
+    "topicId": "PS01-10",
+    "promptSHA256": "9902aa9de506fdf3914798671a02ad59542b64a4aad51cdce82ffcdbf8c73f95",
+    "answerKey": "Assignment supports causal comparisons",
+    "checkRationale": "Random assignment helps control confounding in treatment comparisons; sampling concerns representativeness.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions",
+      "verify experimental-unit and design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS02-05-P02",
+    "topicId": "PS02-05",
+    "promptSHA256": "993366ba9e2874f3fa41eeace0428dd2b364434b34d83e3e019b0f8debc2d35d",
+    "answerKey": "Divide by factorials of identical-piece counts",
+    "checkRationale": "Repeated identical objects make some n! label permutations indistinguishable, so divide by multiplicity factorials.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS02-06-P02",
+    "topicId": "PS02-06",
+    "promptSHA256": "8ffc60029d1a29a2858a70383f2c7008610d05ca228feedb880fac7f962c230f",
+    "answerKey": "No, because fixed seat labels make positions distinct",
+    "checkRationale": "Labeled physical seats are distinct positions; rotating the occupants changes assigned seats.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS02-08-P02",
+    "topicId": "PS02-08",
+    "promptSHA256": "cf2ee57a3466c6895c3dc28afdcb69f62f207488719b58a0c61267155c5e679d",
+    "answerKey": "It counts boards in both categories twice",
+    "checkRationale": "Overlapping members belong to both sets and are included twice unless the intersection is subtracted.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS02-09-P02",
+    "topicId": "PS02-09",
+    "promptSHA256": "9c03e3e8c89e95c8d903f97c2994717484edbe64819cbb91627264abe71e4b7f",
+    "answerKey": "Two boards share at least one bin",
+    "checkRationale": "The pigeonhole principle guarantees at least one bin contains at least two boards.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS02-10-P02",
+    "topicId": "PS02-10",
+    "promptSHA256": "2822ddc6ab199e05fd4d987224aef50dfb6896d1f8619dbd9b6e63b535eb51a0",
+    "answerKey": "C(n,r)=C(n,n−r)",
+    "checkRationale": "Choosing r of n objects is equivalent to choosing the n−r objects to omit.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS03-05-P02",
+    "topicId": "PS03-05",
+    "promptSHA256": "6b5109294c632332daf3808d061641d835a37e626a215443328c553999e2dfda",
+    "answerKey": "Supplier prior probabilities",
+    "checkRationale": "The total-probability formula weights each conditional rate by the probability of its supplier group.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS03-06-P02",
+    "topicId": "PS03-06",
+    "promptSHA256": "bfccbd86c389b2b827a432fa14c3125c74b42f8302faa37be6f2cd034db5b6ef",
+    "answerKey": "Population defect prevalence",
+    "checkRationale": "Bayesian positive predictive value depends on the prevalence or prior probability of defects.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS03-08-P02",
+    "topicId": "PS03-08",
+    "promptSHA256": "25db27a3dc1a213734990ce30d6cc835f40695901d93b84be7ea440d14239348",
+    "answerKey": "0.8",
+    "checkRationale": "Probability=4/(4+1)=0.8.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS03-09-P02",
+    "topicId": "PS03-09",
+    "promptSHA256": "12d479f5fb8003f63d5e4056dbb7250bc81b5e0024bd8a4b384708670991743b",
+    "answerKey": "Drawing without replacement from a small lot",
+    "checkRationale": "Removing an item changes the composition of the remaining population.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS03-10-P02",
+    "topicId": "PS03-10",
+    "promptSHA256": "61d17076451703dacb04452854a99e9e4f84e20460dcca936e5e6941ea30b218",
+    "answerKey": "A and B are independent",
+    "checkRationale": "The product P(A)P(B)=0.5×0.4=0.2 equals the stated intersection probability.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS04-06-P02",
+    "topicId": "PS04-06",
+    "promptSHA256": "df5038d7be79d6089662907518f68caac55c6ea951a23ebfb21ebcb56f6602ea",
+    "answerKey": "Hypergeometric",
+    "checkRationale": "The hypergeometric model captures the changing composition of a finite population without replacement.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify sampling/design assumptions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS04-08-P02",
+    "topicId": "PS04-08",
+    "promptSHA256": "ab7e883161ee22b63c9d023da4e1a6b9154dc664c02fbd05e8aeb2e55cebc434",
+    "answerKey": "P(X=4)",
+    "checkRationale": "CDF jump height F(4)−F(4−) is the probability mass at 4.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "confirm contextual meaning and exclusivity of alternatives"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  },
+  {
+    "id": "PS04-10-P02",
+    "topicId": "PS04-10",
+    "promptSHA256": "f64b9fa556689eca8a6801647b832a35f7d179388277cdbe1d0b56e6a25e6715",
+    "answerKey": "Very small np with extreme p",
+    "checkRationale": "A normal approximation may be inaccurate when expected counts are small, particularly for highly skewed binomial models.",
+    "firstPass": "no obvious contradiction found in the four options or stated answer",
+    "riskChecklist": [
+      "verify approximation and distribution conditions"
+    ],
+    "reviewTier": "assistant preliminary logical review — not independent expert certification",
+    "qualifiedExpertApproved": false,
+    "textbookPassageVerified": false,
+    "scoredExamEligible": false
+  }
+]

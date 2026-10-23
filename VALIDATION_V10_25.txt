@@ -1,0 +1,21 @@
+BSECE BOARD REVIEWER v10.25.0 -- SOURCE RELEASE CANDIDATE
+
+Executed in /mnt/data/ece-board-review-v10.25.0
+Node: v22.16.0
+
+PASS: 18 of 18 release-level validation suites, v10.8 through v10.25.
+PASS: 13 of 13 focused TypeScript configurations.
+PASS: Import/syntax scan; 257 TS/TSX files parsed, 0 parse errors, 867 local imports resolved, 0 unresolved.
+PASS: Numeric mistake-pattern fixtures for all 12 drills; incorrect alternatives and false-positive restrictions checked.
+PASS: Numeric deadline guard exact boundary and invalid timestamp behavior.
+PASS: Previous numeric history/backups retain schema v1; regression suite for v10.24 passes.
+PASS: Source QA runner (`qa:source:v10.25`): 32/32 checks.
+
+BLOCKED: npm ci --offline (zwitch package uncached).
+BLOCKED: npm registry DNS resolution from this environment.
+BLOCKED: full npm run lint due to missing React, Node, Express, Vite etc project modules and type packages.
+BLOCKED: full npm run build because vite executable unavailable.
+NOT VERIFIED: full React app browser journeys (no Vite server, Chromium minimal headless attempt timed out).
+NOT VERIFIED: physical Canon F-789SGA keypresses, mode/output verification and editorial approval.
+
+Scope warning: all exercises are practice-only and self-attested; no production or device certification.

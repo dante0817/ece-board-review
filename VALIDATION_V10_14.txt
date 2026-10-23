@@ -1,0 +1,97 @@
+BSECE v10.14.0 — Source Validation
+Date: 2026-10-09
+Release status: SOURCE CANDIDATE (NOT production-certified)
+
+======== validateAlgebraReferenceContent.mjs ========
+Algebra reference validation PASS
+- topics: 23
+- verified source entries: 69
+- audited reference-screen questions: 260
+- misconception references: valid
+- formula-string escaping: valid
+- known ambiguity regressions: absent
+PASS: validateAlgebraReferenceContent.mjs
+======== validateAlgebraExpansionV105.mjs ========
+Algebra v10.5 structural validation PASS
+- expansion topics: 4
+- new practice questions: 24
+- verified new source entries: 12
+- catalog and canonical routes: present
+- Mathematics sidebar active-state coverage: present
+- Linear custom lesson: reference blueprint integrated
+PASS: validateAlgebraExpansionV105.mjs
+======== validateAlgebraExpansionV106.mjs ========
+Algebra v10.6 structural validation PASS
+- expansion topics: 5
+- new practice questions: 50
+- verified new source entries: 15
+- canonical curriculum restorations: Complex Numbers + Binomial Theorem
+- legacy Algebra IDs: migrated without duplicate saved-topic rows
+- prerequisite roadmap: canonical learner-topic links verified
+- known mock-q-03 answer key: corrected to 672 (A)
+PASS: validateAlgebraExpansionV106.mjs
+======== validateAlgebraPracticeV107.mjs ========
+Algebra v10.7 structural validation PASS
+- reference-informed topics: 19
+- shared reference-bank questions: at least the v10.7 baseline of 180
+- new topic questions: 30
+- expanded earlier banks: +40 questions
+- new verified source entries: 9
+- local subskill mastery + misconception remediation: present
+- canonical Matrices learner record: present
+PASS: validateAlgebraPracticeV107.mjs
+======== validateAlgebraAssessmentV108.mjs ========
+Algebra v10.8 structural validation PASS
+- reference-informed topics: 23
+- audited shared practice questions: 260
+- timed reference assessment candidates: 203
+- high-priority banks expanded to 15 items: 8
+- final Algebra catalog routes: complete
+- assessment readiness: recommendation-only; canonical mastery remains scored-review owned
+- mock generator: unique questions only; no clone/cycle fallback
+- curated Algebra mock topic IDs: canonical
+- approved-reference complex-number scope: preserved
+PASS: validateAlgebraAssessmentV108.mjs
+======== validateIntegrityV109.mjs ========
+PASS v10.9 integrity regression: clean profile, immutable migration, quiz math, topic attribution, validation, navigation and readiness.
+PASS: validateIntegrityV109.mjs
+======== validateAssessmentV1010.mjs ========
+PASS v10.10: 40 shuffle/grade permutations, invalid answer/order guards, strict vs study evidence, backup/restore + invalid import rejection, six UI integration checks.
+PASS: validateAssessmentV1010.mjs
+======== validateCurriculumV1011.mjs ========
+PASS v10.11: 23 topics; 260 practice questions structurally checked; 214 original subskill tags -> 102 grouped skills; 30 original variants in 15 families numerically checked; 25 rounds shuffle+grading; independent/duplicate/delayed evidence and conservative absolute-value migration rules.
+NOTE: structural/reference-bank checks do NOT constitute a human mathematics and explanation audit of all 260 existing questions.
+COVERAGE: 5/102 grouped skills have 3+ reserved original assessment families; denominator algebra-reference-2026.10-v10.11.
+PASS: validateCurriculumV1011.mjs
+======== validateLearningPathsV1012.mjs ========
+PASS v10.12: path defaults, sequencing, scored weaknesses, legacy/manual exclusion, retention, error priority, empty catalog, path independence, UI wiring, and validated backup round-trip
+PASS: validateLearningPathsV1012.mjs
+======== validateBoardBlueprintV1013.mjs ========
+PASS v10.13-compatible: quota rounding, subject identity, shortage disclosure, distinct-question sampling, independent area results, 0-question Not assessed, record consistency, compatibility, and UI wiring
+QUESTION BANK: 336 raw questions; 335 unique prompts
+50-QUESTION PLAN: math 10/10 (bank 220, missing 0); electronics 15/15 (bank 41, missing 0); geas 10/10 (bank 32, missing 0); est 15/15 (bank 42, missing 0)
+DELIVERED: 50 MISSING: 0 BOARD-REPRESENTATIVE: false
+PASS: validateBoardBlueprintV1013.mjs
+======== validateBoardExpansionV1014.mjs ========
+PASS v10.14 original bank: 48 numeric families, 96 variants, answer keys, diverse positions, clean GEAS migration, unique prompts, correct quota assembly, family diversity, subject records, scoring.
+ANSWER GOLDEN CHECKS: 43
+KEY POSITIONS: {"A":26,"B":32,"C":14,"D":24}
+50-QUESTION PLAN: 50/50; math 10/10 (bank 220, new families 0); electronics 15/15 (bank 41, new families 16); geas 10/10 (bank 32, new families 16); est 15/15 (bank 42, new families 16); full-TOS-verified=false
+100-QUESTION PLAN: 100/100; math 20/20 (bank 220, new families 0); electronics 30/30 (bank 41, new families 16); geas 20/20 (bank 32, new families 16); est 30/30 (bank 42, new families 16); full-TOS-verified=false
+200-QUESTION PLAN: 155/200; math 40/40 (bank 220, new families 0); electronics 41/60 (bank 41, new families 16); geas 32/40 (bank 32, new families 16); est 42/60 (bank 42, new families 16); full-TOS-verified=false
+PASS: validateBoardExpansionV1014.mjs
+
+Strict focused TypeScript compilation:
+
+> bsece-board-reviewer@10.14.0 lint:board
+> tsc --project tsconfig.board.json
+
+PASS: focused TypeScript compilation
+
+Source syntax scan: 233 TS/TSX files, 0 parse errors.
+
+Full app compilation / build: NOT CERTIFIED.
+npm ci --offline: FAILED (ENOTCACHED: zwitch).
+Full tsc --noEmit: FAILED because React, Node, Express, Vite and other dependency types are missing.
+Browser E2E tests: NOT RUN.
+Question peer review: PENDING. Official within-subject PRC TOS mapping: PENDING.

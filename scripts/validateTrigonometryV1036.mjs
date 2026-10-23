@@ -1,0 +1,41 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const read = p => fs.readFileSync(new URL(`../${p}`,import.meta.url),'utf8');
+const catalog=JSON.parse(read('src/features/trigonometry/curriculum.json'));
+assert.equal(catalog.groups.length,4);
+assert.equal(catalog.topics.length,14);
+assert.equal(catalog.topics.filter(t=>!t.optional).length,13);
+const subs=catalog.topics.flatMap(t=>t.subtopics);
+assert.equal(subs.length,102);
+assert.equal(new Set(subs.map(s=>s.id)).size,102);
+assert.equal(new Set(catalog.topics.map(t=>t.id)).size,14);
+assert(catalog.topics.every(t=>t.subtopics.every(s=>s.id.startsWith(t.id+'-'))));
+assert(catalog.topics.some(t=>t.optional && t.id==='trig-advanced'));
+const original=read('src/features/trigonometry/TrigonometryScreen.tsx');
+assert.match(original,/top-trig-identities/);
+assert.match(original,/top-spherical-trig/);
+assert.match(original,/EXISTING_TRIGONOMETRY_BINDINGS/);
+assert.match(original,/chapterTrackingId\(id\)/);
+assert(!/removeItem\(|localStorage\.clear\(/.test(original));
+const app=read('src/App.tsx'),sidebar=read('src/components/Sidebar.tsx'),mathematics=read('src/components/MathematicsScreen.tsx');
+assert.match(app,/currentScreen === 'trigonometry' && <TrigonometryScreen/);
+assert.doesNotMatch(sidebar,/id="nav-btn-trigonometry"/);
+assert.match(sidebar,/id="nav-btn-mathematics"/);
+assert.match(sidebar,/setSelectedMathModuleId\('foundation'\)/);
+if(['10.57.0','10.58.0','10.60.0','10.61.0','10.62.0'].some(v=>read('package.json').includes(v))) {
+  const catalog=read('src/features/mathematics/mathCatalog.ts');
+  assert.match(catalog,/id:'trigonometry'[\s\S]*?destination:'trigonometry'/);
+  assert.match(mathematics,/MATH_CATALOG/);
+} else {
+  assert.match(mathematics,/id="btn-module-trigonometry"/);
+  assert.match(mathematics,/setCurrentScreen\('trigonometry'\)/);
+}
+const gui=read('src/features/trigonometry/TrigonometryModule.tsx');
+assert.match(gui,/onOpenExistingTopic/);
+assert.match(gui,/renderExistingTracker/);
+assert.match(gui,/Not yet linked/);
+assert.match(gui,/No verified existing practice questions are mapped yet/);
+const seed=JSON.parse(read('src/data/seedData.json'));
+const subj=seed.subjects?.find(s=>s.id==='subj-math-trig');
+if(subj) assert.equal(subj.groups.flatMap(g=>g.topics).length,2);
+console.log('PASS v10.36.0: 4 groups, 14 topics, 102 unique subtopics; legacy topics, links, navigation, and non-destructive tracking verified.');

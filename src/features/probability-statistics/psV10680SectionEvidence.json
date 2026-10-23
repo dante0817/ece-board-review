@@ -1,0 +1,2064 @@
+{
+  "PS01-01": {
+    "lessonId": "PS01-01",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 15,
+    "sectionLocator": "1.1",
+    "sectionTitle": "Sampling",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "sampling"
+    ],
+    "localTermsFound": [
+      "sampling"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-02": {
+    "lessonId": "PS01-02",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 25,
+    "sectionLocator": "1.2",
+    "sectionTitle": "Summary Statistics",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "summary"
+    ],
+    "localTermsFound": [
+      "summary"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-03": {
+    "lessonId": "PS01-03",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 25,
+    "sectionLocator": "1.2",
+    "sectionTitle": "Summary Statistics",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "summary"
+    ],
+    "localTermsFound": [
+      "summary"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-04": {
+    "lessonId": "PS01-04",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 37,
+    "sectionLocator": "1.3",
+    "sectionTitle": "Graphical Summaries",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "graphical",
+      "summaries"
+    ],
+    "localTermsFound": [
+      "graphical",
+      "summaries"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-01": {
+    "lessonId": "PS02-01",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 197,
+    "sectionLocator": "5.1",
+    "sectionTitle": "Two Basic Counting Principles",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "counting",
+      "principles"
+    ],
+    "localTermsFound": [
+      "counting",
+      "principles"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-02": {
+    "lessonId": "PS02-02",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 207,
+    "sectionLocator": "5.2",
+    "sectionTitle": "Simple Arrangements and Selections",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "arrangements",
+      "selections"
+    ],
+    "localTermsFound": [
+      "arrangements",
+      "selections"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-03": {
+    "lessonId": "PS02-03",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 207,
+    "sectionLocator": "5.2",
+    "sectionTitle": "Simple Arrangements and Selections",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "arrangements",
+      "selections"
+    ],
+    "localTermsFound": [
+      "arrangements",
+      "selections"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-04": {
+    "lessonId": "PS02-04",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 197,
+    "sectionLocator": "5.1",
+    "sectionTitle": "Two Basic Counting Principles",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "counting",
+      "principles"
+    ],
+    "localTermsFound": [
+      "counting",
+      "principles"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-01": {
+    "lessonId": "PS03-01",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "page1Based": 58,
+    "sectionLocator": "2.2.2",
+    "sectionTitle": "OR: The “union” probability, P(A or B)",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "union"
+    ],
+    "localTermsFound": [
+      "union"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-02": {
+    "lessonId": "PS03-02",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "page1Based": 62,
+    "sectionLocator": "2.2.4",
+    "sectionTitle": "Conditional probability",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "conditional"
+    ],
+    "localTermsFound": [
+      "conditional"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-03": {
+    "lessonId": "PS03-03",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "page1Based": 79,
+    "sectionLocator": "2.5",
+    "sectionTitle": "Bayes’ theorem",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "bayes",
+      "theorem"
+    ],
+    "localTermsFound": [
+      "bayes",
+      "theorem"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-04": {
+    "lessonId": "PS03-04",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 81,
+    "sectionLocator": "2.3",
+    "sectionTitle": "Conditional Probability and Independence",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "conditional",
+      "independence"
+    ],
+    "localTermsFound": [
+      "conditional",
+      "independence"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-01": {
+    "lessonId": "PS04-01",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 105,
+    "sectionLocator": "3.2",
+    "sectionTitle": "Discrete Probability Distributions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "discrete",
+      "distributions"
+    ],
+    "localTermsFound": [
+      "discrete",
+      "distributions"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-02": {
+    "lessonId": "PS04-02",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 164,
+    "sectionLocator": "5.2",
+    "sectionTitle": "Binomial and Multinomial Distributions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "binomial",
+      "distributions",
+      "multinomial"
+    ],
+    "localTermsFound": [
+      "binomial",
+      "distributions",
+      "multinomial"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-03": {
+    "lessonId": "PS04-03",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 182,
+    "sectionLocator": "5.5",
+    "sectionTitle": "Poisson Distribution and the Poisson Process",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "distribution",
+      "poisson",
+      "process"
+    ],
+    "localTermsFound": [
+      "distribution",
+      "poisson",
+      "process"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-04": {
+    "lessonId": "PS04-04",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 193,
+    "sectionLocator": "6.2",
+    "sectionTitle": "Normal Distribution",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "distribution",
+      "normal"
+    ],
+    "localTermsFound": [
+      "distribution",
+      "normal"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-01": {
+    "lessonId": "PS05-01",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 253,
+    "sectionLocator": "8.3",
+    "sectionTitle": "Sampling Distributions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "distributions",
+      "sampling"
+    ],
+    "localTermsFound": [
+      "distributions",
+      "sampling"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-02": {
+    "lessonId": "PS05-02",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 335,
+    "sectionLocator": "5.1",
+    "sectionTitle": "Large-Sample Confidence Intervals for a Population Mean",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "intervals",
+      "large",
+      "mean",
+      "population",
+      "sample"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "intervals",
+      "large",
+      "mean",
+      "population",
+      "sample"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-03": {
+    "lessonId": "PS05-03",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 356,
+    "sectionLocator": "5.3",
+    "sectionTitle": "Small-Sample Confidence Intervals for a Population Mean",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "intervals",
+      "mean",
+      "population",
+      "sample",
+      "small"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "intervals",
+      "mean",
+      "population",
+      "sample",
+      "small"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-04": {
+    "lessonId": "PS05-04",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 335,
+    "sectionLocator": "5.1",
+    "sectionTitle": "Large-Sample Confidence Intervals for a Population Mean",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "intervals",
+      "large",
+      "mean",
+      "population",
+      "sample"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "intervals",
+      "large",
+      "mean",
+      "population",
+      "sample"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-01": {
+    "lessonId": "PS06-01",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 412,
+    "sectionLocator": "6.1",
+    "sectionTitle": "Large-Sample Tests for a Population Mean",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "large",
+      "mean",
+      "population",
+      "sample",
+      "tests"
+    ],
+    "localTermsFound": [
+      "large",
+      "mean",
+      "population",
+      "sample",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-02": {
+    "lessonId": "PS06-02",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 434,
+    "sectionLocator": "6.4",
+    "sectionTitle": "Small-Sample Tests for a Population Mean",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "mean",
+      "population",
+      "sample",
+      "small",
+      "tests"
+    ],
+    "localTermsFound": [
+      "mean",
+      "population",
+      "sample",
+      "small",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-03": {
+    "lessonId": "PS06-03",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 494,
+    "sectionLocator": "6.12",
+    "sectionTitle": "Fixed-Level Testing — Type I and Type II Errors",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": false,
+    "sectionTitleTopicTerms": [
+      "errors",
+      "fixed",
+      "level",
+      "testing",
+      "type"
+    ],
+    "localTermsFound": [
+      "errors",
+      "level",
+      "testing",
+      "type"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "Navidi PDF p.494 is within section 6.12 (heading on previous page); the text establishes Type I error probability at most alpha.",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-04": {
+    "lessonId": "PS06-04",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 475,
+    "sectionLocator": "6.10",
+    "sectionTitle": "Tests with Categorical Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "categorical",
+      "data",
+      "tests"
+    ],
+    "localTermsFound": [
+      "categorical",
+      "data",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-01": {
+    "lessonId": "PS07-01",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 521,
+    "sectionLocator": "7.1",
+    "sectionTitle": "Correlation",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "correlation"
+    ],
+    "localTermsFound": [
+      "correlation"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-02": {
+    "lessonId": "PS07-02",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 539,
+    "sectionLocator": "7.2",
+    "sectionTitle": "The Least-Squares Line",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "least",
+      "line",
+      "squares"
+    ],
+    "localTermsFound": [
+      "least",
+      "line",
+      "squares"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-03": {
+    "lessonId": "PS07-03",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 576,
+    "sectionLocator": "7.4",
+    "sectionTitle": "Checking Assumptions and Transforming Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "assumptions",
+      "checking",
+      "data",
+      "transforming"
+    ],
+    "localTermsFound": [
+      "assumptions",
+      "checking",
+      "data",
+      "transforming"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-04": {
+    "lessonId": "PS07-04",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 521,
+    "sectionLocator": "7.1",
+    "sectionTitle": "Correlation",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "correlation"
+    ],
+    "localTermsFound": [
+      "correlation"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-01": {
+    "lessonId": "PS08-01",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 674,
+    "sectionLocator": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factor"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factor"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-02": {
+    "lessonId": "PS08-02",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 674,
+    "sectionLocator": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factor"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factor"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-03": {
+    "lessonId": "PS08-03",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 737,
+    "sectionLocator": "9.4",
+    "sectionTitle": "Randomized Complete Block Designs",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "block",
+      "complete",
+      "designs",
+      "randomized"
+    ],
+    "localTermsFound": [
+      "block",
+      "complete",
+      "designs",
+      "randomized"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-04": {
+    "lessonId": "PS08-04",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 712,
+    "sectionLocator": "9.3",
+    "sectionTitle": "Two-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factor"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factor"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-05": {
+    "lessonId": "PS05-05",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 254,
+    "sectionLocator": "8.4",
+    "sectionTitle": "Sampling Distribution of Means and the Central Limit Theorem",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "central",
+      "distribution",
+      "limit",
+      "means",
+      "sampling",
+      "theorem"
+    ],
+    "localTermsFound": [
+      "central",
+      "distribution",
+      "limit",
+      "means",
+      "sampling",
+      "theorem"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-06": {
+    "lessonId": "PS05-06",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 350,
+    "sectionLocator": "5.2",
+    "sectionTitle": "Confidence Intervals for Proportions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-07": {
+    "lessonId": "PS05-07",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 375,
+    "sectionLocator": "5.6",
+    "sectionTitle": "Small-Sample Confidence Intervals for the Difference Between Two Means",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "difference",
+      "intervals",
+      "means",
+      "sample",
+      "small"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "difference",
+      "intervals",
+      "means",
+      "sample",
+      "small"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-08": {
+    "lessonId": "PS05-08",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 382,
+    "sectionLocator": "5.7",
+    "sectionTitle": "Confidence Intervals with Paired Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "data",
+      "intervals",
+      "paired"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "data",
+      "intervals",
+      "paired"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-09": {
+    "lessonId": "PS05-09",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 370,
+    "sectionLocator": "5.5",
+    "sectionTitle": "Confidence Intervals for the Difference Between Two Proportions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "difference",
+      "intervals",
+      "proportions"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "difference",
+      "intervals",
+      "proportions"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS05-10": {
+    "lessonId": "PS05-10",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 350,
+    "sectionLocator": "5.2",
+    "sectionTitle": "Confidence Intervals for Proportions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "localTermsFound": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-05": {
+    "lessonId": "PS08-05",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 674,
+    "sectionLocator": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factor"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factor"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-06": {
+    "lessonId": "PS08-06",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 674,
+    "sectionLocator": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factor"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factor"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-07": {
+    "lessonId": "PS08-07",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 674,
+    "sectionLocator": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factor"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factor"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-08": {
+    "lessonId": "PS08-08",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 737,
+    "sectionLocator": "9.4",
+    "sectionTitle": "Randomized Complete Block Designs",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "block",
+      "complete",
+      "designs",
+      "randomized"
+    ],
+    "localTermsFound": [
+      "block",
+      "complete",
+      "designs",
+      "randomized"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-09": {
+    "lessonId": "PS08-09",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 747,
+    "sectionLocator": "9.5",
+    "sectionTitle": "Factorial Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "experiments",
+      "factorial"
+    ],
+    "localTermsFound": [
+      "experiments",
+      "factorial"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS08-10": {
+    "lessonId": "PS08-10",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 699,
+    "sectionLocator": "9.2",
+    "sectionTitle": "Pairwise Comparisons in One-Factor Experiments",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "comparisons",
+      "experiments",
+      "factor",
+      "pairwise"
+    ],
+    "localTermsFound": [
+      "comparisons",
+      "experiments",
+      "factor",
+      "pairwise"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-05": {
+    "lessonId": "PS06-05",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 496,
+    "sectionLocator": "6.13",
+    "sectionTitle": "Power",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "power"
+    ],
+    "localTermsFound": [
+      "power"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-06": {
+    "lessonId": "PS06-06",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 429,
+    "sectionLocator": "6.3",
+    "sectionTitle": "Tests for a Population Proportion",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "population",
+      "proportion",
+      "tests"
+    ],
+    "localTermsFound": [
+      "population",
+      "proportion",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-07": {
+    "lessonId": "PS06-07",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 451,
+    "sectionLocator": "6.7",
+    "sectionTitle": "Small-Sample Tests for the Difference Between Two Means",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "difference",
+      "means",
+      "sample",
+      "small",
+      "tests"
+    ],
+    "localTermsFound": [
+      "difference",
+      "means",
+      "sample",
+      "small",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-08": {
+    "lessonId": "PS06-08",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 460,
+    "sectionLocator": "6.8",
+    "sectionTitle": "Tests with Paired Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "data",
+      "paired",
+      "tests"
+    ],
+    "localTermsFound": [
+      "data",
+      "paired",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-09": {
+    "lessonId": "PS06-09",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 446,
+    "sectionLocator": "6.6",
+    "sectionTitle": "Tests for the Difference Between Two Proportions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "difference",
+      "proportions",
+      "tests"
+    ],
+    "localTermsFound": [
+      "difference",
+      "proportions",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS06-10": {
+    "lessonId": "PS06-10",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 475,
+    "sectionLocator": "6.10",
+    "sectionTitle": "Tests with Categorical Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "categorical",
+      "data",
+      "tests"
+    ],
+    "localTermsFound": [
+      "categorical",
+      "data",
+      "tests"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-05": {
+    "lessonId": "PS07-05",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 576,
+    "sectionLocator": "7.4",
+    "sectionTitle": "Checking Assumptions and Transforming Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "assumptions",
+      "checking",
+      "data",
+      "transforming"
+    ],
+    "localTermsFound": [
+      "assumptions",
+      "checking",
+      "data",
+      "transforming"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-06": {
+    "lessonId": "PS07-06",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 539,
+    "sectionLocator": "7.2",
+    "sectionTitle": "The Least-Squares Line",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "least",
+      "line",
+      "squares"
+    ],
+    "localTermsFound": [
+      "least",
+      "line",
+      "squares"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-07": {
+    "lessonId": "PS07-07",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 567,
+    "sectionLocator": "7.3",
+    "sectionTitle": "Prediction Intervals for Future Observations",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "future",
+      "intervals",
+      "observations",
+      "prediction"
+    ],
+    "localTermsFound": [
+      "prediction"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "Navidi PDF p.567 supplies the prediction standard error including the additional observation-noise term; this is within section 7.3.",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-08": {
+    "lessonId": "PS07-08",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 555,
+    "sectionLocator": "7.3",
+    "sectionTitle": "Uncertainties in the Least-Squares Coefficients",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "coefficients",
+      "least",
+      "squares",
+      "uncertainties"
+    ],
+    "localTermsFound": [
+      "coefficients",
+      "least",
+      "squares",
+      "uncertainties"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-09": {
+    "lessonId": "PS07-09",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 576,
+    "sectionLocator": "7.4",
+    "sectionTitle": "Checking Assumptions and Transforming Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "assumptions",
+      "checking",
+      "data",
+      "transforming"
+    ],
+    "localTermsFound": [
+      "assumptions",
+      "checking",
+      "data",
+      "transforming"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS07-10": {
+    "lessonId": "PS07-10",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 608,
+    "sectionLocator": "8.1",
+    "sectionTitle": "The Multiple Regression Model",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "model",
+      "multiple",
+      "regression"
+    ],
+    "localTermsFound": [
+      "model",
+      "multiple",
+      "regression"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-05": {
+    "lessonId": "PS01-05",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 15,
+    "sectionLocator": "1.1",
+    "sectionTitle": "Sampling",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "sampling"
+    ],
+    "localTermsFound": [
+      "sampling"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-06": {
+    "lessonId": "PS01-06",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 38,
+    "sectionLocator": "1.5",
+    "sectionTitle": "Discrete and Continuous Data",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "continuous",
+      "data",
+      "discrete"
+    ],
+    "localTermsFound": [
+      "continuous",
+      "data",
+      "discrete"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-07": {
+    "lessonId": "PS01-07",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 25,
+    "sectionLocator": "1.2",
+    "sectionTitle": "Summary Statistics",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "summary"
+    ],
+    "localTermsFound": [
+      "summary"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-08": {
+    "lessonId": "PS01-08",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 37,
+    "sectionLocator": "1.3",
+    "sectionTitle": "Graphical Summaries",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "graphical",
+      "summaries"
+    ],
+    "localTermsFound": [
+      "graphical",
+      "summaries"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-09": {
+    "lessonId": "PS01-09",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 521,
+    "sectionLocator": "7.1",
+    "sectionTitle": "Correlation",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "correlation"
+    ],
+    "localTermsFound": [
+      "correlation"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS01-10": {
+    "lessonId": "PS01-10",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 48,
+    "sectionLocator": "1.7",
+    "sectionTitle": "General Types of Statistical Studies: Designed Experiment, Observational Study, and Retrospective Study",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "designed",
+      "experiment",
+      "general",
+      "observational",
+      "retrospective",
+      "studies",
+      "study",
+      "types"
+    ],
+    "localTermsFound": [
+      "designed",
+      "experiment",
+      "general",
+      "observational",
+      "retrospective",
+      "studies",
+      "study",
+      "types"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-05": {
+    "lessonId": "PS02-05",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 224,
+    "sectionLocator": "5.3",
+    "sectionTitle": "Arrangements and Selections with Repetitions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "arrangements",
+      "repetitions",
+      "selections"
+    ],
+    "localTermsFound": [
+      "arrangements",
+      "repetitions",
+      "selections"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-06": {
+    "lessonId": "PS02-06",
+    "sourcePdf": "Combinatorics A Guided Tour Mazur.pdf",
+    "sourcePdfSHA256": "1c31d17f285179941ff63e28b88377c4e0f7af94ff14a81fcf4fa104e591467c",
+    "page1Based": 56,
+    "sectionLocator": "1. Principles of Combinatorics",
+    "sectionTitle": "Equivalence of circular arrangements under rotation",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": false,
+    "sectionTitleTopicTerms": [
+      "arrangements",
+      "circular",
+      "equivalence",
+      "rotation"
+    ],
+    "localTermsFound": [
+      "circular",
+      "equivalence",
+      "rotation"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "Mazur PDF p.56 discusses circular rotations as equivalent arrangements with a worked four-person counting example; section 1.4 heading begins earlier.",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-07": {
+    "lessonId": "PS02-07",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 224,
+    "sectionLocator": "5.3",
+    "sectionTitle": "Arrangements and Selections with Repetitions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "arrangements",
+      "repetitions",
+      "selections"
+    ],
+    "localTermsFound": [
+      "arrangements",
+      "repetitions",
+      "selections"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-08": {
+    "lessonId": "PS02-08",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 337,
+    "sectionLocator": "8.1",
+    "sectionTitle": "Counting with Venn Diagrams / inclusion-exclusion",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "counting",
+      "diagrams",
+      "exclusion",
+      "inclusion",
+      "venn"
+    ],
+    "localTermsFound": [
+      "counting",
+      "diagrams",
+      "exclusion",
+      "inclusion",
+      "venn"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-09": {
+    "lessonId": "PS02-09",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 445,
+    "sectionLocator": "Appendix A.4",
+    "sectionTitle": "The Pigeonhole Principle",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": false,
+    "sectionTitleTopicTerms": [
+      "pigeonhole",
+      "principle"
+    ],
+    "localTermsFound": [
+      "pigeonhole",
+      "principle"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "Tucker PDF p.445 displays Appendix A.4 The Pigeonhole Principle; special appendix numbering differs from numeric chapter numbering.",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS02-10": {
+    "lessonId": "PS02-10",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "page1Based": 244,
+    "sectionLocator": "5.5",
+    "sectionTitle": "Binomial Identities",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "binomial",
+      "identities"
+    ],
+    "localTermsFound": [
+      "binomial",
+      "identities"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-05": {
+    "lessonId": "PS03-05",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 88,
+    "sectionLocator": "2.3",
+    "sectionTitle": "Law of Total Probability",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": false,
+    "sectionTitleTopicTerms": [
+      "total"
+    ],
+    "localTermsFound": [
+      "total"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "Navidi PDF p.88 contains the Law of Total Probability subsection after an independence example; the section number 2.3 is inherited from the containing section.",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-06": {
+    "lessonId": "PS03-06",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "page1Based": 79,
+    "sectionLocator": "2.5",
+    "sectionTitle": "Bayes’ theorem",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "bayes",
+      "theorem"
+    ],
+    "localTermsFound": [
+      "bayes",
+      "theorem"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-07": {
+    "lessonId": "PS03-07",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 81,
+    "sectionLocator": "2.3",
+    "sectionTitle": "Conditional Probability and Independence",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "conditional",
+      "independence"
+    ],
+    "localTermsFound": [
+      "conditional",
+      "independence"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-08": {
+    "lessonId": "PS03-08",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "page1Based": 89,
+    "sectionLocator": "Problems 2.1",
+    "sectionTitle": "Odds (problem statement)",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": false,
+    "sectionTitleTopicTerms": [
+      "odds",
+      "problem",
+      "statement"
+    ],
+    "localTermsFound": [
+      "odds",
+      "problem"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "Morin PDF p.89 contains the odds problem statement, numbered Problem 2.1, not a textbook section number.",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-09": {
+    "lessonId": "PS03-09",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "page1Based": 52,
+    "sectionLocator": "2.2.1",
+    "sectionTitle": "AND: The “intersection” probability, P(A and B)",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "intersection"
+    ],
+    "localTermsFound": [
+      "intersection"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS03-10": {
+    "lessonId": "PS03-10",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 81,
+    "sectionLocator": "2.3",
+    "sectionTitle": "Conditional Probability and Independence",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "conditional",
+      "independence"
+    ],
+    "localTermsFound": [
+      "conditional",
+      "independence"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-05": {
+    "lessonId": "PS04-05",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 179,
+    "sectionLocator": "5.4",
+    "sectionTitle": "Negative Binomial and Geometric Distributions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "binomial",
+      "distributions",
+      "geometric",
+      "negative"
+    ],
+    "localTermsFound": [
+      "binomial",
+      "distributions",
+      "geometric",
+      "negative"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-06": {
+    "lessonId": "PS04-06",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 173,
+    "sectionLocator": "5.3",
+    "sectionTitle": "Hypergeometric Distribution",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "distribution",
+      "hypergeometric"
+    ],
+    "localTermsFound": [
+      "distribution",
+      "hypergeometric"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-07": {
+    "lessonId": "PS04-07",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 215,
+    "sectionLocator": "6.6",
+    "sectionTitle": "Gamma and Exponential Distributions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "distributions",
+      "exponential",
+      "gamma"
+    ],
+    "localTermsFound": [
+      "distributions",
+      "exponential",
+      "gamma"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-08": {
+    "lessonId": "PS04-08",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 108,
+    "sectionLocator": "3.3",
+    "sectionTitle": "Continuous Probability Distributions",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "continuous",
+      "distributions"
+    ],
+    "localTermsFound": [
+      "continuous",
+      "distributions"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-09": {
+    "lessonId": "PS04-09",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "page1Based": 155,
+    "sectionLocator": "2.6",
+    "sectionTitle": "Jointly Distributed Random Variables — Covariance, Correlation, and Independence",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "correlation",
+      "covariance",
+      "distributed",
+      "independence",
+      "jointly",
+      "random",
+      "variables"
+    ],
+    "localTermsFound": [
+      "covariance",
+      "distributed",
+      "jointly",
+      "random",
+      "variables"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  },
+  "PS04-10": {
+    "lessonId": "PS04-10",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "page1Based": 208,
+    "sectionLocator": "6.5",
+    "sectionTitle": "Normal Approximation to the Binomial",
+    "extractablePageText": true,
+    "sectionMarkerOnPage": true,
+    "sectionTitleTopicTerms": [
+      "approximation",
+      "binomial",
+      "normal"
+    ],
+    "localTermsFound": [
+      "approximation",
+      "binomial",
+      "normal"
+    ],
+    "localSectionTopicCorroborated": true,
+    "evidenceClass": "PDF section/title/topic corroboration only; not lesson formula or worked example certification",
+    "targetedReadingNote": "",
+    "entireLessonPassageApproved": false,
+    "workedExampleApproved": false,
+    "independentQualifiedSignoff": false
+  }
+}

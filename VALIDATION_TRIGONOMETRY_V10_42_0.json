@@ -1,0 +1,34 @@
+{
+  "release": "10.42.0",
+  "source_base": "10.41.0",
+  "topic": "07 \u2014 Inverse Trigonometric Functions",
+  "added_lessons": 6,
+  "added_questions": 48,
+  "topic07_lessons": 6,
+  "topic07_practice": 48,
+  "total_trig_lessons": 49,
+  "total_curriculum_subtopics": 102,
+  "total_trig_questions": 392,
+  "algebra_practice_preserved": 422,
+  "total_practice": 814,
+  "status": "draft-pending-editorial-review",
+  "checks": {
+    "topic07_data_and_math": "passed",
+    "prior_trigonometry_chain": "passed",
+    "practice_1032_1033_1034": "passed",
+    "manual_learn": "passed",
+    "learn_reader": "passed",
+    "source_imports": "passed",
+    "content_audit": "passed",
+    "targeted_tsc_practice": "passed",
+    "targeted_tsc_reader": "passed",
+    "npm_ci_offline": "blocked\u2014zwitch not cached",
+    "production_build": "not_run",
+    "browser_runtime": "not_run"
+  },
+  "notes": [
+    "Math branch and domain conventions explicitly stated",
+    "No previous question keys or learning records removed or migrated",
+    "Automated sample checks are not independent editorial certification"
+  ]
+}

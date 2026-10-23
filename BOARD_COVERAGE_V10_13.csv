@@ -1,0 +1,25 @@
+requested_total,area_id,area_name,weight_percent,quota,distinct_available,selected,shortage,delivered_total,missing_total,board_representative
+10,math,"Mathematics",20,2,220,2,0,8,2,false
+10,electronics,"Electronics Engineering",30,3,9,3,0,8,2,false
+10,geas,"General Engineering and Applied Sciences",20,2,0,0,2,8,2,false
+10,est,"Electronics Systems and Technologies",30,3,10,3,0,8,2,false
+15,math,"Mathematics",20,3,220,3,0,12,3,false
+15,electronics,"Electronics Engineering",30,5,9,5,0,12,3,false
+15,geas,"General Engineering and Applied Sciences",20,3,0,0,3,12,3,false
+15,est,"Electronics Systems and Technologies",30,4,10,4,0,12,3,false
+20,math,"Mathematics",20,4,220,4,0,16,4,false
+20,electronics,"Electronics Engineering",30,6,9,6,0,16,4,false
+20,geas,"General Engineering and Applied Sciences",20,4,0,0,4,16,4,false
+20,est,"Electronics Systems and Technologies",30,6,10,6,0,16,4,false
+30,math,"Mathematics",20,6,220,6,0,24,6,false
+30,electronics,"Electronics Engineering",30,9,9,9,0,24,6,false
+30,geas,"General Engineering and Applied Sciences",20,6,0,0,6,24,6,false
+30,est,"Electronics Systems and Technologies",30,9,10,9,0,24,6,false
+50,math,"Mathematics",20,10,220,10,0,29,21,false
+50,electronics,"Electronics Engineering",30,15,9,9,6,29,21,false
+50,geas,"General Engineering and Applied Sciences",20,10,0,0,10,29,21,false
+50,est,"Electronics Systems and Technologies",30,15,10,10,5,29,21,false
+100,math,"Mathematics",20,20,220,20,0,39,61,false
+100,electronics,"Electronics Engineering",30,30,9,9,21,39,61,false
+100,geas,"General Engineering and Applied Sciences",20,20,0,0,20,39,61,false
+100,est,"Electronics Systems and Technologies",30,30,10,10,20,39,61,false

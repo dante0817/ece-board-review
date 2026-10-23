@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+const read = (path) => fs.readFileSync(new URL('../'+path, import.meta.url), 'utf8');
+const manifest = JSON.parse(read('package.json'));
+const lock = JSON.parse(read('package-lock.json'));
+assert(['10.50.2','10.50.3','10.51.0', '10.52.0', '10.53.0', '10.54.0','10.55.0','10.56.0','10.57.0','10.58.0','10.60.0','10.61.0','10.62.0'].includes(manifest.version));
+assert.equal(lock.version, manifest.version);
+assert.equal(lock.packages[''].version, manifest.version);
+const types = read('src/features/trigonometry/types.ts');
+const lessonTypes = read('src/domain/learn/lessonTypes.ts');
+const screen = read('src/features/trigonometry/TrigonometryScreen.tsx');
+const module = read('src/features/trigonometry/TrigonometryModule.tsx');
+assert.match(lessonTypes, /LessonStatus = 'summary' \| 'draft' \| 'reviewed' \| 'verified'/);
+assert.match(types, /import type \{ LessonStatus \} from '\.\.\/\.\.\/domain\/learn\/lessonTypes'/);
+assert.match(types, /lessonStatus\?: LessonStatus;/);
+assert.match(screen, /lessonStatus:TRIGONOMETRY_CONNECTED_LESSONS\[id\]\.status/);
+assert.match(module, /lessonStatus==='summary'\?'Reference summary'/);
+console.log('PASS v10.50.2: shared LessonStatus union (including summary), source mapping, honest status label, package versions, source type contract');

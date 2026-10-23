@@ -1,0 +1,43 @@
+BSECE Board Reviewer v10.20.0 — Validation Report
+Release classification: SOURCE CANDIDATE (not production certified)
+
+Scope and implementation
+- 10 structured Canon F-789SGA lesson records with 20 embedded multiple-choice checks.
+- Interactive knowledge checks, retries, feedback, completion indicators and practice-only local progress.
+- Versioned progress validated on learner archive export/import, invalid data rejected before restore.
+- 10 legacy exact-question Canon pilot guides + 18 family templates / 36 numerical variants preserved.
+- Central strict-assessment access checks retained; calculator skills hidden during strict-active/finalizing.
+- Additional model-compatibility notices on three legacy Casio-specific educational components.
+- No device-tested/approved technique was added; no new hardware certification is claimed.
+
+Validation command results (executed October 10, 2026)
+1) PASS: validate:algebra:v10.8
+2) PASS: validate:integrity:v10.9
+3) PASS: validate:assessment:v10.10
+4) PASS: validate:curriculum:v10.11
+5) PASS: validate:learning-paths:v10.12
+6) PASS: validate:board:v10.13
+7) PASS: validate:board:v10.14
+8) PASS: validate:tos:v10.15
+9) PASS: validate:content:v10.16
+10) PASS: validate:calculator:v10.17
+11) PASS: validate:calculator:v10.18
+12) PASS: validate:calculator:v10.19
+13) PASS: validate:calculator:v10.20
+
+Focused TypeScript project checks:
+PASS: tsconfig.integrity.json, tsconfig.assessment.json, tsconfig.curriculum.json,
+tsconfig.learning-paths.json, tsconfig.board.json, tsconfig.calculator.v1018.json,
+tsconfig.calculator.v1019.json, tsconfig.calculator.v1020.json (8/8).
+PASS: 247 .ts/.tsx source files parsed with the TypeScript parser (0 syntax diagnostics).
+
+Blocked / unverified:
+- npm ci --offline: FAIL ENOTCACHED; required zwitch package missing from local npm cache.
+- npm run build: FAIL 'vite: not found' because dependencies were not installed.
+- npm run lint (global project): FAIL missing Node/React/other dependency type declarations.
+- Dependency-backed full TypeScript build, integrated production bundle and browser interaction testing: UNVERIFIED.
+- Canon F-789SGA physical button/LCD tests: NOT PERFORMED; review status PRELIMINARY.
+- Formal independent expert mathematical audit of all lesson content: NOT CERTIFIED.
+- Exact-model PRC permission must be checked against applicable examination regulations.
+
+All passing checks are source-level/static or pure-module tests. They do not establish full production readiness.

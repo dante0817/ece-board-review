@@ -1,0 +1,104 @@
+# Reviewer-authored mathematical spot-check expectations: one representative question per subtopic.
+# These are answer-text expectations, NOT a blind independent review of the entire bank.
+TRI49-141-001 | (0,π)
+TRI49-142-001 | √2 sin(x+π/4)
+TRI49-143-001 | 3cos θ
+TRI49-144-001 | 1/4
+TRI49-145-001 | 3/4
+TRI49-146-001 | 0.02
+TRI49-147-001 | √2
+TRI41-061-001 | sinA cosB + cosA sinB
+TRI41-062-001 | 2sinθ cosθ
+TRI41-063-001 | (1−cosθ)/2
+TRI41-064-001 | 3sinθ − 4sin³θ
+TRI41-065-001 | (1−cos2θ)/2
+TRI41-066-001 | sin(A+B)+sin(A−B)
+TRI41-067-001 | 2sin((A+B)/2)cos((A−B)/2)
+TRI41-068-001 | 2cos²θ
+TRI46-111-001 | i² = −1
+TRI46-112-001 | (−2,5)
+TRI46-113-001 | 5
+TRI46-114-001 | 2+0i
+TRI46-115-001 | 6 cis70°
+TRI46-116-001 | −1
+TRI46-117-001 | cis60°
+TRI46-118-001 | 3
+TRI43-081-001 | {π/6, 5π/6}
+TRI43-082-001 | {0,π}
+TRI43-083-001 | {0,π/2,π}
+TRI43-084-001 | (2u+1)(u−1)
+TRI43-085-001 | sin(2θ)
+TRI43-086-001 | {π/4,5π/4}
+TRI43-087-001 | x=1/2
+TRI43-088-001 | θ=kπ, k∈ℤ
+TRC-CIR01-001 | Positive x-axis
+TRC-CIR03-001 | Quadrant III
+TRC-CIR04-001 | 40°
+TRC-CIR05-001 | (−1,0)
+TRC-CIR06-001 | cos(−x)=cos x
+TRC-CIR07-001 | 4/5
+TRC-GPH01-001 | [−1,1]
+TRC-GPH02-001 | 0
+TRC-GPH03-001 | π
+TRC-GPH04-001 | 1
+TRC-GPH05-001 | 4
+TRC-GPH06-001 | Right π/6
+TRC-GPH07-001 | 3
+TRC-GPH08-001 | 2
+TRI40-051-001 | csc θ
+TRI40-052-001 | sin θ / cos θ
+TRI40-054-001 | −1/2
+TRI40-055-001 | cos² θ
+TRI40-056-001 | sin² θ + cos² θ = 1
+TRI42-071-001 | π/6
+TRI42-072-001 | π/3
+TRI42-073-001 | −1≤x≤1
+TRI42-074-001 | (0,0)
+TRI42-075-001 | π/3
+TRI42-076-001 | 4/5
+TRI44-091-001 | SAS
+TRI44-092-001 | 10√2
+TRI44-093-001 | 0
+TRI44-094-001 | 5
+TRI44-095-001 | 20
+TRI44-096-001 | 84
+TRI44-097-001 | 2
+TRI44-098-001 | 100√3/3 m
+TRI47-121-001 | (0,π/3)
+TRI47-122-001 | 5
+TRI47-123-001 | 2
+TRI47-124-001 | 3
+TRI47-125-001 | y=x²
+TRI47-126-001 | x=3cosθ, y=3sinθ
+TRI45-101-001 | Temperature
+TRI45-102-001 | 5
+TRI45-103-001 | 5√3 N
+TRI45-104-001 | (6,2)
+TRI45-105-001 | (3/5,4/5)
+TRI45-106-001 | 5
+TRI45-107-001 | k
+TRI45-108-001 | 5 m/s
+TRI48-131-001 | 3
+TRI48-132-001 | 0.02 s
+TRI48-133-001 | Advances by T/4
+TRI48-134-001 | leads by 60°
+TRI48-135-001 | 2sin x
+TRI48-136-001 | 0.2 m
+TRI48-137-001 | A₀e^(−kt)
+TRI48-138-001 | 10/√2 V
+TRP-RAD-001 | 2 rad
+TRP-RAT-001 | 3/5
+TRP-CIR-001 | cos θ
+TRP-ID-001 | 1
+TRF-ANG-001 | 45°
+TRF-DMS-001 | 0.5°
+TRF-CVT-001 | π rad
+TRF-COT-001 | 400°
+TRF-ARC-001 | 10 m
+TRF-SPD-001 | 4π rad/s
+TRF-PYT-001 | 10
+TRF-SPC-001 | 1/2
+TRF-COF-001 | 70°
+TRF-FND-001 | 5 cm
+TRF-SLV-001 | 55°
+TRF-APP-001 | 5 m

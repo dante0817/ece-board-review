@@ -1,0 +1,450 @@
+{
+  "PS02-01": {
+    "sourceShort": "Tucker",
+    "sourceTitle": "Applied Combinatorics",
+    "pdfPage": 198,
+    "searchedTerms": [
+      "multiplication",
+      "counting"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "multiplication",
+      "counting"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": true,
+    "targetedConceptFinding": "Tucker p. 198 states successive stages and available continuations; no assumption of probabilistic independence is needed."
+  },
+  "PS03-01": {
+    "sourceShort": "Morin",
+    "sourceTitle": "Probability: For the Enthusiastic Beginner",
+    "pdfPage": 58,
+    "searchedTerms": [
+      "union",
+      "probability"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "union",
+      "probability"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS03-02": {
+    "sourceShort": "Morin",
+    "sourceTitle": "Probability: For the Enthusiastic Beginner",
+    "pdfPage": 62,
+    "searchedTerms": [
+      "conditional probability"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "conditional probability"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS04-02": {
+    "sourceShort": "Walpole",
+    "sourceTitle": "Probability & Statistics for Engineers & Scientists",
+    "pdfPage": 164,
+    "searchedTerms": [
+      "binomial",
+      "probability"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "binomial",
+      "probability"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS04-03": {
+    "sourceShort": "Walpole",
+    "sourceTitle": "Probability & Statistics for Engineers & Scientists",
+    "pdfPage": 182,
+    "searchedTerms": [
+      "poisson"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "poisson"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS04-08": {
+    "sourceShort": "Walpole",
+    "sourceTitle": "Probability & Statistics for Engineers & Scientists",
+    "pdfPage": 108,
+    "searchedTerms": [
+      "distribution function",
+      "cumulative"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "distribution function",
+      "cumulative"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS04-09": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 155,
+    "searchedTerms": [
+      "cov(x,y)",
+      "covariance"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "cov(x,y)",
+      "covariance"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": true,
+    "targetedConceptFinding": "Navidi §2.6 around PDF pp. 155–160 addresses covariance, correlation, and independence."
+  },
+  "PS05-02": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 335,
+    "searchedTerms": [
+      "confidence",
+      "interval"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "confidence",
+      "interval"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS05-03": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 356,
+    "searchedTerms": [
+      "small-sample",
+      "confidence"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "small-sample",
+      "confidence"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": true,
+    "targetedConceptFinding": "Navidi §5.3 introduces Student t small-sample confidence intervals for normal populations."
+  },
+  "PS05-06": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 350,
+    "searchedTerms": [
+      "confidence",
+      "proportions"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "confidence",
+      "proportions"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS05-07": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 375,
+    "searchedTerms": [
+      "difference between two means"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "difference between two means"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS05-08": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 382,
+    "searchedTerms": [
+      "paired",
+      "confidence"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "paired",
+      "confidence"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS05-09": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 370,
+    "searchedTerms": [
+      "two proportions"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "two proportions"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS06-03": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 421,
+    "searchedTerms": [
+      "p-value",
+      "reject"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "p-value",
+      "reject"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS06-06": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 429,
+    "searchedTerms": [
+      "population proportion"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "population proportion"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS06-09": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 446,
+    "searchedTerms": [
+      "proportions",
+      "pooled"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "proportions",
+      "pooled"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": true,
+    "targetedConceptFinding": "Navidi §6.6 describes the null pooled proportion used for two-proportion tests."
+  },
+  "PS07-01": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 524,
+    "searchedTerms": [
+      "correlation",
+      "coefficient"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "correlation",
+      "coefficient"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS07-07": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 566,
+    "searchedTerms": [
+      "prediction intervals",
+      "future observations"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "prediction intervals",
+      "future observations"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": true,
+    "targetedConceptFinding": "Navidi §7.3 distinguishes prediction intervals for future observations."
+  },
+  "PS07-08": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 555,
+    "searchedTerms": [
+      "uncertainties",
+      "slope"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "uncertainties",
+      "slope"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS08-01": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 675,
+    "searchedTerms": [
+      "random",
+      "experiment"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "random",
+      "experiment"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS08-06": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 683,
+    "searchedTerms": [
+      "analysis of variance",
+      "f statistic"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "analysis of variance",
+      "f statistic"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  },
+  "PS08-08": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 737,
+    "searchedTerms": [
+      "randomized complete block"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "randomized complete block"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": true,
+    "targetedConceptFinding": "Navidi §9.4 is the randomized complete block treatment."
+  },
+  "PS08-09": {
+    "sourceShort": "Navidi",
+    "sourceTitle": "Statistics for Engineers and Scientists",
+    "pdfPage": 747,
+    "searchedTerms": [
+      "factorial",
+      "effect"
+    ],
+    "locatorFound": true,
+    "passageVerified": false,
+    "independentEditorialSignoff": false,
+    "scope": "Reference-page topic-keyword locator only; does not verify an entire lesson, claim or model assumption",
+    "termsFoundOnPage": [
+      "factorial",
+      "effect"
+    ],
+    "locatorCoverage": 1.0,
+    "targetedConceptRead": false,
+    "targetedConceptFinding": ""
+  }
+}

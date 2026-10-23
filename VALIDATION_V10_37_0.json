@@ -1,0 +1,101 @@
+{
+  "version": "10.37.0",
+  "checkCount": 13,
+  "passed": 13,
+  "failed": 0,
+  "results": [
+    {
+      "check": "Trigonometry v10.37 pilot",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "PASS v10.37.0: 102 stable curriculum IDs, four original draft lessons, 32 validated-answer pilot questions, three accessible SVG diagrams, persistent old-store compatible progress, no corrupt-store overwrite, increased storage capacity, source syntax."
+    },
+    {
+      "check": "Trigonometry v10.36 regression",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "PASS v10.36.0: 4 groups, 14 topics, 102 unique subtopics; legacy topics, links, navigation, and non-destructive tracking verified."
+    },
+    {
+      "check": "Manual learning v10.35.1",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "Manual Learn v10.35.1 PASS: cumulative checkbox milestones, separate numbered-card records, existing chapter history, manual catalog roll-ups, dates, flags, reader/specialized placement and TSX syntax."
+    },
+    {
+      "check": "Learn Reader v10.31",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "Learn Reader source QA PASS: 23 lesson views, 7 quadratic sections, 7 objectives, navigation/rendering syntax, reading-state validation and backup/restore."
+    },
+    {
+      "check": "Practice v10.32",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "Practice v10.32 QA PASS: 454 unique question listings, 55 Quadratic items, strict filters, session snapshots, idempotency, backup/restore and Smart Quiz pool restrictions."
+    },
+    {
+      "check": "Practice v10.33",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "Practice v10.33 QA PASS: 40 new questions / 55 Quadratic problems / 454 total. Guided/Independent/Timed, expiry, ungraded unanswered items, idempotent scoring, legacy records and backup/restore."
+    },
+    {
+      "check": "Practice v10.34",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "v10.34 Practice source QA PASS: 454 combined catalog listings, 100 new Algebra exercises in 10 topics / 50 families, objective mapping, filters, deduplicated answers, persistence & backup. Counts by topic: {\"top-simultaneous-linear\":24,\"top-logarithms\":25,\"top-matrices\":25,\"top-complex-numbers\":20,\"top-arithmetic-seq\":20,\"top-geometric-seq\":20,\"top-polynomial-eq\":20,\"top-factoring\":20,\"top-laws-exponents\":19,\"top-inequalities\":19}"
+    },
+    {
+      "check": "Algebra reference validation",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "- verified source entries: 69\n- audited reference-screen questions: 260\n- misconception references: valid\n- formula-string escaping: valid\n- known ambiguity regressions: absent"
+    },
+    {
+      "check": "Content v10.30 validation",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "PASS v10.30: 128 independently reimplemented numeric cross-checks across 64 families\nPASS whole 368-question key/explanation/option/ID integrity\nPASS De Morgan 16-row truth table and incorrect-distractor counterexample\nPASS PRC course totals, historical course mappings, 5 editorial subtopic concern flags, auditable CSVs\nPASS full question ledger, quota shortages, preserving existing question IDs/answers and no false signoff"
+    },
+    {
+      "check": "Source import scan",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": "TypeScript/TSX source files parsed: 285\nSource parsing errors: 0\nRelative/alias imports checked: 952\nUnresolved local imports: 0"
+    },
+    {
+      "check": "Practice data-layer TypeScript",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": ""
+    },
+    {
+      "check": "Reader data-layer TypeScript",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": ""
+    },
+    {
+      "check": "Pilot data-layer TypeScript",
+      "result": "PASS",
+      "exitCode": 0,
+      "outputTail": ""
+    }
+  ],
+  "runtimeLimitations": {
+    "npmInstall": "No access to npm registry (EAI_AGAIN) and required packages not cached",
+    "lint": "Unable to complete full-app lint: missing Node/React type declarations and packages",
+    "build": "Unable to complete full build: vite executable missing",
+    "browserSmoke": "Not run without built app/runtime"
+  },
+  "claims": {
+    "curriculumTopics": 14,
+    "curriculumSubtopics": 102,
+    "pilotDraftLessons": 4,
+    "pilotOriginalQuestions": 32,
+    "pilotDiagrams": 3,
+    "previousBroadTrigTopicsPreserved": 2,
+    "practiceCatalogTotal": 454
+  }
+}

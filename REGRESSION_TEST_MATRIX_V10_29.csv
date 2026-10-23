@@ -1,0 +1,53 @@
+id,category,status,method,limitations
+validate:algebra:v10.8,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:integrity:v10.9,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:assessment:v10.10,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:curriculum:v10.11,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:learning-paths:v10.12,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:board:v10.13,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:board:v10.14,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:tos:v10.15,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:content:v10.16,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.17,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.18,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.19,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.20,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.21,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.22,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:integration:v10.23,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.24,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.25,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.26,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:calculator:v10.27,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+validate:runtime:v10.28,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:integrity,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:assessment,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:curriculum,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:learning-paths,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:board,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.19,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.20,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.21,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.22,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:integration:v10.23,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.24,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.25,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.26,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:calculator:v10.27,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+lint:runtime:v10.28,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+scan:imports:v10.23,Inherited v10.28 source regression,PASS,Executed under npm qa:source:v10.29,Source-only; full installed build not covered
+"v10.29.1: localhost default, LAN token gating, same-origin validation, size limits and rate limits",New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+v10.29.2: HTTP/WS endpoint protections are integrated,New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+"v10.29.3: manual-review results are blank by default, validated and blocked until entered",New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+v10.29.4: Cramer rank explanation avoids singular-system counterexample,New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+v10.29.5: mobile focus-timer compact default and keyboard focus controls,New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+v10.29.6: strict interrupted-attempt notice and abandonment policy,New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+v10.29.7: v10.29 package and lockfile aligned,New v10.29 targeted checks,PASS,Executed validateReliabilityV1029.mjs,"Unit/source-level tests, not browser interaction"
+TypeScript/TSX syntax scan,Integration and certification,PASS,262 TS/TSX files parsed; 0 syntax diagnostics,
+Source local imports,Integration and certification,PASS,876 imports resolved; 0 missing,
+Installed-dependency TypeScript lint,Integration and certification,BLOCKED,npm run lint fails missing React/Vite/Node packages in current environment,Release acceptance pending
+Installed-dependency Vite build,Integration and certification,BLOCKED,npm run build fails: vite not found in current environment,Release acceptance pending
+v10.29 development/production browser QA,Integration and certification,NOT RUN,Run on dependency-ready Windows host,Release acceptance pending
+v10.29 API/voice integration,Integration and certification,NOT RUN,Run installed API suite and new authorization cases on Windows,Release acceptance pending
+Physical Canon F-789SGA device test,Integration and certification,NOT RUN,No device-test evidence supplied,Release acceptance pending

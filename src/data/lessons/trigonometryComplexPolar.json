@@ -1,0 +1,826 @@
+{
+  "trig-complex-polar-rectangular-complex-number-form": {
+    "id": "trig-complex-polar-rectangular-complex-number-form",
+    "title": "Rectangular complex-number form",
+    "summary": "Represent a complex number as a+bi, perform exact arithmetic and division with conjugates, and distinguish real and imaginary components.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-01-definition",
+            "type": "definition",
+            "text": "A complex number z=a+bi has real part a and imaginary part b, where a,b are real and i²=−1. The imaginary part is b (a real number), not bi. Add and subtract like components; to divide, multiply numerator and denominator by the conjugate of the divisor."
+          },
+          {
+            "id": "complex-11-01-formula-1",
+            "type": "formula",
+            "latex": "i^2=-1,\\quad z=a+bi"
+          },
+          {
+            "id": "complex-11-01-formula-2",
+            "type": "formula",
+            "latex": "(a+bi)(c+di)=(ac-bd)+(ad+bc)i"
+          },
+          {
+            "id": "complex-11-01-formula-3",
+            "type": "formula",
+            "latex": "\\frac{z_1}{z_2}=\\frac{z_1\\overline{z_2}}{|z_2|^2},\\quad z_2\\ne0"
+          },
+          {
+            "id": "complex-11-01-diagram",
+            "type": "diagram",
+            "diagram": "complex-plane",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-01-worked-1",
+            "type": "worked-example",
+            "title": "Simplify (3+2i)(1−4i)",
+            "problem": "Simplify (3+2i)(1−4i)",
+            "strategy": "Distribute all terms and replace i² by −1.",
+            "steps": [
+              "Multiply: 3−12i+2i−8i².",
+              "Since i²=−1, combine to obtain 11−10i."
+            ],
+            "check": "Check the real part: 3+8=11; imaginary part: −12+2=−10."
+          },
+          {
+            "id": "complex-11-01-worked-2",
+            "type": "worked-example",
+            "title": "Divide (5+3i) by (1−i)",
+            "problem": "Divide (5+3i) by (1−i)",
+            "strategy": "Multiply by the denominator’s complex conjugate.",
+            "steps": [
+              "(5+3i)/(1−i)=(5+3i)(1+i)/((1−i)(1+i)).",
+              "Numerator is 2+8i; denominator is 2, giving 1+4i."
+            ],
+            "check": "(1−i)(1+4i)=5+3i, so the quotient is correct."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-01-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-01-pitfall",
+            "type": "note",
+            "text": "Never treat i² as +1; keep the divisor nonzero. The imaginary part of 5+3i is 3, not 3i."
+          },
+          {
+            "id": "complex-11-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the conjugate of −2+5i?",
+            "answer": "−2−5i.",
+            "explanation": "Conjugation changes only the sign of the imaginary coefficient, so the real part remains −2."
+          },
+          {
+            "id": "complex-11-01-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-the-complex-plane": {
+    "id": "trig-complex-polar-the-complex-plane",
+    "title": "The complex plane",
+    "summary": "Locate complex numbers on the Argand plane, recognize conjugation as reflection, and interpret vector addition geometrically.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-02-definition",
+            "type": "definition",
+            "text": "Plot z=x+iy as the point (x,y) on the complex plane: the horizontal axis is real and the vertical axis imaginary. Complex addition adds coordinate vectors. Conjugation reflects a point across the real axis. The origin corresponds to z=0."
+          },
+          {
+            "id": "complex-11-02-formula-1",
+            "type": "formula",
+            "latex": "z=x+iy\\longleftrightarrow(x,y)"
+          },
+          {
+            "id": "complex-11-02-formula-2",
+            "type": "formula",
+            "latex": "\\overline{x+iy}=x-iy"
+          },
+          {
+            "id": "complex-11-02-formula-3",
+            "type": "formula",
+            "latex": "(a+bi)+(c+di)=(a+c)+(b+d)i"
+          },
+          {
+            "id": "complex-11-02-diagram",
+            "type": "diagram",
+            "diagram": "complex-plane",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-02-worked-1",
+            "type": "worked-example",
+            "title": "Plot z=−3+4i and its conjugate",
+            "problem": "Plot z=−3+4i and its conjugate",
+            "strategy": "Use the real coordinate as x and the imaginary coefficient as y.",
+            "steps": [
+              "Plot z at (−3,4), in quadrant II.",
+              "Its conjugate −3−4i is at (−3,−4), in quadrant III."
+            ],
+            "check": "Both points are equally far from the real axis; reflection keeps x unchanged."
+          },
+          {
+            "id": "complex-11-02-worked-2",
+            "type": "worked-example",
+            "title": "Add z₁=2+i and z₂=−4+3i graphically",
+            "problem": "Add z₁=2+i and z₂=−4+3i graphically",
+            "strategy": "Combine horizontal and vertical displacements separately.",
+            "steps": [
+              "Real components: 2+(−4)=−2.",
+              "Imaginary components: 1+3=4, so the resultant point is (−2,4), or −2+4i."
+            ],
+            "check": "The tail-to-head addition of vectors produces the same resultant."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-02-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-02-pitfall",
+            "type": "note",
+            "text": "Do not place bi on the horizontal real axis or mistake conjugation for negating both components."
+          },
+          {
+            "id": "complex-11-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Where does z=−2−3i lie?",
+            "answer": "Quadrant III.",
+            "explanation": "The real coordinate −2 and imaginary coordinate −3 are both negative, identifying quadrant III."
+          },
+          {
+            "id": "complex-11-02-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-modulus-and-argument": {
+    "id": "trig-complex-polar-modulus-and-argument",
+    "title": "Modulus and argument",
+    "summary": "Calculate modulus and principal argument with correct quadrants, and explain why z=0 has no defined argument.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-03-definition",
+            "type": "definition",
+            "text": "For z=x+iy, the modulus is its distance from the origin. An argument is any angle θ satisfying cosθ=x/|z| and sinθ=y/|z|. For nonzero z, arguments differ by 2π. We use the principal convention Arg z∈(−π,π]; atan2(y,x) resolves the quadrant and gives −π for the negative real axis in some software, which we report as +π."
+          },
+          {
+            "id": "complex-11-03-formula-1",
+            "type": "formula",
+            "latex": "|z|=\\sqrt{x^2+y^2}"
+          },
+          {
+            "id": "complex-11-03-formula-2",
+            "type": "formula",
+            "latex": "\\arg z=\\operatorname{atan2}(y,x)+2k\\pi,\\ k\\in\\mathbb Z"
+          },
+          {
+            "id": "complex-11-03-formula-3",
+            "type": "formula",
+            "latex": "\\operatorname{Arg}(z)\\in(-\\pi,\\pi],\\quad z\\ne0"
+          },
+          {
+            "id": "complex-11-03-diagram",
+            "type": "diagram",
+            "diagram": "complex-plane",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-03-worked-1",
+            "type": "worked-example",
+            "title": "Find |−3+4i| and its principal argument",
+            "problem": "Find |−3+4i| and its principal argument",
+            "strategy": "Compute the norm and quadrant-II reference angle.",
+            "steps": [
+              "The modulus is √(9+16)=5.",
+              "The quadrant-II principal angle is π−arctan(4/3), approximately 126.87°."
+            ],
+            "check": "Reconstruct (5cosθ,5sinθ)≈(−3,4)."
+          },
+          {
+            "id": "complex-11-03-worked-2",
+            "type": "worked-example",
+            "title": "Find the principal argument of −2−2i",
+            "problem": "Find the principal argument of −2−2i",
+            "strategy": "Use quadrant III, then convert to a signed principal angle.",
+            "steps": [
+              "The standard counterclockwise angle is 225°.",
+              "Subtract 360° to obtain principal Arg z=−135°=−3π/4."
+            ],
+            "check": "Cos(−135°) and sin(−135°) are both negative, as required."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-03-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-03-pitfall",
+            "type": "note",
+            "text": "The ordinary arctan(y/x) misses quadrant information. The argument of zero is undefined; the negative real axis maps to +π in the chosen principal convention."
+          },
+          {
+            "id": "complex-11-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the modulus of 6−8i?",
+            "answer": "10.",
+            "explanation": "Use the Pythagorean distance: √(6²+(−8)²)=√100=10."
+          },
+          {
+            "id": "complex-11-03-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-polar-and-trigonometric-forms": {
+    "id": "trig-complex-polar-polar-and-trigonometric-forms",
+    "title": "Polar and trigonometric forms",
+    "summary": "Convert between rectangular and trigonometric forms using quadrant-aware arguments, and include the zero-number exception.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-04-definition",
+            "type": "definition",
+            "text": "Every nonzero complex number can be written in trigonometric form r(cosθ+i sinθ), with r=|z|>0 and θ an argument. This is also abbreviated r cis θ. Rectangular components are x=r cosθ and y=r sinθ. For z=0, set r=0; no unique argument exists."
+          },
+          {
+            "id": "complex-11-04-formula-1",
+            "type": "formula",
+            "latex": "z=r(\\cos\\theta+i\\sin\\theta)=r\\operatorname{cis}\\theta"
+          },
+          {
+            "id": "complex-11-04-formula-2",
+            "type": "formula",
+            "latex": "x=r\\cos\\theta,\\quad y=r\\sin\\theta"
+          },
+          {
+            "id": "complex-11-04-formula-3",
+            "type": "formula",
+            "latex": "r=\\sqrt{x^2+y^2},\\quad \\theta=\\operatorname{atan2}(y,x)"
+          },
+          {
+            "id": "complex-11-04-diagram",
+            "type": "diagram",
+            "diagram": "complex-plane",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-04-worked-1",
+            "type": "worked-example",
+            "title": "Convert −1+i to trigonometric form",
+            "problem": "Convert −1+i to trigonometric form",
+            "strategy": "Determine radius and argument using its quadrant.",
+            "steps": [
+              "r=√(1+1)=√2.",
+              "Its argument is 135°=3π/4; hence z=√2(cos135°+i sin135°)."
+            ],
+            "check": "The result has real part −1 and imaginary part +1."
+          },
+          {
+            "id": "complex-11-04-worked-2",
+            "type": "worked-example",
+            "title": "Convert 6 cis(−π/6) into rectangular form",
+            "problem": "Convert 6 cis(−π/6) into rectangular form",
+            "strategy": "Apply cosine and sine component relationships.",
+            "steps": [
+              "x=6 cos(−π/6)=3√3.",
+              "y=6 sin(−π/6)=−3; hence z=3√3−3i."
+            ],
+            "check": "Modulus √(27+9)=6, consistent with the given polar radius."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-04-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-04-pitfall",
+            "type": "note",
+            "text": "A negative radius is not needed in the standard r≥0 convention. State degree or radian units; never assign a unique angle to z=0."
+          },
+          {
+            "id": "complex-11-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is 4 cis(π/2) in rectangular form?",
+            "answer": "4i.",
+            "explanation": "cos(π/2)=0 and sin(π/2)=1, so the real component vanishes."
+          },
+          {
+            "id": "complex-11-04-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-multiplication-and-division-in-polar-form": {
+    "id": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "title": "Multiplication and division in polar form",
+    "summary": "Multiply and divide nonzero complex numbers by multiplying/dividing moduli and adding/subtracting arguments.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-05-definition",
+            "type": "definition",
+            "text": "In polar form, multiplication adds phases and multiplies magnitudes; division subtracts phases and divides magnitudes. This follows from trigonometric addition formulas. Division is only defined if the divisor is nonzero. Reduce the resulting angle modulo 2π when requested."
+          },
+          {
+            "id": "complex-11-05-formula-1",
+            "type": "formula",
+            "latex": "(r_1\\operatorname{cis}\\alpha)(r_2\\operatorname{cis}\\beta)=r_1r_2\\operatorname{cis}(\\alpha+\\beta)"
+          },
+          {
+            "id": "complex-11-05-formula-2",
+            "type": "formula",
+            "latex": "\\frac{r_1\\operatorname{cis}\\alpha}{r_2\\operatorname{cis}\\beta}=\\frac{r_1}{r_2}\\operatorname{cis}(\\alpha-\\beta),\\quad r_2>0"
+          },
+          {
+            "id": "complex-11-05-formula-3",
+            "type": "formula",
+            "latex": "\\operatorname{cis}(\\alpha+2k\\pi)=\\operatorname{cis}\\alpha"
+          },
+          {
+            "id": "complex-11-05-diagram",
+            "type": "diagram",
+            "diagram": "complex-plane",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-05-worked-1",
+            "type": "worked-example",
+            "title": "Multiply (2 cis30°)(3 cis75°)",
+            "problem": "Multiply (2 cis30°)(3 cis75°)",
+            "strategy": "Multiply moduli and add angles, retaining degrees.",
+            "steps": [
+              "Magnitude: 2×3=6.",
+              "Argument: 30°+75°=105°, so the product is 6 cis105°."
+            ],
+            "check": "Product modulus 6 agrees with |z₁||z₂|."
+          },
+          {
+            "id": "complex-11-05-worked-2",
+            "type": "worked-example",
+            "title": "Divide (8 cis150°) by (2 cis(−30°))",
+            "problem": "Divide (8 cis150°) by (2 cis(−30°))",
+            "strategy": "Divide moduli and subtract the second angle.",
+            "steps": [
+              "Magnitude: 8/2=4.",
+              "Argument: 150°−(−30°)=180°, so the quotient is 4 cis180°=−4."
+            ],
+            "check": "Multiply −4 by 2 cis(−30°) to recover 8 cis150°."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-05-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-05-pitfall",
+            "type": "note",
+            "text": "Subtract the divisor argument for division; do not divide angles. A zero divisor makes division undefined."
+          },
+          {
+            "id": "complex-11-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is the modulus of (3 cis20°)(4 cis40°)?",
+            "answer": "12.",
+            "explanation": "Polar product multiplies the moduli: 3×4=12, regardless of the angles."
+          },
+          {
+            "id": "complex-11-05-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-eulers-formula": {
+    "id": "trig-complex-polar-eulers-formula",
+    "title": "Euler’s formula",
+    "summary": "Relate trigonometric complex form to complex exponentials using Euler’s identity and a clear imaginary-unit convention.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-06-definition",
+            "type": "definition",
+            "text": "Euler’s formula e^{iθ}=cosθ+i sinθ is valid for real θ measured in radians. It expresses rotation on the unit circle as a complex exponential; electrical engineering sometimes uses j in place of i to avoid confusion with current. If a sinusoid is represented as Re{Ae^{i(ωt+φ)}}, its instantaneous real signal is A cos(ωt+φ)."
+          },
+          {
+            "id": "complex-11-06-formula-1",
+            "type": "formula",
+            "latex": "e^{i\\theta}=\\cos\\theta+i\\sin\\theta"
+          },
+          {
+            "id": "complex-11-06-formula-2",
+            "type": "formula",
+            "latex": "r\\operatorname{cis}\\theta=re^{i\\theta}"
+          },
+          {
+            "id": "complex-11-06-formula-3",
+            "type": "formula",
+            "latex": "\\Re\\{Ae^{i(\\omega t+\\phi)}\\}=A\\cos(\\omega t+\\phi)"
+          },
+          {
+            "id": "complex-11-06-diagram",
+            "type": "diagram",
+            "diagram": "complex-plane",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-06-worked-1",
+            "type": "worked-example",
+            "title": "Evaluate e^{iπ} and e^{iπ/2}",
+            "problem": "Evaluate e^{iπ} and e^{iπ/2}",
+            "strategy": "Substitute standard angles in Euler’s identity.",
+            "steps": [
+              "e^{iπ}=cosπ+i sinπ=−1.",
+              "e^{iπ/2}=cos(π/2)+i sin(π/2)=i."
+            ],
+            "check": "Both outputs have modulus one, as e^{iθ} represents a rotation."
+          },
+          {
+            "id": "complex-11-06-worked-2",
+            "type": "worked-example",
+            "title": "Interpret Re{5e^{i(100t−π/6)}}",
+            "problem": "Interpret Re{5e^{i(100t−π/6)}}",
+            "strategy": "Extract the real part of the complex exponential.",
+            "steps": [
+              "Euler gives 5[cos(100t−π/6)+i sin(100t−π/6)].",
+              "The physical real signal is 5cos(100t−π/6), using a positive-frequency e^{iωt} convention."
+            ],
+            "check": "Frequency is 100 rad/s; the real signal remains real valued."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-06-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-06-pitfall",
+            "type": "note",
+            "text": "Euler’s exponential uses radians. In AC engineering, verify whether e^{+jωt} or e^{−jωt} is assumed before comparing lead/lag signs; j and i denote the same imaginary unit."
+          },
+          {
+            "id": "complex-11-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is e^{iπ/2}?",
+            "answer": "i.",
+            "explanation": "Euler’s formula gives cos(π/2)+i sin(π/2)=i."
+          },
+          {
+            "id": "complex-11-06-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-de-moivres-theorem": {
+    "id": "trig-complex-polar-de-moivres-theorem",
+    "title": "De Moivre’s theorem",
+    "summary": "Use De Moivre’s theorem to compute positive integer powers efficiently and explain the relation to repeated rotation.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-07-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-07-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-07-definition",
+            "type": "definition",
+            "text": "For an integer n≥0, De Moivre’s theorem states (cosθ+i sinθ)^n=cos(nθ)+i sin(nθ). A complex number r cisθ raised to n has modulus r^n and angle nθ. Negative powers are valid only for z≠0 and are treated by reciprocal powers."
+          },
+          {
+            "id": "complex-11-07-formula-1",
+            "type": "formula",
+            "latex": "(\\operatorname{cis}\\theta)^n=\\operatorname{cis}(n\\theta),\\quad n\\in\\mathbb Z"
+          },
+          {
+            "id": "complex-11-07-formula-2",
+            "type": "formula",
+            "latex": "(r\\operatorname{cis}\\theta)^n=r^n\\operatorname{cis}(n\\theta)"
+          },
+          {
+            "id": "complex-11-07-formula-3",
+            "type": "formula",
+            "latex": "(\\cos\\theta+i\\sin\\theta)^3=\\cos3\\theta+i\\sin3\\theta"
+          },
+          {
+            "id": "complex-11-07-diagram",
+            "type": "diagram",
+            "diagram": "roots-of-unity",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-07-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-07-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-07-worked-1",
+            "type": "worked-example",
+            "title": "Compute (1+i)⁴ by De Moivre’s theorem",
+            "problem": "Compute (1+i)⁴ by De Moivre’s theorem",
+            "strategy": "Find modulus and argument before applying the power.",
+            "steps": [
+              "1+i=√2 cis45°.",
+              "The fourth power is (√2)⁴ cis180°=4(−1)=−4."
+            ],
+            "check": "Direct squaring gives (1+i)²=2i and (2i)²=−4."
+          },
+          {
+            "id": "complex-11-07-worked-2",
+            "type": "worked-example",
+            "title": "Compute (2 cis20°)³",
+            "problem": "Compute (2 cis20°)³",
+            "strategy": "Raise modulus to the third power, and multiply the argument by three.",
+            "steps": [
+              "Magnitude: 2³=8.",
+              "Argument: 3×20°=60°; result 8 cis60°=4+4√3 i."
+            ],
+            "check": "The rectangular magnitude is √(16+48)=8."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-07-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-07-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-07-pitfall",
+            "type": "note",
+            "text": "The modulus is raised to the power; the argument is multiplied by the power—not raised to it. For n<0, z must be nonzero."
+          },
+          {
+            "id": "complex-11-07-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What is (cis60°)³?",
+            "answer": "−1.",
+            "explanation": "De Moivre yields cis180°=cos180°+i sin180°=−1."
+          },
+          {
+            "id": "complex-11-07-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-complex-polar-powers-and-roots-of-complex-numbers": {
+    "id": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "title": "Powers and roots of complex numbers",
+    "summary": "Calculate integer powers and all distinct nth roots of nonzero complex numbers, including roots of unity and the zero case.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "complex-11-08-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "complex-11-08-concept"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-08-definition",
+            "type": "definition",
+            "text": "If z=r cisθ with r>0, its n distinct nth roots (n positive integer) have modulus r^(1/n) and angles (θ+2πk)/n for k=0,…,n−1. They are equally spaced on a circle. The nth root of zero is only zero (not n distinct roots). Verify candidates by raising them to the nth power."
+          },
+          {
+            "id": "complex-11-08-formula-1",
+            "type": "formula",
+            "latex": "w_k=r^{1/n}\\operatorname{cis}\\!\\left(\\frac{\\theta+2\\pi k}{n}\\right),\\quad k=0,\\ldots,n-1"
+          },
+          {
+            "id": "complex-11-08-formula-2",
+            "type": "formula",
+            "latex": "w_k^n=z,\\quad n\\in\\mathbb N,\\ z\\ne0"
+          },
+          {
+            "id": "complex-11-08-formula-3",
+            "type": "formula",
+            "latex": "\\zeta_k=e^{2\\pi ik/n},\\quad \\zeta_k^n=1"
+          },
+          {
+            "id": "complex-11-08-diagram",
+            "type": "diagram",
+            "diagram": "roots-of-unity",
+            "caption": "Original complex-plane illustration showing Cartesian geometry, argument or rotational symmetry; for exact numerical positions always use the written formulas."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-08-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "complex-11-08-solving"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-08-worked-1",
+            "type": "worked-example",
+            "title": "Find all cube roots of 8",
+            "problem": "Find all cube roots of 8",
+            "strategy": "Treat 8 as 8 cis0 and list all three angles.",
+            "steps": [
+              "Root modulus is ∛8=2; angles are 0°, 120°, and 240°.",
+              "Roots are 2, −1+i√3, and −1−i√3."
+            ],
+            "check": "Cubing any listed root produces 8; the three roots are distinct."
+          },
+          {
+            "id": "complex-11-08-worked-2",
+            "type": "worked-example",
+            "title": "Find all fourth roots of 16 cisπ",
+            "problem": "Find all fourth roots of 16 cisπ",
+            "strategy": "Divide all possible arguments by four.",
+            "steps": [
+              "Modulus is 16^(1/4)=2.",
+              "Angles are π/4, 3π/4, 5π/4, and 7π/4; roots are 2cis of each angle."
+            ],
+            "check": "The four angular positions differ by π/2, and fourth powers return 16cisπ."
+          }
+        ]
+      },
+      {
+        "id": "complex-11-08-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "complex-11-08-review"
+        ],
+        "blocks": [
+          {
+            "id": "complex-11-08-pitfall",
+            "type": "note",
+            "text": "When finding roots, include all k=0,…,n−1, not just a calculator principal root. For z=0 there is exactly one distinct root, namely 0."
+          },
+          {
+            "id": "complex-11-08-checkpoint",
+            "type": "checkpoint",
+            "prompt": "How many distinct cube roots does a nonzero complex number have?",
+            "answer": "Three.",
+            "explanation": "For nonzero input, the three angles differ by 120°, producing three distinct roots."
+          },
+          {
+            "id": "complex-11-08-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and exercises): Lial et al., Trigonometry, 10th ed., §§8.1–8.4; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §5.3; Moyer and Ayres, Schaum’s Outline of Trigonometry, 4th ed., Ch. 15; Kelley, The Humongous Book of Trigonometry Problems, Ch. 18. Euler and phasor examples use standard complex-analysis/electrical-engineering conventions; phase sign conventions depend on the time convention chosen."
+          }
+        ]
+      }
+    ]
+  }
+}

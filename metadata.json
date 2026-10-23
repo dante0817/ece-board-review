@@ -1,0 +1,10 @@
+{
+  "name": "BSECE Board Reviewer \u2014 Solid Mensuration v10.51.0",
+  "description": "Preserves v10.50.3 Mathematics/Trigonometry navigation, adds a dedicated Solid Mensuration draft learning module with 43 canonical topics, 73 formula entries, and 43 numeric development drills. Original Algebra and Trigonometry practice and study records are retained.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

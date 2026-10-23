@@ -1,0 +1,52 @@
+{
+  "release": "10.45.0",
+  "base_release": "10.44.0",
+  "implementation": "Topic 10 \u2014 Vectors & Components",
+  "new": {
+    "draft_lessons": 8,
+    "draft_questions": 64,
+    "diagram_types": [
+      "vector-components",
+      "vector-cross-product"
+    ]
+  },
+  "curriculum": {
+    "topic_count": 14,
+    "total_subtopics": 102,
+    "linked_draft_subtopics": 73,
+    "planned_subtopics": 29,
+    "topic_10_linked": 8,
+    "topic_10_total": 8
+  },
+  "catalog": {
+    "trigonometry_questions": 584,
+    "algebra_questions": 422,
+    "total_entries": 1006
+  },
+  "passed_checks": [
+    "Topic 10 validator",
+    "Historical Trigonometry validator chain v10.37\u2013v10.44",
+    "v10.36 curriculum validator",
+    "Practice v10.34 regression",
+    "Manual Learn v10.35 and v10.35.1",
+    "Learn Reader v10.31",
+    "Algebra references",
+    "Content audit v10.30",
+    "Source import scan",
+    "Focused TypeScript practice tsconfig",
+    "Focused TypeScript learn-reader tsconfig"
+  ],
+  "unverified": [
+    "full npm lint / TypeScript app",
+    "full Vite production build",
+    "interactive browser runtime",
+    "independent human mathematical/editorial sign-off"
+  ],
+  "environment_limits": {
+    "npm_ci_offline": "ENOTCACHED: zwitch",
+    "npm_run_build": "vite not found",
+    "npm_run_lint": "missing installed npm dependencies/type declarations"
+  },
+  "review_status": "draft-unverified",
+  "notes": "Numeric representative checks and all 64 answer-ledger matches passed; no claim of independent expert certification."
+}

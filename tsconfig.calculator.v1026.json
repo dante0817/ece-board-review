@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "noEmit": true,
+    "types": [],
+    "lib": ["ES2022", "DOM"]
+  },
+  "files": ["src/domain/calculator/familyTechniques.ts", "src/domain/calculator/coverage.ts", "src/domain/calculator/deviceQa.ts", "src/data/boardExpansionQuestions.ts", "src/data/tosCompetencyExpansionV1016.ts"]
+}

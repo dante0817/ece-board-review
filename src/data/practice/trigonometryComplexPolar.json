@@ -1,0 +1,962 @@
+[
+  {
+    "id": "TRI46-111-001",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Basic",
+    "family": "definition",
+    "prompt": "Which equality defines the imaginary unit i?",
+    "options": [
+      "i² = 1",
+      "i = −1",
+      "i² = −1",
+      "i² = i"
+    ],
+    "correctIndex": 2,
+    "explanation": "The imaginary unit is defined by i² = −1; consequently i is a root of x²+1=0."
+  },
+  {
+    "id": "TRI46-111-002",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Basic",
+    "family": "addition",
+    "prompt": "Simplify (2+3i)+(4−i).",
+    "options": [
+      "6+4i",
+      "6+2i",
+      "−2+2i",
+      "8−3i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add real parts 2+4=6 and imaginary coefficients 3−1=2; hence 6+2i."
+  },
+  {
+    "id": "TRI46-111-003",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Basic",
+    "family": "subtraction",
+    "prompt": "Compute (3+i)−(−2+4i).",
+    "options": [
+      "5−3i",
+      "1+5i",
+      "5+5i",
+      "1−3i"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract componentwise: 3−(−2)=5 and 1−4=−3."
+  },
+  {
+    "id": "TRI46-111-004",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Intermediate",
+    "family": "powers-of-i",
+    "prompt": "Compute i⁷.",
+    "options": [
+      "i",
+      "1",
+      "−1",
+      "−i"
+    ],
+    "correctIndex": 3,
+    "explanation": "Powers of i repeat every four steps because i⁴=1. Since 7=4+3, i⁷=i³=−i."
+  },
+  {
+    "id": "TRI46-111-005",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Intermediate",
+    "family": "product",
+    "prompt": "Find (2+i)(1−3i).",
+    "options": [
+      "−1−5i",
+      "5+5i",
+      "5−5i",
+      "−1+7i"
+    ],
+    "correctIndex": 2,
+    "explanation": "Distribute all four products: 2−6i+i−3i². Because i²=−1, collect 5−5i."
+  },
+  {
+    "id": "TRI46-111-006",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Intermediate",
+    "family": "quotient",
+    "prompt": "Evaluate (4+2i)/(1+i).",
+    "options": [
+      "1+i",
+      "3−i",
+      "3+i",
+      "2−i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply top and bottom by 1−i: (4+2i)(1−i)/(1+1)=(6−2i)/2=3−i."
+  },
+  {
+    "id": "TRI46-111-007",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Advanced",
+    "family": "definition",
+    "prompt": "What is the imaginary part of z=−7+5i?",
+    "options": [
+      "5",
+      "5i",
+      "−7",
+      "−5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The imaginary part Im(z) is the real coefficient of i, namely 5; it is not 5i."
+  },
+  {
+    "id": "TRI46-111-008",
+    "subtopicId": "trig-complex-polar-rectangular-complex-number-form",
+    "difficulty": "Advanced",
+    "family": "conjugate",
+    "prompt": "If z=2−3i, what is z times its conjugate?",
+    "options": [
+      "−5",
+      "2+3i",
+      "−13",
+      "13"
+    ],
+    "correctIndex": 3,
+    "explanation": "z conjugate(z)=|z|²=2²+(−3)²=13, a nonnegative real number."
+  },
+  {
+    "id": "TRI46-112-001",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Basic",
+    "family": "coordinates",
+    "prompt": "Which ordered pair represents z=−2+5i on the complex plane?",
+    "options": [
+      "(5,−2)",
+      "(−2,5)",
+      "(−2,−5)",
+      "(2,5)"
+    ],
+    "correctIndex": 1,
+    "explanation": "The horizontal real coordinate is −2 and the vertical imaginary coordinate is 5."
+  },
+  {
+    "id": "TRI46-112-002",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Basic",
+    "family": "quadrant",
+    "prompt": "Where is 3−4i located?",
+    "options": [
+      "Quadrant IV",
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III"
+    ],
+    "correctIndex": 0,
+    "explanation": "Real part positive and imaginary part negative places the point in quadrant IV."
+  },
+  {
+    "id": "TRI46-112-003",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Basic",
+    "family": "conjugate",
+    "prompt": "What is the complex conjugate of 4+7i?",
+    "options": [
+      "−4−7i",
+      "−4+7i",
+      "7+4i",
+      "4−7i"
+    ],
+    "correctIndex": 3,
+    "explanation": "Reflect across the real axis: keep real coordinate 4; reverse imaginary coefficient 7 to −7."
+  },
+  {
+    "id": "TRI46-112-004",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Intermediate",
+    "family": "coordinates",
+    "prompt": "What complex number corresponds to (0,−6)?",
+    "options": [
+      "6",
+      "6i",
+      "−6i",
+      "−6"
+    ],
+    "correctIndex": 2,
+    "explanation": "The real coordinate is zero and the imaginary coordinate is −6."
+  },
+  {
+    "id": "TRI46-112-005",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Intermediate",
+    "family": "addition",
+    "prompt": "Translate point z=−1+2i by complex number 3−5i. What is the sum?",
+    "options": [
+      "−4+7i",
+      "2−3i",
+      "2+7i",
+      "−4−3i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add component vectors: (−1+3, 2−5)=(2,−3)."
+  },
+  {
+    "id": "TRI46-112-006",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Intermediate",
+    "family": "conjugate",
+    "prompt": "Reflection of z=−3−2i across the real axis gives:",
+    "options": [
+      "−3+2i",
+      "3+2i",
+      "3−2i",
+      "−2−3i"
+    ],
+    "correctIndex": 0,
+    "explanation": "Conjugation leaves the real part unchanged and switches the sign of the imaginary component."
+  },
+  {
+    "id": "TRI46-112-007",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Advanced",
+    "family": "displacement",
+    "prompt": "What is the displacement from point 2+i to point −1+4i in the complex plane?",
+    "options": [
+      "1+5i",
+      "3−3i",
+      "−1+4i",
+      "−3+3i"
+    ],
+    "correctIndex": 3,
+    "explanation": "Subtract final minus initial coordinates: (−1+4i)−(2+i)=−3+3i."
+  },
+  {
+    "id": "TRI46-112-008",
+    "subtopicId": "trig-complex-polar-the-complex-plane",
+    "difficulty": "Advanced",
+    "family": "geometry",
+    "prompt": "Which line contains z and conjugate(z) when z has a nonzero imaginary part?",
+    "options": [
+      "A horizontal line parallel to the real axis",
+      "The line Im z = Re z",
+      "A vertical line parallel to the imaginary axis",
+      "A circle centered at the origin"
+    ],
+    "correctIndex": 2,
+    "explanation": "The real coordinates agree while imaginary coordinates are opposites, so the two points lie on one vertical line."
+  },
+  {
+    "id": "TRI46-113-001",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Basic",
+    "family": "modulus",
+    "prompt": "What is |3+4i|?",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Modulus is √(3²+4²)=5, the distance from the origin."
+  },
+  {
+    "id": "TRI46-113-002",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Basic",
+    "family": "principal-arg",
+    "prompt": "For z=−5, what is its principal argument in (−π,π]?",
+    "options": [
+      "0",
+      "−π/2",
+      "π/2",
+      "π"
+    ],
+    "correctIndex": 3,
+    "explanation": "The negative real axis uses +π in our specified principal-value interval."
+  },
+  {
+    "id": "TRI46-113-003",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Basic",
+    "family": "undefined",
+    "prompt": "Which complex number has an undefined argument?",
+    "options": [
+      "1",
+      "−1",
+      "0",
+      "i"
+    ],
+    "correctIndex": 2,
+    "explanation": "At the origin there is no unique direction, so arg(0) is undefined."
+  },
+  {
+    "id": "TRI46-113-004",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Intermediate",
+    "family": "argument",
+    "prompt": "What is the principal argument of 1+i?",
+    "options": [
+      "π/2",
+      "π/4",
+      "3π/4",
+      "−π/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Both components are positive and equal, giving a 45°=π/4 quadrant-I direction."
+  },
+  {
+    "id": "TRI46-113-005",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Intermediate",
+    "family": "argument",
+    "prompt": "What is the principal argument of −1−i?",
+    "options": [
+      "−3π/4",
+      "π/4",
+      "3π/4",
+      "−π/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "The standard angle is 225°, which becomes −135°=−3π/4 in (−π,π]."
+  },
+  {
+    "id": "TRI46-113-006",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Intermediate",
+    "family": "modulus",
+    "prompt": "What is |−8+6i|?",
+    "options": [
+      "14",
+      "100",
+      "2",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "Apply the modulus formula: √[(-8)²+6²]=√(64+36)=√100=10."
+  },
+  {
+    "id": "TRI46-113-007",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Advanced",
+    "family": "argument",
+    "prompt": "For z=−3+3√3 i, what is its principal argument?",
+    "options": [
+      "π/3",
+      "−2π/3",
+      "2π/3",
+      "5π/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "The point is in quadrant II; tan reference angle is √3, so θ=180°−60°=120°=2π/3."
+  },
+  {
+    "id": "TRI46-113-008",
+    "subtopicId": "trig-complex-polar-modulus-and-argument",
+    "difficulty": "Advanced",
+    "family": "periodicity",
+    "prompt": "If θ is one argument of nonzero z, which is also an argument?",
+    "options": [
+      "θ+π",
+      "θ+2π",
+      "2θ",
+      "−θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adding 2π makes a full revolution and leaves the direction unchanged."
+  },
+  {
+    "id": "TRI46-114-001",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Basic",
+    "family": "polar-to-rect",
+    "prompt": "Convert 2 cis0 into rectangular form.",
+    "options": [
+      "0+2i",
+      "−2+0i",
+      "1+i",
+      "2+0i"
+    ],
+    "correctIndex": 3,
+    "explanation": "Convert using cosine and sine: 2cis0=2(cos0+i sin0)=2(1+0i)=2+0i."
+  },
+  {
+    "id": "TRI46-114-002",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Basic",
+    "family": "modulus",
+    "prompt": "What is the modulus in the polar form 5 cis(π/3)?",
+    "options": [
+      "π/3",
+      "5π/3",
+      "5",
+      "1/5"
+    ],
+    "correctIndex": 2,
+    "explanation": "The standard polar coefficient r=5 is the distance from the origin."
+  },
+  {
+    "id": "TRI46-114-003",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Basic",
+    "family": "polar-to-rect",
+    "prompt": "What is rectangular form of 4 cis(π/2)?",
+    "options": [
+      "4",
+      "4i",
+      "−4i",
+      "−4"
+    ],
+    "correctIndex": 1,
+    "explanation": "cosπ/2=0 and sinπ/2=1, so the complex number is 4i."
+  },
+  {
+    "id": "TRI46-114-004",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Intermediate",
+    "family": "rect-to-polar",
+    "prompt": "Convert z=1+i into polar form with θ∈[0,2π).",
+    "options": [
+      "√2 cis(π/4)",
+      "2 cis(π/4)",
+      "√2 cis(3π/4)",
+      "√2 cis(−π/4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The modulus is √2 and both components are positive, so θ=π/4."
+  },
+  {
+    "id": "TRI46-114-005",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Intermediate",
+    "family": "polar-to-rect",
+    "prompt": "Convert 6 cis(π) to rectangular form.",
+    "options": [
+      "6",
+      "6i",
+      "−6i",
+      "−6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use cisπ=cosπ+i sinπ=−1+0i, then multiply by 6 to obtain −6."
+  },
+  {
+    "id": "TRI46-114-006",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Intermediate",
+    "family": "rect-to-polar",
+    "prompt": "Convert z=−i into standard trigonometric form with θ∈[0,2π).",
+    "options": [
+      "cis(π/2)",
+      "cis(π)",
+      "cis(3π/2)",
+      "cis(0)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The modulus is 1 and the direction straight down is 270°=3π/2."
+  },
+  {
+    "id": "TRI46-114-007",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Advanced",
+    "family": "polar-to-rect",
+    "prompt": "Convert 8 cis(π/6) into rectangular form.",
+    "options": [
+      "8√3+4i",
+      "4√3+4i",
+      "4+4√3i",
+      "4√3−4i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Evaluate the components at 30°: real part 8×√3/2=4√3; imaginary part 8×1/2=4."
+  },
+  {
+    "id": "TRI46-114-008",
+    "subtopicId": "trig-complex-polar-polar-and-trigonometric-forms",
+    "difficulty": "Advanced",
+    "family": "zero-exception",
+    "prompt": "For z=0, which polar description is mathematically correct?",
+    "options": [
+      "r=0; argument is not uniquely defined",
+      "r=1, θ=0",
+      "r=0, θ must equal π",
+      "r=0, θ must equal 0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zero has modulus r=0. Any θ represents zero in 0 cisθ, so no unique argument exists."
+  },
+  {
+    "id": "TRI46-115-001",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Basic",
+    "family": "polar-product",
+    "prompt": "Compute (2 cis30°)(3 cis40°).",
+    "options": [
+      "5 cis70°",
+      "6 cis10°",
+      "6 cis70°",
+      "6 cis120°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply moduli 2×3=6 and add arguments 30°+40°=70°."
+  },
+  {
+    "id": "TRI46-115-002",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Basic",
+    "family": "polar-division",
+    "prompt": "Find (6 cis90°)/(3 cis30°).",
+    "options": [
+      "3 cis60°",
+      "2 cis60°",
+      "2 cis120°",
+      "18 cis60°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Divide moduli 6/3=2 and subtract arguments 90°−30°=60°."
+  },
+  {
+    "id": "TRI46-115-003",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Basic",
+    "family": "modulus",
+    "prompt": "What is |(4 cis10°)(5 cis20°)|?",
+    "options": [
+      "20",
+      "9",
+      "2",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "For polar products, |z₁z₂|=|z₁||z₂|=4×5=20."
+  },
+  {
+    "id": "TRI46-115-004",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Intermediate",
+    "family": "polar-product",
+    "prompt": "Compute (2 cis120°)(2 cis90°).",
+    "options": [
+      "4 cis30°",
+      "2 cis210°",
+      "4 cis120°",
+      "4 cis210°"
+    ],
+    "correctIndex": 3,
+    "explanation": "Multiply magnitudes to 4 and add angles to 210°."
+  },
+  {
+    "id": "TRI46-115-005",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Intermediate",
+    "family": "polar-division",
+    "prompt": "Find (8 cis(−45°))/(2 cis45°).",
+    "options": [
+      "4 cis0°",
+      "6 cis(−90°)",
+      "4 cis(−90°)",
+      "4 cis90°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide the moduli: 8/2=4; subtract divisor phase: −45°−45°=−90°. The result is 4 cis(−90°)."
+  },
+  {
+    "id": "TRI46-115-006",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Intermediate",
+    "family": "angle-reduction",
+    "prompt": "What is the principal angle in (−180°,180°] of the product (cis170°)(cis40°)?",
+    "options": [
+      "210°",
+      "−150°",
+      "150°",
+      "−130°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Angles add to 210°; subtract 360° to report −150° in the principal interval."
+  },
+  {
+    "id": "TRI46-115-007",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Advanced",
+    "family": "division",
+    "prompt": "If z₁=−1 and z₂=i, what is z₁/z₂?",
+    "options": [
+      "i",
+      "−i",
+      "−1",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "(−1)/i = (−i)/(−1)=i, equivalently cis180°/cis90°=cis90°."
+  },
+  {
+    "id": "TRI46-115-008",
+    "subtopicId": "trig-complex-polar-multiplication-and-division-in-polar-form",
+    "difficulty": "Advanced",
+    "family": "domain",
+    "prompt": "When does polar division (r₁ cisα)/(r₂ cisβ) fail?",
+    "options": [
+      "When α>β",
+      "When α+β>2π",
+      "When r₁=0",
+      "When r₂=0"
+    ],
+    "correctIndex": 3,
+    "explanation": "A complex denominator with modulus zero is the zero number and cannot be used as a divisor."
+  },
+  {
+    "id": "TRI46-116-001",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Basic",
+    "family": "euler",
+    "prompt": "Using Euler’s identity, e^(iπ) equals:",
+    "options": [
+      "1",
+      "−1",
+      "i",
+      "−i"
+    ],
+    "correctIndex": 1,
+    "explanation": "From Euler’s formula, e^(iπ)=cosπ+i sinπ=−1+i(0)=−1."
+  },
+  {
+    "id": "TRI46-116-002",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Basic",
+    "family": "euler",
+    "prompt": "What is e^(iπ/2)?",
+    "options": [
+      "i",
+      "−i",
+      "1",
+      "−1"
+    ],
+    "correctIndex": 0,
+    "explanation": "By Euler’s formula, e^(iπ/2)=cos(π/2)+i sin(π/2)=0+i=i."
+  },
+  {
+    "id": "TRI46-116-003",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Basic",
+    "family": "unit-modulus",
+    "prompt": "For real θ, what is |e^(iθ)|?",
+    "options": [
+      "0",
+      "θ",
+      "e^θ",
+      "1"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos²θ+sin²θ=1, so the complex exponential lies on the unit circle."
+  },
+  {
+    "id": "TRI46-116-004",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Intermediate",
+    "family": "conversion",
+    "prompt": "Express 3 cis(π/3) using a complex exponential.",
+    "options": [
+      "e^(3iπ)",
+      "3e^(π/3)",
+      "3e^(iπ/3)",
+      "3e^(−iπ/3)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Euler’s formula says cisθ=e^(iθ); retain the modulus 3."
+  },
+  {
+    "id": "TRI46-116-005",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Intermediate",
+    "family": "real-part",
+    "prompt": "Find the real part of e^(iπ/3).",
+    "options": [
+      "√3/2",
+      "1/2",
+      "−1/2",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "The real component of e^(iθ) is cosθ. At θ=π/3, cos(π/3)=1/2."
+  },
+  {
+    "id": "TRI46-116-006",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Intermediate",
+    "family": "imag-part",
+    "prompt": "Find the imaginary part of 4e^(−iπ/6).",
+    "options": [
+      "−2",
+      "2",
+      "2√3",
+      "−2√3"
+    ],
+    "correctIndex": 0,
+    "explanation": "By Euler’s formula, the imaginary coefficient of 4e^(−iπ/6) is 4sin(−π/6)=4(−1/2)=−2."
+  },
+  {
+    "id": "TRI46-116-007",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Advanced",
+    "family": "phasor-intro",
+    "prompt": "Under the e^(+iωt) convention, what real signal is represented by Re{2e^(i(5t+π/2))}?",
+    "options": [
+      "2sin(5t+π/2)",
+      "2cos(5t−π/2)",
+      "2e^(5t+π/2)",
+      "2cos(5t+π/2)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Take the real part of Euler’s exponential: Re{2e^(iφ)}=2cosφ; the time-angle convention is stated."
+  },
+  {
+    "id": "TRI46-116-008",
+    "subtopicId": "trig-complex-polar-eulers-formula",
+    "difficulty": "Advanced",
+    "family": "convention",
+    "prompt": "In electrical engineering, what does j usually mean in e^(jθ)?",
+    "options": [
+      "Current in amperes",
+      "A real positive variable",
+      "The imaginary unit, j²=−1",
+      "A unit of energy"
+    ],
+    "correctIndex": 2,
+    "explanation": "Electrical engineers use j for √(−1), reserving i to represent electric current when convenient."
+  },
+  {
+    "id": "TRI46-117-001",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Basic",
+    "family": "de-moivre",
+    "prompt": "What is (cis30°)²?",
+    "options": [
+      "cis60°",
+      "cis15°",
+      "2 cis60°",
+      "cis900°"
+    ],
+    "correctIndex": 0,
+    "explanation": "De Moivre doubles the angle 30° to 60°, while 1² remains 1."
+  },
+  {
+    "id": "TRI46-117-002",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Basic",
+    "family": "de-moivre",
+    "prompt": "Compute (cis60°)³.",
+    "options": [
+      "1",
+      "i",
+      "−i",
+      "−1"
+    ],
+    "correctIndex": 3,
+    "explanation": "The angle becomes 3×60°=180°, whose cis value is −1."
+  },
+  {
+    "id": "TRI46-117-003",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Basic",
+    "family": "power-modulus",
+    "prompt": "What is the modulus of (3 cis20°)²?",
+    "options": [
+      "6",
+      "3",
+      "9",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "When raising r cisθ to a positive integer power n, r becomes r^n; here the modulus 3 becomes 3²=9."
+  },
+  {
+    "id": "TRI46-117-004",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Intermediate",
+    "family": "power",
+    "prompt": "Find (2 cis15°)³.",
+    "options": [
+      "6 cis45°",
+      "8 cis45°",
+      "8 cis5°",
+      "8 cis60°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cube the modulus to 8 and triple angle 15° to 45°."
+  },
+  {
+    "id": "TRI46-117-005",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Intermediate",
+    "family": "powers-of-i",
+    "prompt": "Compute i⁸.",
+    "options": [
+      "1",
+      "−1",
+      "i",
+      "−i"
+    ],
+    "correctIndex": 0,
+    "explanation": "The imaginary unit satisfies i⁴=1, so i⁸=(i⁴)²=1²=1. This matches the four-step cycle of i powers."
+  },
+  {
+    "id": "TRI46-117-006",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Intermediate",
+    "family": "power",
+    "prompt": "Calculate (1+i)².",
+    "options": [
+      "2",
+      "−2",
+      "−2i",
+      "2i"
+    ],
+    "correctIndex": 3,
+    "explanation": "(1+i)²=1+2i+i²=2i, matching (√2 cis45°)²=2 cis90°."
+  },
+  {
+    "id": "TRI46-117-007",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Advanced",
+    "family": "power",
+    "prompt": "Compute (1+i)⁴.",
+    "options": [
+      "4",
+      "−4i",
+      "−4",
+      "4i"
+    ],
+    "correctIndex": 2,
+    "explanation": "(1+i)=√2 cis45°; fourth power is 4 cis180°=−4."
+  },
+  {
+    "id": "TRI46-117-008",
+    "subtopicId": "trig-complex-polar-de-moivres-theorem",
+    "difficulty": "Advanced",
+    "family": "power",
+    "prompt": "Evaluate (2 cis120°)³.",
+    "options": [
+      "−8",
+      "8",
+      "8i",
+      "−8i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cube the modulus (8) and triple angle 120° to 360°, so result is 8."
+  },
+  {
+    "id": "TRI46-118-001",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Basic",
+    "family": "root-count",
+    "prompt": "How many distinct cube roots does 8 have in the complex plane?",
+    "options": [
+      "1",
+      "2",
+      "8",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Every nonzero complex number has exactly n distinct nth roots for positive n; here n=3."
+  },
+  {
+    "id": "TRI46-118-002",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Basic",
+    "family": "root",
+    "prompt": "What is the positive real cube root of 8?",
+    "options": [
+      "4",
+      "−2",
+      "2",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "The positive real cube root is 2 because 2×2×2=8. The complex equation w³=8 also has two nonreal roots."
+  },
+  {
+    "id": "TRI46-118-003",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Basic",
+    "family": "root",
+    "prompt": "Which complex number is a square root of −1?",
+    "options": [
+      "1",
+      "i",
+      "−1",
+      "2i"
+    ],
+    "correctIndex": 1,
+    "explanation": "By definition i²=−1. Hence i is a square root of −1; −i is the second square root."
+  },
+  {
+    "id": "TRI46-118-004",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Intermediate",
+    "family": "root-set",
+    "prompt": "What are all square roots of 4 in the complex plane?",
+    "options": [
+      "2 and −2",
+      "2 only",
+      "2i and −2i",
+      "4 and −4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Solve w²=4: w=±2. Both 2² and (−2)² equal 4."
+  },
+  {
+    "id": "TRI46-118-005",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Intermediate",
+    "family": "root-spacing",
+    "prompt": "What is the angular separation between consecutive fourth roots of a nonzero number?",
+    "options": [
+      "45°",
+      "180°",
+      "360°",
+      "90°"
+    ],
+    "correctIndex": 3,
+    "explanation": "The nth-root angles differ by 360°/n, so fourth roots are separated by 90°."
+  },
+  {
+    "id": "TRI46-118-006",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Intermediate",
+    "family": "roots-of-unity",
+    "prompt": "Find all cube roots of unity.",
+    "options": [
+      "1, −1, i",
+      "1, cis90°, cis180°",
+      "1, cis120°, cis240°",
+      "1 and −1 only"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use θ=0 and n=3: roots have phases 0°, 120°, and 240°."
+  },
+  {
+    "id": "TRI46-118-007",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Advanced",
+    "family": "root-set",
+    "prompt": "Find the roots of w²=−4.",
+    "options": [
+      "2 and −2",
+      "2i and −2i",
+      "4i and −4i",
+      "i and −i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Squaring 2i gives (2i)²=−4, and squaring −2i also yields −4. Thus both signs are solutions."
+  },
+  {
+    "id": "TRI46-118-008",
+    "subtopicId": "trig-complex-polar-powers-and-roots-of-complex-numbers",
+    "difficulty": "Advanced",
+    "family": "zero-exception",
+    "prompt": "How many distinct fifth roots does z=0 have?",
+    "options": [
+      "1",
+      "5",
+      "0",
+      "Infinitely many"
+    ],
+    "correctIndex": 0,
+    "explanation": "w⁵=0 implies w=0, so only one distinct complex root exists."
+  }
+]

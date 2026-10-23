@@ -1,0 +1,26 @@
+[
+  {
+    "unit_id": "PG-U01",
+    "name": "Geometric Foundations"
+  },
+  {
+    "unit_id": "PG-U02",
+    "name": "Triangles & Similarity"
+  },
+  {
+    "unit_id": "PG-U03",
+    "name": "Quadrilaterals & Polygons"
+  },
+  {
+    "unit_id": "PG-U04",
+    "name": "Plane Mensuration"
+  },
+  {
+    "unit_id": "PG-U05",
+    "name": "Circles & Circular Mensuration"
+  },
+  {
+    "unit_id": "PG-U06",
+    "name": "Transformations & Applications"
+  }
+]

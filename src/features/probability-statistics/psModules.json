@@ -1,0 +1,154 @@
+[
+  {
+    "id": "PS01",
+    "title": "Obtaining Data & Descriptive Statistics",
+    "tos": "5.1",
+    "description": "Data collection, summaries and graphical descriptions",
+    "reference": "Montgomery & Runger, 3rd ed., Ch. 1; Walpole et al., 9th ed., Ch. 1",
+    "lessonIds": [
+      "PS01-01",
+      "PS01-02",
+      "PS01-03",
+      "PS01-04",
+      "PS01-05",
+      "PS01-06",
+      "PS01-07",
+      "PS01-08",
+      "PS01-09",
+      "PS01-10"
+    ]
+  },
+  {
+    "id": "PS02",
+    "title": "Combinatorics & Counting Techniques",
+    "tos": "Foundation",
+    "description": "Counting foundations for probability",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.; Balakrishnan, Schaum's Combinatorics",
+    "lessonIds": [
+      "PS02-01",
+      "PS02-02",
+      "PS02-03",
+      "PS02-04",
+      "PS02-05",
+      "PS02-06",
+      "PS02-07",
+      "PS02-08",
+      "PS02-09",
+      "PS02-10"
+    ]
+  },
+  {
+    "id": "PS03",
+    "title": "Probability Fundamentals & Bayes",
+    "tos": "Foundation",
+    "description": "Events, probability rules, independence and reliability",
+    "reference": "Morin, Probability for the Enthusiastic Beginner; Lipschutz, Schaum's Probability",
+    "lessonIds": [
+      "PS03-01",
+      "PS03-02",
+      "PS03-03",
+      "PS03-04",
+      "PS03-05",
+      "PS03-06",
+      "PS03-07",
+      "PS03-08",
+      "PS03-09",
+      "PS03-10"
+    ]
+  },
+  {
+    "id": "PS04",
+    "title": "Random Variables & Distributions",
+    "tos": "5.2",
+    "description": "Discrete and continuous random variables",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 3–5; Walpole et al., 9th ed., Chs. 3–6",
+    "lessonIds": [
+      "PS04-01",
+      "PS04-02",
+      "PS04-03",
+      "PS04-04",
+      "PS04-05",
+      "PS04-06",
+      "PS04-07",
+      "PS04-08",
+      "PS04-09",
+      "PS04-10"
+    ]
+  },
+  {
+    "id": "PS05",
+    "title": "Sampling & Statistical Intervals",
+    "tos": "5.2",
+    "description": "Sampling distributions and confidence intervals",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 6–8; Walpole et al., 9th ed., Chs. 8–9",
+    "lessonIds": [
+      "PS05-01",
+      "PS05-02",
+      "PS05-03",
+      "PS05-04",
+      "PS05-05",
+      "PS05-06",
+      "PS05-07",
+      "PS05-08",
+      "PS05-09",
+      "PS05-10"
+    ]
+  },
+  {
+    "id": "PS06",
+    "title": "Hypothesis Testing",
+    "tos": "5.3",
+    "description": "Test selection, evidence and decisions",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 9–10; Walpole et al., 9th ed., Ch. 10",
+    "lessonIds": [
+      "PS06-01",
+      "PS06-02",
+      "PS06-03",
+      "PS06-04",
+      "PS06-05",
+      "PS06-06",
+      "PS06-07",
+      "PS06-08",
+      "PS06-09",
+      "PS06-10"
+    ]
+  },
+  {
+    "id": "PS07",
+    "title": "Regression & Correlation",
+    "tos": "5.4",
+    "description": "Association, prediction and assumptions",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 11–12; Walpole et al., 9th ed., Chs. 11–12",
+    "lessonIds": [
+      "PS07-01",
+      "PS07-02",
+      "PS07-03",
+      "PS07-04",
+      "PS07-05",
+      "PS07-06",
+      "PS07-07",
+      "PS07-08",
+      "PS07-09",
+      "PS07-10"
+    ]
+  },
+  {
+    "id": "PS08",
+    "title": "Design of Experiments",
+    "tos": "5.5",
+    "description": "Randomized studies, ANOVA and factorial comparisons",
+    "reference": "Montgomery & Runger, 3rd ed., Chs. 13–14; Walpole et al., 9th ed., Chs. 13–15",
+    "lessonIds": [
+      "PS08-01",
+      "PS08-02",
+      "PS08-03",
+      "PS08-04",
+      "PS08-05",
+      "PS08-06",
+      "PS08-07",
+      "PS08-08",
+      "PS08-09",
+      "PS08-10"
+    ]
+  }
+]

@@ -1,0 +1,492 @@
+{
+  "trig-basic-identities-reciprocal-identities": {
+    "id": "trig-basic-identities-reciprocal-identities",
+    "title": "Reciprocal identities",
+    "summary": "Use reciprocal relationships of the six trigonometric functions while retaining their domains.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "basic-identities-reciprocal-identities-concept",
+        "title": "Concept, prerequisites, and formulas",
+        "objectiveIds": [
+          "trig-basic-identities-reciprocal-identities-understand"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-reciprocal-identities-definition",
+            "type": "definition",
+            "text": "Reciprocal pairs are sine/cosecant, cosine/secant, and tangent/cotangent. A reciprocal is defined only if the original function value is nonzero. At an angle where the denominator vanishes, the reciprocal expression is undefined."
+          },
+          {
+            "id": "basic-identities-reciprocal-identities-formula-a",
+            "type": "formula",
+            "latex": "\\csc\\theta=\\frac1{\\sin\\theta},\\quad\\sec\\theta=\\frac1{\\cos\\theta},\\quad\\cot\\theta=\\frac1{\\tan\\theta}",
+            "description": "The last reciprocal form for cotangent requires tanθ to be defined and nonzero; the equivalent cotθ = cosθ/sinθ is defined whenever sinθ ≠ 0, including when cosθ = 0."
+          },
+          {
+            "id": "basic-identities-reciprocal-identities-formula-b",
+            "type": "formula",
+            "latex": "\\sin\\theta\\csc\\theta=1\\ (\\sin\\theta\\ne0),\\quad \\cos\\theta\\sec\\theta=1\\ (\\cos\\theta\\ne0)"
+          },
+          {
+            "id": "basic-identities-reciprocal-identities-guidance",
+            "type": "note",
+            "text": "Study method: identify the original domain before transforming the expression."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-reciprocal-identities-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "trig-basic-identities-reciprocal-identities-solve"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-reciprocal-identities-work-1",
+            "type": "worked-example",
+            "title": "Recover a reciprocal from sine",
+            "problem": "If sinθ = −3/5, find cscθ.",
+            "strategy": "The sine value is nonzero, so its reciprocal exists.",
+            "steps": [
+              "cscθ = 1/sinθ.",
+              "Substitute cscθ = 1/(−3/5) = −5/3."
+            ],
+            "check": "Check: (−3/5)(−5/3)=1."
+          },
+          {
+            "id": "basic-identities-reciprocal-identities-work-2",
+            "type": "worked-example",
+            "title": "Simplify a reciprocal product",
+            "problem": "Simplify cosθ secθ on its original domain.",
+            "strategy": "secθ is 1/cosθ only when cosθ ≠ 0.",
+            "steps": [
+              "cosθ secθ = cosθ × (1/cosθ).",
+              "Cancel the common nonzero factor to obtain 1."
+            ],
+            "check": "At θ = π/2, the original expression remains undefined even though 1 is defined."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-reciprocal-identities-review",
+        "title": "Common mistakes, check, and references",
+        "objectiveIds": [
+          "trig-basic-identities-reciprocal-identities-review"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-reciprocal-identities-pitfall",
+            "type": "note",
+            "text": "Do not confuse csc, sec, or cot with arcsin, arccos, or arctan. Do not extend an identity beyond its original domain. For example, cot(π/2)=0 even though 1/tan(π/2) is undefined."
+          },
+          {
+            "id": "basic-identities-reciprocal-identities-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If cosθ = −2/3, find secθ.",
+            "answer": "−3/2",
+            "explanation": "Since cosine is nonzero, secθ=1/(−2/3)=−3/2."
+          },
+          {
+            "id": "basic-identities-reciprocal-identities-references",
+            "type": "note",
+            "text": "Reference guide: Schaum’s Outline 4th ed., Chs. 2 and 8; Lial 10th ed., §§1.4, 5.1; Kelley, Ch. 7."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-basic-identities-quotient-identities": {
+    "id": "trig-basic-identities-quotient-identities",
+    "title": "Quotient identities",
+    "summary": "Convert tangent and cotangent to sine/cosine quotients and identify where each is defined.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "basic-identities-quotient-identities-concept",
+        "title": "Concept, prerequisites, and formulas",
+        "objectiveIds": [
+          "trig-basic-identities-quotient-identities-understand"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-quotient-identities-definition",
+            "type": "definition",
+            "text": "Tangent is sine divided by cosine and cotangent is cosine divided by sine. Expressing both functions through sine and cosine often makes algebraic simplification easier."
+          },
+          {
+            "id": "basic-identities-quotient-identities-formula-a",
+            "type": "formula",
+            "latex": "\\tan\\theta=\\frac{\\sin\\theta}{\\cos\\theta}\\ (\\cos\\theta\\ne0),\\quad\\cot\\theta=\\frac{\\cos\\theta}{\\sin\\theta}\\ (\\sin\\theta\\ne0)",
+            "description": "At a point with cosθ=0, tangent is undefined but cotangent is zero. At a point with sinθ=0, cotangent is undefined but tangent is zero."
+          },
+          {
+            "id": "basic-identities-quotient-identities-formula-b",
+            "type": "formula",
+            "latex": "\\tan\\theta\\cot\\theta=1\\quad (\\sin\\theta\\ne0,\\ \\cos\\theta\\ne0)"
+          },
+          {
+            "id": "basic-identities-quotient-identities-guidance",
+            "type": "note",
+            "text": "Study method: identify the original domain before transforming the expression."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-quotient-identities-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "trig-basic-identities-quotient-identities-solve"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-quotient-identities-work-1",
+            "type": "worked-example",
+            "title": "Evaluate a quotient identity",
+            "problem": "If sinθ=3/5 and cosθ=−4/5, find tanθ.",
+            "strategy": "Since cosine is nonzero, divide sine by cosine.",
+            "steps": [
+              "tanθ=(3/5)/(−4/5).",
+              "Cancel fifths to obtain tanθ=−3/4."
+            ],
+            "check": "Quadrant II has positive sine and negative tangent."
+          },
+          {
+            "id": "basic-identities-quotient-identities-work-2",
+            "type": "worked-example",
+            "title": "Simplify while keeping the domain",
+            "problem": "Simplify tanθ cosθ.",
+            "strategy": "The expression first requires cosθ ≠ 0.",
+            "steps": [
+              "Replace tangent by sinθ/cosθ.",
+              "Multiply (sinθ/cosθ)cosθ = sinθ."
+            ],
+            "check": "The equality holds only where cosθ ≠ 0; it is not a globally defined identity."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-quotient-identities-review",
+        "title": "Common mistakes, check, and references",
+        "objectiveIds": [
+          "trig-basic-identities-quotient-identities-review"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-quotient-identities-pitfall",
+            "type": "note",
+            "text": "Never cancel cosθ across a denominator without retaining cosθ ≠ 0. In particular, tanθ·cotθ = 1 is valid only where both are defined."
+          },
+          {
+            "id": "basic-identities-quotient-identities-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If sinθ=0, is cotθ defined?",
+            "answer": "No",
+            "explanation": "cotθ = cosθ/sinθ would divide by zero."
+          },
+          {
+            "id": "basic-identities-quotient-identities-references",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed., §§1.4, 5.1; Schaum’s Outline 4th ed., Ch. 8; Young 3rd ed., chapter on trigonometric identities."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-basic-identities-evenodd-and-cofunction-identities": {
+    "id": "trig-basic-identities-evenodd-and-cofunction-identities",
+    "title": "Even–odd and cofunction identities",
+    "summary": "Apply parity and cofunction relations to rewrite negative and complementary angles.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "basic-identities-evenodd-and-cofunction-identities-concept",
+        "title": "Concept, prerequisites, and formulas",
+        "objectiveIds": [
+          "trig-basic-identities-evenodd-and-cofunction-identities-understand"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-definition",
+            "type": "definition",
+            "text": "Sine and tangent are odd functions; cosine is even. Their reciprocals have matching parity (cosecant and cotangent odd; secant even). Cofunction identities interchange sine/cosine, tangent/cotangent, and secant/cosecant at complementary arguments."
+          },
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-formula-a",
+            "type": "formula",
+            "latex": "\\sin(-\\theta)=-\\sin\\theta,\\quad\\cos(-\\theta)=\\cos\\theta,\\quad\\tan(-\\theta)=-\\tan\\theta",
+            "description": "These equations hold wherever both sides are defined; for example, the tangent/cotangent cofunction pair excludes sinθ = 0."
+          },
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-formula-b",
+            "type": "formula",
+            "latex": "\\sin\\left(\\frac\\pi2-\\theta\\right)=\\cos\\theta,\\quad\\tan\\left(\\frac\\pi2-\\theta\\right)=\\cot\\theta"
+          },
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-guidance",
+            "type": "note",
+            "text": "Study method: identify the original domain before transforming the expression."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-evenodd-and-cofunction-identities-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "trig-basic-identities-evenodd-and-cofunction-identities-solve"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-work-1",
+            "type": "worked-example",
+            "title": "Use an odd-function identity",
+            "problem": "Compute sin(−30°) exactly.",
+            "strategy": "Sine changes sign when the argument is negated.",
+            "steps": [
+              "sin(−30°)=−sin30°.",
+              "sin30°=1/2, so sin(−30°)=−1/2."
+            ],
+            "check": "The negative angle points into quadrant IV, where sine is negative."
+          },
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-work-2",
+            "type": "worked-example",
+            "title": "Use a cofunction identity",
+            "problem": "Evaluate cos(π/2−π/6) without a calculator.",
+            "strategy": "Replace cosine of a complement with sine.",
+            "steps": [
+              "cos(π/2−π/6)=sin(π/6).",
+              "Thus the value is 1/2."
+            ],
+            "check": "Direct calculation gives cos(π/3)=1/2."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-evenodd-and-cofunction-identities-review",
+        "title": "Common mistakes, check, and references",
+        "objectiveIds": [
+          "trig-basic-identities-evenodd-and-cofunction-identities-review"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-pitfall",
+            "type": "note",
+            "text": "Do not assume every function is odd: cos(−θ)=cosθ, not −cosθ. A complement is π/2−θ (or 90°−θ), not π−θ."
+          },
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Simplify sec(−θ).",
+            "answer": "secθ",
+            "explanation": "Secant is even wherever cosθ is nonzero."
+          },
+          {
+            "id": "basic-identities-evenodd-and-cofunction-identities-references",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed., §§2.1, 5.1; Schaum’s Outline 4th ed., Chs. 3 and 6; Kelley, Ch. 7; Young, right-triangle and identity chapters."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-basic-identities-simplifying-trig-expressions": {
+    "id": "trig-basic-identities-simplifying-trig-expressions",
+    "title": "Simplifying trig expressions",
+    "summary": "Simplify mixed trigonometric expressions by selecting useful identities and preserving excluded angles.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "basic-identities-simplifying-trig-expressions-concept",
+        "title": "Concept, prerequisites, and formulas",
+        "objectiveIds": [
+          "trig-basic-identities-simplifying-trig-expressions-understand"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-simplifying-trig-expressions-definition",
+            "type": "definition",
+            "text": "Trigonometric simplification expresses an equivalent form on the same domain. Begin by identifying undefined denominators, then apply reciprocal, quotient, or Pythagorean identities. Factoring and common denominators can help."
+          },
+          {
+            "id": "basic-identities-simplifying-trig-expressions-formula-a",
+            "type": "formula",
+            "latex": "1-\\sin^2\\theta=\\cos^2\\theta,\\qquad1-\\cos^2\\theta=\\sin^2\\theta",
+            "description": "The simpler result may be defined at extra angles. Always state the original-domain restriction in an equation of simplification."
+          },
+          {
+            "id": "basic-identities-simplifying-trig-expressions-formula-b",
+            "type": "formula",
+            "latex": "\\frac{\\tan\\theta}{\\sec\\theta}=\\sin\\theta\\quad(\\cos\\theta\\ne0)"
+          },
+          {
+            "id": "basic-identities-simplifying-trig-expressions-guidance",
+            "type": "note",
+            "text": "Study method: identify the original domain before transforming the expression."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-simplifying-trig-expressions-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "trig-basic-identities-simplifying-trig-expressions-solve"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-simplifying-trig-expressions-work-1",
+            "type": "worked-example",
+            "title": "Reduce a ratio of trig functions",
+            "problem": "Simplify tanθ/secθ.",
+            "strategy": "The original secant and tangent require cosθ≠0.",
+            "steps": [
+              "Rewrite tanθ/secθ as (sinθ/cosθ)/(1/cosθ).",
+              "Multiply by cosθ to get sinθ."
+            ],
+            "check": "For θ=π/2, sinθ exists but the original quotient does not."
+          },
+          {
+            "id": "basic-identities-simplifying-trig-expressions-work-2",
+            "type": "worked-example",
+            "title": "Factor using the Pythagorean identity",
+            "problem": "Simplify (1−cos²θ)/sinθ.",
+            "strategy": "First require sinθ≠0.",
+            "steps": [
+              "Replace 1−cos²θ by sin²θ.",
+              "Cancel one nonzero sine factor to get sinθ."
+            ],
+            "check": "At θ=0, the original is 0/0, so the simplified answer does not add θ=0 to the domain."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-simplifying-trig-expressions-review",
+        "title": "Common mistakes, check, and references",
+        "objectiveIds": [
+          "trig-basic-identities-simplifying-trig-expressions-review"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-simplifying-trig-expressions-pitfall",
+            "type": "note",
+            "text": "Common mistakes: treating secθ as 1/sinθ, canceling across addition, or dropping angles where the original denominator vanishes."
+          },
+          {
+            "id": "basic-identities-simplifying-trig-expressions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Simplify (1−sin²θ)/cosθ on its original domain.",
+            "answer": "cosθ, where cosθ≠0",
+            "explanation": "1−sin²θ=cos²θ; dividing by nonzero cosθ gives cosθ."
+          },
+          {
+            "id": "basic-identities-simplifying-trig-expressions-references",
+            "type": "note",
+            "text": "Reference guide: Schaum’s Outline 4th ed., Ch. 8; Lial 10th ed., §§5.1–5.2; Kelley, Ch. 7; Young, identities chapter."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-basic-identities-verifying-identities-and-domain-restrictions": {
+    "id": "trig-basic-identities-verifying-identities-and-domain-restrictions",
+    "title": "Verifying identities and domain restrictions",
+    "summary": "Prove trig identities on shared domains and distinguish algebraic proof from a numerical spot check.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "basic-identities-verifying-identities-and-domain-restrictions-concept",
+        "title": "Concept, prerequisites, and formulas",
+        "objectiveIds": [
+          "trig-basic-identities-verifying-identities-and-domain-restrictions-understand"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-definition",
+            "type": "definition",
+            "text": "A trigonometric identity is an equality for every angle in its stated common domain. Verification usually starts with one side, applies known identities or algebra, and reaches the other side. A few matching numerical values do not prove an identity."
+          },
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-formula-a",
+            "type": "formula",
+            "latex": "(1-\\cos\\theta)(1+\\cos\\theta)=\\sin^2\\theta",
+            "description": "The second statement has a common domain sinθ≠0; both sides are then defined. Verify algebraically by multiplying the numerator and denominator by 1+cosθ."
+          },
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-formula-b",
+            "type": "formula",
+            "latex": "\\frac{1-\\cos\\theta}{\\sin\\theta}=\\frac{\\sin\\theta}{1+\\cos\\theta}\\quad(\\sin\\theta\\ne0)"
+          },
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-guidance",
+            "type": "note",
+            "text": "Study method: identify the original domain before transforming the expression."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-verifying-identities-and-domain-restrictions-examples",
+        "title": "Worked examples and methods",
+        "objectiveIds": [
+          "trig-basic-identities-verifying-identities-and-domain-restrictions-solve"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-work-1",
+            "type": "worked-example",
+            "title": "Prove an identity by factoring",
+            "problem": "Verify (1−cosθ)(1+cosθ)=sin²θ.",
+            "strategy": "Work from the left side.",
+            "steps": [
+              "Multiply conjugates: (1−cosθ)(1+cosθ)=1−cos²θ.",
+              "Apply 1−cos²θ=sin²θ."
+            ],
+            "check": "Both sides are defined for every real θ; the proof covers all real angles."
+          },
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-work-2",
+            "type": "worked-example",
+            "title": "Prove a fractional identity safely",
+            "problem": "Show (1−cosθ)/sinθ = sinθ/(1+cosθ) on the common domain.",
+            "strategy": "Assume sinθ≠0 (then 1+cosθ≠0).",
+            "steps": [
+              "Multiply left numerator and denominator by (1+cosθ).",
+              "The numerator is 1−cos²θ=sin²θ, so the fraction becomes sin²θ/[sinθ(1+cosθ)] = sinθ/(1+cosθ)."
+            ],
+            "check": "θ=0 is excluded because the original left denominator is zero; θ=π is likewise excluded."
+          }
+        ]
+      },
+      {
+        "id": "basic-identities-verifying-identities-and-domain-restrictions-review",
+        "title": "Common mistakes, check, and references",
+        "objectiveIds": [
+          "trig-basic-identities-verifying-identities-and-domain-restrictions-review"
+        ],
+        "blocks": [
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-pitfall",
+            "type": "note",
+            "text": "Do not divide by a trig factor before checking whether it can be zero. Never call a statement proved merely because it works at a single angle."
+          },
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Is sin²θ+cos²θ=1 true at every real angle?",
+            "answer": "Yes",
+            "explanation": "This identity follows from the unit circle and both sine and cosine are defined for all real θ."
+          },
+          {
+            "id": "basic-identities-verifying-identities-and-domain-restrictions-references",
+            "type": "note",
+            "text": "Reference guide: Lial 10th ed., §5.2; Schaum’s Outline 4th ed., Ch. 8; Kelley, Ch. 7; Sullivan 9th ed., §3.4."
+          }
+        ]
+      }
+    ]
+  }
+}

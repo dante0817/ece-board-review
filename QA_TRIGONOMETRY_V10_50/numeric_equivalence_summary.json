@@ -1,0 +1,6 @@
+{
+  "parsed_option_expressions": 1717,
+  "total_options": 3264,
+  "equivalent_numeric_option_pairs": 0,
+  "note": "This partial numeric parser does not cover all symbolic expressions, domains, graphical or verbal equivalences."
+}

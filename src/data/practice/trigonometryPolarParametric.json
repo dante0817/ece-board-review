@@ -1,0 +1,722 @@
+[
+  {
+    "id": "TRI47-121-001",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Basic",
+    "family": "origin",
+    "prompt": "Which coordinate pair denotes the origin in a polar plane?",
+    "options": [
+      "(1,0)",
+      "(−1,π/2)",
+      "(2,π)",
+      "(0,π/3)"
+    ],
+    "correctIndex": 3,
+    "explanation": "A point with r=0 is the pole for any angular value."
+  },
+  {
+    "id": "TRI47-121-002",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Basic",
+    "family": "coterminal",
+    "prompt": "Which point is equivalent to (2,π/6)?",
+    "options": [
+      "(2,13π/6)",
+      "(2,7π/6)",
+      "(−2,π/6)",
+      "(−2,−π/3)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding 2π to the angle preserves the same polar point with the same radius."
+  },
+  {
+    "id": "TRI47-121-003",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Intermediate",
+    "family": "negative-radius",
+    "prompt": "Convert (−3,0) to a positive-radius polar pair.",
+    "options": [
+      "(0,−3)",
+      "(3,π)",
+      "(3,0)",
+      "(−3,π)"
+    ],
+    "correctIndex": 1,
+    "explanation": "A negative radial length along the positive x-axis lands at x=−3, represented with radius 3 and angle π."
+  },
+  {
+    "id": "TRI47-121-004",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Basic",
+    "family": "plot",
+    "prompt": "What is the Cartesian point represented by (2,π/2)?",
+    "options": [
+      "(0,−2)",
+      "(−2,0)",
+      "(0,2)",
+      "(2,0)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Apply x=r cosθ and y=r sinθ: x=2cos(π/2)=0 and y=2sin(π/2)=2, so the point is on the positive y-axis."
+  },
+  {
+    "id": "TRI47-121-005",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Intermediate",
+    "family": "negative-radius",
+    "prompt": "Which pair has the same point as (−5,π/4)?",
+    "options": [
+      "(5,π/4)",
+      "(−5,5π/4)",
+      "(5,7π/4)",
+      "(5,5π/4)"
+    ],
+    "correctIndex": 3,
+    "explanation": "A negative radius is converted to positive by adding π to its angle; π/4+π=5π/4."
+  },
+  {
+    "id": "TRI47-121-006",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Basic",
+    "family": "periodicity",
+    "prompt": "What does changing (r,θ) to (r,θ+2π) do?",
+    "options": [
+      "Leaves the point unchanged",
+      "Reflects across y-axis",
+      "Moves to the origin",
+      "Negates the radius"
+    ],
+    "correctIndex": 0,
+    "explanation": "A complete turn changes the angle representation without changing the endpoint."
+  },
+  {
+    "id": "TRI47-121-007",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Advanced",
+    "family": "negative-radius",
+    "prompt": "The point (−4,π/2) is located on which axis direction?",
+    "options": [
+      "Positive x-axis",
+      "Negative y-axis",
+      "Positive y-axis",
+      "Negative x-axis"
+    ],
+    "correctIndex": 1,
+    "explanation": "The ray π/2 points upward, but radius −4 reverses the direction, placing the point at (0,−4)."
+  },
+  {
+    "id": "TRI47-121-008",
+    "subtopicId": "trig-polar-parametric-polar-coordinate-system",
+    "difficulty": "Advanced",
+    "family": "equivalence",
+    "prompt": "Which equivalent pair uses a negative radius for (6,2π/3)?",
+    "options": [
+      "(−6,π/3)",
+      "(−6,π/6)",
+      "(−6,5π/3)",
+      "(−6,2π/3)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reverse the radius and add π radians to the angle: 2π/3+π=5π/3; the new pair represents the exact same point."
+  },
+  {
+    "id": "TRI47-122-001",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Basic",
+    "family": "radius",
+    "prompt": "Convert (3,4) to polar radius r≥0.",
+    "options": [
+      "25",
+      "5",
+      "7",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "Use the distance formula from the pole: r=√(3²+4²)=√25=5; polar radius is nonnegative by convention here."
+  },
+  {
+    "id": "TRI47-122-002",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Basic",
+    "family": "argument",
+    "prompt": "The rectangular point (−1,0) has principal polar angle in [0,2π) equal to:",
+    "options": [
+      "π/2",
+      "3π/2",
+      "π",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "A negative x coordinate with y=0 lies on the negative x-axis, angle π."
+  },
+  {
+    "id": "TRI47-122-003",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Intermediate",
+    "family": "to-rectangular",
+    "prompt": "Convert polar (2,π/3) to rectangular coordinates.",
+    "options": [
+      "(√3,1)",
+      "(1,−√3)",
+      "(2,√3)",
+      "(1,√3)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the standard polar conversions: x=2cos(π/3)=1 and y=2sin(π/3)=√3, so the point is (1,√3)."
+  },
+  {
+    "id": "TRI47-122-004",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Basic",
+    "family": "substitution",
+    "prompt": "What is the polar substitution for x²+y²?",
+    "options": [
+      "r²",
+      "r",
+      "r cosθ",
+      "r sinθ"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Pythagorean coordinate relation gives x²+y²=r²."
+  },
+  {
+    "id": "TRI47-122-005",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Intermediate",
+    "family": "circle",
+    "prompt": "Convert x²+y²=9 to a nonnegative-radius polar equation.",
+    "options": [
+      "r=3sinθ",
+      "r=3",
+      "r=9",
+      "r=3cosθ"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substituting r²=x²+y² gives r²=9 and nonnegative radius r=3."
+  },
+  {
+    "id": "TRI47-122-006",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Advanced",
+    "family": "quadrant",
+    "prompt": "The rectangular point (−√3,1) has a standard angle in [0,2π) of:",
+    "options": [
+      "7π/6",
+      "11π/6",
+      "5π/6",
+      "π/6"
+    ],
+    "correctIndex": 2,
+    "explanation": "The point is in Quadrant II; its reference angle is π/6, giving 5π/6."
+  },
+  {
+    "id": "TRI47-122-007",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Intermediate",
+    "family": "origin",
+    "prompt": "In polar conversion, what is r for Cartesian (0,0)?",
+    "options": [
+      "1",
+      "Undefined",
+      "π",
+      "0"
+    ],
+    "correctIndex": 3,
+    "explanation": "The radial distance from origin to itself equals zero; its angle is not unique."
+  },
+  {
+    "id": "TRI47-122-008",
+    "subtopicId": "trig-polar-parametric-rectangular-and-polar-conversion",
+    "difficulty": "Advanced",
+    "family": "convert-equation",
+    "prompt": "Which rectangular equation corresponds to r=4cosθ?",
+    "options": [
+      "x²+y²=4x",
+      "x²+y²=4y",
+      "x²+y²=16",
+      "x=4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply by r: r²=4r cosθ, hence x²+y²=4x, including the origin."
+  },
+  {
+    "id": "TRI47-123-001",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Basic",
+    "family": "trace",
+    "prompt": "For r=2cosθ, what is r at θ=0?",
+    "options": [
+      "0",
+      "−2",
+      "1",
+      "2"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos0=1, so r=2; this is the far-right point of the circle."
+  },
+  {
+    "id": "TRI47-123-002",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Intermediate",
+    "family": "pole",
+    "prompt": "For r=1+cosθ, the curve meets the pole when θ equals:",
+    "options": [
+      "π",
+      "0",
+      "π/2",
+      "3π/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "A polar curve meets the pole whenever r=0. Set 1+cosθ=0, so cosθ=−1 and θ=π modulo 2π."
+  },
+  {
+    "id": "TRI47-123-003",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Basic",
+    "family": "symmetry",
+    "prompt": "Which symmetry is immediately evident from r=2+cosθ?",
+    "options": [
+      "No possible symmetry",
+      "Polar axis (x-axis)",
+      "y-axis only",
+      "Origin only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Replacing θ by −θ leaves cosθ unchanged; this certifies symmetry about the polar axis."
+  },
+  {
+    "id": "TRI47-123-004",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Advanced",
+    "family": "negative-radius",
+    "prompt": "At θ=π, where is the point for r=2cosθ?",
+    "options": [
+      "(0,2)",
+      "(0,−2)",
+      "(2,0)",
+      "(−2,0)"
+    ],
+    "correctIndex": 2,
+    "explanation": "At θ=π, r=2cosπ=−2; therefore x=(−2)cosπ=2 and y=(−2)sinπ=0. The negative radius reverses the ray."
+  },
+  {
+    "id": "TRI47-123-005",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Intermediate",
+    "family": "rectangular-trace",
+    "prompt": "What curve is represented by r=2cosθ?",
+    "options": [
+      "Circle centered (0,1), radius 1",
+      "Line x=2",
+      "Circle centered at origin, radius 2",
+      "Circle centered (1,0), radius 1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Multiplying by r gives x²+y²=2x, or (x−1)²+y²=1."
+  },
+  {
+    "id": "TRI47-123-006",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Basic",
+    "family": "method",
+    "prompt": "What is a reliable first step to sketch r=f(θ)?",
+    "options": [
+      "Tabulate a few θ and r values",
+      "Assume r≥0 always",
+      "Plot r as an x-coordinate",
+      "Ignore angles with r<0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compute key angles, zeros, signs, and symmetry before joining the plotted polar points."
+  },
+  {
+    "id": "TRI47-123-007",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Intermediate",
+    "family": "extrema",
+    "prompt": "For r=3sinθ, at which θ in [0,π] is the maximum r?",
+    "options": [
+      "π/4",
+      "π/2",
+      "0",
+      "π"
+    ],
+    "correctIndex": 1,
+    "explanation": "sinθ reaches 1 at π/2, so the largest radius is 3."
+  },
+  {
+    "id": "TRI47-123-008",
+    "subtopicId": "trig-polar-parametric-polar-graphing-and-symmetry",
+    "difficulty": "Advanced",
+    "family": "symmetry-caution",
+    "prompt": "If substituting −θ does not reproduce a polar equation, what can we conclude?",
+    "options": [
+      "The curve must be a circle",
+      "Every point has r>0",
+      "That symmetry test is inconclusive",
+      "The curve has no x-axis symmetry"
+    ],
+    "correctIndex": 2,
+    "explanation": "Polar representations are nonunique; failure of a sufficient substitution test does not establish absence of symmetry."
+  },
+  {
+    "id": "TRI47-124-001",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Basic",
+    "family": "rose-odd",
+    "prompt": "The polar curve r=2cos(3θ) has how many petals?",
+    "options": [
+      "9",
+      "3",
+      "6",
+      "2"
+    ],
+    "correctIndex": 1,
+    "explanation": "For an integer odd n=3, the rose r=a cos(nθ) has n distinct petals."
+  },
+  {
+    "id": "TRI47-124-002",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Basic",
+    "family": "rose-even",
+    "prompt": "The polar curve r=4sin(2θ) has how many petals?",
+    "options": [
+      "8",
+      "1",
+      "4",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "An even integer n=2 produces 2n=4 petals for a rose curve."
+  },
+  {
+    "id": "TRI47-124-003",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Intermediate",
+    "family": "cardioid",
+    "prompt": "Which polar equation is a cardioid?",
+    "options": [
+      "r=2+3cosθ",
+      "r=3cos(2θ)",
+      "r=2cosθ",
+      "r=2+2cosθ"
+    ],
+    "correctIndex": 3,
+    "explanation": "The limaçon r=a+bcosθ becomes a cardioid when |a|=|b|≠0."
+  },
+  {
+    "id": "TRI47-124-004",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Basic",
+    "family": "max-radius",
+    "prompt": "What is the largest r for r=1+cosθ?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since cosθ≤1, the maximum radius is 1+1=2 at θ=0."
+  },
+  {
+    "id": "TRI47-124-005",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Advanced",
+    "family": "circle",
+    "prompt": "Which rectangular curve equals r=6sinθ?",
+    "options": [
+      "x²+(y+3)²=9",
+      "x²+(y−3)²=9",
+      "(x−3)²+y²=9",
+      "x²+y²=6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply by r: r²=6r sinθ gives x²+y²=6y, completing the square."
+  },
+  {
+    "id": "TRI47-124-006",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Intermediate",
+    "family": "cardioid-pole",
+    "prompt": "Where does r=2−2cosθ attain r=0?",
+    "options": [
+      "θ=π/2",
+      "θ=3π/2",
+      "θ=0",
+      "θ=π"
+    ],
+    "correctIndex": 2,
+    "explanation": "Set 2−2cosθ=0; hence cosθ=1 at θ=0 modulo 2π."
+  },
+  {
+    "id": "TRI47-124-007",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Advanced",
+    "family": "lemniscate-domain",
+    "prompt": "For r²=9cos(2θ), which angle is excluded for nonzero real r?",
+    "options": [
+      "0",
+      "π",
+      "2π",
+      "π/2"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos(π)=−1 at θ=π/2; this would give r²=−9, impossible for real r."
+  },
+  {
+    "id": "TRI47-124-008",
+    "subtopicId": "trig-polar-parametric-common-polar-curves",
+    "difficulty": "Intermediate",
+    "family": "circle-radius",
+    "prompt": "For r=5cosθ, what is the radius of its Cartesian circle?",
+    "options": [
+      "5/2",
+      "5",
+      "10",
+      "25/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "r=5cosθ gives x²+y²=5x, a circle with center (5/2,0) and radius 5/2."
+  },
+  {
+    "id": "TRI47-125-001",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Basic",
+    "family": "eliminate",
+    "prompt": "If x=t and y=t², what Cartesian locus is traced?",
+    "options": [
+      "x=y²",
+      "y=2x",
+      "x²+y²=1",
+      "y=x²"
+    ],
+    "correctIndex": 3,
+    "explanation": "Since x=t, substitute t=x into y=t² to obtain y=x². With unrestricted t, the entire parabola is traced."
+  },
+  {
+    "id": "TRI47-125-002",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Intermediate",
+    "family": "circle-direction",
+    "prompt": "For x=cos t,y=sin t, which curve is traced over 0≤t≤2π?",
+    "options": [
+      "Unit circle once counterclockwise",
+      "Unit circle twice",
+      "Parabola",
+      "Unit circle clockwise"
+    ],
+    "correctIndex": 0,
+    "explanation": "The identity x²+y²=1 holds, and increasing t from 0 to 2π traces one counterclockwise rotation."
+  },
+  {
+    "id": "TRI47-125-003",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Basic",
+    "family": "evaluate",
+    "prompt": "At t=2, what is (x,y) if x=2t−1, y=t+3?",
+    "options": [
+      "(5,3)",
+      "(3,5)",
+      "(4,5)",
+      "(3,3)"
+    ],
+    "correctIndex": 1,
+    "explanation": "Substitute t=2 into both coordinates: x=2(2)−1=3 and y=2+3=5, so the point is (3,5)."
+  },
+  {
+    "id": "TRI47-125-004",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Intermediate",
+    "family": "ellipse",
+    "prompt": "For x=2cos t,y=3sin t, which rectangular equation holds?",
+    "options": [
+      "x²+y²=1",
+      "x²/2+y²/3=1",
+      "x²/4+y²/9=1",
+      "x²/9+y²/4=1"
+    ],
+    "correctIndex": 2,
+    "explanation": "Divide x by 2 and y by 3; cos²t+sin²t=1 yields the ellipse equation."
+  },
+  {
+    "id": "TRI47-125-005",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Advanced",
+    "family": "interval",
+    "prompt": "For x=t²,y=t with t≥0, which portion of x=y² is traced?",
+    "options": [
+      "y≤0",
+      "All real y twice",
+      "Only y=0",
+      "y≥0"
+    ],
+    "correctIndex": 3,
+    "explanation": "Since y=t and t≥0, only the upper/right portion with y≥0 appears."
+  },
+  {
+    "id": "TRI47-125-006",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Basic",
+    "family": "initial-point",
+    "prompt": "For x=3−t,y=1+2t, which point occurs at t=0?",
+    "options": [
+      "(3,1)",
+      "(0,1)",
+      "(3,2)",
+      "(−3,1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "At t=0, the parametric point is (3,1); subsequent motion has decreasing x and increasing y."
+  },
+  {
+    "id": "TRI47-125-007",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Advanced",
+    "family": "elimination-domain",
+    "prompt": "For x=t²+1, y=t³ and t≥0, which rectangular description is correct?",
+    "options": [
+      "y²=(x−1)³ with x≥1 and y≥0",
+      "y=(x−1)³ for all real x",
+      "y²=x³ for x≥0",
+      "y²=(x−1)³ with y≤0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Because x−1=t² and y=t³, squaring yields y²=(x−1)³. The parameter t≥0 also requires x≥1 and y≥0; do not discard those bounds."
+  },
+  {
+    "id": "TRI47-125-008",
+    "subtopicId": "trig-polar-parametric-parametric-equations",
+    "difficulty": "Intermediate",
+    "family": "orientation",
+    "prompt": "For x=t,y=1−t, 0≤t≤1, what is the direction of travel?",
+    "options": [
+      "Stationary at (0,1)",
+      "One clockwise circular lap",
+      "(0,1) to (1,0)",
+      "(1,0) to (0,1)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The endpoints follow from t=0 and t=1; increasing t makes x grow and y decrease."
+  },
+  {
+    "id": "TRI47-126-001",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Basic",
+    "family": "polar-param",
+    "prompt": "What is a natural parametrization of r=3?",
+    "options": [
+      "x=3sinθ, y=3cos2θ",
+      "x=3cosθ, y=3sinθ",
+      "x=3θ, y=3",
+      "x=θ, y=3θ"
+    ],
+    "correctIndex": 1,
+    "explanation": "From x=r cosθ and y=r sinθ with r=3, use θ as the parameter."
+  },
+  {
+    "id": "TRI47-126-002",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Basic",
+    "family": "locus",
+    "prompt": "Which Cartesian locus corresponds to x=cos2t,y=sin2t?",
+    "options": [
+      "x²−y²=1",
+      "y=x²",
+      "x²+y²=1",
+      "x²+y²=2"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the Pythagorean identity cos²(2t)+sin²(2t)=1."
+  },
+  {
+    "id": "TRI47-126-003",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Advanced",
+    "family": "repeat",
+    "prompt": "For x=cos2t,y=sin2t with 0≤t≤2π, how many laps occur?",
+    "options": [
+      "One counterclockwise",
+      "Two clockwise",
+      "Four counterclockwise",
+      "Two counterclockwise"
+    ],
+    "correctIndex": 3,
+    "explanation": "The angle 2t covers 0 to 4π, making two complete positive revolutions."
+  },
+  {
+    "id": "TRI47-126-004",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Basic",
+    "family": "radius",
+    "prompt": "If x=−3,y=0, what is the nonnegative polar radius?",
+    "options": [
+      "3",
+      "−3",
+      "0",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "The nonnegative radius is √(x²+y²)=√9=3; θ=π is a suitable angle."
+  },
+  {
+    "id": "TRI47-126-005",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Intermediate",
+    "family": "convert-curve",
+    "prompt": "For r=2sinθ, which rectangular circle is equivalent?",
+    "options": [
+      "x²+(y+1)²=1",
+      "x²+(y−1)²=1",
+      "(x−1)²+y²=1",
+      "x²+y²=4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply by r to get r²=2r sinθ, hence x²+y²=2y and complete the square."
+  },
+  {
+    "id": "TRI47-126-006",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Intermediate",
+    "family": "interpretation",
+    "prompt": "Why may x²+y²=1 fail to fully describe a parametric path?",
+    "options": [
+      "It excludes the origin incorrectly",
+      "It is always a parabola",
+      "It omits direction and traversal count",
+      "It changes the radius"
+    ],
+    "correctIndex": 2,
+    "explanation": "Eliminating the parameter preserves a locus, but cannot express the parameter interval, traversal direction, or repeats."
+  },
+  {
+    "id": "TRI47-126-007",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Intermediate",
+    "family": "initial-angle",
+    "prompt": "At x(t)=cos t,y(t)=sin t, what is the starting point when t=π/2?",
+    "options": [
+      "(1,0)",
+      "(0,−1)",
+      "(−1,0)",
+      "(0,1)"
+    ],
+    "correctIndex": 3,
+    "explanation": "cos(π/2)=0 and sin(π/2)=1, so the path starts at the top of the circle."
+  },
+  {
+    "id": "TRI47-126-008",
+    "subtopicId": "trig-polar-parametric-conversion-and-graphical-interpretation",
+    "difficulty": "Advanced",
+    "family": "repetitions",
+    "prompt": "For x=cos3t,y=sin3t on 0≤t≤2π, how many traversals of the unit circle?",
+    "options": [
+      "Three",
+      "One",
+      "Two",
+      "Six"
+    ],
+    "correctIndex": 0,
+    "explanation": "The angle 3t increases from 0 to 6π, which is three full counterclockwise revolutions."
+  }
+]

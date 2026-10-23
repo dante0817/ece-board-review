@@ -1,0 +1,42 @@
+BSECE Board Reviewer v10.9.0 — validation report
+Review date: 2026-10-09
+
+EXECUTED AND PASSED
+  1. npm run validate:algebra:v10.8 on a clean source copy (no dist or node_modules)
+     - Reference content: pass
+     - v10.5 source validator: pass
+     - v10.6 source validator: pass
+     - v10.7 practice validator: pass
+     - v10.8 assessment validator: pass
+  2. npm run validate:integrity:v10.9 on the clean source copy
+     - Fresh learner has no pre-credited scores, completed topics, tests or mistakes
+     - Immutable original browser-data backup and one-time schema migration
+     - Legacy test provenance and unverified topic evidence tagging
+     - Actual quiz 0/5, 5/5, unanswered and count reconciliation
+     - Mixed 90% total while a wrong-answer topic is reported 0%
+     - Shared readiness no artificial scores; no simulation state
+     - Unavailable-board-module no redirect to Algebra
+     - No synthetic historical chart baseline or rational subskill sparklines
+  3. npm run lint:integrity on the clean source copy
+     - Strict TypeScript type checking of source data, migration and grading utilities: pass
+  4. TypeScript compiler parser over 220 TS/TSX files
+     - 0 parse diagnostics
+
+NOT EXECUTED OR NOT CERTIFIED
+  5. Full app TypeScript type check (npm run lint): blocked by incomplete node_modules
+     (e.g. TS2688 missing @types/babel__core and other required packages).
+  6. npm run build: not certified; dependency installation could not be completed in this environment.
+  7. UI browser smoke / end-to-end tests: not executed in this environment.
+
+To complete production verification on the deployment machine:
+  npm ci
+  npm run lint
+  npm run build
+  npm run validate:algebra:v10.8
+  npm run validate:integrity:v10.9
+  npm run dev
+  - Smoke test fresh browser storage, upgrade from real v10.8 user storage,
+    five Rational Expressions quiz responses, mock scopes, manual logs,
+    absent board modules, and PRC policy notices.
+
+NOTE: This is a SOURCE RELEASE CANDIDATE, not a production-certified bundle.

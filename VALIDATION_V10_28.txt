@@ -1,0 +1,38 @@
+BSECE BOARD REVIEWER v10.28.0 — VALIDATION REPORT
+Date: 2026-10-10
+RELEASE STATUS: SOURCE CANDIDATE; NOT A VERIFIED FULL APP BUILD OR DEVICE CERTIFICATION.
+
+PASSED
+- 38/38 source-level validations: older Algebra, assessment, TOS, calculator suites and new runtime isolation checks.
+- v10.28 runtime tests: validated PORT/HOST, malformed environment rejection, loopback port allocation, health app identity + one-time QA nonce, ownership, browser-test gate requirements.
+- Focused TypeScript configurations in source QA: passed (includes v10.28 runtime config).
+- TypeScript/TSX AST syntax parse: 260 files, 0 parse errors.
+- Local relative/alias import scan: 873 imports, 0 missing.
+- Package and lockfile versions: both 10.28.0.
+- JavaScript syntax check of new runtime and browser scripts: passed.
+- Archive ZIP integrity: validated after final packaging.
+
+BLOCKED OR NOT PERFORMED
+- npm ci --offline: FAIL ENOTCACHED for zwitch; required registry package not cached.
+- Full installed-dependency npm run lint: FAIL missing Node/React and other type packages.
+- Full npm run build: FAIL `vite: not found` (dependencies not installed).
+- Functional Chromium click-through of the actual React app: NOT PERFORMED (no installed build/app server).
+- Headless Chromium in the prior environment checks: could not launch to a successful smoke result.
+- Exact Canon F-789SGA physical key sequences/LCD: NOT TESTED; none of the 48 cases independently approved.
+- Comprehensive PRC TOS syllabus and human mathematical item audit: NOT CERTIFIED.
+
+CHANGES
+- Server honors validated PORT/HOST, preserving default 3000/0.0.0.0; reports startup errors.
+- /api/health exposes stable app identity; one-time runtime QA nonce only when bound to loopback and launched with it.
+- Runtime checker builds and tests an isolated private instance, never reuses port 3000 or treats another process as its own.
+- New Chromium DevTools smoke covers real clicks: React mount, Calculator Skills, numerical drills and mock-exam navigation.
+- New smoke program itself was syntax checked and contract tested but NOT executed against a built running React app.
+- No learner-data format, question IDs, prior scores, device approval states or board-coverage weights changed.
+
+HANDOFF COMMANDS
+  npm ci
+  npm run qa:source:v10.28
+  npm run lint
+  npm run build
+  npm run certify:runtime:v10.28 -- --verify --output=RUNTIME_V10_28_LOCAL.json
+Then complete manual browser acceptance and physical Canon worksheet in RUNTIME_QA_V10_28.md.

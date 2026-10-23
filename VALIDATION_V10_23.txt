@@ -1,0 +1,45 @@
+BSECE Board Reviewer v10.23.0 — Validation Report
+Date: 2026-10-10
+Status: SOURCE RELEASE CANDIDATE — NOT production-certified
+
+PASS — 16/16 source-level regression validation scripts:
+  validate:algebra:v10.8, validate:integrity:v10.9,
+  validate:assessment:v10.10, validate:curriculum:v10.11,
+  validate:learning-paths:v10.12, validate:board:v10.13,
+  validate:board:v10.14, validate:tos:v10.15,
+  validate:content:v10.16, validate:calculator:v10.17,
+  validate:calculator:v10.18, validate:calculator:v10.19,
+  validate:calculator:v10.20, validate:calculator:v10.21,
+  validate:calculator:v10.22, validate:integration:v10.23.
+
+PASS — 12/12 focused TypeScript configurations:
+  integrity, assessment, curriculum, learning-paths, board, calculator,
+  calculator.v1018, calculator.v1019, calculator.v1020,
+  calculator.v1021, calculator.v1022, calculator.v1023.
+  NOTE: focused TypeScript checks do not replace full npm-installed tsc.
+
+PASS — 255 TS/TSX source files parsed with 0 syntax errors.
+PASS — 862 relative/alias imports checked, 0 unresolved local imports.
+PASS — v10.23 unsafe model-specific flashcard-tip filtering fixtures, model-safe mathematical tips,
+  28-case Canon QA evidence handoff, no auto-approval, strict-access integration checks.
+PASS — existing 28-case device QA ledger preservation; original 10 pilot and 18 family methods remain unapproved.
+PASS — package.json and package-lock.json versions match 10.23.0.
+
+LEGACY CASIO REFERENCES: 180 occurrences across 49 TS/TSX source files; audit only;
+  NOT all converted to Canon. Selected inaccurate/overconfident tips were corrected.
+
+BUILD / BROWSER / HARDWARE LIMITATIONS — NOT VERIFIED:
+  `npm run preflight:v10.23`: exit 2 (11 required project dependency packages missing).
+  `npm run build`: exit 127, `vite: not found`.
+  `npm run smoke:browser:v10.23`: exit 1, fetch failed (no running app server).
+  npm registry host resolution failed; full dependency installation not achievable here.
+  `npm run lint` with full React/Vite/Node dependencies: NOT VERIFIED.
+  Real browser functional journeys: NOT EXECUTED.
+  Physical Canon F-789SGA procedures: 0 hardware tests executed.
+  Technique publications approved by this release: 0.
+
+RELEASE CLASSIFICATION: source-only integration hardening; not a certified runtime app.
+REQUIRED NEXT: npm ci, full tsc/build, running-server headless smoke, manual browser journeys,
+  physical Canon verification, independent review of device evidence.
+
+See RELEASE_NOTES_V10_23.md and BROWSER_AND_CANON_QA_V10_23.md.

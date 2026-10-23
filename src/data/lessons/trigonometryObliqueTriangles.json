@@ -1,0 +1,790 @@
+{
+  "trig-oblique-triangles-oblique-triangle-problem-types": {
+    "id": "trig-oblique-triangles-oblique-triangle-problem-types",
+    "title": "Oblique-triangle problem types",
+    "summary": "Classify the information supplied for a non-right triangle (SSS, SAS, ASA, AAS, SSA), and choose the appropriate method before calculating unknowns.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-01-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-01-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-01-definition",
+            "type": "definition",
+            "text": "In triangle ABC, sides a, b, c are opposite angles A, B, C. Interior angles sum to 180°, all side lengths are positive, and every side is shorter than the sum of the other two. SSS and SAS ordinarily call for the Law of Cosines; AAS/ASA call for the Law of Sines; SSA needs a separate ambiguity check. AAA fixes shape but not scale."
+          },
+          {
+            "id": "oblique-09-01-formula-1",
+            "type": "formula",
+            "latex": "A+B+C=180^\\circ"
+          },
+          {
+            "id": "oblique-09-01-formula-2",
+            "type": "formula",
+            "latex": "a+b>c,\\quad b+c>a,\\quad c+a>b"
+          },
+          {
+            "id": "oblique-09-01-formula-3",
+            "type": "formula",
+            "latex": "\\mathrm{ASA,AAS}\\to\\mathrm{sines};\\ \\mathrm{SAS,SSS}\\to\\mathrm{cosines};\\ \\mathrm{SSA}\\to\\mathrm{case\\ check}"
+          },
+          {
+            "id": "oblique-09-01-diagram",
+            "type": "diagram",
+            "diagram": "oblique-triangle",
+            "caption": "Opposite side–angle notation in triangle ABC: a lies opposite A, b opposite B, and c opposite C."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-01-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-01-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-01-worked-1",
+            "type": "worked-example",
+            "title": "Identify the method for sides 5, 7, 9",
+            "problem": "Identify the method for sides 5, 7, 9",
+            "strategy": "All three sides are given (SSS).",
+            "steps": [
+              "Check triangle inequality: 5+7>9, so a triangle exists.",
+              "Start with the Law of Cosines to find an angle, then calculate the others."
+            ],
+            "check": "A valid SSS case with a uniquely determined triangle."
+          },
+          {
+            "id": "oblique-09-01-worked-2",
+            "type": "worked-example",
+            "title": "Find C if A=48° and B=67°",
+            "problem": "Find C if A=48° and B=67°",
+            "strategy": "Use the interior-angle sum because two angle measures are already known.",
+            "steps": [
+              "Use the angle sum C=180°−48°−67°.",
+              "Obtain C=65°. The missing sides would require at least one known side."
+            ],
+            "check": "48°+67°+65°=180°, as every plane triangle requires."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-01-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-01-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-01-pitfall",
+            "type": "note",
+            "text": "SSA is NOT automatically a unique triangle; AAA cannot determine side lengths. Do not apply the Pythagorean theorem to a general oblique triangle."
+          },
+          {
+            "id": "oblique-09-01-checkpoint",
+            "type": "checkpoint",
+            "prompt": "What method would you choose for two sides and their included angle?",
+            "answer": "Law of Cosines (SAS).",
+            "explanation": "The Law of Cosines uses the included angle directly to find the opposite third side."
+          },
+          {
+            "id": "oblique-09-01-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-law-of-sines": {
+    "id": "trig-oblique-triangles-law-of-sines",
+    "title": "Law of Sines",
+    "summary": "Use the Law of Sines to solve ASA and AAS triangles, or carefully handle an SSA case after verifying how many triangles are possible.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-02-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-02-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-02-definition",
+            "type": "definition",
+            "text": "For a valid triangle, the ratio between a side length and the sine of its opposite angle is constant. Find the third angle first for ASA or AAS; then use matching opposite side–angle pairs. The sine law alone may yield two possible angles in SSA."
+          },
+          {
+            "id": "oblique-09-02-formula-1",
+            "type": "formula",
+            "latex": "\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}"
+          },
+          {
+            "id": "oblique-09-02-formula-2",
+            "type": "formula",
+            "latex": "\\frac{\\sin A}{a}=\\frac{\\sin B}{b}=\\frac{\\sin C}{c}"
+          },
+          {
+            "id": "oblique-09-02-formula-3",
+            "type": "formula",
+            "latex": "C=180^\\circ-A-B"
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-02-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-02-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-02-worked-1",
+            "type": "worked-example",
+            "title": "Find b if A=30°, B=45°, a=10",
+            "problem": "Find b if A=30°, B=45°, a=10",
+            "strategy": "Associate sides with opposite angles.",
+            "steps": [
+              "Write b/sin45° = 10/sin30°.",
+              "Thus b=10(√2/2)/(1/2)=10√2."
+            ],
+            "check": "The larger angle B=45° must have a longer opposite side than A=30°."
+          },
+          {
+            "id": "oblique-09-02-worked-2",
+            "type": "worked-example",
+            "title": "Solve the remaining angle when A=35° and B=85°",
+            "problem": "Solve the remaining angle when A=35° and B=85°",
+            "strategy": "Use the sum of interior angles.",
+            "steps": [
+              "C=180°−35°−85°=60°.",
+              "Use c/sin60°=a/sin35° when side a is known."
+            ],
+            "check": "All three interior angles sum to 180°."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-02-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-02-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-02-pitfall",
+            "type": "note",
+            "text": "Always match a with A, b with B, and c with C. If solving sin B=x from SSA, arcsin(x) may omit the second angle 180°−B."
+          },
+          {
+            "id": "oblique-09-02-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If a=8, A=30°, B=90°, what is b?",
+            "answer": "b=16.",
+            "explanation": "By the Law of Sines, b=8 sin90°/sin30°=8/(1/2)=16 units."
+          },
+          {
+            "id": "oblique-09-02-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-ambiguous-case-ssa": {
+    "id": "trig-oblique-triangles-ambiguous-case-ssa",
+    "title": "Ambiguous case (SSA)",
+    "summary": "Count zero, one, or two possible SSA triangles using altitude and angle restrictions; find every valid solution without using inverse sine blindly.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-03-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-03-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-03-definition",
+            "type": "definition",
+            "text": "Given acute A, its opposite side a, and an adjacent known side b, let h=b sin A. If a<h there is no triangle; if a=h there is one right triangle; if h<a<b there are two; if a≥b there is one. For obtuse A, only a>b gives one triangle; otherwise none. Check the remaining angles for positivity."
+          },
+          {
+            "id": "oblique-09-03-formula-1",
+            "type": "formula",
+            "latex": "h=b\\sin A"
+          },
+          {
+            "id": "oblique-09-03-formula-2",
+            "type": "formula",
+            "latex": "\\sin B=\\frac{b\\sin A}{a}"
+          },
+          {
+            "id": "oblique-09-03-formula-3",
+            "type": "formula",
+            "latex": "B_2=180^\\circ-B_1\\quad(\\text{check }A+B_2<180^\\circ)"
+          },
+          {
+            "id": "oblique-09-03-diagram",
+            "type": "diagram",
+            "diagram": "ssa-ambiguity",
+            "caption": "For an acute SSA case with altitude h < opposite side a < adjacent side b, the side of length a can meet the baseline at either B₁ or B₂."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-03-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-03-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-03-worked-1",
+            "type": "worked-example",
+            "title": "How many triangles for A=30°, b=10, a=6?",
+            "problem": "How many triangles for A=30°, b=10, a=6?",
+            "strategy": "Compare a with the altitude h.",
+            "steps": [
+              "Compute h=10 sin30°=5, so 5<6<10.",
+              "There are two possible triangles. Obtain both possible B angles from sin B=5/6 and test their sums with A."
+            ],
+            "check": "Both B≈56.44° and B≈123.56° satisfy A+B<180°."
+          },
+          {
+            "id": "oblique-09-03-worked-2",
+            "type": "worked-example",
+            "title": "How many triangles for A=120°, b=5, a=4?",
+            "problem": "How many triangles for A=120°, b=5, a=4?",
+            "strategy": "An obtuse angle must oppose the largest side.",
+            "steps": [
+              "Here a=4<b=5.",
+              "No triangle exists, despite any calculator-generated arcsin value."
+            ],
+            "check": "If A>90°, the opposite side a must exceed b."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-03-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-03-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-03-pitfall",
+            "type": "note",
+            "text": "The inverse-sine button returns a principal value, not a complete SSA analysis. The altitude rule above assumes A is acute; the obtuse case uses different conditions."
+          },
+          {
+            "id": "oblique-09-03-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For A=30°, b=10, a=4, how many triangles?",
+            "answer": "Zero.",
+            "explanation": "h=10 sin30°=5 and a=4<h, so the opposite side cannot reach the opposite vertex."
+          },
+          {
+            "id": "oblique-09-03-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-law-of-cosines": {
+    "id": "trig-oblique-triangles-law-of-cosines",
+    "title": "Law of Cosines",
+    "summary": "Apply the Law of Cosines for SAS/SSS triangles, then use sine or cosine laws carefully to find remaining angles.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-04-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-04-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-04-definition",
+            "type": "definition",
+            "text": "The Law of Cosines generalizes the Pythagorean theorem. It subtracts twice the product of the two adjacent sides times the cosine of their included angle. For SSS, rearrange it and take arccos of a value in [−1,1]."
+          },
+          {
+            "id": "oblique-09-04-formula-1",
+            "type": "formula",
+            "latex": "c^2=a^2+b^2-2ab\\cos C"
+          },
+          {
+            "id": "oblique-09-04-formula-2",
+            "type": "formula",
+            "latex": "\\cos C=\\frac{a^2+b^2-c^2}{2ab}"
+          },
+          {
+            "id": "oblique-09-04-formula-3",
+            "type": "formula",
+            "latex": "a^2=b^2+c^2-2bc\\cos A"
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-04-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-04-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-04-worked-1",
+            "type": "worked-example",
+            "title": "Find c for a=5, b=7, C=60°",
+            "problem": "Find c for a=5, b=7, C=60°",
+            "strategy": "This is SAS: the given angle lies between a and b.",
+            "steps": [
+              "c²=5²+7²−2(5)(7)cos60°=25+49−35=39.",
+              "Hence c=√39≈6.245."
+            ],
+            "check": "The answer lies between |7−5| and 7+5."
+          },
+          {
+            "id": "oblique-09-04-worked-2",
+            "type": "worked-example",
+            "title": "Find C for sides a=5, b=6, c=7",
+            "problem": "Find C for sides a=5, b=6, c=7",
+            "strategy": "Apply the rearranged Law of Cosines.",
+            "steps": [
+              "cos C=(25+36−49)/(2·5·6)=12/60=1/5.",
+              "Thus C=arccos(1/5)≈78.463°."
+            ],
+            "check": "Substitute cos C=0.2 back: 25+36−60(0.2)=49=7²."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-04-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-04-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-04-pitfall",
+            "type": "note",
+            "text": "Use the angle included between the two stated sides. Degrees/radians must match the calculator mode; use arccos, not arcsin, for the SSS included angle."
+          },
+          {
+            "id": "oblique-09-04-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For a=3, b=4, C=90°, find c.",
+            "answer": "5.",
+            "explanation": "Since cos90°=0, the cosine law becomes c²=3²+4²=25, giving c=5."
+          },
+          {
+            "id": "oblique-09-04-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-trigonometric-area-formulas": {
+    "id": "trig-oblique-triangles-trigonometric-area-formulas",
+    "title": "Trigonometric area formulas",
+    "summary": "Calculate the area of an oblique triangle with a side–altitude pair or two sides and their included angle.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-05-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-05-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-05-definition",
+            "type": "definition",
+            "text": "A triangle’s area is one-half base times perpendicular height. If two sides enclosing angle C are a and b, the altitude relative to a is b sin C. Accordingly K=ab sin C/2. The same formula holds for obtuse included angles because sine is positive for 0°<C<180°."
+          },
+          {
+            "id": "oblique-09-05-formula-1",
+            "type": "formula",
+            "latex": "K=\\frac12 bh"
+          },
+          {
+            "id": "oblique-09-05-formula-2",
+            "type": "formula",
+            "latex": "K=\\frac12 ab\\sin C"
+          },
+          {
+            "id": "oblique-09-05-formula-3",
+            "type": "formula",
+            "latex": "K=\\frac12 bc\\sin A=\\frac12 ca\\sin B"
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-05-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-05-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-05-worked-1",
+            "type": "worked-example",
+            "title": "Find area for a=8, b=10, C=30°",
+            "problem": "Find area for a=8, b=10, C=30°",
+            "strategy": "Use the area rule for two sides and their included angle.",
+            "steps": [
+              "K=½(8)(10)sin30°=40(1/2).",
+              "Area is 20 square units."
+            ],
+            "check": "The same value follows from base a=8 and altitude h=10sin30°=5."
+          },
+          {
+            "id": "oblique-09-05-worked-2",
+            "type": "worked-example",
+            "title": "Find area for a=8, b=10, C=150°",
+            "problem": "Find area for a=8, b=10, C=150°",
+            "strategy": "The included angle is obtuse but its sine remains positive.",
+            "steps": [
+              "sin150°=1/2.",
+              "K=½(8)(10)(1/2)=20 square units."
+            ],
+            "check": "The corresponding altitude is 10sin150°=5, yielding ½(8)(5)=20."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-05-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-05-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-05-pitfall",
+            "type": "note",
+            "text": "Use the included angle between the two selected sides. Area is measured in square units; do not take the cosine of C in the area formula."
+          },
+          {
+            "id": "oblique-09-05-checkpoint",
+            "type": "checkpoint",
+            "prompt": "Find K if a=6, b=9, C=90°.",
+            "answer": "27 square units.",
+            "explanation": "Apply the included-angle area formula K=½(6)(9)sin90°=27 square units."
+          },
+          {
+            "id": "oblique-09-05-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-herons-formula": {
+    "id": "trig-oblique-triangles-herons-formula",
+    "title": "Heron’s formula",
+    "summary": "Use Heron’s formula when all three side lengths are known, checking triangle inequality before calculating the semiperimeter.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-06-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-06-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-06-definition",
+            "type": "definition",
+            "text": "When SSS side data are available, calculate s=(a+b+c)/2. Then Heron’s formula gives K=√[s(s−a)(s−b)(s−c)]. All terms inside the square root must be positive for a nondegenerate triangle."
+          },
+          {
+            "id": "oblique-09-06-formula-1",
+            "type": "formula",
+            "latex": "s=\\frac{a+b+c}{2}"
+          },
+          {
+            "id": "oblique-09-06-formula-2",
+            "type": "formula",
+            "latex": "K=\\sqrt{s(s-a)(s-b)(s-c)}"
+          },
+          {
+            "id": "oblique-09-06-formula-3",
+            "type": "formula",
+            "latex": "a+b>c\\quad(\\text{and cyclic inequalities})"
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-06-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-06-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-06-worked-1",
+            "type": "worked-example",
+            "title": "Find the area of a 13–14–15 triangle",
+            "problem": "Find the area of a 13–14–15 triangle",
+            "strategy": "Compute the semiperimeter from all three given side lengths.",
+            "steps": [
+              "s=(13+14+15)/2=21.",
+              "K=√[21·8·7·6]=√7056=84 square units."
+            ],
+            "check": "For an independent check, compute altitude relative to base 14: 2K/14=12."
+          },
+          {
+            "id": "oblique-09-06-worked-2",
+            "type": "worked-example",
+            "title": "Find the area of a 5–5–6 triangle",
+            "problem": "Find the area of a 5–5–6 triangle",
+            "strategy": "Check triangle inequality: 5+5>6.",
+            "steps": [
+              "s=(5+5+6)/2=8.",
+              "K=√[8·3·3·2]=√144=12 square units."
+            ],
+            "check": "The altitude to base 6 is √(5²−3²)=4, so ½(6)(4)=12."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-06-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-06-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-06-pitfall",
+            "type": "note",
+            "text": "The semiperimeter is not the full perimeter. Heron’s formula must not be applied to invalid sets of lengths such as 2,3,6."
+          },
+          {
+            "id": "oblique-09-06-checkpoint",
+            "type": "checkpoint",
+            "prompt": "For sides 3,4,5, what does Heron’s formula give?",
+            "answer": "6 square units.",
+            "explanation": "The semiperimeter is s=6, and Heron’s formula gives K=√(6·3·2·1)=6 square units."
+          },
+          {
+            "id": "oblique-09-06-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-inradius-and-circumradius-relationships": {
+    "id": "trig-oblique-triangles-inradius-and-circumradius-relationships",
+    "title": "Inradius and circumradius relationships",
+    "summary": "Connect triangle area, semiperimeter, inradius, circumradius, and opposite-side/sine relationships for valid nondegenerate triangles.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-07-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-07-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-07-definition",
+            "type": "definition",
+            "text": "The incircle touches all three sides and has radius r. Splitting triangle area into three small triangles of height r gives K=rs. The circumcircle passes through all three vertices and has radius R. The extended sine law gives a/sin A=2R; this implies K=abc/(4R)."
+          },
+          {
+            "id": "oblique-09-07-formula-1",
+            "type": "formula",
+            "latex": "r=\\frac{K}{s}"
+          },
+          {
+            "id": "oblique-09-07-formula-2",
+            "type": "formula",
+            "latex": "R=\\frac{abc}{4K}"
+          },
+          {
+            "id": "oblique-09-07-formula-3",
+            "type": "formula",
+            "latex": "2R=\\frac{a}{\\sin A}=\\frac{b}{\\sin B}=\\frac{c}{\\sin C}"
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-07-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-07-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-07-worked-1",
+            "type": "worked-example",
+            "title": "Find r and R for the 6–8–10 right triangle",
+            "problem": "Find r and R for the 6–8–10 right triangle",
+            "strategy": "First calculate the area and semiperimeter from the right-triangle data.",
+            "steps": [
+              "s=(6+8+10)/2=12; K=½(6)(8)=24.",
+              "r=K/s=2; R=6·8·10/(4·24)=5."
+            ],
+            "check": "The right triangle circumradius equals half the hypotenuse, 10/2=5."
+          },
+          {
+            "id": "oblique-09-07-worked-2",
+            "type": "worked-example",
+            "title": "Find r and R for an equilateral triangle of side 6",
+            "problem": "Find r and R for an equilateral triangle of side 6",
+            "strategy": "Find the altitude and area.",
+            "steps": [
+              "h=3√3; K=½(6)(3√3)=9√3; s=9.",
+              "r=K/s=√3; R=6³/(4·9√3)=2√3."
+            ],
+            "check": "R=2r for this equilateral triangle."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-07-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-07-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-07-pitfall",
+            "type": "note",
+            "text": "Do not confuse the inradius r with the circumradius R. The equality R=hypotenuse/2 holds only for right triangles, not general triangles."
+          },
+          {
+            "id": "oblique-09-07-checkpoint",
+            "type": "checkpoint",
+            "prompt": "If a triangle has area 36 and semiperimeter 18, what is r?",
+            "answer": "2 units.",
+            "explanation": "The incircle radius is area divided by semiperimeter, r=K/s=36/18=2 units."
+          },
+          {
+            "id": "oblique-09-07-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  },
+  "trig-oblique-triangles-surveying-navigation-and-practical-applications": {
+    "id": "trig-oblique-triangles-surveying-navigation-and-practical-applications",
+    "title": "Surveying, navigation, and practical applications",
+    "summary": "Model surveying, elevations, bearings, and navigation problems with correctly labelled triangles and unit-consistent trigonometric calculations.",
+    "status": "draft",
+    "contentVersion": 1,
+    "sections": [
+      {
+        "id": "oblique-09-08-concept",
+        "title": "Concept and essential formulas",
+        "objectiveIds": [
+          "oblique-09-08-concept"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-08-definition",
+            "type": "definition",
+            "text": "Draw a labelled sketch before selecting the Law of Sines, Law of Cosines, or right-triangle ratios. A compass bearing is measured clockwise from north; a quadrant bearing NθE points θ east of north. Convert between north/east displacements and triangle sides consistently. State heights and distances with units."
+          },
+          {
+            "id": "oblique-09-08-formula-1",
+            "type": "formula",
+            "latex": "\\text{height}=\\text{horizontal distance}\\tan(\\text{elevation})"
+          },
+          {
+            "id": "oblique-09-08-formula-2",
+            "type": "formula",
+            "latex": "E=d\\sin\\beta,\\quad N=d\\cos\\beta\\quad(\\beta\\text{ clockwise from north})"
+          },
+          {
+            "id": "oblique-09-08-formula-3",
+            "type": "formula",
+            "latex": "d^2=d_1^2+d_2^2-2d_1d_2\\cos C\\quad(\\text{included triangle angle }C)"
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-08-worked",
+        "title": "Guided worked examples",
+        "objectiveIds": [
+          "oblique-09-08-solving"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-08-worked-1",
+            "type": "worked-example",
+            "title": "A tower is viewed 100 m away at 30° elevation. Find its height.",
+            "problem": "A tower is viewed 100 m away at 30° elevation. Find its height.",
+            "strategy": "Form a right triangle with the horizontal line of sight.",
+            "steps": [
+              "h=100tan30°=100/√3.",
+              "h≈57.74 m when observer height is ignored."
+            ],
+            "check": "tan30°≈0.57735, so 57.735 m is consistent."
+          },
+          {
+            "id": "oblique-09-08-worked-2",
+            "type": "worked-example",
+            "title": "A vessel travels 10 km on bearing 030°. Find east and north displacement.",
+            "problem": "A vessel travels 10 km on bearing 030°. Find east and north displacement.",
+            "strategy": "Bearing 030° is 30° east of north.",
+            "steps": [
+              "E=10sin30°=5 km; N=10cos30°=5√3 km.",
+              "North displacement ≈8.66 km."
+            ],
+            "check": "East squared plus north squared equals 5²+(5√3)²=25+75=100=10²."
+          }
+        ]
+      },
+      {
+        "id": "oblique-09-08-review",
+        "title": "Common mistakes, checkpoint, and reference guide",
+        "objectiveIds": [
+          "oblique-09-08-review"
+        ],
+        "blocks": [
+          {
+            "id": "oblique-09-08-pitfall",
+            "type": "note",
+            "text": "Compass bearings start at north and increase clockwise; standard mathematical angles start at the positive x-axis and increase counterclockwise. Distinguish these conventions and keep angles in correct units."
+          },
+          {
+            "id": "oblique-09-08-checkpoint",
+            "type": "checkpoint",
+            "prompt": "A ship travels 10 km due east, then 10 km due north. What is its final displacement magnitude?",
+            "answer": "10√2 km.",
+            "explanation": "The legs are perpendicular, so magnitude=√(10²+10²)=10√2 km."
+          },
+          {
+            "id": "oblique-09-08-reference",
+            "type": "note",
+            "text": "Reference guide (original explanations and problem designs): Lial, Trigonometry, 10th ed., §§7.1–7.3; Sullivan, Trigonometry: A Unit Circle Approach, 9th ed., §§4.2–4.4; Schaum’s Outline of Trigonometry, 4th ed., Chs. 11–12; Kelley, The Humongous Book of Trigonometry Problems, Chs. 12–13. Specialized geometry: check the indicated inradius and circumradius relations independently."
+          }
+        ]
+      }
+    ]
+  }
+}

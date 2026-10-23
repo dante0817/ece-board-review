@@ -1,0 +1,2005 @@
+{
+  "PS01-01": {
+    "lessonId": "PS01-01",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 15,
+    "section": "1.1",
+    "sectionTitle": "Sampling",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2751,
+    "topicTerms": [],
+    "matchedTermsOnPage": [],
+    "keywordCoverage": null,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-02": {
+    "lessonId": "PS01-02",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 25,
+    "section": "1.2",
+    "sectionTitle": "Summary Statistics",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3559,
+    "topicTerms": [
+      "summary"
+    ],
+    "matchedTermsOnPage": [
+      "summary"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-03": {
+    "lessonId": "PS01-03",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 25,
+    "section": "1.2",
+    "sectionTitle": "Summary Statistics",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3559,
+    "topicTerms": [
+      "summary"
+    ],
+    "matchedTermsOnPage": [
+      "summary"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-04": {
+    "lessonId": "PS01-04",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 37,
+    "section": "1.3",
+    "sectionTitle": "Graphical Summaries",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2132,
+    "topicTerms": [
+      "graphical",
+      "summaries"
+    ],
+    "matchedTermsOnPage": [
+      "graphical",
+      "summaries"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-01": {
+    "lessonId": "PS02-01",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 197,
+    "section": "5.1",
+    "sectionTitle": "Two Basic Counting Principles",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2162,
+    "topicTerms": [
+      "basic",
+      "counting",
+      "principles"
+    ],
+    "matchedTermsOnPage": [
+      "basic",
+      "counting",
+      "principles"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-02": {
+    "lessonId": "PS02-02",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 207,
+    "section": "5.2",
+    "sectionTitle": "Simple Arrangements and Selections",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2416,
+    "topicTerms": [
+      "arrangements",
+      "selections"
+    ],
+    "matchedTermsOnPage": [
+      "arrangements",
+      "selections"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-03": {
+    "lessonId": "PS02-03",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 207,
+    "section": "5.2",
+    "sectionTitle": "Simple Arrangements and Selections",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2416,
+    "topicTerms": [
+      "arrangements",
+      "selections"
+    ],
+    "matchedTermsOnPage": [
+      "arrangements",
+      "selections"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-04": {
+    "lessonId": "PS02-04",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 197,
+    "section": "5.1",
+    "sectionTitle": "Two Basic Counting Principles",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2162,
+    "topicTerms": [
+      "basic",
+      "counting",
+      "principles"
+    ],
+    "matchedTermsOnPage": [
+      "basic",
+      "counting",
+      "principles"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-01": {
+    "lessonId": "PS03-01",
+    "reference": "Morin, Probability: For the Enthusiastic Beginner",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "pdfPage1Based": 58,
+    "section": "2.2.2",
+    "sectionTitle": "OR: The “union” probability, P(A or B)",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3303,
+    "topicTerms": [
+      "union"
+    ],
+    "matchedTermsOnPage": [
+      "union"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-02": {
+    "lessonId": "PS03-02",
+    "reference": "Morin, Probability: For the Enthusiastic Beginner",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "pdfPage1Based": 62,
+    "section": "2.2.4",
+    "sectionTitle": "Conditional probability",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2492,
+    "topicTerms": [],
+    "matchedTermsOnPage": [],
+    "keywordCoverage": null,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-03": {
+    "lessonId": "PS03-03",
+    "reference": "Morin, Probability: For the Enthusiastic Beginner",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "pdfPage1Based": 79,
+    "section": "2.5",
+    "sectionTitle": "Bayes’ theorem",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1622,
+    "topicTerms": [
+      "bayes"
+    ],
+    "matchedTermsOnPage": [
+      "bayes"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-04": {
+    "lessonId": "PS03-04",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 81,
+    "section": "2.3",
+    "sectionTitle": "Conditional Probability and Independence",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2857,
+    "topicTerms": [
+      "independence"
+    ],
+    "matchedTermsOnPage": [
+      "independence"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-01": {
+    "lessonId": "PS04-01",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 105,
+    "section": "3.2",
+    "sectionTitle": "Discrete Probability Distributions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2656,
+    "topicTerms": [
+      "discrete"
+    ],
+    "matchedTermsOnPage": [
+      "discrete"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-02": {
+    "lessonId": "PS04-02",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 164,
+    "section": "5.2",
+    "sectionTitle": "Binomial and Multinomial Distributions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2007,
+    "topicTerms": [
+      "binomial",
+      "multinomial"
+    ],
+    "matchedTermsOnPage": [
+      "binomial",
+      "multinomial"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-03": {
+    "lessonId": "PS04-03",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 182,
+    "section": "5.5",
+    "sectionTitle": "Poisson Distribution and the Poisson Process",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3213,
+    "topicTerms": [
+      "poisson",
+      "process"
+    ],
+    "matchedTermsOnPage": [
+      "poisson",
+      "process"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-04": {
+    "lessonId": "PS04-04",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 193,
+    "section": "6.2",
+    "sectionTitle": "Normal Distribution",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1548,
+    "topicTerms": [
+      "normal"
+    ],
+    "matchedTermsOnPage": [
+      "normal"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-01": {
+    "lessonId": "PS05-01",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 253,
+    "section": "8.3",
+    "sectionTitle": "Sampling Distributions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3111,
+    "topicTerms": [],
+    "matchedTermsOnPage": [],
+    "keywordCoverage": null,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-02": {
+    "lessonId": "PS05-02",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 335,
+    "section": "5.1",
+    "sectionTitle": "Large-Sample Confidence Intervals for a Population Mean",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2194,
+    "topicTerms": [
+      "large",
+      "confidence",
+      "intervals",
+      "population",
+      "mean"
+    ],
+    "matchedTermsOnPage": [
+      "large",
+      "confidence",
+      "intervals",
+      "population",
+      "mean"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-03": {
+    "lessonId": "PS05-03",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 356,
+    "section": "5.3",
+    "sectionTitle": "Small-Sample Confidence Intervals for a Population Mean",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3003,
+    "topicTerms": [
+      "small",
+      "confidence",
+      "intervals",
+      "population",
+      "mean"
+    ],
+    "matchedTermsOnPage": [
+      "small",
+      "confidence",
+      "intervals",
+      "population",
+      "mean"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-04": {
+    "lessonId": "PS05-04",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 335,
+    "section": "5.1",
+    "sectionTitle": "Large-Sample Confidence Intervals for a Population Mean",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2194,
+    "topicTerms": [
+      "large",
+      "confidence",
+      "intervals",
+      "population",
+      "mean"
+    ],
+    "matchedTermsOnPage": [
+      "large",
+      "confidence",
+      "intervals",
+      "population",
+      "mean"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-01": {
+    "lessonId": "PS06-01",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 412,
+    "section": "6.1",
+    "sectionTitle": "Large-Sample Tests for a Population Mean",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1926,
+    "topicTerms": [
+      "large",
+      "population",
+      "mean"
+    ],
+    "matchedTermsOnPage": [
+      "large",
+      "population",
+      "mean"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-02": {
+    "lessonId": "PS06-02",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 434,
+    "section": "6.4",
+    "sectionTitle": "Small-Sample Tests for a Population Mean",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2760,
+    "topicTerms": [
+      "small",
+      "population",
+      "mean"
+    ],
+    "matchedTermsOnPage": [
+      "small",
+      "population",
+      "mean"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-03": {
+    "lessonId": "PS06-03",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 494,
+    "section": "6.12",
+    "sectionTitle": "Fixed-Level Testing — Type I and Type II Errors",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2566,
+    "topicTerms": [
+      "fixed",
+      "level",
+      "type",
+      "errors"
+    ],
+    "matchedTermsOnPage": [
+      "level",
+      "type",
+      "errors"
+    ],
+    "keywordCoverage": 0.75,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false,
+    "targetedPassageRead": {
+      "pages": [
+        493,
+        494
+      ],
+      "scope": "Navidi, §6.12: type I error rate never greater than test level alpha",
+      "result": "Prior unconditional equality with alpha was too strong; clarified"
+    }
+  },
+  "PS06-04": {
+    "lessonId": "PS06-04",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 475,
+    "section": "6.10",
+    "sectionTitle": "Tests with Categorical Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2573,
+    "topicTerms": [
+      "categorical"
+    ],
+    "matchedTermsOnPage": [
+      "categorical"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-01": {
+    "lessonId": "PS07-01",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 521,
+    "section": "7.1",
+    "sectionTitle": "Correlation",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1626,
+    "topicTerms": [
+      "correlation"
+    ],
+    "matchedTermsOnPage": [
+      "correlation"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false,
+    "targetedPassageRead": {
+      "pages": [
+        521,
+        522,
+        523
+      ],
+      "scope": "Navidi, §7.1: standardize covariance using nonzero variances",
+      "result": "Definition domain made explicit"
+    }
+  },
+  "PS07-02": {
+    "lessonId": "PS07-02",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 539,
+    "section": "7.2",
+    "sectionTitle": "The Least-Squares Line",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2434,
+    "topicTerms": [
+      "least",
+      "squares",
+      "line"
+    ],
+    "matchedTermsOnPage": [
+      "least",
+      "squares",
+      "line"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-03": {
+    "lessonId": "PS07-03",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 576,
+    "section": "7.4",
+    "sectionTitle": "Checking Assumptions and Transforming Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2631,
+    "topicTerms": [
+      "checking",
+      "assumptions",
+      "transforming"
+    ],
+    "matchedTermsOnPage": [
+      "checking",
+      "assumptions",
+      "transforming"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-04": {
+    "lessonId": "PS07-04",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 521,
+    "section": "7.1",
+    "sectionTitle": "Correlation",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1626,
+    "topicTerms": [
+      "correlation"
+    ],
+    "matchedTermsOnPage": [
+      "correlation"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-01": {
+    "lessonId": "PS08-01",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 674,
+    "section": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1307,
+    "topicTerms": [
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-02": {
+    "lessonId": "PS08-02",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 674,
+    "section": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1307,
+    "topicTerms": [
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-03": {
+    "lessonId": "PS08-03",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 737,
+    "section": "9.4",
+    "sectionTitle": "Randomized Complete Block Designs",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3019,
+    "topicTerms": [
+      "randomized",
+      "complete",
+      "block",
+      "designs"
+    ],
+    "matchedTermsOnPage": [
+      "randomized",
+      "complete",
+      "block",
+      "designs"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-04": {
+    "lessonId": "PS08-04",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 712,
+    "section": "9.3",
+    "sectionTitle": "Two-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2972,
+    "topicTerms": [
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-05": {
+    "lessonId": "PS05-05",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 254,
+    "section": "8.4",
+    "sectionTitle": "Sampling Distribution of Means and the Central Limit Theorem",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2307,
+    "topicTerms": [
+      "means",
+      "central",
+      "limit"
+    ],
+    "matchedTermsOnPage": [
+      "means",
+      "central",
+      "limit"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-06": {
+    "lessonId": "PS05-06",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 350,
+    "section": "5.2",
+    "sectionTitle": "Confidence Intervals for Proportions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3274,
+    "topicTerms": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "matchedTermsOnPage": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-07": {
+    "lessonId": "PS05-07",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 375,
+    "section": "5.6",
+    "sectionTitle": "Small-Sample Confidence Intervals for the Difference Between Two Means",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2524,
+    "topicTerms": [
+      "small",
+      "confidence",
+      "intervals",
+      "difference",
+      "between",
+      "means"
+    ],
+    "matchedTermsOnPage": [
+      "small",
+      "confidence",
+      "intervals",
+      "difference",
+      "between",
+      "means"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-08": {
+    "lessonId": "PS05-08",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 382,
+    "section": "5.7",
+    "sectionTitle": "Confidence Intervals with Paired Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2473,
+    "topicTerms": [
+      "confidence",
+      "intervals",
+      "paired"
+    ],
+    "matchedTermsOnPage": [
+      "confidence",
+      "intervals",
+      "paired"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-09": {
+    "lessonId": "PS05-09",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 370,
+    "section": "5.5",
+    "sectionTitle": "Confidence Intervals for the Difference Between Two Proportions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3530,
+    "topicTerms": [
+      "confidence",
+      "intervals",
+      "difference",
+      "between",
+      "proportions"
+    ],
+    "matchedTermsOnPage": [
+      "confidence",
+      "intervals",
+      "difference",
+      "between",
+      "proportions"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS05-10": {
+    "lessonId": "PS05-10",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 350,
+    "section": "5.2",
+    "sectionTitle": "Confidence Intervals for Proportions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3274,
+    "topicTerms": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "matchedTermsOnPage": [
+      "confidence",
+      "intervals",
+      "proportions"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-05": {
+    "lessonId": "PS08-05",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 674,
+    "section": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1307,
+    "topicTerms": [
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-06": {
+    "lessonId": "PS08-06",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 674,
+    "section": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1307,
+    "topicTerms": [
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-07": {
+    "lessonId": "PS08-07",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 674,
+    "section": "9.1",
+    "sectionTitle": "One-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1307,
+    "topicTerms": [
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-08": {
+    "lessonId": "PS08-08",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 737,
+    "section": "9.4",
+    "sectionTitle": "Randomized Complete Block Designs",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3019,
+    "topicTerms": [
+      "randomized",
+      "complete",
+      "block",
+      "designs"
+    ],
+    "matchedTermsOnPage": [
+      "randomized",
+      "complete",
+      "block",
+      "designs"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-09": {
+    "lessonId": "PS08-09",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 747,
+    "section": "9.5",
+    "sectionTitle": "Factorial Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3053,
+    "topicTerms": [
+      "factorial",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "factorial",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS08-10": {
+    "lessonId": "PS08-10",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 699,
+    "section": "9.2",
+    "sectionTitle": "Pairwise Comparisons in One-Factor Experiments",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2152,
+    "topicTerms": [
+      "pairwise",
+      "comparisons",
+      "factor",
+      "experiments"
+    ],
+    "matchedTermsOnPage": [
+      "pairwise",
+      "comparisons",
+      "factor",
+      "experiments"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-05": {
+    "lessonId": "PS06-05",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 496,
+    "section": "6.13",
+    "sectionTitle": "Power",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2849,
+    "topicTerms": [
+      "power"
+    ],
+    "matchedTermsOnPage": [
+      "power"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-06": {
+    "lessonId": "PS06-06",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 429,
+    "section": "6.3",
+    "sectionTitle": "Tests for a Population Proportion",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2361,
+    "topicTerms": [
+      "population",
+      "proportion"
+    ],
+    "matchedTermsOnPage": [
+      "population",
+      "proportion"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-07": {
+    "lessonId": "PS06-07",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 451,
+    "section": "6.7",
+    "sectionTitle": "Small-Sample Tests for the Difference Between Two Means",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2145,
+    "topicTerms": [
+      "small",
+      "difference",
+      "between",
+      "means"
+    ],
+    "matchedTermsOnPage": [
+      "small",
+      "difference",
+      "between",
+      "means"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-08": {
+    "lessonId": "PS06-08",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 460,
+    "section": "6.8",
+    "sectionTitle": "Tests with Paired Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1934,
+    "topicTerms": [
+      "paired"
+    ],
+    "matchedTermsOnPage": [
+      "paired"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-09": {
+    "lessonId": "PS06-09",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 446,
+    "section": "6.6",
+    "sectionTitle": "Tests for the Difference Between Two Proportions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2840,
+    "topicTerms": [
+      "difference",
+      "between",
+      "proportions"
+    ],
+    "matchedTermsOnPage": [
+      "difference",
+      "between",
+      "proportions"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS06-10": {
+    "lessonId": "PS06-10",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 475,
+    "section": "6.10",
+    "sectionTitle": "Tests with Categorical Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2573,
+    "topicTerms": [
+      "categorical"
+    ],
+    "matchedTermsOnPage": [
+      "categorical"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-05": {
+    "lessonId": "PS07-05",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 576,
+    "section": "7.4",
+    "sectionTitle": "Checking Assumptions and Transforming Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2631,
+    "topicTerms": [
+      "checking",
+      "assumptions",
+      "transforming"
+    ],
+    "matchedTermsOnPage": [
+      "checking",
+      "assumptions",
+      "transforming"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-06": {
+    "lessonId": "PS07-06",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 539,
+    "section": "7.2",
+    "sectionTitle": "The Least-Squares Line",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2434,
+    "topicTerms": [
+      "least",
+      "squares",
+      "line"
+    ],
+    "matchedTermsOnPage": [
+      "least",
+      "squares",
+      "line"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-07": {
+    "lessonId": "PS07-07",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 567,
+    "section": "7.3",
+    "sectionTitle": "Prediction Intervals for Future Observations",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1969,
+    "topicTerms": [
+      "prediction",
+      "intervals",
+      "future",
+      "observations"
+    ],
+    "matchedTermsOnPage": [
+      "prediction"
+    ],
+    "keywordCoverage": 0.25,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false,
+    "targetedPassageRead": {
+      "pages": [
+        566,
+        567,
+        568
+      ],
+      "scope": "Navidi, §7.3: individual prediction interval includes additional residual uncertainty",
+      "result": "Citation advanced from subsection heading to formula page"
+    }
+  },
+  "PS07-08": {
+    "lessonId": "PS07-08",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 555,
+    "section": "7.3",
+    "sectionTitle": "Uncertainties in the Least-Squares Coefficients",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2940,
+    "topicTerms": [
+      "uncertainties",
+      "least",
+      "squares",
+      "coefficients"
+    ],
+    "matchedTermsOnPage": [
+      "uncertainties",
+      "least",
+      "squares",
+      "coefficients"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-09": {
+    "lessonId": "PS07-09",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 576,
+    "section": "7.4",
+    "sectionTitle": "Checking Assumptions and Transforming Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2631,
+    "topicTerms": [
+      "checking",
+      "assumptions",
+      "transforming"
+    ],
+    "matchedTermsOnPage": [
+      "checking",
+      "assumptions",
+      "transforming"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS07-10": {
+    "lessonId": "PS07-10",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 608,
+    "section": "8.1",
+    "sectionTitle": "The Multiple Regression Model",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1575,
+    "topicTerms": [
+      "multiple"
+    ],
+    "matchedTermsOnPage": [
+      "multiple"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-05": {
+    "lessonId": "PS01-05",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 15,
+    "section": "1.1",
+    "sectionTitle": "Sampling",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2751,
+    "topicTerms": [],
+    "matchedTermsOnPage": [],
+    "keywordCoverage": null,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-06": {
+    "lessonId": "PS01-06",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 38,
+    "section": "1.5",
+    "sectionTitle": "Discrete and Continuous Data",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3441,
+    "topicTerms": [
+      "discrete",
+      "continuous"
+    ],
+    "matchedTermsOnPage": [
+      "discrete",
+      "continuous"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-07": {
+    "lessonId": "PS01-07",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 25,
+    "section": "1.2",
+    "sectionTitle": "Summary Statistics",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3559,
+    "topicTerms": [
+      "summary"
+    ],
+    "matchedTermsOnPage": [
+      "summary"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-08": {
+    "lessonId": "PS01-08",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 37,
+    "section": "1.3",
+    "sectionTitle": "Graphical Summaries",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2132,
+    "topicTerms": [
+      "graphical",
+      "summaries"
+    ],
+    "matchedTermsOnPage": [
+      "graphical",
+      "summaries"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-09": {
+    "lessonId": "PS01-09",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 521,
+    "section": "7.1",
+    "sectionTitle": "Correlation",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1626,
+    "topicTerms": [
+      "correlation"
+    ],
+    "matchedTermsOnPage": [
+      "correlation"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS01-10": {
+    "lessonId": "PS01-10",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 48,
+    "section": "1.7",
+    "sectionTitle": "General Types of Statistical Studies: Designed Experiment, Observational Study, and Retrospective Study",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2425,
+    "topicTerms": [
+      "types",
+      "statistical",
+      "studies",
+      "designed",
+      "experiment",
+      "observational",
+      "study",
+      "retrospective"
+    ],
+    "matchedTermsOnPage": [
+      "types",
+      "statistical",
+      "studies",
+      "designed",
+      "experiment",
+      "observational",
+      "study",
+      "retrospective"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-05": {
+    "lessonId": "PS02-05",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 224,
+    "section": "5.3",
+    "sectionTitle": "Arrangements and Selections with Repetitions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2138,
+    "topicTerms": [
+      "arrangements",
+      "selections",
+      "repetitions"
+    ],
+    "matchedTermsOnPage": [
+      "arrangements",
+      "selections",
+      "repetitions"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-06": {
+    "lessonId": "PS02-06",
+    "reference": "Mazur, Combinatorics: A Guided Tour",
+    "sourcePdf": "Combinatorics A Guided Tour Mazur.pdf",
+    "sourcePdfSHA256": "1c31d17f285179941ff63e28b88377c4e0f7af94ff14a81fcf4fa104e591467c",
+    "pdfPage1Based": 56,
+    "section": "1. Principles of Combinatorics",
+    "sectionTitle": "Equivalence of circular arrangements under rotation",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2903,
+    "topicTerms": [
+      "equivalence",
+      "circular",
+      "arrangements",
+      "under",
+      "rotation"
+    ],
+    "matchedTermsOnPage": [
+      "equivalence",
+      "circular",
+      "rotation"
+    ],
+    "keywordCoverage": 0.6,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-07": {
+    "lessonId": "PS02-07",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 224,
+    "section": "5.3",
+    "sectionTitle": "Arrangements and Selections with Repetitions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2138,
+    "topicTerms": [
+      "arrangements",
+      "selections",
+      "repetitions"
+    ],
+    "matchedTermsOnPage": [
+      "arrangements",
+      "selections",
+      "repetitions"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-08": {
+    "lessonId": "PS02-08",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 337,
+    "section": "8.1",
+    "sectionTitle": "Counting with Venn Diagrams / inclusion-exclusion",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2202,
+    "topicTerms": [
+      "counting",
+      "venn",
+      "diagrams",
+      "inclusion",
+      "exclusion"
+    ],
+    "matchedTermsOnPage": [
+      "counting",
+      "venn",
+      "diagrams",
+      "inclusion",
+      "exclusion"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-09": {
+    "lessonId": "PS02-09",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 445,
+    "section": "Appendix A.4",
+    "sectionTitle": "The Pigeonhole Principle",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2564,
+    "topicTerms": [
+      "pigeonhole",
+      "principle"
+    ],
+    "matchedTermsOnPage": [
+      "pigeonhole",
+      "principle"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS02-10": {
+    "lessonId": "PS02-10",
+    "reference": "Tucker, Applied Combinatorics, 6th ed.",
+    "sourcePdf": "Applied Combinatorics 6ed Tucker.pdf",
+    "sourcePdfSHA256": "ef6976349e312abc732cddeaeda72ace57aa4f5d883a424b37036f00aaca5980",
+    "pdfPage1Based": 244,
+    "section": "5.5",
+    "sectionTitle": "Binomial Identities",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2406,
+    "topicTerms": [
+      "binomial",
+      "identities"
+    ],
+    "matchedTermsOnPage": [
+      "binomial",
+      "identities"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-05": {
+    "lessonId": "PS03-05",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 88,
+    "section": "2.3",
+    "sectionTitle": "Law of Total Probability",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2450,
+    "topicTerms": [
+      "law"
+    ],
+    "matchedTermsOnPage": [
+      "law"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-06": {
+    "lessonId": "PS03-06",
+    "reference": "Morin, Probability: For the Enthusiastic Beginner",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "pdfPage1Based": 79,
+    "section": "2.5",
+    "sectionTitle": "Bayes’ theorem",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1622,
+    "topicTerms": [
+      "bayes"
+    ],
+    "matchedTermsOnPage": [
+      "bayes"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-07": {
+    "lessonId": "PS03-07",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 81,
+    "section": "2.3",
+    "sectionTitle": "Conditional Probability and Independence",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2857,
+    "topicTerms": [
+      "independence"
+    ],
+    "matchedTermsOnPage": [
+      "independence"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-08": {
+    "lessonId": "PS03-08",
+    "reference": "Morin, Probability: For the Enthusiastic Beginner",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "pdfPage1Based": 89,
+    "section": "Problems 2.1",
+    "sectionTitle": "Odds (problem statement)",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1775,
+    "topicTerms": [
+      "odds",
+      "problem",
+      "statement"
+    ],
+    "matchedTermsOnPage": [
+      "odds",
+      "problem"
+    ],
+    "keywordCoverage": 0.67,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false,
+    "targetedPassageRead": {
+      "pages": [
+        89,
+        93
+      ],
+      "scope": "Morin, Problems 2.1 and solutions: odds p:(1-p), odds versus probability",
+      "result": "Definition supports odds formula; source locator corrected"
+    }
+  },
+  "PS03-09": {
+    "lessonId": "PS03-09",
+    "reference": "Morin, Probability: For the Enthusiastic Beginner",
+    "sourcePdf": "Probab for the Enthusiastic Beginner Morin.pdf",
+    "sourcePdfSHA256": "a40f83782483efcea4b9cfb6d82f7f15af5ce36ffdcaa0275aeed73d1a1e2875",
+    "pdfPage1Based": 52,
+    "section": "2.2.1",
+    "sectionTitle": "AND: The “intersection” probability, P(A and B)",
+    "pageHasExtractableText": true,
+    "pageTextLength": 6349,
+    "topicTerms": [
+      "intersection"
+    ],
+    "matchedTermsOnPage": [
+      "intersection"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS03-10": {
+    "lessonId": "PS03-10",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 81,
+    "section": "2.3",
+    "sectionTitle": "Conditional Probability and Independence",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2857,
+    "topicTerms": [
+      "independence"
+    ],
+    "matchedTermsOnPage": [
+      "independence"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-05": {
+    "lessonId": "PS04-05",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 179,
+    "section": "5.4",
+    "sectionTitle": "Negative Binomial and Geometric Distributions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 3472,
+    "topicTerms": [
+      "negative",
+      "binomial",
+      "geometric"
+    ],
+    "matchedTermsOnPage": [
+      "negative",
+      "binomial",
+      "geometric"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-06": {
+    "lessonId": "PS04-06",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 173,
+    "section": "5.3",
+    "sectionTitle": "Hypergeometric Distribution",
+    "pageHasExtractableText": true,
+    "pageTextLength": 4167,
+    "topicTerms": [
+      "hypergeometric"
+    ],
+    "matchedTermsOnPage": [
+      "hypergeometric"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-07": {
+    "lessonId": "PS04-07",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 215,
+    "section": "6.6",
+    "sectionTitle": "Gamma and Exponential Distributions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 2848,
+    "topicTerms": [
+      "gamma",
+      "exponential"
+    ],
+    "matchedTermsOnPage": [
+      "gamma",
+      "exponential"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-08": {
+    "lessonId": "PS04-08",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 108,
+    "section": "3.3",
+    "sectionTitle": "Continuous Probability Distributions",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1365,
+    "topicTerms": [
+      "continuous"
+    ],
+    "matchedTermsOnPage": [
+      "continuous"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-09": {
+    "lessonId": "PS04-09",
+    "reference": "Navidi, Statistics for Engineers and Scientists, 4th ed.",
+    "sourcePdf": "Stat for Engrs and Scientists 4ed Navidi(2).pdf",
+    "sourcePdfSHA256": "8b822ba562de4a184e6ce3f26b787e5b72681f59e630f75ba94e9e481e295da2",
+    "pdfPage1Based": 155,
+    "section": "2.6",
+    "sectionTitle": "Jointly Distributed Random Variables — Covariance, Correlation, and Independence",
+    "pageHasExtractableText": true,
+    "pageTextLength": 1180,
+    "topicTerms": [
+      "jointly",
+      "distributed",
+      "covariance",
+      "correlation",
+      "independence"
+    ],
+    "matchedTermsOnPage": [
+      "jointly",
+      "distributed",
+      "covariance"
+    ],
+    "keywordCoverage": 0.6,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  },
+  "PS04-10": {
+    "lessonId": "PS04-10",
+    "reference": "Walpole et al., Probability & Statistics for Engineers & Scientists, 9th ed.",
+    "sourcePdf": "Probab  and Stat for Engrs 9ed Walpole et al.pdf",
+    "sourcePdfSHA256": "1185f084b76430005f7123219d0d4b177137c6d352392aa4e7d90d2470665e27",
+    "pdfPage1Based": 208,
+    "section": "6.5",
+    "sectionTitle": "Normal Approximation to the Binomial",
+    "pageHasExtractableText": true,
+    "pageTextLength": 4006,
+    "topicTerms": [
+      "normal",
+      "approximation",
+      "binomial"
+    ],
+    "matchedTermsOnPage": [
+      "normal",
+      "approximation",
+      "binomial"
+    ],
+    "keywordCoverage": 1.0,
+    "reviewClass": "reference-page locator check only",
+    "wholeLessonPassageVerified": false,
+    "workedExampleVerified": false,
+    "independentExpertSignoff": false
+  }
+}

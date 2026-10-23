@@ -1,0 +1,34 @@
+BSECE BOARD REVIEWER v10.24.0 — SOURCE VALIDATION RECORD
+Date: 2026-10-10
+Status: SOURCE RELEASE CANDIDATE, NOT PRODUCTION CERTIFIED
+
+PASS — 17/17 executed source-level validation suites:
+  v10.8 Algebra, v10.9 integrity, v10.10 assessment, v10.11 curriculum,
+  v10.12 learning paths, v10.13 blueprint, v10.14 expanded bank,
+  v10.15 TOS, v10.16 content, v10.17 Canon pilot, v10.18 safety,
+  v10.19 problem-family techniques, v10.20 skills, v10.21 speed drills,
+  v10.22 device QA, v10.23 integration, v10.24 numerical practice.
+
+PASS — 12/12 focused tsc project checks, including new tsconfig.calculator.v1024.json.
+PASS — source scanner: 257 TypeScript/TSX files parsed, 0 parsing errors.
+PASS — scanner: 867 local and alias imports checked, 0 missing files.
+PASS — 12 new fixed question instances; 6 reasoning families; independent numerical
+         expected-result formulas and per-item tolerance checks passed.
+PASS — numeric-entry rules: signed decimals/scientific notation supported;
+         invalid-format inputs graded incorrect and blank inputs counted unanswered.
+PASS — 6-minute wall-clock session timestamps, variant rotation, attempt caps,
+         history tampering rejection, unique family/ID validation.
+PASS — separate backup/export/import and pre-restore validation of the new
+         ece_canon_numeric_drills_v1 namespace; old saves remain supported.
+PASS — strict-assessment lock source checks and numeric UI wiring.
+
+BLOCKED — npm ci --offline: npm ERR! ENOTCACHED for zwitch.
+BLOCKED — npm run build: `sh: 1: vite: not found` (dependencies unavailable).
+NOT VERIFIED — full-project TypeScript/lint with installed dependencies.
+NOT VERIFIED — running app, interactive React browser journeys, on-device persistence.
+NOT VERIFIED — physical Canon F-789SGA keys, LCD outputs and editorial review.
+NOT CLAIMED — full PRC TOS competence coverage, board exam readiness or proctored test.
+
+The ZIP includes source and content only; node_modules, dist and real .env
+files are excluded. See RELEASE_NOTES_V10_24.md, CANON_NUMERIC_PRACTICE_AUDIT_V10_24.csv,
+and BROWSER_AND_CANON_QA_V10_24.md for the execution procedure and pending QA.

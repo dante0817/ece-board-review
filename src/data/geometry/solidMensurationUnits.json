@@ -1,0 +1,123 @@
+[
+  {
+    "unit_id": "SM-U01",
+    "name": "Spatial foundations",
+    "topic_ids": [
+      "GEO-036",
+      "GEO-037",
+      "GEO-038",
+      "GEO-039",
+      "GEO-040",
+      "GEO-041"
+    ]
+  },
+  {
+    "unit_id": "SM-U02",
+    "name": "Prisms",
+    "topic_ids": [
+      "GEO-042",
+      "GEO-043",
+      "GEO-044",
+      "GEO-045"
+    ]
+  },
+  {
+    "unit_id": "SM-U03",
+    "name": "Cylinders",
+    "topic_ids": [
+      "GEO-046",
+      "GEO-047",
+      "GEO-048",
+      "GEO-049"
+    ]
+  },
+  {
+    "unit_id": "SM-U04",
+    "name": "Pyramids",
+    "topic_ids": [
+      "GEO-050",
+      "GEO-051",
+      "GEO-052"
+    ]
+  },
+  {
+    "unit_id": "SM-U05",
+    "name": "Cones",
+    "topic_ids": [
+      "GEO-053",
+      "GEO-054",
+      "GEO-055"
+    ]
+  },
+  {
+    "unit_id": "SM-U06",
+    "name": "Frustums",
+    "topic_ids": [
+      "GEO-056",
+      "GEO-057"
+    ]
+  },
+  {
+    "unit_id": "SM-U07",
+    "name": "Spheres",
+    "topic_ids": [
+      "GEO-058",
+      "GEO-059",
+      "GEO-060"
+    ]
+  },
+  {
+    "unit_id": "SM-U08",
+    "name": "Spherical portions",
+    "topic_ids": [
+      "GEO-061",
+      "GEO-062"
+    ]
+  },
+  {
+    "unit_id": "SM-U09",
+    "name": "Special solids",
+    "topic_ids": [
+      "GEO-063",
+      "GEO-064",
+      "GEO-065"
+    ]
+  },
+  {
+    "unit_id": "SM-U10",
+    "name": "Composite solids",
+    "topic_ids": [
+      "GEO-066",
+      "GEO-067",
+      "GEO-068",
+      "GEO-069"
+    ]
+  },
+  {
+    "unit_id": "SM-U11",
+    "name": "Solids of revolution",
+    "topic_ids": [
+      "GEO-070"
+    ]
+  },
+  {
+    "unit_id": "SM-U12",
+    "name": "Measurement theorems",
+    "topic_ids": [
+      "GEO-071",
+      "GEO-072",
+      "GEO-073",
+      "GEO-074"
+    ]
+  },
+  {
+    "unit_id": "SM-U13",
+    "name": "Engineering applications",
+    "topic_ids": [
+      "GEO-075",
+      "GEO-076",
+      "GEO-077",
+      "GEO-078"
+    ]
+  }
+]

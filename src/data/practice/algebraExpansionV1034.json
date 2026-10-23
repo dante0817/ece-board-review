@@ -1,0 +1,2736 @@
+[
+  {
+    "id": "alge34-001",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "2×2 substitution/elimination",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 2x +3y=5 and 1x -2y=6. What is x?",
+    "options": [
+      "5",
+      "-4",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "The determinant is -7≠0; elimination gives x=4, y=-1.",
+    "family": "sys:two-by-two-x",
+    "objectiveId": "sys-obj-1",
+    "check": {
+      "kind": "linear2",
+      "answer": "4",
+      "coeffs": [
+        2,
+        3,
+        1,
+        -2
+      ],
+      "rhs": [
+        5,
+        6
+      ],
+      "component": 0
+    }
+  },
+  {
+    "id": "alge34-002",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "Elimination",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "For the system 2x +3y=5; 1x -2y=6, find y.",
+    "options": [
+      "-2",
+      "0",
+      "1",
+      "-1"
+    ],
+    "correctIndex": 3,
+    "explanation": "Eliminate x (or substitute) to obtain y=-1; back-substitution gives x=4.",
+    "family": "sys:two-by-two-y",
+    "objectiveId": "sys-obj-2",
+    "check": {
+      "kind": "linear2",
+      "answer": "-1",
+      "coeffs": [
+        2,
+        3,
+        1,
+        -2
+      ],
+      "rhs": [
+        5,
+        6
+      ],
+      "component": 1
+    }
+  },
+  {
+    "id": "alge34-003",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "Determinants",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find the determinant of the coefficient matrix [[2, 3], [1, -2]].",
+    "options": [
+      "-8",
+      "-6",
+      "7",
+      "-7"
+    ],
+    "correctIndex": 3,
+    "explanation": "Determinant = ad−bc = (2)(-2)−(3)(1) = -7.",
+    "family": "sys:det2",
+    "objectiveId": "sys-obj-5",
+    "check": {
+      "kind": "det2",
+      "answer": "-7",
+      "entries": [
+        2,
+        3,
+        1,
+        -2
+      ]
+    }
+  },
+  {
+    "id": "alge34-004",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "3×3 systems",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Find z in x+2y−z=0, 2x−y+z=11, x+y+2z=7.",
+    "options": [
+      "1",
+      "-2",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Elimination/back-substitution yields (x,y,z)=(4,-1,2).",
+    "family": "sys:three-by-three-z",
+    "objectiveId": "sys-obj-4",
+    "check": {
+      "kind": "linear3",
+      "answer": "2",
+      "matrix": [
+        [
+          1,
+          2,
+          -1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "rhs": [
+        0,
+        11,
+        7
+      ],
+      "component": 2
+    }
+  },
+  {
+    "id": "alge34-005",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "Inconsistent systems",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Classify x+2y=3 and 2x+4y=8.",
+    "options": [
+      "Exactly one solution",
+      "Cannot be classified",
+      "No solution",
+      "Infinitely many solutions"
+    ],
+    "correctIndex": 2,
+    "explanation": "The left side of the second equation is a multiple of the first, but the constants are inconsistent.",
+    "family": "sys:parallel-inconsistent",
+    "objectiveId": "sys-obj-3",
+    "check": {
+      "kind": "linear-classification",
+      "answer": "No solution",
+      "equations": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          4,
+          8
+        ]
+      ],
+      "classification": "inconsistent"
+    }
+  },
+  {
+    "id": "alge34-006",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "2×2 substitution/elimination",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 3x -1y=-9 and 2x +5y=11. What is x?",
+    "options": [
+      "2",
+      "-3",
+      "-1",
+      "-2"
+    ],
+    "correctIndex": 3,
+    "explanation": "The determinant is 17≠0; elimination gives x=-2, y=3.",
+    "family": "sys:two-by-two-x",
+    "objectiveId": "sys-obj-1",
+    "check": {
+      "kind": "linear2",
+      "answer": "-2",
+      "coeffs": [
+        3,
+        -1,
+        2,
+        5
+      ],
+      "rhs": [
+        -9,
+        11
+      ],
+      "component": 0
+    }
+  },
+  {
+    "id": "alge34-007",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "Elimination",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "For the system 3x -1y=-9; 2x +5y=11, find y.",
+    "options": [
+      "3",
+      "2",
+      "-3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Eliminate x (or substitute) to obtain y=3; back-substitution gives x=-2.",
+    "family": "sys:two-by-two-y",
+    "objectiveId": "sys-obj-2",
+    "check": {
+      "kind": "linear2",
+      "answer": "3",
+      "coeffs": [
+        3,
+        -1,
+        2,
+        5
+      ],
+      "rhs": [
+        -9,
+        11
+      ],
+      "component": 1
+    }
+  },
+  {
+    "id": "alge34-008",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "Determinants",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find the determinant of the coefficient matrix [[3, -1], [2, 5]].",
+    "options": [
+      "-17",
+      "17",
+      "16",
+      "18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Determinant = ad−bc = (3)(5)−(-1)(2) = 17.",
+    "family": "sys:det2",
+    "objectiveId": "sys-obj-5",
+    "check": {
+      "kind": "det2",
+      "answer": "17",
+      "entries": [
+        3,
+        -1,
+        2,
+        5
+      ]
+    }
+  },
+  {
+    "id": "alge34-009",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "3×3 systems",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Find z in x+2y−z=1, 2x−y+z=-4, x+y+2z=7.",
+    "options": [
+      "-3",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Elimination/back-substitution yields (x,y,z)=(-2,3,3).",
+    "family": "sys:three-by-three-z",
+    "objectiveId": "sys-obj-4",
+    "check": {
+      "kind": "linear3",
+      "answer": "3",
+      "matrix": [
+        [
+          1,
+          2,
+          -1
+        ],
+        [
+          2,
+          -1,
+          1
+        ],
+        [
+          1,
+          1,
+          2
+        ]
+      ],
+      "rhs": [
+        1,
+        -4,
+        7
+      ],
+      "component": 2
+    }
+  },
+  {
+    "id": "alge34-010",
+    "topicId": "top-simultaneous-linear",
+    "subskill": "Inconsistent systems",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Classify x+2y=4 and 3x+6y=15.",
+    "options": [
+      "No solution",
+      "Infinitely many solutions",
+      "Exactly one solution",
+      "Cannot be classified"
+    ],
+    "correctIndex": 0,
+    "explanation": "The left side of the second equation is a multiple of the first, but the constants are inconsistent.",
+    "family": "sys:parallel-inconsistent",
+    "objectiveId": "sys-obj-3",
+    "check": {
+      "kind": "linear-classification",
+      "answer": "No solution",
+      "equations": [
+        [
+          1,
+          2,
+          4
+        ],
+        [
+          3,
+          6,
+          15
+        ]
+      ],
+      "classification": "inconsistent"
+    }
+  },
+  {
+    "id": "alge34-011",
+    "topicId": "top-logarithms",
+    "subskill": "Logarithm evaluation",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Evaluate log base 2 of 32.",
+    "options": [
+      "4",
+      "6",
+      "-5",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Because 2^5=32, log_2(32)=5.",
+    "family": "log:log-power",
+    "objectiveId": "log-obj-2",
+    "check": {
+      "kind": "log-evaluation",
+      "answer": "5",
+      "base": 2,
+      "argument": 32
+    }
+  },
+  {
+    "id": "alge34-012",
+    "topicId": "top-logarithms",
+    "subskill": "Log laws",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Evaluate log base 2(32) + log base 2(8).",
+    "options": [
+      "7",
+      "8",
+      "-8",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Each logarithm is an exponent: 5+3=8; equivalently log_b(uv)=log_b(u)+log_b(v).",
+    "family": "log:log-sum",
+    "objectiveId": "log-obj-3",
+    "check": {
+      "kind": "log-sum",
+      "answer": "8",
+      "base": 2,
+      "arguments": [
+        32,
+        8
+      ]
+    }
+  },
+  {
+    "id": "alge34-013",
+    "topicId": "top-logarithms",
+    "subskill": "Exponential equations",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 2^(x+1)=32. Find x.",
+    "options": [
+      "5",
+      "3",
+      "4",
+      "-4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Equate exponents because the positive base 2 is not 1: x+1=5.",
+    "family": "log:equal-bases",
+    "objectiveId": "log-obj-5",
+    "check": {
+      "kind": "exp-eq",
+      "answer": "4",
+      "base": 2,
+      "shift": 1,
+      "power": 5
+    }
+  },
+  {
+    "id": "alge34-014",
+    "topicId": "top-logarithms",
+    "subskill": "Log equations",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve log base 2(x+2)=3.",
+    "options": [
+      "-6",
+      "6",
+      "5",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "The logarithm requires x+2>0. Rewrite as x+2=8, hence x=6.",
+    "family": "log:log-equation",
+    "objectiveId": "log-obj-5",
+    "check": {
+      "kind": "log-eq",
+      "answer": "6",
+      "base": 2,
+      "shift": 2,
+      "power": 3
+    }
+  },
+  {
+    "id": "alge34-015",
+    "topicId": "top-logarithms",
+    "subskill": "ECE application",
+    "difficulty": "Intermediate",
+    "problemType": "Application",
+    "prompt": "A power ratio of 100:1 corresponds to 10log10(P₂/P₁) decibels. Find the gain in dB.",
+    "options": [
+      "20",
+      "21",
+      "19",
+      "-20"
+    ],
+    "correctIndex": 0,
+    "explanation": "10 log₁₀(100)=10×2=20 dB (power ratio, not voltage ratio).",
+    "family": "log:decibels-power",
+    "objectiveId": "log-obj-6",
+    "check": {
+      "kind": "power-db",
+      "answer": "20",
+      "ratio": 100
+    }
+  },
+  {
+    "id": "alge34-016",
+    "topicId": "top-logarithms",
+    "subskill": "Logarithm evaluation",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Evaluate log base 3 of 81.",
+    "options": [
+      "4",
+      "5",
+      "-4",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Because 3^4=81, log_3(81)=4.",
+    "family": "log:log-power",
+    "objectiveId": "log-obj-2",
+    "check": {
+      "kind": "log-evaluation",
+      "answer": "4",
+      "base": 3,
+      "argument": 81
+    }
+  },
+  {
+    "id": "alge34-017",
+    "topicId": "top-logarithms",
+    "subskill": "Log laws",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Evaluate log base 3(81) + log base 3(9).",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "-6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Each logarithm is an exponent: 4+2=6; equivalently log_b(uv)=log_b(u)+log_b(v).",
+    "family": "log:log-sum",
+    "objectiveId": "log-obj-3",
+    "check": {
+      "kind": "log-sum",
+      "answer": "6",
+      "base": 3,
+      "arguments": [
+        81,
+        9
+      ]
+    }
+  },
+  {
+    "id": "alge34-018",
+    "topicId": "top-logarithms",
+    "subskill": "Exponential equations",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve 3^(x+2)=81. Find x.",
+    "options": [
+      "-2",
+      "2",
+      "1",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Equate exponents because the positive base 3 is not 1: x+2=4.",
+    "family": "log:equal-bases",
+    "objectiveId": "log-obj-5",
+    "check": {
+      "kind": "exp-eq",
+      "answer": "2",
+      "base": 3,
+      "shift": 2,
+      "power": 4
+    }
+  },
+  {
+    "id": "alge34-019",
+    "topicId": "top-logarithms",
+    "subskill": "Log equations",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Solve log base 3(x+3)=2.",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "-6"
+    ],
+    "correctIndex": 1,
+    "explanation": "The logarithm requires x+3>0. Rewrite as x+3=9, hence x=6.",
+    "family": "log:log-equation",
+    "objectiveId": "log-obj-5",
+    "check": {
+      "kind": "log-eq",
+      "answer": "6",
+      "base": 3,
+      "shift": 3,
+      "power": 2
+    }
+  },
+  {
+    "id": "alge34-020",
+    "topicId": "top-logarithms",
+    "subskill": "ECE application",
+    "difficulty": "Intermediate",
+    "problemType": "Application",
+    "prompt": "A power ratio of 1000:1 corresponds to 10log10(P₂/P₁) decibels. Find the gain in dB.",
+    "options": [
+      "-30",
+      "30",
+      "29",
+      "31"
+    ],
+    "correctIndex": 1,
+    "explanation": "10 log₁₀(1000)=10×3=30 dB (power ratio, not voltage ratio).",
+    "family": "log:decibels-power",
+    "objectiveId": "log-obj-6",
+    "check": {
+      "kind": "power-db",
+      "answer": "30",
+      "ratio": 1000
+    }
+  },
+  {
+    "id": "alge34-021",
+    "topicId": "top-matrices",
+    "subskill": "Determinants",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Compute det(A) for A=[[3,2],[1,4]].",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "-10"
+    ],
+    "correctIndex": 1,
+    "explanation": "det(A)=(3)(4)−(2)(1)=10.",
+    "family": "mat:matrix-det",
+    "objectiveId": "mat-obj-5",
+    "check": {
+      "kind": "det2",
+      "answer": "10",
+      "entries": [
+        3,
+        2,
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "id": "alge34-022",
+    "topicId": "top-matrices",
+    "subskill": "Matrix properties",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find the trace of A=[[3,2],[1,4]].",
+    "options": [
+      "6",
+      "8",
+      "-7",
+      "7"
+    ],
+    "correctIndex": 3,
+    "explanation": "The trace of a square matrix is the sum of diagonal entries: 3+4=7.",
+    "family": "mat:trace2",
+    "objectiveId": "mat-obj-1",
+    "check": {
+      "kind": "trace2",
+      "answer": "7",
+      "entries": [
+        3,
+        2,
+        1,
+        4
+      ]
+    }
+  },
+  {
+    "id": "alge34-023",
+    "topicId": "top-matrices",
+    "subskill": "Multiplication",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Let A=[[3,2],[1,4]], B=[[2,1],[1,-1]]. Find (AB)₁₁.",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "-8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Row 1 · column 1 = (3)(2)+(2)(1)=8.",
+    "family": "mat:product-entry",
+    "objectiveId": "mat-obj-3",
+    "check": {
+      "kind": "mat-product",
+      "answer": "8",
+      "left": [
+        [
+          3,
+          2
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      "right": [
+        [
+          2,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "component": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "alge34-024",
+    "topicId": "top-matrices",
+    "subskill": "Inverse matrices",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "A=[[3,2],[1,4]] is invertible. Find entry (A⁻¹)₁₁.",
+    "options": [
+      "3/10",
+      "-2/5",
+      "2/5",
+      "1/5"
+    ],
+    "correctIndex": 2,
+    "explanation": "A⁻¹=1/10 [[4,-2],[-1,3]], so the upper-left entry is 4/10.",
+    "family": "mat:inverse-entry",
+    "objectiveId": "mat-obj-6",
+    "check": {
+      "kind": "inverse-entry",
+      "answer": "2/5",
+      "entries": [
+        3,
+        2,
+        1,
+        4
+      ],
+      "component": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "alge34-025",
+    "topicId": "top-matrices",
+    "subskill": "Scalar multiplication",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For A=[[3,2],[1,4]], find the bottom-right entry of 2A.",
+    "options": [
+      "8",
+      "-8",
+      "7",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scalar multiplication multiplies each entry by 2; the bottom-right entry is 2×4.",
+    "family": "mat:scale-entry",
+    "objectiveId": "mat-obj-2",
+    "check": {
+      "kind": "scale-entry",
+      "answer": "8",
+      "entries": [
+        3,
+        2,
+        1,
+        4
+      ],
+      "scalar": 2,
+      "component": [
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "alge34-026",
+    "topicId": "top-matrices",
+    "subskill": "Determinants",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Compute det(A) for A=[[4,-1],[2,3]].",
+    "options": [
+      "15",
+      "-14",
+      "13",
+      "14"
+    ],
+    "correctIndex": 3,
+    "explanation": "det(A)=(4)(3)−(-1)(2)=14.",
+    "family": "mat:matrix-det",
+    "objectiveId": "mat-obj-5",
+    "check": {
+      "kind": "det2",
+      "answer": "14",
+      "entries": [
+        4,
+        -1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "id": "alge34-027",
+    "topicId": "top-matrices",
+    "subskill": "Matrix properties",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find the trace of A=[[4,-1],[2,3]].",
+    "options": [
+      "-7",
+      "7",
+      "8",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "The trace of a square matrix is the sum of diagonal entries: 4+3=7.",
+    "family": "mat:trace2",
+    "objectiveId": "mat-obj-1",
+    "check": {
+      "kind": "trace2",
+      "answer": "7",
+      "entries": [
+        4,
+        -1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "id": "alge34-028",
+    "topicId": "top-matrices",
+    "subskill": "Multiplication",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Let A=[[4,-1],[2,3]], B=[[3,1],[1,-1]]. Find (AB)₁₁.",
+    "options": [
+      "12",
+      "11",
+      "-11",
+      "10"
+    ],
+    "correctIndex": 1,
+    "explanation": "Row 1 · column 1 = (4)(3)+(-1)(1)=11.",
+    "family": "mat:product-entry",
+    "objectiveId": "mat-obj-3",
+    "check": {
+      "kind": "mat-product",
+      "answer": "11",
+      "left": [
+        [
+          4,
+          -1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "right": [
+        [
+          3,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "component": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "alge34-029",
+    "topicId": "top-matrices",
+    "subskill": "Inverse matrices",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "A=[[4,-1],[2,3]] is invertible. Find entry (A⁻¹)₁₁.",
+    "options": [
+      "-1/14",
+      "-3/14",
+      "2/7",
+      "3/14"
+    ],
+    "correctIndex": 3,
+    "explanation": "A⁻¹=1/14 [[3,1],[-2,4]], so the upper-left entry is 3/14.",
+    "family": "mat:inverse-entry",
+    "objectiveId": "mat-obj-6",
+    "check": {
+      "kind": "inverse-entry",
+      "answer": "3/14",
+      "entries": [
+        4,
+        -1,
+        2,
+        3
+      ],
+      "component": [
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "id": "alge34-030",
+    "topicId": "top-matrices",
+    "subskill": "Scalar multiplication",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For A=[[4,-1],[2,3]], find the bottom-right entry of 3A.",
+    "options": [
+      "8",
+      "10",
+      "9",
+      "-9"
+    ],
+    "correctIndex": 2,
+    "explanation": "Scalar multiplication multiplies each entry by 3; the bottom-right entry is 3×3.",
+    "family": "mat:scale-entry",
+    "objectiveId": "mat-obj-2",
+    "check": {
+      "kind": "scale-entry",
+      "answer": "9",
+      "entries": [
+        4,
+        -1,
+        2,
+        3
+      ],
+      "scalar": 3,
+      "component": [
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "alge34-031",
+    "topicId": "top-complex-numbers",
+    "subskill": "Powers of i",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Simplify i^17. Which value is correct?",
+    "options": [
+      "i",
+      "−i",
+      "-1",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "The powers of i repeat every four steps; 17 mod 4 = 1.",
+    "family": "cx:powers-i",
+    "objectiveId": "cx-obj-1",
+    "check": {
+      "kind": "complex-power",
+      "answer": "I",
+      "power": 17
+    }
+  },
+  {
+    "id": "alge34-032",
+    "topicId": "top-complex-numbers",
+    "subskill": "Addition",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Add (3+2i) + (1-1i).",
+    "options": [
+      "2 + i",
+      "4 + i",
+      "6 + i",
+      "5 + i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add real parts (3)+(1)=4, and imaginary coefficients (2)+(-1)=1; the result is 4 + i.",
+    "family": "cx:complex-add",
+    "objectiveId": "cx-obj-3",
+    "check": {
+      "kind": "complex-operation",
+      "answer": "4 + I",
+      "op": "add",
+      "values": [
+        3,
+        2,
+        1,
+        -1
+      ]
+    }
+  },
+  {
+    "id": "alge34-033",
+    "topicId": "top-complex-numbers",
+    "subskill": "Multiplication",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Multiply (3+2i)(1-1i).",
+    "options": [
+      "5 + 5i",
+      "5 − 5i",
+      "1 − i",
+      "5 − i"
+    ],
+    "correctIndex": 3,
+    "explanation": "FOIL and replace i² with −1: real part ac−bd=5; imaginary part ad+bc=-1.",
+    "family": "cx:complex-multiply",
+    "objectiveId": "cx-obj-3",
+    "check": {
+      "kind": "complex-operation",
+      "answer": "5 - I",
+      "op": "multiply",
+      "values": [
+        3,
+        2,
+        1,
+        -1
+      ]
+    }
+  },
+  {
+    "id": "alge34-034",
+    "topicId": "top-complex-numbers",
+    "subskill": "Division",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Simplify (3+2i)/(1+i).",
+    "options": [
+      "1/2 − 5/2i",
+      "5/2 − 1/2i",
+      "1/2 + 5/2i",
+      "3/2 + i"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply numerator and denominator by 1−i, then divide by 2.",
+    "family": "cx:complex-divide",
+    "objectiveId": "cx-obj-4",
+    "check": {
+      "kind": "complex-division",
+      "answer": "5/2 - I/2",
+      "numerator": [
+        3,
+        2
+      ],
+      "denominator": [
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "alge34-035",
+    "topicId": "top-complex-numbers",
+    "subskill": "Conjugates",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find |3+2i|² (the squared modulus).",
+    "options": [
+      "12",
+      "14",
+      "13",
+      "-13"
+    ],
+    "correctIndex": 2,
+    "explanation": "For z=a+bi, |z|²=z·conjugate(z)=a²+b²=13.",
+    "family": "cx:squared-modulus",
+    "objectiveId": "cx-obj-4",
+    "check": {
+      "kind": "modulus-squared",
+      "answer": "13",
+      "parts": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "id": "alge34-036",
+    "topicId": "top-complex-numbers",
+    "subskill": "Powers of i",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Simplify i^26. Which value is correct?",
+    "options": [
+      "−i",
+      "i",
+      "1",
+      "-1"
+    ],
+    "correctIndex": 3,
+    "explanation": "The powers of i repeat every four steps; 26 mod 4 = 2.",
+    "family": "cx:powers-i",
+    "objectiveId": "cx-obj-1",
+    "check": {
+      "kind": "complex-power",
+      "answer": "-1",
+      "power": 26
+    }
+  },
+  {
+    "id": "alge34-037",
+    "topicId": "top-complex-numbers",
+    "subskill": "Addition",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Add (4-3i) + (-2+1i).",
+    "options": [
+      "2 − 4i",
+      "6 − 2i",
+      "2 − 2i",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Add real parts (4)+(-2)=2, and imaginary coefficients (-3)+(1)=-2; the result is 2 − 2i.",
+    "family": "cx:complex-add",
+    "objectiveId": "cx-obj-3",
+    "check": {
+      "kind": "complex-operation",
+      "answer": "2 - 2*I",
+      "op": "add",
+      "values": [
+        4,
+        -3,
+        -2,
+        1
+      ]
+    }
+  },
+  {
+    "id": "alge34-038",
+    "topicId": "top-complex-numbers",
+    "subskill": "Multiplication",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Multiply (4-3i)(-2+1i).",
+    "options": [
+      "-5 − 2i",
+      "-5 + 10i",
+      "-11 + 10i",
+      "-5 + 2i"
+    ],
+    "correctIndex": 1,
+    "explanation": "FOIL and replace i² with −1: real part ac−bd=-5; imaginary part ad+bc=10.",
+    "family": "cx:complex-multiply",
+    "objectiveId": "cx-obj-3",
+    "check": {
+      "kind": "complex-operation",
+      "answer": "-5 + 10*I",
+      "op": "multiply",
+      "values": [
+        4,
+        -3,
+        -2,
+        1
+      ]
+    }
+  },
+  {
+    "id": "alge34-039",
+    "topicId": "top-complex-numbers",
+    "subskill": "Division",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Simplify (4-3i)/(1+i).",
+    "options": [
+      "2 − 3/2i",
+      "7/2 − 1/2i",
+      "1/2 − 7/2i",
+      "7/2 + 1/2i"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply numerator and denominator by 1−i, then divide by 2.",
+    "family": "cx:complex-divide",
+    "objectiveId": "cx-obj-4",
+    "check": {
+      "kind": "complex-division",
+      "answer": "1/2 - 7*I/2",
+      "numerator": [
+        4,
+        -3
+      ],
+      "denominator": [
+        1,
+        1
+      ]
+    }
+  },
+  {
+    "id": "alge34-040",
+    "topicId": "top-complex-numbers",
+    "subskill": "Conjugates",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find |4-3i|² (the squared modulus).",
+    "options": [
+      "24",
+      "-25",
+      "25",
+      "26"
+    ],
+    "correctIndex": 2,
+    "explanation": "For z=a+bi, |z|²=z·conjugate(z)=a²+b²=25.",
+    "family": "cx:squared-modulus",
+    "objectiveId": "cx-obj-4",
+    "check": {
+      "kind": "modulus-squared",
+      "answer": "25",
+      "parts": [
+        4,
+        -3
+      ]
+    }
+  },
+  {
+    "id": "alge34-041",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Nth term",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "An arithmetic sequence has a₁=5 and d=3. Find a_8.",
+    "options": [
+      "27",
+      "26",
+      "-26",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "aₙ=a₁+(n−1)d=5+(8−1)(3)=26.",
+    "family": "ap:arithmetic-term",
+    "objectiveId": "ap-obj-2",
+    "check": {
+      "kind": "arithmetic-nth",
+      "answer": "26",
+      "a": 5,
+      "d": 3,
+      "n": 8
+    }
+  },
+  {
+    "id": "alge34-042",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Finite sum",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Sum the first 8 terms of an arithmetic sequence with a₁=5 and common difference 3.",
+    "options": [
+      "-124",
+      "123",
+      "125",
+      "124"
+    ],
+    "correctIndex": 3,
+    "explanation": "Sₙ=n[2a₁+(n−1)d]/2=8[10+(8-1)(3)]/2=124.",
+    "family": "ap:arithmetic-sum",
+    "objectiveId": "ap-obj-4",
+    "check": {
+      "kind": "arithmetic-sum",
+      "answer": "124",
+      "a": 5,
+      "d": 3,
+      "n": 8
+    }
+  },
+  {
+    "id": "alge34-043",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Recover d",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "If a₁=5 and a_8=26 for an arithmetic sequence, find d.",
+    "options": [
+      "4",
+      "2",
+      "-3",
+      "3"
+    ],
+    "correctIndex": 3,
+    "explanation": "d=(aₙ−a₁)/(n−1)=(26−5)/(8−1)=3.",
+    "family": "ap:arithmetic-recover-d",
+    "objectiveId": "ap-obj-2",
+    "check": {
+      "kind": "arithmetic-recover-d",
+      "answer": "3",
+      "a": 5,
+      "last": 26,
+      "n": 8
+    }
+  },
+  {
+    "id": "alge34-044",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Arithmetic mean",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "What arithmetic mean lies midway between 5 and 11?",
+    "options": [
+      "7",
+      "9",
+      "-8",
+      "8"
+    ],
+    "correctIndex": 3,
+    "explanation": "The arithmetic mean is the midpoint: (5+11)/2=8.",
+    "family": "ap:arithmetic-mean",
+    "objectiveId": "ap-obj-3",
+    "check": {
+      "kind": "arithmetic-mean",
+      "answer": "8",
+      "endpoints": [
+        5,
+        11
+      ]
+    }
+  },
+  {
+    "id": "alge34-045",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Find the index",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "In aₙ=5+(3)(n−1), what term number equals 26?",
+    "options": [
+      "-8",
+      "8",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solve 26=5+(3)(n−1); n=8.",
+    "family": "ap:arithmetic-index",
+    "objectiveId": "ap-obj-2",
+    "check": {
+      "kind": "arithmetic-index",
+      "answer": "8",
+      "a": 5,
+      "d": 3,
+      "term": 26
+    }
+  },
+  {
+    "id": "alge34-046",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Nth term",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "An arithmetic sequence has a₁=12 and d=-2. Find a_7.",
+    "options": [
+      "-1",
+      "0",
+      "2",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "aₙ=a₁+(n−1)d=12+(7−1)(-2)=0.",
+    "family": "ap:arithmetic-term",
+    "objectiveId": "ap-obj-2",
+    "check": {
+      "kind": "arithmetic-nth",
+      "answer": "0",
+      "a": 12,
+      "d": -2,
+      "n": 7
+    }
+  },
+  {
+    "id": "alge34-047",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Finite sum",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Sum the first 7 terms of an arithmetic sequence with a₁=12 and common difference -2.",
+    "options": [
+      "42",
+      "43",
+      "41",
+      "-42"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sₙ=n[2a₁+(n−1)d]/2=7[24+(7-1)(-2)]/2=42.",
+    "family": "ap:arithmetic-sum",
+    "objectiveId": "ap-obj-4",
+    "check": {
+      "kind": "arithmetic-sum",
+      "answer": "42",
+      "a": 12,
+      "d": -2,
+      "n": 7
+    }
+  },
+  {
+    "id": "alge34-048",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Recover d",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "If a₁=12 and a_7=0 for an arithmetic sequence, find d.",
+    "options": [
+      "2",
+      "-3",
+      "-2",
+      "-1"
+    ],
+    "correctIndex": 2,
+    "explanation": "d=(aₙ−a₁)/(n−1)=(0−12)/(7−1)=-2.",
+    "family": "ap:arithmetic-recover-d",
+    "objectiveId": "ap-obj-2",
+    "check": {
+      "kind": "arithmetic-recover-d",
+      "answer": "-2",
+      "a": 12,
+      "last": 0,
+      "n": 7
+    }
+  },
+  {
+    "id": "alge34-049",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Arithmetic mean",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "What arithmetic mean lies midway between 12 and 8?",
+    "options": [
+      "-10",
+      "10",
+      "11",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "The arithmetic mean is the midpoint: (12+8)/2=10.",
+    "family": "ap:arithmetic-mean",
+    "objectiveId": "ap-obj-3",
+    "check": {
+      "kind": "arithmetic-mean",
+      "answer": "10",
+      "endpoints": [
+        12,
+        8
+      ]
+    }
+  },
+  {
+    "id": "alge34-050",
+    "topicId": "top-arithmetic-seq",
+    "subskill": "Find the index",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "In aₙ=12+(-2)(n−1), what term number equals 0?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "-7"
+    ],
+    "correctIndex": 1,
+    "explanation": "Solve 0=12+(-2)(n−1); n=7.",
+    "family": "ap:arithmetic-index",
+    "objectiveId": "ap-obj-2",
+    "check": {
+      "kind": "arithmetic-index",
+      "answer": "7",
+      "a": 12,
+      "d": -2,
+      "term": 0
+    }
+  },
+  {
+    "id": "alge34-051",
+    "topicId": "top-geometric-seq",
+    "subskill": "Nth term",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find a_6 if a₁=3 and common ratio r=2.",
+    "options": [
+      "95",
+      "-96",
+      "96",
+      "97"
+    ],
+    "correctIndex": 2,
+    "explanation": "aₙ=a₁r^(n−1)=3(2)^5=96.",
+    "family": "gp:geometric-term",
+    "objectiveId": "gp-obj-2",
+    "check": {
+      "kind": "geometric-nth",
+      "answer": "96",
+      "a": 3,
+      "r": "2",
+      "n": 6
+    }
+  },
+  {
+    "id": "alge34-052",
+    "topicId": "top-geometric-seq",
+    "subskill": "Finite sum",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Sum the first 6 terms of a geometric sequence with a₁=3, r=2.",
+    "options": [
+      "190",
+      "188",
+      "189",
+      "-189"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sₙ=a₁(1−rⁿ)/(1−r)=189.",
+    "family": "gp:geometric-finite-sum",
+    "objectiveId": "gp-obj-4",
+    "check": {
+      "kind": "geometric-sum",
+      "answer": "189",
+      "a": 3,
+      "r": "2",
+      "n": 6
+    }
+  },
+  {
+    "id": "alge34-053",
+    "topicId": "top-geometric-seq",
+    "subskill": "Common ratio",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find common ratio r when a₁=3 and a₂=6.",
+    "options": [
+      "1",
+      "2",
+      "-2",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "The common ratio is a₂/a₁=6/3=2.",
+    "family": "gp:geometric-ratio",
+    "objectiveId": "gp-obj-1",
+    "check": {
+      "kind": "geometric-ratio",
+      "answer": "2",
+      "a": 3,
+      "second": "6"
+    }
+  },
+  {
+    "id": "alge34-054",
+    "topicId": "top-geometric-seq",
+    "subskill": "Infinite sum",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "An infinite geometric series begins with a₁=3, ratio r=1/2. Find its sum.",
+    "options": [
+      "6",
+      "-6",
+      "7",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Because |r|<1, S∞=a₁/(1−r)=3/(1−1/2)=6.",
+    "family": "gp:geometric-infinite-sum",
+    "objectiveId": "gp-obj-5",
+    "check": {
+      "kind": "geometric-infinite",
+      "answer": "6",
+      "a": 3,
+      "r": "1/2"
+    }
+  },
+  {
+    "id": "alge34-055",
+    "topicId": "top-geometric-seq",
+    "subskill": "ECE application",
+    "difficulty": "Intermediate",
+    "problemType": "Application",
+    "prompt": "A sampled amplitude starts at 3 V and is multiplied by 2 on each step. What is its value after 5 steps?",
+    "options": [
+      "95",
+      "96",
+      "97",
+      "-96"
+    ],
+    "correctIndex": 1,
+    "explanation": "A_k=A₀r^k=3(2)^5=96 V. This is an idealized mathematical sequence, not a measured circuit.",
+    "family": "gp:geometric-amplitude",
+    "objectiveId": "gp-obj-6",
+    "check": {
+      "kind": "geometric-nth",
+      "answer": "96",
+      "a": 3,
+      "r": "2",
+      "n": 6
+    }
+  },
+  {
+    "id": "alge34-056",
+    "topicId": "top-geometric-seq",
+    "subskill": "Nth term",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find a_5 if a₁=64 and common ratio r=1/2.",
+    "options": [
+      "-4",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "aₙ=a₁r^(n−1)=64(1/2)^4=4.",
+    "family": "gp:geometric-term",
+    "objectiveId": "gp-obj-2",
+    "check": {
+      "kind": "geometric-nth",
+      "answer": "4",
+      "a": 64,
+      "r": "1/2",
+      "n": 5
+    }
+  },
+  {
+    "id": "alge34-057",
+    "topicId": "top-geometric-seq",
+    "subskill": "Finite sum",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Sum the first 5 terms of a geometric sequence with a₁=64, r=1/2.",
+    "options": [
+      "124",
+      "125",
+      "123",
+      "-124"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sₙ=a₁(1−rⁿ)/(1−r)=124.",
+    "family": "gp:geometric-finite-sum",
+    "objectiveId": "gp-obj-4",
+    "check": {
+      "kind": "geometric-sum",
+      "answer": "124",
+      "a": 64,
+      "r": "1/2",
+      "n": 5
+    }
+  },
+  {
+    "id": "alge34-058",
+    "topicId": "top-geometric-seq",
+    "subskill": "Common ratio",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find common ratio r when a₁=64 and a₂=32.",
+    "options": [
+      "5/2",
+      "1/2",
+      "3/2",
+      "-3/2"
+    ],
+    "correctIndex": 1,
+    "explanation": "The common ratio is a₂/a₁=32/64=1/2.",
+    "family": "gp:geometric-ratio",
+    "objectiveId": "gp-obj-1",
+    "check": {
+      "kind": "geometric-ratio",
+      "answer": "1/2",
+      "a": 64,
+      "second": "32"
+    }
+  },
+  {
+    "id": "alge34-059",
+    "topicId": "top-geometric-seq",
+    "subskill": "Infinite sum",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "An infinite geometric series begins with a₁=4, ratio r=1/3. Find its sum.",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "-6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Because |r|<1, S∞=a₁/(1−r)=4/(1−1/3)=6.",
+    "family": "gp:geometric-infinite-sum",
+    "objectiveId": "gp-obj-5",
+    "check": {
+      "kind": "geometric-infinite",
+      "answer": "6",
+      "a": 4,
+      "r": "1/3"
+    }
+  },
+  {
+    "id": "alge34-060",
+    "topicId": "top-geometric-seq",
+    "subskill": "ECE application",
+    "difficulty": "Intermediate",
+    "problemType": "Application",
+    "prompt": "A sampled amplitude starts at 64 V and is multiplied by 1/2 on each step. What is its value after 4 steps?",
+    "options": [
+      "-4",
+      "4",
+      "5",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "A_k=A₀r^k=64(1/2)^4=4 V. This is an idealized mathematical sequence, not a measured circuit.",
+    "family": "gp:geometric-amplitude",
+    "objectiveId": "gp-obj-6",
+    "check": {
+      "kind": "geometric-nth",
+      "answer": "4",
+      "a": 64,
+      "r": "1/2",
+      "n": 5
+    }
+  },
+  {
+    "id": "alge34-061",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Evaluation",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Evaluate P(2) if P(x)=2x² -3x +4.",
+    "options": [
+      "7",
+      "-6",
+      "5",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute x=2: 2(2)²+(-3)(2)+(4)=6.",
+    "family": "poly:polynomial-evaluation",
+    "objectiveId": "poly-obj-1",
+    "check": {
+      "kind": "poly-eval",
+      "answer": "6",
+      "coeffs": [
+        2,
+        -3,
+        4
+      ],
+      "at": 2
+    }
+  },
+  {
+    "id": "alge34-062",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Remainder theorem",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "What is the remainder on dividing P(x)=2x² -3x +4 by x−(2)?",
+    "options": [
+      "5",
+      "-6",
+      "7",
+      "6"
+    ],
+    "correctIndex": 3,
+    "explanation": "By the remainder theorem, the remainder is P(2)=6.",
+    "family": "poly:remainder-theorem",
+    "objectiveId": "poly-obj-5",
+    "check": {
+      "kind": "poly-eval",
+      "answer": "6",
+      "coeffs": [
+        2,
+        -3,
+        4
+      ],
+      "at": 2
+    }
+  },
+  {
+    "id": "alge34-063",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Leading coefficient",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find the leading coefficient of (2x² -3)(2x+1).",
+    "options": [
+      "5",
+      "-4",
+      "4",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "The leading term arises from (2x²)(2x)=4x³.",
+    "family": "poly:leading-product",
+    "objectiveId": "poly-obj-3",
+    "check": {
+      "kind": "leading-product",
+      "answer": "4",
+      "a": 2,
+      "t": 2
+    }
+  },
+  {
+    "id": "alge34-064",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Degree",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "If P(x) has degree 2 and Q(x) has degree 3, find degree(PQ).",
+    "options": [
+      "5",
+      "4",
+      "-5",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nonzero polynomials satisfy deg(PQ)=deg(P)+deg(Q)=2+3.",
+    "family": "poly:degree-product",
+    "objectiveId": "poly-obj-1",
+    "check": {
+      "kind": "degree-product",
+      "answer": "5",
+      "degrees": [
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "id": "alge34-065",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Polynomial division",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Divide P(x)=2x^2 - 7x + 10 by (x−(2)). Find the constant coefficient of the quotient.",
+    "options": [
+      "-4",
+      "3",
+      "-2",
+      "-3"
+    ],
+    "correctIndex": 3,
+    "explanation": "By polynomial division, P(x)=(x−(2))(2x+(-3))+(4). The quotient is 2x+(-3), whose constant coefficient is -3.",
+    "family": "poly:quotient-constant",
+    "objectiveId": "poly-obj-4",
+    "check": {
+      "kind": "poly-division",
+      "answer": "-3",
+      "dividend": "2*x**2 - 7*x + 10",
+      "divisor": "x - 2",
+      "remainder": 4
+    }
+  },
+  {
+    "id": "alge34-066",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Evaluation",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Evaluate P(-2) if P(x)=-1x² +5x -2.",
+    "options": [
+      "-15",
+      "-17",
+      "16",
+      "-16"
+    ],
+    "correctIndex": 3,
+    "explanation": "Substitute x=-2: -1(-2)²+(5)(-2)+(-2)=-16.",
+    "family": "poly:polynomial-evaluation",
+    "objectiveId": "poly-obj-1",
+    "check": {
+      "kind": "poly-eval",
+      "answer": "-16",
+      "coeffs": [
+        -1,
+        5,
+        -2
+      ],
+      "at": -2
+    }
+  },
+  {
+    "id": "alge34-067",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Remainder theorem",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "What is the remainder on dividing P(x)=-1x² +5x -2 by x−(-2)?",
+    "options": [
+      "-17",
+      "16",
+      "-15",
+      "-16"
+    ],
+    "correctIndex": 3,
+    "explanation": "By the remainder theorem, the remainder is P(-2)=-16.",
+    "family": "poly:remainder-theorem",
+    "objectiveId": "poly-obj-5",
+    "check": {
+      "kind": "poly-eval",
+      "answer": "-16",
+      "coeffs": [
+        -1,
+        5,
+        -2
+      ],
+      "at": -2
+    }
+  },
+  {
+    "id": "alge34-068",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Leading coefficient",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Find the leading coefficient of (-1x² +5)(-2x+1).",
+    "options": [
+      "3",
+      "2",
+      "-2",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "The leading term arises from (-1x²)(-2x)=2x³.",
+    "family": "poly:leading-product",
+    "objectiveId": "poly-obj-3",
+    "check": {
+      "kind": "leading-product",
+      "answer": "2",
+      "a": -1,
+      "t": -2
+    }
+  },
+  {
+    "id": "alge34-069",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Degree",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "If P(x) has degree 3 and Q(x) has degree 4, find degree(PQ).",
+    "options": [
+      "6",
+      "-7",
+      "7",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nonzero polynomials satisfy deg(PQ)=deg(P)+deg(Q)=3+4.",
+    "family": "poly:degree-product",
+    "objectiveId": "poly-obj-1",
+    "check": {
+      "kind": "degree-product",
+      "answer": "7",
+      "degrees": [
+        3,
+        4
+      ]
+    }
+  },
+  {
+    "id": "alge34-070",
+    "topicId": "top-polynomial-eq",
+    "subskill": "Polynomial division",
+    "difficulty": "Advanced",
+    "problemType": "Computational",
+    "prompt": "Divide P(x)=-x^2 + 3x + 8 by (x−(-2)). Find the constant coefficient of the quotient.",
+    "options": [
+      "5",
+      "-5",
+      "6",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "By polynomial division, P(x)=(x−(-2))(-1x+(5))+(-2). The quotient is -1x+(5), whose constant coefficient is 5.",
+    "family": "poly:quotient-constant",
+    "objectiveId": "poly-obj-4",
+    "check": {
+      "kind": "poly-division",
+      "answer": "5",
+      "dividend": "-x**2 + 3*x + 8",
+      "divisor": "x + 2",
+      "remainder": -2
+    }
+  },
+  {
+    "id": "alge34-071",
+    "topicId": "top-factoring",
+    "subskill": "Greatest common factor",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor completely: 3x²+6x.",
+    "options": [
+      "3x(x+2)",
+      "3x(x−2)",
+      "3(x+2)",
+      "x(x+6)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: 3x(x+2).",
+    "family": "fac:gcf",
+    "objectiveId": "fac-obj-1",
+    "check": {
+      "kind": "factorization",
+      "answer": "3x(x+2)",
+      "expanded": "3*x**2 + 6*x",
+      "factors": [
+        "3x(x+2)",
+        "3(x+2)",
+        "x(x+6)",
+        "3x(x−2)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-072",
+    "topicId": "top-factoring",
+    "subskill": "Trinomials",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor x²+5x+6.",
+    "options": [
+      "(x+4)(x+2)",
+      "(x+3)(x−2)",
+      "(x−3)(x−2)",
+      "(x+3)(x+2)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x+3)(x+2).",
+    "family": "fac:monic-trinomial",
+    "objectiveId": "fac-obj-2",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x+3)(x+2)",
+      "expanded": "x**2 + 5*x + 6",
+      "factors": [
+        "(x+3)(x+2)",
+        "(x−3)(x−2)",
+        "(x+3)(x−2)",
+        "(x+4)(x+2)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-073",
+    "topicId": "top-factoring",
+    "subskill": "GCF and special products",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor the difference of squares  x²−9.",
+    "options": [
+      "(x−3)²",
+      "(x+3)²",
+      "(x−3)(x+2)",
+      "(x−3)(x+3)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x−3)(x+3).",
+    "family": "fac:difference-squares",
+    "objectiveId": "fac-obj-3",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x−3)(x+3)",
+      "expanded": "x**2 - 9",
+      "factors": [
+        "(x−3)(x+3)",
+        "(x−3)²",
+        "(x+3)²",
+        "(x−3)(x+2)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-074",
+    "topicId": "top-factoring",
+    "subskill": "Grouping",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor x³+3x²+2x+6 by grouping.",
+    "options": [
+      "(x+3)(x²+2)",
+      "(x+2)(x²+3)",
+      "(x+3)(x²−2)",
+      "(x−3)(x²+2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x+3)(x²+2).",
+    "family": "fac:grouping",
+    "objectiveId": "fac-obj-4",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x+3)(x²+2)",
+      "expanded": "x**3 + 3*x**2 + 2*x + 6",
+      "factors": [
+        "(x+3)(x²+2)",
+        "(x−3)(x²+2)",
+        "(x+3)(x²−2)",
+        "(x+2)(x²+3)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-075",
+    "topicId": "top-factoring",
+    "subskill": "Sum of cubes",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor x³+27.",
+    "options": [
+      "(x−3)(x²+3x+9)",
+      "(x+3)(x²−3x−9)",
+      "(x+3)(x²−3x+9)",
+      "(x+3)(x²+3x+9)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x+3)(x²−3x+9).",
+    "family": "fac:sum-cubes",
+    "objectiveId": "fac-obj-3",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x+3)(x²−3x+9)",
+      "expanded": "x**3 + 27",
+      "factors": [
+        "(x+3)(x²−3x+9)",
+        "(x+3)(x²+3x+9)",
+        "(x−3)(x²+3x+9)",
+        "(x+3)(x²−3x−9)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-076",
+    "topicId": "top-factoring",
+    "subskill": "Greatest common factor",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor completely: 4x²+20x.",
+    "options": [
+      "4(x+5)",
+      "x(x+20)",
+      "4x(x+5)",
+      "4x(x−5)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: 4x(x+5).",
+    "family": "fac:gcf",
+    "objectiveId": "fac-obj-1",
+    "check": {
+      "kind": "factorization",
+      "answer": "4x(x+5)",
+      "expanded": "4*x**2 + 20*x",
+      "factors": [
+        "4x(x+5)",
+        "4(x+5)",
+        "x(x+20)",
+        "4x(x−5)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-077",
+    "topicId": "top-factoring",
+    "subskill": "Trinomials",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor x²+9x+20.",
+    "options": [
+      "(x+4)(x+5)",
+      "(x+4)(x−5)",
+      "(x+5)(x+5)",
+      "(x−4)(x−5)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x+4)(x+5).",
+    "family": "fac:monic-trinomial",
+    "objectiveId": "fac-obj-2",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x+4)(x+5)",
+      "expanded": "x**2 + 9*x + 20",
+      "factors": [
+        "(x+4)(x+5)",
+        "(x−4)(x−5)",
+        "(x+4)(x−5)",
+        "(x+5)(x+5)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-078",
+    "topicId": "top-factoring",
+    "subskill": "GCF and special products",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor the difference of squares  x²−16.",
+    "options": [
+      "(x−4)(x+4)",
+      "(x−4)(x+5)",
+      "(x−4)²",
+      "(x+4)²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x−4)(x+4).",
+    "family": "fac:difference-squares",
+    "objectiveId": "fac-obj-3",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x−4)(x+4)",
+      "expanded": "x**2 - 16",
+      "factors": [
+        "(x−4)(x+4)",
+        "(x−4)²",
+        "(x+4)²",
+        "(x−4)(x+5)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-079",
+    "topicId": "top-factoring",
+    "subskill": "Grouping",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor x³+4x²+5x+20 by grouping.",
+    "options": [
+      "(x−4)(x²+5)",
+      "(x+4)(x²−5)",
+      "(x+4)(x²+5)",
+      "(x+5)(x²+4)"
+    ],
+    "correctIndex": 2,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x+4)(x²+5).",
+    "family": "fac:grouping",
+    "objectiveId": "fac-obj-4",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x+4)(x²+5)",
+      "expanded": "x**3 + 4*x**2 + 5*x + 20",
+      "factors": [
+        "(x+4)(x²+5)",
+        "(x−4)(x²+5)",
+        "(x+4)(x²−5)",
+        "(x+5)(x²+4)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-080",
+    "topicId": "top-factoring",
+    "subskill": "Sum of cubes",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Factor x³+64.",
+    "options": [
+      "(x+4)(x²−4x+16)",
+      "(x−4)(x²+4x+16)",
+      "(x+4)(x²+4x+16)",
+      "(x+4)(x²−4x−16)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand the factors to check equality, and continue until no factor can be reduced over the integers. Correct factorization: (x+4)(x²−4x+16).",
+    "family": "fac:sum-cubes",
+    "objectiveId": "fac-obj-3",
+    "check": {
+      "kind": "factorization",
+      "answer": "(x+4)(x²−4x+16)",
+      "expanded": "x**3 + 64",
+      "factors": [
+        "(x+4)(x²−4x+16)",
+        "(x+4)(x²+4x+16)",
+        "(x−4)(x²+4x+16)",
+        "(x+4)(x²−4x−16)"
+      ]
+    }
+  },
+  {
+    "id": "alge34-081",
+    "topicId": "top-laws-exponents",
+    "subskill": "Exponent laws",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For nonzero x, simplify x^3 × x^2. What is the exponent of x?",
+    "options": [
+      "6",
+      "-5",
+      "5",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Products with the same base add exponents: x^3x^2=x^5.",
+    "family": "exp:add-exponents",
+    "objectiveId": "exp-obj-1",
+    "check": {
+      "kind": "exponent-law",
+      "answer": "5",
+      "operation": "multiply",
+      "powers": [
+        3,
+        2
+      ]
+    }
+  },
+  {
+    "id": "alge34-082",
+    "topicId": "top-laws-exponents",
+    "subskill": "Exponent laws",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For nonzero x, simplify x^5/x^2. What exponent remains?",
+    "options": [
+      "4",
+      "-3",
+      "3",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "Use the quotient rule: x^5/x^2=x^(5−2)=x^3.",
+    "family": "exp:subtract-exponents",
+    "objectiveId": "exp-obj-1",
+    "check": {
+      "kind": "exponent-law",
+      "answer": "3",
+      "operation": "divide",
+      "powers": [
+        5,
+        2
+      ]
+    }
+  },
+  {
+    "id": "alge34-083",
+    "topicId": "top-laws-exponents",
+    "subskill": "Rational exponents",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Compute (8)^(2/3) using the real cube root.",
+    "options": [
+      "5",
+      "-4",
+      "3",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "(8)^(2/3)=(cube root 8)²=2²=4.",
+    "family": "exp:rational-exponent",
+    "objectiveId": "exp-obj-2",
+    "check": {
+      "kind": "rational-exponent",
+      "answer": "4",
+      "base": 8,
+      "power": "2/3"
+    }
+  },
+  {
+    "id": "alge34-084",
+    "topicId": "top-laws-exponents",
+    "subskill": "Radical simplification",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Compute √(16) using the principal square root.",
+    "options": [
+      "3",
+      "5",
+      "-4",
+      "4"
+    ],
+    "correctIndex": 3,
+    "explanation": "√(16)=2×2=4, the nonnegative principal root.",
+    "family": "exp:perfect-square-radical",
+    "objectiveId": "exp-obj-3",
+    "check": {
+      "kind": "root",
+      "answer": "4",
+      "radicand": 16
+    }
+  },
+  {
+    "id": "alge34-085",
+    "topicId": "top-laws-exponents",
+    "subskill": "Rationalizing denominators",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Rationalize 1/√12 and simplify the radical. What is the positive integer denominator in simplest form?",
+    "options": [
+      "-6",
+      "7",
+      "6",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "Write √12=2√3; after multiplying by the radical conjugate, the fraction has denominator 6.",
+    "family": "exp:rationalization-square",
+    "objectiveId": "exp-obj-4",
+    "check": {
+      "kind": "rationalized-denominator",
+      "answer": "6",
+      "radicand": 12
+    }
+  },
+  {
+    "id": "alge34-086",
+    "topicId": "top-laws-exponents",
+    "subskill": "Exponent laws",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For nonzero x, simplify x^5 × x^3. What is the exponent of x?",
+    "options": [
+      "7",
+      "9",
+      "-8",
+      "8"
+    ],
+    "correctIndex": 3,
+    "explanation": "Products with the same base add exponents: x^5x^3=x^8.",
+    "family": "exp:add-exponents",
+    "objectiveId": "exp-obj-1",
+    "check": {
+      "kind": "exponent-law",
+      "answer": "8",
+      "operation": "multiply",
+      "powers": [
+        5,
+        3
+      ]
+    }
+  },
+  {
+    "id": "alge34-087",
+    "topicId": "top-laws-exponents",
+    "subskill": "Exponent laws",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "For nonzero x, simplify x^8/x^3. What exponent remains?",
+    "options": [
+      "4",
+      "-5",
+      "6",
+      "5"
+    ],
+    "correctIndex": 3,
+    "explanation": "Use the quotient rule: x^8/x^3=x^(8−3)=x^5.",
+    "family": "exp:subtract-exponents",
+    "objectiveId": "exp-obj-1",
+    "check": {
+      "kind": "exponent-law",
+      "answer": "5",
+      "operation": "divide",
+      "powers": [
+        8,
+        3
+      ]
+    }
+  },
+  {
+    "id": "alge34-088",
+    "topicId": "top-laws-exponents",
+    "subskill": "Rational exponents",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Compute (27)^(2/3) using the real cube root.",
+    "options": [
+      "10",
+      "9",
+      "-9",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "(27)^(2/3)=(cube root 27)²=3²=9.",
+    "family": "exp:rational-exponent",
+    "objectiveId": "exp-obj-2",
+    "check": {
+      "kind": "rational-exponent",
+      "answer": "9",
+      "base": 27,
+      "power": "2/3"
+    }
+  },
+  {
+    "id": "alge34-089",
+    "topicId": "top-laws-exponents",
+    "subskill": "Radical simplification",
+    "difficulty": "Basic",
+    "problemType": "Computational",
+    "prompt": "Compute √(36) using the principal square root.",
+    "options": [
+      "6",
+      "7",
+      "-6",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "√(36)=2×3=6, the nonnegative principal root.",
+    "family": "exp:perfect-square-radical",
+    "objectiveId": "exp-obj-3",
+    "check": {
+      "kind": "root",
+      "answer": "6",
+      "radicand": 36
+    }
+  },
+  {
+    "id": "alge34-090",
+    "topicId": "top-laws-exponents",
+    "subskill": "Rationalizing denominators",
+    "difficulty": "Intermediate",
+    "problemType": "Computational",
+    "prompt": "Rationalize 1/√20 and simplify the radical. What is the positive integer denominator in simplest form?",
+    "options": [
+      "11",
+      "10",
+      "-10",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Write √20=2√5; after multiplying by the radical conjugate, the fraction has denominator 10.",
+    "family": "exp:rationalization-square",
+    "objectiveId": "exp-obj-4",
+    "check": {
+      "kind": "rationalized-denominator",
+      "answer": "10",
+      "radicand": 20
+    }
+  },
+  {
+    "id": "alge34-091",
+    "topicId": "top-inequalities",
+    "subskill": "Linear inequalities",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Solve 3x +5 ≤ 11.",
+    "options": [
+      "x ≤ 2",
+      "x ≥ 2",
+      "x < 2",
+      "x > 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 5, divide by 3; reverse the inequality only if dividing by a negative coefficient. Solution: x ≤ 2.",
+    "family": "ineq:linear-sign",
+    "objectiveId": "ineq-obj-1",
+    "check": {
+      "kind": "inequality",
+      "answer": "x ≤ 2",
+      "expression": "3*x + 5 <= 11",
+      "solution": "Interval(-oo, 2)"
+    }
+  },
+  {
+    "id": "alge34-092",
+    "topicId": "top-inequalities",
+    "subskill": "Absolute-value inequalities",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Solve |x−(0)| ≤ 2.",
+    "options": [
+      "x ≤ 2",
+      "x < -2 or x > 2",
+      "x ≥ -2",
+      "-2 ≤ x ≤ 2"
+    ],
+    "correctIndex": 3,
+    "explanation": "For |x−c|≤r with r≥0, we require c−r≤x≤c+r, inclusive.",
+    "family": "ineq:absolute-bound",
+    "objectiveId": "ineq-obj-3",
+    "check": {
+      "kind": "interval",
+      "answer": "-2 ≤ x ≤ 2",
+      "solution": "Interval(-2, 2)"
+    }
+  },
+  {
+    "id": "alge34-093",
+    "topicId": "top-inequalities",
+    "subskill": "Polynomial inequalities",
+    "difficulty": "Advanced",
+    "problemType": "Conceptual",
+    "prompt": "Find the solution of (x−(-2))(x−(3)) < 0.",
+    "options": [
+      "x < 3",
+      "x < -2 or x > 3",
+      "-2 < x < 3",
+      "-2 ≤ x ≤ 3"
+    ],
+    "correctIndex": 2,
+    "explanation": "An upward-opening quadratic is negative strictly between its two distinct roots; endpoints are excluded.",
+    "family": "ineq:quadratic-sign",
+    "objectiveId": "ineq-obj-4",
+    "check": {
+      "kind": "interval",
+      "answer": "-2 < x < 3",
+      "solution": "Interval.open(-2, 3)"
+    }
+  },
+  {
+    "id": "alge34-094",
+    "topicId": "top-inequalities",
+    "subskill": "Rational sign chart",
+    "difficulty": "Advanced",
+    "problemType": "Conceptual",
+    "prompt": "Solve (x−3)/(x−1) > 0; exclude the denominator zero.",
+    "options": [
+      "1 < x < 3",
+      "x ≤ 1 or x ≥ 3",
+      "x > 1",
+      "x < 1 or x > 3"
+    ],
+    "correctIndex": 3,
+    "explanation": "Test intervals cut by x=1 and x=3. The ratio is positive to the left of 1 and right of 3, excluding both endpoints.",
+    "family": "ineq:rational-sign",
+    "objectiveId": "ineq-obj-5",
+    "check": {
+      "kind": "interval",
+      "answer": "x < 1 or x > 3",
+      "solution": "Union(Interval.open(-oo, 1), Interval.open(3, oo))"
+    }
+  },
+  {
+    "id": "alge34-095",
+    "topicId": "top-inequalities",
+    "subskill": "Compound intervals",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Rewrite -3 ≤ x < 4 using interval notation.",
+    "options": [
+      "[-3, 4)",
+      "(-3, 4]",
+      "(-3, 4)",
+      "[-3, 4]"
+    ],
+    "correctIndex": 0,
+    "explanation": "The left endpoint is included (closed bracket), while the right is excluded (parenthesis).",
+    "family": "ineq:interval-notation",
+    "objectiveId": "ineq-obj-2",
+    "check": {
+      "kind": "interval",
+      "answer": "[-3, 4)",
+      "solution": "Interval.Ropen(-3, 4)"
+    }
+  },
+  {
+    "id": "alge34-096",
+    "topicId": "top-inequalities",
+    "subskill": "Linear inequalities",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Solve -2x +4 > 10.",
+    "options": [
+      "x < -3",
+      "x ≤ -3",
+      "x ≥ -3",
+      "x > -3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 4, divide by -2; reverse the inequality only if dividing by a negative coefficient. Solution: x < -3.",
+    "family": "ineq:linear-sign",
+    "objectiveId": "ineq-obj-1",
+    "check": {
+      "kind": "inequality",
+      "answer": "x < -3",
+      "expression": "4 - 2*x > 10",
+      "solution": "Interval.open(-oo, -3)"
+    }
+  },
+  {
+    "id": "alge34-097",
+    "topicId": "top-inequalities",
+    "subskill": "Absolute-value inequalities",
+    "difficulty": "Intermediate",
+    "problemType": "Conceptual",
+    "prompt": "Solve |x−(-1)| ≤ 3.",
+    "options": [
+      "x ≥ -4",
+      "x ≤ 2",
+      "-4 ≤ x ≤ 2",
+      "x < -4 or x > 2"
+    ],
+    "correctIndex": 2,
+    "explanation": "For |x−c|≤r with r≥0, we require c−r≤x≤c+r, inclusive.",
+    "family": "ineq:absolute-bound",
+    "objectiveId": "ineq-obj-3",
+    "check": {
+      "kind": "interval",
+      "answer": "-4 ≤ x ≤ 2",
+      "solution": "Interval(-4, 2)"
+    }
+  },
+  {
+    "id": "alge34-098",
+    "topicId": "top-inequalities",
+    "subskill": "Polynomial inequalities",
+    "difficulty": "Advanced",
+    "problemType": "Conceptual",
+    "prompt": "Find the solution of (x−(-3))(x−(4)) < 0.",
+    "options": [
+      "-3 < x < 4",
+      "x < -3 or x > 4",
+      "-3 ≤ x ≤ 4",
+      "x < 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "An upward-opening quadratic is negative strictly between its two distinct roots; endpoints are excluded.",
+    "family": "ineq:quadratic-sign",
+    "objectiveId": "ineq-obj-4",
+    "check": {
+      "kind": "interval",
+      "answer": "-3 < x < 4",
+      "solution": "Interval.open(-3, 4)"
+    }
+  },
+  {
+    "id": "alge34-099",
+    "topicId": "top-inequalities",
+    "subskill": "Rational sign chart",
+    "difficulty": "Advanced",
+    "problemType": "Conceptual",
+    "prompt": "Solve (x−4)/(x−2) > 0; exclude the denominator zero.",
+    "options": [
+      "x < 2 or x > 4",
+      "x > 2",
+      "x ≤ 2 or x ≥ 4",
+      "2 < x < 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Test intervals cut by x=2 and x=4. The ratio is positive to the left of 2 and right of 4, excluding both endpoints.",
+    "family": "ineq:rational-sign",
+    "objectiveId": "ineq-obj-5",
+    "check": {
+      "kind": "interval",
+      "answer": "x < 2 or x > 4",
+      "solution": "Union(Interval.open(-oo, 2), Interval.open(4, oo))"
+    }
+  },
+  {
+    "id": "alge34-100",
+    "topicId": "top-inequalities",
+    "subskill": "Compound intervals",
+    "difficulty": "Basic",
+    "problemType": "Conceptual",
+    "prompt": "Rewrite -2 ≤ x < 5 using interval notation.",
+    "options": [
+      "[-2, 5]",
+      "(-2, 5]",
+      "[-2, 5)",
+      "(-2, 5)"
+    ],
+    "correctIndex": 2,
+    "explanation": "The left endpoint is included (closed bracket), while the right is excluded (parenthesis).",
+    "family": "ineq:interval-notation",
+    "objectiveId": "ineq-obj-2",
+    "check": {
+      "kind": "interval",
+      "answer": "[-2, 5)",
+      "solution": "Interval.Ropen(-2, 5)"
+    }
+  }
+]

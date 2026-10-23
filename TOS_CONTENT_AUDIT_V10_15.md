@@ -1,0 +1,242 @@
+# v10.15 PRC TOS audit — Source findings
+
+Official annex: https://www.prc.gov.ph/sites/default/files/EE2022-10%20TOS.pdf
+
+- 34 official course rows (8 Mathematics, 11 GEAS, 9 Electronics Engineering, 6 EST). Each board subject totals 100 official items.
+- 336 authored mock/reference questions; 335 distinct prompts in the current bank.
+- 120 distinct prompts with provisional editorial course assignments; 215 distinct prompts not yet mapped.
+- 50-question TOS-targeted preview: 32 possible, 18 course quota shortages.
+- 100-question TOS-targeted preview: 55 possible, 45 course quota shortages.
+- Course mapping is editorial/provisional; the official PRC never endorsed these items.
+- No complete subtopic-to-question or easy/moderate/difficult cognitive-level alignment has been certified.
+- v10.14 golden fixtures check a subset of generated solutions; they do not constitute independent review of the entire question bank.
+- Legacy and reference-question content still requires independent key/solution verification.
+
+## Static audit flags (204; not all are mathematical errors)
+
+- ref-assess-q-quad-2: missing key formula
+- ref-assess-q-quad-3: missing key formula
+- ref-assess-q-quad-4: missing key formula
+- ref-assess-q-quad-5: missing key formula
+- ref-assess-q-quad-6: missing key formula
+- ref-assess-q-quad-7: missing key formula
+- ref-assess-q-quad-8: missing key formula
+- ref-assess-q-quad-9: missing key formula
+- ref-assess-q-quad-10: missing key formula
+- ref-assess-q-quad-11: missing key formula
+- ref-assess-q-quad-12: missing key formula
+- ref-assess-q-quad-14: missing key formula
+- ref-assess-q-quad-15: missing key formula
+- ref-assess-q-func-3: missing key formula
+- ref-assess-q-func-4: missing key formula
+- ref-assess-q-func-5: missing key formula
+- ref-assess-q-func-6: missing key formula
+- ref-assess-q-func-7: missing key formula
+- ref-assess-q-func-8: missing key formula
+- ref-assess-q-func-9: missing key formula
+- ref-assess-q-func-10: missing key formula
+- ref-assess-q-func-12: missing key formula
+- ref-assess-q-func-13: missing key formula
+- ref-assess-q-func-14: missing key formula
+- ref-assess-q-func-15: missing key formula
+- ref-assess-q-fac-2: missing key formula
+- ref-assess-q-fac-3: missing key formula
+- ref-assess-q-fac-4: missing key formula
+- ref-assess-q-fac-5: missing key formula
+- ref-assess-q-fac-6: missing key formula
+- ref-assess-q-fac-8: missing key formula
+- ref-assess-q-fac-9: missing key formula
+- ref-assess-q-fac-10: missing key formula
+- ref-assess-q-poly-2: missing key formula
+- ref-assess-q-poly-3: missing key formula
+- ref-assess-q-poly-4: missing key formula
+- ref-assess-q-poly-5: missing key formula
+- ref-assess-q-poly-6: missing key formula
+- ref-assess-q-poly-9: missing key formula
+- ref-assess-q-poly-10: missing key formula
+- ref-assess-q-exp-3: missing key formula
+- ref-assess-q-exp-4: missing key formula
+- ref-assess-q-exp-5: missing key formula
+- ref-assess-q-exp-6: missing key formula
+- ref-assess-q-exp-7: missing key formula
+- ref-assess-q-exp-9: missing key formula
+- ref-assess-q-exp-10: missing key formula
+- ref-assess-q-ineq-2: missing key formula
+- ref-assess-q-ineq-3: missing key formula
+- ref-assess-q-ineq-4: missing key formula
+- ref-assess-q-ineq-5: missing key formula
+- ref-assess-q-ineq-6: missing key formula
+- ref-assess-q-ineq-8: missing key formula
+- ref-assess-q-ineq-9: missing key formula
+- ref-assess-q-ineq-9: duplicate normalized prompt excluded
+- ref-assess-q-ineq-10: missing key formula
+- ref-assess-q-lin-3: missing key formula
+- ref-assess-q-lin-4: missing key formula
+- ref-assess-q-lin-5: missing key formula
+- ref-assess-q-lin-6: missing key formula
+- ref-assess-q-lin-8: missing key formula
+- ref-assess-q-lin-9: missing key formula
+- ref-assess-q-lin-10: missing key formula
+- ref-assess-q-lin-12: missing key formula
+- ref-assess-q-lin-13: missing key formula
+- ref-assess-q-lin-14: missing key formula
+- ref-assess-q-lin-15: missing key formula
+- ref-assess-q-abs-2: missing key formula
+- ref-assess-q-abs-3: missing key formula
+- ref-assess-q-abs-4: missing key formula
+- ref-assess-q-abs-5: missing key formula
+- ref-assess-q-abs-6: missing key formula
+- ref-assess-q-abs-8: missing key formula
+- ref-assess-q-abs-9: missing key formula
+- ref-assess-q-abs-10: missing key formula
+- ref-assess-q-rreq-2: missing key formula
+- ref-assess-q-rreq-4: missing key formula
+- ref-assess-q-rreq-5: missing key formula
+- ref-assess-q-rreq-6: missing key formula
+- ref-assess-q-rreq-9: missing key formula
+- ref-assess-q-rreq-10: missing key formula
+- ref-assess-q-rreq-12: missing key formula
+- ref-assess-q-rreq-13: missing key formula
+- ref-assess-q-rreq-14: missing key formula
+- ref-assess-q-rreq-15: missing key formula
+- ref-assess-q-log-3: missing key formula
+- ref-assess-q-log-4: missing key formula
+- ref-assess-q-log-5: missing key formula
+- ref-assess-q-log-6: missing key formula
+- ref-assess-q-log-8: missing key formula
+- ref-assess-q-log-9: missing key formula
+- ref-assess-q-log-10: missing key formula
+- ref-assess-q-log-12: missing key formula
+- ref-assess-q-log-13: missing key formula
+- ref-assess-q-log-14: missing key formula
+- ref-assess-q-log-15: missing key formula
+- ref-assess-q-sys-3: missing key formula
+- ref-assess-q-sys-4: missing key formula
+- ref-assess-q-sys-5: missing key formula
+- ref-assess-q-sys-6: missing key formula
+- ref-assess-q-sys-7: missing key formula
+- ref-assess-q-sys-8: missing key formula
+- ref-assess-q-sys-9: missing key formula
+- ref-assess-q-sys-10: missing key formula
+- ref-assess-q-sys-12: missing key formula
+- ref-assess-q-sys-13: missing key formula
+- ref-assess-q-sys-14: missing key formula
+- ref-assess-q-sys-15: missing key formula
+- ref-assess-q-cx-3: missing key formula
+- ref-assess-q-cx-4: missing key formula
+- ref-assess-q-cx-6: missing key formula
+- ref-assess-q-cx-7: missing key formula
+- ref-assess-q-cx-8: missing key formula
+- ref-assess-q-cx-9: missing key formula
+- ref-assess-q-cx-10: missing key formula
+- ref-assess-q-ap-3: missing key formula
+- ref-assess-q-ap-4: missing key formula
+- ref-assess-q-ap-5: missing key formula
+- ref-assess-q-ap-6: missing key formula
+- ref-assess-q-ap-7: missing key formula
+- ref-assess-q-ap-8: missing key formula
+- ref-assess-q-ap-9: missing key formula
+- ref-assess-q-ap-10: missing key formula
+- ref-assess-q-gp-3: missing key formula
+- ref-assess-q-gp-4: missing key formula
+- ref-assess-q-gp-5: missing key formula
+- ref-assess-q-gp-6: missing key formula
+- ref-assess-q-gp-7: missing key formula
+- ref-assess-q-gp-8: missing key formula
+- ref-assess-q-gp-9: missing key formula
+- ref-assess-q-gp-10: missing key formula
+- ref-assess-q-bin-3: missing key formula
+- ref-assess-q-bin-4: missing key formula
+- ref-assess-q-bin-5: missing key formula
+- ref-assess-q-bin-6: missing key formula
+- ref-assess-q-bin-7: missing key formula
+- ref-assess-q-bin-8: missing key formula
+- ref-assess-q-bin-9: missing key formula
+- ref-assess-q-bin-10: missing key formula
+- ref-assess-q-mat-4: missing key formula
+- ref-assess-q-mat-5: missing key formula
+- ref-assess-q-mat-6: missing key formula
+- ref-assess-q-mat-7: missing key formula
+- ref-assess-q-mat-8: missing key formula
+- ref-assess-q-mat-9: missing key formula
+- ref-assess-q-mat-10: missing key formula
+- ref-assess-q-mat-11: missing key formula
+- ref-assess-q-mat-13: missing key formula
+- ref-assess-q-mat-14: missing key formula
+- ref-assess-q-mat-15: missing key formula
+- ref-assess-q-pf-3: missing key formula
+- ref-assess-q-pf-4: missing key formula
+- ref-assess-q-pf-5: missing key formula
+- ref-assess-q-pf-6: missing key formula
+- ref-assess-q-pf-7: missing key formula
+- ref-assess-q-pf-8: missing key formula
+- ref-assess-q-pf-9: missing key formula
+- ref-assess-q-pf-10: missing key formula
+- ref-assess-q-pf-11: missing key formula
+- ref-assess-q-pf-12: missing key formula
+- ref-assess-q-pf-13: missing key formula
+- ref-assess-q-pf-14: missing key formula
+- ref-assess-q-pf-15: missing key formula
+- ref-assess-q-wp-2: missing key formula
+- ref-assess-q-wp-3: missing key formula
+- ref-assess-q-wp-6: missing key formula
+- ref-assess-q-wp-7: missing key formula
+- ref-assess-q-wp-8: missing key formula
+- ref-assess-q-wp-9: missing key formula
+- ref-assess-q-wp-10: missing key formula
+- ref-assess-q-inv-2: missing key formula
+- ref-assess-q-inv-3: missing key formula
+- ref-assess-q-inv-4: missing key formula
+- ref-assess-q-inv-5: missing key formula
+- ref-assess-q-inv-6: missing key formula
+- ref-assess-q-inv-7: missing key formula
+- ref-assess-q-inv-8: missing key formula
+- ref-assess-q-inv-9: missing key formula
+- ref-assess-q-inv-10: missing key formula
+- ref-assess-q-pfun-2: missing key formula
+- ref-assess-q-pfun-3: missing key formula
+- ref-assess-q-pfun-4: missing key formula
+- ref-assess-q-pfun-5: missing key formula
+- ref-assess-q-pfun-6: missing key formula
+- ref-assess-q-pfun-8: missing key formula
+- ref-assess-q-pfun-9: missing key formula
+- ref-assess-q-pfun-10: missing key formula
+- ref-assess-q-rfun-2: missing key formula
+- ref-assess-q-rfun-3: missing key formula
+- ref-assess-q-rfun-4: missing key formula
+- ref-assess-q-rfun-5: missing key formula
+- ref-assess-q-rfun-6: missing key formula
+- ref-assess-q-rfun-7: missing key formula
+- ref-assess-q-rfun-8: missing key formula
+- ref-assess-q-rfun-9: missing key formula
+- ref-assess-q-rfun-10: missing key formula
+- ref-assess-q-hp-3: missing key formula
+- ref-assess-q-hp-4: missing key formula
+- ref-assess-q-hp-5: missing key formula
+- ref-assess-q-hp-6: missing key formula
+- ref-assess-q-hp-7: missing key formula
+- ref-assess-q-hp-8: missing key formula
+- ref-assess-q-hp-9: missing key formula
+- ref-assess-q-hp-10: missing key formula
+
+## Target shortages, official course level
+
+- math / Differential Calculus: requires 2, provides 1, missing 1 at 50 requested
+- math / Integral Calculus: requires 2, provides 1, missing 1 at 50 requested
+- math / Engineering Data Analysis: requires 1, provides 0, missing 1 at 50 requested
+- math / Electromagnetic (shares with Electronics): requires 1, provides 0, missing 1 at 50 requested
+- math / Signals, Spectra & Signal Processing (shares with EST): requires 1, provides 0, missing 1 at 50 requested
+- math / Feedback and Control Systems (shares with Electronics): requires 1, provides 0, missing 1 at 50 requested
+- geas / Engineering Management: requires 1, provides 0, missing 1 at 50 requested
+- geas / Technopreneurship 101: requires 1, provides 0, missing 1 at 50 requested
+- geas / Computer Programming: requires 1, provides 0, missing 1 at 50 requested
+- geas / Environment Science and Engineering: requires 1, provides 0, missing 1 at 50 requested
+- geas / ECE Laws, Contracts, Ethics, Standards & Safety: requires 1, provides 0, missing 1 at 50 requested
+- electronics / Electromagnetics (shared with Mathematics): requires 1, provides 0, missing 1 at 50 requested
+- electronics / Logic Circuits and Switching Theory: requires 2, provides 1, missing 1 at 50 requested
+- electronics / Microprocessor & Microcontroller Systems and Design: requires 2, provides 0, missing 2 at 50 requested
+- electronics / Feedback and Control Systems (shared with Mathematics): requires 1, provides 0, missing 1 at 50 requested
+- est / Electronics 3: Electronic Systems and Design: requires 1, provides 0, missing 1 at 50 requested
+- est / Data Communications: requires 3, provides 2, missing 1 at 50 requested
+
+The numerical practice question count is NOT a measure of complete TOS competency coverage.

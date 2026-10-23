@@ -1,0 +1,47 @@
+{
+  "version": "10.30.0",
+  "officialSource": "https://www.prc.gov.ph/sites/default/files/EE2022-10%20TOS.pdf",
+  "scope": "all static mock and algebra reference assessment questions, not all lesson/practice items",
+  "totalQuestions": 368,
+  "uniquePrompts": 367,
+  "duplicatePrompts": [
+    {
+      "id": "ref-assess-q-ineq-9",
+      "first": "ref-assess-q-ineq-3"
+    }
+  ],
+  "quality": {
+    "numeric-fixture-checked": 34,
+    "generator-checked": 96,
+    "manual-review-required": 238
+  },
+  "originCounts": {
+    "legacy/reference": 240,
+    "original-v10.14": 96,
+    "original-v10.16": 32
+  },
+  "courseMappedUnique": 152,
+  "courseUnmappedUnique": 215,
+  "flaggedFamilyCount": 5,
+  "flaggedMappedVariants": 10,
+  "noKey": [],
+  "missingFormula": 203,
+  "missingExplanation": 0,
+  "duplicateOptionIds": [],
+  "duplicateOptionTexts": [],
+  "tos50": {
+    "selected": 47,
+    "missing": 3,
+    "representative": false
+  },
+  "tos100": {
+    "selected": 83,
+    "missing": 17,
+    "representative": false
+  },
+  "expertApprovedQuestions": 0,
+  "subtopicCertifiedFamilies": 0,
+  "difficultyCellCertified": 0,
+  "physicalDeviceCertified": 0,
+  "evidenceNote": "Automated option/metadata/fixture checks cannot establish full mathematical, editorial, subtopic or cognitive-level correctness."
+}

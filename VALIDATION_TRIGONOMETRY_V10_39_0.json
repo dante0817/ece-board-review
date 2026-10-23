@@ -1,0 +1,18 @@
+{
+  "version": "10.39.0",
+  "referenceBase": "v10.38.0 full source",
+  "addedLessons": 14,
+  "addedQuestions": 112,
+  "foundationSubtopics": 29,
+  "foundationLinkedLessons": 29,
+  "foundationQuestions": 232,
+  "totalCurriculumSubtopics": 102,
+  "allLinkedDraftLessons": 30,
+  "allTrigonometryQuestions": 240,
+  "plannedSubtopics": 72,
+  "fixedLegacyLatexFormulaEscaping": 12,
+  "contentReviewStatus": "draft-unverified",
+  "npmBuildVerified": false,
+  "npmInstallIssue": "npm ci --offline ENOTCACHED for zwitch",
+  "testStatus": "source/data-layer passed"
+}
