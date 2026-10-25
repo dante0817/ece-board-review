@@ -143,7 +143,8 @@
     "qa:probability-statistics:v10.69.0": "npm run validate:probability-statistics:v10.69.0",
     "check:ps-fingerprints:v10.69.0": "node scripts/checkProbabilityStatisticsReviewFingerprintsV10690.mjs",
     "validate:differential-equations:pilot": "node scripts/validateDifferentialEquationsPilot.mjs",
-    "validate:calculator:simulator": "node --experimental-strip-types scripts/validateF789Simulator.mjs"
+    "validate:calculator:simulator": "node --experimental-strip-types scripts/validateF789Simulator.mjs",
+    "validate:calculus:v10.70.0": "node scripts/verifyCalculusV1070.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
