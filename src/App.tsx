@@ -18,6 +18,7 @@ import { PlaneGeometryScreen } from './features/plane-geometry/PlaneGeometryScre
 import { AnalyticGeometryScreen } from './features/analytic-geometry/AnalyticGeometryScreen';
 import { ProbabilityStatisticsScreen } from './features/probability-statistics/ProbabilityStatisticsScreen';
 import { DifferentialEquationsScreen } from './features/differential-equations/DifferentialEquationsScreen';
+import { CalculusScreen } from './features/calculus/CalculusScreen';
 import { RealNumbersScreen } from './components/RealNumbersScreen';
 import { RationalExpressionsScreen } from './components/RationalExpressionsScreen';
 import { LinearEquationsScreen } from './components/LinearEquationsScreen';
@@ -73,6 +74,8 @@ const MainContent: React.FC = () => {
     'analytic-geometry',
     'probability-statistics',
     'differential-equations',
+    'differential-calculus',
+    'integral-calculus',
     'solid-mensuration',
     'real-numbers',
     'rational-expressions',
@@ -122,6 +125,8 @@ const MainContent: React.FC = () => {
       {currentScreen === 'analytic-geometry' && <AnalyticGeometryScreen />}
       {currentScreen === 'probability-statistics' && <ProbabilityStatisticsScreen />}
       {currentScreen === 'differential-equations' && <DifferentialEquationsScreen />}
+      {currentScreen === 'differential-calculus' && <CalculusScreen subject="differential" />}
+      {currentScreen === 'integral-calculus' && <CalculusScreen subject="integral" />}
       {currentScreen === 'solid-mensuration' && <SolidMensurationScreen />}
       {currentScreen === 'real-numbers' && <RealNumbersScreen />}
       {currentScreen === 'rational-expressions' && <RationalExpressionsScreen />}
