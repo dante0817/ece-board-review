@@ -1,6 +1,7 @@
 import React,{useEffect,useMemo,useState} from 'react';
 import {ArrowLeft,BookOpen,ChevronDown,ChevronRight,ClipboardCheck,FileText,ListChecks,Search,ShieldAlert} from 'lucide-react';
 import {TreeMenuHeader} from '../../components/TreeMenuHeader';
+import type {LessonBlock} from '../../domain/learn/lessonTypes';
 import {MathFormula} from '../../components/MathFormula';
 import {LearnReaderLayout} from '../../components/learn-reader/LearnReaderLayout';
 import {ManualLearnTracker} from '../../components/learn-reader/ManualLearnTracker';
@@ -11,7 +12,6 @@ import {CALCULUS_QUESTIONS,CALCULUS_EXAM_READY,CALCULUS_APPROVED_EXAM_QUESTION_I
 
 type Tab='lessons'|'formulas'|'practice'|'review';
 const trackingId=(id:string)=>'chapter-top-calculus-'+id;
-const tone=(subject:CalculusSubject)=>subject==='differential'?'cyan':'amber';
 const buttonClass='rounded-xl border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:bg-slate-50 focus-visible:outline-2 focus-visible:outline-blue-500';
 
 export const CalculusScreen:React.FC<{subject:CalculusSubject}>=({subject})=>{
@@ -64,7 +64,7 @@ export const CalculusScreen:React.FC<{subject:CalculusSubject}>=({subject})=>{
       </div>}
      </section>})}
     </div>}
-    {tab==='formulas'&&<section className="space-y-4 rounded-xl border border-slate-200 bg-white p-4 sm:p-6"><h2 className="text-lg font-bold">Formula reference · authored draft lessons</h2><p className="text-sm text-slate-600">These are selected formulas from the current lessons. Read the conditions before applying them.</p>{lessonEntries.map(l=>{const formulas=l.sections.flatMap(s=>s.blocks).filter((b):b is Extract<typeof l.sections[number]['blocks'][number],{type:'formula'}>=>b.type==='formula');return <div key={l.id} className="space-y-2 rounded-xl border p-3"><h3 className="font-semibold text-slate-800">{l.title}</h3>{formulas.map(f=><div key={f.id}><div className="max-w-full overflow-x-auto"><MathFormula formula={f.latex} block/></div>{f.description&&<p className="mt-1 text-xs text-amber-900">{f.description}</p>}</div>)}<button type="button" className="text-sm font-bold text-blue-700 underline" onClick={()=>openLesson(l.id)}>Open lesson</button></div>})}</section>}
+    {tab==='formulas'&&<section className="space-y-4 rounded-xl border border-slate-200 bg-white p-4 sm:p-6"><h2 className="text-lg font-bold">Formula reference · authored draft lessons</h2><p className="text-sm text-slate-600">These are selected formulas from the current lessons. Read the conditions before applying them.</p>{lessonEntries.map(l=>{const formulas=l.sections.flatMap(s=>s.blocks).filter((b):b is Extract<LessonBlock,{type:'formula'}>=>b.type==='formula');return <div key={l.id} className="space-y-2 rounded-xl border p-3"><h3 className="font-semibold text-slate-800">{l.title}</h3>{formulas.map(f=><div key={f.id}><div className="max-w-full overflow-x-auto"><MathFormula formula={f.latex} block/></div>{f.description&&<p className="mt-1 text-xs text-amber-900">{f.description}</p>}</div>)}<button type="button" className="text-sm font-bold text-blue-700 underline" onClick={()=>openLesson(l.id)}>Open lesson</button></div>})}</section>}
     {tab==='practice'&&<section className="space-y-4 rounded-xl border border-slate-200 bg-white p-4 sm:p-6">
       <h2 className="text-lg font-bold text-slate-900">Original topic practice · ungraded draft</h2><p className="text-sm text-amber-900">Checks on this page show the draft answer and explanation. Results are not saved as official scores or counted toward readiness.</p>
       <label className="block text-sm font-semibold">Topic group<select className="mt-1 w-full rounded-lg border border-slate-300 bg-white p-2.5" value={activeModule?.id??''} onChange={e=>{setPracticeModule(e.target.value);setSelectedQuestion(0)}}>{modules.map(m=><option key={m.id} value={m.id}>{m.id} · {m.title}</option>)}</select></label>
