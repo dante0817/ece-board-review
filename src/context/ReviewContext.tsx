@@ -79,6 +79,8 @@ export type ScreenType =
   | 'analytic-geometry'
   | 'probability-statistics'
   | 'differential-equations'
+  | 'differential-calculus'
+  | 'integral-calculus'
   | 'solid-mensuration'
   | 'real-numbers'
   | 'rational-expressions'
