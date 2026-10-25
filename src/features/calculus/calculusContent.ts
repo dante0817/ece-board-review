@@ -376,7 +376,8 @@ const raw:RawLesson[]=[
     "problem": "Find ∫3x² dx.",
     "strategy": "Increase the exponent, then divide by the new exponent.",
     "steps": [
-      "∫3x² dx=x³+C."
+      "Apply the power rule to 3x²: increase the exponent to 3 and divide by 3.",
+      "The antiderivative is x³+C. The arbitrary constant accounts for all antiderivatives."
     ],
     "check": "Differentiate x³+C to recover 3x².",
     "checkpoint": "Find ∫4x³ dx.",
@@ -393,7 +394,8 @@ const raw:RawLesson[]=[
     "problem": "Find ∫₀² 3x² dx.",
     "strategy": "Find F=x³ and evaluate at both endpoints.",
     "steps": [
-      "F(2)−F(0)=8−0=8."
+      "An antiderivative of 3x² is F(x)=x³.",
+      "Evaluate F(2)−F(0)=8−0=8."
     ],
     "check": "The signed integral is nonnegative because f≥0 on [0,2].",
     "checkpoint": "Compute ∫₀³ 2x dx.",
@@ -855,7 +857,8 @@ const raw:RawLesson[]=[
     "problem": "Find ∫₀^(π/2) cos x dx.",
     "strategy": "Use the sine antiderivative.",
     "steps": [
-      "Evaluate sin(π/2)−sin(0)=1−0=1."
+      "Choose the trigonometric antiderivative F(x)=sin x.",
+      "Evaluate F(π/2)−F(0)=1−0=1."
     ],
     "check": "Differentiating sin x gives cos x.",
     "checkpoint": "Evaluate ∫₁ᵉ 1/x dx.",
