@@ -825,6 +825,285 @@ const raw:RawLesson[]=[
     "checkpoint": "Classify (0,0) for f=x²+y².",
     "answer": "Strict minimum",
     "explanation": "The Hessian is positive definite."
+  },
+  {
+    "id": "ic01-03",
+    "title": "Riemann sums",
+    "summary": "Define a definite integral as a limit of finite approximations.",
+    "definition": "A regular right-endpoint Riemann sum uses function values times the subinterval width.",
+    "formula": "\\int_a^b f(x)\\,dx=\\lim_{n\\to\\infty}\\sum_{k=1}^n f(a+k\\Delta x)\\Delta x",
+    "condition": "For this elementary definition assume f is integrable and Δx=(b−a)/n.",
+    "problem": "Show that ∫₀¹ x dx=1/2 with right-endpoint sums.",
+    "strategy": "Divide [0,1] into n equal parts.",
+    "steps": [
+      "At x_k=k/n and Δx=1/n, S_n=Σ(k/n)(1/n).",
+      "Using Σk=n(n+1)/2 gives S_n=(n+1)/(2n).",
+      "Take n→∞ to get 1/2."
+    ],
+    "check": "Direct antiderivative evaluation also gives 1/2.",
+    "checkpoint": "Evaluate ∫₀¹ 2x dx.",
+    "answer": "1",
+    "explanation": "Twice the area ∫₀¹x dx gives 1."
+  },
+  {
+    "id": "ic01-04",
+    "title": "Logarithmic and trigonometric antiderivatives",
+    "summary": "Recognize two common exceptions to the power-rule pattern.",
+    "definition": "The antiderivative of 1/x is logarithmic on intervals avoiding zero; cosine integrates to sine.",
+    "formula": "\\int\\frac{dx}{x}=\\ln|x|+C,\\quad\\int\\cos x\\,dx=\\sin x+C",
+    "condition": "Use radians for trigonometric antiderivatives and avoid x=0 for 1/x.",
+    "problem": "Find ∫₀^(π/2) cos x dx.",
+    "strategy": "Use the sine antiderivative.",
+    "steps": [
+      "Evaluate sin(π/2)−sin(0)=1−0=1."
+    ],
+    "check": "Differentiating sin x gives cos x.",
+    "checkpoint": "Evaluate ∫₁ᵉ 1/x dx.",
+    "answer": "1",
+    "explanation": "ln e−ln 1=1−0."
+  },
+  {
+    "id": "ic01-05",
+    "title": "Properties of definite integrals",
+    "summary": "Use symmetry of limits and interval decomposition to simplify expressions.",
+    "definition": "Reversing integration endpoints reverses the sign of the definite integral.",
+    "formula": "\\int_b^a f(x)\\,dx=-\\int_a^b f(x)\\,dx",
+    "condition": "This is a signed integral identity, not a statement that geometric area is negative.",
+    "problem": "Evaluate ∫₂⁰ 3x² dx.",
+    "strategy": "Use the antiderivative x³.",
+    "steps": [
+      "An antiderivative is x³.",
+      "Evaluate F(0)−F(2)=0−8=−8."
+    ],
+    "check": "Reversing the bounds of ∫₀²3x²=8 gives −8.",
+    "checkpoint": "Evaluate ∫₁¹ x² dx.",
+    "answer": "0",
+    "explanation": "An integral with identical lower and upper bounds is zero."
+  },
+  {
+    "id": "ic02-03",
+    "title": "Integrals involving trigonometric powers",
+    "summary": "Use identities to reduce even powers of sine and cosine.",
+    "definition": "Power-reduction identities convert squared trigonometric functions into integrable expressions.",
+    "formula": "\\sin^2x=\\frac{1-\\cos2x}{2}",
+    "condition": "Angles are in radians; trigonometric substitutions must preserve integration bounds.",
+    "problem": "Evaluate ∫₀^π sin²x dx.",
+    "strategy": "Replace sin²x using the double-angle identity.",
+    "steps": [
+      "∫₀^π sin²x dx=(1/2)∫₀^π(1−cos2x)dx.",
+      "Antiderivative is x/2−sin2x/4.",
+      "Evaluate endpoints to obtain π/2."
+    ],
+    "check": "The average of sin²x over a full half-cycle is 1/2.",
+    "checkpoint": "Evaluate ∫₀^π cos²x dx.",
+    "answer": "π/2",
+    "explanation": "Use cos²x=(1+cos2x)/2."
+  },
+  {
+    "id": "ic02-04",
+    "title": "Trigonometric substitution",
+    "summary": "Match a square-root expression to a trigonometric identity.",
+    "definition": "For √(a²−x²), the substitution x=a sinθ converts the radical to a cosine factor on suitable intervals.",
+    "formula": "\\int\\frac{dx}{\\sqrt{a^2-x^2}}=\\arcsin(x/a)+C\\quad(a>0)",
+    "condition": "The displayed branch formula holds for −a<x<a, with improper endpoint limits treated separately.",
+    "problem": "Evaluate ∫₀^(3/2) dx/√(9−x²).",
+    "strategy": "Use the arcsine antiderivative with a=3.",
+    "steps": [
+      "The antiderivative is arcsin(x/3).",
+      "At x=3/2, arcsin(1/2)=π/6; at x=0, it is zero.",
+      "The value is π/6."
+    ],
+    "check": "Differentiating arcsin(x/3) gives 1/√(9−x²) for |x|<3.",
+    "checkpoint": "Evaluate ∫₀² dx/√(4−x²).",
+    "answer": "π/2",
+    "explanation": "Take a one-sided endpoint limit of arcsin(x/2), giving π/2."
+  },
+  {
+    "id": "ic02-05",
+    "title": "Integration by partial fractions",
+    "summary": "Decompose suitable rational functions before integrating.",
+    "definition": "For distinct simple linear factors, express the rational function as a sum of simpler fractions.",
+    "formula": "\\frac1{x(x+1)}=\\frac1x-\\frac1{x+1}",
+    "condition": "Factor the denominator and exclude poles; the integral is defined on intervals avoiding poles.",
+    "problem": "Evaluate ∫₁² 1/[x(x+1)] dx.",
+    "strategy": "Decompose using the stated identity.",
+    "steps": [
+      "Antiderivative is ln|x|−ln|x+1|.",
+      "At 2 this is ln2−ln3; at 1 it is −ln2.",
+      "Subtract to obtain ln(4/3)."
+    ],
+    "check": "The integrand is positive over [1,2], so ln(4/3)>0.",
+    "checkpoint": "Evaluate ∫₁² 2/[x(x+1)] dx.",
+    "answer": "2ln(4/3)",
+    "explanation": "Twice the preceding definite integral."
+  },
+  {
+    "id": "ic03-03",
+    "title": "The p-test for infinite intervals",
+    "summary": "Use exponent tests to judge whether a tail integral converges.",
+    "definition": "The integral of x^(−p) from 1 to infinity converges precisely for p>1.",
+    "formula": "\\int_1^\\infty x^{-p}\\,dx=\\frac1{p-1}\\quad(p>1)",
+    "condition": "The p-test for integrals near zero has a different threshold direction; do not mix them.",
+    "problem": "Evaluate ∫₁∞ x^(−3) dx.",
+    "strategy": "Apply the improper-integral definition or the p-test.",
+    "steps": [
+      "An antiderivative is −1/(2x²).",
+      "As the upper limit tends to infinity, its term tends to zero.",
+      "The value is 1/2."
+    ],
+    "check": "p=3>1 ensures convergence.",
+    "checkpoint": "Does ∫₁∞ 1/x dx converge?",
+    "answer": "No, diverges.",
+    "explanation": "The harmonic-tail logarithm ln b grows without bound."
+  },
+  {
+    "id": "ic03-04",
+    "title": "Comparison tests",
+    "summary": "Compare an improper integrand to a known convergent or divergent bound.",
+    "definition": "For nonnegative integrands with f(x)≤g(x) eventually and convergent ∫g, the integral ∫f converges.",
+    "formula": "0\\le f(x)\\le g(x),\\quad\\int_a^\\infty g<\\infty\\;\\Rightarrow\\;\\int_a^\\infty f<\\infty",
+    "condition": "Comparison requires nonnegative functions and correct inequality direction on the relevant tail.",
+    "problem": "Does ∫₁∞ 1/(x²+1) dx converge?",
+    "strategy": "Compare the integrand against x^(−2) for x≥1.",
+    "steps": [
+      "For x≥1, 0<1/(x²+1)≤1/x².",
+      "Since ∫₁∞1/x² dx converges, comparison proves convergence.",
+      "Direct evaluation gives arctan(∞)−arctan(1)=π/4."
+    ],
+    "check": "The exact value π/4 is finite.",
+    "checkpoint": "Does ∫₁∞ 1/(x²+4) dx converge?",
+    "answer": "Yes",
+    "explanation": "Bound it above by 1/x² on x≥1."
+  },
+  {
+    "id": "ic03-05",
+    "title": "Interior singularities",
+    "summary": "Split at an interior singularity and test both one-sided integrals.",
+    "definition": "An integral across a pole is improper even if the interval endpoints are finite.",
+    "formula": "\\int_a^b f=\\int_a^c f+\\int_c^b f\\quad\\text{only if both limits converge}",
+    "condition": "Do not confuse a Cauchy principal value with convergence of the ordinary improper integral.",
+    "problem": "Evaluate ∫₋₁¹ 1/√|x| dx.",
+    "strategy": "Split at x=0 and use symmetry.",
+    "steps": [
+      "The positive-side integral ∫₀¹x^(−1/2)dx=2.",
+      "The negative-side integral has the same value by substitution u=−x.",
+      "The total converges to 4."
+    ],
+    "check": "Both one-sided integrals are finite, so their sum is valid.",
+    "checkpoint": "Does ∫₋₁¹1/x² dx converge?",
+    "answer": "No",
+    "explanation": "Both one-sided integrals diverge to positive infinity."
+  },
+  {
+    "id": "ic04-03",
+    "title": "Washers and hollow solids",
+    "summary": "Subtract inner disk area from outer disk area when revolving a bounded region.",
+    "definition": "Washer cross-sectional area is π[R(x)²−r(x)²].",
+    "formula": "V=\\pi\\int_a^b(R(x)^2-r(x)^2)\\,dx",
+    "condition": "R(x)≥r(x)≥0 must be the correct distances from the axis of rotation.",
+    "problem": "Rotate the region between y=2 and y=x over 0≤x≤1 about the x-axis.",
+    "strategy": "The outer radius is 2 and inner radius is x.",
+    "steps": [
+      "V=π∫₀¹(4−x²)dx.",
+      "Integrate: π[4x−x³/3]₀¹.",
+      "The volume is 11π/3."
+    ],
+    "check": "The volume is less than a radius-2 cylinder of unit length, 4π.",
+    "checkpoint": "Rotate the region under y=1 on 0≤x≤2 about x-axis. Find volume.",
+    "answer": "2π",
+    "explanation": "A cylinder of radius 1 and length 2 has volume 2π."
+  },
+  {
+    "id": "ic04-04",
+    "title": "Arc length from derivatives",
+    "summary": "Integrate the local distance element along a smooth graph.",
+    "definition": "For a differentiable graph y=f(x), arc length is the integral of √(1+(f')²).",
+    "formula": "L=\\int_a^b\\sqrt{1+(f'(x))^2}\\,dx",
+    "condition": "This graph formula requires suitable regularity and finite length.",
+    "problem": "Find the length of y=(3/4)x from x=0 to x=4.",
+    "strategy": "A straight segment has constant slope 3/4.",
+    "steps": [
+      "The integrand is √(1+9/16)=5/4.",
+      "L=(5/4)(4)=5."
+    ],
+    "check": "The endpoints are (0,0) and (4,3), whose distance is 5.",
+    "checkpoint": "For the same line on 0≤x≤8, find length.",
+    "answer": "10",
+    "explanation": "The graph factor is 5/4, multiplied by 8."
+  },
+  {
+    "id": "ic04-05",
+    "title": "Work by a variable force",
+    "summary": "Integrate force over displacement with consistent units.",
+    "definition": "Work along one dimension equals ∫F(x)dx with force as a function of displacement.",
+    "formula": "W=\\int_{x_0}^{x_1}F(x)\\,dx",
+    "condition": "Positive work assumes force and displacement in the same direction; units N·m=J.",
+    "problem": "A spring has k=20 N/m. Compute work to stretch it from 0 to 0.1 m.",
+    "strategy": "Hooke's magnitude is F(x)=kx.",
+    "steps": [
+      "W=∫₀^0.1 20x dx.",
+      "W=10(0.1)²=0.1 J."
+    ],
+    "check": "The energy stored is (1/2)kx²=0.1 J.",
+    "checkpoint": "For k=10 N/m and stretch 0 to 0.2 m, find work.",
+    "answer": "0.2 J",
+    "explanation": "W=(1/2)(10)(0.2²)=0.2 J."
+  },
+  {
+    "id": "ic05-03",
+    "title": "Triangular regions and reversed bounds",
+    "summary": "Translate a two-dimensional domain into iterated integration bounds.",
+    "definition": "Equivalent orders of integration describe the same region and give the same double integral.",
+    "formula": "\\int_0^1\\int_0^x 1\\,dy\\,dx=\\int_0^1\\int_y^1 1\\,dx\\,dy",
+    "condition": "A change in integration order requires deriving new bounds from the domain.",
+    "problem": "Evaluate ∫₀¹∫₀ˣ1 dy dx.",
+    "strategy": "Integrate in y then x.",
+    "steps": [
+      "Inner integral is x.",
+      "Outer integral ∫₀¹x dx=1/2.",
+      "Reversed integration order gives the same 1/2."
+    ],
+    "check": "The domain is a right triangle of area 1/2.",
+    "checkpoint": "Evaluate ∫₀¹∫₀ˣ2 dy dx.",
+    "answer": "1",
+    "explanation": "Doubling the integrand doubles the triangular area integral."
+  },
+  {
+    "id": "ic05-04",
+    "title": "Triple integrals over boxes",
+    "summary": "Use the volume of a rectangular solid for constant integrands.",
+    "definition": "A constant integrates over a box to the constant times the box volume.",
+    "formula": "\\iiint_{[a,b]\\times[c,d]\\times[e,f]}k\\,dV=k(b-a)(d-c)(f-e)",
+    "condition": "The region is a rectangular box with independent bounds.",
+    "problem": "Evaluate ∭3 dV over 0≤x≤2, 0≤y≤1, 0≤z≤4.",
+    "strategy": "Calculate the dimensions of the box.",
+    "steps": [
+      "Its volume is 2·1·4=8.",
+      "Multiplying by constant 3 gives 24."
+    ],
+    "check": "All three orders of integration give the same result.",
+    "checkpoint": "Evaluate ∭2 dV on the unit cube.",
+    "answer": "2",
+    "explanation": "The unit cube has volume one."
+  },
+  {
+    "id": "ic05-05",
+    "title": "Polar Jacobians and circular regions",
+    "summary": "Convert double-integral regions to polar coordinates, retaining the area scaling.",
+    "definition": "In the polar transformation x=r cosθ,y=r sinθ, the Jacobian magnitude is r.",
+    "formula": "\\iint_D f(x,y)\\,dA=\\iint_{D'}f(r\\cos\\theta,r\\sin\\theta)\\,r\\,dr\\,d\\theta",
+    "condition": "Require nonoverlapping bounds and r≥0; the Jacobian cannot be omitted.",
+    "problem": "Find the area of the unit disk using polar integration.",
+    "strategy": "The disk has 0≤r≤1 and 0≤θ≤2π.",
+    "steps": [
+      "Area=∫₀²π∫₀¹r dr dθ.",
+      "The inner integral equals 1/2.",
+      "Multiply by 2π to obtain π."
+    ],
+    "check": "The result matches the area of a radius-1 disk.",
+    "checkpoint": "Find area of x²+y²≤4 by polar integration.",
+    "answer": "4π",
+    "explanation": "Use 0≤r≤2 and integrate r over a full revolution."
   }
 ];
 export const CALCULUS_LESSONS:Record<string,LearnLesson>=Object.fromEntries(raw.map(p=>{
