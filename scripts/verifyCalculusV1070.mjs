@@ -11,7 +11,7 @@ assert.equal(modules?.length,10,'ten distinct PRC syllabus groups required');
 assert.equal(new Set(modules.map(m=>m.id)).size,10,'duplicate module IDs');
 assert.equal(modules.filter(m=>m.subject==='differential').reduce((n,m)=>n+m.items,0),15);
 assert.equal(modules.filter(m=>m.subject==='integral').reduce((n,m)=>n+m.items,0),15);
-assert.equal(lessons?.length,20,'twenty originally authored draft lessons expected');
+assert.equal(lessons?.length,50,'fifty originally authored draft lessons expected');
 assert.equal(new Set(lessons.map(l=>l.id)).size,20,'duplicate lesson IDs');
 for(const lesson of lessons){
  const m=modules.find(m=>lesson.id.startsWith(m.id.toLowerCase()+'-'));
@@ -23,7 +23,7 @@ for(const lesson of lessons){
 assert.equal(questions?.length,90,'ninety original practice variants expected');
 assert.equal(new Set(questions.map(q=>q.id)).size,90,'duplicate question IDs');
 for(const m of modules) {
- assert.equal(lessons.filter(l=>l.id.startsWith(m.id.toLowerCase()+'-')).length,2,'two authored draft lessons per module: '+m.id);
+ assert.equal(lessons.filter(l=>l.id.startsWith(m.id.toLowerCase()+'-')).length,5,'five authored draft lessons per module: '+m.id);
  assert.equal(questions.filter(q=>q.moduleId===m.id).length,9,'nine practice variants per module: '+m.id);
 }
 for(const q of questions){
@@ -37,5 +37,5 @@ for(const q of questions){
 }
 assert.match(bank,/CALCULUS_EXAM_READY=false/,'unverified items must not enter certified exam');
 assert.match(bank,/CALCULUS_APPROVED_EXAM_QUESTION_IDS:readonly string\[\]=\[\]/,'approved pool must remain empty');
-console.log('PASS: 10 modules, 20 draft lessons, 90 distinct original practice variants, 0 certified exam items.');
+console.log('PASS: 10 modules, 50 draft lessons, 90 distinct original practice variants, 0 certified exam items.');
 console.log('NOTICE: structural validation does NOT certify mathematical correctness or browser/build integrity.');
