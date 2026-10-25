@@ -1,0 +1,26 @@
+name: Calculus candidate checks
+on:
+  pull_request:
+    paths:
+      - 'src/features/calculus/**'
+      - 'src/features/mathematics/mathCatalog.ts'
+      - 'src/context/ReviewContext.tsx'
+      - 'src/App.tsx'
+      - 'scripts/verifyCalculusV1070.mjs'
+      - 'package.json'
+      - '.github/workflows/calculus-candidate.yml'
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci
+      - run: npm run validate:calculus:v10.70.0
+      - run: npm run lint
+      - run: npm run build
