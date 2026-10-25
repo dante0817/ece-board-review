@@ -1,0 +1,122 @@
+[
+  {
+    "id": "DC01",
+    "title": "Functions, Continuity and Limits",
+    "subject": "differential-calculus",
+    "items": 2,
+    "ref": "Thomas 12th; Larson 10th; Dawkins Calculus I",
+    "lessonIds": [
+      "DC01-01",
+      "DC01-02",
+      "DC01-03"
+    ]
+  },
+  {
+    "id": "DC02",
+    "title": "Derivatives and Applications",
+    "subject": "differential-calculus",
+    "items": 3,
+    "ref": "Larson 10th; Thomas 12th; Banner",
+    "lessonIds": [
+      "DC02-01",
+      "DC02-02",
+      "DC02-03"
+    ]
+  },
+  {
+    "id": "DC03",
+    "title": "Higher-Order Derivatives",
+    "subject": "differential-calculus",
+    "items": 3,
+    "ref": "Stewart 8th; Swokowski 5th",
+    "lessonIds": [
+      "DC03-01",
+      "DC03-02",
+      "DC03-03"
+    ]
+  },
+  {
+    "id": "DC04",
+    "title": "Parametric Equations",
+    "subject": "differential-calculus",
+    "items": 4,
+    "ref": "Thomas 12th; Larson 10th; Schaum's Calculus 5th",
+    "lessonIds": [
+      "DC04-01",
+      "DC04-02",
+      "DC04-03"
+    ]
+  },
+  {
+    "id": "DC05",
+    "title": "Partial Differentiation",
+    "subject": "differential-calculus",
+    "items": 3,
+    "ref": "Stewart 8th; Thomas 12th; Swokowski 5th",
+    "lessonIds": [
+      "DC05-01",
+      "DC05-02",
+      "DC05-03"
+    ]
+  },
+  {
+    "id": "IC01",
+    "title": "Integration Concepts and Formulas",
+    "subject": "integral-calculus",
+    "items": 2,
+    "ref": "Thomas 12th; Larson 10th; OpenStax Calculus Vol 1",
+    "lessonIds": [
+      "IC01-01",
+      "IC01-02",
+      "IC01-03"
+    ]
+  },
+  {
+    "id": "IC02",
+    "title": "Integration Techniques",
+    "subject": "integral-calculus",
+    "items": 4,
+    "ref": "Rohde Introduction to Integral Calculus; Larson 10th; Schaum's Calculus 5th",
+    "lessonIds": [
+      "IC02-01",
+      "IC02-02",
+      "IC02-03"
+    ]
+  },
+  {
+    "id": "IC03",
+    "title": "Improper Integrals",
+    "subject": "integral-calculus",
+    "items": 3,
+    "ref": "Stewart 8th; Swokowski 5th; Larson 10th",
+    "lessonIds": [
+      "IC03-01",
+      "IC03-02",
+      "IC03-03"
+    ]
+  },
+  {
+    "id": "IC04",
+    "title": "Applications of Integration",
+    "subject": "integral-calculus",
+    "items": 4,
+    "ref": "Larson 10th; Don and Don; Rohde",
+    "lessonIds": [
+      "IC04-01",
+      "IC04-02",
+      "IC04-03"
+    ]
+  },
+  {
+    "id": "IC05",
+    "title": "Multiple Integration and Applications",
+    "subject": "integral-calculus",
+    "items": 2,
+    "ref": "Thomas 12th; Swokowski 5th; Stewart 8th",
+    "lessonIds": [
+      "IC05-01",
+      "IC05-02",
+      "IC05-03"
+    ]
+  }
+]
