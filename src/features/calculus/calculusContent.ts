@@ -544,6 +544,287 @@ const raw:RawLesson[]=[
     "checkpoint": "Find the area of x²+y²≤4.",
     "answer": "4π",
     "explanation": "The disk radius is 2 and its area is π·2²."
+  },
+  {
+    "id": "dc01-03",
+    "title": "Fundamental trigonometric limits",
+    "summary": "Use the key sine limit with angle arguments in radians.",
+    "definition": "The ratio sin(u)/u approaches one as u approaches zero, with u measured in radians.",
+    "formula": "\\lim_{u\\to0}\\frac{\\sin u}{u}=1",
+    "condition": "This fundamental limit uses radian measure; extract constants correctly.",
+    "problem": "Find lim(x→0) sin(3x)/(2x).",
+    "strategy": "Rewrite as (3/2)[sin(3x)/(3x)].",
+    "steps": [
+      "Multiply and divide to obtain (3/2)·sin(3x)/(3x).",
+      "The inner ratio tends to one, giving 3/2."
+    ],
+    "check": "For sufficiently small positive x, numerical values approach 1.5.",
+    "checkpoint": "Find lim(x→0) sin(5x)/x.",
+    "answer": "5",
+    "explanation": "Rewrite as 5·sin(5x)/(5x), then use the fundamental limit."
+  },
+  {
+    "id": "dc01-04",
+    "title": "One-sided limits and jump discontinuities",
+    "summary": "Test right and left approaches separately at a piecewise boundary.",
+    "definition": "The two-sided limit exists at a if and only if both one-sided limits exist and agree.",
+    "formula": "\\lim_{x\\to a}f(x)\\ \\text{exists}\\iff\\lim_{x\\to a^-}f(x)=\\lim_{x\\to a^+}f(x)",
+    "condition": "The actual function value f(a) may differ from the limit.",
+    "problem": "Let f(x)=x+1 for x<0, and f(x)=x²+2 for x≥0. Determine lim(x→0) f(x).",
+    "strategy": "Compute each side using the expression valid on that side.",
+    "steps": [
+      "Approaching from the left gives 0+1=1.",
+      "Approaching from the right gives 0²+2=2.",
+      "The two-sided limit does not exist because 1≠2."
+    ],
+    "check": "The function value f(0)=2 does not repair the mismatched limits.",
+    "checkpoint": "If the left limit is 3 and the right limit is 4, does the two-sided limit exist?",
+    "answer": "No",
+    "explanation": "Both one-sided limits must be equal."
+  },
+  {
+    "id": "dc01-05",
+    "title": "Limits at infinity",
+    "summary": "Compare leading powers to determine horizontal asymptotes of rational functions.",
+    "definition": "For equal-degree polynomials, the ratio tends to the quotient of leading coefficients as x grows in magnitude.",
+    "formula": "\\lim_{x\\to\\infty}\\frac{ax^n+\\cdots}{bx^n+\\cdots}=\\frac ab,\\quad b\\ne0",
+    "condition": "This leading-coefficient rule assumes equal highest degrees and a nonzero denominator leading coefficient.",
+    "problem": "Compute lim(x→∞) (3x²+1)/(x²+2).",
+    "strategy": "Divide numerator and denominator by x².",
+    "steps": [
+      "The quotient becomes (3+1/x²)/(1+2/x²).",
+      "Both fractions involving 1/x² approach zero.",
+      "The limit is 3."
+    ],
+    "check": "The graph approaches the horizontal asymptote y=3.",
+    "checkpoint": "Compute lim(x→∞) (5x²−1)/(2x²+1).",
+    "answer": "5/2",
+    "explanation": "The leading coefficients have ratio 5:2."
+  },
+  {
+    "id": "dc02-03",
+    "title": "Implicit differentiation",
+    "summary": "Differentiate relationships where y is not isolated as a function of x.",
+    "definition": "Terms involving y produce y' through the chain rule.",
+    "formula": "\\frac{d}{dx}(y^2)=2y\\frac{dy}{dx}",
+    "condition": "When solving for y', exclude points at which division by its coefficient is invalid.",
+    "problem": "For x²+y²=25, find the slope at (3,4).",
+    "strategy": "Differentiate the constraint and solve for y'.",
+    "steps": [
+      "2x+2yy'=0.",
+      "For y≠0, y'=−x/y.",
+      "At (3,4), the slope is −3/4."
+    ],
+    "check": "Implicit differentiation agrees with the upper-circle branch y=√(25−x²).",
+    "checkpoint": "Find the slope on x²+y²=100 at (6,8).",
+    "answer": "−3/4",
+    "explanation": "Use y'=−x/y; substitute 6 and 8."
+  },
+  {
+    "id": "dc02-04",
+    "title": "Related rates",
+    "summary": "Differentiate a physical relationship with respect to time and keep the units explicit.",
+    "definition": "For A=πr² with radius changing in time, dA/dt=2πr dr/dt.",
+    "formula": "\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}",
+    "condition": "The quantities must refer to the same instant, and all units must be consistent.",
+    "problem": "A circular region has radius 3 m growing at 2 m/s. Find its area growth rate.",
+    "strategy": "Differentiate A=πr² with respect to time.",
+    "steps": [
+      "dA/dt=2πr dr/dt.",
+      "At r=3 and dr/dt=2, dA/dt=12π m²/s."
+    ],
+    "check": "A growing radius must yield a positive area rate.",
+    "checkpoint": "For r=4 m and dr/dt=1 m/s, find dA/dt.",
+    "answer": "8π m²/s",
+    "explanation": "Substitute into 2πr dr/dt."
+  },
+  {
+    "id": "dc02-05",
+    "title": "Optimization from constraints",
+    "summary": "Write the objective using one independent variable before differentiating.",
+    "definition": "Interior extrema of a differentiable objective are candidates where its derivative is zero.",
+    "formula": "A'(x)=0\\quad\\text{at a differentiable interior optimum}",
+    "condition": "Also examine constraints, endpoints and feasibility; zero derivative alone does not prove a maximum.",
+    "problem": "A rectangle has perimeter 20. Find its maximum area.",
+    "strategy": "Let one side be x and the other 10−x.",
+    "steps": [
+      "Area A=x(10−x)=10x−x² on 0≤x≤10.",
+      "A'=10−2x=0 gives x=5.",
+      "A''=−2<0, so maximum A=25."
+    ],
+    "check": "Square 5×5 satisfies the perimeter and has maximum area.",
+    "checkpoint": "What is the maximum rectangle area for perimeter 32?",
+    "answer": "64",
+    "explanation": "The optimal rectangle is an 8×8 square."
+  },
+  {
+    "id": "dc03-03",
+    "title": "Higher derivatives of trigonometric functions",
+    "summary": "Apply the chain rule successively while tracking sign changes.",
+    "definition": "A sine or cosine derivative includes the derivative of its inner argument.",
+    "formula": "\\frac{d^2}{dx^2}\\sin(kx)=-k^2\\sin(kx)",
+    "condition": "The coefficient k is constant and the angle is in radians.",
+    "problem": "Compute the second derivative of sin(2x) at x=π/4.",
+    "strategy": "Differentiate twice, carrying the inner factor.",
+    "steps": [
+      "The first derivative is 2cos(2x).",
+      "The second derivative is −4sin(2x).",
+      "At x=π/4, sin(π/2)=1, giving −4."
+    ],
+    "check": "The result is compatible with the simple harmonic equation y''=−4y.",
+    "checkpoint": "Find the second derivative of cos(3x).",
+    "answer": "−9cos(3x)",
+    "explanation": "Differentiate to −3sin(3x), then −9cos(3x)."
+  },
+  {
+    "id": "dc03-04",
+    "title": "Second implicit derivatives",
+    "summary": "Differentiate an implicit derivative once more and substitute the first derivative.",
+    "definition": "On x²+y²=R², differentiating y'=−x/y gives y''=−R²/y³ where y≠0.",
+    "formula": "\\frac{d^2y}{dx^2}=-\\frac{R^2}{y^3}\\quad(x^2+y^2=R^2,\\ y\\ne0)",
+    "condition": "The formula describes a locally differentiable branch away from points with y=0.",
+    "problem": "Find y'' for x²+y²=25 at (3,4).",
+    "strategy": "Start with y'=−x/y and use the quotient rule.",
+    "steps": [
+      "y''=−(y−xy')/y².",
+      "Substitute y'=−x/y to get −(x²+y²)/y³.",
+      "Use x²+y²=25 and y=4: y''=−25/64."
+    ],
+    "check": "The upper semicircle is concave down at the given point.",
+    "checkpoint": "On x²+y²=25 at (0,5), find y''.",
+    "answer": "−1/5",
+    "explanation": "Apply −25/5³=−1/5."
+  },
+  {
+    "id": "dc03-05",
+    "title": "Concavity and inflection points",
+    "summary": "Interpret the sign of the second derivative on intervals.",
+    "definition": "Positive second derivative indicates concavity up, while negative indicates concavity down.",
+    "formula": "f''(x)>0\\ \\Rightarrow\\ \\text{concave up}",
+    "condition": "A zero second derivative does not itself prove an inflection point; require a change of concavity.",
+    "problem": "Find the inflection point of f(x)=x³−3x.",
+    "strategy": "Analyze the sign of f''.",
+    "steps": [
+      "f'(x)=3x²−3 and f''(x)=6x.",
+      "f'' changes from negative to positive at x=0.",
+      "The inflection point is (0,0)."
+    ],
+    "check": "The derivative sign changes confirm opposite concavity on either side.",
+    "checkpoint": "Find the x-coordinate of the inflection of f(x)=x³−6x.",
+    "answer": "0",
+    "explanation": "f''=6x changes sign at zero."
+  },
+  {
+    "id": "dc04-03",
+    "title": "Parametric tangent lines",
+    "summary": "Find a parametric point and slope, then use point-slope form.",
+    "definition": "A tangent line is locally y−y₀=m(x−x₀) when its slope is finite.",
+    "formula": "y-y_0=\\left.\\frac{dy/dt}{dx/dt}\\right|_{t=t_0}(x-x_0)",
+    "condition": "Requires a regular point with dx/dt≠0 for finite slope.",
+    "problem": "For x=t²+1,y=t³ at t=1, find the tangent line.",
+    "strategy": "Compute coordinates and slope at t=1.",
+    "steps": [
+      "The point is (2,1).",
+      "dx/dt=2t, dy/dt=3t², so slope at 1 is 3/2.",
+      "Equation: y−1=(3/2)(x−2)."
+    ],
+    "check": "Both parametric derivatives are finite and dx/dt=2≠0.",
+    "checkpoint": "For x=t,y=t² at t=2, find the tangent line.",
+    "answer": "y−4=4(x−2)",
+    "explanation": "The point is (2,4); slope is 2t=4."
+  },
+  {
+    "id": "dc04-04",
+    "title": "Vertical tangents in parametric curves",
+    "summary": "Check both parameter derivatives before deciding whether a vertical tangent is present.",
+    "definition": "A regular parametric curve with dx/dt=0 and dy/dt≠0 has a vertical tangent.",
+    "formula": "\\frac{dx}{dt}=0,\\quad\\frac{dy}{dt}\\ne0\\quad\\Rightarrow\\quad\\text{vertical tangent}",
+    "condition": "At a point where both derivatives vanish, a separate local analysis is required.",
+    "problem": "For x=t²,y=t, identify the tangent at t=0.",
+    "strategy": "Compute dx/dt and dy/dt at the parameter.",
+    "steps": [
+      "At t=0, dx/dt=2t=0 and dy/dt=1.",
+      "The point is (0,0), and the vertical line x=0 is tangent."
+    ],
+    "check": "Eliminating t gives x=y², which has vertical tangent at the origin in the x-y orientation.",
+    "checkpoint": "For x=t³,y=t at t=0, describe the tangent.",
+    "answer": "Vertical: x=0",
+    "explanation": "The curve is y=x^(1/3); dx/dt=0 and dy/dt=1 at zero."
+  },
+  {
+    "id": "dc04-05",
+    "title": "Velocity and speed in parametric motion",
+    "summary": "Differentiate each coordinate with respect to time to form velocity.",
+    "definition": "The velocity vector is (x'(t),y'(t)) and speed is its magnitude.",
+    "formula": "v(t)=\\sqrt{(x'(t))^2+(y'(t))^2}",
+    "condition": "The parameter must represent time, and component units must be consistent.",
+    "problem": "A particle moves as x=3t,y=4t². Find its speed at t=1.",
+    "strategy": "Compute both velocity components.",
+    "steps": [
+      "x'=3 and y'=8t.",
+      "At t=1, speed is √(3²+8²)=√73."
+    ],
+    "check": "The velocity vector is (3,8), whose magnitude is √73.",
+    "checkpoint": "For x=3t,y=4t, find speed.",
+    "answer": "5",
+    "explanation": "The constant velocity vector (3,4) has magnitude five."
+  },
+  {
+    "id": "dc05-03",
+    "title": "Mixed partial derivatives",
+    "summary": "Differentiate sequentially with respect to different coordinates.",
+    "definition": "For sufficiently smooth functions, mixed partial derivatives agree where the relevant continuity conditions hold.",
+    "formula": "f_{xy}=f_{yx}",
+    "condition": "Equality requires conditions such as continuity of the mixed second partials near the point.",
+    "problem": "For f=x²y³, find f_xy at (1,2).",
+    "strategy": "Differentiate first with respect to x and then with respect to y.",
+    "steps": [
+      "f_x=2xy³.",
+      "Differentiate in y: f_xy=6xy².",
+      "At (1,2), f_xy=6·1·4=24."
+    ],
+    "check": "Reverse order gives the same mixed partial.",
+    "checkpoint": "For f=xy², find f_xy.",
+    "answer": "2y",
+    "explanation": "f_x=y², then differentiate in y."
+  },
+  {
+    "id": "dc05-04",
+    "title": "Multivariable chain rule",
+    "summary": "When several coordinates depend on a parameter, include every dependence.",
+    "definition": "For z=f(x(t),y(t)), dz/dt=f_x x'(t)+f_y y'(t).",
+    "formula": "\\frac{dz}{dt}=f_x\\frac{dx}{dt}+f_y\\frac{dy}{dt}",
+    "condition": "The necessary partial and ordinary derivatives must exist on the path.",
+    "problem": "Let z=x²+y², x=t and y=t². Find dz/dt at t=1.",
+    "strategy": "Substitute derivatives of x and y into the multivariable chain rule.",
+    "steps": [
+      "f_x=2x, f_y=2y, x'=1 and y'=2t.",
+      "dz/dt=2t+4t³.",
+      "At t=1, dz/dt=6."
+    ],
+    "check": "Direct substitution z=t²+t⁴ yields derivative 2t+4t³.",
+    "checkpoint": "Let z=x²+y²,x=2t,y=t; find dz/dt at t=1.",
+    "answer": "10",
+    "explanation": "z=5t², so dz/dt=10t."
+  },
+  {
+    "id": "dc05-05",
+    "title": "Critical points and the second derivative test",
+    "summary": "Classify stationary points of differentiable scalar functions of two variables.",
+    "definition": "At a critical point, a positive-definite Hessian implies a strict local minimum.",
+    "formula": "D=f_{xx}f_{yy}-(f_{xy})^2,\\quad D>0,\\ f_{xx}>0\\Rightarrow\\text{min}",
+    "condition": "The Hessian test is local and assumes suitable second derivatives; a degenerate test is inconclusive.",
+    "problem": "Find and classify the stationary point of f=x²+2y²−2x+4y.",
+    "strategy": "Set the partial derivatives to zero and inspect the Hessian.",
+    "steps": [
+      "f_x=2x−2=0 gives x=1; f_y=4y+4=0 gives y=−1.",
+      "f_xx=2, f_yy=4, f_xy=0; D=8>0 and f_xx>0.",
+      "The point (1,−1) is a strict local (and global) minimum."
+    ],
+    "check": "Completing squares gives f=(x−1)²+2(y+1)²−3.",
+    "checkpoint": "Classify (0,0) for f=x²+y².",
+    "answer": "Strict minimum",
+    "explanation": "The Hessian is positive definite."
   }
 ];
 export const CALCULUS_LESSONS:Record<string,LearnLesson>=Object.fromEntries(raw.map(p=>{
