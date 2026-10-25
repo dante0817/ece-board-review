@@ -9,7 +9,7 @@ This branch is an additive feature based on the connected `dante0817/ece-board-r
 - Registered `differential-calculus` and `integral-calculus` routes in the existing `ReviewContext` and `App`, retaining the fixed header and app-wide strict-assessment gating.
 - Activated the existing two Mathematics catalog placeholders without adding a new global sidebar.
 - Added five PRC-aligned syllabus groups per subject (15 TOS items per subject), with stable DC01–DC05 and IC01–IC05 IDs and topic-family roadmaps.
-- Added 20 original, **draft** lessons (two per syllabus group) using `LearnReaderLayout`, `ManualLearnTracker`, the common formula renderer, original worked examples, checkpoints and research bibliography pointers.
+- Added 50 original, **draft** lessons (five per syllabus group) using `LearnReaderLayout`, `ManualLearnTracker`, the common formula renderer, original worked examples, checkpoints and research bibliography pointers.
 - Added 90 original **draft** multiple-choice practice variants (nine per syllabus group), each with exactly four distinct answers, an explicit correct index and a worked rationale.
 - Created a four-tab Calculus view: Lessons, Formulas, ungraded Practice and Review status.
 - Kept existing F-789SGA calculator and prior Mathematics subjects untouched.
@@ -18,7 +18,7 @@ This branch is an additive feature based on the connected `dante0817/ece-board-r
 
 ### Not completed or certified
 
-- The two draft lessons per group are a **pilot**, not comprehensive coverage of all listed subtopics.
+- The five draft lessons per group are a **pilot**, not comprehensive coverage of all listed subtopics.
 - Neither mathematical expert review nor app/browser acceptance testing has been performed.
 - The 90 practice variants are not independently approved or balanced against every PRC topic-by-cognitive-level cell.
 - No mathematics questions have been added to the certified global Exams engine.
