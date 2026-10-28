@@ -6,6 +6,7 @@
  * Course and group IDs are stable so future lessons/questions can share them.
  */
 export type PhysicsCourseId = 'geas-physics' | 'geas-physics2';
+export const PHYSICS_NAV_COURSE_KEY = 'bsece.physics.entryCourse';
 export type PhysicsCognitiveLevel =
   | 'knowledge' | 'comprehension' | 'application' | 'analysis' | 'synthesis';
 
