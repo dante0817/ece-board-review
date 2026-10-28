@@ -17,6 +17,7 @@ import { GeometryScreen } from './features/geometry/GeometryScreen';
 import { PlaneGeometryScreen } from './features/plane-geometry/PlaneGeometryScreen';
 import { AnalyticGeometryScreen } from './features/analytic-geometry/AnalyticGeometryScreen';
 import { ProbabilityStatisticsScreen } from './features/probability-statistics/ProbabilityStatisticsScreen';
+import { PhysicsScreen } from './features/physics/PhysicsScreen';
 import { DifferentialEquationsScreen } from './features/differential-equations/DifferentialEquationsScreen';
 import { RealNumbersScreen } from './components/RealNumbersScreen';
 import { RationalExpressionsScreen } from './components/RationalExpressionsScreen';
@@ -103,6 +104,7 @@ const MainContent: React.FC = () => {
     'ratios-proportions',
     'scientific-notation',
     'geas',
+    'physics',
     'electronics',
     'est',
   ].includes(currentScreen);
@@ -163,6 +165,7 @@ const MainContent: React.FC = () => {
       {currentScreen === 'calculator-skills' && <CalculatorSkillsScreen />}
       {currentScreen === 'readiness' && <BoardReadinessScreen />}
       {currentScreen === 'geas' && <BoardSubjectScreen category="geas" />}
+      {currentScreen === 'physics' && <PhysicsScreen />}
       {currentScreen === 'electronics' && <BoardSubjectScreen category="electronics" />}
       {currentScreen === 'est' && <BoardSubjectScreen category="est" />}
     </main>
