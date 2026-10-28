@@ -169,7 +169,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ mobileOpen = false, onCloseMob
                 <span className="flex items-center gap-2.5"><FeatureIcon name="mathematics" size="small" /><span>Mathematics</span></span>
                 <span className={`rounded-full px-2 py-0.5 text-[10px] font-bold ${mathematicsActive ? 'bg-white/20 text-white' : 'bg-[#152a47] text-slate-300'}`}>20%</span>
               </button>
-              <button type="button" id="nav-btn-geas" onClick={() => handleNavClick('geas')} className={navItem(currentScreen === 'geas')}>
+              <button type="button" id="nav-btn-geas" onClick={() => handleNavClick('geas')} className={navItem(currentScreen === 'geas' || currentScreen === 'physics')}>
                 <span className="flex items-center gap-2.5"><FeatureIcon name="geas" size="small" /><span>GEAS</span></span>
                 <span className="rounded-full bg-[#152a47] px-2 py-0.5 text-[10px] font-semibold text-slate-300">20%</span>
               </button>
