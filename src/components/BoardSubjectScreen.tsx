@@ -1,5 +1,6 @@
 import { AppArtwork } from './common/AppArtwork';
 import { BOARD_EXPANSION_QUESTIONS } from '../data/boardExpansionQuestions';
+import { PHYSICS_NAV_COURSE_KEY } from '../features/physics/physicsCurriculum';
 import { FeatureIcon } from './common/FeatureIcon';
 import React, { useState, useMemo } from 'react';
 import { useReview } from '../context/ReviewContext';
@@ -285,7 +286,14 @@ export const BoardSubjectScreen: React.FC<BoardSubjectScreenProps> = ({ category
                 <div className="mt-3 flex items-center gap-1.5">
                   <button
                     type="button"
-                    onClick={() => category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2') ? setCurrentScreen('physics') : handleStart(m.name)}
+                    onClick={() => {
+                      if (category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2')) {
+                        try {
+                          window.sessionStorage.setItem(PHYSICS_NAV_COURSE_KEY,m.name==='Physics 2'?'geas-physics2':'geas-physics');
+                        } catch { /* nonessential navigation hint */ }
+                        setCurrentScreen('physics');
+                      } else handleStart(m.name);
+                    }}
                     disabled={!(category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2')) && !allTopics.some(t => t.name.toLowerCase()===m.name.toLowerCase())}
                     className="flex-1 py-1.5 px-3 rounded-lg border border-slate-200 hover:bg-blue-50 hover:border-blue-200 text-blue-600 font-semibold text-xs flex items-center justify-center gap-1 transition-colors cursor-pointer"
                   >
