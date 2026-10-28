@@ -12,6 +12,7 @@ Does not replace existing lessons, questions, mathematics, AEM or calculator cod
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import io
 import json
@@ -203,7 +204,7 @@ def main() -> None:
             with zipfile.ZipFile(tmp,"w") as out:
                 for info in base.infolist():
                     # Retain all original files and metadata unless in the bounded modification map.
-                    out.writestr(info, modified.get(info.filename, base.read(info)))
+                    out.writestr(copy.copy(info), modified.get(info.filename, base.read(info)))
                 for name,data in added.items():
                     out.writestr(name,data,compress_type=zipfile.ZIP_DEFLATED,compresslevel=9)
                 out.writestr(manifest_name,json.dumps(report,indent=2)+"\n",compress_type=zipfile.ZIP_DEFLATED)
