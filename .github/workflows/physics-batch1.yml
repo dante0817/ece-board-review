@@ -19,3 +19,27 @@ jobs:
       - run: npx tsx scripts/validatePhysicsBatch1.ts
       - run: npm run lint
       - run: npm run build
+      - name: Test guarded ZIP merge against original main source snapshot
+        run: |
+          git fetch origin main --depth=1
+          git archive --format=zip origin/main -o /tmp/physics-baseline.zip
+          git archive --format=zip HEAD -o /tmp/physics-feature.zip
+          python3 scripts/mergePhysicsBatch1IntoZip.py \
+            --baseline /tmp/physics-baseline.zip \
+            --feature /tmp/physics-feature.zip \
+            --output /tmp/physics-batch1-merged.zip
+          python3 - <<'PY'
+          import zipfile
+          with zipfile.ZipFile('/tmp/physics-batch1-merged.zip') as z:
+              names=set(z.namelist())
+              required={
+                  'src/features/physics/physicsCurriculum.ts',
+                  'src/features/physics/PhysicsScreen.tsx',
+                  'scripts/validatePhysicsBatch1.ts',
+                  'PHYSICS_BATCH1_MERGE_REPORT.json'
+              }
+              assert required <= names
+              app=z.read('src/App.tsx').decode()
+              assert "currentScreen === 'physics' && <PhysicsScreen />" in app
+          print("Merged ZIP feature/source check PASS")
+          PY
