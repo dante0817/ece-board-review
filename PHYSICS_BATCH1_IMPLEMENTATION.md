@@ -54,3 +54,29 @@ baseline differences before merging/cherry-picking to the latest AEM ZIP.
 Reference names are bibliographic guides only. No uploaded textbook or
 instructor solution manual is embedded. Author original materials and verify
 physics, math, units, and publication rights before release.
+
+## Guarded latest-AEM ZIP integration (when running on Windows)
+
+Download the Physics branch ZIP from GitHub. Keep it alongside your newest
+AEM-expanded ZIP. The standard-library merge utility is
+\`scripts/mergePhysicsBatch1IntoZip.py\` in that branch.
+
+PowerShell example (replace path names with downloaded local files):
+
+\`\`\`powershell
+py .\scripts\mergePhysicsBatch1IntoZip.py \`
+  --baseline ".\BSECE_Board_Reviewer_v10.69.0_AEM_Board_Style_Drill_Expanded_SOURCE(1).zip" \`
+  --feature ".\ece-board-review-feature-physics-batch1-geas-20261028.zip" \`
+  --output ".\BSECE_Board_Reviewer_v10.69.0_AEM_Physics_Batch1_MERGED_SOURCE.zip"
+\`\`\`
+
+The utility refuses path ambiguity, missing expected anchors, collisions with
+existing Physics files, duplicate/unsafe ZIP paths, ZIP checksum failures, or
+overwrite of an output. It preserves byte-for-byte the content of all unrelated
+baseline files, writes a merge manifest into the new ZIP, and never modifies
+the baseline. **The merged archive is not a verified release** until its build
+and relevant runtime tests pass.
+
+If the latest AEM source has changed the expected GUI structure, the utility
+will stop rather than silently replace those files with the older GitHub code.
+Do not merge the entire historical GitHub branch into the newest AEM source.
