@@ -120,6 +120,7 @@ export type ScreenType =
   | 'mock-exams'
   | 'readiness'
   | 'geas'
+  | 'physics'
   | 'electronics'
   | 'est'
   | 'formula-flashcard'
