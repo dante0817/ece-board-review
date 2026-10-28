@@ -40,7 +40,8 @@ export const BoardSubjectScreen: React.FC<BoardSubjectScreenProps> = ({ category
         { name: 'Engineering Economics', topics: 20, completed: 0, status: 'Not Started' },
         { name: 'Thermodynamics', topics: 16, completed: 0, status: 'Not Started' },
         { name: 'Engineering Chemistry', topics: 14, completed: 0, status: 'Not Started' },
-        { name: 'Physics for Engineers', topics: 22, completed: 0, status: 'Not Started' },
+        { name: 'Physics for Engineers', topics: 4, completed: 0, status: 'Not Started' },
+        { name: 'Physics 2', topics: 4, completed: 0, status: 'Not Started' },
         { name: 'Engineering Materials', topics: 12, completed: 0, status: 'Not Started' },
         { name: 'ECE Laws & Ethics (RA 9292)', topics: 10, completed: 0, status: 'Not Started' },
       ],
@@ -272,7 +273,7 @@ export const BoardSubjectScreen: React.FC<BoardSubjectScreenProps> = ({ category
                           : 'bg-slate-100 text-slate-600 border-slate-200'
                       }`}
                     >
-                      {'Content not yet available'}
+                      {category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2') ? 'Curriculum available' : 'Content not yet available'}
                     </span>
                   </div>
                   <div className="font-bold text-slate-900 text-sm leading-snug">{m.name}</div>
@@ -284,11 +285,11 @@ export const BoardSubjectScreen: React.FC<BoardSubjectScreenProps> = ({ category
                 <div className="mt-3 flex items-center gap-1.5">
                   <button
                     type="button"
-                    onClick={() => handleStart(m.name)}
-                    disabled={!allTopics.some(t => t.name.toLowerCase()===m.name.toLowerCase())}
+                    onClick={() => category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2') ? setCurrentScreen('physics') : handleStart(m.name)}
+                    disabled={!(category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2')) && !allTopics.some(t => t.name.toLowerCase()===m.name.toLowerCase())}
                     className="flex-1 py-1.5 px-3 rounded-lg border border-slate-200 hover:bg-blue-50 hover:border-blue-200 text-blue-600 font-semibold text-xs flex items-center justify-center gap-1 transition-colors cursor-pointer"
                   >
-                    <span>{'Unavailable'}</span>
+                    <span>{category==='geas' && (m.name==='Physics for Engineers'||m.name==='Physics 2') ? 'Open Physics' : 'Unavailable'}</span>
                     <ArrowRight className="w-3.5 h-3.5" />
                   </button>
 
