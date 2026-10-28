@@ -3,7 +3,7 @@ import { Atom, BookOpen, ChevronDown, ChevronRight, ClipboardList, FileText, Shi
 import { TreeMenuHeader } from '../../components/TreeMenuHeader';
 import { useReview } from '../../context/ReviewContext';
 import {
-  PHYSICS_COURSES, PHYSICS_REFERENCES, PHYSICS_TOS_GROUPS, PHYSICS_TOS_SOURCE,
+  PHYSICS_COURSES, PHYSICS_REFERENCES, PHYSICS_TOS_GROUPS, PHYSICS_TOS_SOURCE, PHYSICS_NAV_COURSE_KEY,
   physicsCourseGroups, physicsLessonsForGroup, physicsCourseCognitiveTotal, physicsCourseItemTotal,
   type PhysicsCourseId, type PhysicsCognitiveLevel,
 } from './physicsCurriculum';
@@ -19,9 +19,18 @@ const levels: readonly {id:PhysicsCognitiveLevel; label:string}[] = [
 
 export const PhysicsScreen: React.FC = () => {
   const {setCurrentScreen} = useReview();
-  const [selectedCourse,setSelectedCourse] = useState<PhysicsCourseId>('geas-physics');
+  const [selectedCourse,setSelectedCourse] = useState<PhysicsCourseId>(()=>{
+    if (typeof window==='undefined')return 'geas-physics';
+    try {
+      const requested=window.sessionStorage.getItem(PHYSICS_NAV_COURSE_KEY);
+      window.sessionStorage.removeItem(PHYSICS_NAV_COURSE_KEY);
+      return requested==='geas-physics2'?'geas-physics2':'geas-physics';
+    } catch {
+      return 'geas-physics';
+    }
+  });
   const [tab,setTab] = useState<PhysicsTab>('curriculum');
-  const [expandedGroup,setExpandedGroup] = useState('pfe-01');
+  const [expandedGroup,setExpandedGroup] = useState(()=>selectedCourse==='geas-physics2'?'p2-01':'pfe-01');
   const course = PHYSICS_COURSES.find(item=>item.id===selectedCourse)!;
   const groups = useMemo(()=>physicsCourseGroups(selectedCourse),[selectedCourse]);
   const chooseCourse = (id:PhysicsCourseId) => {
