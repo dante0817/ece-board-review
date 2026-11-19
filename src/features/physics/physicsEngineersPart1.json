@@ -1,0 +1,389 @@
+[
+  {
+    "id": "pfe-mechanics-lesson-1",
+    "title": "Physical quantities, SI units and vector operations",
+    "summary": "Classify scalar and vector quantities, check dimensions and resolve vectors into components.",
+    "concept": "Distance, mass, time, temperature and energy are scalars; displacement, velocity, acceleration and force are vectors. Components along perpendicular axes can be added independently. A physical equation must be dimensionally consistent.",
+    "formulas": [
+      {
+        "latex": "A_x=A\\cos\\theta,\\qquad A_y=A\\sin\\theta",
+        "note": "Angle measured counterclockwise from +x; signs depend on quadrant."
+      },
+      {
+        "latex": "|\\vec A|=\\sqrt{A_x^2+A_y^2},\\qquad [F]=MLT^{-2}",
+        "note": "SI force unit: newton, N = kg·m/s²."
+      }
+    ],
+    "method": "Choose axes, draw a vector diagram, compute signed components, then recombine; check dimensions.",
+    "guardrail": "A component can be negative even when the vector magnitude is positive. Degrees/radians must match calculator mode.",
+    "worked": {
+      "title": "Resolve a planar force",
+      "problem": "A 50 N force acts 30° above +x. Find its components.",
+      "strategy": "Resolve using cosine and sine.",
+      "steps": [
+        "Fx = 50 cos 30° = 43.30 N.",
+        "Fy = 50 sin 30° = 25.00 N.",
+        "The magnitude check is √(43.30²+25.00²) ≈ 50 N."
+      ],
+      "check": "Both positive, and units remain newtons.",
+      "takeaway": "Vector components can be summed separately."
+    },
+    "checks": [
+      [
+        "Is electric current a scalar or a vector in introductory circuit analysis?",
+        "Scalar; it represents signed charge flow rate along a specified branch.",
+        "A current sign is a branch-direction convention, not a spatial vector in the circuit model."
+      ],
+      [
+        "What SI base dimensions does power have?",
+        "ML²T⁻³.",
+        "Power = energy/time, so kg·m²/s³."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Cutnell & Johnson 9th; Walker 10th"
+  },
+  {
+    "id": "pfe-mechanics-lesson-2",
+    "title": "One-dimensional and projectile kinematics",
+    "summary": "Relate position, velocity and acceleration; separate horizontal and vertical projectile motion.",
+    "concept": "Average velocity is displacement divided by elapsed time; instantaneous velocity is the time derivative of position. Under constant acceleration, the kinematic equations apply. Ideal projectiles have zero horizontal acceleration and vertical acceleration −g, assuming negligible air resistance.",
+    "formulas": [
+      {
+        "latex": "v=v_0+at,\\quad \\Delta x=v_0t+\\tfrac12 at^2,\\quad v^2=v_0^2+2a\\Delta x",
+        "note": "Use only for constant acceleration."
+      },
+      {
+        "latex": "x=v_0\\cos\\theta\\,t,\\quad y=v_0\\sin\\theta\\,t-\\tfrac12gt^2",
+        "note": "Launch point y=0; horizontal x positive downrange."
+      }
+    ],
+    "method": "Specify coordinate signs and whether acceleration is constant; use a shared time for x and y.",
+    "guardrail": "The familiar range R = v₀²sin2θ/g requires equal launch and landing elevations, constant g and negligible drag.",
+    "worked": {
+      "title": "Level-ground projectile",
+      "problem": "A ball launches at 20 m/s, 30° above horizontal and lands at the same height. Take g = 9.8 m/s². Find flight time and range.",
+      "strategy": "Solve y(t)=0 for the nonzero flight time; then use x(t).",
+      "steps": [
+        "Initial vertical speed is 20 sin30° = 10 m/s.",
+        "T = 2(10)/9.8 = 2.0408 s.",
+        "Horizontal speed = 20 cos30° ≈17.3205 m/s; R≈17.3205×2.0408≈35.35 m."
+      ],
+      "check": "Units are seconds and meters; range is positive.",
+      "takeaway": "Only the vertical equation determines the landing time."
+    },
+    "checks": [
+      [
+        "What is acceleration at a projectile's highest point?",
+        "Downward, magnitude g.",
+        "Vertical velocity is zero momentarily but acceleration remains −g."
+      ],
+      [
+        "A particle moves at constant speed around a circle. Is acceleration zero?",
+        "No.",
+        "The direction of velocity changes, producing centripetal acceleration."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Cutnell & Johnson 9th"
+  },
+  {
+    "id": "pfe-mechanics-lesson-3",
+    "title": "Newton's laws, friction and free-body diagrams",
+    "summary": "Use free-body diagrams and Newton’s laws to analyze forces and acceleration.",
+    "concept": "Newton's first law defines inertial motion, the second law relates net external force to acceleration, and the third law pairs interaction forces on different bodies. Static friction adjusts up to its maximum; sliding friction is approximately μkN.",
+    "formulas": [
+      {
+        "latex": "\\sum \\vec F=m\\vec a",
+        "note": "Apply separately to each body and coordinate axis."
+      },
+      {
+        "latex": "|f_s|\\le\\mu_s N,\\qquad f_k=\\mu_kN",
+        "note": "The coefficient model approximates dry friction; N is the normal force."
+      }
+    ],
+    "method": "Isolate the body, draw all external forces, choose axes and write ΣFx and ΣFy before substituting.",
+    "guardrail": "Normal force is not always mg; it depends on all vertical forces and acceleration. Action–reaction pairs never act on the same object.",
+    "worked": {
+      "title": "Horizontal sliding block",
+      "problem": "A 4 kg block is pulled along a level surface with 18 N horizontally. μk = 0.20 and g = 9.8 m/s². Find acceleration.",
+      "strategy": "Compute the normal force and friction, then apply ΣFx=ma.",
+      "steps": [
+        "No vertical acceleration: N=mg=39.2 N.",
+        "Kinetic friction fk=0.20×39.2=7.84 N opposing motion.",
+        "Net horizontal force =18−7.84=10.16 N; a=10.16/4=2.54 m/s²."
+      ],
+      "check": "Positive net force gives acceleration in the pulling direction.",
+      "takeaway": "Draw the friction arrow opposite relative sliding, not automatically opposite net force."
+    },
+    "checks": [
+      [
+        "Does an action–reaction pair cancel in the free-body diagram of one body?",
+        "No.",
+        "The paired forces act on different bodies."
+      ],
+      [
+        "Is static friction always μsN?",
+        "No.",
+        "It can take any required magnitude from zero up to μsN."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Walker 10th; Giambattista 3rd"
+  },
+  {
+    "id": "pfe-mechanics-lesson-4",
+    "title": "Work, kinetic and potential energy, and energy conservation",
+    "summary": "Compute work and mechanical energy changes using energy principles.",
+    "concept": "Work is energy transfer by a force through displacement. The work–kinetic energy theorem states net work equals change in kinetic energy. For conservative forces, define potential energy and conserve K+U when nonconservative work is zero.",
+    "formulas": [
+      {
+        "latex": "W=Fd\\cos\\phi,\\quad K=\\tfrac12mv^2",
+        "note": "Constant force F making angle φ with displacement d."
+      },
+      {
+        "latex": "W_{\\rm net}=\\Delta K,\\quad K_i+U_i+W_{\\rm nc}=K_f+U_f",
+        "note": "For gravitational potential near Earth's surface, U=mgh relative to a chosen level."
+      }
+    ],
+    "method": "Select the system, reference elevation and whether work by friction or external agents must be included.",
+    "guardrail": "Work is negative for a force component opposing displacement. Potential energy depends on reference; only differences matter.",
+    "worked": {
+      "title": "Sliding without friction",
+      "problem": "A 2 kg block starts from rest and drops vertically by 3 m, with g=9.8 m/s² and negligible drag. Find speed.",
+      "strategy": "Set the lost gravitational potential energy equal to gained kinetic energy.",
+      "steps": [
+        "ΔU=−mgh=−(2)(9.8)(3)=−58.8 J.",
+        "(1/2)mv²=mgh, so v²=2gh=58.8 m²/s².",
+        "v=√58.8≈7.67 m/s."
+      ],
+      "check": "Mass cancels; speed has units m/s.",
+      "takeaway": "Conservation requires identifying energy transfers and losses."
+    },
+    "checks": [
+      [
+        "What is the work done by a force perpendicular to displacement?",
+        "Zero.",
+        "cos90° = 0."
+      ],
+      [
+        "Does mechanical energy remain constant with significant kinetic friction?",
+        "Not generally.",
+        "Include negative work of friction or thermal energy gain."
+      ]
+    ],
+    "reference": "Walker 10th; Serway & Jewett 9th; Cutnell & Johnson 9th"
+  },
+  {
+    "id": "pfe-mechanics-lesson-5",
+    "title": "Impulse, momentum, and collisions",
+    "summary": "Use momentum conservation and impulse to analyze interacting bodies.",
+    "concept": "Linear momentum is mass times velocity. Net external impulse changes system momentum; total momentum is conserved for a system with negligible net external impulse. Inelastic collisions conserve momentum but not generally kinetic energy.",
+    "formulas": [
+      {
+        "latex": "\\vec p=m\\vec v,\\quad \\vec J=\\int_{t_i}^{t_f}\\vec F_{\\rm net}\\,dt=\\Delta\\vec p",
+        "note": "Constant net force gives J=FΔt."
+      },
+      {
+        "latex": "\\sum\\vec p_{\\rm before}=\\sum\\vec p_{\\rm after}",
+        "note": "Valid for an isolated system over the collision interval."
+      }
+    ],
+    "method": "Choose a positive direction, include signs and account for each interacting object's momentum.",
+    "guardrail": "Perfectly inelastic means objects stick together; it does not mean their momentum vanishes.",
+    "worked": {
+      "title": "Perfectly inelastic collision",
+      "problem": "A 2 kg cart moving right at 6 m/s sticks to a stationary 4 kg cart. Find common velocity.",
+      "strategy": "Conserve horizontal momentum.",
+      "steps": [
+        "Initial momentum = (2)(6)+(4)(0)=12 kg·m/s.",
+        "After collision: (2+4)v = 12.",
+        "Common velocity v=2 m/s to the right."
+      ],
+      "check": "Kinetic energy falls from 36 J to 12 J; momentum remains 12 kg·m/s.",
+      "takeaway": "Conservation of momentum does not imply conservation of kinetic energy."
+    },
+    "checks": [
+      [
+        "What is the SI unit of impulse?",
+        "N·s, equivalent to kg·m/s.",
+        "Impulse equals change in momentum."
+      ],
+      [
+        "Can total momentum be conserved even when collision kinetic energy decreases?",
+        "Yes.",
+        "With negligible external impulse, momentum conservation still applies."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Walker 10th"
+  },
+  {
+    "id": "pfe-mechanics-lesson-6",
+    "title": "Uniform circular motion and mechanical power",
+    "summary": "Connect centripetal acceleration, force and work rate in engineering motion.",
+    "concept": "Uniform circular motion has constant speed but changing velocity direction. The required net radial force points toward the center. Power is the rate of doing work or transferring energy; for force aligned with motion, P=Fv.",
+    "formulas": [
+      {
+        "latex": "a_c=\\frac{v^2}{r}=\\omega^2r,\\quad F_c=m\\frac{v^2}{r}",
+        "note": "Centripetal force names the net inward force, not an extra distinct force."
+      },
+      {
+        "latex": "P=\\frac{dW}{dt}=\\vec F\\cdot\\vec v,\\qquad P=\\tau\\omega",
+        "note": "The torque relation holds for rotational motion when torque and angular velocity are appropriately aligned."
+      }
+    ],
+    "method": "Identify the actual forces furnishing radial acceleration; convert rpm to rad/s where needed.",
+    "guardrail": "Centripetal acceleration is not zero at constant speed, and its direction is inward, not tangent to the circle.",
+    "worked": {
+      "title": "Circular motion force",
+      "problem": "A 900 kg car rounds a flat 60 m-radius curve at 12 m/s. Determine the net inward force.",
+      "strategy": "Apply F=mv²/r.",
+      "steps": [
+        "Square the speed: v²=144 m²/s².",
+        "Fc=(900)(144)/60=2160 N.",
+        "The required net force points toward the curve center."
+      ],
+      "check": "N = kg·m/s²; if supplied by tire friction, available friction must be sufficient.",
+      "takeaway": "The vehicle is accelerating even if speed remains constant."
+    },
+    "checks": [
+      [
+        "A 100 W motor does 300 J of work in what time at constant power?",
+        "3 s.",
+        "t=W/P=300/100."
+      ],
+      [
+        "Is centripetal force always friction?",
+        "No.",
+        "Tension, gravity, normal force or other forces can provide the net inward force."
+      ]
+    ],
+    "reference": "Cutnell & Johnson 9th; Walker 10th"
+  },
+  {
+    "id": "pfe-rotation-waves-lesson-1",
+    "title": "Rotational kinematics, torque and moment of inertia",
+    "summary": "Relate angular variables to linear motion and resistance to rotational acceleration.",
+    "concept": "Angle, angular velocity and angular acceleration describe rotation. Torque is the turning effect of a force about an axis, and moment of inertia depends on both mass and how it is distributed relative to that axis.",
+    "formulas": [
+      {
+        "latex": "v_t=r\\omega,\\quad a_t=r\\alpha,\\quad \\tau=rF\\sin\\phi",
+        "note": "Use radians; φ is the angle between radius vector and applied force."
+      },
+      {
+        "latex": "I=\\sum_i m_ir_i^2,\\qquad K_{\\rm rot}=\\tfrac12I\\omega^2",
+        "note": "Moment of inertia depends on the chosen axis."
+      }
+    ],
+    "method": "State the axis, identify lever arms, set torque signs and use radian-based angular quantities.",
+    "guardrail": "A larger mass does not automatically imply a larger moment of inertia without specifying axis and distribution.",
+    "worked": {
+      "title": "Torque from a perpendicular force",
+      "problem": "A 12 N force acts perpendicular to a wrench 0.25 m from the bolt. Find torque magnitude.",
+      "strategy": "Use τ=rFsin90°.",
+      "steps": [
+        "r=0.25 m and F=12 N.",
+        "τ=(0.25)(12)(1)=3.0 N·m.",
+        "Direction follows the right-hand rule for the rotation axis."
+      ],
+      "check": "N·m is the unit of torque, but torque is not expressed as energy even though joule has the same base units.",
+      "takeaway": "The perpendicular distance to the line of force determines moment arm."
+    },
+    "checks": [
+      [
+        "What happens to I for a point mass moved twice as far from the axis?",
+        "It becomes four times as large.",
+        "I=mr²."
+      ],
+      [
+        "A force passes through the axis. What is its torque about that axis?",
+        "Zero.",
+        "The moment arm is zero."
+      ]
+    ],
+    "reference": "Walker 10th; Serway & Jewett 9th; Giancoli 4th"
+  },
+  {
+    "id": "pfe-rotation-waves-lesson-2",
+    "title": "Rotational dynamics and angular-momentum conservation",
+    "summary": "Apply rotational Newton's law and angular momentum conservation.",
+    "concept": "The net external torque about a fixed axis produces angular acceleration. Angular momentum is conserved about an axis if the net external torque about that axis is zero. During changes in moment of inertia, angular speed can change while angular momentum stays fixed.",
+    "formulas": [
+      {
+        "latex": "\\sum\\tau=I\\alpha,\\qquad L=I\\omega",
+        "note": "Simple fixed-axis rigid-body formulas; more general vector cases require care."
+      },
+      {
+        "latex": "\\tau_{\\rm ext}=\\frac{dL}{dt},\\qquad I_i\\omega_i=I_f\\omega_f",
+        "note": "The conservation equation requires negligible external torque and the same axis."
+      }
+    ],
+    "method": "Isolate the rotating system, identify any external torques, and choose the axis before applying conservation.",
+    "guardrail": "Conserving angular momentum does not imply conserving rotational kinetic energy when internal work changes mass distribution.",
+    "worked": {
+      "title": "Skater spins faster",
+      "problem": "A spinning system reduces its moment of inertia from 4 to 2 kg·m² with negligible external torque. Initial angular speed is 3 rad/s. Find final speed.",
+      "strategy": "Apply Iiωi=Ifωf.",
+      "steps": [
+        "Initial angular momentum =4×3=12 kg·m²/s.",
+        "Final angular velocity=12/2=6 rad/s.",
+        "The speed doubles as the inertia halves."
+      ],
+      "check": "Final rotational energy increases; internal work can supply the increase.",
+      "takeaway": "Always test whether external torque is negligible before conserving L."
+    },
+    "checks": [
+      [
+        "When is a body's angular momentum about an axis constant?",
+        "When net external torque about that axis is zero.",
+        "dL/dt=τext."
+      ],
+      [
+        "If I doubles at fixed L, what happens to ω?",
+        "It halves.",
+        "L=Iω."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Walker 10th"
+  },
+  {
+    "id": "pfe-rotation-waves-lesson-3",
+    "title": "Static equilibrium, stress, strain and elasticity",
+    "summary": "Analyze force/torque balance and linear elastic deformation.",
+    "concept": "A rigid body in static equilibrium has zero net force and zero net torque. Normal stress is force per cross-sectional area; longitudinal strain is change in length divided by original length. Young's modulus connects them in the linear elastic range.",
+    "formulas": [
+      {
+        "latex": "\\sum F_x=\\sum F_y=0,\\qquad\\sum\\tau=0",
+        "note": "Planar static equilibrium conditions for a rigid body."
+      },
+      {
+        "latex": "\\sigma=\\frac FA,\\quad\\varepsilon=\\frac{\\Delta L}{L_0},\\quad E=\\frac{\\sigma}{\\varepsilon}",
+        "note": "Use the small-strain, linear-elastic regime."
+      }
+    ],
+    "method": "Draw all loads and supports, take moments about a convenient point, and verify the material remains within its elastic limit.",
+    "guardrail": "Stress has pressure units (Pa), while strain is dimensionless. Hooke-type linearity fails beyond the proportional limit.",
+    "worked": {
+      "title": "Tension in a rod",
+      "problem": "A rod 2 m long and area 2.0×10⁻⁴ m² is pulled by 1000 N. For E=2.0×10¹¹ Pa, determine elongation.",
+      "strategy": "Use ΔL=FL₀/(AE).",
+      "steps": [
+        "Stress =1000/(2×10⁻⁴)=5.0×10⁶ Pa.",
+        "Strain=stress/E=2.5×10⁻⁵.",
+        "ΔL=(2)(2.5×10⁻⁵)=5.0×10⁻⁵ m =0.050 mm."
+      ],
+      "check": "Strain is small, consistent with an elastic approximation.",
+      "takeaway": "Moment balance is needed in addition to force balance for equilibrium."
+    },
+    "checks": [
+      [
+        "Can net force be zero while net torque is nonzero?",
+        "Yes.",
+        "A force couple can cause rotation with no net translation."
+      ],
+      [
+        "What is the SI unit of Young's modulus?",
+        "Pascal (Pa).",
+        "It is stress divided by dimensionless strain."
+      ]
+    ],
+    "reference": "Cutnell & Johnson 9th; Walker 10th"
+  }
+]
