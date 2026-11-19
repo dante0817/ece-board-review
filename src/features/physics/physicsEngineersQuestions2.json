@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pfe-rotation-waves-q01",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "Angular velocity is conventionally measured in:",
+    "options": [
+      "rad/s",
+      "m/s",
+      "N·m",
+      "kg·m²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Angular velocity is angular displacement per time, measured rad/s.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q02",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "What is the SI unit of moment of inertia?",
+    "options": [
+      "kg·m",
+      "kg·m²",
+      "N·m",
+      "J/s"
+    ],
+    "correctIndex": 1,
+    "explanation": "I=Σmr², so kg·m².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q03",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-1",
+    "cognitive": "comprehension",
+    "stem": "A force acts along the line from pivot to application point. What is its torque about that pivot?",
+    "options": [
+      "Maximum",
+      "Zero",
+      "Equal to rF",
+      "Equal to Fr²"
+    ],
+    "correctIndex": 1,
+    "explanation": "The moment arm is zero, so τ=rFsin0=0.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q04",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-1",
+    "cognitive": "comprehension",
+    "stem": "Moving a point mass from radius r to 3r increases its moment of inertia by what factor?",
+    "options": [
+      "3",
+      "6",
+      "9",
+      "1/9"
+    ],
+    "correctIndex": 2,
+    "explanation": "I=mr²; changing r to 3r multiplies I by 9.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q05",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-1",
+    "cognitive": "comprehension",
+    "stem": "A wheel rotates at 4 rad/s and radius is 0.5 m. Tangential speed is:",
+    "options": [
+      "2 m/s",
+      "8 m/s",
+      "4.5 m/s",
+      "0.125 m/s"
+    ],
+    "correctIndex": 0,
+    "explanation": "v=rω=0.5×4=2 m/s.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q06",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "For fixed-axis rotation with constant moment of inertia, Newton's rotational law is:",
+    "options": [
+      "Στ=Iα",
+      "Στ=Iω",
+      "Στ=mα",
+      "Στ=F/r"
+    ],
+    "correctIndex": 0,
+    "explanation": "Net external torque about the axis equals Iα.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q07",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "Which quantity is conserved if net external torque about an axis is zero?",
+    "options": [
+      "Linear speed",
+      "Angular momentum",
+      "Moment of inertia",
+      "Rotational kinetic energy always"
+    ],
+    "correctIndex": 1,
+    "explanation": "dL/dt=τext, so angular momentum is constant when torque vanishes.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q08",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-2",
+    "cognitive": "comprehension",
+    "stem": "A skater draws arms inward with negligible external torque. Angular speed generally:",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains zero",
+      "Changes only with gravity"
+    ],
+    "correctIndex": 1,
+    "explanation": "I decreases while L=Iω stays constant, so ω rises.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q09",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-2",
+    "cognitive": "comprehension",
+    "stem": "A rigid wheel experiences 8 N·m net torque and I=4 kg·m². Angular acceleration is:",
+    "options": [
+      "0.5 rad/s²",
+      "2 rad/s²",
+      "12 rad/s²",
+      "32 rad/s²"
+    ],
+    "correctIndex": 1,
+    "explanation": "α=τ/I=8/4=2 rad/s².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q10",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-2",
+    "cognitive": "comprehension",
+    "stem": "Does angular momentum conservation necessarily imply rotational kinetic-energy conservation?",
+    "options": [
+      "Yes, always",
+      "Only if mass is nonzero",
+      "No",
+      "Only at constant temperature"
+    ],
+    "correctIndex": 2,
+    "explanation": "Internal work can alter rotational energy while angular momentum is conserved.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q11",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "What conditions must both hold for planar rigid-body static equilibrium?",
+    "options": [
+      "ΣF=0 and Στ=0",
+      "ΣF=0 only",
+      "Στ=0 only",
+      "v constant but nonzero"
+    ],
+    "correctIndex": 0,
+    "explanation": "A rigid body has neither translational nor rotational acceleration in static equilibrium.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q12",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Young's modulus is ratio of:",
+    "options": [
+      "Strain to stress",
+      "Stress to strain",
+      "Force to velocity",
+      "Torque to angle"
+    ],
+    "correctIndex": 1,
+    "explanation": "E=σ/ε in the linear-elastic range.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q13",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Longitudinal strain has which SI unit?",
+    "options": [
+      "Pascal",
+      "Newton",
+      "No unit",
+      "Joule"
+    ],
+    "correctIndex": 2,
+    "explanation": "ε=ΔL/L0 is a ratio of lengths, hence dimensionless.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q14",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-3",
+    "cognitive": "comprehension",
+    "stem": "If force doubles on the same rod within its linear elastic range, elongation:",
+    "options": [
+      "Halves",
+      "Doubles",
+      "Quadruples",
+      "Is unchanged"
+    ],
+    "correctIndex": 1,
+    "explanation": "ΔL=FL/(AE) for constant geometry and E.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q15",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-3",
+    "cognitive": "comprehension",
+    "stem": "A structure has zero net horizontal and vertical forces but a nonzero net moment. It:",
+    "options": [
+      "Is in static equilibrium",
+      "Must have zero angular acceleration",
+      "Is not in static equilibrium",
+      "Has zero stress everywhere"
+    ],
+    "correctIndex": 2,
+    "explanation": "Torque balance is also required for equilibrium.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q16",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "The restoring force of an ideal spring is:",
+    "options": [
+      "F=+kx",
+      "F=−kx",
+      "F=mv",
+      "F=mg/k"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hooke's law F=−kx points toward equilibrium.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q17",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "A traveling mechanical wave primarily transports:",
+    "options": [
+      "Matter at speed v",
+      "Energy through the medium",
+      "Permanent bulk displacement of medium",
+      "Mass from source to receiver"
+    ],
+    "correctIndex": 1,
+    "explanation": "Wave motion transports energy, while medium particles typically oscillate locally.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q18",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "What is wave frequency measured in?",
+    "options": [
+      "Hertz",
+      "Tesla",
+      "Newton",
+      "Pascal"
+    ],
+    "correctIndex": 0,
+    "explanation": "Frequency is oscillations per second, in hertz.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q19",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-4",
+    "cognitive": "comprehension",
+    "stem": "A string wave travels at 120 m/s with frequency 40 Hz. Its wavelength is:",
+    "options": [
+      "0.33 m",
+      "3 m",
+      "160 m",
+      "4800 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "λ=v/f=120/40=3 m.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-rotation-waves-q20",
+    "groupId": "pfe-rotation-waves",
+    "lessonId": "pfe-rotation-waves-lesson-4",
+    "cognitive": "comprehension",
+    "stem": "In the same ideal mass–spring oscillator, increasing mass by a factor of four changes the period by:",
+    "options": [
+      "Factor of 4",
+      "Factor of 2",
+      "Factor of 1/2",
+      "No change"
+    ],
+    "correctIndex": 1,
+    "explanation": "T=2π√(m/k), so quadrupling m doubles T.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  }
+]
