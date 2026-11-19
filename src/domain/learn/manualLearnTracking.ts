@@ -14,7 +14,7 @@ export interface ManualLearnStore {
   schemaVersion: 1;
   records: Record<string,ManualLearnRecord>;
 }
-const TRACKING_ID = /^(?:alg-[a-z0-9-]{1,100}|chapter-top-[a-z0-9-]{1,100}|trig-[a-z0-9-]{1,160}|geo-(?:solid|plane|analytic)-[0-9]{3}(?:--unit-geo-[0-9]{3}-[a-z0-9-]{1,70})?)$/;
+const TRACKING_ID = /^(?:alg-[a-z0-9-]{1,100}|chapter-top-[a-z0-9-]{1,100}|trig-[a-z0-9-]{1,160}|geo-(?:solid|plane|analytic)-[0-9]{3}(?:--unit-geo-[0-9]{3}-[a-z0-9-]{1,70})?|phy-pfe-(?:mechanics|rotation-waves|fluids-heat|electric-optics)-lesson-[1-9](?:--unit-pfe-(?:mechanics|rotation-waves|fluids-heat|electric-optics)-lesson-[1-9]-(?:foundations|example|checkpoints))?)$/;
 const STATUS:readonly ManualLearnStatus[] = ['unrated','studying','understood','mastered'];
 const isObject = (value:unknown):value is Record<string,unknown> => value !== null && typeof value === 'object' && !Array.isArray(value);
 const validDate = (value:unknown) => typeof value === 'string' && value.length <= 40 && Number.isFinite(Date.parse(value));
