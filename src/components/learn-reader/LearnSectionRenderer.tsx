@@ -3,11 +3,13 @@ import { BookOpenCheck, Check, ChevronDown } from 'lucide-react';
 import { MathFormula, FormattedMathText } from '../MathFormula';
 import { LessonBlock } from '../../domain/learn/lessonTypes';
 import { TrigonometryDiagram } from './TrigonometryDiagram';
+import { PhysicsIllustration } from './PhysicsIllustration';
 
 const base='text-base leading-[1.8] text-slate-700';
 export const LearnSectionRenderer:React.FC<{blocks:LessonBlock[]}> = ({blocks})=> (
   <div className="space-y-7">
     {blocks.map(block=>{
+      if(block.type==='physics-diagram')return <PhysicsIllustration key={block.id} kind={block.diagram} caption={block.caption}/>;
       if(block.type==='diagram')return <TrigonometryDiagram key={block.id} diagram={block.diagram} caption={block.caption}/>;
       if(block.type==='formula')return (
         <figure key={block.id} className="rounded-xl border border-slate-200 bg-slate-50 px-4 py-5 min-w-0">
