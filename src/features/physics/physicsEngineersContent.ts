@@ -22,7 +22,7 @@ export interface EngineerLessonRecord {
   reference: string;
 }
 
-export const PHYSICS_ENGINEER_SOURCE: readonly EngineerLessonRecord[] = [...part1,...part2] as EngineerLessonRecord[];
+export const PHYSICS_ENGINEER_SOURCE: readonly EngineerLessonRecord[] = [...part1,...part2] as unknown as EngineerLessonRecord[];
 const OUTLINE_BY_ID = new Map(PHYSICS_LESSON_OUTLINES.map(o=>[o.id,o]));
 
 function lessonFromSource(source: EngineerLessonRecord):LearnLesson {
