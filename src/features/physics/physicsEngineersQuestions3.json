@@ -1,0 +1,172 @@
+[
+  {
+    "id": "pfe-fluids-heat-q01",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "Hydrostatic pressure at depth h in a constant-density liquid is:",
+    "options": [
+      "p=p0+ρgh",
+      "p=p0−ρv²",
+      "p=mg/A²",
+      "p=ρg/h"
+    ],
+    "correctIndex": 0,
+    "explanation": "For stationary constant-density liquid, pressure increases by ρgh with depth.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q02",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "The buoyant force on an immersed object equals the weight of:",
+    "options": [
+      "The object",
+      "The fluid displaced",
+      "All fluid in the vessel",
+      "The object's container"
+    ],
+    "correctIndex": 1,
+    "explanation": "Archimedes' principle uses displaced fluid weight.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q03",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "What is the SI unit of pressure?",
+    "options": [
+      "Pascal",
+      "Joule",
+      "Tesla",
+      "Watt"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pa = N/m².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q04",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "For steady incompressible flow, the continuity equation is:",
+    "options": [
+      "A1v1=A2v2",
+      "A1/A2=v1/v2",
+      "p1=p2 always",
+      "v1+v2=0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Volumetric flow rate Av is constant along a streamtube under these assumptions.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q05",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "Which term in Bernoulli's equation represents kinetic energy per unit volume?",
+    "options": [
+      "p",
+      "ρgy",
+      "½ρv²",
+      "ρg"
+    ],
+    "correctIndex": 2,
+    "explanation": "Kinetic energy per volume is ½ρv².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q06",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "Bernoulli's ideal streamline relation assumes flow is:",
+    "options": [
+      "Steady and inviscid",
+      "Always turbulent",
+      "Highly compressible",
+      "Always through a pump"
+    ],
+    "correctIndex": 0,
+    "explanation": "The elementary Bernoulli form assumes steady, inviscid and incompressible flow along a streamline.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q07",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Heat is best described as:",
+    "options": [
+      "Energy transferred due to temperature difference",
+      "A measure of temperature",
+      "Stored temperature",
+      "A substance released by friction"
+    ],
+    "correctIndex": 0,
+    "explanation": "Heat is energy transferred across a system boundary due to temperature difference.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q08",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Which heat transfer mode can occur through vacuum?",
+    "options": [
+      "Convection",
+      "Conduction",
+      "Radiation",
+      "Diffusion of water molecules"
+    ],
+    "correctIndex": 2,
+    "explanation": "Thermal radiation requires no material medium.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q09",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Which relation computes sensible heat for constant specific heat without phase change?",
+    "options": [
+      "Q=mcΔT",
+      "Q=mv²",
+      "Q=F/A",
+      "Q=IR"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sensible heat Q=mcΔT with c approximately constant over the interval.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-fluids-heat-q10",
+    "groupId": "pfe-fluids-heat",
+    "lessonId": "pfe-fluids-heat-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "In Stefan–Boltzmann radiation expressions, absolute temperature should be expressed in:",
+    "options": [
+      "Celsius",
+      "Fahrenheit",
+      "Kelvin",
+      "Degrees per second"
+    ],
+    "correctIndex": 2,
+    "explanation": "Radiative T⁴ expressions require absolute Kelvin temperatures.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  }
+]
