@@ -1,0 +1,427 @@
+[
+  {
+    "id": "pfe-mechanics-q01",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "Which quantity is a vector?",
+    "options": [
+      "Temperature",
+      "Displacement",
+      "Energy",
+      "Mass"
+    ],
+    "correctIndex": 1,
+    "explanation": "Displacement has magnitude and direction; the other quantities listed are scalars.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q02",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "Which SI unit is equivalent to one newton?",
+    "options": [
+      "kg·m/s²",
+      "kg·m²/s²",
+      "kg/s",
+      "N·s"
+    ],
+    "correctIndex": 0,
+    "explanation": "Force has base dimensions MLT⁻², giving kg·m/s².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q03",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "What mathematical operation is used to combine perpendicular vector components into a magnitude?",
+    "options": [
+      "Simple subtraction",
+      "Pythagorean sum",
+      "Arithmetic average",
+      "Division by angle"
+    ],
+    "correctIndex": 1,
+    "explanation": "For orthogonal components, |A|=√(Ax²+Ay²).",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q04",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-1",
+    "cognitive": "comprehension",
+    "stem": "A 10 N vector points along the negative x-axis. What is its x-component?",
+    "options": [
+      "+10 N",
+      "0 N",
+      "−10 N",
+      "Cannot determine"
+    ],
+    "correctIndex": 2,
+    "explanation": "The signed component is negative when directed opposite +x.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q05",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "For constant acceleration, which expression gives final velocity?",
+    "options": [
+      "v=v₀+at",
+      "v=v₀+½at²",
+      "v=a/t",
+      "v=v₀−xt"
+    ],
+    "correctIndex": 0,
+    "explanation": "The standard constant-acceleration velocity relation is v=v₀+at.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q06",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "At the apex of an ideal projectile, the vertical component of velocity is:",
+    "options": [
+      "Largest upward",
+      "Zero",
+      "Equal to g",
+      "Largest downward"
+    ],
+    "correctIndex": 1,
+    "explanation": "The vertical velocity changes sign at the apex and is instantaneously zero.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q07",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-2",
+    "cognitive": "comprehension",
+    "stem": "Ignoring air drag, a projectile is launched horizontally. Its horizontal velocity is:",
+    "options": [
+      "Increasing uniformly",
+      "Decreasing uniformly",
+      "Constant",
+      "Always zero"
+    ],
+    "correctIndex": 2,
+    "explanation": "With ax=0, horizontal velocity is constant.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q08",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-2",
+    "cognitive": "comprehension",
+    "stem": "A car speeds up from 4 to 10 m/s in 3 s with constant acceleration. Find acceleration.",
+    "options": [
+      "2 m/s²",
+      "3 m/s²",
+      "6 m/s²",
+      "14 m/s²"
+    ],
+    "correctIndex": 0,
+    "explanation": "a=(10−4)/3=2 m/s².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q09",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Newton's third-law forces act on:",
+    "options": [
+      "The same object",
+      "Different interacting objects",
+      "Only stationary objects",
+      "Only fluids"
+    ],
+    "correctIndex": 1,
+    "explanation": "Action and reaction always act on distinct interacting bodies.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q10",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Which relation states Newton's second law for fixed mass?",
+    "options": [
+      "ΣF=ma",
+      "ΣF=mv",
+      "F=m/a",
+      "F=ma²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Net external force equals mass times acceleration.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q11",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "What is the maximum magnitude of static friction under the simple dry-contact model?",
+    "options": [
+      "μkN",
+      "μsN",
+      "N/μs",
+      "mg always"
+    ],
+    "correctIndex": 1,
+    "explanation": "Static friction can vary up to μsN.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q12",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-3",
+    "cognitive": "comprehension",
+    "stem": "A block rests on a frictionless incline. Which force is normal to its surface?",
+    "options": [
+      "Its weight",
+      "Normal force",
+      "Tension along incline",
+      "Friction"
+    ],
+    "correctIndex": 1,
+    "explanation": "The contact normal acts perpendicular to the surface.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q13",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-3",
+    "cognitive": "comprehension",
+    "stem": "A 2 kg body experiences net force 8 N. Its acceleration magnitude is:",
+    "options": [
+      "16 m/s²",
+      "8 m/s²",
+      "4 m/s²",
+      "0.25 m/s²"
+    ],
+    "correctIndex": 2,
+    "explanation": "a=F/m=8/2=4 m/s².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q14",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "Which is the SI unit of work?",
+    "options": [
+      "Newton",
+      "Joule",
+      "Watt",
+      "Pascal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Work is measured in joules (N·m).",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q15",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "Kinetic energy of mass m moving at speed v is:",
+    "options": [
+      "mv",
+      "mgh",
+      "½mv²",
+      "Fv"
+    ],
+    "correctIndex": 2,
+    "explanation": "Translational kinetic energy is K=½mv².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q16",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "A force perpendicular to displacement performs what work?",
+    "options": [
+      "Positive work",
+      "Negative work",
+      "Zero work",
+      "Maximum work"
+    ],
+    "correctIndex": 2,
+    "explanation": "W=Fd cos90°=0 for constant force.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q17",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-4",
+    "cognitive": "comprehension",
+    "stem": "An object falls freely without air resistance. As height decreases, its:",
+    "options": [
+      "K increases, U decreases",
+      "K decreases, U increases",
+      "K and U both decrease",
+      "K and U remain individually constant"
+    ],
+    "correctIndex": 0,
+    "explanation": "Gravitational potential energy converts to kinetic energy in an isolated system.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q18",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-5",
+    "cognitive": "knowledge",
+    "stem": "Linear momentum is defined as:",
+    "options": [
+      "Mass times acceleration",
+      "Mass times velocity",
+      "Force times displacement",
+      "Energy divided by time"
+    ],
+    "correctIndex": 1,
+    "explanation": "Linear momentum p=mv.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q19",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-5",
+    "cognitive": "knowledge",
+    "stem": "The SI unit of impulse is:",
+    "options": [
+      "N·s",
+      "N/s",
+      "J/s",
+      "kg/m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Impulse equals change in momentum and has N·s units.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q20",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-5",
+    "cognitive": "comprehension",
+    "stem": "Two carts collide and stick together with negligible external impulse. Which quantity must be conserved?",
+    "options": [
+      "Kinetic energy",
+      "Momentum",
+      "Individual speeds",
+      "Mechanical power"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total system momentum is conserved even in an inelastic collision.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q21",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-5",
+    "cognitive": "comprehension",
+    "stem": "A 3 kg cart changes velocity from +2 m/s to −1 m/s. What is Δp?",
+    "options": [
+      "+9 kg·m/s",
+      "−3 kg·m/s",
+      "−9 kg·m/s",
+      "0"
+    ],
+    "correctIndex": 2,
+    "explanation": "Δp=m(vf−vi)=3(−1−2)=−9 kg·m/s.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q22",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-6",
+    "cognitive": "knowledge",
+    "stem": "Direction of centripetal acceleration in uniform circular motion is:",
+    "options": [
+      "Radially outward",
+      "Tangential",
+      "Radially inward",
+      "Opposite velocity"
+    ],
+    "correctIndex": 2,
+    "explanation": "The velocity direction changes toward the center.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q23",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-6",
+    "cognitive": "knowledge",
+    "stem": "Mechanical power is defined as:",
+    "options": [
+      "Work per unit time",
+      "Force per unit area",
+      "Energy per unit distance",
+      "Impulse per time"
+    ],
+    "correctIndex": 0,
+    "explanation": "P=dW/dt.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q24",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-6",
+    "cognitive": "comprehension",
+    "stem": "If speed doubles at fixed radius, required centripetal acceleration becomes:",
+    "options": [
+      "One-half",
+      "Double",
+      "Four times",
+      "Unchanged"
+    ],
+    "correctIndex": 2,
+    "explanation": "ac=v²/r, so doubling v multiplies ac by four.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-mechanics-q25",
+    "groupId": "pfe-mechanics",
+    "lessonId": "pfe-mechanics-lesson-6",
+    "cognitive": "comprehension",
+    "stem": "A machine transfers 500 J in 10 s at constant rate. Its power is:",
+    "options": [
+      "5 W",
+      "50 W",
+      "5000 W",
+      "0.02 W"
+    ],
+    "correctIndex": 1,
+    "explanation": "P=W/t=500/10=50 W.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  }
+]
