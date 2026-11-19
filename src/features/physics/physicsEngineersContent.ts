@@ -1,4 +1,4 @@
-import type { LearnLesson, LessonBlock, LessonSection } from '../../domain/learn/lessonTypes';
+import type { LearnLesson, LessonBlock, LessonSection, PhysicsDiagramKind } from '../../domain/learn/lessonTypes';
 import part1 from './physicsEngineersPart1.json';
 import part2 from './physicsEngineersPart2.json';
 import { PHYSICS_LESSON_OUTLINES } from './physicsCatalog';
@@ -24,6 +24,15 @@ export interface EngineerLessonRecord {
 
 export const PHYSICS_ENGINEER_SOURCE: readonly EngineerLessonRecord[] = [...part1,...part2] as unknown as EngineerLessonRecord[];
 const OUTLINE_BY_ID = new Map(PHYSICS_LESSON_OUTLINES.map(o=>[o.id,o]));
+const PHYSICS_DIAGRAMS:Readonly<Record<string,{kind:PhysicsDiagramKind;caption:string}>>={
+  'pfe-mechanics-lesson-1':{kind:'vector-components',caption:'A force vector can be resolved into horizontal and vertical signed components.'},
+  'pfe-mechanics-lesson-2':{kind:'projectile',caption:'For ideal projectile motion, horizontal speed is constant while vertical acceleration is downward.'},
+  'pfe-mechanics-lesson-3':{kind:'free-body',caption:'Example force directions for a block sliding on a horizontal surface; actual arrow lengths depend on forces.'},
+  'pfe-rotation-waves-lesson-4':{kind:'wave',caption:'Wave displacement oscillates about equilibrium while the disturbance propagates.'},
+  'pfe-fluids-heat-lesson-2':{kind:'fluid-flow',caption:'Steady incompressible flow speeds up as the pipe cross-sectional area decreases.'},
+  'pfe-electric-optics-lesson-5':{kind:'refraction',caption:'A ray bends toward the normal when it enters a medium with higher refractive index.'},
+};
+
 
 function lessonFromSource(source: EngineerLessonRecord):LearnLesson {
   const outline = OUTLINE_BY_ID.get(source.id);
@@ -37,6 +46,10 @@ function lessonFromSource(source: EngineerLessonRecord):LearnLesson {
     ...source.formulas.map((formula,i):LessonBlock=>({id:`${id}-formula-${i+1}`,type:'formula',latex:formula.latex,description:formula.note})),
     {id:`${id}-concept-guardrail`,type:'note',text:`Important conditions and common mistakes: ${source.guardrail}`},
   ];
+  const picture=PHYSICS_DIAGRAMS[id];
+  if(picture)conceptBlocks.splice(conceptBlocks.length-1,0,{
+    id:`${id}-diagram`,type:'physics-diagram',diagram:picture.kind,caption:picture.caption,
+  });
   const exampleBlocks:LessonBlock[]=[
     {id:`${id}-worked-1`,type:'worked-example',title:source.worked.title,problem:source.worked.problem,
       strategy:source.worked.strategy,steps:source.worked.steps,check:source.worked.check,takeaway:source.worked.takeaway},
