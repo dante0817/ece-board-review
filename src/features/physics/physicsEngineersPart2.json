@@ -92,8 +92,8 @@
     "concept": "Mass conservation in steady flow implies a constant mass-flow rate through a streamtube. For an incompressible fluid, smaller flow area means larger speed. Bernoulli's equation represents mechanical-energy conservation along a streamline for steady, inviscid, incompressible flow without shaft work.",
     "formulas": [
       {
-        "latex": "\\rho A_1v_1=\\rho A_2v_2,\\quad A_1v_1=A_2v_2",
-        "note": "Second form assumes the same constant density at both sections."
+        "latex": "\\rho_1A_1v_1=\\rho_2A_2v_2,\\qquad A_1v_1=A_2v_2",
+        "note": "The first form is steady mass-flow continuity; the second assumes equal constant density (incompressible flow)."
       },
       {
         "latex": "p+\\tfrac12\\rho v^2+\\rho gy=\\text{constant}",
