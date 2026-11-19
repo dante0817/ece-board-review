@@ -25,8 +25,12 @@ export const PHYSICS_ENGINEER_QUESTIONS:readonly PhysicsEngineerQuestion[]=[
 ] as unknown as PhysicsEngineerQuestion[];
 export const physicsEngineerQuestionsForLesson=(id:string)=>PHYSICS_ENGINEER_QUESTIONS.filter(q=>q.lessonId===id);
 export const physicsEngineerQuestionsForGroup=(id:string)=>PHYSICS_ENGINEER_QUESTIONS.filter(q=>q.groupId===id);
-export const PHYSICS_ENGINEERS_APPROVED_QUESTIONS:readonly PhysicsEngineerQuestion[]=
-  PHYSICS_ENGINEER_QUESTIONS.filter(q=>q.assessmentEligible===true && q.reviewStatus==='approved');
+/**
+ * There is no independent approval ledger in Batch 2. Never derive scored
+ * eligibility from editable draft flags. Batch 4/5 must add digest-bound
+ * review evidence and a jointly feasible topic/cognitive selector first.
+ */
+export const PHYSICS_ENGINEERS_APPROVED_QUESTIONS:readonly PhysicsEngineerQuestion[]=[];
 
 /** Fail-closed authoring checks. Passing never confers expert approval. */
 export function verifyPhysicsEngineersQuestions():string[]{
