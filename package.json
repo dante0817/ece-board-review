@@ -11,6 +11,7 @@
     "clean": "rm -rf dist server.js",
     "seed": "tsx scripts/seed.ts",
     "lint": "tsc --noEmit",
+    "validate:physics:batch2": "node scripts/validatePhysicsEngineersBatch2.mjs",
     "validate:integrity:v10.9": "node scripts/validateIntegrityV109.mjs",
     "lint:integrity": "tsc --project tsconfig.integrity.json",
     "validate:algebra": "node scripts/validateAlgebraReferenceContent.mjs",
