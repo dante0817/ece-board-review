@@ -13,8 +13,8 @@ export interface PhysicsEngineerQuestion {
   options:string[];
   correctIndex:number;
   explanation:string;
-  reviewStatus:'draft';
-  assessmentEligible:false;
+  reviewStatus:'draft'|'approved';
+  assessmentEligible:boolean;
 }
 /**
  * Authored ungraded practice only. No item is approved for scored PRC mock exams.
