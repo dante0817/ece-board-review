@@ -1,8 +1,10 @@
 /** Author-authored, versioned content. Reading is NOT scored assessment evidence. */
 export type LessonStatus = 'summary' | 'draft' | 'reviewed' | 'verified';
+export type PhysicsDiagramKind = 'vector-components'|'projectile'|'free-body'|'wave'|'fluid-flow'|'refraction';
 export type LessonBlock =
   | { id: string; type:'paragraph' | 'definition' | 'note'; text:string }
   | { id: string; type:'formula'; latex:string; description?:string }
+  | { id: string; type:'physics-diagram'; diagram:PhysicsDiagramKind; caption:string }
   | { id: string; type:'diagram'; diagram:'radian'|'right-triangle'|'unit-circle'|'sine-graph'|'tangent-graph'|'reciprocal-graph'|'transform-graph'|'inverse-graphs'|'oblique-triangle'|'ssa-ambiguity'|'vector-components'|'vector-cross-product'|'complex-plane'|'roots-of-unity'|'polar-grid'|'parametric-circle'|'wave-sinusoid'|'wave-damped'|'wave-phasor'|'advanced-sphere'|'advanced-hyperbola'; caption:string }
   | { id: string; type:'worked-example'; title:string; problem:string; strategy?:string; steps:string[]; check:string; takeaway?:string }
   | { id: string; type:'checkpoint'; prompt:string; answer:string; explanation?:string };
