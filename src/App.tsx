@@ -36,6 +36,7 @@ import { CalculatorSkillsScreen } from './components/CalculatorSkillsScreen';
 import { ErrorLogScreen } from './components/ErrorLogScreen';
 import { ProgressScreen } from './components/ProgressScreen';
 import { BoardSubjectScreen } from './components/BoardSubjectScreen';
+import { PhysicsScreen } from './features/physics/PhysicsScreen';
 import { PracticeScreen } from './components/PracticeScreen';
 import { ReviewQueueScreen } from './components/ReviewQueueScreen';
 import { BoardReadinessScreen } from './components/BoardReadinessScreen';
@@ -103,6 +104,8 @@ const MainContent: React.FC = () => {
     'ratios-proportions',
     'scientific-notation',
     'geas',
+    'physics-engineers',
+    'physics-2',
     'electronics',
     'est',
   ].includes(currentScreen);
@@ -163,6 +166,8 @@ const MainContent: React.FC = () => {
       {currentScreen === 'calculator-skills' && <CalculatorSkillsScreen />}
       {currentScreen === 'readiness' && <BoardReadinessScreen />}
       {currentScreen === 'geas' && <BoardSubjectScreen category="geas" />}
+      {currentScreen === 'physics-engineers' && <PhysicsScreen courseId="geas-physics" />}
+      {currentScreen === 'physics-2' && <PhysicsScreen courseId="geas-physics2" />}
       {currentScreen === 'electronics' && <BoardSubjectScreen category="electronics" />}
       {currentScreen === 'est' && <BoardSubjectScreen category="est" />}
     </main>
