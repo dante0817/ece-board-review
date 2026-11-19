@@ -1,0 +1,342 @@
+[
+  {
+    "id": "pfe-electric-optics-q01",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "Like point charges at rest exert what force on each other?",
+    "options": [
+      "Attraction",
+      "Repulsion",
+      "No force",
+      "Always equal to gravity"
+    ],
+    "correctIndex": 1,
+    "explanation": "Like charges repel by Coulomb's law.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q02",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "The SI unit of electric charge is:",
+    "options": [
+      "Ampere",
+      "Coulomb",
+      "Volt",
+      "Ohm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Electric charge is measured in coulombs.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q03",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-1",
+    "cognitive": "knowledge",
+    "stem": "Electric-field lines from an isolated positive point charge point:",
+    "options": [
+      "Inward",
+      "Outward",
+      "Circularly",
+      "Only upward"
+    ],
+    "correctIndex": 1,
+    "explanation": "The electric field points away from positive charges.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q04",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-1",
+    "cognitive": "comprehension",
+    "stem": "If two point charges keep their values but separation doubles, force magnitude becomes:",
+    "options": [
+      "Two times",
+      "Four times",
+      "Half",
+      "One-quarter"
+    ],
+    "correctIndex": 3,
+    "explanation": "Coulomb's law gives F∝1/r².",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q05",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "Electrical potential difference has SI unit:",
+    "options": [
+      "Volt",
+      "Watt",
+      "Coulomb",
+      "Tesla"
+    ],
+    "correctIndex": 0,
+    "explanation": "One volt is one joule per coulomb.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q06",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "Ohm's law for an ohmic component states:",
+    "options": [
+      "V=IR",
+      "P=V/R²",
+      "I=VR",
+      "Q=CV²"
+    ],
+    "correctIndex": 0,
+    "explanation": "At fixed resistance, V=IR.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q07",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-2",
+    "cognitive": "knowledge",
+    "stem": "Which relation expresses resistive electrical power?",
+    "options": [
+      "P=IR",
+      "P=IV",
+      "P=I/V",
+      "P=R/V"
+    ],
+    "correctIndex": 1,
+    "explanation": "Instantaneous electrical power is P=IV with passive sign convention.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q08",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-2",
+    "cognitive": "comprehension",
+    "stem": "Two ideal resistors 3 Ω and 7 Ω in series have equivalent resistance:",
+    "options": [
+      "2.1 Ω",
+      "4 Ω",
+      "10 Ω",
+      "21 Ω"
+    ],
+    "correctIndex": 2,
+    "explanation": "For series resistors, Req=3+7=10 Ω.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q09",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "The SI unit of magnetic flux density is:",
+    "options": [
+      "Weber",
+      "Tesla",
+      "Farad",
+      "Henry"
+    ],
+    "correctIndex": 1,
+    "explanation": "Magnetic flux density B is measured in tesla.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q10",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "A stationary point charge in a static magnetic field experiences magnetic force:",
+    "options": [
+      "Always maximum",
+      "Zero",
+      "Always along B",
+      "Always opposite B"
+    ],
+    "correctIndex": 1,
+    "explanation": "Magnetic component qv×B vanishes when v=0.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q11",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-3",
+    "cognitive": "knowledge",
+    "stem": "Which rule determines magnetic-force direction on positive moving charge?",
+    "options": [
+      "Right-hand rule for v×B",
+      "Left-hand rule for negative charge without sign adjustment",
+      "Kirchhoff's loop rule",
+      "Snell's law"
+    ],
+    "correctIndex": 0,
+    "explanation": "v×B determines positive-charge magnetic-force direction.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q12",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-3",
+    "cognitive": "comprehension",
+    "stem": "A current-carrying wire is parallel to uniform B. The magnetic force is:",
+    "options": [
+      "Maximum",
+      "Zero",
+      "Independent of orientation",
+      "Twice ILB"
+    ],
+    "correctIndex": 1,
+    "explanation": "F=ILBsin0=0.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q13",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "Magnetic flux is measured in:",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Ampere",
+      "Newton"
+    ],
+    "correctIndex": 1,
+    "explanation": "ΦB has SI unit weber (Wb).",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q14",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "Which physical law relates induced EMF to changing magnetic flux?",
+    "options": [
+      "Faraday's law",
+      "Pascal's law",
+      "Hooke's law",
+      "Ohm's law"
+    ],
+    "correctIndex": 0,
+    "explanation": "Faraday's law states EMF equals negative rate of flux change.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q15",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-4",
+    "cognitive": "knowledge",
+    "stem": "The opposing direction of induced current is expressed by:",
+    "options": [
+      "Lenz's law",
+      "Gauss's law",
+      "Boyle's law",
+      "Stefan–Boltzmann law"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lenz's law gives induced effect opposing flux change.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q16",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-4",
+    "cognitive": "comprehension",
+    "stem": "A 10-turn loop has flux change 0.4 Wb per turn in 2 s. Average induced EMF magnitude is:",
+    "options": [
+      "0.2 V",
+      "2 V",
+      "4 V",
+      "8 V"
+    ],
+    "correctIndex": 1,
+    "explanation": "|ε|=N|ΔΦ|/Δt=10×0.4/2=2 V.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q17",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-5",
+    "cognitive": "knowledge",
+    "stem": "Angles of incidence and refraction in Snell's law are measured from the:",
+    "options": [
+      "Interface",
+      "Surface tangent",
+      "Normal",
+      "Optical axis only"
+    ],
+    "correctIndex": 2,
+    "explanation": "The angles are defined relative to the normal.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q18",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-5",
+    "cognitive": "knowledge",
+    "stem": "Which law states that incident and reflected angles are equal?",
+    "options": [
+      "Law of reflection",
+      "Faraday's law",
+      "Coulomb's law",
+      "Ampère's law"
+    ],
+    "correctIndex": 0,
+    "explanation": "Specular reflection follows θi=θr.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q19",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-5",
+    "cognitive": "knowledge",
+    "stem": "For a thin lens under a real-is-positive convention, magnification is:",
+    "options": [
+      "m=di/do",
+      "m=−di/do",
+      "m=f/do",
+      "m=do/di"
+    ],
+    "correctIndex": 1,
+    "explanation": "Lateral magnification is m=−di/do under the standard thin-lens convention.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  },
+  {
+    "id": "pfe-electric-optics-q20",
+    "groupId": "pfe-electric-optics",
+    "lessonId": "pfe-electric-optics-lesson-5",
+    "cognitive": "comprehension",
+    "stem": "A ray enters glass from air at nonzero angle. It bends toward the normal when glass has:",
+    "options": [
+      "Lower refractive index",
+      "Higher refractive index",
+      "Same refractive index",
+      "Zero refractive index"
+    ],
+    "correctIndex": 1,
+    "explanation": "From Snell's law, a higher n gives a smaller refracted angle.",
+    "reviewStatus": "draft",
+    "assessmentEligible": false
+  }
+]
