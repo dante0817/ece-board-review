@@ -1,0 +1,389 @@
+[
+  {
+    "id": "pfe-rotation-waves-lesson-4",
+    "title": "Simple harmonic motion, wave propagation and sound",
+    "summary": "Recognize restoring forces, oscillation periods, wave speed and basic sound behavior.",
+    "concept": "Simple harmonic motion has acceleration proportional and opposite to displacement from equilibrium. Mechanical traveling waves transport energy; their speed relates frequency and wavelength. Sound is a mechanical pressure wave and requires a medium.",
+    "formulas": [
+      {
+        "latex": "F=-kx,\\quad \\omega=\\sqrt{\\frac{k}{m}},\\quad T=\\frac{2\\pi}{\\omega}",
+        "note": "Ideal mass–spring oscillator with negligible damping; T is in seconds."
+      },
+      {
+        "latex": "v=f\\lambda,\\qquad I=\\frac{P}{A}",
+        "note": "Wave speed in medium v, frequency f, wavelength λ; intensity is power per area."
+      }
+    ],
+    "method": "Distinguish oscillation frequency from wave speed, identify equilibrium and medium conditions.",
+    "guardrail": "A wave's frequency generally stays fixed when entering a new medium, while its wavelength changes; sound does not propagate through vacuum.",
+    "worked": {
+      "title": "Mass–spring period",
+      "problem": "A mass of 0.50 kg is attached to an ideal spring of stiffness 200 N/m. Find the period.",
+      "strategy": "Use T=2π√(m/k).",
+      "steps": [
+        "m/k =0.50/200=0.0025 s².",
+        "√(0.0025)=0.05 s.",
+        "T=2π(0.05)≈0.314 s; frequency ≈3.18 Hz."
+      ],
+      "check": "Frequency is inverse of period; oscillation is faster for a stiffer spring.",
+      "takeaway": "The period does not depend on amplitude for an ideal linear spring."
+    },
+    "checks": [
+      [
+        "If frequency doubles in the same medium, what happens to wavelength?",
+        "It halves.",
+        "At constant speed, λ=v/f."
+      ],
+      [
+        "Where is acceleration largest in an ideal mass–spring oscillator?",
+        "At maximum displacement.",
+        "a=−ω²x, so its magnitude grows with |x|."
+      ]
+    ],
+    "reference": "Walker 10th; Serway & Jewett 9th; Cutnell & Johnson 9th"
+  },
+  {
+    "id": "pfe-fluids-heat-lesson-1",
+    "title": "Hydrostatic pressure, Pascal's principle and buoyancy",
+    "summary": "Analyze pressure variation with depth and upward buoyant forces in fluids.",
+    "concept": "Hydrostatic pressure increases with depth in a stationary fluid. A pressure change in an enclosed fluid is transmitted throughout the fluid. Archimedes' principle states that buoyancy equals the weight of displaced fluid, not necessarily the object's weight.",
+    "formulas": [
+      {
+        "latex": "p=p_0+\\rho gh,\\quad F=\\Delta p\\,A",
+        "note": "Uniform-density stationary liquid, depth h measured below reference surface."
+      },
+      {
+        "latex": "F_b=\\rho_{\\rm fluid}gV_{\\rm displaced}",
+        "note": "Buoyant force is upward; displaced volume is the submerged fluid volume."
+      }
+    ],
+    "method": "Define gauge versus absolute pressure and calculate displaced volume instead of assuming an object is fully submerged.",
+    "guardrail": "Floating bodies displace their own weight of fluid; a submerged body displaces volume equal to its submerged volume.",
+    "worked": {
+      "title": "Buoyancy of an immersed cube",
+      "problem": "A cube of side 0.10 m is fully immersed in fresh water (ρ=1000 kg/m³). Find buoyant force using g=9.8 m/s².",
+      "strategy": "Calculate displaced volume and use Archimedes' principle.",
+      "steps": [
+        "Displaced volume =(0.10 m)³=0.001 m³.",
+        "Fb=ρgV=(1000)(9.8)(0.001)=9.8 N.",
+        "Force acts vertically upward through the center of buoyancy."
+      ],
+      "check": "The result equals the weight of 1 kg of displaced water.",
+      "takeaway": "Distinguish buoyant force from net upward force after subtracting the object's weight."
+    },
+    "checks": [
+      [
+        "Does hydrostatic gauge pressure depend on container shape at a given depth?",
+        "No, for a stationary uniform-density liquid.",
+        "p−p0=ρgh depends on depth, density and g."
+      ],
+      [
+        "Can a fully submerged steel object have an upward buoyant force while sinking?",
+        "Yes.",
+        "Gravity can exceed buoyancy even though buoyancy acts upward."
+      ]
+    ],
+    "reference": "Cutnell & Johnson 9th; Giambattista 3rd; Serway & Jewett 9th"
+  },
+  {
+    "id": "pfe-fluids-heat-lesson-2",
+    "title": "Continuity, Bernoulli's equation and fluid flow",
+    "summary": "Use continuity and Bernoulli's relation under clearly defined flow assumptions.",
+    "concept": "Mass conservation in steady flow implies a constant mass-flow rate through a streamtube. For an incompressible fluid, smaller flow area means larger speed. Bernoulli's equation represents mechanical-energy conservation along a streamline for steady, inviscid, incompressible flow without shaft work.",
+    "formulas": [
+      {
+        "latex": "\\rho A_1v_1=\\rho A_2v_2,\\quad A_1v_1=A_2v_2",
+        "note": "Second form assumes the same constant density at both sections."
+      },
+      {
+        "latex": "p+\\tfrac12\\rho v^2+\\rho gy=\\text{constant}",
+        "note": "Along a streamline under ideal Bernoulli assumptions."
+      }
+    ],
+    "method": "Check the flow assumptions and continuity first, then compare pressure, kinetic and elevation terms.",
+    "guardrail": "Do not apply ideal Bernoulli blindly across pumps, major viscous losses or rapidly unsteady flow; real systems may require head-loss terms.",
+    "worked": {
+      "title": "Flow through a narrow pipe",
+      "problem": "Water moves at 2 m/s in a pipe of area 6 cm². It enters a throat of area 2 cm². Find the throat speed for steady incompressible flow.",
+      "strategy": "Use A1v1=A2v2.",
+      "steps": [
+        "A1/A2=6/2=3.",
+        "v2=(A1/A2)v1=3×2=6 m/s.",
+        "The throat velocity is three times the initial velocity."
+      ],
+      "check": "Both areas use the same unit, so their ratio is dimensionless.",
+      "takeaway": "A smaller area increases speed at fixed incompressible flow rate."
+    },
+    "checks": [
+      [
+        "For a level ideal streamtube, what usually happens to static pressure where speed rises?",
+        "Static pressure decreases.",
+        "At fixed elevation, p+½ρv² remains constant under Bernoulli assumptions."
+      ],
+      [
+        "What is the SI unit of volumetric flow rate Q=Av?",
+        "m³/s.",
+        "Area m² times speed m/s."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Cutnell & Johnson 9th"
+  },
+  {
+    "id": "pfe-fluids-heat-lesson-3",
+    "title": "Temperature, heat transfer, thermal expansion and calorimetry",
+    "summary": "Distinguish temperature from heat and analyze energy transfer and thermal response.",
+    "concept": "Temperature measures thermal state, while heat is energy transferred because of a temperature difference. Heat may be conducted, convected or radiated. Calorimetry balances energy gained and lost within an insulated system; expansion coefficients approximate small temperature changes.",
+    "formulas": [
+      {
+        "latex": "Q=mc\\Delta T,\\quad \\Delta L=\\alpha L_0\\Delta T",
+        "note": "No phase change; c and α taken constant over the temperature interval."
+      },
+      {
+        "latex": "\\dot Q_{\\rm cond}=kA\\frac{\\Delta T}{L},\\quad P_{\\rm rad}=\\varepsilon\\sigma A(T^4-T_{\\rm env}^4)",
+        "note": "Steady planar conduction; net radiation assumes a suitable emissivity approximation and Kelvin temperatures."
+      }
+    ],
+    "method": "Convert to Kelvin for temperature powers, distinguish heat capacity from specific heat and account for energy conservation.",
+    "guardrail": "Heat has units joules, not degrees Celsius. Use Kelvin for blackbody T⁴ radiation and absolute thermodynamic formulas.",
+    "worked": {
+      "title": "Heat a water sample",
+      "problem": "How much energy heats 0.50 kg of water from 20°C to 40°C? Take c=4180 J/(kg·K), neglect losses.",
+      "strategy": "Apply Q=mcΔT.",
+      "steps": [
+        "Temperature change ΔT=40−20=20 K.",
+        "Q=(0.50)(4180)(20)=41800 J.",
+        "Energy required is 41.8 kJ."
+      ],
+      "check": "ΔT in K and °C has equal numerical size for a temperature difference.",
+      "takeaway": "Temperature change is not the same as final absolute temperature."
+    },
+    "checks": [
+      [
+        "Which heat transfer mode can operate through vacuum?",
+        "Thermal radiation.",
+        "Conduction and convection require material media."
+      ],
+      [
+        "A 1 m bar expands by 1 mm on heating. What is the strain?",
+        "0.001.",
+        "ε=ΔL/L0=0.001 m/1 m."
+      ]
+    ],
+    "reference": "Cutnell & Johnson 9th; Giambattista 3rd; Walker 10th"
+  },
+  {
+    "id": "pfe-electric-optics-lesson-1",
+    "title": "Electric charge, Coulomb's law and electric fields",
+    "summary": "Apply charge conservation, Coulomb force direction and electric field definitions.",
+    "concept": "Electric charge is conserved and quantized. Like charges repel; opposite charges attract. The electric field at a point is the force per unit positive test charge, and fields from multiple sources combine by vector superposition.",
+    "formulas": [
+      {
+        "latex": "|\\vec F|=k\\frac{|q_1q_2|}{r^2},\\qquad \\vec E=\\frac{\\vec F}{q_{\\rm test}}",
+        "note": "Point-charge electrostatics; use signed direction separately."
+      },
+      {
+        "latex": "|\\vec E|=k\\frac{|q|}{r^2},\\quad k=\\frac{1}{4\\pi\\varepsilon_0}",
+        "note": "For a point charge in vacuum at distance r."
+      }
+    ],
+    "method": "Locate source and test charges, draw force/field directions, then sum vector contributions.",
+    "guardrail": "The electric field of a positive source points away; a negative source points toward it. An electron's force is opposite the field.",
+    "worked": {
+      "title": "Electric force between point charges",
+      "problem": "Charges +2 μC and −3 μC are 0.30 m apart in vacuum. Find force magnitude with k≈8.99×10⁹ N·m²/C².",
+      "strategy": "Use Coulomb's law and determine attraction or repulsion from the signs.",
+      "steps": [
+        "Convert microcoulombs: |q1q2|=(2×10⁻⁶)(3×10⁻⁶)=6×10⁻¹² C².",
+        "F=(8.99×10⁹)(6×10⁻¹²)/(0.30²)≈0.599 N.",
+        "Unlike charges attract along their line of separation."
+      ],
+      "check": "Coulomb-law inverse-square dependence: doubling r would quarter the force.",
+      "takeaway": "Magnitude calculations use absolute charge; direction comes from signs and geometry."
+    },
+    "checks": [
+      [
+        "What is electric field direction due to an isolated negative point charge?",
+        "Radially inward.",
+        "A positive test charge would be attracted."
+      ],
+      [
+        "If separation doubles, what happens to the Coulomb force magnitude?",
+        "It becomes one-quarter.",
+        "Inverse-square law, with all else fixed."
+      ]
+    ],
+    "reference": "Young & Freedman 13th; Serway & Jewett 9th; Cutnell & Johnson 9th"
+  },
+  {
+    "id": "pfe-electric-optics-lesson-2",
+    "title": "Electric potential, current, resistance and DC circuits",
+    "summary": "Relate voltage to energy, current to charge flow and resistance to circuit behavior.",
+    "concept": "Electric potential difference is energy change per unit charge. Electric current is charge transferred per time. Ohm's law for ohmic conductors relates voltage, current and resistance; Kirchhoff's laws express charge and energy conservation in lumped circuits.",
+    "formulas": [
+      {
+        "latex": "\\Delta V=\\frac{\\Delta U}{q},\\quad I=\\frac{dQ}{dt},\\quad V=IR",
+        "note": "Ohm's law is for an ohmic element under applicable conditions."
+      },
+      {
+        "latex": "P=IV=I^2R=\\frac{V^2}{R}",
+        "note": "Resistor power is dissipative for passive sign convention."
+      }
+    ],
+    "method": "Choose voltage polarities and current arrows; calculate series/parallel equivalent resistances or use Kirchhoff equations.",
+    "guardrail": "A component's polarity depends on the assumed current direction and circuit arrangement. Electric potential (V) is not potential energy (J).",
+    "worked": {
+      "title": "Series resistors",
+      "problem": "Two ideal resistors 4 Ω and 6 Ω are connected in series across a 20 V DC source. Find current and total power.",
+      "strategy": "Sum series resistance and apply Ohm's law.",
+      "steps": [
+        "Req=4+6=10 Ω.",
+        "I=V/Req=20/10=2 A.",
+        "Ptotal=VI=(20)(2)=40 W."
+      ],
+      "check": "Individual drops are 8 V and 12 V, totaling 20 V.",
+      "takeaway": "In series, the same current passes through each resistor."
+    },
+    "checks": [
+      [
+        "What is the SI unit of electric current?",
+        "Ampere (A), equal to coulomb per second.",
+        "I=dQ/dt."
+      ],
+      [
+        "What happens to equivalent resistance when adding another positive resistor in parallel?",
+        "It decreases.",
+        "Parallel conductance increases."
+      ]
+    ],
+    "reference": "Young & Freedman 13th; Serway & Jewett 9th; Schaum's College Physics 9th"
+  },
+  {
+    "id": "pfe-electric-optics-lesson-3",
+    "title": "Magnetic fields, magnetic forces and magnetic materials",
+    "summary": "Recognize magnetic force direction and basic fields from currents and materials.",
+    "concept": "A magnetic field exerts force on a moving charge proportional to its velocity component perpendicular to the field. A current-carrying wire also experiences force in a field. Magnetic dipoles and magnetic properties of matter are useful for understanding motors and inductive devices.",
+    "formulas": [
+      {
+        "latex": "\\vec F=q\\vec v\\times\\vec B,\\quad |\\vec F|=|q|vB\\sin\\theta",
+        "note": "Magnetic force is perpendicular to velocity and field; q is signed."
+      },
+      {
+        "latex": "F=ILB\\sin\\theta,\\quad B_{\\rm wire}=\\frac{\\mu_0I}{2\\pi r}",
+        "note": "Uniform straight segment in uniform B; second formula for a long straight wire."
+      }
+    ],
+    "method": "Use a right-hand rule for positive charge/conventional current, reverse the force direction for negative charge.",
+    "guardrail": "The magnetic force on a moving point charge does no work because it is perpendicular to instantaneous velocity; a magnetic field alone cannot change speed.",
+    "worked": {
+      "title": "Wire in a magnetic field",
+      "problem": "A 0.20 m wire carries 5 A perpendicular to a uniform 0.30 T field. Find force magnitude.",
+      "strategy": "Use F=ILBsin90°.",
+      "steps": [
+        "I=5 A, L=0.20 m, B=0.30 T.",
+        "F=(5)(0.20)(0.30)(1)=0.30 N.",
+        "Force direction is perpendicular to both the wire current and field."
+      ],
+      "check": "Zero force if the same current direction becomes parallel to B.",
+      "takeaway": "Use the actual current direction to determine vector force."
+    },
+    "checks": [
+      [
+        "Does a stationary charge experience a magnetic Lorentz force?",
+        "No.",
+        "qv×B=0 when v=0."
+      ],
+      [
+        "What is the SI unit of magnetic flux density B?",
+        "Tesla (T).",
+        "One tesla is N/(A·m)."
+      ]
+    ],
+    "reference": "Serway & Jewett 9th; Walker 10th; Young & Freedman 13th"
+  },
+  {
+    "id": "pfe-electric-optics-lesson-4",
+    "title": "Faraday's law and introductory electromagnetic induction",
+    "summary": "Explain induced EMF from changing magnetic flux and use Lenz's law for direction.",
+    "concept": "Magnetic flux through a surface depends on field strength, area and orientation. A change in flux induces an EMF around a circuit. The induced current direction opposes the change in flux that produces it, consistent with energy conservation.",
+    "formulas": [
+      {
+        "latex": "\\Phi_B=\\int\\vec B\\cdot d\\vec A,\\qquad\\mathcal E=-N\\frac{d\\Phi_B}{dt}",
+        "note": "The N-turn form assumes equal flux per turn and consistent winding orientation."
+      },
+      {
+        "latex": "|\\mathcal E_{\\rm avg}|=N\\frac{|\\Delta\\Phi_B|}{\\Delta t}",
+        "note": "Average EMF magnitude; flux in webers and time in seconds."
+      }
+    ],
+    "method": "Define the area normal, determine whether flux increases or decreases and then assign induced EMF sign using Lenz's law.",
+    "guardrail": "A magnetic field need not be changing everywhere; a changing circuit orientation or area can also change magnetic flux.",
+    "worked": {
+      "title": "Induced EMF in a coil",
+      "problem": "A 100-turn coil experiences a decrease in flux per turn from 0.020 Wb to 0.005 Wb in 0.50 s. Find average induced EMF magnitude.",
+      "strategy": "Use N|ΔΦ|/Δt.",
+      "steps": [
+        "Magnitude of flux change per turn=|0.005−0.020|=0.015 Wb.",
+        "Multiply by turns: N|ΔΦ|=100×0.015=1.5 Wb-turns.",
+        "Average EMF magnitude=1.5/0.50=3.0 V."
+      ],
+      "check": "Wb/s is volt; sign depends on chosen loop orientation.",
+      "takeaway": "Flux is a signed surface integral, not simply field strength."
+    },
+    "checks": [
+      [
+        "If flux through a fixed loop stays constant, is there a net induced EMF from Faraday's law?",
+        "No.",
+        "dΦ/dt=0 under that idealized single-loop model."
+      ],
+      [
+        "What does the minus sign in Faraday's law signify?",
+        "Lenz's law direction.",
+        "The induced EMF opposes the flux change."
+      ]
+    ],
+    "reference": "Young & Freedman 13th; Serway & Jewett 9th; Walker 10th"
+  },
+  {
+    "id": "pfe-electric-optics-lesson-5",
+    "title": "Reflection, refraction, mirrors and lenses",
+    "summary": "Use ray directions, Snell's law and image equations in basic geometrical optics.",
+    "concept": "Reflection makes incident and reflected angles equal about a surface normal. Refraction changes ray direction when light crosses media of different refractive indices. Thin-lens and spherical-mirror equations locate paraxial images under a consistent sign convention.",
+    "formulas": [
+      {
+        "latex": "\\theta_i=\\theta_r,\\qquad n_1\\sin\\theta_1=n_2\\sin\\theta_2",
+        "note": "All angles measured from the normal; Snell's law assumes a planar interface between isotropic media."
+      },
+      {
+        "latex": "\\frac1f=\\frac1{d_o}+\\frac1{d_i},\\qquad m=-\\frac{d_i}{d_o}",
+        "note": "Use a stated standard real-is-positive convention for thin lenses/mirrors."
+      }
+    ],
+    "method": "Draw the normal and principal rays, label refractive indices and adopt one explicit sign convention.",
+    "guardrail": "Angles are measured from the normal, not the interface. A virtual image and a real image may require different signs for di.",
+    "worked": {
+      "title": "Refraction from air to glass",
+      "problem": "A light ray travels from air (n1=1.00) into glass (n2=1.50), striking at 30° to the normal. Find refraction angle.",
+      "strategy": "Use Snell's law.",
+      "steps": [
+        "sinθ2=(n1/n2)sin30°=(1/1.5)×0.5=1/3.",
+        "θ2=arcsin(1/3)≈19.47°.",
+        "The ray bends toward the normal in higher-index glass."
+      ],
+      "check": "θ2 < θ1, consistent with refraction into higher refractive index.",
+      "takeaway": "State angles with respect to the normal."
+    },
+    "checks": [
+      [
+        "At normal incidence, does a ray bend at a planar interface?",
+        "No.",
+        "The refracted direction remains along the normal, although speed changes."
+      ],
+      [
+        "What does a negative image distance mean under the real-is-positive thin-lens convention?",
+        "A virtual image.",
+        "The image lies on the incident-light side for the usual converging-lens diagram."
+      ]
+    ],
+    "reference": "Cutnell & Johnson 9th; Young & Freedman 13th; Serway & Jewett 9th"
+  }
+]
